@@ -1,0 +1,51 @@
+name: fotos
+
+# Baixa as fotos listadas em fila/*.txt (uma URL por arquivo) para fotos/<nome>.jpg
+# e faz commit. Roda a cada push que toque a pasta fila/.
+
+on:
+  push:
+    paths:
+      - "fila/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fotos
+  cancel-in-progress: false
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Baixar fotos pendentes
+        run: |
+          set -e
+          mkdir -p fotos
+          shopt -s nullglob
+          for f in fila/*.txt; do
+            name=$(basename "$f" .txt)
+            url=$(head -n1 "$f" | tr -d '\r')
+            if [ -s "fotos/$name.jpg" ]; then
+              echo "ja existe: $name"; continue
+            fi
+            echo "baixando: $name"
+            curl -fsSL --retry 3 -A "Mozilla/5.0 techroombr" -o "fotos/$name.jpg" "$url"
+            file "fotos/$name.jpg"
+          done
+
+      - name: Commit
+        run: |
+          git config user.name "techroom-bot"
+          git config user.email "bot@techroombr.local"
+          git add fotos
+          git diff --cached --quiet && { echo "nada novo"; exit 0; }
+          git commit -m "fotos: download automatico"
+          git pull --rebase origin main
+          git push origin HEAD:main
