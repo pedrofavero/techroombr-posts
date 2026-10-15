@@ -62,15 +62,29 @@ def main(paths):
         for path in paths:
             post = json.loads(Path(path).read_text(encoding="utf-8"))
             post.setdefault("masthead", "The Tech Room"); post.setdefault("handle", "@techroombr")
-            out = ROOT / "output" / post["slug"]; out.mkdir(parents=True, exist_ok=True)
+            out = ROOT / "posts" / post["slug"]; out.mkdir(parents=True, exist_ok=True)
             pg = br.new_page(viewport={"width": 1080, "height": 1350})
+            pngs = []
             for n, s in enumerate(post["slides"], 1):
                 pg.set_content(TPL.replace("<!-- CONTENT -->", B[s["type"]](s, post)), wait_until="load")
                 pg.wait_for_timeout(150)
-                pg.screenshot(path=str(out / f"{n:02d}.png"))
-                print(f"  {out.relative_to(ROOT)}/{n:02d}.png")
+                f = out / f"{n:02d}.png"; pg.screenshot(path=str(f)); pngs.append(f)
+                print(f"  {f.relative_to(ROOT)}")
             pg.close()
+            if post.get("legenda"):
+                (out / "legenda.txt").write_text(post["legenda"], encoding="utf-8")
+            prancha(pngs, out / "_prancha.jpg")
         br.close()
+
+def prancha(pngs, dest):
+    """Prancha de conferência: todas as páginas lado a lado, reduzidas."""
+    from PIL import Image
+    th = [Image.open(p).convert("RGB").resize((360, 450)) for p in pngs]
+    cols = min(3, len(th)); rows = -(-len(th) // cols)
+    sheet = Image.new("RGB", (cols * 360 + (cols + 1) * 12, rows * 450 + (rows + 1) * 12), "#E5E5E5")
+    for i, im in enumerate(th):
+        sheet.paste(im, (12 + (i % cols) * 372, 12 + (i // cols) * 462))
+    sheet.save(dest, quality=88)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

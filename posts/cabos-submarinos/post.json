@@ -1,0 +1,61 @@
+{
+  "slug": "cabos-submarinos",
+  "categoria": "COMO FUNCIONA",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/cabos-submarinos.jpg",
+      "title": "A internet não está na nuvem. Está no fundo do mar.",
+      "dek": "Quase todo o tráfego de dados entre continentes passa por cabos deitados no leito oceânico."
+    },
+    {
+      "type": "inner",
+      "kicker": "O que é",
+      "heading": "Centenas de cabos, mais de 1,4 milhão de km",
+      "body": [
+        "Satélites carregam uma fração mínima do tráfego mundial. O resto viaja por cabos de fibra óptica que cruzam oceanos inteiros.",
+        "Cada mensagem que você manda para fora do país quase certamente passou por um deles."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Como funciona",
+      "heading": "Luz, não eletricidade",
+      "body": [
+        "Dentro do cabo, fios de vidro mais finos que um cabelo transportam pulsos de luz. A cada 50 a 100 km, um amplificador no fundo do mar renova o sinal.",
+        "Em alto-mar, o cabo tem a grossura de uma mangueira de jardim. Perto da costa, ganha camadas de aço contra âncoras e redes."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem instala",
+      "heading": "Navios que passam meses no mar",
+      "photo": "fotos/cabos-submarinos-navio.jpg",
+      "caption": "Foto: Manas Manikoth / Unsplash",
+      "body": [
+        "Navios especializados desenrolam o cabo lentamente enquanto um arado o enterra no leito. Um cabo transatlântico leva meses para ser instalado."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que dá errado",
+      "heading": "Entre 100 e 200 rompimentos por ano",
+      "body": [
+        "A principal causa não é tubarão nem sabotagem: são âncoras e redes de pesca, perto da costa, onde o cabo é mais exposto.",
+        "No Brasil, Fortaleza é um dos maiores pontos de chegada de cabos da América Latina. Vários deles ligam o país diretamente à Europa e aos EUA."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "TeleGeography", "what": "Submarine Cable Map e FAQ — extensão e número de cabos" },
+        { "who": "ICPC", "what": "International Cable Protection Committee — causas de falhas" },
+        { "who": "Anatel / EllaLink", "what": "Cabos com chegada em Fortaleza" },
+        { "who": "Fotos", "what": "Ibrahim Shabil e Manas Manikoth, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A \"nuvem\" tem endereço físico: o fundo do oceano. Mais de 1,4 milhão de km de cabos de fibra óptica carregam quase todo o tráfego de dados entre continentes — satélites ficam com uma fração mínima.\n\nO detalhe que mais surpreende: em alto-mar, o cabo é fino como uma mangueira de jardim. O que dá problema não é a profundidade, é a costa, onde âncoras e redes de pesca causam a maior parte dos 100 a 200 rompimentos por ano.\n\nFortaleza é um dos maiores pontos de chegada desses cabos na América Latina. Você sabia?\n\n—\nFontes no último slide.\n\n#cabossubmarinos #comofunciona #internet #fibraoptica #infraestrutura #tecnologia"
+}
