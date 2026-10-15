@@ -1,90 +1,139 @@
 #!/usr/bin/env python3
 """
 Renderizador NatGeo — The Tech Room
-Uso: python3 engine/render_natgeo.py posts/xx.json
-Foto é a página. Texto mínimo. Sem artifício.
+Uso: python3 engine/render_natgeo.py posts/<slug>/post.json [...]
+Saída: posts/<slug>/01.png … NN.png, legenda.txt, _prancha.jpg
+
+Tipos de página (campo "type"):
+  cover     photo, title, dek
+  inner     kicker, heading, [photo, caption], body[], [bullets[]], [example{tag,text[]}]
+  stat      kicker, heading?, big, unit?, label, body[]
+  chart     kicker, heading, bars[{name,value,label?,other?}], note?, body[]
+  timeline  kicker, heading, items[{when,what}], body[]
+  steps     kicker, heading, steps[{title,text}], body[]
+  compare   kicker, heading, a{title,lines[]}, b{title,lines[]}, body[]
+  sources   items[{who,what}]
+A cor de destaque (--accent) é extraída da foto da capa; pode ser fixada em post["accent"].
 """
-import base64, json, mimetypes, sys
+import base64, colorsys, json, mimetypes, sys
 from html import escape
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 TPL = (ROOT / "engine" / "natgeo.html").read_text(encoding="utf-8")
 
+def path(p):
+    p = Path(p); return p if p.is_absolute() else ROOT / p
+
 def uri(p):
-    p = Path(p); p = p if p.is_absolute() else ROOT / p
-    mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
+    p = path(p); mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
     return f"data:{mime};base64,{base64.b64encode(p.read_bytes()).decode()}"
 
+def accent_from(photo):
+    """Cor dominante saturada da foto, escurecida para contrastar com papel branco."""
+    im = Image.open(path(photo)).convert("RGB").resize((80, 80))
+    best, score = (31, 78, 121), -1
+    for cnt, (r, g, b) in im.getcolors(80 * 80):
+        h, l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
+        sc = cnt * (s ** 1.5) * (1 - abs(l - .45))
+        if s > .25 and .15 < l < .75 and sc > score:
+            best, score = (r, g, b), sc
+    h, l, s = colorsys.rgb_to_hls(*[c / 255 for c in best])
+    l = min(l, .34); s = min(max(s, .45), .75)
+    r, g, b = colorsys.hls_to_rgb(h, l, s)
+    return "#%02x%02x%02x" % (int(r * 255), int(g * 255), int(b * 255))
+
+# ---------- blocos ----------
+def P(lines): return "".join(f"<p>{escape(t)}</p>" for t in lines or [])
+def K(s): return f'<div class="kicker">{escape(s["kicker"])}</div>' if s.get("kicker") else ""
+def H(s): return f'<h2>{escape(s["heading"])}</h2>' if s.get("heading") else ""
+def frame(post, cls, body):
+    return f'<div class="page inner dense {cls}"><div class="masthead">{escape(post["masthead"])}</div><div class="content">{body}</div><div class="handle">{escape(post["handle"])}</div></div>'
+
 def cover(s, post):
-    return f'''
-<div class="page cover">
+    return f'''<div class="page cover">
   <div class="photo" style="background-image:url('{uri(s["photo"])}')"></div>
   <div class="masthead">{escape(post["masthead"])}</div>
-  <div class="text">
-    <h1>{escape(s["title"])}</h1>
-    <div class="dek">{escape(s.get("dek",""))}</div>
-  </div>
-  <div class="handle">{escape(post["handle"])}</div>
-</div>'''
+  <div class="text"><h1>{escape(s["title"])}</h1><div class="dek">{escape(s.get("dek",""))}</div></div>
+  <div class="handle">{escape(post["handle"])}</div></div>'''
 
 def inner(s, post):
     fig = f'<div class="fig" style="background-image:url(\'{uri(s["photo"])}\')"></div>' if s.get("photo") else ""
     cap = f'<div class="cap">{escape(s["caption"])}</div>' if s.get("caption") else ""
-    body = "".join(f"<p>{escape(t)}</p>" for t in s.get("body", []))
-    kicker = f'<div class="kicker">{escape(s["kicker"])}</div>' if s.get("kicker") else ""
-    return f'''
-<div class="page inner">
-  <div class="masthead">{escape(post["masthead"])}</div>
-  {kicker}
-  <h2>{escape(s["heading"])}</h2>
-  {fig}{cap}
-  {body}
-  <div class="handle">{escape(post["handle"])}</div>
-</div>'''
+    ul = ("<ul class='list'>" + "".join(f"<li>{escape(t)}</li>" for t in s["bullets"]) + "</ul>") if s.get("bullets") else ""
+    ex = ""
+    if s.get("example"):
+        e = s["example"]
+        ex = f'<div class="example"><div class="tag">{escape(e.get("tag","Exemplo"))}</div>{P(e.get("text"))}</div>'
+    return frame(post, "", K(s) + H(s) + fig + cap + P(s.get("body")) + ul + ex + P(s.get("after")))
+
+def stat(s, post):
+    unit = f'<small>{escape(s["unit"])}</small>' if s.get("unit") else ""
+    return frame(post, "stat", K(s) + H(s) + f'<div class="big">{escape(s["big"])}{unit}</div><div class="label">{escape(s.get("label",""))}</div>' + P(s.get("body")))
+
+def chart(s, post):
+    bars = s["bars"]; mx = max(b["value"] for b in bars) or 1
+    rows = "".join(
+        f'<div class="row{" other" if b.get("other") else ""}"><div class="name">{escape(b["name"])}</div>'
+        f'<div><div class="bar" style="width:{max(2, b["value"] / mx * 100):.1f}%"></div></div>'
+        f'<div class="val">{escape(b.get("label", str(b["value"])))}</div></div>' for b in bars)
+    note = f'<div class="note">{escape(s["note"])}</div>' if s.get("note") else ""
+    return frame(post, "", K(s) + H(s) + f'<div class="chart">{rows}{note}</div>' + P(s.get("body")))
+
+def timeline(s, post):
+    items = "".join(f'<div class="item"><div class="when">{escape(i["when"])}</div><div class="what">{escape(i["what"])}</div></div>' for i in s["items"])
+    return frame(post, "", K(s) + H(s) + f'<div class="timeline">{items}</div>' + P(s.get("body")))
+
+def steps(s, post):
+    st = "".join(f'<div class="step"><div class="n">{n}</div><div><div class="t">{escape(i["title"])}</div><div class="d">{escape(i["text"])}</div></div></div>' for n, i in enumerate(s["steps"], 1))
+    return frame(post, "", K(s) + H(s) + f'<div class="steps">{st}</div>' + P(s.get("body")))
+
+def compare(s, post):
+    def col(c, cls): return f'<div class="col {cls}"><h3>{escape(c["title"])}</h3>{P(c.get("lines"))}</div>'
+    return frame(post, "", K(s) + H(s) + f'<div class="compare">{col(s["a"], "a")}{col(s["b"], "b")}</div>' + P(s.get("body")))
 
 def sources(s, post):
     items = "".join(f'<li>{escape(i["who"])}<span>{escape(i.get("what",""))}</span></li>' for i in s["items"])
-    return f'''
-<div class="page sources">
-  <div class="masthead">{escape(post["masthead"])}</div>
-  <div class="kicker">Fontes</div>
-  <ul>{items}</ul>
-  <div class="handle">{escape(post["handle"])}</div>
-</div>'''
+    return f'<div class="page sources"><div class="masthead">{escape(post["masthead"])}</div><div class="kicker">Fontes</div><ul>{items}</ul><div class="handle">{escape(post["handle"])}</div></div>'
 
-B = {"cover": cover, "inner": inner, "sources": sources}
-
-def main(paths):
-    with sync_playwright() as p:
-        br = p.chromium.launch()
-        for path in paths:
-            post = json.loads(Path(path).read_text(encoding="utf-8"))
-            post.setdefault("masthead", "The Tech Room"); post.setdefault("handle", "@techroombr")
-            out = ROOT / "posts" / post["slug"]; out.mkdir(parents=True, exist_ok=True)
-            pg = br.new_page(viewport={"width": 1080, "height": 1350})
-            pngs = []
-            for n, s in enumerate(post["slides"], 1):
-                pg.set_content(TPL.replace("<!-- CONTENT -->", B[s["type"]](s, post)), wait_until="load")
-                pg.wait_for_timeout(150)
-                f = out / f"{n:02d}.png"; pg.screenshot(path=str(f)); pngs.append(f)
-                print(f"  {f.relative_to(ROOT)}")
-            pg.close()
-            if post.get("legenda"):
-                (out / "legenda.txt").write_text(post["legenda"], encoding="utf-8")
-            prancha(pngs, out / "_prancha.jpg")
-        br.close()
+B = {"cover": cover, "inner": inner, "stat": stat, "chart": chart, "timeline": timeline, "steps": steps, "compare": compare, "sources": sources}
 
 def prancha(pngs, dest):
-    """Prancha de conferência: todas as páginas lado a lado, reduzidas."""
-    from PIL import Image
     th = [Image.open(p).convert("RGB").resize((360, 450)) for p in pngs]
     cols = min(3, len(th)); rows = -(-len(th) // cols)
     sheet = Image.new("RGB", (cols * 360 + (cols + 1) * 12, rows * 450 + (rows + 1) * 12), "#E5E5E5")
     for i, im in enumerate(th):
         sheet.paste(im, (12 + (i % cols) * 372, 12 + (i // cols) * 462))
     sheet.save(dest, quality=88)
+
+def main(paths):
+    with sync_playwright() as p:
+        br = p.chromium.launch()
+        for pth in paths:
+            post = json.loads(Path(pth).read_text(encoding="utf-8"))
+            post.setdefault("masthead", "The Tech Room"); post.setdefault("handle", "@techroombr")
+            cov = next((s for s in post["slides"] if s["type"] == "cover"), None)
+            accent = post.get("accent") or (accent_from(cov["photo"]) if cov else "#1F4E79")
+            tpl = TPL.replace("--accent: #1F4E79", f"--accent: {accent}")
+            out = ROOT / "posts" / post["slug"]; out.mkdir(parents=True, exist_ok=True)
+            pg = br.new_page(viewport={"width": 1080, "height": 1350})
+            pngs = []
+            for n, s in enumerate(post["slides"], 1):
+                pg.set_content(tpl.replace("<!-- CONTENT -->", B[s["type"]](s, post)), wait_until="load")
+                pg.wait_for_timeout(150)
+                f = out / f"{n:02d}.png"; pg.screenshot(path=str(f)); pngs.append(f)
+                # alerta de estouro: conteúdo maior que a página
+                h = pg.evaluate("(()=>{const c=document.querySelector('.content');return c?c.getBoundingClientRect().bottom:0})()")
+                if h and h > 1235: print(f"  AVISO: página {n} estourou ({int(h)}px > 1235) — reduzir texto")
+                print(f"  {f.relative_to(ROOT)}")
+            pg.close()
+            if post.get("legenda"):
+                (out / "legenda.txt").write_text(post["legenda"], encoding="utf-8")
+            prancha(pngs, out / "_prancha.jpg")
+            print(f"  accent {accent}")
+        br.close()
 
 if __name__ == "__main__":
     main(sys.argv[1:])
