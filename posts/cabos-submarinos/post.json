@@ -8,7 +8,8 @@
       "type": "cover",
       "photo": "fotos/cabos-submarinos.jpg",
       "title": "A internet não está na nuvem. Está no fundo do mar.",
-      "dek": "Quase todo o tráfego de dados entre continentes passa por cabos deitados no leito do oceano. Veja como eles funcionam, quem os instala e o que acontece quando um rompe."
+      "dek": "Quase todo o tráfego de dados entre continentes passa por cabos deitados no leito do oceano. Veja como eles funcionam, quem os instala e o que acontece quando um rompe.",
+      "swipe": "arraste →"
     },
     {
       "type": "stat",
