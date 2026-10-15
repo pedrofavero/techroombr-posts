@@ -86,7 +86,8 @@
       "note": "Causas aproximadas de falhas em cabos submarinos. Fonte: ICPC.",
       "body": [
         "A principal causa não é tubarão nem sabotagem: são redes de arrasto e âncoras, perto da costa, onde o cabo é mais exposto. O reparo é feito por navio: ele pesca o cabo do fundo, emenda a fibra no convés e devolve ao mar."
-      ]
+      ],
+      "bg": "fotos/cabos-submarinos-navio.jpg"
     },
     {
       "type": "timeline",
@@ -113,7 +114,8 @@
           "when": "2021",
           "what": "EllaLink liga Fortaleza a Portugal, a primeira rota direta Brasil–Europa."
         }
-      ]
+      ],
+      "bg": "fotos/cabos-submarinos-navio.jpg"
     },
     {
       "type": "inner",
