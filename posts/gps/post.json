@@ -1,0 +1,79 @@
+{
+  "slug": "gps",
+  "categoria": "COMO FUNCIONA",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/gps-1.jpg",
+      "title": "Como o celular sabe onde você está",
+      "dek": "O GPS não envia nada do seu telefone para o espaço. Ele só escuta — e faz uma conta com a velocidade da luz. Veja como funciona, e por que Einstein está no meio."
+    },
+    {
+      "type": "stat",
+      "kicker": "A constelação",
+      "big": "31",
+      "label": "satélites a 20.200 km de altura",
+      "body": [
+        "O sistema GPS é operado pelo governo dos EUA, com compromisso de manter pelo menos 24 satélites ativos 95% do tempo. Cada um dá duas voltas na Terra por dia.",
+        "A órbita foi desenhada para que, de praticamente qualquer ponto do planeta, pelo menos quatro satélites estejam visíveis ao mesmo tempo.",
+        "O serviço é aberto: qualquer receptor do mundo usa de graça."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "O celular só escuta",
+      "steps": [
+        { "title": "Cada satélite transmite a hora e a posição", "text": "Um relógio atômico a bordo marca o instante exato em que o sinal sai. Satélites e receptor nunca conversam de volta." },
+        { "title": "O celular mede o atraso", "text": "O sinal viaja na velocidade da luz. Se demorou 70 milissegundos para chegar, o satélite está a cerca de 21 mil km." },
+        { "title": "Três distâncias cruzam num ponto", "text": "Com a distância até três satélites, existe um único ponto possível na superfície da Terra. É a trilateração." },
+        { "title": "O quarto satélite corrige o relógio", "text": "O relógio do celular é barato e impreciso. Um satélite extra serve para calcular esse erro — e, com mais satélites, a precisão melhora." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O detalhe surpreendente",
+      "heading": "Sem Einstein, o GPS erra 11 km por dia",
+      "photo": "fotos/gps-2.jpg",
+      "caption": "Foto: Cheng Lin / Unsplash",
+      "body": [
+        "Os relógios dos satélites andam em ritmo diferente do nosso. A velocidade os atrasa 7 microssegundos por dia; a gravidade mais fraca lá em cima os adianta 45. Saldo: 38 microssegundos adiantados por dia.",
+        "Parece nada. Mas na velocidade da luz, 38 microssegundos são 11 km de erro acumulado a cada dia. Os relógios são ajustados antes do lançamento para compensar."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Precisão",
+      "heading": "Do quilômetro ao metro",
+      "items": [
+        { "when": "Padrão oficial", "what": "Erro de até 10 m na horizontal em 95% dos casos, segundo o documento de desempenho do sistema." },
+        { "when": "Na prática", "what": "O erro médio global medido nos últimos anos ficou em 1 metro ou menos, em céu aberto." },
+        { "when": "Alta precisão", "what": "Com correções extras, receptores profissionais chegam a poucos centímetros, em tempo real." },
+        { "when": "O que atrapalha", "what": "Prédios, túneis e a atmosfera bloqueiam ou distorcem o sinal. Por isso o GPS erra no centro da cidade e falha no estacionamento coberto." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para recontar",
+      "bullets": [
+        "O GPS é um sistema de relógios. A posição é um subproduto de medir tempo com precisão de nanossegundos.",
+        "Seu celular não é rastreado pelo GPS: ele só recebe sinais. Quem compartilha sua posição são os aplicativos.",
+        "A relatividade de Einstein não é teoria de quadro-negro: sem ela, o mapa do seu celular ficaria inútil em um dia."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "GPS.gov (governo dos EUA)", "what": "Space Segment — constelação, altitude, órbitas e visibilidade" },
+        { "who": "NASA", "what": "Global Positioning System — como o receptor calcula a posição; precisão oficial e medida" },
+        { "who": "GPS.gov", "what": "Tutorial de trilateração — posição a partir da distância até três satélites" },
+        { "who": "Ohio State University (Astronomy 1144)", "what": "Practical Relativity: GPS — 7 µs, 45 µs e 38 µs por dia; 11 km de erro" },
+        { "who": "Fotos", "what": "Nikita Pishchugin e Cheng Lin, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O GPS do seu celular não manda nada para o espaço. Ele só escuta 31 satélites que repetem, sem parar, \"são tantas horas e eu estou aqui\". O resto é conta: o atraso do sinal vira distância, e três distâncias viram um ponto no mapa.\n\nO que pouca gente sabe: os relógios dos satélites andam 38 microssegundos adiantados por dia por causa da relatividade. Sem corrigir isso, o erro cresceria 11 km por dia e o sistema seria inútil em menos de 24 horas.\n\nE o celular? Ele só recebe. Quem compartilha sua localização são os aplicativos que você autoriza.\n\nVocê sabia que o GPS é, no fundo, um sistema de relógios?\n\n—\nFontes no último slide.\n\n#gps #comofunciona #relatividade #satelites #tecnologia #ciencia"
+}

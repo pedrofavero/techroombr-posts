@@ -1,0 +1,12 @@
+O GPS do seu celular não manda nada para o espaço. Ele só escuta 31 satélites que repetem, sem parar, "são tantas horas e eu estou aqui". O resto é conta: o atraso do sinal vira distância, e três distâncias viram um ponto no mapa.
+
+O que pouca gente sabe: os relógios dos satélites andam 38 microssegundos adiantados por dia por causa da relatividade. Sem corrigir isso, o erro cresceria 11 km por dia e o sistema seria inútil em menos de 24 horas.
+
+E o celular? Ele só recebe. Quem compartilha sua localização são os aplicativos que você autoriza.
+
+Você sabia que o GPS é, no fundo, um sistema de relógios?
+
+—
+Fontes no último slide.
+
+#gps #comofunciona #relatividade #satelites #tecnologia #ciencia

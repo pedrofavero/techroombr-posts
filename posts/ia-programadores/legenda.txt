@@ -1,0 +1,12 @@
+O estudo mais citado sobre IA e programação mostrou algo desconfortável: programadores experientes ficaram 19% mais lentos usando IA — e saíram convencidos de que tinham sido 20% mais rápidos.
+
+Um ano depois, os mesmos pesquisadores refizeram o teste com ferramentas novas e 57 programadores. A IA passou a acelerar, entre 4% e 18%. Mas eles mesmos chamam o dado de "evidência muito fraca": quem mais acredita na IA se recusou a trabalhar sem ela e ficou fora da amostra.
+
+A lição que sobreviveu aos dois estudos: a sensação de velocidade não é uma boa medida de velocidade.
+
+Você já cronometrou uma tarefa com e sem IA?
+
+—
+Fontes no último slide.
+
+#inteligenciaartificial #programacao #produtividade #estudo #metr #desenvolvimentodesoftware

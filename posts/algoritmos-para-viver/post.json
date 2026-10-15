@@ -1,0 +1,114 @@
+{
+  "slug": "algoritmos-para-viver",
+  "categoria": "ESTANTE",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/algoritmos-para-viver-1.jpg",
+      "title": "O livro que ensina quando parar de procurar",
+      "dek": "\"Algoritmos para Viver\", de Brian Christian e Tom Griffiths. Um escritor e um cientista cognitivo mostram que os problemas de um computador são os seus: tempo curto, informação incompleta, muitas opções."
+    },
+    {
+      "type": "inner",
+      "kicker": "O que é",
+      "heading": "Um livro de computação para quem não programa",
+      "body": [
+        "A ideia central cabe numa frase: muitos dilemas humanos — escolher apartamento, organizar o armário, decidir o que fazer primeiro — já foram resolvidos pela matemática, porque computadores enfrentam os mesmos limites.",
+        "Cada capítulo pega um problema clássico da ciência da computação e mostra o que ele ensina sobre a vida. Sem fórmulas: a explicação é em histórias e exemplos.",
+        "Publicado em 2016 nos EUA. No Brasil, saiu em 2017 pela Companhia das Letras, com 528 páginas."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "A ideia mais famosa",
+      "big": "37",
+      "unit": "%",
+      "label": "a regra da parada ótima",
+      "body": [
+        "Você precisa escolher um apartamento entre vários, vendo um de cada vez, sem poder voltar. Quando parar de olhar?",
+        "A matemática responde: olhe os primeiros 37% só para calibrar, sem fechar negócio. Depois disso, fique com o primeiro que for melhor que todos os anteriores.",
+        "Não garante o melhor. Mas é a estratégia com a maior chance de acertar, e serve para contratar, namorar ou estacionar."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Outras ideias do livro",
+      "heading": "Quatro algoritmos para o dia a dia",
+      "steps": [
+        {
+          "title": "Explorar ou aproveitar",
+          "text": "Restaurante novo ou o de sempre? A resposta depende de quanto tempo você ainda tem na cidade. Chegou agora: explore. Vai embora logo: aproveite o que já sabe."
+        },
+        {
+          "title": "Cache",
+          "text": "Computadores guardam por perto o que usaram há pouco. A pilha de roupas na cadeira e a mesa bagunçada seguem a mesma lógica — e ela funciona."
+        },
+        {
+          "title": "Ordenação",
+          "text": "Ordenar custa caro. Às vezes a busca é mais barata que a arrumação. Nem tudo precisa estar em ordem para ser encontrado."
+        },
+        {
+          "title": "Agendamento",
+          "text": "Para reduzir atrasos, faça primeiro a tarefa com o prazo mais próximo. Para reduzir a lista, faça primeiro a mais curta. Regras diferentes para objetivos diferentes."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem escreveu",
+      "heading": "Um escritor e um cientista",
+      "photo": "fotos/algoritmos-para-viver-2.jpg",
+      "caption": "Foto: Clay Banks / Unsplash",
+      "body": [
+        "Brian Christian escreve sobre tecnologia e mente para veículos como The New Yorker e The Atlantic. Tom Griffiths é cientista cognitivo e pesquisa como pessoas tomam decisões.",
+        "A dupla funciona: um traduz, o outro garante que a matemática está certa."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": {
+        "title": "Serve",
+        "lines": [
+          "Quem decide muito e quer um método.",
+          "Quem tem curiosidade sobre como computadores pensam, sem querer programar.",
+          "Quem gosta de livros tipo \"Rápido e Devagar\"."
+        ]
+      },
+      "b": {
+        "title": "Não serve",
+        "lines": [
+          "Quem procura um manual de programação.",
+          "Quem quer respostas prontas: o livro dá modelos, não receitas.",
+          "Quem se irrita com 500 páginas de exemplos."
+        ]
+      },
+      "body": []
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Companhia das Letras",
+          "what": "Algoritmos para Viver: a ciência exata das decisões humanas — ficha da edição brasileira (2017, 528 p.)"
+        },
+        {
+          "who": "Site oficial do livro",
+          "what": "algorithmstoliveby.com — temas e resenhas, inclusive a regra dos 37%"
+        },
+        {
+          "who": "University of Washington",
+          "what": "Perfil dos autores e temas do livro (2016)"
+        },
+        {
+          "who": "Fotos",
+          "what": "Robert | Visual Diary e Clay Banks, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Tem um ponto em que continuar procurando deixa de valer a pena. A matemática sabe onde ele fica: nos 37%.\n\n\"Algoritmos para Viver\" parte de uma ideia simples: computadores e pessoas enfrentam os mesmos limites — tempo, memória, informação incompleta — e a ciência da computação passou décadas resolvendo esses problemas. O livro traduz as soluções para decisões comuns: quando parar de procurar, quando arriscar o novo, o que fazer primeiro.\n\nÉ um livro de computação para quem nunca escreveu uma linha de código. Existe em português, pela Companhia das Letras.\n\nQual decisão da sua vida você gostaria que tivesse um algoritmo?\n\n—\nFontes no último slide.\n\n#livros #algoritmos #cienciadacomputacao #tomadadedecisao #estante #leitura"
+}
