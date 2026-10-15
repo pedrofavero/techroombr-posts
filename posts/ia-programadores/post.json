@@ -1,6 +1,7 @@
 {
   "slug": "ia-programadores",
   "categoria": "ESTUDO",
+  "theme": "paper",
   "masthead": "The Tech Room",
   "handle": "@techroombr",
   "slides": [
@@ -8,125 +9,83 @@
       "type": "cover",
       "photo": "fotos/ia-programadores-1.jpg",
       "title": "A IA deixa programadores mais rápidos? O estudo mais citado disse que não.",
-      "dek": "Em 2025, um experimento controlado mostrou programadores experientes 19% mais lentos com IA. Em 2026, os mesmos pesquisadores refizeram o teste. O resultado mudou — e a lição também."
+      "dek": "Um experimento controlado em 2025, a repetição em 2026 — e a lição que sobreviveu aos dois.",
+      "swipe": "arraste →"
     },
     {
-      "type": "stat",
-      "kicker": "O experimento de 2025",
-      "big": "19",
-      "unit": "%",
-      "label": "mais lentos com IA",
-      "body": [
-        "A organização METR recrutou 16 programadores experientes de projetos de código aberto e sorteou, tarefa por tarefa, quem podia usar IA. Foram 246 tarefas reais, de cerca de 2 horas cada.",
-        "Com IA liberada, as tarefas levaram 19% mais tempo. Os participantes usavam principalmente o Cursor com modelos Claude.",
-        "O detalhe mais importante vem a seguir."
-      ]
+      "type": "split",
+      "kicker": "O achado de 2025",
+      "heading": "Sensação e cronômetro apontaram para lados opostos",
+      "cells": [
+        { "big": "20", "unit": "%", "label": "mais rápidos — na sensação", "text": "Depois de terminar as tarefas, os programadores estimaram que a IA os acelerou em 20%." },
+        { "big": "19", "unit": "%", "label": "mais lentos — no relógio", "text": "O tempo medido nas tarefas com IA foi 19% maior do que nas tarefas sem IA." }
+      ],
+      "body": ["Diferença entre percepção e medição: cerca de ==40 pontos percentuais==."]
     },
     {
-      "type": "compare",
-      "kicker": "Percepção versus medição",
-      "heading": "Eles tinham certeza de que estavam mais rápidos",
-      "a": {
-        "title": "O que sentiram",
-        "lines": [
-          "Antes: previram ganhar 24% de velocidade.",
-          "Depois: acreditavam ter ganhado 20%."
-        ]
-      },
-      "b": {
-        "title": "O que o relógio mediu",
-        "lines": [
-          "Tarefas com IA: 19% mais lentas.",
-          "Diferença entre sensação e realidade: cerca de 40 pontos percentuais."
-        ]
-      },
-      "body": [
-        "A sensação de produtividade e a produtividade medida apontaram para lados opostos. É o achado que mais se repetiu depois."
+      "type": "card",
+      "kicker": "Como foi o experimento",
+      "heading": "Um sorteio, tarefa por tarefa",
+      "rows": [
+        { "k": "Quem", "v": "16 programadores experientes, mantenedores de projetos de código aberto com mais de 1 milhão de linhas" },
+        { "k": "Tarefas", "v": "246 tarefas reais (bugs, funcionalidades, refatorações), cerca de 2 horas cada" },
+        { "k": "Método", "v": "Cada tarefa foi sorteada para permitir ou proibir IA. Tela gravada, tempo registrado. É um ensaio controlado randomizado" },
+        { "k": "Ferramenta", "v": "Principalmente Cursor Pro com modelos Claude 3.5 e 3.7 Sonnet" },
+        { "k": "Quando", "v": "Início de 2025. Publicado em julho de 2025 pela METR, organização independente de avaliação de IA" }
       ]
     },
     {
       "type": "inner",
-      "kicker": "Por que isso acontece",
+      "kicker": "Por que ficaram mais lentos",
       "heading": "Código conhecido, ferramenta nova",
       "photo": "fotos/ia-programadores-2.jpg",
       "caption": "Foto: Robbin Grimm / Unsplash",
       "body": [
-        "Os participantes conheciam seus projetos a fundo: repositórios com mais de 1 milhão de linhas. Revisar e corrigir o que a IA sugeria custava mais do que escrever direto.",
-        "Os autores avisaram: o resultado vale para esse perfil, com as ferramentas do início de 2025, e não prova que a IA não acelere outros programadores."
+        "Esses programadores conheciam seus projetos a fundo. Revisar e corrigir o que a IA sugeria custava mais do que escrever direto.",
+        "Os autores avisaram desde o início: o resultado vale para esse perfil e para as ferramentas de 2025. Não prova que a IA não acelere outras pessoas."
       ]
     },
     {
-      "type": "chart",
-      "kicker": "O experimento de 2026",
-      "heading": "Com ferramentas novas, o sinal virou",
-      "bars": [
-        {
-          "name": "2025 · 16 devs — mais lentos",
-          "value": 19,
-          "label": "+19%"
-        },
-        {
-          "name": "2026 · 10 devs originais — mais rápidos",
-          "value": 18,
-          "label": "−18%"
-        },
-        {
-          "name": "2026 · 47 devs novos — mais rápidos",
-          "value": 4,
-          "label": "−4%",
-          "other": true
-        }
+      "type": "dchart",
+      "kicker": "A repetição de 2026",
+      "heading": "Com ferramentas novas, o sinal virou — mas ficou fraco",
+      "scale": 40,
+      "left": "mais rápido −40%",
+      "right": "mais lento +40%",
+      "rows": [
+        { "name": "2025 · 16 devs", "value": 19, "label": "+19%", "lo": 2, "hi": 39 },
+        { "name": "2026 · os 10 que voltaram", "value": -18, "label": "−18%", "lo": -38, "hi": 9 },
+        { "name": "2026 · 47 devs novos", "value": -4, "label": "−4%", "lo": -15, "hi": 9 }
       ],
-      "note": "Variação no tempo das tarefas com IA. Fonte: METR, jul. 2025 e fev. 2026.",
-      "body": [
-        "Em fevereiro de 2026, com 57 programadores e mais de 800 tarefas, a IA passou a acelerar: 18% para os veteranos do primeiro estudo e 4% para os novos. Mas os intervalos de confiança são largos e incluem zero."
-      ]
+      "note": "Variação no tempo das tarefas com IA. A linha fina é o intervalo de confiança: nas barras de 2026 ele cruza o zero. Fonte: METR, fev. 2026 (57 devs, 800+ tarefas).",
+      "body": []
     },
     {
-      "type": "inner",
-      "kicker": "O que o estudo não prova",
-      "heading": "Os próprios autores pedem cautela",
-      "bullets": [
-        "Muitos programadores recusaram trabalhar sem IA — justamente os que esperam mais ganho ficaram fora.",
-        "Entre 30% e 50% deixaram de enviar tarefas pelo mesmo motivo. Isso distorce a amostra.",
-        "Os autores chamam os dados de 2026 de \"evidência muito fraca\" sobre o tamanho do ganho.",
-        "Autoavaliação de produtividade continua pouco confiável: em pesquisa de maio de 2026, a mediana declarada foi 3x mais rápido."
+      "type": "quote",
+      "kicker": "Nas palavras dos autores",
+      "text": "Os dados são evidência muito fraca sobre o tamanho do ganho de produtividade.",
+      "who": "METR, fevereiro de 2026",
+      "body": [
+        "O motivo: muitos programadores recusaram trabalhar sem IA e entre 30% e 50% deixaram de enviar tarefas. Quem mais espera ganho ficou fora da amostra."
       ]
     },
     {
       "type": "inner",
       "kicker": "Para levar",
-      "heading": "O que dá para concluir hoje",
-      "body": [
-        "Em 2025, programadores experientes ficaram mais lentos com IA e não perceberam. Em 2026, com ferramentas melhores, o ganho provavelmente existe, mas ninguém mediu bem o tamanho dele."
-      ],
-      "example": {
-        "tag": "Na prática",
-        "text": [
-          "Se você usa IA para programar, não confie na sensação de velocidade. Meça: cronometre tarefas parecidas com e sem a ferramenta, por algumas semanas.",
-          "A diferença entre o que a gente sente e o que o relógio mostra foi de 40 pontos percentuais."
-        ]
-      }
+      "heading": "Três coisas que sobreviveram aos dois estudos",
+      "check": [
+        "A sensação de velocidade não mede velocidade. A diferença foi de 40 pontos.",
+        "Em 2025, programadores experientes ficaram mais lentos com IA. Em 2026, com ferramentas melhores, o ganho provavelmente existe — mas ninguém mediu bem o tamanho.",
+        "Se você usa IA para programar: cronometre tarefas parecidas com e sem a ferramenta por algumas semanas. É o único jeito de saber."
+      ]
     },
     {
       "type": "sources",
       "items": [
-        {
-          "who": "METR, jul. 2025",
-          "what": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity — ensaio controlado randomizado"
-        },
-        {
-          "who": "METR, fev. 2026",
-          "what": "We are Changing our Developer Productivity Experiment Design — novos dados com ferramentas do fim de 2025"
-        },
-        {
-          "who": "METR, maio 2026",
-          "what": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity — 349 respondentes"
-        },
-        {
-          "who": "Fotos",
-          "what": "Olli Potapenko e Robbin Grimm, via Unsplash"
-        }
+        { "who": "METR, jul. 2025", "what": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity — ensaio controlado randomizado" },
+        { "who": "METR, fev. 2026", "what": "We are Changing our Developer Productivity Experiment Design — novos dados com ferramentas do fim de 2025" },
+        { "who": "METR, maio 2026", "what": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity — 349 respondentes" },
+        { "who": "Fotos", "what": "Olli Potapenko e Robbin Grimm, via Unsplash" }
       ]
     }
   ],

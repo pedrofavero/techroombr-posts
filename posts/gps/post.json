@@ -1,6 +1,7 @@
 {
   "slug": "gps",
   "categoria": "COMO FUNCIONA",
+  "theme": "night",
   "masthead": "The Tech Room",
   "handle": "@techroombr",
   "slides": [
@@ -8,70 +9,118 @@
       "type": "cover",
       "photo": "fotos/gps-1.jpg",
       "title": "Como o celular sabe onde você está",
-      "dek": "O GPS não envia nada do seu telefone para o espaço. Ele só escuta — e faz uma conta com a velocidade da luz. Veja como funciona, e por que Einstein está no meio."
+      "dek": "O GPS não envia nada do seu telefone para o espaço. Ele só escuta — e faz uma conta com a velocidade da luz.",
+      "swipe": "arraste →"
     },
     {
-      "type": "stat",
+      "type": "diagram",
       "kicker": "A constelação",
-      "big": "31",
-      "label": "satélites a 20.200 km de altura",
+      "heading": "31 satélites a 20.200 km, duas voltas por dia",
+      "svg": "<svg viewBox='0 0 900 600' fill='none' stroke='currentColor' stroke-width='2'><ellipse cx='450' cy='300' rx='400' ry='150' stroke-dasharray='6 8' opacity='.55'/><ellipse cx='450' cy='300' rx='400' ry='150' transform='rotate(55 450 300)' stroke-dasharray='6 8' opacity='.55'/><ellipse cx='450' cy='300' rx='400' ry='150' transform='rotate(-55 450 300)' stroke-dasharray='6 8' opacity='.55'/><circle cx='450' cy='300' r='96' stroke-width='3'/><path d='M354 300 Q450 255 546 300 M354 300 Q450 345 546 300' opacity='.5'/><g fill='var(--accent)' stroke='none'><rect x='842' y='292' width='16' height='16'/><rect x='42' y='292' width='16' height='16'/><rect x='262' y='72' width='16' height='16'/><rect x='622' y='72' width='16' height='16'/><rect x='262' y='512' width='16' height='16'/><rect x='622' y='512' width='16' height='16'/></g><g stroke='var(--accent)' stroke-width='2' opacity='.9'><line x1='450' y1='204' x2='270' y2='88'/><line x1='450' y1='204' x2='630' y2='88'/><line x1='450' y1='204' x2='58' y2='300'/><line x1='450' y1='204' x2='842' y2='300'/></g><circle cx='450' cy='204' r='7' fill='var(--accent)' stroke='none'/><g font-size='20' fill='currentColor' stroke='none' opacity='.85'><text x='478' y='200'>você</text><text x='650' y='70'>satélite</text><text x='180' y='70'>satélite</text><text x='760' y='342'>satélite</text><text x='70' y='342'>satélite</text><text x='425' y='425' font-size='18' opacity='.7'>Terra</text></g></svg>",
+      "caption": "Esquema simplificado: seis planos orbitais, pelo menos quatro satélites visíveis de qualquer ponto do planeta.",
       "body": [
-        "O sistema GPS é operado pelo governo dos EUA, com compromisso de manter pelo menos 24 satélites ativos 95% do tempo. Cada um dá duas voltas na Terra por dia.",
-        "A órbita foi desenhada para que, de praticamente qualquer ponto do planeta, pelo menos quatro satélites estejam visíveis ao mesmo tempo.",
-        "O serviço é aberto: qualquer receptor do mundo usa de graça."
-      ]
-    },
-    {
-      "type": "steps",
-      "kicker": "Como funciona",
-      "heading": "O celular só escuta",
-      "steps": [
-        { "title": "Cada satélite transmite a hora e a posição", "text": "Um relógio atômico a bordo marca o instante exato em que o sinal sai. Satélites e receptor nunca conversam de volta." },
-        { "title": "O celular mede o atraso", "text": "O sinal viaja na velocidade da luz. Se demorou 70 milissegundos para chegar, o satélite está a cerca de 21 mil km." },
-        { "title": "Três distâncias cruzam num ponto", "text": "Com a distância até três satélites, existe um único ponto possível na superfície da Terra. É a trilateração." },
-        { "title": "O quarto satélite corrige o relógio", "text": "O relógio do celular é barato e impreciso. Um satélite extra serve para calcular esse erro — e, com mais satélites, a precisão melhora." }
+        "O sistema é operado pelo governo dos EUA, com compromisso de manter pelo menos 24 satélites ativos 95% do tempo. O serviço é aberto: qualquer receptor do mundo usa de graça."
       ]
     },
     {
       "type": "inner",
-      "kicker": "O detalhe surpreendente",
-      "heading": "Sem Einstein, o GPS erra 11 km por dia",
+      "kicker": "Como funciona",
+      "heading": "O celular só escuta",
       "photo": "fotos/gps-2.jpg",
       "caption": "Foto: Cheng Lin / Unsplash",
       "body": [
-        "Os relógios dos satélites andam em ritmo diferente do nosso. A velocidade os atrasa 7 microssegundos por dia; a gravidade mais fraca lá em cima os adianta 45. Saldo: 38 microssegundos adiantados por dia.",
-        "Parece nada. Mas na velocidade da luz, 38 microssegundos são 11 km de erro acumulado a cada dia. Os relógios são ajustados antes do lançamento para compensar."
+        "Cada satélite repete, sem parar, a hora exata de um relógio atômico e a própria posição. O celular não responde: só recebe.",
+        "O sinal viaja na velocidade da luz. Se demorou 70 milissegundos para chegar, o satélite está a cerca de 21 mil km. Atraso vira distância."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "Trilateração",
+      "heading": "Três distâncias cruzam num único ponto",
+      "svg": "<svg viewBox='0 0 900 520' fill='none' stroke='currentColor' stroke-width='2'><circle cx='300' cy='200' r='210' opacity='.55'/><circle cx='600' cy='200' r='210' opacity='.55'/><circle cx='450' cy='420' r='200' opacity='.55'/><g fill='var(--accent)' stroke='none'><rect x='292' y='192' width='16' height='16'/><rect x='592' y='192' width='16' height='16'/><rect x='442' y='412' width='16' height='16'/></g><g stroke='var(--accent)' opacity='.9'><line x1='300' y1='200' x2='450' y2='300'/><line x1='600' y1='200' x2='450' y2='300'/><line x1='450' y1='420' x2='450' y2='300'/></g><circle cx='450' cy='300' r='9' fill='var(--accent)' stroke='none'/><g font-size='20' fill='currentColor' stroke='none' opacity='.85'><text x='250' y='180'>satélite A</text><text x='560' y='180'>satélite B</text><text x='470' y='450'>satélite C</text><text x='470' y='292' font-weight='700'>você</text></g></svg>",
+      "caption": "Cada distância define uma esfera ao redor do satélite. Três esferas se cruzam em um ponto na superfície da Terra.",
+      "body": [
+        "Na prática o celular usa quatro ou mais satélites: o extra corrige o erro do relógio barato do aparelho e a precisão melhora."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O detalhe surpreendente",
+      "heading": "Sem Einstein, o GPS erra 11 km por dia",
+      "cells": [
+        {
+          "big": "38",
+          "unit": " µs",
+          "label": "adiantados por dia",
+          "text": "A velocidade atrasa os relógios dos satélites em 7 microssegundos por dia; a gravidade mais fraca lá em cima adianta 45. Saldo: 38."
+        },
+        {
+          "big": "11",
+          "unit": " km",
+          "label": "de erro acumulado por dia",
+          "text": "Na velocidade da luz, 38 microssegundos são 11 km. Sem a correção da relatividade, o mapa ficaria inútil em um dia."
+        }
+      ],
+      "body": [
+        "Os relógios são ajustados antes do lançamento para compensar o efeito."
       ]
     },
     {
       "type": "timeline",
       "kicker": "Precisão",
-      "heading": "Do quilômetro ao metro",
+      "heading": "Do quilômetro ao centímetro",
       "items": [
-        { "when": "Padrão oficial", "what": "Erro de até 10 m na horizontal em 95% dos casos, segundo o documento de desempenho do sistema." },
-        { "when": "Na prática", "what": "O erro médio global medido nos últimos anos ficou em 1 metro ou menos, em céu aberto." },
-        { "when": "Alta precisão", "what": "Com correções extras, receptores profissionais chegam a poucos centímetros, em tempo real." },
-        { "when": "O que atrapalha", "what": "Prédios, túneis e a atmosfera bloqueiam ou distorcem o sinal. Por isso o GPS erra no centro da cidade e falha no estacionamento coberto." }
+        {
+          "when": "Oficial",
+          "what": "Erro de até 10 m na horizontal em 95% dos casos, segundo o padrão de desempenho do sistema."
+        },
+        {
+          "when": "Na prática",
+          "what": "O erro médio global medido nos últimos anos ficou em 1 metro ou menos, em céu aberto."
+        },
+        {
+          "when": "Profissional",
+          "what": "Com correções extras, receptores de alta precisão chegam a poucos centímetros, em tempo real."
+        },
+        {
+          "when": "O que atrapalha",
+          "what": "Prédios, túneis e a atmosfera bloqueiam ou distorcem o sinal. Por isso o GPS erra no centro da cidade e falha no estacionamento coberto."
+        }
       ]
     },
     {
       "type": "inner",
       "kicker": "Para levar",
       "heading": "Três coisas para recontar",
-      "bullets": [
+      "check": [
         "O GPS é um sistema de relógios. A posição é um subproduto de medir tempo com precisão de nanossegundos.",
-        "Seu celular não é rastreado pelo GPS: ele só recebe sinais. Quem compartilha sua posição são os aplicativos.",
+        "Seu celular não é rastreado pelo GPS: ele só recebe sinais. Quem compartilha sua posição são os aplicativos que você autoriza.",
         "A relatividade de Einstein não é teoria de quadro-negro: sem ela, o mapa do seu celular ficaria inútil em um dia."
       ]
     },
     {
       "type": "sources",
       "items": [
-        { "who": "GPS.gov (governo dos EUA)", "what": "Space Segment — constelação, altitude, órbitas e visibilidade" },
-        { "who": "NASA", "what": "Global Positioning System — como o receptor calcula a posição; precisão oficial e medida" },
-        { "who": "GPS.gov", "what": "Tutorial de trilateração — posição a partir da distância até três satélites" },
-        { "who": "Ohio State University (Astronomy 1144)", "what": "Practical Relativity: GPS — 7 µs, 45 µs e 38 µs por dia; 11 km de erro" },
-        { "who": "Fotos", "what": "Nikita Pishchugin e Cheng Lin, via Unsplash" }
+        {
+          "who": "GPS.gov (governo dos EUA)",
+          "what": "Space Segment — constelação, altitude, órbitas e visibilidade"
+        },
+        {
+          "who": "NASA",
+          "what": "Global Positioning System — como o receptor calcula a posição; precisão oficial e medida"
+        },
+        {
+          "who": "GPS.gov",
+          "what": "Tutorial de trilateração — posição a partir da distância até três satélites"
+        },
+        {
+          "who": "Ohio State University (Astronomy 1144)",
+          "what": "Practical Relativity: GPS — 7 µs, 45 µs e 38 µs por dia; 11 km de erro"
+        },
+        {
+          "who": "Fotos",
+          "what": "Nikita Pishchugin e Cheng Lin, via Unsplash"
+        }
       ]
     }
   ],
