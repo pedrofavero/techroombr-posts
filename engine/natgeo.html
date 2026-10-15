@@ -20,10 +20,9 @@
 
   /* fundo fotográfico: nítido (capa e páginas de foto) ou desfocado (páginas de texto e dados) */
   .bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
-  .soft .bg { inset: -60px; filter: blur(30px) saturate(.95) brightness(.78); transform: scale(1.08); }
   .scrim { position: absolute; inset: 0; }
   .sharp .scrim { background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.70) 38%, rgba(0,0,0,.25) 62%, rgba(0,0,0,0) 80%); }
-  .soft .scrim { background: linear-gradient(to bottom, rgba(0,0,0,.38), rgba(0,0,0,.55)); }
+  .soft .scrim { background: none; }
 
   .masthead {
     position: absolute; top: 56px; left: 64px; z-index: 2;

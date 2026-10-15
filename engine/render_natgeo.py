@@ -45,15 +45,33 @@ def accent_from(photo):
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     return "#%02x%02x%02x" % (int(r * 255), int(g * 255), int(b * 255))
 
+def tone_from(photo):
+    """Tom escuro e calmo derivado da foto (mesma matiz do destaque), para páginas de texto."""
+    im = Image.open(path(photo)).convert("RGB").resize((80, 80))
+    best, score = (20, 40, 60), -1
+    for cnt, (r, g, b) in im.getcolors(80 * 80):
+        h, l, s = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
+        sc = cnt * (s ** 1.5) * (1 - abs(l - .45))
+        if s > .25 and .15 < l < .75 and sc > score:
+            best, score = (r, g, b), sc
+    h, l, s = colorsys.rgb_to_hls(*[c / 255 for c in best])
+    def hexl(ll, ss):
+        r, g, b = colorsys.hls_to_rgb(h, ll, ss); return "#%02x%02x%02x" % (int(r*255), int(g*255), int(b*255))
+    return hexl(.13, .30), hexl(.20, .28)
+
 # ---------- blocos ----------
 def P(lines): return "".join(f"<p>{escape(t)}</p>" for t in lines or [])
 def K(s): return f'<div class="kicker">{escape(s["kicker"])}</div>' if s.get("kicker") else ""
 def H(s): return f'<h2>{escape(s["heading"])}</h2>' if s.get("heading") else ""
 def frame(post, s, body, mode="soft", cls=""):
     """mode: 'sharp' (foto nítida, texto embaixo) ou 'soft' (foto desfocada, texto na área toda)."""
-    bg = s.get("bg") or s.get("photo") or post["_cover_photo"]
     cap = f'<div class="cap">{escape(s["caption"])}</div>' if mode == "sharp" and s.get("caption") else ""
-    return (f'<div class="page {mode} {cls}"><div class="bg" style="background-image:url(\'{uri(bg)}\')"></div><div class="scrim"></div>'
+    if mode == "sharp":
+        bgstyle = f"background-image:url('{uri(s.get('photo') or post['_cover_photo'])}')"
+    else:
+        dark, light = post["_tone"]
+        bgstyle = f"background:linear-gradient(180deg, {light} 0%, {dark} 70%)"
+    return (f'<div class="page {mode} {cls}"><div class="bg" style="{bgstyle}"></div><div class="scrim"></div>'
             f'<div class="masthead">{escape(post["masthead"])}</div>{cap}<div class="content">{body}</div>'
             f'<div class="handle">{escape(post["handle"])}</div></div>')
 
@@ -119,6 +137,7 @@ def main(paths):
             post.setdefault("masthead", "The Tech Room"); post.setdefault("handle", "@techroombr")
             cov = next((s for s in post["slides"] if s["type"] == "cover"), None)
             post["_cover_photo"] = cov["photo"] if cov else None
+            post["_tone"] = tone_from(cov["photo"]) if cov else ("#14202c", "#1d2d3d")
             accent = post.get("accent") or (accent_from(cov["photo"]) if cov else "#1F4E79")
             tpl = TPL.replace("--accent: #9CC8E8", f"--accent: {accent}")
             out = ROOT / "posts" / post["slug"]; out.mkdir(parents=True, exist_ok=True)
