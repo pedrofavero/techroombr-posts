@@ -1,0 +1,127 @@
+{
+  "slug": "codigo-de-barras",
+  "categoria": "CURIOSIDADE",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/codigo-de-barras-1.jpg",
+      "title": "A primeira compra com código de barras foi um chiclete",
+      "dek": "Troy, Ohio, 26 de junho de 1974, pouco depois das 8h. A ideia tinha sido desenhada na areia de uma praia 25 anos antes. E a patente já havia expirado.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "split",
+      "kicker": "A compra",
+      "heading": "Uma manhã num supermercado de interior",
+      "cells": [
+        {
+          "big": "8h01",
+          "label": "26 de junho de 1974",
+          "text": "Hora do primeiro item com código de barras lido no caixa de um supermercado: a loja Marsh, em Troy, Ohio."
+        },
+        {
+          "big": "10",
+          "unit": "chicletes",
+          "label": "num pacote de Juicy Fruit",
+          "text": "O cliente, Clyde Dawson, era da própria rede Marsh. A operadora de caixa era Sharon Buchanan."
+        }
+      ],
+      "body": [
+        "Dawson contou que escolheu o chiclete porque ninguém tinha certeza de que um código caberia numa embalagem tão pequena. Na véspera, funcionários passaram a noite colando códigos em centenas de produtos."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Código Morse esticado na areia",
+      "photo": "fotos/codigo-de-barras-2.jpg",
+      "caption": "Foto: COSMOH / Unsplash",
+      "body": [
+        "Em 1948, o gerente de um supermercado pediu a um diretor da Universidade Drexel, na Filadélfia, um jeito de acelerar o caixa. O estudante Bernard Silver ouviu e contou ao colega Joe Woodland. Woodland largou a pós-graduação e foi pensar no problema na casa do avô, em Miami Beach.",
+        "Ele sabia código Morse dos tempos de escoteiro. Na praia, desenhou pontos e traços na areia e os puxou para baixo com os dedos: viraram **linhas finas e grossas**. \"Agora eu tenho quatro linhas, e elas podem ser largas e estreitas\", lembrou ele depois.",
+        "A patente, pedida em outubro de 1949 e concedida em 1952, cobria tanto linhas quanto um desenho em alvo, de círculos concêntricos."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "25 anos de espera",
+      "heading": "Da areia ao caixa",
+      "items": [
+        { "when": "1952", "what": "Woodland e Silver vendem a patente à Philco por **US$ 15 mil**. A Philco a repassa à RCA no mesmo ano. O protótipo usava uma lâmpada de 500 watts e tinha o tamanho de uma mesa." },
+        { "when": "1960", "what": "O laser é anunciado. Seu criador, Theodore Maiman, diria depois que não previu o leitor de supermercado." },
+        { "when": "1969", "what": "A patente expira. Nenhum supermercado usava o código ainda." },
+        { "when": "1972", "what": "A RCA testa um código em formato de alvo numa loja Kroger em Cincinnati." },
+        { "when": "1973", "what": "Um comitê do setor escolhe o código retangular da IBM, desenhado por George Laurer, entre sete propostas." },
+        { "when": "1974", "what": "Primeira leitura num caixa. Woodland, então na IBM, viu a ideia virar padrão. A patente dele já tinha expirado." }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "O que o leitor do caixa faz em um segundo",
+      "steps": [
+        {
+          "title": "Um laser varre a embalagem",
+          "text": "Nos primeiros leitores, um laser de hélio-neônio batia num espelho giratório e saía por uma placa de vidro no balcão."
+        },
+        {
+          "title": "As barras refletem diferente",
+          "text": "A luz refletida pela etiqueta, mais forte nos espaços claros, chega a um sensor (fotodiodo), que a transforma em sinal elétrico."
+        },
+        {
+          "title": "O sinal vira um número",
+          "text": "A largura de cada barra e espaço codifica dígitos, como os traços e pontos do Morse. O código identifica o produto."
+        },
+        {
+          "title": "A caixa registradora consulta a lista",
+          "text": "O caixa computadorizado busca o número num banco de dados e devolve nome e preço. O preço não está nas barras: está no sistema da loja."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "Hoje",
+      "big": "10",
+      "unit": "bilhões",
+      "label": "de leituras de código de barras por dia no mundo",
+      "body": [
+        "O número é da GS1, a organização que distribui os códigos de produto. É uma estimativa da própria entidade, não uma contagem independente.",
+        "Segundo a GS1, mais de 2 milhões de organizações usam seus códigos, que carregam um número de 13 dígitos chamado GTIN, a identidade do produto."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ficou",
+      "heading": "O chiclete que o museu não tem",
+      "body": [
+        "O Smithsonian, em Washington, guarda um dos dez primeiros leitores, da Spectra Physics, e um dos caixas de teste da RCA. O pacote de chiclete, não: ficou com Clyde Dawson e nunca chegou ao museu. Uma réplica foi exposta por um tempo.",
+        "Woodland recebeu a Medalha Nacional de Tecnologia dos EUA em 1992, das mãos do presidente George H. W. Bush. Morreu em 2012, aos 91 anos."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A ideia veio antes da tecnologia.** O código de barras esperou 25 anos pelo laser e pela caixa registradora computadorizada que o tornaram viável.",
+        "**O código não guarda o preço.** Guarda um número. O preço está no sistema da loja, por isso pode mudar sem reimprimir a embalagem.",
+        "**O inventor não lucrou com a patente.** Vendida por US$ 15 mil em 1952, ela expirou em 1969, cinco anos antes da primeira leitura."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Smithsonian Magazine", "what": "\"The History of the Bar Code\": Woodland, a areia, a patente, o comitê de 1973, a loja Marsh e o chiclete" },
+        { "who": "Smithsonian — National Museum of American History", "what": "Ficha do leitor Spectra Physics de 1974: como funcionava, quem desenvolveu, o paradeiro do chiclete" },
+        { "who": "GS1 UK", "what": "História do código de barras; venda da patente; 10 bilhões de leituras/dia; 2 milhões de organizações" },
+        { "who": "Wikipedia (cita NYT e USPTO)", "what": "Patente US 2.612.994; venda à Philco e RCA; medalha de 1992; morte em 2012" },
+        { "who": "Fotos", "what": "Enkhjin photography e COSMOH, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O código de barras só deu certo quando três coisas ficaram prontas ao mesmo tempo: o laser, o computador acessível e um acordo entre supermercados sobre qual desenho usar. A ideia em si estava pronta desde 1949.\n\nJoe Woodland desenhou o código na areia de Miami Beach esticando pontos e traços do código Morse. Vendeu a patente por US$ 15 mil e a viu expirar antes de qualquer supermercado usá-la. Em 1974, já na IBM, acompanhou a primeira leitura num caixa: um pacote de chiclete em Troy, Ohio.\n\nHoje, segundo a GS1, são mais de 10 bilhões de leituras por dia.\n\nQual objeto do seu dia a dia você acha que tem uma história assim escondida?\n\n—\nFontes no último slide.\n\n#codigodebarras #historiadatecnologia #curiosidade #supermercado #tecnologia #invencoes #comofunciona"
+}

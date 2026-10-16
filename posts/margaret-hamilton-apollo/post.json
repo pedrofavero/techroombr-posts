@@ -1,0 +1,122 @@
+{
+  "slug": "margaret-hamilton-apollo",
+  "categoria": "HISTÓRIA",
+  "theme": "night",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/margaret-hamilton-apollo-1.jpg",
+      "title": "O alarme que quase cancelou o pouso na Lua",
+      "dek": "Em 20 de julho de 1969, o computador da Apollo 11 ficou sobrecarregado a minutos da superfície. Ele não travou por causa de uma decisão tomada anos antes por Margaret Hamilton, que morreu em setembro, aos 90 anos.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A pessoa",
+      "heading": "Uma matemática que caiu no projeto por um anúncio de jornal",
+      "body": [
+        "Margaret Hamilton nasceu em 1936 em Paoli, Indiana. Formou-se em matemática em 1958 e, em 1959, foi para o MIT escrever programas de previsão do tempo. Em 1961 passou a programar o SAGE, o sistema de defesa aérea dos EUA, onde começou a se preocupar com uma pergunta: **como fazer um programa que não falha?**",
+        "Em 1965 entrou no Laboratório de Instrumentação do MIT, contratado pela NASA para o programa Apollo. O marido viu a vaga num jornal. Ela foi a primeira programadora do projeto e acabou liderando a equipe do ==software de bordo==, o programa que rodava dentro da nave.",
+        "Em 1968, mais de 400 pessoas trabalhavam no software da Apollo. Ela era diretora assistente da equipe do módulo de comando."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "A máquina",
+      "heading": "O computador que foi à Lua",
+      "rows": [
+        { "k": "Memória fixa", "v": "36.864 palavras de 15 bits (o programa gravado)" },
+        { "k": "Memória de trabalho", "v": "2.048 palavras (o que podia mudar em voo)" },
+        { "k": "Vagas para tarefas", "v": "7 \"core sets\" e 5 áreas de cálculo (VAC)" },
+        { "k": "Peso", "v": "cerca de 32 kg, numa caixa de 61 × 32 × 17 cm" },
+        { "k": "Listagem do programa", "v": "uma pilha de papel de 20 cm de espessura" }
+      ],
+      "body": [
+        "Cada tarefa em andamento ocupava uma das sete vagas. Se todas estivessem cheias e chegasse mais uma, o computador não tinha onde colocá-la. Guarde esse detalhe."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O aviso ignorado",
+      "heading": "Uma menina de 4 anos derrubou o simulador",
+      "photo": "fotos/margaret-hamilton-apollo-2.jpg",
+      "caption": "Foto: NASA / Unsplash",
+      "body": [
+        "Hamilton levava a filha Lauren ao laboratório. Um dia, brincando no simulador, a menina acionou o P01, programa de pré-lançamento, no meio de um voo simulado. O sistema caiu. Hamilton propôs uma proteção no software para impedir isso em voo real. A proposta foi recusada.",
+        "Em dezembro de 1968, na Apollo 8, o astronauta Jim Lovell acionou o P01 sem querer. Os dados de navegação sumiram. Depois disso, as mudanças dela entraram no programa."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "20 de julho de 1969",
+      "heading": "O que aconteceu dentro do computador",
+      "steps": [
+        {
+          "title": "Uma chave na posição errada",
+          "text": "Chaves do radar de encontro, que não era necessário para o pouso, estavam mal configuradas. O computador passou a criar tarefas para processar dados de radar que nem existiam."
+        },
+        {
+          "title": "As vagas lotaram",
+          "text": "Tarefas inúteis de radar ocuparam as sete vagas de trabalho. Sem espaço, o computador disparou o alarme 1202. Depois, o 1201, sem área de cálculo livre."
+        },
+        {
+          "title": "Reinício seletivo",
+          "text": "Em vez de travar, o software reiniciou e retomou só o essencial: controlar o motor de descida e o painel. As tarefas de radar não voltaram."
+        },
+        {
+          "title": "Houston: \"pode seguir\"",
+          "text": "Neil Armstrong pediu uma leitura do alarme. Steve Bales, 26 anos, e Jack Garman tinham uma lista dos códigos. A resposta veio em instantes: continuar."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Na palavra dela",
+      "text": "Era inteligente o bastante para reconhecer que lhe pediam mais tarefas do que deveria executar.",
+      "who": "Margaret Hamilton, sobre o software da Apollo 11, em carta à revista Datamation (1971; tradução nossa)",
+      "body": [
+        "Na mesma carta, ela escreveu que duvidava que a Apollo 11 teria sido o pouso bem-sucedido que foi sem esses programas de recuperação. A equipe tinha testado o reinício à exaustão. Por isso Houston confiou."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O que ficou",
+      "heading": "De \"piada\" a profissão",
+      "items": [
+        { "when": "Era Apollo", "what": "Hamilton passa a chamar seu trabalho de **engenharia de software**, para distingui-lo do hardware. O termo, contou ela, foi tratado como piada no início." },
+        { "when": "1976", "what": "Funda a Higher Order Software, empresa dedicada a prevenção de erros e tolerância a falhas." },
+        { "when": "2015", "what": "O código completo da Apollo é publicado no GitHub, aberto a qualquer pessoa." },
+        { "when": "2016", "what": "Recebe a Medalha Presidencial da Liberdade, a maior honraria civil dos EUA." },
+        { "when": "30 set. 2026", "what": "Morre num hospital em Cambridge, Massachusetts, aos 90 anos." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias que sobreviveram ao pouso",
+      "check": [
+        "**Assuma que o usuário vai errar.** O caso Lauren virou o que hoje se chama programação defensiva: o software protege contra o erro humano.",
+        "**Nem toda tarefa tem a mesma prioridade.** Quando falta recurso, o sistema deve saber o que largar e o que manter.",
+        "**Confiança vem de teste.** Houston liberou o pouso em instantes porque o MIT já tinha testado o reinício extensivamente."
+      ],
+      "body": [
+        "Em 2009, Hamilton disse ao MIT News: \"Olhando para trás, éramos as pessoas mais sortudas do mundo.\""
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "MIT News, 7 out. 2026", "what": "Obituário: trajetória, Apollo 8, alarme 1202, termo \"engenharia de software\", prêmios" },
+        { "who": "Associated Press (via ABC News), 8 out. 2026", "what": "Morte em 30 de setembro, aos 90 anos, confirmada pela filha Lauren Hamilton" },
+        { "who": "NASA — Apollo Lunar Surface Journal", "what": "Peter Adler, programador do módulo lunar: causa e mecânica dos alarmes 1201/1202, memória do computador" },
+        { "who": "Computer History Museum, 2017", "what": "Carta de Hamilton à Datamation (1971), listagem de 8 polegadas, computador de 70 lb" },
+        { "who": "Space.com", "what": "Steve Bales e Jack Garman na sala de controle; pedido de leitura de Armstrong" },
+        { "who": "Fotos", "what": "Christoph Nolte e NASA, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O pouso na Lua não foi salvo por um herói na hora H. Foi salvo por uma escolha de projeto feita anos antes: o software sabia o que largar quando faltava recurso.\n\nMargaret Hamilton liderou a equipe que escreveu o programa de bordo da Apollo no MIT. Ela morreu em 30 de setembro de 2026, aos 90 anos. Nos anos 1960, quando ninguém chamava programação de engenharia, ela insistiu no termo e no método: testar tudo, prever o erro humano, nunca confiar que o operador vai apertar o botão certo.\n\nNa Apollo 11, uma chave do radar na posição errada entupiu o computador com tarefas inúteis. O programa reiniciou, manteve só o essencial e a nave pousou.\n\nQue sistema do seu dia a dia você gostaria que fosse tão bem pensado para falhar?\n\n—\nFontes no último slide.\n\n#margarethamilton #apollo11 #historiadatecnologia #engenhariadesoftware #nasa #programacao #lua #ciencia"
+}

@@ -1,0 +1,12 @@
+O pouso na Lua não foi salvo por um herói na hora H. Foi salvo por uma escolha de projeto feita anos antes: o software sabia o que largar quando faltava recurso.
+
+Margaret Hamilton liderou a equipe que escreveu o programa de bordo da Apollo no MIT. Ela morreu em 30 de setembro de 2026, aos 90 anos. Nos anos 1960, quando ninguém chamava programação de engenharia, ela insistiu no termo e no método: testar tudo, prever o erro humano, nunca confiar que o operador vai apertar o botão certo.
+
+Na Apollo 11, uma chave do radar na posição errada entupiu o computador com tarefas inúteis. O programa reiniciou, manteve só o essencial e a nave pousou.
+
+Que sistema do seu dia a dia você gostaria que fosse tão bem pensado para falhar?
+
+—
+Fontes no último slide.
+
+#margarethamilton #apollo11 #historiadatecnologia #engenhariadesoftware #nasa #programacao #lua #ciencia
