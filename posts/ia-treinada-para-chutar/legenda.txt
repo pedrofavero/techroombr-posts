@@ -1,0 +1,10 @@
+Toda vez que um chatbot inventa uma data, um livro ou um processo judicial, ele está fazendo o que foi ensinado a fazer: marcar uma alternativa em vez de deixar em branco.
+
+O estudo de Kalai, Nachum, Zhang e Vempala (OpenAI e Georgia Tech, setembro de 2025) mostra a conta: dizer "não sei" vale zero na maioria dos testes que medem os modelos; chutar uma data tem 1 chance em 365. Em milhares de perguntas, quem chuta vence. Vale lembrar que é a OpenAI analisando os próprios modelos, em texto ainda sem revisão por pares.
+
+Você já pegou um chatbot inventando algo com confiança? O que era?
+
+—
+Fontes no último slide.
+
+#inteligenciaartificial #chatgpt #alucinacao #tecnologiaexplicada #ciencia #openai #techroombr

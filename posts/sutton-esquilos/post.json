@@ -1,0 +1,103 @@
+{
+  "slug": "sutton-esquilos",
+  "categoria": "CONVERSA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/sutton-esquilos-1.jpg",
+      "title": "O cientista que acha que a IA aprende do jeito errado",
+      "dek": "Richard Sutton, Prêmio Turing de 2024, diz que modelos como o ChatGPT não aprendem com a experiência. Ele usou esquilos para explicar. Um podcast, uma tese e um contraponto.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem fala",
+      "heading": "Richard Sutton",
+      "lead": "Chamado de pai do aprendizado por reforço: a área da IA em que um programa aprende por tentativa, erro e recompensa.",
+      "body": [
+        "Professor da Universidade de Alberta, no Canadá, ganhou o Prêmio Turing de 2024, descrito pela ACM como o \"Nobel da computação\". É autor do ensaio The Bitter Lesson (A lição amarga), de 2019, muito citado na área.",
+        "Em 26 de setembro de 2025, ele conversou por cerca de uma hora com Dwarkesh Patel, apresentador do Dwarkesh Podcast. A transcrição completa é pública."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A frase",
+      "text": "Os esquilos não vão à escola. Os esquilos conseguem aprender tudo sobre o mundo.",
+      "who": "Richard Sutton, no Dwarkesh Podcast (tradução livre)",
+      "body": [
+        "O argumento: na natureza, ninguém aprende lendo um texto pronto. Animais aprendem agindo no mundo e vendo o que acontece. Para Sutton, treinar com exemplos prontos, o chamado aprendizado supervisionado, \"não é algo que acontece na natureza\"."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "A tese",
+      "heading": "Dois jeitos de aprender",
+      "a": {
+        "title": "Modelos de linguagem, hoje",
+        "lines": [
+          "Aprendem com dados de treino: texto escrito por humanos.",
+          "Objetivo: prever a próxima palavra.",
+          "O que \"aprendem\" numa conversa fica na memória temporária e some. O modelo em si não muda com o uso."
+        ]
+      },
+      "b": {
+        "title": "O que Sutton defende",
+        "lines": [
+          "Aprender com a experiência: agir, observar o resultado, ajustar.",
+          "Objetivo no mundo: uma meta que muda algo fora do texto.",
+          "Aprendizado contínuo: o que se aprende no uso fica gravado no próprio modelo."
+        ]
+      },
+      "body": [
+        "Para ele, prever a próxima palavra \"não é um objetivo\", porque não muda o mundo. E sem objetivo, diz, \"não existe a coisa certa a dizer\"."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A lição amarga",
+      "heading": "A aposta por trás da crítica",
+      "photo": "fotos/sutton-esquilos-2.jpg",
+      "caption": "Foto: Andrew Bright / Unsplash",
+      "body": [
+        "Em The Bitter Lesson, Sutton argumenta que, na história da IA, métodos gerais que crescem com mais computação sempre acabaram vencendo os métodos baseados em conhecimento humano embutido.",
+        "Os modelos de linguagem usam muita computação, mas também muito conhecimento humano. Ele espera que sistemas que aprendem com a experiência os superem. Seria, nas palavras dele, mais um caso da lição amarga."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O contraponto",
+      "heading": "Dwarkesh Patel discorda, em parte",
+      "body": [
+        "O apresentador argumenta que os modelos atuais são \"os melhores modelos de mundo que já fizemos em IA\" e que humanos também aprendem muito por imitação: ninguém inventa sozinho a própria língua ou as leis.",
+        "Em texto publicado em 4 de outubro de 2025, ele concede os pontos fortes de Sutton: falta aprendizado contínuo, os modelos aprendem pouco por tentativa e dependem de dados humanos finitos. Mas acha que imitar e aprender por experiência se combinam, com o modelo de hoje como ponto de partida.",
+        "O analista Zvi Mowshowitz foi mais duro: para ele, prever a próxima palavra \"é claro que é um objetivo\". Sutton respondeu que o texto distorce suas ideias."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para lembrar",
+      "check": [
+        "A tese de Sutton: modelos como o ChatGPT aprendem com texto humano, não com a experiência. Para ele, é um limite de projeto, não de tamanho.",
+        "A discordância é real e está aberta: Dwarkesh Patel e outros acham que imitar é um bom começo. Ninguém mediu quem tem razão.",
+        "Segundo Sutton, o que um modelo \"aprende\" numa conversa não fica gravado nele. Teste: pergunte amanhã o que ele lembra de hoje."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Dwarkesh Podcast, 26 set. 2025", "what": "Episódio com Richard Sutton — transcrição completa em dwarkesh.com/p/richard-sutton" },
+        { "who": "Dwarkesh Patel, 4 out. 2025", "what": "Thoughts on Sutton — texto com o contraponto do apresentador" },
+        { "who": "Zvi Mowshowitz, 29 set. 2025", "what": "On Dwarkesh Patel's Podcast With Richard Sutton — crítica e resposta de Sutton" },
+        { "who": "ACM, 2025", "what": "2024 ACM A.M. Turing Award — Barto e Sutton, pelo aprendizado por reforço" },
+        { "who": "Richard Sutton, 2019", "what": "The Bitter Lesson — ensaio em incompleteideas.net" },
+        { "who": "Fotos", "what": "Sasha Matic e Andrew Bright, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Um dos cientistas mais premiados da IA acha que o jeito como o ChatGPT aprende não leva à inteligência de verdade. E usou esquilos para explicar.\n\nRichard Sutton, Prêmio Turing de 2024, defende que inteligência vem de agir no mundo e aprender com o resultado, não de copiar texto humano. Dwarkesh Patel, que o entrevistou, discorda em parte: humanos também aprendem imitando, e os modelos de hoje podem ser um ponto de partida. É um debate aberto, e ninguém mediu quem tem razão.\n\nVocê acha que uma IA precisa aprender com a experiência para ser inteligente?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #richardsutton #aprendizadoporreforco #podcast #tecnologiaexplicada #ciencia #techroombr"
+}

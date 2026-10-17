@@ -1,0 +1,109 @@
+{
+  "slug": "ia-treinada-para-chutar",
+  "categoria": "EXPLICA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/ia-treinada-para-chutar-1.jpg",
+      "title": "A IA não mente. Ela foi treinada para chutar.",
+      "dek": "Um estudo da OpenAI explica por que os chatbots inventam respostas. A culpa, dizem os autores, é da prova — não do aluno.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa",
+      "heading": "Alucinação não é um defeito misterioso",
+      "lead": "Alucinação é o nome que se dá quando um chatbot afirma, com confiança, algo plausível e falso.",
+      "body": [
+        "A explicação que circula: é um bug estranho, e vai sumir conforme os modelos ficarem maiores e mais precisos.",
+        "Em setembro de 2025, pesquisadores da OpenAI e da Georgia Tech publicaram um estudo com outra resposta: ==o chute é ensinado==. E eles listam a ideia do \"defeito misterioso\" entre os equívocos que querem desfazer."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Por que o chute compensa",
+      "heading": "A conta que o modelo faz",
+      "steps": [
+        { "title": "Uma pergunta difícil", "text": "Alguém pergunta ao modelo a data de aniversário de uma pessoa pouco conhecida. Esse dado apareceu uma vez, ou nenhuma, nos textos de treino." },
+        { "title": "Duas saídas possíveis", "text": "Dizer \"não sei\" vale zero ponto nos testes mais usados. Chutar uma data tem 1 chance em 365 de acertar." },
+        { "title": "Milhares de perguntas depois", "text": "Quem chuta sempre soma mais pontos do que quem admite dúvida. O modelo aprende a chutar." }
+      ],
+      "body": [
+        "É a lógica da prova de múltipla escolha sem desconto por erro: deixar em branco nunca compensa."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que o estudo mostra",
+      "heading": "A prova ensina o aluno a chutar",
+      "photo": "fotos/ia-treinada-para-chutar-2.jpg",
+      "caption": "Foto: UThan Zaw / Unsplash",
+      "body": [
+        "Os autores revisaram os testes que medem os chatbots, chamados de avaliações. A maioria dá nota só pela resposta certa: errar custa o mesmo que dizer \"não sei\".",
+        "A conclusão deles: a maior parte das avaliações mais usadas recompensa o comportamento de inventar."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Dois modelos, uma prova",
+      "heading": "Chutar menos custa poucos acertos e evita muitos erros",
+      "cells": [
+        { "big": "75", "unit": "%", "label": "de respostas erradas", "text": "Modelo o4-mini: dizia \"não sei\" em só 1% das perguntas e acertou 24%." },
+        { "big": "26", "unit": "%", "label": "de respostas erradas", "text": "Modelo gpt-5-thinking-mini: dizia \"não sei\" em 52% das perguntas e acertou 22%." }
+      ],
+      "body": [
+        "Teste SimpleQA, dados do relatório técnico do GPT-5 citados pelos autores. ==Dois pontos a menos de acerto, 49 a menos de erro.== Os dois modelos são da própria OpenAI."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem disse, onde e com que limites",
+      "rows": [
+        { "k": "Título", "v": "Why Language Models Hallucinate (Por que modelos de linguagem alucinam)" },
+        { "k": "Autores", "v": "Adam Kalai, Ofir Nachum e Edwin Zhang (OpenAI); Santosh Vempala (Georgia Tech)" },
+        { "k": "Quando", "v": "4 de setembro de 2025, no arXiv, repositório de artigos ainda sem revisão por outros cientistas" },
+        { "k": "Tipo", "v": "Análise matemática mais dados de testes já publicados. Não é experimento com usuários" },
+        { "k": "Limite", "v": "É a OpenAI explicando os modelos da OpenAI. Nenhum avaliador independente revisou o texto" }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que o estudo não diz",
+      "heading": "Três ideias que os autores rejeitam",
+      "nocheck": [
+        "Que a alucinação vai acabar sozinha com modelos maiores. Perguntas sem resposta nos dados sempre vão existir.",
+        "Que a alucinação é inevitável. Um modelo pode aprender a dizer \"não sei\".",
+        "Que só um modelo gigante sabe quando não sabe. Para os autores, saber os próprios limites custa menos do que acertar."
+      ],
+      "after": [
+        "**O que eles propõem:** descontar pontos de respostas erradas e dar crédito parcial ao \"não sei\", como alguns exames padronizados já fazem."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para lembrar",
+      "check": [
+        "Alucinação é um chute que parece resposta. Os autores dizem que o chute é aprendido, não um defeito sem explicação.",
+        "A prova define o aluno: enquanto os testes derem zero para \"não sei\", o modelo vai preferir inventar.",
+        "Quando a resposta importa, peça a fonte e confira. No exemplo da OpenAI, o modelo que admitia dúvida errou quase três vezes menos."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Kalai, Nachum, Zhang e Vempala, set. 2025", "what": "Why Language Models Hallucinate — arXiv 2509.04664 (preprint, sem revisão por pares)" },
+        { "who": "OpenAI, 5 set. 2025", "what": "Why language models hallucinate — resumo do estudo no site da empresa, com a tabela do SimpleQA" },
+        { "who": "OpenAI, 2025", "what": "GPT-5 System Card — origem dos números de abstenção, acerto e erro citados" },
+        { "who": "The Register, 17 set. 2025", "what": "OpenAI says models are programmed to make stuff up instead of admitting ignorance — cobertura independente" },
+        { "who": "Fotos", "what": "Daniel Leżuch e UThan Zaw, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Toda vez que um chatbot inventa uma data, um livro ou um processo judicial, ele está fazendo o que foi ensinado a fazer: marcar uma alternativa em vez de deixar em branco.\n\nO estudo de Kalai, Nachum, Zhang e Vempala (OpenAI e Georgia Tech, setembro de 2025) mostra a conta: dizer \"não sei\" vale zero na maioria dos testes que medem os modelos; chutar uma data tem 1 chance em 365. Em milhares de perguntas, quem chuta vence. Vale lembrar que é a OpenAI analisando os próprios modelos, em texto ainda sem revisão por pares.\n\nVocê já pegou um chatbot inventando algo com confiança? O que era?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #chatgpt #alucinacao #tecnologiaexplicada #ciencia #openai #techroombr"
+}
