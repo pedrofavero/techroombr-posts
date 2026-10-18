@@ -1,0 +1,165 @@
+{
+  "slug": "hedy-lamarr-wifi",
+  "categoria": "HISTÓRIA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/hedy-lamarr-wifi-1.jpg",
+      "title": "Em 1942, uma atriz patenteou a ideia por trás do Bluetooth",
+      "dek": "Hedy Lamarr fugiu de um marido fabricante de armas, virou estrela em Hollywood e, com um compositor, registrou um sistema de rádio que a Marinha dos EUA achou impraticável. Décadas depois, a ideia estava em todo lugar.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A pessoa",
+      "heading": "Uma estrela que inventava nas horas vagas",
+      "body": [
+        "Hedwig Kiesler nasceu em Viena em 1914. Aos 19 anos, em 1933, casou-se com Friedrich Mandl, um fabricante de armas 13 anos mais velho. Com ele, segundo o Hall da Fama dos Inventores dos EUA, ela aprendeu sobre armas, inclusive sobre ==sistemas de controle de torpedos==. Fugiu do casamento em 1937.",
+        "Em 1938 chegou a Hollywood, contratada por Louis B. Mayer, da MGM, que a vendia como \"a mulher mais bonita do mundo\". Virou Hedy Lamarr.",
+        "Fora das telas, inventava: um semáforo melhorado e uma pastilha que virava refrigerante na água estão na lista. A invenção que importou veio com a guerra."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Um compositor, 16 pianolas e 88 teclas",
+      "photo": "fotos/hedy-lamarr-wifi-2.jpg",
+      "caption": "Foto: Ramiro Pianarosa / Unsplash",
+      "body": [
+        "O vizinho de Lamarr era George Antheil, compositor de vanguarda nascido em 1900 cuja obra Ballet Mécanique pedia 16 pianolas, pianos que tocam sozinhos lendo um rolo de papel perfurado.",
+        "O problema que os dois atacaram: um torpedo guiado por rádio usa uma frequência só, e o inimigo pode descobri-la e embaralhá-la. A solução: fazer o transmissor e o torpedo ==pularem de frequência juntos==, sincronizados por dois rolos como os de pianola. Eram 88 frequências, o número de teclas de um piano."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "O salto de frequência em quatro passos",
+      "steps": [
+        {
+          "title": "Uma estação só",
+          "text": "Um rádio que fala sempre na mesma frequência é como uma mesa fixa num bar lotado: quem quiser atrapalhar a conversa sabe onde sentar."
+        },
+        {
+          "title": "Trocar de mesa junto",
+          "text": "Transmissor e receptor mudam de frequência ao mesmo tempo, seguindo uma sequência que só os dois conhecem."
+        },
+        {
+          "title": "Para quem ouve de fora",
+          "text": "Em qualquer frequência isolada aparecem só ruídos aleatórios, segundo a descrição da Smithsonian. Não dá para embaralhar o que não se acha."
+        },
+        {
+          "title": "O relógio de papel",
+          "text": "Na patente, dois rolos perfurados movidos a motor, um no navio e outro no torpedo, mantinham os dois no mesmo passo."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O que aconteceu",
+      "heading": "Da recusa ao reconhecimento, em 72 anos",
+      "items": [
+        {
+          "when": "1941–1942",
+          "what": "Pedido registrado em 1941. Em **11 de agosto de 1942** sai a patente US 2.292.387, \"Secret Communication System\". Os dois a doam à Marinha dos EUA."
+        },
+        {
+          "when": "Anos 1940",
+          "what": "A Marinha julga o mecanismo de rolos pesado demais para um torpedo e não leva a ideia adiante. Lamarr é mandada vender bônus de guerra: US$ 7 milhões numa noite."
+        },
+        {
+          "when": "Anos 1950",
+          "what": "Engenheiros da Sylvania refazem a ideia com eletrônica, sem rolos. Nasce o que hoje se chama ==espectro espalhado==. Em 1957, a Marinha usa a técnica num rádio de boia sonar."
+        },
+        {
+          "when": "1959–1962",
+          "what": "A patente expira em 1959. Em 1962, navios americanos no bloqueio a Cuba já usam a tecnologia."
+        },
+        {
+          "when": "1997",
+          "what": "Lamarr e Antheil recebem o Pioneer Award da Electronic Frontier Foundation."
+        },
+        {
+          "when": "2014",
+          "what": "Os dois entram, postumamente, no Hall da Fama dos Inventores dos EUA."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Na palavra dela",
+      "text": "Já era hora.",
+      "who": "Hedy Lamarr, ao saber do prêmio da EFF, em março de 1997 (Associated Press; tradução nossa)",
+      "body": [
+        "Ela tinha 82 anos, pelas próprias contas. O filho, Anthony Loder, recebeu o prêmio por ela em São Francisco. Nenhum dos dois recebeu royalties pela patente, segundo o Hall da Fama dos Inventores.",
+        "Lamarr morreu em janeiro de 2000."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O que ficou",
+      "heading": "O fone no seu bolso salta de frequência",
+      "cells": [
+        {
+          "big": "79",
+          "label": "canais",
+          "text": "de 1 MHz cada, na faixa de 2,4 GHz, que uma conexão Bluetooth usa para pular."
+        },
+        {
+          "big": "1.600",
+          "label": "saltos por segundo",
+          "text": "é o ritmo máximo com que o Bluetooth troca de canal durante uma conexão."
+        }
+      ],
+      "body": [
+        "Hoje o salto serve para fugir de interferência, não de inimigos: o Bluetooth até evita canais ocupados por outros aparelhos. A linha entre a patente de 1942 e o seu fone não é direta; os engenheiros dos anos 1950 refizeram tudo com eletrônica. Mas patentes posteriores citam a de Lamarr e Antheil como base do campo, segundo o Hall da Fama dos Inventores."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias que sobreviveram à guerra",
+      "check": [
+        "**Boas ideias podem chegar cedo demais.** A Marinha recusou um mecanismo de rolos de papel; a eletrônica dos anos 1950 tornou a mesma ideia viável.",
+        "**Quem inventa nem sempre lucra.** A patente expirou em 1959, antes do uso em larga escala. Lamarr e Antheil não receberam royalties.",
+        "**Saltar de frequência resolve dois problemas.** Esconder um sinal e fugir de interferência. É por isso que a ideia saiu da guerra e entrou no cotidiano."
+      ],
+      "after": [
+        "\"Qualquer garota pode ser glamorosa\", dizia Lamarr. \"Basta ficar parada e parecer burra.\" (Smithsonian; tradução nossa)"
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Smithsonian Magazine, Gilbert King, 23 mai. 2012",
+          "what": "\"Team Hollywood's Secret Weapons System\": Mandl, Antheil, patente 2.292.387, 88 frequências, recusa da Marinha, Sylvania, Cuba 1962, expiração em 1959"
+        },
+        {
+          "who": "Associated Press, Elizabeth Weise, 10 mar. 1997",
+          "what": "Prêmio da EFF, \"It's about time\", filho Anthony Loder, uso em 1962, espectro espalhado em celulares"
+        },
+        {
+          "who": "IEEE AESS, Hugh Griffiths e Alfonso Farina, 2021",
+          "what": "Nascimento em Viena, morte em 2000, uso pela Marinha em 1957, Hall da Fama em 2014"
+        },
+        {
+          "who": "Christian Science Monitor, 9 nov. 2015, citando o National Inventors Hall of Fame",
+          "what": "Torpedos aprendidos com Mandl, patentes posteriores citam a de 1942, sem royalties"
+        },
+        {
+          "who": "American Academy of Arts & Sciences; Rohde & Schwarz (nota de aplicação Bluetooth BR/EDR)",
+          "what": "Semáforo e pastilha de refrigerante; 79 canais de 1 MHz e 1.600 saltos por segundo"
+        },
+        {
+          "who": "Fotos",
+          "what": "Evan Marvell e Ramiro Pianarosa, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A Marinha dos EUA recebeu de graça, em 1942, uma patente que descrevia o princípio usado hoje em cada fone Bluetooth. Guardou na gaveta.\n\nHedy Lamarr era a atriz mais promovida da MGM. George Antheil era um compositor que escrevia música para 16 pianolas. Juntos, pensaram num jeito de guiar torpedos por rádio sem que o inimigo embaralhasse o sinal: pular de frequência o tempo todo, com os dois lados sincronizados. A Marinha achou o mecanismo pesado demais. Nos anos 1950, outros engenheiros refizeram a ideia com eletrônica, e ela ganhou o nome de espectro espalhado. A patente já tinha expirado quando a ideia virou produto.\n\nQue invenção do seu dia a dia você acha que foi recusada antes de dar certo?\n\n—\nFontes no último slide.\n\n#hedylamarr #historiadatecnologia #bluetooth #wifi #radio #invencao #ciencia #mulheresnaciencia"
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "celular-sem-internet",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/celular-sem-internet-1.jpg",
+      "title": "Duas semanas sem internet no celular. O que mudou?",
+      "dek": "Pesquisadores sortearam centenas de pessoas, bloquearam a internet do celular de metade delas e mediram atenção, humor e saúde mental antes e depois. O resultado tem números e tem limites.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi testado, e com quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "PNAS Nexus, 18 de fevereiro de 2025. Revisado por pares."
+        },
+        {
+          "k": "Autores",
+          "v": "Noah Castelo (Univ. de Alberta), Kostadin Kushlev (Georgetown), Adrian Ward (Univ. do Texas), Michael Esterman (Univ. de Boston) e Peter Reiner (Univ. da Columbia Britânica)"
+        },
+        {
+          "k": "Participantes",
+          "v": "467 adultos dos EUA e do Canadá, idade média de 32 anos, 63% mulheres. Só usuários de iPhone."
+        },
+        {
+          "k": "Desenho",
+          "v": "Sorteio em dois grupos. Um bloqueou a internet do celular por 2 semanas; o outro esperou e bloqueou nas 2 semanas seguintes."
+        },
+        {
+          "k": "O que ficava",
+          "v": "Ligações, SMS e a internet do computador. O app Freedom cortava Wi‑Fi e dados móveis no celular."
+        },
+        {
+          "k": "Medidas",
+          "v": "Teste de atenção sustentada no computador, questionário de saúde mental (depressão, ansiedade, raiva) e de bem-estar."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O resultado-manchete",
+      "big": "91",
+      "unit": "%",
+      "label": "dos participantes melhoraram em pelo menos uma das três medidas: atenção, saúde mental ou bem-estar",
+      "body": [
+        "O número exato é 90,7%. É uma régua generosa: basta melhorar em uma de três coisas para contar. A próxima página mostra o tamanho médio de cada efeito, que é a parte que importa."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Tamanho dos efeitos",
+      "heading": "Saúde mental melhorou mais. Atenção, menos.",
+      "bars": [
+        {
+          "name": "Saúde mental",
+          "value": 57,
+          "label": "0,57"
+        },
+        {
+          "name": "Bem-estar",
+          "value": 46,
+          "label": "0,46"
+        },
+        {
+          "name": "Atenção sustentada",
+          "value": 24,
+          "label": "0,24"
+        }
+      ],
+      "note": "Grupo que bloqueou primeiro, antes vs. depois das 2 semanas. Os números são ==d==, o tamanho de efeito: a mudança média dividida pela variação natural entre pessoas. O segundo grupo repetiu o padrão quando chegou a sua vez.",
+      "body": [
+        "Segundo os autores, a melhora na atenção equivale a desfazer cerca de 10 anos de declínio ligado à idade. O efeito sobre sintomas de depressão foi maior que a média dos estudos com antidepressivos, mas eles mesmos avisam: a amostra não era de pacientes."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Tempo de tela",
+      "heading": "O celular foi usado quase metade do tempo",
+      "cells": [
+        {
+          "big": "5h14",
+          "label": "por dia, antes",
+          "text": "Média do grupo que bloqueou primeiro, medida por capturas de tela do próprio iPhone."
+        },
+        {
+          "big": "2h41",
+          "label": "por dia, durante o bloqueio",
+          "text": "Sem internet, sobraram ligações, mensagens e o que já estava baixado."
+        }
+      ],
+      "body": [
+        "Duas semanas depois do fim do bloqueio, o tempo voltou a 4h25 por dia. Parte do hábito voltou junto."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para onde foi o tempo",
+      "heading": "Mais gente, mais rua, mais sono",
+      "photo": "fotos/celular-sem-internet-2.jpg",
+      "caption": "Foto: Samuell Morgenstern / Unsplash",
+      "body": [
+        "Os participantes relataram mais tempo com pessoas ao vivo, exercício, natureza, hobbies e leitura, e menos consumo de mídia. Mensagens e e-mails não mudaram. Autocontrole e sensação de conexão social subiram; o sono, um pouco.",
+        "Essas mudanças explicam parte do ganho em humor e saúde mental. ==Não explicam o ganho de atenção.== Por que a atenção melhorou, o estudo não sabe dizer."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Limites",
+      "heading": "O que o estudo não prova",
+      "nocheck": [
+        "**Que vale para todo mundo.** Os voluntários queriam usar menos o celular. Dos 467, só 119 cumpriram o bloqueio por pelo menos 10 dos 14 dias.",
+        "**Que não é efeito placebo.** Os autores admitem que a expectativa de melhorar pode ter contribuído para o resultado.",
+        "**Que o efeito dura meses.** A última medição foi duas semanas após o fim do bloqueio, e parte dos ganhos já tinha diminuído. Quem completou o estudo tinha atenção e saúde mental melhores do que quem desistiu."
+      ],
+      "after": [
+        "Mesmo quem não cumpriu o bloqueio inteiro melhorou um pouco, escreveram os autores. E quem bloqueou tudo perdeu também o que a internet no celular tem de útil."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas que sobrevivem à leitura crítica",
+      "check": [
+        "**Houve sorteio e grupo de comparação.** Isso permite falar em causa, e não só em correlação. É raro nesse tema.",
+        "**Os efeitos são de pequenos a médios.** O maior foi em saúde mental; o menor, em atenção. Nada de milagre.",
+        "**O corte foi na internet, não no celular.** Ligações e mensagens continuaram. Foi isso que tornou o teste possível na vida real."
+      ],
+      "after": [
+        "Adrian Ward, um dos autores, resumiu a pergunta do estudo à ZME Science: somos adaptados a viver conectados a tudo o tempo todo? \"Os dados sugerem que não\", disse ele (tradução nossa)."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Castelo, Kushlev, Ward, Esterman e Reiner — PNAS Nexus, 18 fev. 2025",
+          "what": "\"Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being\": desenho, amostra, efeitos, tempo de tela e limitações"
+        },
+        {
+          "who": "Psychiatrist.com, 2025",
+          "what": "Cobertura do estudo: adesão ao bloqueio, mudanças de rotina, citação dos autores sobre quem não cumpriu"
+        },
+        {
+          "who": "ZME Science, 20 fev. 2025",
+          "what": "Entrevista com Adrian Ward (Univ. do Texas em Austin)"
+        },
+        {
+          "who": "Fotos",
+          "what": "Sheng Hu e Samuell Morgenstern, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Quem bloqueou a internet do celular por duas semanas melhorou em humor, saúde mental e atenção. Mas só um em cada quatro aguentou o bloqueio inteiro.\n\nO estudo saiu na PNAS Nexus em fevereiro de 2025 e tem o que a maioria das pesquisas sobre celular não tem: sorteio e grupo de comparação. Ligações e mensagens continuaram funcionando; só a internet do aparelho foi cortada. Os efeitos médios foram de pequenos a médios, e os próprios autores listam os limites: voluntários motivados, possível efeito placebo e um quarto de adesão completa.\n\nVocê aguentaria duas semanas com o celular só para ligar e mandar mensagem?\n\n—\nFontes no último slide.\n\n#celular #atencao #saudemental #ciencia #estudo #tecnologia #bemestar #tempodetela"
+}
