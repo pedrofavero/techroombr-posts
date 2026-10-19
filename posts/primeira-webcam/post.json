@@ -1,0 +1,159 @@
+{
+  "slug": "primeira-webcam",
+  "categoria": "CURIOSIDADE",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/primeira-webcam-1.jpg",
+      "title": "A primeira webcam do mundo vigiava uma cafeteira",
+      "dek": "Cambridge, 1991. Quinze pesquisadores, uma cafeteira no corredor e uma câmera para saber se valia a pena descer a escada. A imagem ficou dez anos no ar.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Café frio no fim da escada",
+      "photo": "fotos/primeira-webcam-3.jpg",
+      "caption": "Foto: Dan Counsell / Unsplash",
+      "body": [
+        "Em 1991, cerca de quinze pesquisadores do Laboratório de Computação da Universidade de Cambridge dividiam uma única cafeteira de filtro, no corredor em frente à sala chamada Trojan Room.",
+        "Quem trabalhava em outros andares subia vários lances de escada e, muitas vezes, achava a jarra vazia: os vizinhos da sala chegavam antes. Quentin Stafford-Fraser e Paul Jardetzky resolveram do jeito deles: **apontaram uma câmera para a cafeteira**."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O sistema XCoffee",
+      "heading": "Uma câmera, um computador ocioso e um dia de trabalho",
+      "cells": [
+        {
+          "big": "1",
+          "unit": " dia",
+          "label": "para montar o sistema",
+          "text": "Câmera num suporte de laboratório, cabos sob o piso até uma placa de captura num computador de testes que ninguém usava."
+        },
+        {
+          "big": "3",
+          "unit": " por minuto",
+          "label": "atualizações da imagem",
+          "text": "Foto em tons de cinza, do tamanho de um ícone, num canto da tela. Jardetzky escreveu o programa que capturava; Stafford-Fraser, o que exibia."
+        }
+      ],
+      "body": [
+        "Segundo Stafford-Fraser, a lentidão não incomodava: a jarra enche devagar. O sistema ganhou o nome de XCoffee e, em janeiro de 1992, virou coluna de Bob Metcalfe na publicação Comm Week, depois de uma visita ao laboratório."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funcionava",
+      "heading": "Da jarra à tela em quatro passos",
+      "steps": [
+        {
+          "title": "A câmera filma a cafeteira",
+          "text": "Montada num suporte, ela ficava apontada para a jarra no corredor. Mais tarde, uma lâmpada pequena passou a iluminar a cafeteira à noite."
+        },
+        {
+          "title": "Uma placa captura um quadro",
+          "text": "Os cabos corriam sob o piso até uma placa de captura de vídeo (frame grabber), que transforma a imagem da câmera em um arquivo digital."
+        },
+        {
+          "title": "Um programa serve a imagem",
+          "text": "O servidor, escrito por Jardetzky, guardava a foto em vários tamanhos e a entregava a quem pedisse pela rede local."
+        },
+        {
+          "title": "Outro programa mostra na tela",
+          "text": "O cliente XCoffee, de Stafford-Fraser, exibia a cafeteira num canto do monitor. Bastava olhar antes de descer a escada."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Dez anos no ar",
+      "heading": "De rede interna a atração mundial",
+      "items": [
+        {
+          "when": "1991",
+          "what": "Stafford-Fraser e Jardetzky montam o XCoffee na rede interna do laboratório."
+        },
+        {
+          "when": "jan. 1992",
+          "what": "Bob Metcalfe escreve sobre a cafeteira na Comm Week."
+        },
+        {
+          "when": "nov. 1993",
+          "what": "Navegadores passam a exibir imagens. Daniel Gordon e Martyn Johnson põem a foto da cafeteira na web, para qualquer pessoa ver. Depois, ela passa a atualizar **a cada segundo**."
+        },
+        {
+          "when": "nov. 1994",
+          "what": "A BBC Radio Cambridgeshire faz uma reportagem sobre o serviço."
+        },
+        {
+          "when": "22 ago. 2001",
+          "what": "Às 9h54 (UTC), a câmera é desligada. O laboratório se muda para o prédio William Gates. A cafeteira já tinha sido vista por **milhões de pessoas**, segundo a MIT Technology Review."
+        },
+        {
+          "when": "2016",
+          "what": "A cafeteira passa a ser exibida no Heinz Nixdorf MuseumsForum, museu de computação em Paderborn, na Alemanha."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O leilão",
+      "big": "3.350",
+      "unit": " libras",
+      "label": "por uma cafeteira quebrada, no eBay, em 2001",
+      "body": [
+        "A última jarra vista pela câmera, uma Krups de 10 xícaras em serviço desde 1997, foi vendida pelo clube do café do laboratório. O anúncio avisava: a máquina estava quebrada, talvez sem conserto. Os donos esperavam algumas centenas de libras.",
+        "Quem levou foi o Spiegel Online, site da revista alemã Der Spiegel. Funcionários da Krups consertaram a máquina de graça, e ela voltou a funcionar na redação, de novo diante de uma câmera."
+      ],
+      "display": "sans"
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no café",
+      "body": [
+        "Stafford-Fraser resumiu o legado em 1995: \"I don't think the coffee's any better, though\" (não acho que o café tenha melhorado, porém)."
+      ],
+      "check": [
+        "**A primeira webcam nasceu de um problema banal.** O objetivo era poupar lances de escada, não criar uma tecnologia. A imagem era cinza e mudava três vezes por minuto.",
+        "**A internet veio depois.** O XCoffee rodou dois anos só na rede interna. Em 1993, quando os navegadores passaram a exibir imagens, a cafeteira foi para a web.",
+        "**O objeto virou peça de museu.** Vendida por 3.350 libras em 2001, a cafeteira hoje está exposta num museu de computação na Alemanha."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Quentin Stafford-Fraser, Univ. de Cambridge, maio 1995",
+          "what": "\"The Trojan Room Coffee Pot: a (non-technical) biography\": 1991, quinze pesquisadores, placa de captura, três atualizações por minuto, um dia de montagem, Metcalfe na Comm Week, revival por Gordon e Johnson"
+        },
+        {
+          "who": "Laboratório de Computação de Cambridge (cl.cam.ac.uk/coffee)",
+          "what": "Página original do serviço: um quadro por segundo, lâmpada noturna, reportagem da BBC Radio Cambridgeshire em 11 nov. 1994"
+        },
+        {
+          "who": "MIT Technology Review, 1 jun. 2001",
+          "what": "\"Coffee Cam\": milhões de visitantes, mudança do laboratório, retirada do ar"
+        },
+        {
+          "who": "The Register, 13 ago. 2001; Guinness World Records",
+          "what": "Leilão no eBay por £ 3.350, Krups de 10 xícaras desde 1997, comprador Spiegel Online; desligamento às 9h54 UTC de 22 ago. 2001"
+        },
+        {
+          "who": "Heinz Nixdorf MuseumsForum (museum-digital); Wikipedia",
+          "what": "Krups ProAroma, 10.452,70 marcos, exposição desde 2016; web em nov. 1993 por Gordon e Johnson; conserto pela Krups"
+        },
+        {
+          "who": "Fotos",
+          "what": "Amirhossein Soltani e Dan Counsell, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Antes de existir a palavra webcam, já existia uma câmera transmitindo imagens de uma cafeteira para pesquisadores que não queriam descer a escada à toa.\n\nO XCoffee nasceu em 1991 na Universidade de Cambridge, rodou dois anos só na rede interna e foi parar na web em 1993, quando os navegadores passaram a exibir imagens. Milhões de pessoas no mundo abriram a página para ver uma jarra de café em preto e branco. Em 2001, a cafeteira quebrada foi leiloada por 3.350 libras e hoje está num museu na Alemanha.\n\nQual coisa boba do seu trabalho você automatizaria se tivesse uma câmera sobrando?\n\n—\nFontes no último slide.\n\n#webcam #historiadainternet #curiosidade #cambridge #tecnologia #cafe #internet"
+}

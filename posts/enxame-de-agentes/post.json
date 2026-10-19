@@ -1,0 +1,154 @@
+{
+  "slug": "enxame-de-agentes",
+  "categoria": "CONVERSA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/enxame-de-agentes-1.jpg",
+      "title": "10 mil agentes, 88 horas, US$ 1 milhão. Quem fez o quê?",
+      "dek": "Em setembro, a OpenAI disse que um enxame de agentes de IA resolveu um dos sete Problemas do Milênio. O pesquisador da empresa que cuida desses agentes diz que o enxame merece menos de 10% do crédito.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O anúncio",
+      "heading": "O que a OpenAI afirmou em 8 de setembro",
+      "rows": [
+        {
+          "k": "Problema",
+          "v": "Navier-Stokes, um dos sete Problemas do Milênio do Instituto Clay (US$ 1 milhão, desde 2000)"
+        },
+        {
+          "k": "Sistema",
+          "v": "Modelo interno, não lançado, em cerca de **10 mil agentes** em paralelo"
+        },
+        {
+          "k": "Tempo",
+          "v": "88 horas, de 1º a 5 de setembro; cerca de 130 bilhões de tokens (pedaços de texto)"
+        },
+        {
+          "k": "Verificação",
+          "v": "Prova formalizada em Lean, software que checa cada passo lógico, em mais 17 horas"
+        },
+        {
+          "k": "Custo",
+          "v": "\"Vários milhões de dólares\" (Sébastien Bubeck, OpenAI)"
+        },
+        {
+          "k": "Prêmio",
+          "v": "A empresa diz que **não vai reivindicar** o US$ 1 milhão"
+        }
+      ],
+      "body": [
+        "Tudo acima é ==alegação da empresa==, que publicou artigo, prova em Lean e repositório público. A revisão humana independente ainda está em curso."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "A água pode \"explodir\" na matemática?",
+      "photo": "fotos/enxame-de-agentes-2.jpg",
+      "caption": "Foto: Tra Nguyen / Unsplash",
+      "body": [
+        "As equações de Navier-Stokes descrevem como fluidos se movem: água no cano, ar em volta do avião, sangue nas veias. A pergunta aberta desde 2000: partindo de um fluido suave e bem comportado, a solução continua suave para sempre?",
+        "A OpenAI diz que não. Seu modelo teria achado uma **singularidade**: um ponto em que a velocidade cresce sem limite em tempo finito. Nenhum rio faz isso; fluidos reais são feitos de moléculas, não de um contínuo perfeito. O interesse é matemático."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A frase",
+      "text": "Eu não atribuiria nem 10% do crédito ao multiagente.",
+      "who": "Noam Brown, pesquisador da OpenAI, no Dwarkesh Podcast, 17 set. 2026 (tradução livre)",
+      "body": [
+        "Brown trabalha justamente com sistemas de vários agentes e ajudou a criar os modelos de raciocínio da empresa. Para ele, a razão de o resultado existir é outra: \"temos um modelo muito forte e de uso geral\". O enxame, diz, recebe crédito desproporcional por ser a parte chamativa.",
+        "É a opinião de um pesquisador da própria OpenAI, não uma medição."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "Como o enxame trabalha",
+      "heading": "Mais agentes: mais rápido, não mais barato",
+      "svg": "<svg viewBox='0 0 900 400' fill='none' stroke='currentColor' stroke-width='2'><g font-size='20' fill='currentColor' stroke='none' opacity='.9'><text x='60' y='40' font-weight='700'>1 agente</text><text x='500' y='40' font-weight='700'>4 agentes</text><text x='60' y='262'>tempo: 1x</text><text x='60' y='300'>custo: 1x</text><text x='500' y='262'>tempo: cerca de metade</text><text x='500' y='300'>custo: cerca de 2x</text></g><rect x='60' y='70' width='80' height='80' rx='6'/><rect x='500' y='80' width='60' height='60' rx='6'/><rect x='590' y='80' width='60' height='60' rx='6'/><rect x='680' y='80' width='60' height='60' rx='6'/><rect x='770' y='80' width='60' height='60' rx='6'/><g stroke-dasharray='5 6' opacity='.6'><line x1='560' y1='110' x2='590' y2='110'/><line x1='650' y1='110' x2='680' y2='110'/><line x1='740' y1='110' x2='770' y2='110'/></g><g fill='var(--accent)' stroke='none'><rect x='60' y='200' width='340' height='26' rx='4'/><rect x='500' y='200' width='170' height='26' rx='4'/></g><g stroke='var(--accent)' opacity='.5' stroke-dasharray='4 6'><line x1='400' y1='160' x2='400' y2='240'/><line x1='670' y1='160' x2='670' y2='240'/></g><g font-size='20' fill='currentColor' stroke='none' opacity='.7'><text x='500' y='352'>tracejado: mensagens entre agentes</text></g></svg>",
+      "caption": "Segundo Brown, nos testes da OpenAI 4 agentes terminam em cerca de metade do tempo e custam cerca de 2 vezes mais. Com 16, o ganho continua, menos eficiente.",
+      "body": [
+        "Cada agente recebe uma ferramenta: mandar mensagem a outro agente, que entra no contexto dele. Eles decidem sozinhos como se coordenar. O risco, diz Brown, é cair num **mínimo local**: todos resolvem o problema por conta própria, sem dividir trabalho.",
+        "Brown admite que a ciência sobre 10 mil agentes é fraca. Testar nessa escala custa caro demais para saber o que 10 mil ganharam em relação a mil."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "O contraponto",
+      "heading": "Quem mais estava nessa corrida",
+      "a": {
+        "title": "O que a OpenAI reconhece",
+        "lines": [
+          "O trabalho começou em 1º de setembro, depois de rumores de que outros pesquisadores estavam perto de um avanço.",
+          "A prioridade sobre as equações de Euler em 3D, problema vizinho, é de Tristan Buckmaster (NYU) e Levent Alpöge (Anthropic), anunciado 12 horas antes.",
+          "Não pode descartar por completo um elo indireto via dados de uso de seus produtos, embora o considere improvável."
+        ]
+      },
+      "b": {
+        "title": "O que outros apontam",
+        "lines": [
+          "Buckmaster pergunta em público se a OpenAI seguiu uma direção aprendida com o trabalho não publicado dele. A empresa nega.",
+          "Os dois times de IA se apoiaram no método de dois matemáticos humanos: Diego Córdoba e Luis Martínez-Zoroa, publicado em 2023.",
+          "Charles Fefferman, autor do enunciado oficial do problema, disse à Quanta que ficou feliz com a solução."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ainda não está estabelecido",
+      "heading": "Três perguntas em aberto",
+      "bullets": [
+        "**A prova vale para o enunciado do prêmio?** O código em Lean foi checado por máquina. Falta a confirmação humana de que o que foi provado é exatamente o problema proposto pelo Instituto Clay, que ainda lista o problema como \"ativo\".",
+        "**Quanto os 10 mil agentes acrescentaram?** Nem a OpenAI sabe. Brown diz que é muito difícil medir o benefício de usar 10 mil agentes em vez de mil.",
+        "**De quem são as ideias?** A disputa entre OpenAI, Buckmaster e Alpöge sobre prioridade e influência segue em curso. Segundo a Quanta, esclarecer isso \"vai levar algum tempo\"."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**\"Enxame de agentes\" é um jeito de pensar em paralelo.** Vários agentes dividem o tempo de raciocínio. Ganham velocidade; pagam em computação.",
+        "**Para quem fez, o herói foi o modelo base.** Noam Brown, da OpenAI, dá ao multiagente menos de 10% do crédito pelo resultado.",
+        "**Resolvido ainda não é verificado.** A prova passou pela checagem de máquina. A checagem humana do enunciado e a disputa de crédito continuam."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Dwarkesh Podcast, 17 set. 2026",
+          "what": "Episódio com Noam Brown (OpenAI), transcrição completa em dwarkesh.com/p/noam-brown: \"menos de 10% do crédito\", ferramenta de mensagens, mínimo local, 4 e 16 agentes, ciência fraca em 10 mil"
+        },
+        {
+          "who": "Quanta Magazine, 8 set. 2026",
+          "what": "\"AI Has Solved One of Math's $1 Million Millennium Prize Problems\": 10 mil agentes, 88 horas, Lean em 17 horas, custo (Bubeck), Fefferman, Córdoba e Martínez-Zoroa, Buckmaster e Alpöge, caveats"
+        },
+        {
+          "who": "Axios, 8 set. 2026",
+          "what": "Disputa de crédito: alegações de Buckmaster, resposta da OpenAI sobre dados de uso, início em 1º de setembro, prêmio não reivindicado"
+        },
+        {
+          "who": "The Next Web, set. 2026",
+          "what": "Artigo, prova em Lean e repositório públicos; 1º a 5 de setembro; 130 bilhões de tokens; prioridade de Euler cedida a Buckmaster e Alpöge"
+        },
+        {
+          "who": "Wikipedia, \"Navier–Stokes existence and smoothness\" (cita Clay Institute, NYT, Scientific American)",
+          "what": "Problema proposto em 2000, US$ 1 milhão; definição de singularidade; Clay lista o problema como ativo"
+        },
+        {
+          "who": "Fotos",
+          "what": "Vadim Sadovski e Tra Nguyen, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Quando 10 mil agentes de IA aparecem na manchete, a tentação é imaginar uma colmeia pensante. Quem construiu o sistema descreve algo mais simples: muitas cópias de um modelo forte trabalhando em paralelo, com uma ferramenta de mensagens para se coordenar.\n\nNoam Brown, da OpenAI, disse ao Dwarkesh Podcast que o enxame merece menos de 10% do crédito pelo resultado sobre Navier-Stokes. Rodar 4 agentes em vez de 1 corta o tempo pela metade, mas dobra o custo. E ninguém mediu o que 10 mil fizeram a mais do que mil. Enquanto isso, matemáticos discutem quem chegou primeiro e quanto a ideia humana de 2023 pesou no resultado.\n\nSe você fosse o Instituto Clay, daria o prêmio para uma prova checada por máquina?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #matematica #openai #navierstokes #agentesdeia #ciencia #tecnologia"
+}

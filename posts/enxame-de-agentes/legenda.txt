@@ -1,0 +1,10 @@
+Quando 10 mil agentes de IA aparecem na manchete, a tentação é imaginar uma colmeia pensante. Quem construiu o sistema descreve algo mais simples: muitas cópias de um modelo forte trabalhando em paralelo, com uma ferramenta de mensagens para se coordenar.
+
+Noam Brown, da OpenAI, disse ao Dwarkesh Podcast que o enxame merece menos de 10% do crédito pelo resultado sobre Navier-Stokes. Rodar 4 agentes em vez de 1 corta o tempo pela metade, mas dobra o custo. E ninguém mediu o que 10 mil fizeram a mais do que mil. Enquanto isso, matemáticos discutem quem chegou primeiro e quanto a ideia humana de 2023 pesou no resultado.
+
+Se você fosse o Instituto Clay, daria o prêmio para uma prova checada por máquina?
+
+—
+Fontes no último slide.
+
+#inteligenciaartificial #matematica #openai #navierstokes #agentesdeia #ciencia #tecnologia
