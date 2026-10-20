@@ -6,8 +6,9 @@ set -euo pipefail
 repo="pedrofavero/techroombr-posts"; here=$(cd "$(dirname "$0")/.." && pwd)
 tmp=$(mktemp -d); cd "$tmp"; git init -q -b reels-inbox
 git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+mkdir -p .github/workflows && cp "$here/.github/workflows/reels.yml" .github/workflows/
 for slug in "$@"; do cp "$here/posts/$slug/reel.mp4" "$slug.mp4"; cp "$here/posts/$slug/reel_cover.jpg" "$slug.jpg"; done
-git add . && git commit -qm "reels: $*" && git push -q -f "https://github.com/$repo" reels-inbox
+git add . && git commit -qm "reels: $*" && git push -q -f "https://github.com/$repo" reels-inbox 2>&1 | grep -v -e "^remote:" -e "negotiation" -e "acknowledgments" || true
 cd "$here"; rm -rf "$tmp"
 for slug in "$@"; do
   url="https://github.com/$repo/releases/download/reels/$slug.mp4"
