@@ -1,0 +1,82 @@
+name: videos
+
+# Busca b-roll no Pexels para cada pedido em fila-video/<nome>.txt
+# (linha 1: termos de busca em inglês; linha 2 opcional: portrait|landscape),
+# envia o clipe como asset da release "clips" e grava videos/<nome>.json com crédito e URL.
+# Precisa do secret PEXELS_API_KEY (Settings → Secrets and variables → Actions).
+
+on:
+  push:
+    paths:
+      - "fila-video/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videos
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Garantir release "clips"
+        run: gh release view clips >/dev/null 2>&1 || gh release create clips --title "Clipes de b-roll (Pexels)" --notes "Clipes baixados automaticamente do Pexels para os reels. Créditos em videos/*.json."
+
+      - name: Buscar e enviar clipes
+        run: |
+          set -e
+          if [ -z "$PEXELS_API_KEY" ]; then echo "PEXELS_API_KEY ausente"; exit 1; fi
+          mkdir -p videos
+          shopt -s nullglob
+          for f in fila-video/*.txt; do
+            name=$(basename "$f" .txt)
+            [ -s "videos/$name.json" ] && { echo "ja existe: $name"; continue; }
+            query=$(sed -n 1p "$f" | tr -d '\r')
+            orient=$(sed -n 2p "$f" | tr -d '\r'); orient=${orient:-portrait}
+            echo "buscando: $name — $query ($orient)"
+            curl -fsS -H "Authorization: $PEXELS_API_KEY" \
+              "https://api.pexels.com/videos/search?query=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))" "$query")&orientation=$orient&size=medium&per_page=15" > /tmp/$name.json
+            python3 - "$name" "$query" <<'PY'
+          import json, sys, urllib.request, shutil
+          name, query = sys.argv[1], sys.argv[2]
+          d = json.load(open(f"/tmp/{name}.json"))
+          best = None
+          for v in d.get("videos", []):
+              if not (5 <= v.get("duration", 0) <= 60): continue
+              files = [x for x in v.get("video_files", []) if x.get("file_type") == "video/mp4" and x.get("height") and x.get("width")]
+              files = [x for x in files if max(x["width"], x["height"]) <= 2160 and min(x["width"], x["height"]) >= 720]
+              if not files: continue
+              f = max(files, key=lambda x: min(x["width"], x["height"]))
+              best = (v, f); break
+          if not best:
+              print("nenhum clipe adequado para", query); open(f"videos/{name}.json", "w").write(json.dumps({"query": query, "error": "sem resultado"}, ensure_ascii=False)); sys.exit(0)
+          v, f = best
+          with urllib.request.urlopen(urllib.request.Request(f["link"], headers={"User-Agent": "techroombr"})) as r, open(f"/tmp/{name}.mp4", "wb") as o:
+              shutil.copyfileobj(r, o)
+          meta = {"query": query, "pexels_url": v["url"], "user_name": v["user"]["name"], "user_url": v["user"]["url"],
+                  "duration": v["duration"], "width": f["width"], "height": f["height"], "preview": v.get("image"),
+                  "asset_url": f"https://github.com/${{ github.repository }}/releases/download/clips/{name}.mp4"}
+          json.dump(meta, open(f"videos/{name}.json", "w"), ensure_ascii=False, indent=2)
+          PY
+            if [ -s "/tmp/$name.mp4" ]; then gh release upload clips "/tmp/$name.mp4" --clobber; fi
+          done
+
+      - name: Commit
+        run: |
+          git config user.name "techroom-bot"
+          git config user.email "bot@techroombr.local"
+          git add videos
+          git diff --cached --quiet && { echo "nada novo"; exit 0; }
+          git commit -m "videos: busca automatica no Pexels"
+          git pull --rebase origin main
+          git push origin HEAD:main

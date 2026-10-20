@@ -1,0 +1,16 @@
+{
+  "slug": "primeira-webcam",
+  "display": "serif",
+  "accent": "#E8A7A0",
+  "scenes": [
+    {"media": "fotos/primeira-webcam-1.jpg", "dur": 5, "big": true, "kicker": "Curiosidade", "text": "A primeira webcam do mundo vigiava uma ==cafeteira==", "credit": "Foto: Amirhossein Soltani / Unsplash"},
+    {"media": "fotos/primeira-webcam-3.jpg", "dur": 5, "kicker": "Cambridge, 1991", "text": "Quinze pesquisadores. Uma cafeteira no corredor. E vários lances de escada para descobrir que a jarra estava **vazia**.", "credit": "Foto: Dan Counsell / Unsplash"},
+    {"media": "fotos/primeira-webcam-2.jpg", "dur": 5, "kicker": "A solução", "text": "Dois deles apontaram uma câmera para a jarra. A imagem, em preto e branco, aparecia num canto da tela. ==Três atualizações por minuto.==", "credit": "Foto: Behnam Norouzi / Unsplash"},
+    {"media": "fotos/primeira-webcam-1.jpg", "dur": 4, "big": true, "kicker": "A virada", "text": "1993: a cafeteira vai para a ==web=="},
+    {"media": "fotos/primeira-webcam-3.jpg", "dur": 5, "text": "Os navegadores tinham acabado de aprender a mostrar imagens. ==Milhões de pessoas== abriram a página para ver uma jarra de café."},
+    {"media": "fotos/primeira-webcam-2.jpg", "dur": 4, "big": true, "kicker": "2001", "text": "Vendida quebrada no eBay por ==3.350 libras=="},
+    {"media": "fotos/primeira-webcam-1.jpg", "dur": 5, "kicker": "O que ficou", "text": "Hoje ela está num museu de computação na Alemanha. E, segundo o criador, **o café não melhorou**."},
+    {"media": "fotos/primeira-webcam-3.jpg", "dur": 4, "big": true, "align": "center", "kicker": "Fontes no post", "text": "A história completa está no carrossel de hoje. ==@techroombr=="}
+  ],
+  "legenda": "Antes de existir a palavra webcam, uma câmera em Cambridge já transmitia a imagem de uma cafeteira para quem não queria descer a escada à toa. Dez anos no ar, milhões de visitas, um leilão e um museu.\n\nA história completa, com fontes, está no carrossel de hoje.\n\n—\n#webcam #historiadainternet #curiosidade #tecnologia #cambridge"
+}
