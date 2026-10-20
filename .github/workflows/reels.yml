@@ -1,0 +1,34 @@
+name: reels
+
+# Recebe reels renderizados pelo branch órfão "reels-inbox" (enviado por engine/upload_reel.sh)
+# e os publica como assets da release "reels", com URL pública estável para o Metricool.
+
+on:
+  push:
+    branches: ["reels-inbox"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: reels-inbox
+
+      - name: Garantir release "reels"
+        run: gh release view reels >/dev/null 2>&1 || gh release create reels --title "Reels renderizados" --notes "Vídeos finais dos reels do @techroombr. Roteiros e créditos em posts/<slug>/reel.json (branch main)."
+
+      - name: Enviar arquivos
+        run: |
+          shopt -s nullglob
+          for f in *.mp4 *.jpg; do gh release upload reels "$f" --clobber; echo "enviado: $f"; done
