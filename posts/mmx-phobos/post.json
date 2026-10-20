@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/mmx-phobos-1.jpg",
       "title": "Uma sonda japonesa vai buscar 10 gramas de uma lua de Marte",
-      "dek": "A MMX decolou nesta segunda-feira. Se tudo der certo, em 2031 um pedaço de Fobos pousa no deserto da Austrália. Nenhuma missão voltou do sistema de Marte com material.",
+      "dek": "A MMX decolou nesta segunda-feira (madrugada de terça no Japão). Se tudo der certo, em 2031 um pedaço de Fobos pousa no deserto da Austrália. Nenhuma missão voltou do sistema de Marte com material.",
       "swipe": "arraste →"
     },
     {
@@ -48,7 +48,7 @@
         ]
       },
       "body": [
-        "Uma amostra resolve a disputa: se Fobos nasceu de um impacto, pode conter ==material do próprio Marte==. Os dois cenários têm evidências a favor e contra, segundo a JAXA e a Space.com."
+        "Uma amostra resolve a disputa: se Fobos nasceu de um impacto, pode conter ==material do próprio Marte==. Os dois cenários têm evidências a favor e contra, segundo a Space.com."
       ]
     },
     {
@@ -57,7 +57,7 @@
       "heading": "Cinco anos, duas luas, dois pousos",
       "items": [
         { "when": "Out. 2026", "what": "Lançamento. A sonda viaja com três módulos: propulsão, exploração (o que pousa) e retorno." },
-        { "when": "2027", "what": "Chegada a Marte no meio do ano, segundo a ESA. A MMX entra numa órbita ao redor de Fobos para mapear a superfície." },
+        { "when": "2027", "what": "Chegada a Marte por volta de agosto, segundo a Space.com. A MMX entra numa órbita ao redor de Fobos para mapear a superfície." },
         { "when": "2028–2029", "what": "Solta o robô Idefix, feito por França e Alemanha, para explorar o terreno antes do pouso." },
         { "when": "Até 2030", "what": "**Dois pousos** em Fobos para coletar amostras. Depois, passagens próximas por Deimos, sem pousar." },
         { "when": "Nov. 2030", "what": "Partida de volta para a Terra, segundo a Space.com." },
@@ -70,7 +70,7 @@
       "heading": "Pouco material, quase nenhuma gravidade",
       "cells": [
         { "big": "10", "unit": " gramas", "label": "de amostra, no mínimo", "text": "Grãos e pedras da superfície de Fobos, coletados até 2 cm de profundidade, segundo o CNES." },
-        { "big": "15", "unit": " gramas", "label": "peso lá do robô de 25 kg", "text": "A gravidade em Fobos é cerca de 1.800 vezes mais fraca que a da Terra. Dirigir ali é um teste inédito." }
+        { "big": "15", "unit": " gramas", "label": "peso lá do robô de 25 kg", "text": "A gravidade em Fobos é cerca de 1.800 vezes mais fraca que a da Terra. Dirigir ali é um feito único, segundo o CNES." }
       ],
       "body": [
         "Parece pouco. Mas os cientistas vão comparar esse material com rochas de Marte e com asteroides conhecidos, segundo a Space.com, e isso basta para testar as duas hipóteses."
@@ -128,13 +128,13 @@
       "type": "sources",
       "items": [
         { "who": "JAXA, comunicado de 20 ago. 2026 e página da missão MMX", "what": "Data e hora do lançamento, foguete H3 F10, Tanegashima, mínimo de 10 g, módulos, hipóteses sobre a origem das luas, retorno na Austrália" },
-        { "who": "ESA, 20 out. 2026, e ficha técnica da MMX", "what": "Lançamento bem-sucedido às 4h41 JST, chegada a Marte no meio de 2027, massa de 4.200 kg, robô de 25 kg (15 g em Fobos), cápsula de 60 cm, ISAS em Sagamihara, primeiras vezes" },
-        { "who": "Space.com, Josh Dinner, 19 out. 2026", "what": "Separação aos 71 min, dois pousos, Deimos, partida em nov. 2030, 15% para a NASA, US$ 87 milhões, MEGANE, tamanhos de Fobos e Deimos, Phobos-Grunt" },
+        { "who": "ESA, 20 out. 2026, e ficha técnica da MMX", "what": "Lançamento bem-sucedido às 4h41 JST, massa de 4.200 kg, robô de 25 kg (15 g em Fobos), cápsula de 60 cm, ISAS em Sagamihara, primeiras vezes" },
+        { "who": "Space.com, Josh Dinner, 19 out. 2026", "what": "Separação aos 71 min, chegada em agosto de 2027, dois pousos, Deimos, partida em nov. 2030, 15% para a NASA, US$ 87 milhões, MEGANE, tamanhos de Fobos e Deimos, Phobos-Grunt" },
         { "who": "CNES, página do projeto MMX", "what": "Profundidade de 2 cm, gravidade 1.800 vezes menor, robô Idefix, parte da amostra para a França" },
         { "who": "Axios, Alex Fitzpatrick, 19 out. 2026", "what": "Citação de Yasuhiro Kawakatsu à AP; material de Marte em Fobos; Idefix em 2028–2029" },
         { "who": "Fotos (ilustrativas)", "what": "Bill Jelen e Kat Wallace, via Unsplash" }
       ]
     }
   ],
-  "legenda": "A última vez que alguém tentou trazer um pedaço de Fobos, a sonda nem saiu da órbita da Terra. Era russa, em 2011.\n\nA MMX japonesa decolou nesta segunda-feira num foguete H3 e deve chegar a Marte em 2027. O plano é orbitar Fobos, soltar um robô franco-alemão de 25 kg (que lá pesa 15 gramas), pousar duas vezes e voltar com pelo menos 10 gramas de poeira e pedras. A cápsula cai na Austrália em 2031. A pergunta científica por trás de tudo: Fobos é um asteroide capturado ou um destroço de uma colisão com Marte?\n\nVocê acompanharia uma missão de cinco anos ou prefere saber só o resultado?\n\n—\nFontes no último slide.\n\n#marte #fobos #jaxa #espaco #astronomia #noticia #tecnologia"
+  "legenda": "A última vez que alguém tentou trazer um pedaço de Fobos, a sonda nem saiu da órbita da Terra. Era russa, em 2011.\n\nA MMX japonesa decolou nesta segunda-feira, horário de Brasília, num foguete H3 e deve chegar a Marte em 2027. O plano é orbitar Fobos, soltar um robô franco-alemão de 25 kg (que lá pesa 15 gramas), pousar duas vezes e voltar com pelo menos 10 gramas de poeira e pedras. A cápsula cai na Austrália em 2031. A pergunta científica por trás de tudo: Fobos é um asteroide capturado ou um destroço de uma colisão com Marte?\n\nVocê acompanharia uma missão de cinco anos ou prefere saber só o resultado?\n\n—\nFontes no último slide.\n\n#marte #fobos #jaxa #espaco #astronomia #noticia #tecnologia"
 }
