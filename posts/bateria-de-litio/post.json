@@ -1,0 +1,107 @@
+{
+  "slug": "bateria-de-litio",
+  "categoria": "HISTÓRIA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/bateria-de-litio-1.jpg",
+      "title": "A bateria do seu celular nasceu de uma crise do petróleo",
+      "dek": "Nos anos 1970, a Exxon contratou químicos para pesquisar qualquer energia que não fosse petróleo. O primeiro protótipo pegava fogo. Levou 19 anos e três pessoas para a ideia virar produto.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Smog, petróleo finito e uma petroleira preocupada",
+      "photo": "fotos/bateria-de-litio-2.jpg",
+      "caption": "Foto: Maksym Kaharlytskyi / Unsplash",
+      "body": [
+        "Em meados do século 20, os carros a gasolina enchiam as cidades de smog, a mistura de fumaça e neblina, e já se sabia que o petróleo ia acabar. As baterias recarregáveis da época eram duas: a de chumbo, de 1859, pesada, e a de níquel-cádmio.",
+        "A Exxon decidiu contratar pesquisadores para trabalhar com energia, desde que não fosse petróleo. Em 1972, o químico britânico ==Stanley Whittingham== saiu de Stanford para a empresa."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A primeira virada",
+      "heading": "O protótipo que os bombeiros ameaçaram cobrar",
+      "body": [
+        "Whittingham estudava intercalação: íons, átomos com carga elétrica, que se alojam em espaços minúsculos dentro de um sólido. Ele montou uma bateria com um lado de dissulfeto de titânio e o outro de lítio metálico. Funcionava em temperatura ambiente e dava pouco mais de **2 volts**. A chefia da Exxon aprovou a produção numa reunião de uns 15 minutos em Nova York.",
+        "O problema: a cada recarga cresciam fios finos de lítio, que causavam curtos-circuitos, incêndios e explosões. Os bombeiros ameaçaram mandar a conta ao laboratório. Whittingham apresentou o trabalho em 1976, e uma produção pequena abasteceu um relojoeiro suíço. Quando o petróleo barateou, no começo dos anos 1980, a Exxon cortou o projeto."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "A segunda virada",
+      "display": "sans",
+      "big": "4",
+      "unit": " volts",
+      "label": "era o que o óxido de cobalto de John Goodenough entregava em 1980, quase o dobro",
+      "body": [
+        "Goodenough era físico, tinha sido meteorologista do Exército dos EUA na Segunda Guerra e ajudou a criar a primeira memória magnética de acesso aleatório no MIT. Em 1976, virou chefe do laboratório de química inorgânica de Oxford.",
+        "Lá, procurou de forma sistemática um óxido de metal para o lado positivo da bateria. O óxido de cobalto com lítio dentro deu até 4 volts. Ele patenteou a ideia em 1980 e ==abriu mão dos ganhos== para pagar o registro, segundo a IEEE Spectrum."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Uma bateria que não se gasta ao funcionar",
+      "steps": [
+        { "title": "Dois lados, um corredor", "text": "A bateria tem um polo negativo e um positivo, separados por um meio chamado eletrólito, por onde os íons de lítio passam." },
+        { "title": "Descarga", "text": "Quando você usa o celular, os íons de lítio saem do polo negativo (ânodo) e se alojam no positivo (cátodo). É esse fluxo que alimenta o aparelho." },
+        { "title": "Recarga", "text": "Na tomada, o processo inverte: os íons voltam para o polo negativo e ficam guardados ali." },
+        { "title": "Por que dura", "text": "Os íons entram e saem sem reagir quimicamente com o material ao redor. Segundo o comunicado do Nobel, por isso a bateria é leve e aguenta centenas de recargas." }
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A terceira virada",
+      "text": "O momento em que a bateria de íon-lítio nasceu.",
+      "who": "Akira Yoshino, da Asahi Kasei, sobre um teste de 1986 (Fundação Nobel; tradução livre)",
+      "body": [
+        "Yoshino viu que a indústria eletrônica japonesa precisava de baterias leves e recarregáveis. Manteve o óxido de cobalto de Goodenough e, no lado negativo, trocou o lítio puro por coque de petróleo, um material de carbono que sobra da indústria do petróleo e também guarda íons de lítio. Em 1985, a bateria ficou sem lítio metálico.",
+        "No teste de 1986, ele soltou um peso de ferro sobre a bateria nova: nada aconteceu. Numa versão com lítio puro, a explosão foi violenta. Em 1991, a Sony pôs a primeira bateria de íon-lítio à venda, numa filmadora Handycam, segundo a IEEE Spectrum."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De uma crise a um Nobel, em 47 anos",
+      "items": [
+        { "when": "1972", "what": "Whittingham entra na Exxon para pesquisar energia sem petróleo." },
+        { "when": "1976", "what": "Ele apresenta a bateria de lítio de 2 volts. Goodenough chega a Oxford." },
+        { "when": "1980", "what": "Goodenough publica o cátodo de óxido de cobalto, de 4 volts." },
+        { "when": "1985", "what": "Yoshino elimina o lítio metálico da bateria com o coque de petróleo." },
+        { "when": "1991", "what": "A primeira bateria de íon-lítio comercial chega ao mercado no Japão." },
+        { "when": "2019", "what": "Os três dividem o **Nobel de Química**. Goodenough, nascido em 1922, tem 97 anos." },
+        { "when": "2023", "what": "Goodenough morre em 25 de junho, aos 100 anos." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A bateria do celular é filha da crise do petróleo.** A Exxon pagou a pesquisa inicial e a abandonou quando o barril barateou.",
+        "**Foram três pessoas, em três países, ao longo de 19 anos.** Um britânico na Exxon, um professor em Oxford e um japonês na Asahi Kasei. Nenhum fez tudo sozinho.",
+        "**O segredo é não se gastar.** Os íons de lítio entram e saem dos polos sem destruí-los. É isso que permite recarregar centenas de vezes."
+      ],
+      "after": [
+        "Goodenough, que lutou para aprender a ler por causa da dislexia, publicou mais de 800 artigos em cerca de 70 anos de carreira, segundo a IEEE Spectrum."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Fundação Nobel, comunicado do Prêmio Nobel de Química de 2019", "what": "Laureados, anos de nascimento, dissulfeto de titânio e 2 volts, óxido de cobalto e 4 volts em 1980, coque de petróleo em 1985, mercado em 1991, centenas de recargas" },
+        { "who": "Fundação Nobel, \"Popular information\" do Nobel de Química de 2019", "what": "Smog e petróleo finito, baterias de chumbo (1859) e níquel-cádmio, Exxon em 1972, reunião de 15 minutos, incêndios e bombeiros, 1976, relojoeiro suíço, corte da Exxon, teste com peso de ferro em 1986, citação de Yoshino" },
+        { "who": "IEEE Spectrum, Charles J. Murray, 13 jul. 2023", "what": "Biografia de Goodenough: dislexia, meteorologista, memória magnética no MIT, Oxford em 1976, patente de 1980 e renúncia aos ganhos, Sony e Handycam em 1991, 800 artigos, morte em 25 jun. 2023 aos 100 anos" },
+        { "who": "Fotos", "what": "Andreas Haslinger e Maksym Kaharlytskyi, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A Exxon financiou a pesquisa que deu origem à bateria do seu celular e desistiu dela quando o petróleo ficou barato de novo.\n\nStanley Whittingham fez o primeiro protótipo de lítio em 1976, mas ele pegava fogo. John Goodenough, em Oxford, achou em 1980 um material que dobrava a voltagem. Akira Yoshino, no Japão, tirou o lítio metálico da fórmula em 1985 e provou que a bateria aguentava um peso de ferro sem explodir. A Sony lançou o produto em 1991. Os três dividiram o Nobel de Química em 2019, quando Goodenough tinha 97 anos.\n\nQual objeto do seu dia a dia você acha que tem uma história assim por trás?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #bateria #litio #nobel #celular #energia #ciencia"
+}

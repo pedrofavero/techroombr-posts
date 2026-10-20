@@ -1,0 +1,140 @@
+{
+  "slug": "mmx-phobos",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/mmx-phobos-1.jpg",
+      "title": "Uma sonda japonesa vai buscar 10 gramas de uma lua de Marte",
+      "dek": "A MMX decolou nesta segunda-feira. Se tudo der certo, em 2031 um pedaço de Fobos pousa no deserto da Austrália. Nenhuma missão voltou do sistema de Marte com material.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Lançamento às 4h41 da manhã em Tanegashima",
+      "rows": [
+        { "k": "Quem", "v": "JAXA, a agência espacial do Japão, com NASA, ESA, CNES (França) e DLR (Alemanha)" },
+        { "k": "O quê", "v": "Lançou a sonda MMX, de cerca de 4,2 toneladas, rumo às duas luas de Marte" },
+        { "k": "Quando", "v": "20 de outubro de 2026, 4h41 no Japão (16h41 de 19 de outubro em Brasília)" },
+        { "k": "Onde", "v": "Centro Espacial de Tanegashima, Japão" },
+        { "k": "Como", "v": "Foguete H3, no seu décimo voo. A sonda se separou cerca de 71 minutos depois" },
+        { "k": "Fontes", "v": "JAXA, ESA, Space.com" }
+      ],
+      "body": [
+        "MMX significa Martian Moons eXploration: exploração das luas marcianas. A viagem inteira deve levar cinco anos."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Por que Fobos",
+      "heading": "Ninguém sabe de onde vieram as luas de Marte",
+      "a": {
+        "title": "Hipótese 1: asteroides capturados",
+        "lines": [
+          "Fobos (22 km) e Deimos (14 km) são pequenos e irregulares, parecidos com asteroides.",
+          "Teriam vindo de fora e sido presos pela gravidade de Marte."
+        ]
+      },
+      "b": {
+        "title": "Hipótese 2: impacto gigante",
+        "lines": [
+          "As órbitas são quase circulares e alinhadas com o equador de Marte.",
+          "As luas teriam se formado dos destroços de uma colisão, como se pensa sobre a nossa Lua."
+        ]
+      },
+      "body": [
+        "Uma amostra resolve a disputa: se Fobos nasceu de um impacto, pode conter ==material do próprio Marte==. Os dois cenários têm evidências a favor e contra, segundo a JAXA e a Space.com."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O plano",
+      "heading": "Cinco anos, duas luas, dois pousos",
+      "items": [
+        { "when": "Out. 2026", "what": "Lançamento. A sonda viaja com três módulos: propulsão, exploração (o que pousa) e retorno." },
+        { "when": "2027", "what": "Chegada a Marte no meio do ano, segundo a ESA. A MMX entra numa órbita ao redor de Fobos para mapear a superfície." },
+        { "when": "2028–2029", "what": "Solta o robô Idefix, feito por França e Alemanha, para explorar o terreno antes do pouso." },
+        { "when": "Até 2030", "what": "**Dois pousos** em Fobos para coletar amostras. Depois, passagens próximas por Deimos, sem pousar." },
+        { "when": "Nov. 2030", "what": "Partida de volta para a Terra, segundo a Space.com." },
+        { "when": "2031", "what": "A cápsula de amostras desce na Austrália e os 10 gramas vão para o laboratório." }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "Pouco material, quase nenhuma gravidade",
+      "cells": [
+        { "big": "10", "unit": " gramas", "label": "de amostra, no mínimo", "text": "Grãos e pedras da superfície de Fobos, coletados até 2 cm de profundidade, segundo o CNES." },
+        { "big": "15", "unit": " gramas", "label": "peso lá do robô de 25 kg", "text": "A gravidade em Fobos é cerca de 1.800 vezes mais fraca que a da Terra. Dirigir ali é um teste inédito." }
+      ],
+      "body": [
+        "Parece pouco. Mas os cientistas vão comparar esse material com rochas de Marte e com asteroides conhecidos, segundo a Space.com, e isso basta para testar as duas hipóteses."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A volta",
+      "heading": "Uma cápsula de 60 cm no deserto australiano",
+      "photo": "fotos/mmx-phobos-2.jpg",
+      "caption": "Foto: Kat Wallace / Unsplash",
+      "body": [
+        "Em 2031, só o módulo de retorno chega perto da Terra e solta a cápsula, com cerca de 60 cm de diâmetro e um escudo térmico. Ela desce na Austrália e vai para o laboratório do ISAS, em Sagamihara, perto de Tóquio.",
+        "Pelo acordo com a NASA, pelo menos **15% da amostra** vai para o Centro Espacial Johnson, em Houston. A França também recebe uma parte."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Incertezas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "A sonda está a caminho de Marte: o foguete funcionou como previsto, segundo a ESA.",
+          "A NASA investiu cerca de US$ 87 milhões e levou o instrumento MEGANE, que mede raios gama e nêutrons.",
+          "A missão é a primeira a tentar orbitar e pousar em Fobos."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se os dois pousos vão dar certo. Pousar e manobrar com gravidade tão baixa é um dos desafios de engenharia listados pela ESA.",
+          "Qual das duas hipóteses sobre a origem das luas está certa.",
+          "Se o calendário se mantém. Cada etapa depende da anterior."
+        ]
+      },
+      "body": [
+        "Em 2011, a sonda russa Phobos-Grunt tentou o mesmo e nem saiu da órbita da Terra, segundo a Space.com."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Uma sonda japonesa está a caminho de Marte.** Ela vai orbitar Fobos, pousar duas vezes e trazer ao menos 10 gramas de volta em 2031.",
+        "**A pergunta é de onde veio a lua.** Asteroide capturado ou destroço de uma colisão com Marte? A amostra pode responder.",
+        "**É uma primeira vez.** Nenhuma missão voltou do sistema de Marte com material, segundo a ESA. A MMX também deve ser a primeira a orbitar e pousar em Fobos."
+      ],
+      "after": [
+        "\"Elas são conhecidas como as montanhas não escaladas mais importantes do sistema solar\", disse Yasuhiro Kawakatsu, gerente do projeto, à Associated Press (tradução livre)."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "JAXA, comunicado de 20 ago. 2026 e página da missão MMX", "what": "Data e hora do lançamento, foguete H3 F10, Tanegashima, mínimo de 10 g, módulos, hipóteses sobre a origem das luas, retorno na Austrália" },
+        { "who": "ESA, 20 out. 2026, e ficha técnica da MMX", "what": "Lançamento bem-sucedido às 4h41 JST, chegada a Marte no meio de 2027, massa de 4.200 kg, robô de 25 kg (15 g em Fobos), cápsula de 60 cm, ISAS em Sagamihara, primeiras vezes" },
+        { "who": "Space.com, Josh Dinner, 19 out. 2026", "what": "Separação aos 71 min, dois pousos, Deimos, partida em nov. 2030, 15% para a NASA, US$ 87 milhões, MEGANE, tamanhos de Fobos e Deimos, Phobos-Grunt" },
+        { "who": "CNES, página do projeto MMX", "what": "Profundidade de 2 cm, gravidade 1.800 vezes menor, robô Idefix, parte da amostra para a França" },
+        { "who": "Axios, Alex Fitzpatrick, 19 out. 2026", "what": "Citação de Yasuhiro Kawakatsu à AP; material de Marte em Fobos; Idefix em 2028–2029" },
+        { "who": "Fotos (ilustrativas)", "what": "Bill Jelen e Kat Wallace, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A última vez que alguém tentou trazer um pedaço de Fobos, a sonda nem saiu da órbita da Terra. Era russa, em 2011.\n\nA MMX japonesa decolou nesta segunda-feira num foguete H3 e deve chegar a Marte em 2027. O plano é orbitar Fobos, soltar um robô franco-alemão de 25 kg (que lá pesa 15 gramas), pousar duas vezes e voltar com pelo menos 10 gramas de poeira e pedras. A cápsula cai na Austrália em 2031. A pergunta científica por trás de tudo: Fobos é um asteroide capturado ou um destroço de uma colisão com Marte?\n\nVocê acompanharia uma missão de cinco anos ou prefere saber só o resultado?\n\n—\nFontes no último slide.\n\n#marte #fobos #jaxa #espaco #astronomia #noticia #tecnologia"
+}
