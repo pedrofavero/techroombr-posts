@@ -22,7 +22,7 @@ def globe(cx, cy, r, ink, sw=7, meridians=(-0.62, -0.3, 0, 0.3, 0.62), parallels
         s += f'<line x1="{cx-half:.1f}" y1="{y:.1f}" x2="{cx+half:.1f}" y2="{y:.1f}"/>'
     return s + "</g>"
 
-def wordmark(x, y, ink, size=74, sub="TECNOLOGIA EXPLICADA · BRASIL", anchor="middle", tm=True):
+def wordmark(x, y, ink, size=74, sub=None, anchor="middle", tm=True):
     s = (f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-family="Montserrat" font-weight="800" font-size="{size}" '
          f'letter-spacing="{size*0.06:.0f}" fill="{ink}" transform="translate({x},0) scale(1.12,1) translate({-x},0)">TECH ROOM'
          + (f'<tspan font-size="{size*0.3:.0f}" dy="{-size*0.5:.0f}" font-weight="700" letter-spacing="0">™</tspan>' if tm else "") + "</text>")
@@ -37,7 +37,7 @@ def tile(bg, ink, v, W=600):
         # listras saindo para a direita (velocidade), encurtando
         for i, (y, w) in enumerate(((150, 150), (176, 120), (202, 90), (228, 90), (254, 120), (280, 150))):
             s += f'<rect x="{372}" y="{y-6}" width="{w}" height="12" rx="6" fill="{ink}"/>'
-        s += wordmark(300, 408, ink, 58)
+        s += wordmark(300, 420, ink, 60)
     elif v == "B":  # emblema: sala (retângulo arredondado) com globo recortado atrás do nome
         s += f'<rect x="60" y="130" width="480" height="340" rx="28" fill="none" stroke="{ink}" stroke-width="10"/>'
         s += f'<clipPath id="c"><rect x="75" y="145" width="450" height="310" rx="18"/></clipPath>'
@@ -45,7 +45,6 @@ def tile(bg, ink, v, W=600):
         # faixa do nome
         s += f'<rect x="60" y="262" width="480" height="78" fill="{bg}"/>'
         s += f'<text x="300" y="320" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="62" letter-spacing="5" fill="{ink}" transform="translate(300,0) scale(1.12,1) translate(-300,0)">TECH ROOM<tspan font-size="18" dy="-30" letter-spacing="0">™</tspan></text>'
-        s += f'<text x="300" y="505" text-anchor="middle" font-family="Montserrat" font-weight="600" font-size="15" letter-spacing="6" fill="{ink}">TECNOLOGIA EXPLICADA · EST. 2026</text>'
     else:  # sol de listras com uma janela quadrada (a sala) no canto
         cx, cy, r = 300, 210, 120
         for i in range(-5, 6):
@@ -53,7 +52,7 @@ def tile(bg, ink, v, W=600):
             s += f'<rect x="{cx-half:.1f}" y="{y-h/2}" width="{2*half:.1f}" height="{h}" rx="{h/2}" fill="{ink}"/>'
         # janela: quadrado "vazado" sobre o sol, com um ponto
         s += f'<rect x="312" y="190" width="120" height="120" fill="{bg}"/><rect x="330" y="208" width="84" height="84" fill="none" stroke="{ink}" stroke-width="10"/>'
-        s += wordmark(300, 420, ink, 58)
+        s += wordmark(300, 430, ink, 60)
     return s + "</svg>"
 
 def render(html, path, w, h):
