@@ -1,0 +1,178 @@
+{
+  "slug": "exame-sangue-cancer",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/exame-sangue-cancer-1.jpg",
+      "title": "Exame de sangue contra o câncer, testado em 142 mil pessoas",
+      "dek": "O estudo NHS-Galleri, na Inglaterra, mediu se um teste de DNA com aprendizado de máquina reduz diagnósticos tardios. A resposta principal foi não. A secundária é mais interessante.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Um sorteio com 142 mil pessoas",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "142.250 pessoas de 50 a 77 anos, na Inglaterra, sorteadas entre fazer o teste (71.122) ou seguir o cuidado normal do NHS (71.128)"
+        },
+        {
+          "k": "O teste",
+          "v": "Galleri, da empresa GRAIL: lê marcas químicas (metilação) no DNA que circula no sangue e usa aprendizado de máquina para apontar sinal de câncer e o órgão provável"
+        },
+        {
+          "k": "Como",
+          "v": "Três coletas de sangue, uma por ano. Resultado positivo levava ao encaminhamento urgente do NHS"
+        },
+        {
+          "k": "Onde",
+          "v": "New England Journal of Medicine e Nature Medicine, 23 de setembro de 2026"
+        },
+        {
+          "k": "Quem pagou",
+          "v": "A GRAIL, dona do teste. A análise foi feita por estatísticos da Queen Mary University of London e verificada pela empresa"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "display": "sans",
+      "kicker": "O resultado principal",
+      "big": "1,03",
+      "unit": "",
+      "label": "razão de cânceres em estágio 3 ou 4 no grupo testado em relação ao grupo controle: sem diferença significativa",
+      "body": [
+        "A pergunta central era: fazer o teste todo ano reduz os diagnósticos tardios (estágios 3 e 4) de 12 tipos de câncer? Foram 706 casos no grupo testado contra 688 no controle. A diferença é estatisticamente zero.",
+        "Charles Swanton, pesquisador principal: ==\"O desfecho primário não foi atingido.\"=="
+      ]
+    },
+    {
+      "type": "dchart",
+      "display": "sans",
+      "kicker": "O resultado secundário",
+      "heading": "Só no estágio 4 houve queda, e ela cresceu a cada rodada",
+      "scale": 50,
+      "left": "menos casos −50%",
+      "right": "mais casos +50%",
+      "rows": [
+        {
+          "name": "Estágios 3 e 4, total",
+          "value": 3,
+          "label": "+3%",
+          "lo": -8,
+          "hi": 14
+        },
+        {
+          "name": "Estágio 4, 1ª rodada",
+          "value": -9,
+          "label": "−9%",
+          "lo": -29,
+          "hi": 18
+        },
+        {
+          "name": "Estágio 4, 2ª rodada",
+          "value": -22,
+          "label": "−22%",
+          "lo": -43,
+          "hi": 6
+        },
+        {
+          "name": "Estágio 4, 3ª rodada",
+          "value": -26,
+          "label": "−26%",
+          "lo": -43,
+          "hi": -5
+        }
+      ],
+      "note": "Variação na incidência no grupo testado em relação ao controle. A linha fina é o intervalo de confiança de 95%: só na 3ª rodada ele não cruza o zero. Fonte: NEJM, via ASCO Post e GRAIL.",
+      "body": []
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "O teste em si",
+      "heading": "Erra pouco para um lado, muito para o outro",
+      "cells": [
+        {
+          "big": "52",
+          "unit": "%",
+          "label": "dos positivos tinham câncer",
+          "text": "Valor preditivo positivo. Cerca de 1 em cada 100 testes deu positivo; metade se confirmou."
+        },
+        {
+          "big": "55",
+          "unit": "%",
+          "label": "dos 12 cânceres foram pegos",
+          "text": "Sensibilidade para os 12 tipos prioritários. Para todos os cânceres, 31%: a maioria passa sem sinal."
+        }
+      ],
+      "body": [
+        "Falsos positivos: 0,45% dos testes. Quando acha um sinal, o teste acertou o órgão de origem em 92,5% dos casos. Números da GRAIL, apresentados no congresso ASCO em maio."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que isso importa",
+      "heading": "Mais cânceres cedo, menos cânceres no pronto-socorro",
+      "photo": "fotos/exame-sangue-cancer-2.jpg",
+      "caption": "Foto: National Cancer Institute / Unsplash",
+      "body": [
+        "No grupo testado, os diagnósticos em estágio 1 e 2 subiram 16% e os cânceres descobertos em atendimento de emergência caíram 25%, segundo a GRAIL. Peter Sasieni, um dos líderes do estudo, diz que ==\"um teste positivo não pode ser ignorado\"==: metade dos positivos tinha câncer.",
+        "O problema: achar mais cedo não é o mesmo que salvar vidas. Os autores dizem que é preciso mais tempo de acompanhamento para saber se os pacientes vivem mais."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que o estudo não prova",
+      "heading": "Quatro limites antes de pedir o exame",
+      "nocheck": [
+        "Não prova que salva vidas. O estudo mediu estágio no diagnóstico, não mortalidade. O acompanhamento depois da última coleta foi de 12 a 22 meses.",
+        "O desfecho principal falhou. A queda no estágio 4 é um resultado secundário, e seu intervalo de confiança encosta no zero.",
+        "O teste deixa passar a maioria: 31% de sensibilidade para todos os cânceres. Negativo não quer dizer sem câncer.",
+        "Quem pagou foi a fabricante. A análise foi independente, mas verificada pela empresa. O teste ainda não tem aprovação da FDA, a agência americana."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "O que fica depois de ler o estudo",
+      "check": [
+        "Um exame de sangue com aprendizado de máquina encontrou câncer em 937 pessoas que não sabiam. Mas não reduziu o total de diagnósticos tardios, que era a meta.",
+        "O sinal mais promissor, menos casos em estágio 4, cresceu a cada rodada e precisa de mais anos para ser confirmado.",
+        "Teste de triagem se julga pelo que muda no fim: vidas salvas, não só casos achados. Essa conta ainda não existe."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Queen Mary University of London, 23 set. 2026",
+          "what": "Major NHS trial provides new evidence on multi-cancer blood test — comunicado com os resultados do NEJM e da Nature Medicine"
+        },
+        {
+          "who": "NEJM, 2026",
+          "what": "NHS-Galleri trial — doi 10.1056/NEJMoa2505723 (resumo via ASCO Post, 1 out. 2026)"
+        },
+        {
+          "who": "GRAIL, 30 mai. 2026",
+          "what": "Full results from NHS-Galleri at ASCO 2026 — números de desempenho do teste (empresa dona do Galleri)"
+        },
+        {
+          "who": "GRAIL, 19 fev. 2026",
+          "what": "Topline results — descrição da tecnologia e situação na FDA"
+        },
+        {
+          "who": "Fotos",
+          "what": "Akram Huseyn e National Cancer Institute, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Um exame de sangue que procura dezenas de cânceres de uma vez é a promessa mais vendida da biotecnologia com IA. O maior teste controlado já publicado sobre ele mostrou o que a promessa ainda não entrega.\n\nNo NHS-Galleri, 142 mil pessoas na Inglaterra foram sorteadas para fazer o exame por três anos ou seguir o cuidado normal. O teste não reduziu os diagnósticos em estágio 3 e 4, que era a meta. Reduziu os casos em estágio 4, com efeito crescente a cada rodada, e achou câncer em 937 pessoas que não sabiam. Também deixou passar a maioria: 31% de sensibilidade para todos os tipos.\n\nQuem pagou o estudo foi a fabricante. A análise foi independente, mas ninguém ainda sabe se o exame salva vidas.\n\nVocê faria um exame que acerta metade dos positivos e deixa passar dois terços dos cânceres?\n\n—\nFontes no último slide.\n\n#cancer #biotecnologia #inteligenciaartificial #estudo #saude #diagnostico #ciencia"
+}

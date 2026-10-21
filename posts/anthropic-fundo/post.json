@@ -1,0 +1,163 @@
+{
+  "slug": "anthropic-fundo",
+  "categoria": "NOTÍCIA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/anthropic-fundo-1.jpg",
+      "title": "Anthropic promete 5% das ações ao bem público. Por que agora?",
+      "dek": "A dona do Claude anunciou um fundo de benefício público dias antes de abrir capital e na semana em que as ações de IA caíram. O que foi anunciado, o que falta e uma leitura possível.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Um fundo pago em ações da própria empresa",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "Anthropic, empresa de inteligência artificial dona do Claude, com sede nos Estados Unidos"
+        },
+        {
+          "k": "O quê",
+          "v": "5% das ações vão para o Anthropic Public Benefit Fund, uma entidade nova dentro da empresa"
+        },
+        {
+          "k": "Quando",
+          "v": "Anunciado no domingo, 18 de outubro de 2026, no site da empresa. Depende da aprovação dos acionistas"
+        },
+        {
+          "k": "Para quê",
+          "v": "Doações a organizações sem fins lucrativos ou pagamentos diretos a grupos de pessoas, como trabalhadores afetados pela IA"
+        },
+        {
+          "k": "Pode crescer",
+          "v": "Mais 2 pontos a cada alta de 50% no valor da empresa, a critério do conselho"
+        },
+        {
+          "k": "Proibido",
+          "v": "Usar essas ações para lobby ou doação política, nos EUA ou fora"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O tamanho",
+      "big": "20",
+      "unit": "%",
+      "label": "das ações da Anthropic ficam dedicadas ao \"bem público\", somando o fundo novo aos compromissos antigos",
+      "body": [
+        "Os fundadores prometeram desde o início doar 80% das suas ações, e cerca de metade dos funcionários participa de um programa em que a empresa iguala doações de ações. Em julho, a empresa já tinha separado US$ 200 milhões para pesquisar o efeito da IA no trabalho.",
+        "O anúncio diz que \"abordagens mais ousadas\" podem ser necessárias, dado o ritmo da IA. O jornal The Telegraph estimou o fundo em até US$ 100 bilhões se a empresa valer US$ 2 trilhões na bolsa."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "A semana em volta do anúncio",
+      "heading": "Queda das ações, abertura de capital e o fundo",
+      "items": [
+        {
+          "when": "13 out",
+          "what": "Índice de chips da Filadélfia cai pelo 5º pregão seguido, um dia depois de Hock Tan, CEO da Broadcom, comparar o investimento em IA a \"apostas de cassino\" (Reuters)."
+        },
+        {
+          "when": "16 out",
+          "what": "Nasdaq fecha a pior semana desde junho. CoreWeave perde 24% na semana; Micron, AMD e Intel caem 5% a 6% no dia (CBS News)."
+        },
+        {
+          "when": "15 out",
+          "what": "Investidores avaliam a Anthropic em US$ 1,5 trilhão para a abertura de capital, abaixo dos US$ 2 trilhões pretendidos, segundo a Reuters."
+        },
+        {
+          "when": "18 out",
+          "what": "Anthropic anuncia o fundo de 5%. A abertura de capital pode acontecer já em novembro (AP)."
+        },
+        {
+          "when": "19 out",
+          "what": "Elon Musk diz que dará uma ação da SpaceX a cada criança dos EUA. A OpenAI teria proposto 5% ao público, segundo o Telegraph."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando as colunas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "Se sabe",
+        "lines": [
+          "5% das ações, podendo chegar a mais com a valorização.",
+          "Pode fazer pagamentos diretos a populações específicas.",
+          "É uma LLC, não uma fundação isenta de impostos.",
+          "Depende do voto dos acionistas."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Como as ações viram dinheiro e quando os pagamentos começam.",
+          "Quem decide para onde vai o dinheiro.",
+          "Qual é a base de valor para os 2% extras.",
+          "Detalhes prometidos \"nos próximos meses\"."
+        ]
+      },
+      "body": [
+        "Em junho, o CEO Dario Amodei já tinha defendido taxar empresas de IA para financiar uma renda básica universal, segundo a Bloomberg Tax."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Uma leitura possível",
+      "heading": "Boa ação ou jogada de atenção? Nossa hipótese e o contraponto",
+      "photo": "fotos/anthropic-fundo-2.jpg",
+      "caption": "Foto: Aedrian Salazar / Unsplash",
+      "body": [
+        "==Hipótese da The Tech Room==: o anúncio chega na semana em que o mercado passou a cobrar retorno do dinheiro gasto em IA e dias antes de a empresa vender ações ao público. Um gesto de generosidade nesse momento também recupera atenção e simpatia. O Telegraph fez leitura parecida: uma tentativa de aliviar a reação contra a IA.",
+        "==Contraponto==: 5% é dinheiro de verdade, e a promessa dos fundadores de doar 80% vem da fundação da empresa. A queda das ações é sobre dívida e gastos do setor inteiro, não só sobre a Anthropic. E o índice de chips ainda sobe mais de 70% no ano, segundo a Reuters. O que decide entre as duas leituras são os detalhes que ainda não saíram."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para recontar",
+      "check": [
+        "A Anthropic prometeu 5% das ações a um fundo que pode pagar dinheiro direto a pessoas afetadas pela IA. Falta o voto dos acionistas e faltam as regras.",
+        "O anúncio veio na pior semana da Nasdaq desde junho e semanas antes de a empresa abrir capital. Isso é fato. A intenção por trás é interpretação.",
+        "Para julgar, espere os detalhes: quem decide, quando paga e como as ações viram dinheiro."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Anthropic, 18 out. 2026",
+          "what": "Anthropic Public Benefit Fund — anúncio oficial no site da empresa"
+        },
+        {
+          "who": "AP via ABC News, 18 out. 2026",
+          "what": "Anthropic commits 5% of its stock to a new 'public benefit' fund"
+        },
+        {
+          "who": "The Telegraph via Yahoo Finance, 19 out. 2026",
+          "what": "Anthropic raises prospect of AI cash handouts for the public"
+        },
+        {
+          "who": "Reuters, 13 out. 2026 · CBS News, 16 out. 2026",
+          "what": "Queda das ações de chips e da Nasdaq; avaliação da Anthropic para o IPO"
+        },
+        {
+          "who": "Forbes, 19 out. 2026 · Bloomberg Tax, 11 jun. 2026",
+          "what": "Musk e as ações da SpaceX; proposta de Amodei de taxar empresas de IA"
+        },
+        {
+          "who": "Fotos",
+          "what": "Martijn Oudkerk e Aedrian Salazar, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Quando uma empresa de IA promete dar 5% das ações ao público, vale olhar o calendário além do anúncio.\n\nA Anthropic, dona do Claude, anunciou no domingo um fundo de benefício público que pode fazer pagamentos diretos a pessoas afetadas pela IA. O anúncio veio depois da pior semana da Nasdaq desde junho, com investidores cobrando retorno do dinheiro gasto em IA, e semanas antes de a empresa abrir capital. Em junho, o CEO Dario Amodei já tinha defendido taxar empresas de IA para financiar uma renda básica universal.\n\nNo carrossel, separamos o que está documentado, o que ainda não foi explicado e a nossa hipótese sobre o momento, com o contraponto. Transparência: este perfil usa o Claude, da Anthropic, na produção.\n\nVocê acha que o momento do anúncio muda o valor do gesto?\n\n—\nFontes no último slide.\n\n#anthropic #inteligenciaartificial #ipo #rendabasica #mercado #noticia #tecnologia"
+}
