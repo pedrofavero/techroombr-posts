@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/anthropic-fundo-1.jpg",
       "title": "Anthropic promete 5% das ações ao bem público. Por que agora?",
-      "dek": "A dona do Claude anunciou um fundo de benefício público dias antes de abrir capital e na semana em que as ações de IA caíram. O que foi anunciado, o que falta e uma leitura possível.",
+      "dek": "A dona do Claude anunciou um fundo de benefício público semanas antes de abrir capital e na semana em que as ações de IA caíram. O que foi anunciado, o que falta e uma leitura possível.",
       "swipe": "arraste →"
     },
     {
@@ -20,7 +20,7 @@
       "rows": [
         {
           "k": "Quem",
-          "v": "Anthropic, empresa de inteligência artificial dona do Claude, com sede nos Estados Unidos"
+          "v": "Anthropic, empresa de inteligência artificial dona do Claude"
         },
         {
           "k": "O quê",
@@ -32,7 +32,7 @@
         },
         {
           "k": "Para quê",
-          "v": "Doações a organizações sem fins lucrativos ou pagamentos diretos a grupos de pessoas, como trabalhadores afetados pela IA"
+          "v": "Doações a organizações sem fins lucrativos ou pagamentos diretos a \"populações específicas\". O anúncio cita o impacto da IA no trabalho como exemplo de problema a tratar"
         },
         {
           "k": "Pode crescer",
@@ -52,7 +52,7 @@
       "label": "das ações da Anthropic ficam dedicadas ao \"bem público\", somando o fundo novo aos compromissos antigos",
       "body": [
         "Os fundadores prometeram desde o início doar 80% das suas ações, e cerca de metade dos funcionários participa de um programa em que a empresa iguala doações de ações. Em julho, a empresa já tinha separado US$ 200 milhões para pesquisar o efeito da IA no trabalho.",
-        "O anúncio diz que \"abordagens mais ousadas\" podem ser necessárias, dado o ritmo da IA. O jornal The Telegraph estimou o fundo em até US$ 100 bilhões se a empresa valer US$ 2 trilhões na bolsa."
+        "O anúncio diz que \"abordagens mais ousadas\" podem ser necessárias, dado o ritmo da IA. O jornal The Telegraph estimou o fundo em cerca de US$ 100 bilhões se a empresa valer US$ 2 trilhões na bolsa."
       ]
     },
     {
@@ -65,12 +65,12 @@
           "what": "Índice de chips da Filadélfia cai pelo 5º pregão seguido, um dia depois de Hock Tan, CEO da Broadcom, comparar o investimento em IA a \"apostas de cassino\" (Reuters)."
         },
         {
-          "when": "16 out",
-          "what": "Nasdaq fecha a pior semana desde junho. CoreWeave perde 24% na semana; Micron, AMD e Intel caem 5% a 6% no dia (CBS News)."
+          "when": "15 out",
+          "what": "Investidores consideram avaliar a Anthropic em US$ 1,5 trilhão para a abertura de capital, abaixo dos US$ 2 trilhões pretendidos, segundo a Reuters."
         },
         {
-          "when": "15 out",
-          "what": "Investidores avaliam a Anthropic em US$ 1,5 trilhão para a abertura de capital, abaixo dos US$ 2 trilhões pretendidos, segundo a Reuters."
+          "when": "16 out",
+          "what": "Nasdaq fecha a pior semana desde junho. CoreWeave perde 24% na semana; Micron, AMD e Intel caem 5% a 6% na sexta (CBS News)."
         },
         {
           "when": "18 out",
@@ -105,7 +105,7 @@
         ]
       },
       "body": [
-        "Em junho, o CEO Dario Amodei já tinha defendido taxar empresas de IA para financiar uma renda básica universal, segundo a Bloomberg Tax."
+        "Em junho, o CEO Dario Amodei já tinha levantado a ideia de taxar empresas de IA para financiar uma renda básica universal, se a IA eliminar empregos em larga escala, segundo a Bloomberg Tax."
       ]
     },
     {
@@ -116,7 +116,7 @@
       "caption": "Foto: Aedrian Salazar / Unsplash",
       "body": [
         "==Hipótese da The Tech Room==: o anúncio chega na semana em que o mercado passou a cobrar retorno do dinheiro gasto em IA e dias antes de a empresa vender ações ao público. Um gesto de generosidade nesse momento também recupera atenção e simpatia. O Telegraph fez leitura parecida: uma tentativa de aliviar a reação contra a IA.",
-        "==Contraponto==: 5% é dinheiro de verdade, e a promessa dos fundadores de doar 80% vem da fundação da empresa. A queda das ações é sobre dívida e gastos do setor inteiro, não só sobre a Anthropic. E o índice de chips ainda sobe mais de 70% no ano, segundo a Reuters. O que decide entre as duas leituras são os detalhes que ainda não saíram."
+        "==Contraponto==: 5% é dinheiro de verdade, e a promessa dos fundadores de doar 80% vem da fundação da empresa. A queda das ações é sobre dívida e gastos do setor inteiro, embora a CBS cite dúvidas sobre a receita da Anthropic entre os fatores. E o índice de chips ainda sobe mais de 70% no ano, segundo a Reuters. O que decide entre as duas leituras são os detalhes que ainda não saíram."
       ]
     },
     {
@@ -124,7 +124,7 @@
       "kicker": "Para levar",
       "heading": "Três coisas para recontar",
       "check": [
-        "A Anthropic prometeu 5% das ações a um fundo que pode pagar dinheiro direto a pessoas afetadas pela IA. Falta o voto dos acionistas e faltam as regras.",
+        "A Anthropic prometeu 5% das ações a um fundo que pode pagar dinheiro direto a \"populações específicas\". Falta o voto dos acionistas e faltam as regras.",
         "O anúncio veio na pior semana da Nasdaq desde junho e semanas antes de a empresa abrir capital. Isso é fato. A intenção por trás é interpretação.",
         "Para julgar, espere os detalhes: quem decide, quando paga e como as ações viram dinheiro."
       ]
@@ -159,5 +159,5 @@
       ]
     }
   ],
-  "legenda": "Quando uma empresa de IA promete dar 5% das ações ao público, vale olhar o calendário além do anúncio.\n\nA Anthropic, dona do Claude, anunciou no domingo um fundo de benefício público que pode fazer pagamentos diretos a pessoas afetadas pela IA. O anúncio veio depois da pior semana da Nasdaq desde junho, com investidores cobrando retorno do dinheiro gasto em IA, e semanas antes de a empresa abrir capital. Em junho, o CEO Dario Amodei já tinha defendido taxar empresas de IA para financiar uma renda básica universal.\n\nNo carrossel, separamos o que está documentado, o que ainda não foi explicado e a nossa hipótese sobre o momento, com o contraponto. Transparência: este perfil usa o Claude, da Anthropic, na produção.\n\nVocê acha que o momento do anúncio muda o valor do gesto?\n\n—\nFontes no último slide.\n\n#anthropic #inteligenciaartificial #ipo #rendabasica #mercado #noticia #tecnologia"
+  "legenda": "Quando uma empresa de IA promete dar 5% das ações ao público, vale olhar o calendário além do anúncio.\n\nA Anthropic, dona do Claude, anunciou no domingo um fundo de benefício público que pode fazer pagamentos diretos a \"populações específicas\". O anúncio veio depois da pior semana da Nasdaq desde junho, com o mercado preocupado com a dívida e os gastos em IA, e semanas antes de a empresa abrir capital. Em junho, o CEO Dario Amodei já tinha levantado a ideia de taxar empresas de IA para financiar uma renda básica universal, caso a IA elimine empregos em larga escala.\n\nNo carrossel, separamos o que está documentado, o que ainda não foi explicado e a nossa hipótese sobre o momento, com o contraponto. Transparência: este perfil usa o Claude, da Anthropic, na produção.\n\nVocê acha que o momento do anúncio muda o valor do gesto?\n\n—\nFontes no último slide.\n\n#anthropic #inteligenciaartificial #ipo #rendabasica #mercado #noticia #tecnologia"
 }

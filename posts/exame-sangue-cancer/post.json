@@ -48,8 +48,8 @@
       "unit": "",
       "label": "razão de cânceres em estágio 3 ou 4 no grupo testado em relação ao grupo controle: sem diferença significativa",
       "body": [
-        "A pergunta central era: fazer o teste todo ano reduz os diagnósticos tardios (estágios 3 e 4) de 12 tipos de câncer? Foram 706 casos no grupo testado contra 688 no controle. A diferença é estatisticamente zero.",
-        "Charles Swanton, pesquisador principal: ==\"O desfecho primário não foi atingido.\"=="
+        "A pergunta central era: fazer o teste todo ano reduz os diagnósticos tardios (estágios 3 e 4) de 12 tipos de câncer? Foram 706 casos no grupo testado contra 688 no controle. A diferença não é estatisticamente significativa.",
+        "Charles Swanton, um dos investigadores-chefe: ==\"O desfecho primário não foi atingido.\"=="
       ]
     },
     {
@@ -103,7 +103,7 @@
           "big": "52",
           "unit": "%",
           "label": "dos positivos tinham câncer",
-          "text": "Valor preditivo positivo. Cerca de 1 em cada 100 testes deu positivo; metade se confirmou."
+          "text": "Valor preditivo positivo. Cerca de 1 em cada 100 participantes deu positivo por rodada; metade se confirmou."
         },
         {
           "big": "55",
@@ -123,8 +123,8 @@
       "photo": "fotos/exame-sangue-cancer-2.jpg",
       "caption": "Foto: National Cancer Institute / Unsplash",
       "body": [
-        "No grupo testado, os diagnósticos em estágio 1 e 2 subiram 16% e os cânceres descobertos em atendimento de emergência caíram 25%, segundo a GRAIL. Peter Sasieni, um dos líderes do estudo, diz que ==\"um teste positivo não pode ser ignorado\"==: metade dos positivos tinha câncer.",
-        "O problema: achar mais cedo não é o mesmo que salvar vidas. Os autores dizem que é preciso mais tempo de acompanhamento para saber se os pacientes vivem mais."
+        "No grupo testado, os diagnósticos em estágio 1 e 2 dos 12 cânceres subiram 16% e os cânceres descobertos em atendimento de emergência caíram 25%, segundo a GRAIL. Peter Sasieni, um dos líderes do estudo, diz que ==\"um teste positivo não pode ser ignorado\"==: metade dos positivos tinha câncer.",
+        "O problema: achar mais cedo não é o mesmo que tratar melhor. Os autores dizem que é preciso mais tempo de acompanhamento para saber se isso melhora os desfechos dos pacientes."
       ]
     },
     {
@@ -135,7 +135,7 @@
         "Não prova que salva vidas. O estudo mediu estágio no diagnóstico, não mortalidade. O acompanhamento depois da última coleta foi de 12 a 22 meses.",
         "O desfecho principal falhou. A queda no estágio 4 é um resultado secundário, e seu intervalo de confiança encosta no zero.",
         "O teste deixa passar a maioria: 31% de sensibilidade para todos os cânceres. Negativo não quer dizer sem câncer.",
-        "Quem pagou foi a fabricante. A análise foi independente, mas verificada pela empresa. O teste ainda não tem aprovação da FDA, a agência americana."
+        "Quem pagou foi a fabricante. A análise foi independente, mas verificada pela empresa. O teste ainda não tem aprovação da FDA, a agência americana; o pedido está em análise."
       ]
     },
     {
@@ -143,7 +143,7 @@
       "kicker": "Para levar",
       "heading": "O que fica depois de ler o estudo",
       "check": [
-        "Um exame de sangue com aprendizado de máquina encontrou câncer em 937 pessoas que não sabiam. Mas não reduziu o total de diagnósticos tardios, que era a meta.",
+        "Um exame de sangue com aprendizado de máquina encontrou câncer em 937 pessoas sem suspeita clínica. Mas não reduziu o total de diagnósticos tardios, que era a meta.",
         "O sinal mais promissor, menos casos em estágio 4, cresceu a cada rodada e precisa de mais anos para ser confirmado.",
         "Teste de triagem se julga pelo que muda no fim: vidas salvas, não só casos achados. Essa conta ainda não existe."
       ]
@@ -174,5 +174,5 @@
       ]
     }
   ],
-  "legenda": "Um exame de sangue que procura dezenas de cânceres de uma vez é a promessa mais vendida da biotecnologia com IA. O maior teste controlado já publicado sobre ele mostrou o que a promessa ainda não entrega.\n\nNo NHS-Galleri, 142 mil pessoas na Inglaterra foram sorteadas para fazer o exame por três anos ou seguir o cuidado normal. O teste não reduziu os diagnósticos em estágio 3 e 4, que era a meta. Reduziu os casos em estágio 4, com efeito crescente a cada rodada, e achou câncer em 937 pessoas que não sabiam. Também deixou passar a maioria: 31% de sensibilidade para todos os tipos.\n\nQuem pagou o estudo foi a fabricante. A análise foi independente, mas ninguém ainda sabe se o exame salva vidas.\n\nVocê faria um exame que acerta metade dos positivos e deixa passar dois terços dos cânceres?\n\n—\nFontes no último slide.\n\n#cancer #biotecnologia #inteligenciaartificial #estudo #saude #diagnostico #ciencia"
+  "legenda": "Um exame de sangue que procura dezenas de cânceres de uma vez é a promessa mais vendida da biotecnologia com IA. O primeiro teste controlado e sorteado já publicado sobre ele mostrou o que a promessa ainda não entrega.\n\nNo NHS-Galleri, 142 mil pessoas na Inglaterra foram sorteadas para fazer o exame por três anos ou seguir o cuidado normal. O teste não reduziu os diagnósticos em estágio 3 e 4, que era a meta. Reduziu os casos em estágio 4, com efeito crescente a cada rodada, e achou câncer em 937 pessoas sem suspeita clínica. Também deixou passar a maioria: 31% de sensibilidade para todos os tipos.\n\nQuem pagou o estudo foi a fabricante. A análise foi independente, mas ninguém ainda sabe se o exame salva vidas.\n\nVocê faria um exame que acerta metade dos positivos e deixa passar dois terços dos cânceres?\n\n—\nFontes no último slide.\n\n#cancer #biotecnologia #inteligenciaartificial #estudo #saude #diagnostico #ciencia"
 }
