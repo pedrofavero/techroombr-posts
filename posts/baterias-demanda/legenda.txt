@@ -2,7 +2,7 @@ A discussão sobre carro elétrico costuma parar na fábrica: de onde vem o lít
 
 Pesquisadores da Universidade de Melbourne modelaram a cadeia global de baterias de lítio até 2050. Sem medidas extras, ela acumula de 19 a 23 bilhões de toneladas de CO₂ equivalente. Fábricas mais limpas cortam de 3,5 a 4,7 bilhões. Baterias menores, mais duráveis e reaproveitadas cortam de 6 a 7 bilhões. Somando os dois lados, cai mais ou menos pela metade.
 
-O detalhe que importa: são cenários, não previsões. Os cortes dependem de decisões de indústria e governo que hoje quase não existem.
+O detalhe que importa: são cenários, não previsões. Os cortes dependem de decisões de indústria e governo sobre tamanho, duração e reuso das baterias.
 
 Você trocaria um carro com bateria maior por um com bateria menor e mais barata, se a autonomia desse conta do seu dia a dia?
 
