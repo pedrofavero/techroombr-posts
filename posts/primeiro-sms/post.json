@@ -1,0 +1,122 @@
+{
+  "slug": "primeiro-sms",
+  "categoria": "CURIOSIDADE",
+  "theme": "night",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/primeiro-sms-1.jpg",
+      "title": "A primeira mensagem de texto dizia “Feliz Natal”",
+      "dek": "Em 3 de dezembro de 1992, um engenheiro de 22 anos digitou duas palavras num computador. O celular que recebeu pesava 2,1 kg e não sabia responder.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que aconteceu",
+      "heading": "Newbury, Inglaterra, dezembro de 1992",
+      "body": [
+        "Neil Papworth, engenheiro de testes da empresa Sema Group, instalava o sistema de mensagens curtas da operadora Vodafone. Como os celulares não tinham teclado de letras, ele digitou “Merry Christmas” num PC.",
+        "Quem recebeu foi Richard Jarvis, engenheiro-chefe da Vodafone, num Orbitel 901, um telefone “portátil” de 2,1 kg. Jarvis não respondeu: os aparelhos da época só recebiam.",
+        "Papworth contou depois, em gravação da rádio NPR, que escreveu as palavras por extenso, sem abreviar."
+      ]
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "Em números",
+      "heading": "Um aparelho pesado e um serviço que demorou",
+      "cells": [
+        { "big": "2,1", "unit": " kg", "label": "pesava o telefone que recebeu", "text": "O Orbitel 901, que a Vodafone descrevia como telefone portátil." },
+        { "big": "7", "unit": " anos", "label": "até o SMS pegar", "text": "Só em 1999 dava para mandar mensagem entre operadoras diferentes. Foi aí que o uso decolou." }
+      ],
+      "body": [
+        "A Vodafone só passou a cobrar pelo serviço em 1994. Entre a primeira mensagem e o SMS popular, passaram-se sete anos."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que 160 caracteres",
+      "heading": "Um alemão numa máquina de escrever, em 1985",
+      "photo": "fotos/primeiro-sms-2.jpg",
+      "caption": "Foto: Johnny Briggs / Unsplash",
+      "body": [
+        "Friedhelm Hillebrand presidia o comitê de serviços sem voz do GSM, o padrão de celular da maior parte do mundo. Em Bonn, ele digitou frases aleatórias numa máquina de escrever e contou os caracteres. Quase todas ficaram abaixo de 160.",
+        "Cartões-postais tinham menos de 150 caracteres; telex, tamanho parecido. Para ele, era “perfeitamente suficiente”, como disse ao Los Angeles Times em 2009."
+      ]
+    },
+    {
+      "type": "meter",
+      "display": "sans",
+      "kicker": "O truque técnico",
+      "heading": "O SMS viaja num canal que estava ocioso",
+      "total": 40,
+      "filled": 32,
+      "on_label": "128 caracteres cabiam no canal de controle",
+      "off_label": "32 a mais, encolhendo o conjunto de símbolos",
+      "body": [
+        "Hillebrand propôs usar o canal de controle da rede, a via que só avisa a força do sinal e a chegada de chamadas e fica quase sempre vazia. Cabiam 128 caracteres. A equipe reduziu o conjunto de símbolos permitidos e ganhou mais 32. Daí os 160.",
+        "Cada ponto acima vale 4 caracteres."
+      ]
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "O auge e a queda",
+      "heading": "O SMS perdeu o posto, mas não sumiu",
+      "cells": [
+        { "big": "150", "unit": " bi", "label": "mensagens por dia no pico, em 2012", "text": "O auge do SMS, segundo a Vodafone." },
+        { "big": "40", "unit": " bi", "label": "mensagens por dia hoje", "text": "Cerca de 5 bilhões de pessoas ainda mandam SMS, diz a operadora." }
+      ],
+      "body": [
+        "Só o WhatsApp passa de 100 bilhões de mensagens por dia, pela mesma fonte. Ben Wood, ex-funcionário da Vodafone, diz que o SMS começou a virada do celular de voz para tela."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Lenda ou fato?",
+      "heading": "A própria Vodafone chama de “versão oficial”",
+      "a": {
+        "title": "O que está documentado",
+        "lines": [
+          "Data: 3 de dezembro de 1992.",
+          "Texto: “Merry Christmas”, de um PC para um Orbitel 901.",
+          "Destinatário: Richard Jarvis, engenheiro-chefe da Vodafone."
+        ]
+      },
+      "b": {
+        "title": "O que é relato",
+        "lines": [
+          "Que o executivo-chefe Gerry Whent viu a mensagem numa festa de Natal e não se impressionou. A Vodafone chama isso de rumor com testemunhas.",
+          "Dave Pearce, ex-gerente do produto, lembra que a primeira mensagem que viu foi “test”, enviada pelo engenheiro Ian Harris durante os testes."
+        ]
+      },
+      "body": [
+        "Ou seja: a primeira mensagem oficial foi “Feliz Natal”. A primeira de verdade talvez tenha sido “test”."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para recontar",
+      "check": [
+        "O SMS nasceu como um serviço de pager: um computador mandava, o celular só recebia.",
+        "Os 160 caracteres vieram de um teste numa máquina de escrever e de um canal de rede que sobrava.",
+        "Toda “primeira vez” da tecnologia tem versão oficial e versão de bastidor. Vale perguntar qual é qual."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Vodafone UK News Centre, dez. 2022", "what": "“Merry Christmas”: the 30th anniversary of the first text message — relato oficial, pesos, datas e volumes" },
+        { "who": "NPR, dez. 2017", "what": "The First Text Message Celebrates 25 Years — gravação com Neil Papworth" },
+        { "who": "Los Angeles Times, maio 2009", "what": "Entrevista com Friedhelm Hillebrand sobre a origem dos 160 caracteres" },
+        { "who": "TechCrunch, maio 2009", "what": "This is why text messages are 160 characters in length" },
+        { "who": "Fotos", "what": "Johnny OP e Johnny Briggs, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O limite de 160 caracteres do SMS não veio de um estudo de engenharia. Veio de um homem numa máquina de escrever, em 1985, contando as letras de frases aleatórias.\n\nA primeira mensagem oficial saiu sete anos depois, em dezembro de 1992, de um PC para um telefone de 2,1 kg. Ninguém respondeu, porque os celulares ainda não sabiam responder. O serviço só virou produto pago em 1994 e só decolou em 1999, quando passou a funcionar entre operadoras diferentes. No pico, em 2012, eram 150 bilhões de mensagens por dia.\n\nQual foi o SMS mais importante que você já recebeu?\n\n—\nFontes no último slide.\n\n#sms #curiosidade #historiadatecnologia #celular #mensagens #tecnologia #vodafone"
+}

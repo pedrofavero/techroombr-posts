@@ -1,0 +1,108 @@
+{
+  "slug": "baterias-demanda",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/baterias-demanda-3.jpg",
+      "title": "Bateria mais limpa não basta. A conta é a quantidade.",
+      "dek": "Um estudo da Universidade de Melbourne modelou a cadeia das baterias de lítio até 2050 e achou o maior corte de emissões onde quase ninguém olha: usar menos bateria.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "stat",
+      "kicker": "O ponto de partida",
+      "big": "20",
+      "unit": "×",
+      "label": "é quanto a demanda por baterias de lítio pode crescer até 2050, segundo o estudo",
+      "body": [
+        "Baterias de íons de lítio são as dos carros elétricos, dos ônibus elétricos e dos sistemas que guardam energia solar e eólica. O estudo modelou a cadeia inteira, da mineração à fábrica, de 2024 a 2050.",
+        "Com esse crescimento, as emissões da cadeia podem subir ==dez vezes==. Fábrica mais limpa reduz a emissão de cada bateria, mas não segura o total quando o número de baterias dispara."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Modelo de cenários, não medição",
+      "rows": [
+        { "k": "Quem", "v": "Haiwei Zhou e Wen Li (Universidade de Melbourne), com Prakash Singh e colegas da Academia Chinesa de Ciências e da Universidade de Sheffield" },
+        { "k": "Onde", "v": "Revista One Earth (Cell Press), outubro de 2026, revisada por pares" },
+        { "k": "Método", "v": "Modelo global da cadeia de baterias de lítio, de 2024 a 2050, comparando cenários com e sem medidas" },
+        { "k": "O que mede", "v": "Gases de efeito estufa acumulados, em bilhões de toneladas de CO₂ equivalente" },
+        { "k": "Setores", "v": "Carros, vans, ônibus e caminhões elétricos, mais armazenamento de energia" },
+        { "k": "Limite", "v": "Os resultados dependem das suposições de cada cenário. Não é uma previsão" }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Dois jeitos de cortar",
+      "heading": "O lado da demanda corta mais que o lado da fábrica",
+      "cells": [
+        { "big": "4,7", "unit": " bi t", "label": "no máximo, com produção mais limpa", "text": "Faixa do estudo: 3,5 a 4,7 bilhões. Fábricas com energia renovável, químicas com menos carbono e reciclagem." },
+        { "big": "7", "unit": " bi t", "label": "no máximo, com menos demanda", "text": "Faixa do estudo: 6 a 7 bilhões. Baterias menores, que durem mais, carros compartilhados e reuso em armazenamento fixo." }
+      ],
+      "body": [
+        "Corte de emissões acumulado até 2050, em bilhões de toneladas de CO₂ equivalente. O lado da demanda rende mais e é o lado que quase nenhuma regra cobra hoje."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "O resultado somado",
+      "heading": "Com as duas estratégias, cai mais ou menos pela metade",
+      "bars": [
+        { "name": "Sem medidas extras", "value": 21, "label": "19–23" },
+        { "name": "Com produção limpa e menos demanda", "value": 10.5, "label": "9–12" }
+      ],
+      "note": "Emissões acumuladas da cadeia de baterias de lítio entre 2024 e 2050, em bilhões de toneladas de CO₂ equivalente. As faixas vêm dos cenários do estudo.",
+      "body": [
+        "Wen Li, que coordenou o trabalho, compara a redução às emissões anuais de uma grande economia, como a União Europeia."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que a fábrica tem limite",
+      "heading": "A rede elétrica não fica limpa de uma vez",
+      "photo": "fotos/baterias-demanda-2.jpg",
+      "caption": "Foto: Elliot Blyth / Unsplash",
+      "body": [
+        "Fábricas podem usar energia renovável e químicas melhores, mas há um teto: a rede elétrica demora a descarbonizar e cada bateria sempre carrega alguma emissão. Quando a produção cresce vinte vezes, o ganho por unidade perde força.",
+        "Os autores dizem que a produção limpa continua essencial, com destaque para eletricidade mais limpa. A proposta é somar a outra pergunta: quanta capacidade de bateria é mesmo necessária para prestar o serviço?"
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que o estudo não prova",
+      "heading": "Três limites para ler junto com o número",
+      "nocheck": [
+        "Não é uma previsão. São cenários que dependem de suposições sobre tecnologia, tamanho das baterias e uso dos produtos. Os cortes não acontecem sozinhos.",
+        "Não detalha regiões. Os próprios autores querem melhorar a resolução regional do modelo, porque mineração, refino e eletricidade variam muito de lugar para lugar.",
+        "Não compara carro elétrico com carro a combustão. O estudo olha só para a cadeia das baterias e para jeitos de fabricar e usar menos."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "O que fica depois de fechar o estudo",
+      "check": [
+        "Bateria mais limpa é necessária, mas tem teto. Com a demanda crescendo vinte vezes, o total sobe mesmo assim.",
+        "Baterias menores, que durem mais e sejam reaproveitadas cortam mais emissões do que fábricas mais limpas: 6 a 7 bilhões de toneladas contra 3,5 a 4,7.",
+        "A pergunta que o estudo propõe para governos e empresas: não só \"quão limpa é cada bateria\", mas \"quanta bateria precisamos\"."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "One Earth (Cell Press), out. 2026", "what": "Zhou, Li, Wang, Singh e Meng — Demand-side strategies unlock gigaton-scale GHG mitigation beyond supply-side limits in the global lithium-ion battery supply chain" },
+        { "who": "Universidade de Melbourne, 17 out. 2026", "what": "Wider approach needed to mitigate rising rechargeable battery emissions — comunicado oficial com os números e as falas dos autores" },
+        { "who": "Market Business News, 17 out. 2026", "what": "Smaller, longer-lasting batteries could help cut supply-chain emissions" },
+        { "who": "Earth.com, 20 out. 2026", "what": "Electric vehicle batteries could create a billion tons of emissions a year" },
+        { "who": "Fotos", "what": "Precious Madubuike e Elliot Blyth, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A discussão sobre carro elétrico costuma parar na fábrica: de onde vem o lítio, quanta energia a produção gasta. Um estudo publicado na One Earth diz que isso é só metade da conta.\n\nPesquisadores da Universidade de Melbourne modelaram a cadeia global de baterias de lítio até 2050. Sem medidas extras, ela acumula de 19 a 23 bilhões de toneladas de CO₂ equivalente. Fábricas mais limpas cortam de 3,5 a 4,7 bilhões. Baterias menores, mais duráveis e reaproveitadas cortam de 6 a 7 bilhões. Somando os dois lados, cai mais ou menos pela metade.\n\nO detalhe que importa: são cenários, não previsões. Os cortes dependem de decisões de indústria e governo que hoje quase não existem.\n\nVocê trocaria um carro com bateria maior por um com bateria menor e mais barata, se a autonomia desse conta do seu dia a dia?\n\n—\nFontes no último slide.\n\n#baterias #carroeletrico #energia #emissoes #estudo #sustentabilidade #tecnologia"
+}
