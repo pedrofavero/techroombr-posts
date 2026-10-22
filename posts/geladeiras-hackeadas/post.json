@@ -20,8 +20,8 @@
       "photo": "fotos/geladeiras-hackeadas-3.jpg",
       "caption": "Foto: Bruno Guerrero / Unsplash",
       "body": [
-        "Entre a noite de domingo (11) e a manhã de segunda (12), geladeiras e freezers de supermercados em toda a França começaram a esquentar: 80 lojas do Carrefour, mais de 100 da Coopérative U e cerca de 150 do Intermarché, segundo as redes. Monoprix e E.Leclerc também foram atingidos.",
-        "Os equipamentos entraram em modo de **degelo** e chegaram a cerca de 50 °C por volta de seis horas, segundo a revista Time. O presidente do Intermarché, Thierry Cotillard, falou em \"dezenas de milhões de euros\" de perda em um dia, à BFM TV."
+        "Entre a noite de domingo (11) e a manhã de segunda (12), geladeiras e freezers de supermercados em toda a França começaram a esquentar: 80 lojas do Carrefour, mais de 100 da Coopérative U e cerca de 180 do Intermarché e da Netto, segundo as redes (a BFM TV contou 300). Monoprix e E.Leclerc também foram atingidos.",
+        "Os equipamentos entraram em modo de **degelo** e chegaram a 50 °C, por cerca de seis horas, segundo a Forbes. O CEO do Intermarché, Thierry Cotillard, falou em \"dezenas de milhões de euros\" de perda em um dia, à BFM TV."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "nocheck": [
         "\"Hackearam as geladeiras.\" O que estava na internet não era a geladeira: era o painel que comanda todas as geladeiras da loja.",
         "\"Foi um vírus sofisticado.\" Ninguém sabe ainda como entraram. O que se sabe é que os painéis eram antigos, sem atualização, e muitos estavam expostos na internet.",
-        "\"Nunca tinha acontecido.\" Em 2022, ataques do mesmo tipo atingiram 16 supermercados na Rússia e 40 lojas em Israel, segundo um boletim da própria Danfoss citado pelo The Hacker News."
+        "\"Nunca tinha acontecido.\" Em 2022, ataques a painéis do mesmo modelo atingiram 16 supermercados na Rússia e 40 lojas em Israel, segundo um boletim da própria Danfoss citado pelo The Hacker News."
       ],
       "after": [
         "Uma analogia: é como instalar o interfone que abre o portão do prédio do lado de fora, na rua, sem porteiro. O portão em si não tem defeito. O problema é onde está o botão."
@@ -88,12 +88,12 @@
       "kicker": "Para levar",
       "heading": "Três coisas para contar no jantar",
       "check": [
-        "**O alvo não foi a geladeira, foi o computador que a comanda.** Painéis de refrigeração ficam na internet para a manutenção remota, e isso virou a porta de entrada.",
+        "**O alvo não foi a geladeira, foi o computador que a comanda.** Painéis de refrigeração ficam na internet para a manutenção remota. É a hipótese de porta de entrada apontada pelas autoridades, ainda não confirmada.",
         "**Equipamento velho e exposto é o padrão, não a exceção.** Havia 2.752 painéis Danfoss visíveis na internet aberta, e os modelos atingidos não recebiam atualização há anos, segundo a fabricante.",
         "**O ataque foi digital, o dano foi físico.** Comida estragada, incêndios e dezenas de milhões de euros em um dia. Ninguém sabe ainda quem fez nem como entrou."
       ],
       "after": [
-        "\"De extrema gravidade e sem precedentes\", definiu Dominique Schelcher, presidente da Coopérative U, em tradução livre."
+        "\"De extrema gravidade e sem precedentes\", escreveu Dominique Schelcher, CEO da Coopérative U, em tradução livre."
       ]
     },
     {
@@ -105,15 +105,15 @@
         },
         {
           "who": "Time, 13 out. 2026",
-          "what": "Número de lojas por rede, 50 °C por cerca de seis horas, ciclos de degelo de 1 para 8 horas (Le Monde), declaração da Danfoss sobre firmware desatualizado, perdas"
+          "what": "Número de lojas por rede (Intermarché e Netto: cerca de 180, segundo o grupo; 300 pela BFM TV), 50 °C (BFM TV), ciclos de degelo de 1 para 8 horas (Le Monde), declaração da Danfoss sobre firmware desatualizado, frase de Dominique Schelcher"
         },
         {
           "who": "Al Jazeera, com Reuters e AFP, 13 out. 2026",
-          "what": "Painéis acessíveis pela internet para manutenção, degelo forçado (BFM TV), incêndios, Procuradoria de Paris, ANSSI acionada pelo governo, frase de Thierry Cotillard; Time, 13 out., para a frase de Dominique Schelcher"
+          "what": "Painéis acessíveis pela internet para manutenção, degelo forçado (BFM TV), incêndios, Procuradoria de Paris, ANSSI acionada pelo governo, frase de Thierry Cotillard"
         },
         {
           "who": "Forbes, Jon Markman, 20 out. 2026",
-          "what": "Contagem de 2.752 painéis Danfoss acessíveis, 1.590 na França (Baptiste Robert, Predicta Lab, 12 out.)"
+          "what": "Contagem de 2.752 painéis Danfoss acessíveis, 1.590 na França (Baptiste Robert, Predicta Lab, 12 out.); cerca de seis horas a 50 °C"
         },
         {
           "who": "The Hacker News, 13 out. 2026",
