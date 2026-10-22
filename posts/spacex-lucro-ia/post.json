@@ -1,0 +1,195 @@
+{
+  "slug": "spacex-lucro-ia",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/spacex-lucro-ia-1.jpg",
+      "title": "A SpaceX lucrou US$ 4,4 bilhões. Mais da metade veio de IA",
+      "dek": "A empresa de foguetes divulgou na terça (20) o primeiro lucro trimestral desde que abriu capital. O maior pedaço da receita não veio de lançamentos nem do Starlink: veio da divisão de inteligência artificial.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "De prejuízo a lucro em um ano",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "SpaceX, empresa de Elon Musk, listada na bolsa Nasdaq desde junho com o código SPCX"
+        },
+        {
+          "k": "O quê",
+          "v": "Divulgou o balanço do 3º trimestre de 2026: receita de US$ 14,6 bilhões e lucro de US$ 4,4 bilhões"
+        },
+        {
+          "k": "Quando",
+          "v": "20 de outubro de 2026, após o fechamento do mercado, com teleconferência para investidores"
+        },
+        {
+          "k": "Um ano antes",
+          "v": "No mesmo trimestre de 2025, a receita foi de US$ 5,6 bilhões e houve prejuízo de US$ 1,1 bilhão"
+        },
+        {
+          "k": "Novidade",
+          "v": "É o primeiro trimestre com lucro desde a abertura de capital, segundo a Quartz. No 2º trimestre, o prejuízo foi de US$ 541 milhões"
+        },
+        {
+          "k": "Fontes",
+          "v": "Comunicado de resultados enviado à SEC; transcrição da teleconferência; Yahoo Finance; Quartz"
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "De onde vem o dinheiro",
+      "heading": "Receita por divisão no 3º trimestre, em US$ bilhões",
+      "bars": [
+        {
+          "name": "Superinteligência (IA)",
+          "value": 7.56,
+          "label": "7,56"
+        },
+        {
+          "name": "Conectividade (Starlink)",
+          "value": 5.25,
+          "label": "5,25"
+        },
+        {
+          "name": "Espaço (lançamentos)",
+          "value": 1.77,
+          "label": "1,77"
+        }
+      ],
+      "note": "Crescimento em um ano: IA +830%, conectividade +69%, espaço +6%. Fonte: comunicado da SpaceX à SEC, órgão que regula o mercado de ações nos EUA.",
+      "body": [
+        "A divisão que a empresa agora chama de **Superinteligência** era chamada de \"Inteligência Artificial\" até o trimestre passado. Ela reúne o chatbot Grok, publicidade, o aluguel de capacidade de computação para outras empresas e o Cursor, um programa de escrever código que a SpaceX comprou neste ano.",
+        "Com ==US$ 7,56 bilhões de US$ 14,6 bilhões==, a IA passou de metade da receita. Os foguetes, que deram nome à empresa, ficaram com 12%."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O preço de crescer",
+      "heading": "Gastou mais de quatro vezes o que lucrou",
+      "cells": [
+        {
+          "big": "19,6",
+          "unit": " bi",
+          "label": "de dólares investidos em três meses",
+          "text": "Desse total, US$ 16,4 bilhões foram para a divisão de IA: centros de dados, computadores e energia."
+        },
+        {
+          "big": "1,7",
+          "unit": " GW",
+          "label": "de capacidade de computação",
+          "text": "Gigawatt (GW) é uma medida de potência elétrica. Um ano antes, eram 0,6 GW: quase o triplo em doze meses."
+        }
+      ],
+      "body": [
+        "Na teleconferência, a empresa disse prever de **US$ 35 a 40 bilhões** de investimento só no 4º trimestre. O diretor financeiro, Bret Johnsen, afirmou que, aos preços atuais, cada novo lote de computadores se paga em menos de um ano. É uma alegação da empresa, não um número auditado."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O contexto",
+      "heading": "Como uma empresa de foguetes virou uma empresa de computadores",
+      "photo": "fotos/spacex-lucro-ia-2.jpg",
+      "caption": "Foto: Valentin Lacoste / Unsplash",
+      "body": [
+        "Em 2 de fevereiro, a SpaceX comprou a xAI, a empresa de inteligência artificial de Musk, dona do Grok. O negócio foi pago em ações: a SpaceX foi avaliada em US$ 1 trilhão e a xAI em US$ 250 bilhões, segundo a Reuters.",
+        "Em 12 de junho, a empresa estreou na Nasdaq. As ações fecharam o primeiro dia a US$ 161, alta de 19%, segundo a CNBC. A oferta levantou cerca de US$ 85,7 bilhões líquidos, segundo a Nasdaq."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "A linha do tempo",
+      "heading": "Oito meses que mudaram o negócio",
+      "items": [
+        {
+          "when": "Fev. 2026",
+          "what": "A SpaceX incorpora a xAI em troca de ações. O Grok e os centros de dados de IA passam a ser da empresa de foguetes."
+        },
+        {
+          "when": "Jun. 2026",
+          "what": "Estreia na Nasdaq com o código SPCX. Ações a US$ 161 no fim do primeiro dia."
+        },
+        {
+          "when": "Jul.–set. 2026",
+          "what": "**35 lançamentos** no trimestre (12 para clientes, 23 internos). O Starship chega à órbita pela primeira vez, no voo 14, e solta 26 satélites Starlink V3. O Starlink fecha o período com 13,6 milhões de assinantes residenciais, 1,6 milhão a mais em três meses."
+        },
+        {
+          "when": "20 out. 2026",
+          "what": "Balanço: receita de US$ 14,6 bilhões, lucro de US$ 4,4 bilhões e a divisão de IA já maior que as outras duas somadas."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Incertezas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "Os números são os que a empresa enviou à SEC: receita, lucro, investimento e assinantes do Starlink.",
+          "A divisão de IA cresceu 830% em um ano e já responde por mais da metade da receita.",
+          "O investimento (US$ 19,6 bilhões) foi mais de quatro vezes o lucro (US$ 4,4 bilhões)."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se o ritmo se sustenta. A receita de IA depende de contratos de aluguel de computação e da adoção do Grok, segundo o próprio comunicado.",
+          "Se o investimento se paga. A estimativa de retorno em menos de um ano é da empresa, não de um auditor independente.",
+          "Como o mercado vai reagir no longo prazo. Logo após o anúncio, a ação subiu cerca de 1,6% nas negociações fora do horário regular, segundo dados da TradingView citados pelo Yahoo Finance."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A SpaceX lucrou US$ 4,4 bilhões em três meses.** Um ano antes, tinha prejuízo de US$ 1,1 bilhão. A receita quase triplicou, para US$ 14,6 bilhões.",
+        "**Mais da metade veio de IA, não do espaço.** A divisão que inclui o Grok e o aluguel de computadores rendeu US$ 7,56 bilhões. Lançamentos de foguetes: US$ 1,77 bilhão.",
+        "**A aposta custa caro.** Foram US$ 19,6 bilhões de investimento no trimestre, e a empresa prevê até US$ 40 bilhões no próximo. Se vai se pagar, só o tempo dirá."
+      ],
+      "after": [
+        "\"O gargalo para implantar superinteligência está mais em energia, refrigeração e infraestrutura do que em chips\", disse Elon Musk na teleconferência, em tradução livre."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "SpaceX, comunicado de resultados do 3º trimestre de 2026 enviado à SEC (Form 8-K, 20 out. 2026)",
+          "what": "Receita total e por divisão, lucro, comparação com 2025, investimento, 1,7 GW, 35 lançamentos, Starship voo 14, assinantes Starlink, definição da divisão Superinteligência"
+        },
+        {
+          "who": "Teleconferência de resultados da SpaceX, 20 out. 2026, transcrição publicada pela Motley Fool",
+          "what": "Nomes dos executivos, previsão de investimento de US$ 35 a 40 bilhões no 4º trimestre, afirmação sobre retorno em menos de um ano, frase de Musk"
+        },
+        {
+          "who": "Yahoo Finance (BeInCrypto), 20 out. 2026, e Quartz, 20 out. 2026",
+          "what": "Crescimento por divisão, US$ 16,4 bilhões em IA, reação da ação, primeiro lucro trimestral como empresa listada"
+        },
+        {
+          "who": "Reuters, via South China Morning Post, 3 fev. 2026; Nasdaq.com, destaques do 2º trimestre",
+          "what": "Compra da xAI por ações e avaliações de US$ 1 trilhão e US$ 250 bilhões; prejuízo de US$ 541 milhões no 2º trimestre; US$ 85,7 bilhões levantados na oferta"
+        },
+        {
+          "who": "CNBC, 12 jun. 2026",
+          "what": "Estreia na Nasdaq em 12 de junho, código SPCX, fechamento a US$ 161 com alta de 19%"
+        },
+        {
+          "who": "Fotos: Todd Trapani e Valentin Lacoste, via Unsplash",
+          "what": ""
+        }
+      ]
+    }
+  ],
+  "legenda": "Uma empresa que nasceu para lançar foguetes acabou de informar aos acionistas que seu maior negócio é inteligência artificial.\n\nA SpaceX divulgou na terça-feira (20) o balanço do 3º trimestre de 2026: receita de US$ 14,6 bilhões, quase o triplo de um ano antes, e lucro de US$ 4,4 bilhões, o primeiro desde a estreia na Nasdaq em junho. A divisão de IA, criada com a compra da xAI em fevereiro, rendeu US$ 7,56 bilhões, mais que Starlink e lançamentos somados. O outro lado da conta: US$ 19,6 bilhões de investimento em três meses, e a previsão de até US$ 40 bilhões no próximo trimestre.\n\nNo carrossel, separamos o que está no comunicado oficial, o que é alegação da empresa e o que ainda ninguém sabe.\n\nVocê acha que faz sentido uma empresa de foguetes apostar tão alto em IA?\n\n—\nFontes no último slide.\n\n#spacex #inteligenciaartificial #starlink #bolsa #nasdaq #noticia #tecnologia #economia"
+}

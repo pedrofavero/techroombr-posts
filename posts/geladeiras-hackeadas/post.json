@@ -1,0 +1,130 @@
+{
+  "slug": "geladeiras-hackeadas",
+  "categoria": "EXPLICA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/geladeiras-hackeadas-1.jpg",
+      "title": "Hackers esquentaram geladeiras na França. Como?",
+      "dek": "Na noite de 11 de outubro, freezers de centenas de supermercados foram a 50 °C. Ninguém encostou nas geladeiras. O alvo foi o painel que as comanda, do tipo que costuma ficar ligado à internet para a manutenção à distância.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que aconteceu",
+      "heading": "Uma noite, centenas de lojas, dezenas de milhões de euros",
+      "photo": "fotos/geladeiras-hackeadas-3.jpg",
+      "caption": "Foto: Bruno Guerrero / Unsplash",
+      "body": [
+        "Entre a noite de domingo (11) e a manhã de segunda (12), geladeiras e freezers de supermercados em toda a França começaram a esquentar: 80 lojas do Carrefour, mais de 100 da Coopérative U e cerca de 150 do Intermarché, segundo as redes. Monoprix e E.Leclerc também foram atingidos.",
+        "Os equipamentos entraram em modo de **degelo** e chegaram a cerca de 50 °C por volta de seis horas, segundo a revista Time. O presidente do Intermarché, Thierry Cotillard, falou em \"dezenas de milhões de euros\" de perda em um dia, à BFM TV."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funcionou",
+      "heading": "Quatro passos, pelo que se sabe",
+      "steps": [
+        {
+          "title": "1. O painel",
+          "text": "Cada loja tem um controlador: um pequeno computador que comanda temperatura, alarmes e degelo das geladeiras. A ANSSI, agência de segurança digital da França, identificou modelos Danfoss das séries AK-SC e AK-SM, depois Copeland e Dixell."
+        },
+        {
+          "title": "2. A porta",
+          "text": "Muitos desses painéis ficam acessíveis pela internet para que a empresa de manutenção os ajuste de longe. A ANSSI diz que expor essa interface na internet \"é contrário às boas práticas\"."
+        },
+        {
+          "title": "3. O comando",
+          "text": "Os invasores acionaram à distância o **degelo forçado**, segundo a BFM TV. É uma função normal, usada para derreter o gelo acumulado. Só que a temperatura foi ajustada para 50 °C."
+        },
+        {
+          "title": "4. O disfarce",
+          "text": "Segundo o Le Monde, em alguns freezers o ciclo de degelo foi esticado de 1 para 8 horas, o que atrasou os alarmes."
+        }
+      ],
+      "body": [
+        "O que ainda não se sabe: **como os invasores entraram** e quem são eles. A Procuradoria de Paris investiga."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O tamanho da porta aberta",
+      "big": "2.752",
+      "label": "painéis Danfoss acessíveis pela internet aberta em 12 de outubro, 1.590 deles na França",
+      "body": [
+        "A contagem é de Baptiste Robert, da empresa de segurança Predicta Lab, citada pela Forbes. Alcançável pela internet aberta quer dizer que a tela de entrada do painel podia ser encontrada por qualquer pessoa na rede, sem senha de rede ou túnel privado na frente.",
+        "A Danfoss afirmou que a maioria dos aparelhos atingidos era de modelos antigos, sem atualizações de segurança há anos: o AK-SM 800 deixou de receber atualizações em 2021 e o AK-SC 355 saiu de linha em 2016. Alguns modelos atuais rodavam versões desatualizadas do programa interno, segundo a empresa."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa",
+      "heading": "Não foi a geladeira que foi \"invadida\"",
+      "nocheck": [
+        "\"Hackearam as geladeiras.\" O que estava na internet não era a geladeira: era o painel que comanda todas as geladeiras da loja.",
+        "\"Foi um vírus sofisticado.\" Ninguém sabe ainda como entraram. O que se sabe é que os painéis eram antigos, sem atualização, e muitos estavam expostos na internet.",
+        "\"Nunca tinha acontecido.\" Em 2022, ataques do mesmo tipo atingiram 16 supermercados na Rússia e 40 lojas em Israel, segundo um boletim da própria Danfoss citado pelo The Hacker News."
+      ],
+      "after": [
+        "Uma analogia: é como instalar o interfone que abre o portão do prédio do lado de fora, na rua, sem porteiro. O portão em si não tem defeito. O problema é onde está o botão."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "O caminho do ataque",
+      "heading": "Da internet ao freezer",
+      "svg": "<svg viewBox='0 0 920 420' fill='none' stroke='currentColor' stroke-width='3' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='150' width='180' height='110' rx='10'/><text x='120' y='198' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Internet aberta</text><text x='120' y='228' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>(o invasor)</text><line x1='210' y1='205' x2='345' y2='205' stroke='var(--accent)' stroke-width='5'/><polygon points='345,205 327,195 327,215' fill='var(--accent)' stroke='none'/><text x='277' y='172' font-size='20' text-anchor='middle' fill='var(--accent)' stroke='none'>porta exposta</text><rect x='350' y='135' width='215' height='140' rx='10' stroke='var(--accent)' stroke-width='4'/><text x='457' y='190' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Painel de controle</text><text x='457' y='220' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>temperatura · degelo</text><text x='457' y='250' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>alarmes</text><line x1='565' y1='205' x2='660' y2='95'/><line x1='565' y1='205' x2='660' y2='205'/><line x1='565' y1='205' x2='660' y2='315'/><rect x='665' y='60' width='220' height='70' rx='10'/><text x='775' y='103' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Freezer 1 → 50 °C</text><rect x='665' y='170' width='220' height='70' rx='10'/><text x='775' y='213' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Freezer 2 → 50 °C</text><rect x='665' y='280' width='220' height='70' rx='10'/><text x='775' y='323' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Câmara fria → 50 °C</text><text x='450' y='395' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>Um painel exposto comanda todas as geladeiras da loja de uma vez</text></svg>",
+      "caption": "Esquema simplificado a partir das descrições da ANSSI, da Time e da Al Jazeera.",
+      "body": [
+        "A recomendação da ANSSI aos mercados: tirar o painel da internet aberta, permitir acesso remoto só por **VPN** (um túnel privado e protegido), atualizar o programa interno, trocar as senhas de fábrica e, se o aparelho foi comprometido, reconfigurar do zero. A agência avisa que só restaurar o padrão de fábrica não basta: o painel volta vulnerável e tende a ser invadido de novo."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O alvo não foi a geladeira, foi o computador que a comanda.** Painéis de refrigeração ficam na internet para a manutenção remota, e isso virou a porta de entrada.",
+        "**Equipamento velho e exposto é o padrão, não a exceção.** Havia 2.752 painéis Danfoss visíveis na internet aberta, e os modelos atingidos não recebiam atualização há anos, segundo a fabricante.",
+        "**O ataque foi digital, o dano foi físico.** Comida estragada, incêndios e dezenas de milhões de euros em um dia. Ninguém sabe ainda quem fez nem como entrou."
+      ],
+      "after": [
+        "\"De extrema gravidade e sem precedentes\", definiu Dominique Schelcher, presidente da Coopérative U, em tradução livre."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "CERT-FR / ANSSI, alerta CERTFR-2026-ALE-012, 12 a 16 out. 2026",
+          "what": "Modelos Danfoss AK-SC e AK-SM, inclusão de Copeland e Dixell, interface exposta \"contrária às boas práticas\", recomendações (VPN, atualização, senhas, reconfiguração) e aviso sobre o reset de fábrica"
+        },
+        {
+          "who": "Time, 13 out. 2026",
+          "what": "Número de lojas por rede, 50 °C por cerca de seis horas, ciclos de degelo de 1 para 8 horas (Le Monde), declaração da Danfoss sobre firmware desatualizado, perdas"
+        },
+        {
+          "who": "Al Jazeera, com Reuters e AFP, 13 out. 2026",
+          "what": "Painéis acessíveis pela internet para manutenção, degelo forçado (BFM TV), incêndios, Procuradoria de Paris, ANSSI acionada pelo governo, frase de Thierry Cotillard; Time, 13 out., para a frase de Dominique Schelcher"
+        },
+        {
+          "who": "Forbes, Jon Markman, 20 out. 2026",
+          "what": "Contagem de 2.752 painéis Danfoss acessíveis, 1.590 na França (Baptiste Robert, Predicta Lab, 12 out.)"
+        },
+        {
+          "who": "The Hacker News, 13 out. 2026",
+          "what": "Modelos AK-SM 800 (fim de suporte em 2021) e AK-SC 355 (saiu de linha em 2016), segundo a Danfoss; ataques de 2022 na Rússia e em Israel citados em boletim da Danfoss"
+        },
+        {
+          "who": "Fotos: Eduardo Soares e Bruno Guerrero, via Unsplash",
+          "what": ""
+        }
+      ]
+    }
+  ],
+  "legenda": "O estrago nas geladeiras de centenas de supermercados franceses foi feito com uma função que já existia no equipamento: o degelo.\n\nNa noite de 11 de outubro, invasores acionaram à distância o degelo forçado em painéis de refrigeração de centenas de lojas, levando freezers a 50 °C e, em alguns casos, esticando o ciclo de 1 para 8 horas para atrasar os alarmes. Os painéis atingidos eram, em sua maioria, modelos antigos sem atualização de segurança, segundo a fabricante Danfoss, e milhares deles estavam visíveis na internet aberta. Como os invasores entraram e quem são eles, ninguém confirmou ainda.\n\nNo carrossel, explicamos o que é esse painel, por que ele fica na internet e o que a agência de segurança francesa recomenda.\n\nQue outro aparelho do seu dia a dia você acha que está ligado à internet sem você saber?\n\n—\nFontes no último slide.\n\n#ciberseguranca #hackers #internetdascoisas #supermercado #franca #explica #tecnologia"
+}
