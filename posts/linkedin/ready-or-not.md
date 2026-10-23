@@ -23,3 +23,5 @@ What it doesn't prove: one workflow, one benchmark, not live production. The 90%
 Have you ever had an agent's review rate blow up after launch?
 
 Paper in the first comment.
+
+#ForwardDeployedEngineering #AIAgents #AIEngineering #MLOps #EnterpriseAI
