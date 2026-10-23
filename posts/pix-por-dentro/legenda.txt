@@ -1,0 +1,12 @@
+Quando o seu Pix chega em três segundos na conta de alguém de outro banco, não foi o seu banco que fez a mágica. Foi o Banco Central.
+
+Cada banco e fintech participante tem uma conta dentro do BC, a Conta PI. O Pix entre dois bancos é o BC baixando o saldo de uma e subindo o da outra, depois que um diretório, o DICT, traduziu a chave que você digitou numa conta de verdade. São cinco trocas de mensagens, descritas no manual oficial, entre o seu banco, o BC e o banco de quem recebe. Por regra, é gratuito para pessoas físicas e funciona todo dia, a qualquer hora.
+
+O tamanho hoje, segundo o BC: mais de 1 bilhão de chaves cadastradas, 7,1 bilhões de transações só em setembro de 2026 e 86% dos adultos usando.
+
+Você ainda carrega dinheiro em espécie ou já vive só de Pix?
+
+—
+Fontes no último slide.
+
+#pix #comofunciona #bancocentral #pagamentos #dinheiro #fintech #tecnologia #brasil

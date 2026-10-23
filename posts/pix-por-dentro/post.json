@@ -1,0 +1,128 @@
+{
+  "slug": "pix-por-dentro",
+  "categoria": "COMO FUNCIONA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/pix-por-dentro-1.jpg",
+      "title": "O Pix não é do seu banco. Por onde o dinheiro passa",
+      "dek": "Em segundos, o dinheiro sai de um banco e entra em outro, de madrugada, no feriado. Quem faz isso é um sistema do Banco Central em que cada banco tem uma conta. Veja o caminho, passo a passo.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Uma lista de contatos e um cofre central",
+      "photo": "fotos/pix-por-dentro-2.jpg",
+      "caption": "Foto: Fabian Lozano / Unsplash",
+      "body": [
+        "O Pix foi lançado pelo Banco Central em **16 de novembro de 2020** e tem duas peças. O **DICT** é um diretório que guarda as chaves Pix (CPF, celular, e-mail ou chave aleatória) e diz a qual conta cada uma pertence. É a lista de contatos: você digita o nome, ele acha o número.",
+        "O **SPI**, Sistema de Pagamentos Instantâneos, é o cofre. Cada banco ou fintech participante tem uma conta dentro do Banco Central, a ==Conta PI==. Pagar alguém de outro banco é mover dinheiro de uma Conta PI para outra, dentro do BC: todos guardam no mesmo cofre e só trocam de gaveta."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "O caminho",
+      "heading": "Seu banco, o Banco Central e o banco de quem recebe",
+      "svg": "<svg viewBox='0 0 700 400' fill='none' stroke='currentColor' stroke-width='2'><rect x='20' y='230' width='190' height='90' rx='8'/><rect x='255' y='230' width='190' height='90' rx='8' stroke='var(--accent)' stroke-width='3'/><rect x='490' y='230' width='190' height='90' rx='8'/><rect x='255' y='40' width='190' height='74' rx='8' stroke-dasharray='6 6'/><g stroke='var(--accent)' stroke-width='3'><line x1='210' y1='275' x2='245' y2='275'/><line x1='445' y1='275' x2='480' y2='275'/><polygon points='243,268 255,275 243,282' fill='var(--accent)' stroke='none'/><polygon points='478,268 490,275 478,282' fill='var(--accent)' stroke='none'/></g><path d='M115 230 C115 77 200 77 250 77' stroke-dasharray='6 6' opacity='.7'/><g stroke='none' fill='currentColor' font-size='20'><text x='115' y='268' text-anchor='middle' font-weight='700'>Seu banco</text><text x='115' y='296' text-anchor='middle' opacity='.7'>Conta PI</text><text x='350' y='268' text-anchor='middle' font-weight='700'>SPI</text><text x='350' y='296' text-anchor='middle' opacity='.7'>Banco Central</text><text x='585' y='268' text-anchor='middle' font-weight='700'>Outro banco</text><text x='585' y='296' text-anchor='middle' opacity='.7'>Conta PI</text><text x='350' y='70' text-anchor='middle' font-weight='700'>DICT</text><text x='350' y='98' text-anchor='middle' opacity='.7'>chave → conta</text><text x='115' y='370' text-anchor='middle' opacity='.8'>você</text><text x='585' y='370' text-anchor='middle' opacity='.8'>quem recebe</text><text x='145' y='150' opacity='.75'>1. consulta a chave</text><text x='230' y='200' opacity='.75'>2. o dinheiro troca de gaveta</text></g><line x1='115' y1='320' x2='115' y2='350' opacity='.6'/><line x1='585' y1='320' x2='585' y2='350' opacity='.6'/></svg>",
+      "caption": "Seu banco consulta o DICT para descobrir a conta por trás da chave. Depois, pede ao SPI que mova o valor da sua Conta PI para a do outro banco.",
+      "body": [
+        "O dinheiro não \"viaja\" pelo aplicativo. Muda de lugar dentro do Banco Central, e cada banco atualiza o saldo do seu cliente. Se pagador e recebedor são do mesmo banco, a transferência pode ser feita dentro da própria instituição, sem passar pelo SPI."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Passo a passo",
+      "heading": "O que acontece entre o \"confirmar\" e o \"recebido\"",
+      "steps": [
+        { "title": "1. A chave vira conta", "text": "Você digita a chave. Seu banco pergunta ao DICT de quem é, e o DICT devolve os dados do recebedor para você conferir o nome." },
+        { "title": "2. Bloqueio e pedido", "text": "Seu banco bloqueia o valor na sua conta e envia uma mensagem ao SPI pedindo a transferência da sua Conta PI." },
+        { "title": "3. O BC avisa o outro banco", "text": "O SPI bloqueia o valor na Conta PI do seu banco e manda os dados ao banco do recebedor, que valida a conta e anota o crédito provisório." },
+        { "title": "4. A troca de gaveta", "text": "O banco do recebedor responde ao SPI. O SPI então baixa o saldo da Conta PI do seu banco e sobe o da outra, no mesmo valor." },
+        { "title": "5. Os dois lados confirmam", "text": "O SPI confirma para os dois bancos. O do recebedor efetiva o crédito; o seu efetiva o débito. Os dois clientes recebem a notificação." }
+      ],
+      "body": [
+        "Sequência do Manual de Fluxos do Pix, do Banco Central, para pagador e recebedor em instituições diferentes."
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "Quem usa",
+      "heading": "86 em cada 100 adultos brasileiros já usam Pix",
+      "total": 100,
+      "filled": 86,
+      "on_label": "adultos que usam Pix",
+      "off_label": "não usam",
+      "body": [
+        "Em 2025, 148 milhões de pessoas físicas usaram o Pix, cerca de 86% da população adulta, segundo o Relatório de Gestão do Pix do Banco Central. Foram quase 80 bilhões de transações e mais de R$ 35 trilhões no ano. No dia de pico, 5 de dezembro, 313 milhões de Pix em 24 horas.",
+        "Já em dezembro de 2022, 71,5 milhões de pessoas que não tinham feito nenhuma transferência eletrônica no ano anterior haviam passado a usar Pix, segundo o FMI."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O tamanho da coisa hoje",
+      "heading": "Mais de 1 bilhão de chaves e 7 bilhões de Pix por mês",
+      "cells": [
+        { "big": "1,008", "unit": " bi", "label": "de chaves Pix cadastradas em 30 de setembro de 2026", "text": "Para cerca de 170 milhões de clientes: em média, seis chaves por pessoa ou empresa. Mais da metade (52%) são chaves aleatórias." },
+        { "big": "7,1", "unit": " bi", "label": "de transações em setembro de 2026", "text": "Movimentaram cerca de R$ 3,2 trilhões pelo SPI em um mês, segundo o Banco Central." }
+      ],
+      "body": [
+        "Pessoa física pode ter até cinco chaves por conta; empresa, até vinte. Cada chave só aponta para uma conta por vez."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Velocidade e custo",
+      "heading": "Pix contra o cartão, na conta do FMI",
+      "a": {
+        "title": "Pix",
+        "lines": [
+          "Cerca de 3 segundos para liquidar, em média",
+          "No início, até 10 segundos em 99% das transações (BC, 2021)",
+          "Custo para o comerciante: 0,33% do valor",
+          "Gratuito para pessoas físicas, por regra do BC",
+          "Instituições com mais de 500 mil contas são obrigadas a participar"
+        ]
+      },
+      "b": {
+        "title": "Cartões",
+        "lines": [
+          "Débito: o dinheiro chega ao comerciante em 2 dias",
+          "Crédito: em 28 dias",
+          "Custo para o comerciante: 1,13% no débito",
+          "2,34% no crédito",
+          "Dados do relatório do FMI sobre o Pix, com números de maio de 2023"
+        ]
+      },
+      "body": [
+        "Em 2023, o dinheiro vivo já era 40,5% dos pagamentos registrados no país, contra 76,6% em 2019. O Pix respondia por 24,9%."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "O que fica depois de fechar o post",
+      "check": [
+        "O Pix não roda no seu banco. Roda em dois sistemas do Banco Central: o DICT, que traduz chave em conta, e o SPI, onde cada banco tem uma Conta PI e o dinheiro troca de dono.",
+        "Entre o \"confirmar\" e o \"recebido\" há cinco passos de mensagens entre seu banco, o BC e o banco de quem recebe. Em média, 3 segundos.",
+        "Em setembro de 2026: 7,1 bilhões de Pix, R$ 3,2 trilhões, mais de 1 bilhão de chaves. Em 2025, 86% dos adultos usaram."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Banco Central do Brasil", "what": "Manual de Fluxos do Processo de Efetivação do Pix, versão 2.1 — o passo a passo entre PSP do pagador, SPI, DICT e PSP do recebedor" },
+        { "who": "Banco Central do Brasil, 2026", "what": "Relatório de Gestão do Pix 2023-2025: usuários, transações, chaves, participantes, pico diário e participação do dinheiro em espécie" },
+        { "who": "Banco Central do Brasil, 2021", "what": "Relatório de Economia Bancária 2020, boxe \"Pix: o novo meio de pagamento brasileiro\": lançamento em 16/11/2020, 10 segundos em 99% das transações, gratuidade, 24 horas por dia" },
+        { "who": "FMI, 2023", "what": "Mustafa Saiyid — Pix: Brazil's Successful Instant Payment System (IMF Staff Country Report 2023/289): 3 segundos, custos de 0,33% / 1,13% / 2,34%, prazos dos cartões, obrigatoriedade acima de 500 mil contas" },
+        { "who": "Agência Brasil, 9 out. 2026", "what": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil — dados do BC de setembro de 2026" },
+        { "who": "Fotos", "what": "Nathan Dumlao e Fabian Lozano, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Quando o seu Pix chega em três segundos na conta de alguém de outro banco, não foi o seu banco que fez a mágica. Foi o Banco Central.\n\nCada banco e fintech participante tem uma conta dentro do BC, a Conta PI. O Pix entre dois bancos é o BC baixando o saldo de uma e subindo o da outra, depois que um diretório, o DICT, traduziu a chave que você digitou numa conta de verdade. São cinco trocas de mensagens, descritas no manual oficial, entre o seu banco, o BC e o banco de quem recebe. Por regra, é gratuito para pessoas físicas e funciona todo dia, a qualquer hora.\n\nO tamanho hoje, segundo o BC: mais de 1 bilhão de chaves cadastradas, 7,1 bilhões de transações só em setembro de 2026 e 86% dos adultos usando.\n\nVocê ainda carrega dinheiro em espécie ou já vive só de Pix?\n\n—\nFontes no último slide.\n\n#pix #comofunciona #bancocentral #pagamentos #dinheiro #fintech #tecnologia #brasil"
+}
