@@ -20,8 +20,8 @@
       "unit": " m",
       "label": "era a profundidade máxima em que o grupo já tinha visto plástico compostável se degradar. Só que alguns levavam anos",
       "body": [
-        "Plástico compostável é feito para ser comido por micróbios. Em uma usina de compostagem, quente e cheia de bactérias, funciona. No fundo do mar é outra história: a 757 metros, a água está a 4 °C, com pressão 75 vezes a da superfície, e há poucos micróbios.",
-        "Em 2024, o mesmo grupo japonês mostrou que esses plásticos até se degradam entre 757 e 5.552 metros, mas alguns levam ==anos==. A pergunta do novo estudo: dá para levar o \"digestor\" junto, dentro do próprio plástico?"
+        "Plástico compostável é feito para ser comido por micróbios. Em compostagem industrial, funciona. No fundo do mar é outra história: água a 4 °C, pressão 75 vezes a da superfície e pouquíssimos micróbios capazes de degradá-lo.",
+        "Em 2024, um estudo anterior do mesmo projeto japonês mostrou que esses plásticos até se degradam entre 757 e 5.552 metros, mas ==mesmo os mais rápidos levam anos==. A pergunta do novo estudo: dá para levar o \"digestor\" junto, dentro do próprio plástico?"
       ]
     },
     {
@@ -29,12 +29,30 @@
       "kicker": "Ficha do estudo",
       "heading": "Experimento de campo, do cais ao fundo do oceano",
       "rows": [
-        { "k": "Quem", "v": "Grupo de Tadahisa Iwata, da Universidade de Tóquio, com a agência oceanográfica JAMSTEC e a Universidade de Gunma" },
-        { "k": "Onde", "v": "Nature, publicado em 21 de outubro de 2026" },
-        { "k": "Material", "v": "Quatro poliésteres compostáveis (PBS, PBSA, PCL e PBAT) com enzimas misturadas no plástico derretido" },
-        { "k": "Enzimas", "v": "Uma cutinase de fungo (HiC) e uma lipase de levedura antártica (CaLB), a partir de 0,1% do peso" },
-        { "k": "Teste", "v": "Amostras deixadas no mar, de 2 a 6 m de profundidade até 5.503 m, levadas por submersível e robô" },
-        { "k": "Financiamento", "v": "Programa Moonshot da agência pública japonesa NEDO, de 2020 a 2029" }
+        {
+          "k": "Quem",
+          "v": "Onze pesquisadores, entre eles Tadahisa Iwata, da Universidade de Tóquio, com a agência oceanográfica JAMSTEC e a Universidade de Gunma"
+        },
+        {
+          "k": "Onde",
+          "v": "Nature, publicado em 21 de outubro de 2026"
+        },
+        {
+          "k": "Material",
+          "v": "Quatro poliésteres compostáveis principais (PBS, PBSA, PCL e PBAT) com enzimas misturadas no plástico derretido"
+        },
+        {
+          "k": "Enzimas",
+          "v": "Uma cutinase de fungo (HiC) e uma lipase de levedura antártica (CaLB), a partir de 0,1% do peso"
+        },
+        {
+          "k": "Teste",
+          "v": "Amostras deixadas no mar, de 2 a 6 m de profundidade até 5.503 m, levadas por submersível e robô"
+        },
+        {
+          "k": "Financiamento",
+          "v": "Programa Moonshot da agência pública japonesa NEDO, previsto para os anos fiscais de 2020 a 2029"
+        }
       ]
     },
     {
@@ -42,10 +60,22 @@
       "kicker": "Como funciona",
       "heading": "Um interruptor que só liga na água",
       "steps": [
-        { "title": "1. A enzima vai dentro", "text": "Enzimas são proteínas que quebram ligações químicas. Aqui, elas são misturadas ao plástico derretido, acima do ponto de amolecimento, e ficam presas dentro do material." },
-        { "title": "2. Seco, nada acontece", "text": "Sem água, a enzima fica inativa. Na prateleira e durante o uso, o plástico se comporta como o comum: resistência e flexibilidade parecidas, segundo os autores." },
-        { "title": "3. Molhado e arranhado, liga", "text": "Quando o objeto quebra ou a superfície desgasta no ambiente, a água chega à enzima. Ela começa a cortar o plástico em pedaços pequenos." },
-        { "title": "4. Micróbios terminam o serviço", "text": "Os fragmentos pequenos servem de comida para micróbios do mar. Testes de consumo de oxigênio indicam que o material é consumido até o fim, não só esfarelado." }
+        {
+          "title": "1. A enzima vai dentro",
+          "text": "Enzimas são proteínas que quebram ligações químicas. Aqui, elas são misturadas ao plástico derretido, acima do ponto de amolecimento, e ficam presas dentro do material."
+        },
+        {
+          "title": "2. Seco, nada acontece",
+          "text": "Sem água, a enzima fica inativa. Na prateleira e durante o uso, o plástico se comporta como o comum: resistência e flexibilidade parecidas, segundo os autores."
+        },
+        {
+          "title": "3. Molhado e arranhado, liga",
+          "text": "Quando o objeto quebra ou a superfície desgasta no ambiente, a água chega à enzima. Ela começa a cortar o plástico em pedaços pequenos."
+        },
+        {
+          "title": "4. Micróbios terminam o serviço",
+          "text": "Os fragmentos pequenos servem de comida para micróbios do mar. Testes de consumo de oxigênio, em laboratório, apoiam a ideia de que o material é mineralizado (vira CO₂ e água), não só esfarelado."
+        }
       ]
     },
     {
@@ -53,11 +83,21 @@
       "kicker": "O resultado",
       "heading": "Quase todo o material sumiu, na costa e no fundo",
       "cells": [
-        { "big": "1", "unit": " mês", "label": "na costa, em um cais (2 a 6 m)", "text": "Degradação quase completa em um mês, dependendo do material, com apenas 0,1% de enzima." },
-        { "big": "5", "unit": " meses", "label": "no fundo do mar, a 757 m", "text": "PBS, PBSA e PCL com a cutinase chegaram perto da degradação total. Os mesmos plásticos sem enzima ficaram bem atrás." }
+        {
+          "big": "1",
+          "unit": " mês",
+          "label": "na costa, em um cais (2 a 6 m)",
+          "text": "Degradação quase completa em um mês, dependendo do material, com apenas 0,1% de enzima."
+        },
+        {
+          "big": "5",
+          "unit": " meses",
+          "label": "no fundo do mar, a 757 m",
+          "text": "PBS, PBSA e PCL com a cutinase chegaram perto da degradação total. Os mesmos plásticos sem enzima ficaram bem atrás."
+        }
       ],
       "body": [
-        "A 5.503 metros, no ponto mais fundo, a degradação foi apenas ==moderada==. Quanto mais fundo, mais frio e mais vazio de micróbios."
+        "A 5.503 metros, no ponto mais fundo, a degradação foi apenas ==moderada==. O fundo do mar é frio e tem pouquíssimos micróbios degradadores."
       ]
     },
     {
@@ -65,8 +105,16 @@
       "kicker": "A velocidade",
       "heading": "Com enzima, até 80 vezes mais rápido que sem",
       "bars": [
-        { "name": "Costa (2 a 6 m)", "value": 50, "label": "5–50×" },
-        { "name": "Mar profundo", "value": 80, "label": "12–80×" }
+        {
+          "name": "Costa (2 a 6 m)",
+          "value": 50,
+          "label": "5–50×"
+        },
+        {
+          "name": "Mar profundo",
+          "value": 80,
+          "label": "12–80×"
+        }
       ],
       "note": "Quantas vezes mais rápido o plástico com enzima se degradou em comparação com o mesmo plástico sem enzima, segundo o comunicado da Universidade de Tóquio. A faixa depende do material.",
       "body": [
@@ -80,7 +128,7 @@
       "photo": "fotos/plastico-enzima-2.jpg",
       "caption": "Foto: Marcos Paulo Prado / Unsplash",
       "nocheck": [
-        "Não vale para o plástico comum. Só quatro poliésteres compostáveis foram testados. Os autores escrevem que o resultado não é prova de que a estratégia elimine a poluição marinha.",
+        "Não vale para o plástico comum. Foram testados poliésteres compostáveis, quatro deles principais. Os autores escrevem que o resultado não é prova de que a estratégia elimine a poluição marinha.",
         "Amostra pequena e sem sorteio. O tamanho da amostra não foi definido por estatística, não houve randomização nem cegamento, e a análise genética dos micróbios usou uma amostra por condição.",
         "Falta o mundo real. Durabilidade em uso, estabilidade no estoque, custo e produção em escala não foram avaliados. É o que os pesquisadores dizem que vem agora."
       ]
@@ -98,13 +146,28 @@
     {
       "type": "sources",
       "items": [
-        { "who": "Nature, 21 out. 2026", "what": "Huang, Iida, Isobe, Kabe, Omura, Ilangovan, Kimura, Seok, Nomaki, Kasuya e Iwata — Enzyme-embedded polyesters for accelerated biodegradation in the deep sea (doi 10.1038/s41586-026-11192-1)" },
-        { "who": "NEDO, 22 out. 2026", "what": "Comunicado oficial da agência japonesa, via PR Times: enzimas HiC e CaLB, 1 mês na costa, 5 meses a 757 m, cerca de 30 vezes mais rápido, programa Moonshot" },
-        { "who": "Universidade de Tóquio, 22 out. 2026", "what": "Comunicado do grupo de pesquisa, reproduzido pela Tech-I: faixas de 5 a 50× e 12 a 80×, profundidades de 2 a 6 m até 5.503 m" },
-        { "who": "Bioengineer.org, 22 out. 2026", "what": "Resumo do artigo com os detalhes de método e as limitações declaradas pelos autores" },
-        { "who": "Fotos", "what": "Kim Ampie e Marcos Paulo Prado, via Unsplash" }
+        {
+          "who": "Nature, 21 out. 2026",
+          "what": "Huang, Iida, Isobe, Kabe, Omura, Ilangovan, Kimura, Seok, Nomaki, Kasuya e Iwata — Enzyme-embedded polyesters for accelerated biodegradation in the deep sea (doi 10.1038/s41586-026-11192-1)"
+        },
+        {
+          "who": "NEDO, 22 out. 2026",
+          "what": "Comunicado oficial da agência japonesa, via PR Times: enzimas HiC e CaLB, 1 mês na costa, 5 meses a 757 m, cerca de 30 vezes mais rápido, programa Moonshot"
+        },
+        {
+          "who": "Universidade de Tóquio, 22 out. 2026",
+          "what": "Comunicado do grupo de pesquisa, reproduzido pela Tech-I: faixas de 5 a 50× e 12 a 80×, profundidades de 2 a 6 m até 5.503 m"
+        },
+        {
+          "who": "Bioengineer.org, 22 out. 2026",
+          "what": "Resumo do artigo com os detalhes de método e as limitações declaradas pelos autores"
+        },
+        {
+          "who": "Fotos",
+          "what": "Kim Ampie e Marcos Paulo Prado, via Unsplash"
+        }
       ]
     }
   ],
-  "legenda": "A palavra \"compostável\" na embalagem não diz onde o plástico vai se decompor. No fundo do mar, frio e quase sem micróbios, alguns levam anos.\n\nUm grupo da Universidade de Tóquio, com a agência oceanográfica JAMSTEC, testou uma saída: misturar enzimas ao plástico ainda derretido. Secas, elas ficam inativas. Quando o objeto quebra na água, começam a cortar o material, e os micróbios terminam. Em um cais, o plástico quase sumiu em um mês. A 757 metros de profundidade, em cinco meses. A 5.503 metros, a degradação foi só moderada. O estudo saiu na Nature em 21 de outubro.\n\nVale a ressalva dos próprios autores: são quatro poliésteres compostáveis, amostras pequenas e nenhum produto no mercado ainda. Custo, durabilidade e escala ficaram para depois.\n\nVocê confia no rótulo \"compostável\" na hora de comprar?\n\n—\nFontes no último slide.\n\n#plastico #oceano #estudo #nature #biodegradavel #ciencia #tecnologia #poluicao"
+  "legenda": "A palavra \"compostável\" na embalagem não diz onde o plástico vai se decompor. No fundo do mar, frio e quase sem micróbios, mesmo os mais rápidos levam anos.\n\nUm grupo da Universidade de Tóquio, com a agência oceanográfica JAMSTEC, testou uma saída: misturar enzimas ao plástico ainda derretido. Secas, elas ficam inativas. Quando o objeto quebra na água, começam a cortar o material, e os micróbios terminam. Em um cais, o plástico quase sumiu em um mês. A 757 metros de profundidade, em cinco meses. A 5.503 metros, a degradação foi só moderada. O estudo saiu na Nature em 21 de outubro.\n\nVale a ressalva dos próprios autores: são poliésteres compostáveis (quatro principais), amostras pequenas e nenhum produto no mercado ainda. Custo, durabilidade e escala ficaram para depois.\n\nVocê confia no rótulo \"compostável\" na hora de comprar?\n\n—\nFontes no último slide.\n\n#plastico #oceano #estudo #nature #biodegradavel #ciencia #tecnologia #poluicao"
 }
