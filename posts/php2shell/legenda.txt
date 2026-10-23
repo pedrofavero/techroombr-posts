@@ -1,6 +1,6 @@
-Se o seu site roda WordPress, ele roda PHP. E o PHP acaba de receber a correção mais urgente em anos.
+Se o seu site roda WordPress, ele roda PHP. E o PHP acaba de corrigir o que o pesquisador Kevin Beaumont chama de "uma das maiores vulnerabilidades em anos".
 
-Na terça-feira (21), o projeto PHP publicou versões de emergência para duas falhas, apelidadas de PHP2Shell, que permitem a um invasor sem senha executar comandos no servidor. Elas estão no próprio PHP, não nos sites, então código bem escrito não protege. A Cloudflare e a Amazon já registraram tentativas de ataque, e serviços como o BambooHR e sites do governo holandês saíram do ar por precaução. O PHP é claro: ajustes reduzem o risco, mas só atualizar resolve.
+Na quarta-feira (21), o projeto PHP publicou versões de emergência para duas falhas, apelidadas de PHP2Shell, que permitem a um invasor sem senha executar comandos no servidor. Elas estão no próprio PHP, não nos sites, então código bem escrito não protege. A Cloudflare e a Amazon já registraram tentativas de ataque, e serviços como o BambooHR e sites do governo holandês saíram do ar por precaução. O PHP é claro: ajustes reduzem o risco, mas só atualizar resolve.
 
 No carrossel, explicamos a brecha em linguagem simples, o que já se sabe e o que ainda está em aberto.
 

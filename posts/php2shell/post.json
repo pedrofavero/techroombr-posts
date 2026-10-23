@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/php2shell-1.jpg",
       "title": "A falha no PHP, a linguagem por trás de 7 em cada 10 sites",
-      "dek": "Na terça (21), o projeto PHP lançou correções de emergência para duas brechas que deixam um invasor sem senha executar código no servidor. Pesquisadores da Wiz as colocam \"entre as mais graves da história do software\". Já há tentativas de ataque.",
+      "dek": "Na quarta (21), o projeto PHP lançou correções de emergência para duas brechas que deixam um invasor sem senha executar código no servidor. Para a Wiz, estão \"entre as mais graves já descobertas em PHP e, possivelmente, na história do software\". Já há tentativas de ataque.",
       "swipe": "arraste →"
     },
     {
@@ -18,12 +18,30 @@
       "kicker": "O que aconteceu",
       "heading": "Duas brechas, nota 9,2 de 10, um dia antes do previsto",
       "rows": [
-        {"k": "Quem", "v": "PHP, linguagem de programação que roda no servidor de 69,3% dos sites com linguagem conhecida, segundo a W3Techs"},
-        {"k": "O quê", "v": "Duas vulnerabilidades, CVE-2026-109618 e CVE-2026-109619, apelidadas de PHP2Shell. Nota 9,2 na escala CVSS v4, que vai de 0 a 10"},
-        {"k": "Quando", "v": "Correções publicadas em 21 de outubro de 2026, às 14h UTC (11h em Brasília), um dia antes do anunciado"},
-        {"k": "Quem achou", "v": "Pesquisadores da Wiz, da Calif e da OpenAI, segundo a Fundação PHP"},
-        {"k": "Correção", "v": "Atualizar para PHP 8.5.12, 8.4.27, 8.3.36 ou 8.2.35. Versões 8.1 e anteriores não recebem mais atualizações oficiais"},
-        {"k": "Fontes", "v": "Aviso de segurança do php.net; The Hacker News; BleepingComputer; Rapid7; Help Net Security; Tenable"}
+        {
+          "k": "Quem",
+          "v": "PHP, linguagem de programação que roda no servidor de 69,3% dos sites com linguagem conhecida, segundo a W3Techs"
+        },
+        {
+          "k": "O quê",
+          "v": "Duas vulnerabilidades, CVE-2026-109618 e CVE-2026-109619, apelidadas de PHP2Shell. Nota 9,2 na escala CVSS v4, que vai de 0 a 10"
+        },
+        {
+          "k": "Quando",
+          "v": "Correções publicadas em 21 de outubro de 2026, às 14h UTC (11h em Brasília), um dia antes do planejado originalmente"
+        },
+        {
+          "k": "Quem achou",
+          "v": "Pesquisadores da Wiz, da Calif e da OpenAI, segundo a Fundação PHP"
+        },
+        {
+          "k": "Correção",
+          "v": "Atualizar para PHP 8.5.12, 8.4.27, 8.3.36 ou 8.2.35. Versões 8.1 e anteriores não recebem mais atualizações oficiais"
+        },
+        {
+          "k": "Fontes",
+          "v": "Aviso de segurança do php.net; The Hacker News; BleepingComputer; Rapid7; Help Net Security; Tenable"
+        }
       ]
     },
     {
@@ -34,7 +52,7 @@
       "caption": "Foto: Arif Riyanto / Unsplash",
       "body": [
         "PHP é a linguagem que trabalha no servidor por trás de WordPress, Drupal, Joomla, Laravel e Magento. A maioria das lojas, blogs e portais que você visita passa por ele.",
-        "As duas falhas estão no **próprio PHP**, não nos aplicativos. Por isso, um site com código bem escrito continua exposto. Um invasor sem conta nem senha pode executar comandos no servidor com os privilégios do processo do PHP e, mesmo sem chegar a isso, ler a memória do processo, onde podem estar senhas, tokens e chaves de outros visitantes, segundo o The Hacker News."
+        "As duas falhas estão no **próprio PHP**, não nos aplicativos. Por isso, um site com código bem escrito continua exposto. Um invasor sem conta nem senha pode executar comandos no servidor com os privilégios do processo do PHP e, mesmo sem chegar a isso, ler a memória do processo, onde podem estar senhas, tokens e chaves de outras requisições, segundo o The Hacker News."
       ]
     },
     {
@@ -42,12 +60,26 @@
       "kicker": "Como a brecha funciona",
       "heading": "Em linguagem simples, pelo aviso oficial",
       "steps": [
-        {"title": "1. O pedido malicioso", "text": "Um visitante envia uma requisição montada para esgotar a memória do PHP. O PHP interrompe o trabalho no meio, com dados internos preenchidos só pela metade."},
-        {"title": "2. A limpeza errada", "text": "Ao encerrar o pedido, a rotina de limpeza trata esses dados inválidos como se fossem válidos. É a primeira falha (CVE-2026-109618)."},
-        {"title": "3. A sobra do pedido anterior", "text": "Na segunda falha (CVE-2026-109619), um dado interno do pedido anterior sobrevive depois que sua memória foi liberada. O pedido seguinte, atendido pelo mesmo processo, usa essa sobra."},
-        {"title": "4. O resultado", "text": "No Apache com mod_php, uma única requisição sem autenticação dispara o ataque antes de qualquer código do site rodar, segundo o próprio PHP, que considera esse o cenário de maior risco."}
+        {
+          "title": "1. O pedido malicioso",
+          "text": "Um visitante envia uma requisição montada para esgotar a memória do PHP. O PHP interrompe o trabalho no meio, com dados internos preenchidos só pela metade."
+        },
+        {
+          "title": "2. A limpeza errada",
+          "text": "Ao encerrar o pedido, a rotina de limpeza trata esses dados inválidos como se fossem válidos. É a primeira falha (CVE-2026-109618)."
+        },
+        {
+          "title": "3. A sobra do pedido anterior",
+          "text": "Na segunda falha (CVE-2026-109619), um dado interno do pedido anterior sobrevive depois que sua memória foi liberada. O pedido seguinte, atendido pelo mesmo processo, usa essa sobra."
+        },
+        {
+          "title": "4. O resultado",
+          "text": "No Apache com mod_php, uma única requisição sem autenticação dispara o ataque antes de qualquer código do site rodar, segundo o próprio PHP, que considera esse o cenário de maior risco."
+        }
       ],
-      "body": ["Uma analogia: é como um quarto de hotel em que a limpeza não passou. O hóspede seguinte encontra o que o anterior deixou, inclusive a chave."]
+      "body": [
+        "Uma analogia: é como um quarto de hotel em que a limpeza não passou. O hóspede seguinte encontra o que o anterior deixou, inclusive a chave."
+      ]
     },
     {
       "type": "stat",
@@ -56,7 +88,7 @@
       "unit": "%",
       "label": "dos sites com linguagem de servidor conhecida usam PHP, segundo a W3Techs",
       "body": [
-        "O aviso do PHP vale para toda instalação que atende páginas na web: PHP-FPM, Apache com mod_php, php-cgi, FrankenPHP e LiteSpeed. Quantos servidores estão expostos ninguém sabe ao certo: as estimativas vão de 1,3 milhão, de um pesquisador independente, a 5,1 milhões, do VirusTotal.",
+        "O aviso do PHP vale para toda instalação que atende páginas na web: PHP-FPM, Apache com mod_php, php-cgi, FrankenPHP e LiteSpeed. Quantos servidores estão expostos ninguém sabe ao certo: o pesquisador Silas Cutler estima mais de 1,3 milhão de hosts potencialmente vulneráveis; o VirusTotal conta 5,1 milhões de hosts PHP visíveis na internet, vulneráveis ou não.",
         "O projeto diz que **não existe mitigação completa**: ajustes de configuração reduzem a exposição, mas \"atualizar é a única escolha segura\". Para quem ainda usa PHP 7.4, 8.0 ou 8.1, sem suporte oficial, a equipe de segurança publicou correções mínimas no código-fonte."
       ]
     },
@@ -65,11 +97,26 @@
       "kicker": "A linha do tempo",
       "heading": "De um sinal em 2024 a uma semana de emergência",
       "items": [
-        {"when": "2024", "what": "Um desenvolvedor do PHP vê indícios da primeira falha durante uma auditoria externa. Nenhum ataque funcional é encontrado. A Fundação PHP chamou a demora de meses até a correção de \"uma falha estrutural\" do seu processo."},
-        {"when": "17 out. 2026", "what": "Uma armadilha da Amazon registra uma tentativa de exploração, quatro dias antes de a falha ser pública. Como o atacante soube dela, ninguém explicou."},
-        {"when": "20 out.", "what": "O PHP avisa que vai lançar correções em 22 de outubro. Um vídeo de um ataque funcional é publicado por engano pela Calif, e o lançamento é antecipado."},
-        {"when": "21 out.", "what": "Correções às 14h UTC. A Cloudflare relata \"primeiros ataques surgindo\"; a watchTowr registra tentativas ativas de exploração horas depois."},
-        {"when": "22 out.", "what": "Códigos de ataque circulam em público. A Rapid7 diz que cada um funciona só em combinações específicas de sistema e versão, e nenhum é confiável em larga escala. Ainda."}
+        {
+          "when": "2024",
+          "what": "Um desenvolvedor do PHP vê indícios da primeira falha numa auditoria externa; nenhum ataque funcional é encontrado. A Fundação PHP chamou a demora até a correção de \"uma falha estrutural\" do seu processo."
+        },
+        {
+          "when": "17 out. 2026",
+          "what": "Uma armadilha da Amazon registra uma tentativa de exploração, quatro dias antes de a falha ser pública. Como o atacante soube dela, ninguém explicou."
+        },
+        {
+          "when": "20 out.",
+          "what": "Os identificadores das falhas vazam num fórum, com a data original de 22 de outubro. O PHP antecipa o lançamento para o dia 21. À noite, a Calif publica por engano um vídeo de um ataque funcional."
+        },
+        {
+          "when": "21 out.",
+          "what": "Correções às 14h UTC. A Cloudflare relata \"primeiros ataques surgindo\"; a watchTowr registra tentativas ativas de exploração 19 minutos depois."
+        },
+        {
+          "when": "22 out.",
+          "what": "Códigos de ataque circulam em público. A Rapid7 diz que cada um funciona só em combinações específicas de sistema e versão, e nenhum é confiável em larga escala. Ainda."
+        }
       ]
     },
     {
@@ -79,8 +126,8 @@
       "a": {
         "title": "O que se sabe",
         "lines": [
-          "As falhas são reais e confirmadas pelo PHP, que desenvolveu um ataque funcional durante a pesquisa.",
-          "A correção existe desde terça. Distribuições Linux receberam o remendo antes do público.",
+          "As falhas são reais e confirmadas pelo PHP. Um ataque funcional foi desenvolvido durante a pesquisa, segundo os avisos.",
+          "A correção existe desde quarta. Distribuições Linux receberam o remendo antes do público.",
           "Há tentativas de ataque em curso, segundo Cloudflare, watchTowr e Amazon."
         ]
       },
@@ -103,19 +150,34 @@
         "**O ataque ainda não é fácil, mas a janela está fechando.** A Rapid7 descreve a dificuldade atual como uma oportunidade para corrigir, não um motivo para esperar."
       ],
       "after": [
-        "\"A única mitigação é corrigir ou atualizar o PHP. Infelizmente sei demais\", escreveu Gina Peter Banyard, desenvolvedora do núcleo do PHP, em tradução livre."
+        "\"A única mitigação é corrigir ou atualizar o PHP. Infelizmente sei demais\", escreveu Gina Peter Banyard, do núcleo de desenvolvimento do PHP, em tradução livre."
       ]
     },
     {
       "type": "sources",
       "items": [
-        {"who": "PHP, aviso de segurança e pré-anúncio, php.net, 20 e 21 out. 2026", "what": "Versões corrigidas, descrição das duas falhas, nota CVSS 9,2, instalações afetadas, risco maior no mod_php, \"atualizar é a única escolha segura\", correções mínimas para 7.4, 8.0 e 8.1, fim de vida do 8.2"},
-        {"who": "The Hacker News, 21 out. 2026", "what": "Horário das correções, descobridores, auditoria de 2024 e \"falha estrutural\", vídeo da Calif, Cloudflare e watchTowr, leitura de memória, BambooHR e sites holandeses, frases de Dane Knecht e Gina Peter Banyard"},
-        {"who": "BleepingComputer, 21 out. 2026, e Rapid7, 21 e 22 out. 2026", "what": "Estimativa de 5,1 milhões de hosts (VirusTotal); funcionamento técnico, códigos de ataque públicos e recomendação de corrigir em regime de emergência"},
-        {"who": "Help Net Security, 21 e 22 out. 2026, e Tenable, out. 2026", "what": "Tentativa de 17 de outubro (Amazon), frase da Wiz, 69,3% (W3Techs), estimativa de 1,3 milhão de hosts, plataformas que usam PHP"},
-        {"who": "Fotos: Eric Stoynov e Arif Riyanto, via Unsplash", "what": ""}
+        {
+          "who": "PHP, aviso de segurança e pré-anúncio, php.net, 20 e 21 out. 2026",
+          "what": "Versões corrigidas, descrição das duas falhas, nota CVSS 9,2, instalações afetadas, risco maior no mod_php, \"atualizar é a única escolha segura\", correções mínimas para 7.4, 8.0 e 8.1, fim de vida do 8.2"
+        },
+        {
+          "who": "The Hacker News, 21 out. 2026",
+          "what": "Horário das correções, descobridores, auditoria de 2024 e \"falha estrutural\", vídeo da Calif, Cloudflare e watchTowr, leitura de memória, BambooHR e sites holandeses, frases de Dane Knecht e Gina Peter Banyard"
+        },
+        {
+          "who": "BleepingComputer, 21 out. 2026, e Rapid7, 21 e 22 out. 2026",
+          "what": "Estimativa de 5,1 milhões de hosts (VirusTotal); funcionamento técnico, códigos de ataque públicos e recomendação de corrigir em regime de emergência"
+        },
+        {
+          "who": "Help Net Security, 21 e 22 out. 2026, e Tenable, out. 2026",
+          "what": "Tentativa de 17 de outubro (Amazon), frase da Wiz, \"uma das maiores em anos\" (Kevin Beaumont), 69,3% (W3Techs), estimativa de Silas Cutler, plataformas que usam PHP, vazamento dos identificadores e antecipação"
+        },
+        {
+          "who": "Fotos: Eric Stoynov e Arif Riyanto, via Unsplash",
+          "what": ""
+        }
       ]
     }
   ],
-  "legenda": "Se o seu site roda WordPress, ele roda PHP. E o PHP acaba de receber a correção mais urgente em anos.\n\nNa terça-feira (21), o projeto PHP publicou versões de emergência para duas falhas, apelidadas de PHP2Shell, que permitem a um invasor sem senha executar comandos no servidor. Elas estão no próprio PHP, não nos sites, então código bem escrito não protege. A Cloudflare e a Amazon já registraram tentativas de ataque, e serviços como o BambooHR e sites do governo holandês saíram do ar por precaução. O PHP é claro: ajustes reduzem o risco, mas só atualizar resolve.\n\nNo carrossel, explicamos a brecha em linguagem simples, o que já se sabe e o que ainda está em aberto.\n\nQuem cuida da atualização do seu site: você, a hospedagem ou ninguém?\n\n—\nFontes no último slide.\n\n#php #ciberseguranca #wordpress #vulnerabilidade #noticia #tecnologia #internet"
+  "legenda": "Se o seu site roda WordPress, ele roda PHP. E o PHP acaba de corrigir o que o pesquisador Kevin Beaumont chama de \"uma das maiores vulnerabilidades em anos\".\n\nNa quarta-feira (21), o projeto PHP publicou versões de emergência para duas falhas, apelidadas de PHP2Shell, que permitem a um invasor sem senha executar comandos no servidor. Elas estão no próprio PHP, não nos sites, então código bem escrito não protege. A Cloudflare e a Amazon já registraram tentativas de ataque, e serviços como o BambooHR e sites do governo holandês saíram do ar por precaução. O PHP é claro: ajustes reduzem o risco, mas só atualizar resolve.\n\nNo carrossel, explicamos a brecha em linguagem simples, o que já se sabe e o que ainda está em aberto.\n\nQuem cuida da atualização do seu site: você, a hospedagem ou ninguém?\n\n—\nFontes no último slide.\n\n#php #ciberseguranca #wordpress #vulnerabilidade #noticia #tecnologia #internet"
 }
