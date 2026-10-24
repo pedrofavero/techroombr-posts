@@ -1,0 +1,103 @@
+{
+  "slug": "voyager-um-dia-luz",
+  "categoria": "CURIOSIDADE",
+  "theme": "night",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/voyager-um-dia-luz-1.jpg",
+      "title": "Uma mensagem para a Voyager 1 vai levar um dia para chegar",
+      "dek": "Em 18 de novembro, a sonda lançada em 1977 chega a 25,9 bilhões de km da Terra: a distância que a luz percorre em 24 horas. Ela faz isso com computadores de 68 KB de memória.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que é um dia-luz",
+      "heading": "Uma medida de distância, não de tempo",
+      "photo": "fotos/voyager-um-dia-luz-2.jpg",
+      "caption": "Foto: Arno Senoner / Unsplash",
+      "body": [
+        "A luz viaja a cerca de **300 mil km por segundo**. Da Lua até aqui, leva 1,3 segundo. Do Sol, 8 minutos e 20 segundos. De Marte, entre 3 e 22 minutos, dependendo da posição dos planetas.",
+        "Um dia-luz é a distância que a luz percorre em 24 horas: cerca de 26 bilhões de km. Nenhum objeto feito por humanos chegou tão longe. A NASA calcula o momento exato em que a Voyager 1 cruza essa marca: ==18 de novembro de 2026, 7h16 no horário de Brasília==.",
+        "O sinal de rádio viaja na velocidade da luz. A partir daí, um comando enviado da Terra leva um dia para chegar à sonda, e a resposta leva outro dia para voltar."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "A viagem",
+      "heading": "49 anos, 2 meses e 11 dias até um dia-luz",
+      "items": [
+        {"when": "5 set. 1977", "what": "Lançamento da Voyager 1. A irmã gêmea, a Voyager 2, tomou outro caminho para visitar também Urano e Netuno."},
+        {"when": "1979 e 1980", "what": "Passa por Júpiter e depois por Saturno, os dois alvos originais da missão."},
+        {"when": "14 fev. 1990", "what": "Tira a última foto: a Terra vista de longe como um ponto azul-pálido, a imagem conhecida como **Pale Blue Dot**."},
+        {"when": "25 ago. 2012", "what": "Cruza a heliopausa, a fronteira do espaço interestelar. Foi a primeira nave a fazer isso."},
+        {"when": "17 abr. 2026", "what": "A NASA desliga mais um instrumento científico para poupar energia."},
+        {"when": "18 nov. 2026", "what": "Um dia-luz da Terra: 25.902.068.356 km. A Voyager 2 só chega lá em novembro de 2035."}
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha técnica",
+      "heading": "A máquina que fez a viagem",
+      "rows": [
+        {"k": "Velocidade", "v": "Cerca de 61 mil km/h, afastando-se 3,5 vezes a distância Terra-Sol a cada ano"},
+        {"k": "Memória", "v": "Cerca de 68 KB, somando os seis computadores de bordo"},
+        {"k": "Processamento", "v": "Cerca de 8 mil instruções por segundo"},
+        {"k": "Energia", "v": "Gerador nuclear (RTG) que converte o calor do plutônio em eletricidade e perde 4 watts por ano"},
+        {"k": "Destino", "v": "Passa a 1,7 ano-luz da estrela Gliese 445 daqui a cerca de 40 mil anos"},
+        {"k": "Alcance", "v": "As antenas da NASA devem conseguir ouvir a sonda até cerca de 2036"}
+      ]
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "Voyager contra o seu bolso",
+      "heading": "Tecnologia de 1977 funcionando em 2026",
+      "cells": [
+        {"big": "68", "unit": " KB", "label": "de memória nos seis computadores", "text": "Um smartphone topo de linha de 2013 já fazia mais de 14 bilhões de instruções por segundo, segundo a NASA. A Voyager faz cerca de 8 mil."},
+        {"big": "4", "unit": " watts", "label": "de energia a menos a cada ano", "text": "O gerador nuclear produz hoje cerca de metade do que produzia no lançamento. Por isso a NASA vem desligando instrumentos, um de cada vez."}
+      ],
+      "body": [
+        "Em 2023, a sonda passou a mandar dados sem sentido. Os engenheiros levaram cinco meses para achar o culpado, um chip de memória defeituoso, e contornar o problema a quase um dia-luz de distância."
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "O que ainda funciona",
+      "heading": "Dez instrumentos científicos, sete já desligados",
+      "total": 10,
+      "filled": 3,
+      "on_label": "ainda ligados",
+      "off_label": "desligados para poupar energia ou por defeito",
+      "body": [
+        "Cada Voyager levou dez instrumentos. As câmeras foram desligadas depois da última foto, em 1990. O mais recente a sair, em 17 de abril de 2026, media partículas carregadas de baixa energia e funcionava havia quase 49 anos.",
+        "Segundo a NASA, mesmo depois que o último instrumento científico for desligado, a sonda pode seguir enviando dados de engenharia por anos, enquanto o sinal alcançar as antenas na Terra: até cerca de 2036."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Dia-luz é distância.** É o quanto a luz anda em 24 horas: cerca de 26 bilhões de km. A Voyager 1 chega lá em 18 de novembro, 49 anos depois de sair da Terra.",
+        "**Uma conversa leva dois dias.** O comando viaja um dia até a sonda, e a resposta leva outro dia para voltar. Com a Lua, o mesmo sinal leva 1,3 segundo.",
+        "**Ela funciona com 68 KB de memória.** E com um gerador nuclear que perde 4 watts por ano. A NASA espera ouvir a sonda até cerca de 2036."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "NASA Science, páginas da missão Voyager: \"Voyager 1: What Is a Light-Day\", \"Where are Voyager 1 and 2 now\" e \"Frequently Asked Questions\"", "what": "Data e hora do dia-luz, distância em km, velocidade, comparações com Lua, Sol e Marte, Voyager 2 em 2035, memória, instruções por segundo, 4 watts por ano, 25 ago. 2012, alcance até 2036, Gliese 445, status dos instrumentos"},
+        {"who": "NASA JPL, \"NASA Shuts Off Instrument on Voyager 1\", 17 abr. 2026", "what": "Instrumento desligado, dez instrumentos por sonda, sete desligados, quase 49 anos de funcionamento"},
+        {"who": "BBC Sky at Night Magazine (Alastair Gunn), 25 mai. 2026", "what": "Júpiter em 1979 e Saturno em 1980, metade da energia original, defeito de 2023 e cinco meses de reparo"},
+        {"who": "EarthSky, out. 2026", "what": "Lançamento em 5 set. 1977, 49 anos, 2 meses e 11 dias"},
+        {"who": "IFLScience (Alfredo Carpineti), out. 2026", "what": "Confirmação da data pela equipe da missão, Pale Blue Dot em 14 fev. 1990"},
+        {"who": "Fotos", "what": "Yang e Arno Senoner, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "O mesmo sinal de rádio que leva 1,3 segundo para vir da Lua vai levar 24 horas para vir da Voyager 1.\n\nA sonda saiu da Terra em 5 de setembro de 1977 para visitar Júpiter e Saturno, e nunca mais parou. Em 18 de novembro de 2026, às 7h16 de Brasília, segundo o cálculo da NASA, ela chega a 25,9 bilhões de km: a distância que a luz percorre em um dia. Faz isso com seis computadores de 68 KB de memória e um gerador nuclear que perde 4 watts por ano. Dos dez instrumentos científicos, sete já foram desligados; a NASA espera ouvir a sonda até cerca de 2036.\n\nQue mensagem você mandaria para uma sonda que só responde depois de amanhã?\n\n—\nFontes no último slide.\n\n#voyager #nasa #espaco #astronomia #curiosidade #ciencia #tecnologia"
+}

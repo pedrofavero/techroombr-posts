@@ -1,0 +1,122 @@
+{
+  "slug": "meta-25-bilhoes",
+  "categoria": "NOTÍCIA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/meta-25-bilhoes-1.jpg",
+      "title": "Juiz manda Meta pagar US$ 25 bilhões por enganar usuários",
+      "dek": "Um tribunal do Novo México, nos EUA, concluiu que o Facebook prometeu aos usuários controle sobre seus dados e não cumpriu. É cinco vezes a maior multa anterior da empresa. A Meta diz que vai recorrer.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Um estado contra a dona do Facebook",
+      "rows": [
+        {"k": "Quem", "v": "A Meta, dona do Facebook e do Instagram, e o estado do Novo México, no sudoeste dos Estados Unidos"},
+        {"k": "O quê", "v": "O juiz Francis Mathew fixou em US$ 25 bilhões a penalidade por 43,9 milhões de violações da lei estadual de defesa do consumidor"},
+        {"k": "Quando", "v": "Sentença em 21 de outubro de 2026. O júri já tinha decidido pela culpa em 25 de setembro"},
+        {"k": "Onde", "v": "Tribunal do Primeiro Distrito Judicial do Novo México, em Santa Fe, capital do estado"},
+        {"k": "Origem", "v": "Processo aberto pelo estado em 2021, depois do escândalo Cambridge Analytica"},
+        {"k": "Fonte", "v": "Sentença publicada pelo Judiciário do Novo México; Associated Press; Source NM"}
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O contexto",
+      "heading": "O que foi o caso Cambridge Analytica",
+      "photo": "fotos/meta-25-bilhoes-2.jpg",
+      "caption": "Foto: Raychel Sanner / Unsplash",
+      "body": [
+        "Em 2018, veio a público que um aplicativo de teste de personalidade tinha coletado dados de cerca de **87 milhões de perfis** do Facebook. Os dados foram vendidos à Cambridge Analytica, uma consultoria política, que os usou para fazer anúncios políticos direcionados nas eleições americanas de 2016. Entre os clientes estava a campanha de Donald Trump.",
+        "Em 2019, a FTC, agência de defesa do consumidor dos EUA, multou o Facebook em **US$ 5 bilhões** por esse caso.",
+        "O Novo México foi além e processou a empresa em 2021 por uma lei estadual contra práticas comerciais enganosas. O argumento: declarações públicas da empresa sobre privacidade e moderação de conteúdo, feitas entre 2010 e 2021, eram falsas ou enganosas."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "A conta",
+      "big": "43,9",
+      "unit": " milhões",
+      "label": "de violações contadas pelo júri",
+      "body": [
+        "O júri de Santa Fe concluiu, em 25 de setembro, que **26 declarações públicas** da empresa, feitas entre 2010 e 2021, eram enganosas. Para contar as violações, levou em conta a população do estado: quantas pessoas podem ter visto cada declaração. A Meta chama o método de inédito.",
+        "Pela lei estadual, cada violação pode custar até **US$ 5 mil**. O máximo seria US$ 219,5 bilhões, mais que a receita anual da Meta, de cerca de US$ 200 bilhões. O juiz fixou ==US$ 25 bilhões==, com juros de 15% ao ano até o pagamento."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Escala",
+      "heading": "Quanto cada lado pediu e quanto o juiz fixou, em US$ bilhões",
+      "bars": [
+        {"name": "Caso das crianças, Novo México (2026)", "value": 0.94, "label": "0,94"},
+        {"name": "Máximo que a Meta aceitava pagar", "value": 3.4, "label": "3,4"},
+        {"name": "Multa da FTC (2019)", "value": 5, "label": "5"},
+        {"name": "Sentença de 21 de outubro", "value": 25, "label": "25"},
+        {"name": "Máximo que o estado pediu", "value": 40, "label": "40"}
+      ],
+      "note": "A lei permitiria até US$ 219,5 bilhões. O caso das crianças é um processo separado do mesmo estado, sobre proteção de menores no Facebook e no Instagram. Fontes: AP, Source NM, JURIST.",
+      "body": [
+        "Em agosto, a Meta fechou um acordo de **US$ 18 bilhões** com quase todos os outros estados americanos, segundo a AP. O acordo encerrou as cobranças sobre o caso Cambridge Analytica e incluiu medidas de proteção a menores. O Novo México e a Flórida ficaram de fora."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Nas palavras do juiz",
+      "text": "O Facebook prometeu aos usuários que eles controlavam seus dados. Isso era falso.",
+      "who": "Francis Mathew, juiz do caso, na sentença de 21 de outubro (tradução livre)",
+      "body": [
+        "A Meta respondeu por meio de C.J. Mahoney, seu diretor jurídico: a empresa está \"confiante de que vai vencer no recurso\" e diz que o processo \"busca impor um imposto sobre a fala\" (tradução livre). Segundo a empresa, a decisão torna \"quase impossível\" fazer negócios no estado.",
+        "No tribunal, os advogados da Meta argumentaram que ninguém provou que algum morador do Novo México viu as declarações ou foi prejudicado por elas. As ações da empresa subiram cerca de 2% no dia da sentença."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Incertezas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "O júri contou 43,9 milhões de violações, e o juiz fixou a penalidade em US$ 25 bilhões, com juros de 15% ao ano.",
+          "Pela Constituição do estado, multas de defesa do consumidor vão para a educação.",
+          "A Meta anunciou que vai recorrer. É o segundo processo que a empresa perde no Novo México em 2026: em março e agosto, foi condenada a pagar, no total, US$ 942 milhões em um caso sobre proteção de menores."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se o valor sobrevive ao recurso. A Meta diz que a penalidade é inconstitucional, e a própria sentença pode ser revista.",
+          "Quando, e se, o dinheiro será pago. Um advogado do estado fala em anos de recursos.",
+          "Se outros estados seguem o exemplo. O procurador-geral Raúl Torrez diz que a decisão é \"um sinal para o Vale do Silício\" (tradução livre)."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Promessa de privacidade pode virar prova.** Um júri tratou frases públicas da empresa, como \"você controla seus dados\", como propaganda enganosa, sob uma lei comum de defesa do consumidor.",
+        "**O número assusta, mas ainda não foi pago.** São US$ 25 bilhões, com juros de 15% ao ano. A Meta vai recorrer, e o processo pode levar anos.",
+        "**Não é a primeira conta do mesmo caso.** A FTC cobrou US$ 5 bilhões em 2019, e um acordo com quase todos os outros estados, em agosto, custou US$ 18 bilhões."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Judiciário do Novo México (nmcourts.gov), caso D-101-CV-2021-00132", "what": "Sentença (Findings of Fact, Conclusions of Law and Judgment) de 21 out. 2026 e formulário do veredicto do júri de 25 set. 2026"},
+        {"who": "Associated Press (Mikella Schuettler), 21 out. 2026", "what": "Caso Cambridge Analytica, 87 milhões de perfis, multa da FTC, acordo de US$ 18 bilhões, frase do juiz, resposta da Meta, pedidos de cada lado, destino do dinheiro, alta das ações"},
+        {"who": "Source New Mexico, 21 out. 2026", "what": "Teto de US$ 5 mil por violação, US$ 219,5 bilhões, juros de 15%, fatores citados pelo juiz, declarações de Raúl Torrez"},
+        {"who": "JURIST, 22 out. 2026", "what": "43.899.720 violações, 26 declarações entre maio de 2010 e agosto de 2021, caso de proteção de menores (US$ 942 milhões)"},
+        {"who": "Santa Fe New Mexican, 21 out. 2026", "what": "Processo aberto em 2021, método de contagem pela população, receita anual da Meta, previsão de anos de recursos"},
+        {"who": "Fotos", "what": "Greg Bulla e Raychel Sanner, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "Em dólares, a sentença do Novo México contra a Meta vale cinco multas da FTC de 2019, e saiu de um único estado americano.\n\nO júri de Santa Fe concluiu em setembro que 26 declarações públicas do Facebook sobre privacidade e moderação de conteúdo, feitas entre 2010 e 2021, eram enganosas, e contou 43,9 milhões de violações da lei estadual de defesa do consumidor. Pela lei, cada uma vale até US$ 5 mil: o teto seria US$ 219,5 bilhões. O juiz Francis Mathew fixou US$ 25 bilhões em 21 de outubro, com juros de 15% ao ano. A Meta diz que a penalidade é inconstitucional e que vai recorrer, o que pode levar anos.\n\nNo carrossel, separamos o que está na sentença, o que a Meta alega e o que ainda ninguém sabe.\n\nVocê lê o que uma empresa promete sobre seus dados antes de aceitar?\n\n—\nFontes no último slide.\n\n#meta #facebook #privacidade #dados #cambridgeanalytica #noticia #tecnologia #justica"
+}
