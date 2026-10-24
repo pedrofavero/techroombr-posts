@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/meta-25-bilhoes-1.jpg",
       "title": "Juiz manda Meta pagar US$ 25 bilhões por enganar usuários",
-      "dek": "Um tribunal do Novo México, nos EUA, concluiu que o Facebook prometeu aos usuários controle sobre seus dados e não cumpriu. É cinco vezes a maior multa anterior da empresa. A Meta diz que vai recorrer.",
+      "dek": "Um tribunal do Novo México, nos EUA, concluiu que o Facebook prometeu aos usuários controle sobre seus dados e não cumpriu. É cinco vezes o que a FTC cobrou da empresa em 2019. A Meta diz que vai recorrer.",
       "swipe": "arraste →"
     },
     {
@@ -45,14 +45,14 @@
       "unit": " milhões",
       "label": "de violações contadas pelo júri",
       "body": [
-        "O júri de Santa Fe concluiu, em 25 de setembro, que **26 declarações públicas** da empresa, feitas entre 2010 e 2021, eram enganosas. Para contar as violações, levou em conta a população do estado: quantas pessoas podem ter visto cada declaração. A Meta chama o método de inédito.",
-        "Pela lei estadual, cada violação pode custar até **US$ 5 mil**. O máximo seria US$ 219,5 bilhões, mais que a receita anual da Meta, de cerca de US$ 200 bilhões. O juiz fixou ==US$ 25 bilhões==, com juros de 15% ao ano até o pagamento."
+        "O júri de Santa Fe concluiu, em 25 de setembro, que **26 declarações públicas** da empresa, feitas entre 2010 e 2021, eram enganosas. Deu razão ao estado em 31 de 34 pontos e rejeitou parte das alegações sobre remoção de conteúdo nocivo. Para contar as violações, levou em conta a população do estado: quantas pessoas podem ter visto cada declaração. A Meta chama o método de inédito.",
+        "Pela lei estadual, cada violação pode custar até **US$ 5 mil**. O máximo seria US$ 219,5 bilhões, mais que a receita anual da Meta, de mais de US$ 200 bilhões. O juiz fixou ==US$ 25 bilhões==, com juros de 15% ao ano até o pagamento."
       ]
     },
     {
       "type": "chart",
       "kicker": "Escala",
-      "heading": "Quanto cada lado pediu e quanto o juiz fixou, em US$ bilhões",
+      "heading": "Multas anteriores, pedidos de cada lado e sentença, em US$ bilhões",
       "bars": [
         {"name": "Caso das crianças, Novo México (2026)", "value": 0.94, "label": "0,94"},
         {"name": "Máximo que a Meta aceitava pagar", "value": 3.4, "label": "3,4"},
@@ -90,8 +90,8 @@
       "b": {
         "title": "O que ainda não se sabe",
         "lines": [
-          "Se o valor sobrevive ao recurso. A Meta diz que a penalidade é inconstitucional, e a própria sentença pode ser revista.",
-          "Quando, e se, o dinheiro será pago. Um advogado do estado fala em anos de recursos.",
+          "Se o valor sobrevive ao recurso. Antes da sentença, os advogados da Meta já argumentavam que um valor muito acima de US$ 3,4 bilhões seria inconstitucional.",
+          "Quando, e se, o dinheiro será pago. Segundo a AP, a cobrança pode levar anos enquanto a empresa recorre.",
           "Se outros estados seguem o exemplo. O procurador-geral Raúl Torrez diz que a decisão é \"um sinal para o Vale do Silício\" (tradução livre)."
         ]
       }
@@ -111,12 +111,12 @@
       "items": [
         {"who": "Judiciário do Novo México (nmcourts.gov), caso D-101-CV-2021-00132", "what": "Sentença (Findings of Fact, Conclusions of Law and Judgment) de 21 out. 2026 e formulário do veredicto do júri de 25 set. 2026"},
         {"who": "Associated Press (Mikella Schuettler), 21 out. 2026", "what": "Caso Cambridge Analytica, 87 milhões de perfis, multa da FTC, acordo de US$ 18 bilhões, frase do juiz, resposta da Meta, pedidos de cada lado, destino do dinheiro, alta das ações"},
-        {"who": "Source New Mexico, 21 out. 2026", "what": "Teto de US$ 5 mil por violação, US$ 219,5 bilhões, juros de 15%, fatores citados pelo juiz, declarações de Raúl Torrez"},
+        {"who": "Source New Mexico, 21 out. 2026", "what": "Teto de US$ 5 mil por violação, US$ 219,5 bilhões, juros de 15%, 31 de 34 pontos, declarações de Raúl Torrez"},
         {"who": "JURIST, 22 out. 2026", "what": "43.899.720 violações, 26 declarações entre maio de 2010 e agosto de 2021, caso de proteção de menores (US$ 942 milhões)"},
-        {"who": "Santa Fe New Mexican, 21 out. 2026", "what": "Processo aberto em 2021, método de contagem pela população, receita anual da Meta, previsão de anos de recursos"},
+        {"who": "Santa Fe New Mexican, 21 out. 2026", "what": "Processo aberto em 2021, método de contagem pela população, receita anual da Meta"},
         {"who": "Fotos", "what": "Greg Bulla e Raychel Sanner, via Unsplash"}
       ]
     }
   ],
-  "legenda": "Em dólares, a sentença do Novo México contra a Meta vale cinco multas da FTC de 2019, e saiu de um único estado americano.\n\nO júri de Santa Fe concluiu em setembro que 26 declarações públicas do Facebook sobre privacidade e moderação de conteúdo, feitas entre 2010 e 2021, eram enganosas, e contou 43,9 milhões de violações da lei estadual de defesa do consumidor. Pela lei, cada uma vale até US$ 5 mil: o teto seria US$ 219,5 bilhões. O juiz Francis Mathew fixou US$ 25 bilhões em 21 de outubro, com juros de 15% ao ano. A Meta diz que a penalidade é inconstitucional e que vai recorrer, o que pode levar anos.\n\nNo carrossel, separamos o que está na sentença, o que a Meta alega e o que ainda ninguém sabe.\n\nVocê lê o que uma empresa promete sobre seus dados antes de aceitar?\n\n—\nFontes no último slide.\n\n#meta #facebook #privacidade #dados #cambridgeanalytica #noticia #tecnologia #justica"
+  "legenda": "Em dólares, a sentença do Novo México contra a Meta vale cinco multas da FTC de 2019, e saiu de um único estado americano.\n\nO júri de Santa Fe concluiu em setembro que 26 declarações públicas do Facebook sobre privacidade e moderação de conteúdo, feitas entre 2010 e 2021, eram enganosas (e rejeitou parte das alegações sobre remoção de conteúdo nocivo). Contou 43,9 milhões de violações da lei estadual de defesa do consumidor. Pela lei, cada uma vale até US$ 5 mil: o teto seria US$ 219,5 bilhões. O juiz Francis Mathew fixou US$ 25 bilhões em 21 de outubro, com juros de 15% ao ano. A Meta vai recorrer, e a cobrança pode levar anos.\n\nNo carrossel, separamos o que está na sentença, o que a Meta alega e o que ainda ninguém sabe.\n\nVocê lê o que uma empresa promete sobre seus dados antes de aceitar?\n\n—\nFontes no último slide.\n\n#meta #facebook #privacidade #dados #cambridgeanalytica #noticia #tecnologia #justica"
 }
