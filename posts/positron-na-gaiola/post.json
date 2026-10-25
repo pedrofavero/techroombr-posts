@@ -1,0 +1,121 @@
+{
+  "slug": "positron-na-gaiola",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/positron-na-gaiola-1.jpg",
+      "title": "Uma partícula de antimatéria presa por meses, sem paredes",
+      "dek": "Físicos da Universidade Northwestern, nos EUA, seguraram um único pósitron com campos elétricos e magnéticos. O objetivo: testar se matéria e antimatéria são espelhos perfeitos.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Um pósitron, uma armadilha, meses de espera",
+      "rows": [
+        { "k": "O quê", "v": "Um único pósitron, o gêmeo de antimatéria do elétron, mantido suspenso em uma armadilha de Penning e resfriado até seu estado de menor energia" },
+        { "k": "Quem", "v": "T. G. Myers, L. Soucy, B. A. D. Sukra, B. Sinha e Gerald Gabrielse, Universidade Northwestern (Evanston, EUA)" },
+        { "k": "Onde", "v": "Physical Review Letters, 21 de outubro de 2026 (DOI 10.1103/gbkc-6nlj)" },
+        { "k": "Como", "v": "Fonte radioativa de sódio-22, cristal de tungstênio para frear, campo magnético de 5,6 tesla, temperatura de 0,3 kelvin" },
+        { "k": "Quanto tempo", "v": "Um único pósitron ficou preso por meses, segundo o artigo" },
+        { "k": "O que falta", "v": "Medir com precisão o momento magnético do pósitron. Os autores esperam um resultado para o início do ano que vem, mas pode demorar mais" }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O frio da gaiola",
+      "big": "0,3",
+      "unit": " kelvin",
+      "label": "acima do zero absoluto: a temperatura dentro da armadilha, mantida por um refrigerador de diluição",
+      "body": [
+        "Antimatéria some no primeiro contato com matéria comum: um pósitron que encontra um elétron se aniquila com ele. Por isso a partícula não pode tocar em parede nenhuma, e o ar precisa sumir. A armadilha fica em vácuo quase perfeito, para que nenhuma molécula de gás solta encoste no pósitron.",
+        "Gabrielse, em tradução livre: ==\"Se quisermos estudar antimatéria, precisamos manejá-la com cuidado.\"== E completa: não é perigoso, não há antimatéria suficiente para uma explosão."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Cinco passos para prender um pósitron",
+      "steps": [
+        { "title": "1. A fonte", "text": "Uma amostra de sódio-22, um isótopo radioativo, emite pósitrons com energia de até 546 mil elétron-volts, cerca de 88% da velocidade da luz." },
+        { "title": "2. O freio", "text": "Os pósitrons atravessam um cristal de tungstênio. A maioria se aniquila com elétrons do metal. Poucos saem do outro lado, lentos." },
+        { "title": "3. A porta", "text": "Os sobreviventes entram por um furo de 625 micrômetros, menos de 1 milímetro, num eletrodo de prata." },
+        { "title": "4. A gaiola", "text": "Campos elétricos e magnéticos (a armadilha de Penning) seguram a partícula no lugar, sem que ela toque em nada." },
+        { "title": "5. O controle", "text": "Quando o detector acusa um pósitron preso, a fonte é afastada para que não entre outro." }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "Horas para carregar, trilhões para medir",
+      "cells": [
+        { "big": "8 a 11", "unit": " horas", "label": "para carregar um pósitron na armadilha", "text": "A maioria dos pósitrons da fonte não é freada nem capturada. \"Ligamos o detector e esperamos\", diz Gabrielse (tradução livre)." },
+        { "big": "10", "unit": " trilhões", "label": "uma parte em 10 trilhões: a precisão com que o mesmo grupo mediu o elétron em 2023", "text": "A meta é medir o pósitron com a mesma precisão. Hoje, o melhor teste do tipo com prótons e antiprótons chega a uma parte em 1 bilhão." }
+      ],
+      "body": [
+        "Se der certo, a comparação entre elétron e pósitron será mais de 30 vezes mais precisa que a melhor feita até hoje, segundo os autores. A medição mais precisa do pósitron até hoje é de 1987."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Por que importa",
+      "text": "Se não forem iguais, será a maior descoberta da física no último século.",
+      "who": "Gerald Gabrielse, Universidade Northwestern, ao site Interesting Engineering (tradução livre)",
+      "body": [
+        "Pela teoria atual da física de partículas, o Modelo Padrão, elétron e pósitron devem ter momentos magnéticos de mesmo tamanho e sinais opostos. O momento magnético é a força do ímã natural de cada partícula.",
+        "Se a medição mostrar diferença, a teoria tem um furo. E um dos maiores mistérios da física, o universo ser feito quase só de matéria, ganha uma pista. Gabrielse admite que a previsão é de que não haverá diferença."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Com calma",
+      "heading": "O que o estudo mostra e o que ainda não mostra",
+      "a": {
+        "title": "✓ Mostra",
+        "lines": [
+          "Um pósitron preso por meses, sem tocar em paredes.",
+          "Saltos quânticos de um nível de energia por vez, provocados por micro-ondas.",
+          "Viradas de spin (o \"giro\" da partícula) detectadas sem destruir o estado medido."
+        ]
+      },
+      "b": {
+        "title": "✕ Ainda não mostra",
+        "lines": [
+          "A medição do momento magnético do pósitron. É o próximo passo.",
+          "Qualquer diferença entre matéria e antimatéria. A teoria prevê que não haverá.",
+          "Por que o universo é feito de matéria. A medição pode dar uma pista, não a resposta."
+        ]
+      },
+      "body": []
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/positron-na-gaiola-2.jpg",
+      "caption": "Foto: Antonio Vivace / Unsplash",
+      "body": [],
+      "check": [
+        "Antimatéria existe e sai de uma fonte radioativa comum. O difícil é segurá-la: ela some ao tocar em qualquer coisa.",
+        "A solução é uma gaiola sem paredes: campos elétricos e magnéticos, 0,3 kelvin e vácuo quase perfeito.",
+        "O resultado que interessa ainda não saiu. Se elétron e pósitron não forem espelhos perfeitos, a física precisa de uma teoria nova."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Physical Review Letters", "what": "Myers, Soucy, Sukra, Sinha e Gabrielse, \"One-Positron Quantum Cyclotron\", 21 out. 2026, DOI 10.1103/gbkc-6nlj (preprint arXiv 2605.08147)" },
+        { "who": "Nature News", "what": "Elizabeth Gibney, \"A single antimatter particle in a cage opens door to 'revolutionary' physics\", 21 out. 2026" },
+        { "who": "ScienceAlert", "what": "Michelle Starr, \"Physicists trapped a particle of antimatter and kept it caged for months\", 22 out. 2026" },
+        { "who": "Interesting Engineering e Smithsonian", "what": "Entrevista de Gabrielse (21 out. 2026) e cobertura de Margherita Bassi (23 out. 2026)" },
+        { "who": "Fotos", "what": "Eric Stoynov e Antonio Vivace, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Antimatéria não é só ficção científica: ela sai de uma amostra de sódio radioativo e desaparece no primeiro contato com matéria comum. O truque dos físicos da Northwestern foi construir uma gaiola em que a partícula não toca em nada.\n\nO grupo de Gerald Gabrielse prendeu um único pósitron, o gêmeo de antimatéria do elétron, com campos elétricos e magnéticos, a 0,3 kelvin e em vácuo quase perfeito. Carregar um pósitron leva de 8 a 11 horas; depois disso, ele fica preso por meses. O artigo saiu na Physical Review Letters em 21 de outubro.\n\nO resultado que interessa ainda vem: medir o ímã natural do pósitron com precisão de uma parte em 10 trilhões e comparar com o elétron. A teoria diz que serão iguais. Se não forem, a física precisa de uma teoria nova.\n\nVocê apostaria que elétron e pósitron são espelhos perfeitos?\n\n—\nFontes no último slide.\n\n#antimateria #fisica #estudo #ciencia #tecnologia #universo #particulas"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "guerra-dos-chips",
+  "categoria": "ESTANTE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/guerra-dos-chips-1.jpg",
+      "title": "O livro que explica por que o mundo depende de Taiwan",
+      "dek": "A Guerra dos Chips, de Chris Miller: como os semicondutores viraram a disputa central entre Estados Unidos e China.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Uma história econômica que lê como suspense",
+      "rows": [
+        { "k": "Título", "v": "A Guerra dos Chips: a batalha pela tecnologia que move o mundo" },
+        { "k": "Autor", "v": "Chris Miller, historiador, professor da Fletcher School (Universidade Tufts, EUA)" },
+        { "k": "Original", "v": "Chip War, Scribner, outubro de 2022, 464 páginas, cinco anos de pesquisa" },
+        { "k": "No Brasil", "v": "Globo Livros, 2023, 480 páginas, tradução de W. Nóbrega Roberto" },
+        { "k": "Prêmio", "v": "Livro de Negócios do Ano do Financial Times, 2022" },
+        { "k": "Em uma frase", "v": "Os chips são o recurso estratégico deste século, como o petróleo foi no anterior, e quase toda a produção avançada passa por poucos países" }
+      ]
+    },
+    {
+      "type": "meter",
+      "display": "sans",
+      "kicker": "A ideia central, em um número",
+      "heading": "Mais de 90% dos chips mais avançados saem de uma única empresa",
+      "total": 100,
+      "filled": 90,
+      "on_label": "feitos pela TSMC, em Taiwan",
+      "off_label": "resto do mundo",
+      "body": [
+        "Segundo o livro, a Taiwan Semiconductor Manufacturing Company (TSMC) fabrica mais de 90% dos semicondutores mais avançados do mundo. Taiwan sozinha gera um terço da nova capacidade de computação que o mundo adiciona a cada ano.",
+        "Semicondutor, ou chip, é a pastilha de silício que faz as contas em celulares, carros e armas."
+      ]
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "O argumento do título",
+      "heading": "A China gasta mais com chips do que com petróleo",
+      "cells": [
+        { "big": "350", "unit": " bilhões", "label": "de dólares em chips importados pela China em 2022", "text": "Número citado por Miller em entrevista ao NeoFeed, com base em um banco de dados da ONU." },
+        { "big": "330", "unit": " bilhões", "label": "de dólares em petróleo importado pela China no mesmo ano", "text": "Para Miller, um bloqueio \"medido em bytes, não em barris\" preocupa mais Pequim que o do petróleo (tradução livre)." }
+      ],
+      "body": [
+        "O livro conta que, por volta de 2015 a 2017, ficou claro que a China dependia inteiramente de chips importados, e que todos os avançados exigiam tecnologia americana. Em outubro de 2022, os EUA restringiram a venda de chips e máquinas avançadas ao país."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Quatro peças do quebra-cabeça",
+      "heading": "Por que ninguém faz um chip sozinho",
+      "steps": [
+        { "title": "Morris Chang e a TSMC", "text": "Preterido para o cargo máximo da Texas Instruments, Chang fundou a TSMC em Taiwan. Metade do capital inicial veio do governo taiwanês." },
+        { "title": "ASML, na Holanda", "text": "Tem o monopólio das máquinas de litografia, que gravam os circuitos no silício, embora compre peças dos EUA e de outros países." },
+        { "title": "O software de projeto", "text": "Só três empresas, todas americanas, fazem os programas usados para desenhar os chips." },
+        { "title": "Cinco países", "text": "Japão, Holanda, Coreia do Sul, Taiwan e EUA controlam a cadeia dos chips mais avançados e das máquinas que os fabricam." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que os críticos apontam",
+      "heading": "Forte na história, fraco em software",
+      "photo": "fotos/guerra-dos-chips-3.jpg",
+      "caption": "Foto: Eric Barbeau / Unsplash",
+      "body": [
+        "A newsletter The Chip Letter elogia a pesquisa e o ritmo de capítulos curtos, mas aponta limites: o livro passa raso pela tecnologia em si, trata software e inteligência artificial só por alto, e a disputa EUA-China-Taiwan acaba \"engolindo todo o resto\" (tradução livre).",
+        "A resenha também questiona a tese de que os chips das armas guiadas americanas ajudaram a vencer a Guerra Fria: as falhas econômicas soviéticas pesaram mais."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": { "title": "✓ Serve", "lines": ["Quem quer entender por que Taiwan aparece tanto no noticiário.", "Quem gosta de história contada por pessoas: Chang, Noyce, Grove.", "Quem lê sobre negócios e geopolítica sem formação técnica."] },
+      "b": { "title": "✕ Não serve", "lines": ["Quem quer aprender como um chip funciona por dentro.", "Quem busca análise de IA ou software: o livro mal toca nisso.", "Quem procura o cenário de hoje: o livro é de 2022, e as restrições americanas daquele outubro estavam só começando."] },
+      "body": []
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/guerra-dos-chips-2.jpg",
+      "caption": "Foto: Laura Ockel / Unsplash",
+      "body": [],
+      "check": [
+        "Mais de 90% dos chips mais avançados do mundo saem de uma empresa, a TSMC, em Taiwan.",
+        "Em 2022, a China gastou mais importando chips (US$ 350 bilhões) do que petróleo (US$ 330 bilhões).",
+        "Existe em português: Globo Livros, 2023, 480 páginas."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Globo Livros / Martins Fontes", "what": "Ficha da edição brasileira: A Guerra dos Chips, 2023, 480 p., trad. W. Nóbrega Roberto" },
+        { "who": "Financial Times (via Talking Biz News)", "what": "Chip War vence o Business Book of the Year 2022, 6 dez. 2022" },
+        { "who": "NeoFeed", "what": "Entrevista com Chris Miller, \"Na geopolítica mundial, os chips são o novo petróleo\", 2 jan. 2023" },
+        { "who": "Resenhas", "what": "Australian Outlook/AIIA (John West, 13 out. 2023); The Chip Letter (9 out. 2022); The Strategist/ASPI (Robert Wihtol, 20 fev. 2023)" },
+        { "who": "Fotos", "what": "Laura Ockel e Eric Barbeau, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Em 2022, a China gastou mais importando chips do que petróleo. É o tipo de dado que explica por que \"A Guerra dos Chips\" virou leitura obrigatória para quem acompanha geopolítica.\n\nChris Miller, historiador da Universidade Tufts, conta a história do semicondutor da Guerra Fria até a disputa atual entre Estados Unidos e China. O fio condutor é a concentração: mais de 90% dos chips mais avançados saem da TSMC, em Taiwan; só uma empresa holandesa faz as máquinas que gravam os circuitos; só três americanas fazem o software de projeto. O livro ganhou o prêmio de Livro de Negócios do Ano do Financial Times em 2022 e saiu no Brasil pela Globo Livros em 2023.\n\nOs críticos apontam o que falta: pouca tecnologia por dentro e quase nada de software e IA.\n\nVocê já parou para pensar de onde vem o chip do seu celular?\n\n—\nFontes no último slide.\n\n#livros #estante #semicondutores #chips #taiwan #geopolitica #tecnologia #leitura"
+}
