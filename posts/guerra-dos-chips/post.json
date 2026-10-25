@@ -21,7 +21,7 @@
         { "k": "Título", "v": "A Guerra dos Chips: a batalha pela tecnologia que move o mundo" },
         { "k": "Autor", "v": "Chris Miller, historiador, professor da Fletcher School (Universidade Tufts, EUA)" },
         { "k": "Original", "v": "Chip War, Scribner, outubro de 2022, 464 páginas, cinco anos de pesquisa" },
-        { "k": "No Brasil", "v": "Globo Livros, 2023, 480 páginas, tradução de W. Nóbrega Roberto" },
+        { "k": "No Brasil", "v": "Globo Livros, 2023, 480 páginas, tradução de Roberto W. Nóbrega" },
         { "k": "Prêmio", "v": "Livro de Negócios do Ano do Financial Times, 2022" },
         { "k": "Em uma frase", "v": "Os chips são o recurso estratégico deste século, como o petróleo foi no anterior, e quase toda a produção avançada passa por poucos países" }
       ]
@@ -37,7 +37,7 @@
       "off_label": "resto do mundo",
       "body": [
         "Segundo o livro, a Taiwan Semiconductor Manufacturing Company (TSMC) fabrica mais de 90% dos semicondutores mais avançados do mundo. Taiwan sozinha gera um terço da nova capacidade de computação que o mundo adiciona a cada ano.",
-        "Semicondutor, ou chip, é a pastilha de silício que faz as contas em celulares, carros e armas."
+        "Semicondutor, ou chip, é o componente de silício que, segundo a sinopse do livro, está no centro da vida moderna e de indústrias inteiras, inclusive a militar."
       ]
     },
     {
@@ -46,11 +46,11 @@
       "kicker": "O argumento do título",
       "heading": "A China gasta mais com chips do que com petróleo",
       "cells": [
-        { "big": "350", "unit": " bilhões", "label": "de dólares em chips importados pela China em 2022", "text": "Número citado por Miller em entrevista ao NeoFeed, com base em um banco de dados da ONU." },
-        { "big": "330", "unit": " bilhões", "label": "de dólares em petróleo importado pela China no mesmo ano", "text": "Para Miller, um bloqueio \"medido em bytes, não em barris\" preocupa mais Pequim que o do petróleo (tradução livre)." }
+        { "big": "350", "unit": " bilhões", "label": "de dólares em chips importados pela China em um ano", "text": "Números citados por Miller ao NeoFeed, em janeiro de 2023, para \"o ano passado\", com base em um banco de dados da ONU." },
+        { "big": "330", "unit": " bilhões", "label": "de dólares em petróleo importado pela China no mesmo período", "text": "Segundo a resenha do Strategist (ASPI), Miller argumenta que um bloqueio de chips preocupa Pequim mais do que um de petróleo." }
       ],
       "body": [
-        "O livro conta que, por volta de 2015 a 2017, ficou claro que a China dependia inteiramente de chips importados, e que todos os avançados exigiam tecnologia americana. Em outubro de 2022, os EUA restringiram a venda de chips e máquinas avançadas ao país."
+        "O livro conta que, por volta de 2015 a 2017, ficou claro que a China dependia inteiramente de chips importados, e que todas as suas importações de chips avançados exigiam tecnologia americana. Em outubro de 2022, os EUA restringiram a venda de chips e máquinas avançadas ao país."
       ]
     },
     {
@@ -71,8 +71,8 @@
       "photo": "fotos/guerra-dos-chips-3.jpg",
       "caption": "Foto: Eric Barbeau / Unsplash",
       "body": [
-        "A newsletter The Chip Letter elogia a pesquisa e o ritmo de capítulos curtos, mas aponta limites: o livro passa raso pela tecnologia em si, trata software e inteligência artificial só por alto, e a disputa EUA-China-Taiwan acaba \"engolindo todo o resto\" (tradução livre).",
-        "A resenha também questiona a tese de que os chips das armas guiadas americanas ajudaram a vencer a Guerra Fria: as falhas econômicas soviéticas pesaram mais."
+        "A newsletter The Chip Letter elogia a pesquisa e o ritmo de capítulos curtos, mas aponta limites: o livro passa raso pela tecnologia em si, trata software e inteligência artificial só por alto, e, no fim, \"a questão chinesa toma o espaço de todo o resto\" (tradução livre).",
+        "A resenha também questiona a tese de que os chips das armas guiadas americanas ajudaram a vencer a Guerra Fria: para o resenhista, as falhas econômicas soviéticas provavelmente pesaram mais."
       ]
     },
     {
@@ -80,7 +80,7 @@
       "kicker": "Vale para você?",
       "heading": "Para quem serve, para quem não serve",
       "a": { "title": "✓ Serve", "lines": ["Quem quer entender por que Taiwan aparece tanto no noticiário.", "Quem gosta de história contada por pessoas: Chang, Noyce, Grove.", "Quem lê sobre negócios e geopolítica sem formação técnica."] },
-      "b": { "title": "✕ Não serve", "lines": ["Quem quer aprender como um chip funciona por dentro.", "Quem busca análise de IA ou software: o livro mal toca nisso.", "Quem procura o cenário de hoje: o livro é de 2022, e as restrições americanas daquele outubro estavam só começando."] },
+      "b": { "title": "✕ Não serve", "lines": ["Quem quer aprender como um chip funciona por dentro.", "Quem busca análise de IA ou software: o livro trata disso só por alto.", "Quem procura o cenário de hoje: o livro é de 2022, e as restrições americanas daquele outubro estavam só começando."] },
       "body": []
     },
     {
@@ -92,14 +92,14 @@
       "body": [],
       "check": [
         "Mais de 90% dos chips mais avançados do mundo saem de uma empresa, a TSMC, em Taiwan.",
-        "Em 2022, a China gastou mais importando chips (US$ 350 bilhões) do que petróleo (US$ 330 bilhões).",
+        "Em um só ano, a China gastou mais importando chips (US$ 350 bilhões) do que petróleo (US$ 330 bilhões), segundo Miller.",
         "Existe em português: Globo Livros, 2023, 480 páginas."
       ]
     },
     {
       "type": "sources",
       "items": [
-        { "who": "Globo Livros / Martins Fontes", "what": "Ficha da edição brasileira: A Guerra dos Chips, 2023, 480 p., trad. W. Nóbrega Roberto" },
+        { "who": "Globo Livros / Martins Fontes", "what": "Ficha da edição brasileira: A Guerra dos Chips, 2023, 480 p., trad. Roberto W. Nóbrega" },
         { "who": "Financial Times (via Talking Biz News)", "what": "Chip War vence o Business Book of the Year 2022, 6 dez. 2022" },
         { "who": "NeoFeed", "what": "Entrevista com Chris Miller, \"Na geopolítica mundial, os chips são o novo petróleo\", 2 jan. 2023" },
         { "who": "Resenhas", "what": "Australian Outlook/AIIA (John West, 13 out. 2023); The Chip Letter (9 out. 2022); The Strategist/ASPI (Robert Wihtol, 20 fev. 2023)" },
@@ -107,5 +107,5 @@
       ]
     }
   ],
-  "legenda": "Em 2022, a China gastou mais importando chips do que petróleo. É o tipo de dado que explica por que \"A Guerra dos Chips\" virou leitura obrigatória para quem acompanha geopolítica.\n\nChris Miller, historiador da Universidade Tufts, conta a história do semicondutor da Guerra Fria até a disputa atual entre Estados Unidos e China. O fio condutor é a concentração: mais de 90% dos chips mais avançados saem da TSMC, em Taiwan; só uma empresa holandesa faz as máquinas que gravam os circuitos; só três americanas fazem o software de projeto. O livro ganhou o prêmio de Livro de Negócios do Ano do Financial Times em 2022 e saiu no Brasil pela Globo Livros em 2023.\n\nOs críticos apontam o que falta: pouca tecnologia por dentro e quase nada de software e IA.\n\nVocê já parou para pensar de onde vem o chip do seu celular?\n\n—\nFontes no último slide.\n\n#livros #estante #semicondutores #chips #taiwan #geopolitica #tecnologia #leitura"
+  "legenda": "A China gasta mais importando chips do que petróleo: US$ 350 bilhões contra US$ 330 bilhões em um só ano, segundo Chris Miller. É o tipo de dado que explica por que \"A Guerra dos Chips\" virou leitura obrigatória para quem acompanha geopolítica.\n\nChris Miller, historiador da Universidade Tufts, conta a história do semicondutor da Guerra Fria até a disputa atual entre Estados Unidos e China. O fio condutor é a concentração: mais de 90% dos chips mais avançados saem da TSMC, em Taiwan; só uma empresa holandesa faz as máquinas que gravam os circuitos; só três americanas fazem o software de projeto. O livro ganhou o prêmio de Livro de Negócios do Ano do Financial Times em 2022 e saiu no Brasil pela Globo Livros em 2023.\n\nOs críticos apontam o que falta: pouca tecnologia por dentro, e software e IA tratados só por alto.\n\nVocê já parou para pensar de onde vem o chip do seu celular?\n\n—\nFontes no último slide.\n\n#livros #estante #semicondutores #chips #taiwan #geopolitica #tecnologia #leitura"
 }

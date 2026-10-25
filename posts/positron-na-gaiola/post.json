@@ -43,7 +43,7 @@
       "heading": "Cinco passos para prender um pósitron",
       "steps": [
         { "title": "1. A fonte", "text": "Uma amostra de sódio-22, um isótopo radioativo, emite pósitrons com energia de até 546 mil elétron-volts, cerca de 88% da velocidade da luz." },
-        { "title": "2. O freio", "text": "Os pósitrons atravessam um cristal de tungstênio. A maioria se aniquila com elétrons do metal. Poucos saem do outro lado, lentos." },
+        { "title": "2. O freio", "text": "Os pósitrons atravessam um cristal de tungstênio. A maioria se aniquila no caminho. Poucos saem do outro lado, lentos." },
         { "title": "3. A porta", "text": "Os sobreviventes entram por um furo de 625 micrômetros, menos de 1 milímetro, num eletrodo de prata." },
         { "title": "4. A gaiola", "text": "Campos elétricos e magnéticos (a armadilha de Penning) seguram a partícula no lugar, sem que ela toque em nada." },
         { "title": "5. O controle", "text": "Quando o detector acusa um pósitron preso, a fonte é afastada para que não entre outro." }
@@ -65,9 +65,9 @@
       "type": "quote",
       "kicker": "Por que importa",
       "text": "Se não forem iguais, será a maior descoberta da física no último século.",
-      "who": "Gerald Gabrielse, Universidade Northwestern, ao site Interesting Engineering (tradução livre)",
+      "who": "Gerald Gabrielse, Universidade Northwestern, citado pelo Interesting Engineering (tradução livre)",
       "body": [
-        "Pela teoria atual da física de partículas, o Modelo Padrão, elétron e pósitron devem ter momentos magnéticos de mesmo tamanho e sinais opostos. O momento magnético é a força do ímã natural de cada partícula.",
+        "Pela teoria atual da física de partículas, o Modelo Padrão, elétron e pósitron devem ter momentos magnéticos de mesmo tamanho e sinais opostos. O momento magnético determina como a partícula oscila dentro de um campo magnético.",
         "Se a medição mostrar diferença, a teoria tem um furo. E um dos maiores mistérios da física, o universo ser feito quase só de matéria, ganha uma pista. Gabrielse admite que a previsão é de que não haverá diferença."
       ]
     },
@@ -112,10 +112,10 @@
         { "who": "Physical Review Letters", "what": "Myers, Soucy, Sukra, Sinha e Gabrielse, \"One-Positron Quantum Cyclotron\", 21 out. 2026, DOI 10.1103/gbkc-6nlj (preprint arXiv 2605.08147)" },
         { "who": "Nature News", "what": "Elizabeth Gibney, \"A single antimatter particle in a cage opens door to 'revolutionary' physics\", 21 out. 2026" },
         { "who": "ScienceAlert", "what": "Michelle Starr, \"Physicists trapped a particle of antimatter and kept it caged for months\", 22 out. 2026" },
-        { "who": "Interesting Engineering e Smithsonian", "what": "Entrevista de Gabrielse (21 out. 2026) e cobertura de Margherita Bassi (23 out. 2026)" },
+        { "who": "Interesting Engineering e Smithsonian", "what": "Matéria de Mrigakshi Dixit (21 out. 2026) e de Margherita Bassi (23 out. 2026)" },
         { "who": "Fotos", "what": "Eric Stoynov e Antonio Vivace, via Unsplash" }
       ]
     }
   ],
-  "legenda": "Antimatéria não é só ficção científica: ela sai de uma amostra de sódio radioativo e desaparece no primeiro contato com matéria comum. O truque dos físicos da Northwestern foi construir uma gaiola em que a partícula não toca em nada.\n\nO grupo de Gerald Gabrielse prendeu um único pósitron, o gêmeo de antimatéria do elétron, com campos elétricos e magnéticos, a 0,3 kelvin e em vácuo quase perfeito. Carregar um pósitron leva de 8 a 11 horas; depois disso, ele fica preso por meses. O artigo saiu na Physical Review Letters em 21 de outubro.\n\nO resultado que interessa ainda vem: medir o ímã natural do pósitron com precisão de uma parte em 10 trilhões e comparar com o elétron. A teoria diz que serão iguais. Se não forem, a física precisa de uma teoria nova.\n\nVocê apostaria que elétron e pósitron são espelhos perfeitos?\n\n—\nFontes no último slide.\n\n#antimateria #fisica #estudo #ciencia #tecnologia #universo #particulas"
+  "legenda": "Antimatéria não é só ficção científica: ela sai de uma amostra de sódio radioativo e desaparece no primeiro contato com matéria comum. O truque dos físicos da Northwestern foi construir uma gaiola em que a partícula não toca em nada.\n\nO grupo de Gerald Gabrielse prendeu um único pósitron, o gêmeo de antimatéria do elétron, com campos elétricos e magnéticos, a 0,3 kelvin e em vácuo quase perfeito. Carregar um pósitron leva de 8 a 11 horas; depois disso, ele fica preso por meses. O artigo saiu na Physical Review Letters em 21 de outubro.\n\nO resultado que interessa ainda vem: medir o momento magnético do pósitron com precisão de uma parte em 10 trilhões e comparar com o elétron. A teoria diz que serão iguais. Se não forem, a física precisa de uma teoria nova.\n\nVocê apostaria que elétron e pósitron são espelhos perfeitos?\n\n—\nFontes no último slide.\n\n#antimateria #fisica #estudo #ciencia #tecnologia #universo #particulas"
 }
