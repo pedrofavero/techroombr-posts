@@ -1,3 +1,4 @@
 data,paper,arxiv_ou_link,slug,status,publicacao,metricool_url
 2026-10-23,"READY or Not: Reliable Enterprise Agent Deployment (Scale AI, set. 2026)",https://arxiv.org/abs/2609.02095,ready-or-not,reserva (escrito, não agendado; substituído por cxbench a pedido),,
 2026-10-23,"CXBench: Process-Compliant LLM Agents in Regulated CX Workflows (Univ. of Limerick/CUHK Shenzhen/Genesys, out. 2026)",https://arxiv.org/abs/2610.25954,cxbench,agendado no Typefully (silêncio = aprovado),2026-10-27 08:30,https://typefully.com/?d=11421118&a=350245
+2026-10-26,"When Agent Evaluation Becomes Unreliable: Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark (Nanjing Univ. of Science and Technology, out. 2026)",https://arxiv.org/abs/2610.16067,eval-oracle-failures,agendado no Typefully (silêncio = aprovado; 27/10 já ocupado pelo cxbench),2026-11-03 08:30,https://typefully.com/?d=11487473&a=350245
