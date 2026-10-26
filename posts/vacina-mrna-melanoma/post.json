@@ -1,0 +1,135 @@
+{
+  "slug": "vacina-mrna-melanoma",
+  "categoria": "NOTÍCIA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/vacina-mrna-melanoma-1.jpg",
+      "title": "Uma vacina feita para um só paciente freou o melanoma",
+      "dek": "Testada em 1.137 pessoas, a vacina da Moderna e da Merck, fabricada a partir do tumor de cada paciente, reduziu em 42% o risco de o câncer voltar. O que o estudo prova e o que ainda falta.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A primeira fase 3 de uma vacina de mRNA contra o câncer",
+      "rows": [
+        { "k": "Quem", "v": "Moderna e Merck (MSD fora dos EUA)" },
+        { "k": "O quê", "v": "Resultado do estudo INTerpath-001: vacina intismeran + Keytruda contra Keytruda sozinho" },
+        { "k": "Quando", "v": "Dados vazaram em 22 de outubro; apresentação em 24 de outubro de 2026" },
+        { "k": "Onde", "v": "Congresso da ESMO (sociedade europeia de oncologia), em Madri" },
+        { "k": "Quantos", "v": "1.137 pacientes com melanoma operado, em 157 centros" },
+        { "k": "Status", "v": "Resumo LBA1 da ESMO; artigo aceito pelo New England Journal of Medicine" }
+      ],
+      "body": [
+        "O melanoma é um câncer de pele. Em 2022, foram **mais de 330 mil casos novos** no mundo, segundo a Merck. Depois da cirurgia, a maior parte das recaídas acontece nos dois primeiros anos."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Uma vacina fabricada para uma pessoa só",
+      "steps": [
+        { "title": "Ler o tumor", "text": "O tumor retirado na cirurgia é sequenciado: o laboratório lê o DNA das células doentes e compara com o das saudáveis." },
+        { "title": "Escolher os alvos", "text": "São selecionados até **34 neoantígenos**: pedaços de proteína que só existem nas células de câncer daquela pessoa. No estudo, 91% dos pacientes tiveram os 34." },
+        { "title": "Escrever a receita", "text": "Os alvos viram uma mensagem em mRNA, a mesma tecnologia das vacinas de covid, dentro de uma partícula de gordura. Sem cultura de células: a Moderna diz levar semanas." },
+        { "title": "Aplicar com imunoterapia", "text": "1 mg a cada 3 semanas, até 9 doses, junto com Keytruda (pembrolizumabe), remédio que tira o \"disfarce\" que o tumor usa para escapar das células de defesa." }
+      ],
+      "body": [
+        "A vacina foi fabricada para mais de 99% dos pacientes do grupo. O tempo mediano até a primeira dose foi de ==64 dias==."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O resultado principal",
+      "big": "42",
+      "unit": "%",
+      "label": "menos risco de o melanoma voltar ou de morte, em comparação com a imunoterapia sozinha",
+      "body": [
+        "Em números: a razão de risco foi de **0,58** (intervalo de confiança de 95% entre 0,45 e 0,75; p<0,001). Quer dizer que, a cada momento do estudo, o grupo da vacina tinha 58% do risco do grupo de controle. Em 24,6 meses de acompanhamento, 29,2% do grupo de controle tiveram recaída ou morreram, contra 18,0% do grupo da vacina.",
+        "A diferença só aparece depois dos **6 meses**. Até ali, as duas curvas andam juntas (razão de risco 0,99). Depois, o risco cai quase pela metade (0,42). A Moderna atribui isso ao tempo que o sistema de defesa leva para aprender a reconhecer o tumor."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Em dois anos",
+      "heading": "Quem seguia livre da doença depois de 24 meses",
+      "bars": [
+        { "name": "Vacina + Keytruda: sem recaída", "value": 82.2, "label": "82,2%" },
+        { "name": "Só Keytruda: sem recaída", "value": 70.0, "label": "70,0%", "other": true },
+        { "name": "Vacina + Keytruda: sem metástase à distância", "value": 88.5, "label": "88,5%" },
+        { "name": "Só Keytruda: sem metástase à distância", "value": 80.2, "label": "80,2%", "other": true }
+      ],
+      "note": "Metástase à distância: quando o câncer aparece em outro órgão. Aqui a redução de risco foi de 38% (razão de risco 0,62; p=0,002).",
+      "body": [
+        "Os dois grupos receberam Keytruda, que já é o tratamento padrão depois da cirurgia. A comparação é: ==vacina mais padrão== contra ==placebo mais padrão==."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O outro lado",
+      "heading": "Mais febre, mais dor, e a pergunta sem resposta",
+      "photo": "fotos/vacina-mrna-melanoma-2.jpg",
+      "caption": "Foto: CDC / Unsplash",
+      "body": [
+        "Febre apareceu em **52,2%** de quem tomou a vacina (8,2% no outro grupo); dor no local da injeção, em 51,0%; cansaço, em 38,5%. Efeitos graves ficaram parecidos: 23,6% contra 20,3%. Duas mortes ligadas ao tratamento, no grupo da vacina, foram atribuídas ao Keytruda, não à vacina.",
+        "O que o estudo ainda não mostrou: se as pessoas **vivem mais**. A razão de risco de morte foi 0,77, mas o intervalo de confiança (0,45 a 1,31) inclui o \"nenhum efeito\". Os pesquisadores chamam o dado de imaturo e seguem acompanhando."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando as coisas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "Estudo grande, sorteado e duplo-cego: 757 receberam a vacina e 380, placebo, todos com Keytruda.",
+          "Menos recaídas e menos metástases, com significância estatística.",
+          "Repetiu a fase 2, que em cinco anos mostrou 49% menos risco.",
+          "Quem paga o estudo são as fabricantes, Moderna e Merck."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se as pessoas vivem mais: a sobrevida global ainda não é conclusiva.",
+          "Se funciona em outros cânceres: há nove estudos em pulmão, bexiga e rim, entre outros.",
+          "Preço, data de aprovação e quando (ou se) chega ao Brasil.",
+          "Se a produção de uma vacina por paciente dá conta de milhares de pessoas, e a que custo. No estudo, 302 das 1.749 triadas ficaram de fora por falta de amostra de tumor."
+        ]
+      },
+      "body": [
+        "Os dados vazaram num site de oncologia dois dias antes do fim do embargo. No dia, a ação da Moderna caiu mais de 20%: investidores esperavam efeito maior sobre metástases, segundo a EMJ."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**É uma vacina de tratamento, não de prevenção.** Ela é feita depois da cirurgia, a partir do tumor da própria pessoa, para ensinar o corpo a caçar o que sobrou.",
+        "**42% menos recaídas em dois anos é o dado forte.** Viver mais tempo ainda não foi demonstrado, e esse é o próximo número a esperar.",
+        "**Melanoma primeiro; o resto é promessa.** Nove outros estudos vão dizer se a ideia vale para outros tumores."
+      ],
+      "after": [
+        "\"Isso nunca foi alcançado na história do desenvolvimento de remédios contra o câncer\", disse Georgina Long, investigadora principal do estudo (tradução livre)."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "ESMO Congress 2026, resumo LBA1, via CancerNetwork, out. 2026", "what": "1.137 pacientes, 757 x 380, 1.749 triados e 302 excluídos, acompanhamento de 24,6 meses, razões de risco e intervalos, taxas em 24 meses, efeitos adversos, duas mortes, 64 dias, 99% fabricadas, 91% com 34 neoantígenos, NEJM" },
+        { "who": "EMJ Reviews, 24 out. 2026; Endpoints News, 22 out. 2026", "what": "Apresentação em 24 de outubro no Simpósio Presidencial, duplo-cego, vazamento dois dias antes do embargo, queda de mais de 20% da ação da Moderna, reação de investidores" },
+        { "who": "Merck e Moderna, comunicados de 19 ago. e 13 out. 2026", "what": "Desenho do estudo, doses, 34 neoantígenos, fase 2 com 49% em cinco anos, nove estudos em outros cânceres, 330 mil casos de melanoma em 2022, Georgina Long como apresentadora" },
+        { "who": "TIME, Alice Park, 22 out. 2026", "what": "Como a vacina é fabricada, processo enzimático em semanas, efeito a partir dos seis meses, declarações de David Berman (Moderna)" },
+        { "who": "ScienceAlert, 26 out. 2026", "what": "Citação de Georgina Long, Melanoma Institute Australia; 157 centros" },
+        { "who": "Fotos", "what": "National Cancer Institute e CDC, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Cada frasco dessa vacina só serve para uma pessoa no mundo: ela é escrita a partir do DNA do tumor de quem vai recebê-la.\n\nO estudo INTerpath-001, da Moderna e da Merck, sorteou 1.137 pessoas com melanoma já operado para receber a vacina intismeran ou placebo, todas junto com o Keytruda, imunoterapia que já é padrão. Em pouco mais de dois anos, o grupo da vacina teve 42% menos risco de recaída ou morte, e 82,2% seguiam livres da doença, contra 70,0%. Os dados foram apresentados em 24 de outubro no congresso da ESMO, em Madri, depois de vazarem dois dias antes.\n\nO que falta: provar que as pessoas vivem mais, saber se funciona em outros cânceres e quanto vai custar. E vale lembrar que quem paga o estudo são as fabricantes.\n\nVocê conhece alguém que já passou por um tratamento feito sob medida?\n\n—\nFontes no último slide.\n\n#cancer #melanoma #vacina #mrna #biotecnologia #noticia #saude #tecnologia"
+}
