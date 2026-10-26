@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/primeira-camera-digital-1.jpg",
       "title": "A Kodak inventou a câmera digital em 1975 e a escondeu",
-      "dek": "Um engenheiro de 20 e poucos anos montou, com peças de sobra, uma câmera de 3,6 kg que levava 23 segundos para gravar uma foto em fita cassete. Os chefes perguntaram: \"o que há de errado com a fotografia normal?\"",
+      "dek": "Um engenheiro de 20 e poucos anos montou, com peças de sobra, uma câmera de 3,6 kg que levava 23 segundos para gravar uma foto em fita cassete. Na Kodak, perguntaram a ele: \"o que há de errado com a fotografia normal?\"",
       "swipe": "arraste →"
     },
     {
@@ -21,7 +21,7 @@
       "caption": "Foto: Gregory Wong / Unsplash",
       "body": [
         "Steven Sasson, engenheiro recém-formado da Kodak, em Rochester, recebeu um chip novo da Fairchild: um ==CCD==, sensor que transforma luz em sinal elétrico, de **100 por 100 pontos**.",
-        "Ninguém pediu uma câmera, e não havia dinheiro, contou ele à BBC. Ele juntou uma lente de filmadora Super 8 da caixa de peças usadas, um conversor de voltímetro, 16 pilhas e um gravador de fita cassete."
+        "Ninguém pediu uma câmera, e não havia dinheiro, contou ele à BBC. Ele juntou uma lente de filmadora Super 8, um conversor de voltímetro, 16 pilhas e um gravador de fita cassete."
       ]
     },
     {
@@ -41,9 +41,9 @@
       "type": "quote",
       "kicker": "A reação",
       "text": "O que há de errado com a fotografia normal?",
-      "who": "Pergunta de executivos da Kodak a Sasson, segundo relato dele à National Science and Technology Medals Foundation (tradução livre)",
+      "who": "Pergunta feita a Sasson nas demonstrações na Kodak, segundo relato dele (National Science and Technology Medals Foundation; tradução livre)",
       "body": [
-        "Sasson queria \"uma câmera sem partes móveis\". Entrava nas salas de reunião, fotografava os executivos e mostrava as imagens numa TV ali mesmo. A Kodak ganhava dinheiro vendendo filme, e os chefes não viam por que alguém quereria olhar fotos numa televisão. Perguntaram quanto tempo faltava para aquilo virar produto. Ele usou a Lei de Moore, regra prática sobre o ritmo de evolução dos chips, e respondeu: **15 a 20 anos**.",
+        "Sasson queria \"uma câmera sem partes móveis\". Entrava nas salas de reunião, fotografava quem estava lá e mostrava as imagens numa TV ali mesmo. A Kodak ganhava dinheiro vendendo filme, e os chefes não viam por que alguém quereria olhar fotos numa televisão. Perguntaram quanto tempo faltava para aquilo virar produto. Ele usou a Lei de Moore, regra prática sobre o ritmo de evolução dos chips, e respondeu: **15 a 20 anos**.",
         "A câmera nunca foi produzida. Sasson foi proibido de falar dela em público ou de mostrar o protótipo fora da empresa, segundo a IEEE Spectrum."
       ]
     },
@@ -53,7 +53,7 @@
       "heading": "Da gaveta ao museu",
       "items": [
         { "when": "dez. 1975", "what": "Primeira foto digital, no laboratório da Kodak em Rochester." },
-        { "when": "1978", "what": "Patente americana 4.131.919, \"câmera fotográfica eletrônica\", é concedida." },
+        { "when": "1978", "what": "A patente americana 4.131.919 da câmera é concedida." },
         { "when": "anos 1980", "what": "Sasson desenvolve na Kodak uma câmera de 1 megapixel com compressão de imagem." },
         { "when": "1994", "what": "Com a Nikon, ajuda a construir a AP NC2000, uma das primeiras câmeras digitais à venda." },
         { "when": "2009", "what": "Aposenta-se da Kodak. A **Medalha Nacional de Tecnologia e Inovação** daquele ano, entregue pelo presidente Barack Obama, vai para ele." },
@@ -66,7 +66,7 @@
       "kicker": "O que ficou",
       "heading": "A empresa que inventou o futuro e perdeu para ele",
       "body": [
-        "Em 19 de janeiro de 2012, a Kodak, então com cerca de 130 anos, pediu recuperação judicial. Em Rochester, onde já tivera mais de **60 mil** empregados, restavam cerca de 7 mil. A Al Jazeera resumiu: a empresa não abraçou a câmera digital, \"ironicamente, um produto que ela mesma inventou\".",
+        "Em 19 de janeiro de 2012, a Kodak, então com cerca de 130 anos, pediu recuperação judicial. Em Rochester, onde já tivera mais de **60 mil** empregados, restavam cerca de 7 mil. A Al Jazeera resumiu: a empresa não abraçou a tempo a câmera digital, \"ironicamente, um produto que ela mesma inventou\".",
         "Sasson passou quase toda a carreira na Kodak, aperfeiçoando protótipos digitais. A caixa azul original está hoje no Museu Nacional de História Americana, do Smithsonian, em Washington.",
         "\"As fotos se tornaram a forma universal de conversa casual\", disse ele em 2018 (tradução livre)."
       ]
@@ -88,13 +88,13 @@
       "type": "sources",
       "items": [
         { "who": "IEEE Spectrum, Joanna Goodrich, 6 abr. 2022; ETHW (IEEE), verbete Steven J. Sasson", "what": "CCD da Fairchild de 100 x 100, 3,6 kg, lente de filmadora, 16 pilhas, 50 ms e 23 s, 30 fotos por fita, foto de Joy Marshall em dez. 1975, patente US 4.131.919 (1978), proibição de falar, câmera de 1 megapixel nos anos 1980, AP NC2000 em 1994, Smithsonian, IEEE Milestone, citação de 2018" },
-        { "who": "National Science and Technology Medals Foundation, 30 jan. 2018 e perfil de mentor", "what": "Idade (20 e poucos anos), demonstrações na TV aos executivos, \"What's wrong with regular photography?\", Medalha Nacional de Tecnologia e Inovação de 2009 entregue por Barack Obama, formação em Rensselaer, aposentadoria em 2009, Brooklyn, aulas e fotografia de vida selvagem" },
-        { "who": "TechRadar, Audley Jarvis, 9 mai. 2008 (relato de Sasson de 2007)", "what": "Lente de Super 8 da caixa de peças usadas, conversor de voltímetro, gravador de cassete, aparelho de reprodução do tamanho de uma mala, 100 para 400 linhas, Lei de Moore e 15 a 20 anos" },
+        { "who": "National Science and Technology Medals Foundation, 30 jan. 2018 e perfil de mentor", "what": "Idade (20 e poucos anos), demonstrações na TV nas salas de reunião, \"What's wrong with regular photography?\", Medalha Nacional de Tecnologia e Inovação de 2009 entregue por Barack Obama, formação em Rensselaer, aposentadoria em 2009, Brooklyn, aulas e fotografia de vida selvagem" },
+        { "who": "TechRadar, Audley Jarvis, 9 mai. 2008 (relato de Sasson de 2007)", "what": "Lente de Super 8, conversor de voltímetro, gravador de cassete, aparelho de reprodução do tamanho de uma mala, 100 para 400 linhas, Lei de Moore e 15 a 20 anos" },
         { "who": "BBC Future, 5 dez. 2025 (via Slashdot)", "what": "\"Câmera sem partes móveis\", sem dinheiro e sem pedido, chip da Fairchild" },
         { "who": "Al Jazeera, 19 jan. 2012", "what": "Pedido de recuperação judicial, 130 anos, 60 mil e 7 mil empregados em Rochester, \"um produto que ela mesma inventou\"" },
         { "who": "Fotos", "what": "Christian Mackie e Gregory Wong, via Unsplash" }
       ]
     }
   ],
-  "legenda": "A primeira foto digital da história não mostrava o rosto da pessoa fotografada: os tons médios saíram como chuvisco.\n\nEm dezembro de 1975, Steven Sasson, engenheiro recém-contratado da Kodak, montou com peças de sobra uma câmera de 3,6 kg que gravava imagens de 100 por 100 pontos em fita cassete, 23 segundos por foto. Mostrou aos executivos numa TV. A empresa, que ganhava dinheiro com filme, patenteou a ideia em 1978, pediu que ele não falasse dela em público e não a produziu. Em 2012, pediu recuperação judicial. A câmera está no Smithsonian.\n\nQue invenção da sua empresa ou do seu trabalho ficou na gaveta por parecer cedo demais?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #kodak #fotografia #cameradigital #inovacao #tecnologia #historia"
+  "legenda": "A primeira foto digital da história não mostrava o rosto da pessoa fotografada: os tons médios saíram como chuvisco.\n\nEm dezembro de 1975, Steven Sasson, jovem engenheiro da Kodak, montou com peças de sobra uma câmera de 3,6 kg que gravava imagens de 100 por 100 pontos em fita cassete, 23 segundos por foto. Mostrou aos executivos numa TV. A empresa, que ganhava dinheiro com filme, patenteou a ideia em 1978, pediu que ele não falasse dela em público e não a produziu. Em 2012, pediu recuperação judicial. A câmera está no Smithsonian.\n\nQue invenção da sua empresa ou do seu trabalho ficou na gaveta por parecer cedo demais?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #kodak #fotografia #cameradigital #inovacao #tecnologia #historia"
 }
