@@ -19,9 +19,9 @@
       "heading": "Uma ilha, 13 agentes, nenhuma missão",
       "rows": [
         { "k": "O quê", "v": "\"Is this machine playing?\" (\"Esta máquina está brincando?\"), preprint no arXiv em 5 de outubro de 2026. Ainda sem revisão por pares" },
-        { "k": "Quem", "v": "Nathan Cloos, Antonio Norelli, Daniel Durbin, Jacob Andreas, Daniela Rus e Phillip Isola, do MIT" },
+        { "k": "Quem", "v": "Nathan Cloos, Antonio Norelli, Daniel Durbin, Jacob Andreas, Daniela Rus e Phillip Isola; grupo do MIT, segundo a MIT Technology Review" },
         { "k": "O agente", "v": "\"Eko\": o Claude Code, assistente de programação da Anthropic, rodando o modelo Claude Opus 4.7, com um corpo virtual" },
-        { "k": "O mundo", "v": "Uma ilha digital com morros, 12 cubos, uma pedra, um anel e dois pontos altos: o Pico e a Torre" },
+        { "k": "O mundo", "v": "Uma ilha digital com morros, 12 cubos, uma pedra, um anel e dois pontos altos: o Pico e o Pináculo" },
         { "k": "A regra", "v": "Nenhuma tarefa. A instrução dizia que o agente era \"naturalmente curioso\" e \"se entedia fácil\". Quando parava, uma mensagem automática pedia que continuasse" },
         { "k": "Custo", "v": "Cerca de US$ 8 mil em chamadas de API, segundo o artigo" }
       ]
@@ -46,7 +46,7 @@
         { "name": "Agentes com 30 horas na ilha", "value": 10.3, "label": "10,3 objetos" },
         { "name": "Cópias novas, sem experiência", "value": 3.5, "label": "3,5 objetos", "other": true }
       ],
-      "note": "Média de objetos colocados no alto da Torre em uma hora. 13 agentes em cada grupo.",
+      "note": "Média de objetos colocados no alto do Pináculo em uma hora. 13 agentes em cada grupo.",
       "body": [
         "Os pesquisadores deram quatro tarefas de uma hora aos 13 agentes que haviam brincado e a 13 cópias novas. Numa delas, levar objetos ao ponto mais alto da ilha, os veteranos colocaram quase o triplo.",
         "Não foi unanimidade: na tarefa da torre mais alta, dois agentes experientes construíram torres de só 4 blocos, abaixo da pior torre dos novatos."
@@ -57,8 +57,8 @@
       "kicker": "A memória importa",
       "heading": "Apagar uma anotação muda o resultado",
       "cells": [
-        { "big": "62", "unit": "%", "label": "dos agentes veteranos (8 de 13) construíram mais de duas torres em uma hora", "text": "Entre as cópias novas, só 15% (2 de 13) conseguiram." },
-        { "big": "19", "unit": " min", "label": "para acertar um bloco na Torre depois que uma técnica foi apagada da memória", "text": "Com a anotação \"pule antes de lançar\", o mesmo agente levava 60 segundos." }
+        { "big": "62", "unit": "%", "label": "dos agentes veteranos (8 de 13) construíram mais de duas torres de 5 blocos em uma hora", "text": "Entre as cópias novas, só 15% (2 de 13) conseguiram." },
+        { "big": "19", "unit": " min", "label": "para acertar um bloco no Pináculo depois que uma técnica foi apagada da memória", "text": "Com a anotação \"pule antes de lançar\", o mesmo agente levava 60 segundos." }
       ],
       "body": [
         "Os autores apagaram linhas dos arquivos de memória para ver o que acontecia. Tirar uma técnica útil piorou o desempenho. Tirar uma crença falsa, registrada por engano, melhorou."
@@ -70,8 +70,8 @@
       "text": "Isso é brincar. Você se dá um desafio, tenta cumprir e depois torna mais difícil.",
       "who": "Antonio Norelli, MIT, coautor do estudo, ao site The Next Web (tradução livre)",
       "body": [
-        "O artigo usa quatro sinais clássicos de brincadeira, tirados do psicólogo Gordon Burghardt, da Universidade do Tennessee: criar as próprias regras e desafios, repetir com variação, fazer de conta (usar um objeto como se fosse outro) e agir pela atividade em si, sem objetivo externo.",
-        "Pelos registros, os agentes mostraram os quatro. Burghardt, consultado pela MIT Technology Review, concorda que o trabalho atende a alguns dos critérios, mas questiona se é brincadeira de fato."
+        "O artigo usa quatro sinais de brincadeira, baseados em critérios clássicos de vários autores, entre eles o psicólogo Gordon Burghardt, da Universidade do Tennessee: criar as próprias regras e desafios, repetir com variação, fazer de conta (usar um objeto como se fosse outro) e agir pela atividade em si, sem objetivo externo.",
+        "Os registros mostram os quatro sinais, em graus variados. Burghardt, consultado pela MIT Technology Review, concorda que o trabalho atende a alguns dos seus critérios. Se é brincadeira de fato ou encenação, os próprios autores deixam em aberto."
       ]
     },
     {
@@ -90,7 +90,7 @@
         "title": "✕ Não mostra",
         "lines": [
           "Que a máquina sente prazer ou motivação. Os autores só avaliam comportamento.",
-          "Que não é encenação. Nathan Cloos, coautor, admite que tudo pode ser \"role-playing\", imitação de humanos.",
+          "Que não é encenação. Nathan Cloos, coautor, admite que tudo pode ser \"role-playing\", uma encenação do que um agente brincalhão faria.",
           "Resultado revisado por pares. É um preprint, e a instrução dizia ao agente que ele era curioso."
         ]
       },
@@ -107,7 +107,7 @@
       "body": [],
       "check": [
         "Pesquisadores do MIT deixaram 13 cópias de uma IA numa ilha virtual por 30 horas, sem tarefa. Elas inventaram jogos, desenhos e experimentos.",
-        "Quem brincou se saiu melhor nas tarefas depois: 10,3 objetos no alto da Torre contra 3,5 das cópias novas.",
+        "Quem brincou se saiu melhor nas tarefas depois: 10,3 objetos no alto do Pináculo contra 3,5 das cópias novas.",
         "Se é brincadeira ou encenação, ninguém sabe. O estudo ainda não foi revisado por pares."
       ]
     },

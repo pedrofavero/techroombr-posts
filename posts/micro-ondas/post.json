@@ -16,11 +16,11 @@
     {
       "type": "diagram",
       "kicker": "Por dentro",
-      "heading": "Uma caixa de metal e um tubo que faz ondas",
-      "svg": "<svg viewBox='0 0 700 400' fill='none' stroke='currentColor' stroke-width='2'><rect x='240' y='40' width='440' height='330' rx='6' stroke-width='4'/><rect x='10' y='150' width='190' height='100' rx='8' stroke='var(--accent)' stroke-width='3'/><text x='105' y='195' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>magnetron</text><text x='105' y='222' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>(tubo eletrônico)</text><line x1='200' y1='200' x2='240' y2='200' stroke='var(--accent)' stroke-width='3'/><polyline points='240,200 310,110 390,200 470,110 550,200 630,110' stroke='var(--accent)' stroke-width='3'/><polyline points='630,110 570,220 510,275' stroke='var(--accent)' stroke-width='3' stroke-dasharray='8 6'/><ellipse cx='470' cy='290' rx='120' ry='28'/><path d='M370 290 Q470 245 570 290' /><text x='460' y='78' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>paredes de metal refletem as ondas</text><text x='460' y='350' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>comida: absorve só nos primeiros cm</text></svg>",
+      "heading": "Uma caixa de metal e uma peça que faz ondas",
+      "svg": "<svg viewBox='0 0 700 400' fill='none' stroke='currentColor' stroke-width='2'><rect x='240' y='40' width='440' height='330' rx='6' stroke-width='4'/><rect x='10' y='150' width='190' height='100' rx='8' stroke='var(--accent)' stroke-width='3'/><text x='105' y='195' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>magnetron</text><text x='105' y='222' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>(gera as ondas)</text><line x1='200' y1='200' x2='240' y2='200' stroke='var(--accent)' stroke-width='3'/><polyline points='240,200 310,110 390,200 470,110 550,200 630,110' stroke='var(--accent)' stroke-width='3'/><polyline points='630,110 570,220 510,275' stroke='var(--accent)' stroke-width='3' stroke-dasharray='8 6'/><ellipse cx='470' cy='290' rx='120' ry='28'/><path d='M370 290 Q470 245 570 290' /><text x='460' y='78' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>paredes de metal refletem as ondas</text><text x='460' y='350' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>comida: absorve só nos primeiros cm</text></svg>",
       "caption": "As ondas saem do magnetron, batem nas paredes metálicas e são absorvidas pela comida. Vidro e plástico ficam transparentes para elas.",
       "body": [
-        "Segundo a FDA, a agência americana que regula o aparelho, as micro-ondas são produzidas por um tubo eletrônico chamado magnetron, refletem nas paredes de metal e fazem as moléculas de água da comida vibrar. O atrito entre as moléculas vira calor."
+        "Segundo a FDA, a agência americana que regula o aparelho, as micro-ondas são produzidas por um dispositivo chamado magnetron, refletem nas paredes de metal e fazem as moléculas de água da comida vibrar. O atrito entre as moléculas vira calor."
       ]
     },
     {
@@ -31,8 +31,8 @@
         { "title": "1. Da tomada ao magnetron", "text": "O aparelho converte a eletricidade da tomada em ondas de rádio muito curtas, de cerca de 12 centímetros, a 2.450 megahertz." },
         { "title": "2. Rebatendo na caixa", "text": "As ondas refletem nas paredes de metal e atravessam vidro, papel e plástico. Só a comida as absorve." },
         { "title": "3. Entrada curta", "text": "Elas penetram de 2,5 a 3,8 centímetros, segundo o Departamento de Agricultura dos EUA. Não chegam ao centro de um prato grosso." },
-        { "title": "4. Moléculas que vibram", "text": "O campo elétrico das ondas inverte 2,45 bilhões de vezes por segundo (os 2.450 megahertz) e faz as moléculas de água, gordura e açúcar vibrar. O atrito entre elas vira calor, na descrição da FDA." },
-        { "title": "5. O resto é condução", "text": "O miolo esquenta porque o calor caminha da borda para o centro, como numa panela. Por isso a receita manda esperar um minuto antes de comer." }
+        { "title": "4. Moléculas que vibram", "text": "As ondas oscilam 2,45 bilhões de vezes por segundo (os 2.450 megahertz) e fazem as moléculas de água vibrar; o USDA inclui gordura e açúcar. O atrito entre as moléculas vira calor, na descrição da FDA." },
+        { "title": "5. O resto é condução", "text": "O miolo esquenta porque o calor caminha da borda para o centro, como numa panela. Por isso a orientação do USDA é deixar a comida descansar pelo menos 3 minutos antes de comer." }
       ]
     },
     {
@@ -63,7 +63,7 @@
       "photo": "fotos/micro-ondas-5.jpg",
       "caption": "Foto: Sincerely Media / Unsplash",
       "body": [
-        "Como as ondas param nos primeiros centímetros, o centro de um prato cheio depende da condução, que é lenta. Resultado: ==pontos frios==, onde, segundo o USDA, bactérias podem sobreviver. Por isso a orientação é mexer, girar e deixar descansar: o calor continua caminhando depois que o aparelho apaga.",
+        "Como as ondas param nos primeiros centímetros, o centro de um prato cheio depende da condução, de fora para dentro. Resultado: ==pontos frios==, onde, segundo o USDA, bactérias podem sobreviver. Por isso a orientação é mexer, girar e deixar descansar: o calor continua caminhando depois que o aparelho apaga.",
         "Outro efeito: a superfície da comida fica mais fria do que num forno comum, e por isso o micro-ondas quase não doura. E cuidado com água aquecida sozinha: ela pode passar do ponto de fervura sem borbulhar e explodir ao ser mexida, alerta a FDA."
       ]
     },
@@ -72,7 +72,7 @@
       "kicker": "De onde veio",
       "heading": "Um chocolate derretido no bolso",
       "items": [
-        { "when": "Anos 1940", "what": "Percy Spencer, engenheiro da Raytheon que criou um jeito de produzir magnetrons de radar em massa, nota que uma barra de chocolate derreteu no bolso perto de um deles. Testa milho: vira pipoca." },
+        { "when": "Anos 1940", "what": "Percy Spencer, da Raytheon, que criou um jeito de produzir magnetrons de radar em massa, nota que uma barra de chocolate derreteu no bolso perto de um deles. Testa milho: vira pipoca." },
         { "when": "8 out. 1945", "what": "Spencer e a Raytheon registram o pedido de patente do forno de micro-ondas." },
         { "when": "1947", "what": "Chega ao mercado o Radarange: US$ 3 mil, cerca de 340 quilos e 1,8 metro de altura." },
         { "when": "24 jan. 1950", "what": "A patente é concedida." },
@@ -103,5 +103,5 @@
       ]
     }
   ],
-  "legenda": "O micro-ondas é um dos poucos aparelhos da casa que a maioria usa todo dia e quase ninguém sabe explicar. A explicação mais repetida, de que ele cozinha de dentro para fora, é justamente a errada.\n\nUm tubo eletrônico, o magnetron, transforma a eletricidade da tomada em ondas de 12 centímetros que rebatem nas paredes de metal e atravessam vidro e plástico. Na comida, elas entram só de 2,5 a 3,8 centímetros e fazem as moléculas de água vibrar, num campo que inverte 2,45 bilhões de vezes por segundo. O centro do prato esquenta por condução, de fora para dentro, como numa panela. É daí que vêm os pontos frios da marmita e a instrução de esperar um minuto antes de comer.\n\nA história também é boa: a ideia nasceu de uma barra de chocolate que derreteu no bolso de um engenheiro de radar em 1945. O primeiro forno pesava uns 340 quilos.\n\nQual comida nunca fica boa no seu micro-ondas?\n\n—\nFontes no último slide.\n\n#microondas #comofunciona #fisica #cozinha #tecnologia #ciencia #curiosidade"
+  "legenda": "O micro-ondas é um dos poucos aparelhos da casa que a maioria usa todo dia e quase ninguém sabe explicar. A explicação mais repetida, de que ele cozinha de dentro para fora, é justamente a errada.\n\nUm dispositivo chamado magnetron transforma a eletricidade da tomada em ondas de 12 centímetros que rebatem nas paredes de metal e atravessam vidro e plástico. Na comida, elas entram só de 2,5 a 3,8 centímetros e e as ondas, oscilando 2,45 bilhões de vezes por segundo, fazem as moléculas de água vibrar. O centro do prato esquenta por condução, de fora para dentro, como numa panela. É daí que vêm os pontos frios da marmita e a orientação de deixar descansar alguns minutos antes de comer.\n\nA história também é boa: a ideia nasceu de uma barra de chocolate que derreteu no bolso de Percy Spencer, da Raytheon, que fabricava equipamentos de radar, logo depois da guerra; o pedido de patente é de outubro de 1945. O primeiro forno pesava uns 340 quilos.\n\nQual comida nunca fica boa no seu micro-ondas?\n\n—\nFontes no último slide.\n\n#microondas #comofunciona #fisica #cozinha #tecnologia #ciencia #curiosidade"
 }
