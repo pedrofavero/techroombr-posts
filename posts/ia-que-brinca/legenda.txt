@@ -1,0 +1,12 @@
+O detalhe que mais chama atenção no estudo não é o basquete: é o agente que anulou o próprio recorde de malabarismo por achar que tinha sido rápido demais para ser real.
+
+Pesquisadores do MIT puseram 13 cópias do Claude Code, com o modelo Claude Opus 4.7, numa ilha virtual por 30 horas cada, sem tarefa nem recompensa. A instrução só dizia que o agente era curioso e se entediava fácil. A cada hora, a ilha era restaurada e só as anotações do próprio agente sobreviviam. Depois, os agentes que brincaram foram melhores em tarefas de uma hora: 10,3 objetos levados ao ponto mais alto da ilha, contra 3,5 das cópias novas. O preprint saiu no arXiv em 5 de outubro e ainda não passou por revisão por pares.
+
+Os próprios autores admitem que tudo pode ser encenação, e uma cientista de Berkeley diz que o artigo não permite concluir que há brincadeira. Transparência: este perfil usa o Claude, da Anthropic, na produção.
+
+Se uma máquina inventa um jogo sem ninguém mandar, isso é brincadeira ou imitação?
+
+—
+Fontes no último slide.
+
+#inteligenciaartificial #estudo #mit #claude #agentes #ciencia #tecnologia

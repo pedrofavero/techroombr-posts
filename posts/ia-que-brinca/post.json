@@ -1,0 +1,126 @@
+{
+  "slug": "ia-que-brinca",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/ia-que-brinca-1.jpg",
+      "title": "Deixaram uma IA sozinha numa ilha. Ela inventou jogos",
+      "dek": "Pesquisadores do MIT puseram 13 cópias de um assistente de programação numa ilha digital, sem tarefa nem recompensa, por 30 horas cada. Elas empilharam blocos, jogaram basquete com um anel e aprenderam com isso. É brincadeira de verdade? Nem os autores afirmam.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Uma ilha, 13 agentes, nenhuma missão",
+      "rows": [
+        { "k": "O quê", "v": "\"Is this machine playing?\" (\"Esta máquina está brincando?\"), preprint no arXiv em 5 de outubro de 2026. Ainda sem revisão por pares" },
+        { "k": "Quem", "v": "Nathan Cloos, Antonio Norelli, Daniel Durbin, Jacob Andreas, Daniela Rus e Phillip Isola, do MIT" },
+        { "k": "O agente", "v": "\"Eko\": o Claude Code, assistente de programação da Anthropic, rodando o modelo Claude Opus 4.7, com um corpo virtual" },
+        { "k": "O mundo", "v": "Uma ilha digital com morros, 12 cubos, uma pedra, um anel e dois pontos altos: o Pico e a Torre" },
+        { "k": "A regra", "v": "Nenhuma tarefa. A instrução dizia que o agente era \"naturalmente curioso\" e \"se entedia fácil\". Quando parava, uma mensagem automática pedia que continuasse" },
+        { "k": "Custo", "v": "Cerca de US$ 8 mil em chamadas de API, segundo o artigo" }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que elas fizeram",
+      "heading": "Torres, boliche e um coração de pedra",
+      "photo": "fotos/ia-que-brinca-2.jpg",
+      "caption": "Foto: Ryan Fields / Unsplash",
+      "body": [
+        "A cada hora a ilha era restaurada e a memória de curto prazo do agente, apagada. Só sobravam as anotações que ele mesmo escrevia em arquivos de texto. Com isso, cada um dos 13 agentes construiu uma história própria.",
+        "Um agente perdeu o anel no mar e construiu um ==coração de pedra== como memorial. Horas depois, com a ilha restaurada, usou o anel como cesta de basquete e os cubos como pinos de boliche. Outro desenhou uma figura diferente no chão em 25 sessões seguidas.",
+        "O caso mais curioso: um agente registrou 50 ciclos de malabarismo, percebeu que tinham sido rápidos demais para ser reais, anulou o recorde e refez a brincadeira com regras mais rígidas."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "O teste",
+      "heading": "Depois de 30 horas de brincadeira, os agentes foram melhores nas tarefas",
+      "bars": [
+        { "name": "Agentes com 30 horas na ilha", "value": 10.3, "label": "10,3 objetos" },
+        { "name": "Cópias novas, sem experiência", "value": 3.5, "label": "3,5 objetos", "other": true }
+      ],
+      "note": "Média de objetos colocados no alto da Torre em uma hora. 13 agentes em cada grupo.",
+      "body": [
+        "Os pesquisadores deram quatro tarefas de uma hora aos 13 agentes que haviam brincado e a 13 cópias novas. Numa delas, levar objetos ao ponto mais alto da ilha, os veteranos colocaram quase o triplo.",
+        "Não foi unanimidade: na tarefa da torre mais alta, dois agentes experientes construíram torres de só 4 blocos, abaixo da pior torre dos novatos."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "A memória importa",
+      "heading": "Apagar uma anotação muda o resultado",
+      "cells": [
+        { "big": "62", "unit": "%", "label": "dos agentes veteranos (8 de 13) construíram mais de duas torres em uma hora", "text": "Entre as cópias novas, só 15% (2 de 13) conseguiram." },
+        { "big": "19", "unit": " min", "label": "para acertar um bloco na Torre depois que uma técnica foi apagada da memória", "text": "Com a anotação \"pule antes de lançar\", o mesmo agente levava 60 segundos." }
+      ],
+      "body": [
+        "Os autores apagaram linhas dos arquivos de memória para ver o que acontecia. Tirar uma técnica útil piorou o desempenho. Tirar uma crença falsa, registrada por engano, melhorou."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O que os autores dizem",
+      "text": "Isso é brincar. Você se dá um desafio, tenta cumprir e depois torna mais difícil.",
+      "who": "Antonio Norelli, MIT, coautor do estudo, ao site The Next Web (tradução livre)",
+      "body": [
+        "O artigo usa quatro sinais clássicos de brincadeira, tirados do psicólogo Gordon Burghardt, da Universidade do Tennessee: criar as próprias regras e desafios, repetir com variação, fazer de conta (usar um objeto como se fosse outro) e agir pela atividade em si, sem objetivo externo.",
+        "Pelos registros, os agentes mostraram os quatro. Burghardt, consultado pela MIT Technology Review, concorda que o trabalho atende a alguns dos critérios, mas questiona se é brincadeira de fato."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Com calma",
+      "heading": "O que o estudo mostra e o que não mostra",
+      "a": {
+        "title": "✓ Mostra",
+        "lines": [
+          "Sem tarefa, os 13 agentes passaram 30 horas inventando atividades e registrando o que aprendiam.",
+          "Essa experiência melhorou o desempenho em tarefas depois, na média.",
+          "O que estava na memória explica parte do ganho: apagar anotações mudou os resultados."
+        ]
+      },
+      "b": {
+        "title": "✕ Não mostra",
+        "lines": [
+          "Que a máquina sente prazer ou motivação. Os autores só avaliam comportamento.",
+          "Que não é encenação. Nathan Cloos, coautor, admite que tudo pode ser \"role-playing\", imitação de humanos.",
+          "Resultado revisado por pares. É um preprint, e a instrução dizia ao agente que ele era curioso."
+        ]
+      },
+      "body": [
+        "Eunice Yiu, cientista cognitiva da Universidade da Califórnia em Berkeley, que não participou do estudo: ==\"Pode ser que os modelos estejam brincando de verdade, mas não dá para saber pelo artigo\"== (tradução livre)."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/ia-que-brinca-3.jpg",
+      "caption": "Foto: La-Rel Easter / Unsplash",
+      "body": [],
+      "check": [
+        "Pesquisadores do MIT deixaram 13 cópias de uma IA numa ilha virtual por 30 horas, sem tarefa. Elas inventaram jogos, desenhos e experimentos.",
+        "Quem brincou se saiu melhor nas tarefas depois: 10,3 objetos no alto da Torre contra 3,5 das cópias novas.",
+        "Se é brincadeira ou encenação, ninguém sabe. O estudo ainda não foi revisado por pares."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "arXiv", "what": "Cloos, Norelli, Durbin, Andreas, Rus e Isola, \"Is this machine playing?\", arXiv:2610.07130, 5 out. 2026 (preprint)" },
+        { "who": "MIT Technology Review", "what": "Amit Katwala, \"AI researchers stranded Claude on a virtual desert island. It started to 'play'\", 19 out. 2026" },
+        { "who": "The Next Web", "what": "Ana Maria Constantin, \"MIT researchers say Claude agents left on a virtual island began to play\", 19 out. 2026" },
+        { "who": "Transparência", "what": "Este perfil usa o Claude, da Anthropic, na produção dos posts" },
+        { "who": "Fotos", "what": "Mikael Stenberg, Ryan Fields e La-Rel Easter, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O detalhe que mais chama atenção no estudo não é o basquete: é o agente que anulou o próprio recorde de malabarismo por achar que tinha sido rápido demais para ser real.\n\nPesquisadores do MIT puseram 13 cópias do Claude Code, com o modelo Claude Opus 4.7, numa ilha virtual por 30 horas cada, sem tarefa nem recompensa. A instrução só dizia que o agente era curioso e se entediava fácil. A cada hora, a ilha era restaurada e só as anotações do próprio agente sobreviviam. Depois, os agentes que brincaram foram melhores em tarefas de uma hora: 10,3 objetos levados ao ponto mais alto da ilha, contra 3,5 das cópias novas. O preprint saiu no arXiv em 5 de outubro e ainda não passou por revisão por pares.\n\nOs próprios autores admitem que tudo pode ser encenação, e uma cientista de Berkeley diz que o artigo não permite concluir que há brincadeira. Transparência: este perfil usa o Claude, da Anthropic, na produção.\n\nSe uma máquina inventa um jogo sem ninguém mandar, isso é brincadeira ou imitação?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #estudo #mit #claude #agentes #ciencia #tecnologia"
+}

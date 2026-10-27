@@ -1,0 +1,107 @@
+{
+  "slug": "micro-ondas",
+  "categoria": "COMO FUNCIONA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/micro-ondas-4.jpg",
+      "title": "O micro-ondas não esquenta a comida de dentro para fora",
+      "dek": "A explicação famosa está errada. As ondas entram só uns 3 centímetros na comida; o resto esquenta por condução, como numa panela. É por isso que a marmita sai fervendo na borda e fria no meio.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "diagram",
+      "kicker": "Por dentro",
+      "heading": "Uma caixa de metal e um tubo que faz ondas",
+      "svg": "<svg viewBox='0 0 700 400' fill='none' stroke='currentColor' stroke-width='2'><rect x='240' y='40' width='440' height='330' rx='6' stroke-width='4'/><rect x='10' y='150' width='190' height='100' rx='8' stroke='var(--accent)' stroke-width='3'/><text x='105' y='195' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>magnetron</text><text x='105' y='222' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>(tubo eletrônico)</text><line x1='200' y1='200' x2='240' y2='200' stroke='var(--accent)' stroke-width='3'/><polyline points='240,200 310,110 390,200 470,110 550,200 630,110' stroke='var(--accent)' stroke-width='3'/><polyline points='630,110 570,220 510,275' stroke='var(--accent)' stroke-width='3' stroke-dasharray='8 6'/><ellipse cx='470' cy='290' rx='120' ry='28'/><path d='M370 290 Q470 245 570 290' /><text x='460' y='78' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>paredes de metal refletem as ondas</text><text x='460' y='350' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>comida: absorve só nos primeiros cm</text></svg>",
+      "caption": "As ondas saem do magnetron, batem nas paredes metálicas e são absorvidas pela comida. Vidro e plástico ficam transparentes para elas.",
+      "body": [
+        "Segundo a FDA, a agência americana que regula o aparelho, as micro-ondas são produzidas por um tubo eletrônico chamado magnetron, refletem nas paredes de metal e fazem as moléculas de água da comida vibrar. O atrito entre as moléculas vira calor."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Passo a passo",
+      "heading": "O que acontece nos 2 minutos do seu café",
+      "steps": [
+        { "title": "1. Da tomada ao magnetron", "text": "O aparelho converte a eletricidade da tomada em ondas de rádio muito curtas, de cerca de 12 centímetros, a 2.450 megahertz." },
+        { "title": "2. Rebatendo na caixa", "text": "As ondas refletem nas paredes de metal e atravessam vidro, papel e plástico. Só a comida as absorve." },
+        { "title": "3. Entrada curta", "text": "Elas penetram de 2,5 a 3,8 centímetros, segundo o Departamento de Agricultura dos EUA. Não chegam ao centro de um prato grosso." },
+        { "title": "4. Moléculas que vibram", "text": "O campo elétrico das ondas inverte 2,45 bilhões de vezes por segundo (os 2.450 megahertz) e faz as moléculas de água, gordura e açúcar vibrar. O atrito entre elas vira calor, na descrição da FDA." },
+        { "title": "5. O resto é condução", "text": "O miolo esquenta porque o calor caminha da borda para o centro, como numa panela. Por isso a receita manda esperar um minuto antes de comer." }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O número",
+      "big": "2,5 a 3,8",
+      "unit": " cm",
+      "label": "é até onde as micro-ondas entram na comida, segundo o Departamento de Agricultura dos EUA (USDA)",
+      "body": [
+        "Uma medida de laboratório dá ideia da escala: na água a 25 °C, 63% da energia das ondas é absorvida no primeiro 1,4 centímetro, segundo o site HyperPhysics, da Universidade Estadual da Geórgia.",
+        "A FDA é direta: embora o calor seja produzido dentro da comida, ==o micro-ondas não cozinha \"de dentro para fora\"==. Em alimentos grossos, a maior parte do calor nasce na camada de fora, e o centro cozinha por condução."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Por que não vaza",
+      "heading": "A onda tem 12 centímetros. O furo da porta, 1 milímetro",
+      "cells": [
+        { "big": "12", "unit": " cm", "label": "é o comprimento de cada onda dentro do aparelho", "text": "Ondas não passam por furos muito menores que o próprio tamanho. A tela de metal da porta segura as micro-ondas, mas deixa você enxergar a comida." },
+        { "big": "5", "unit": " mW", "label": "por centímetro quadrado, a cerca de 5 centímetros do aparelho: o máximo de vazamento que a FDA permite durante toda a vida útil", "text": "O aparelho para de produzir ondas no instante em que a porta abre. E a comida não fica radioativa: a radiação é não ionizante, mexe nos átomos sem alterá-los quimicamente, segundo a EPA." }
+      ],
+      "body": []
+    },
+    {
+      "type": "inner",
+      "kicker": "O mito",
+      "heading": "Por que a marmita sai fria no meio",
+      "photo": "fotos/micro-ondas-5.jpg",
+      "caption": "Foto: Sincerely Media / Unsplash",
+      "body": [
+        "Como as ondas param nos primeiros centímetros, o centro de um prato cheio depende da condução, que é lenta. Resultado: ==pontos frios==, onde, segundo o USDA, bactérias podem sobreviver. Por isso a orientação é mexer, girar e deixar descansar: o calor continua caminhando depois que o aparelho apaga.",
+        "Outro efeito: a superfície da comida fica mais fria do que num forno comum, e por isso o micro-ondas quase não doura. E cuidado com água aquecida sozinha: ela pode passar do ponto de fervura sem borbulhar e explodir ao ser mexida, alerta a FDA."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "De onde veio",
+      "heading": "Um chocolate derretido no bolso",
+      "items": [
+        { "when": "Anos 1940", "what": "Percy Spencer, engenheiro da Raytheon que criou um jeito de produzir magnetrons de radar em massa, nota que uma barra de chocolate derreteu no bolso perto de um deles. Testa milho: vira pipoca." },
+        { "when": "8 out. 1945", "what": "Spencer e a Raytheon registram o pedido de patente do forno de micro-ondas." },
+        { "when": "1947", "what": "Chega ao mercado o Radarange: US$ 3 mil, cerca de 340 quilos e 1,8 metro de altura." },
+        { "when": "24 jan. 1950", "what": "A patente é concedida." },
+        { "when": "Cerca de 20 anos depois", "what": "Um modelo prático para a cozinha de casa fica pronto, segundo o Lemelson-MIT." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/micro-ondas-3.jpg",
+      "caption": "Foto: charlesdeluvio / Unsplash",
+      "body": [],
+      "check": [
+        "O micro-ondas não cozinha de dentro para fora. As ondas entram de 2,5 a 3,8 cm; o centro esquenta por condução, como numa panela.",
+        "O que esquenta é a água (e gordura e açúcar): as ondas, a 2.450 megahertz, fazem as moléculas vibrar, e o atrito vira calor.",
+        "A porta segura as ondas porque os furos da tela (1 mm) são muito menores que a onda (12 cm). O nome do inventor: Percy Spencer, 1945."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "FDA (EUA)", "what": "\"Microwave Ovens\", página da Food and Drug Administration sobre funcionamento, segurança e padrão 21 CFR 1030.10" },
+        { "who": "USDA FSIS (EUA)", "what": "\"Cooking with Microwave Ovens\", Serviço de Inspeção e Segurança Alimentar do Departamento de Agricultura" },
+        { "who": "HyperPhysics", "what": "\"Microwave Ovens\", Universidade Estadual da Geórgia: frequência, comprimento de onda e profundidade de penetração" },
+        { "who": "EPA e Lemelson-MIT", "what": "EPA RadTown, \"Non-Ionizing Radiation Used in Microwave Ovens\"; Lemelson-MIT Program, perfil de Percy Spencer" },
+        { "who": "Fotos", "what": "Dorrell Tibbs, Sincerely Media e charlesdeluvio, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O micro-ondas é um dos poucos aparelhos da casa que a maioria usa todo dia e quase ninguém sabe explicar. A explicação mais repetida, de que ele cozinha de dentro para fora, é justamente a errada.\n\nUm tubo eletrônico, o magnetron, transforma a eletricidade da tomada em ondas de 12 centímetros que rebatem nas paredes de metal e atravessam vidro e plástico. Na comida, elas entram só de 2,5 a 3,8 centímetros e fazem as moléculas de água vibrar, num campo que inverte 2,45 bilhões de vezes por segundo. O centro do prato esquenta por condução, de fora para dentro, como numa panela. É daí que vêm os pontos frios da marmita e a instrução de esperar um minuto antes de comer.\n\nA história também é boa: a ideia nasceu de uma barra de chocolate que derreteu no bolso de um engenheiro de radar em 1945. O primeiro forno pesava uns 340 quilos.\n\nQual comida nunca fica boa no seu micro-ondas?\n\n—\nFontes no último slide.\n\n#microondas #comofunciona #fisica #cozinha #tecnologia #ciencia #curiosidade"
+}
