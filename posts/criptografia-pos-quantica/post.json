@@ -1,0 +1,111 @@
+{
+  "slug": "criptografia-pos-quantica",
+  "categoria": "EXPLICA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/criptografia-pos-quantica-1.jpg",
+      "title": "A internet troca as fechaduras antes de o ladrão existir",
+      "dek": "Google e Cloudflare deram prazo: 2029. O computador quântico capaz de quebrar a criptografia de hoje ainda não existe. O que é \"pós-quântico\", e por que a pressa.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa está errada",
+      "heading": "Não, o computador quântico não \"testa todas as senhas de uma vez\"",
+      "body": [
+        "Criptografia é embaralhar uma mensagem para que só o destinatário consiga ler. Na internet, a fechadura mais comum depende de uma conta: multiplicar dois números primos enormes é fácil; descobrir quais eram, a partir do resultado, é um problema que os computadores comuns não resolvem em tempo útil.",
+        "A versão popular diz que o computador quântico tenta todas as respostas ao mesmo tempo. \"Está errada\", escreve Marin Ivezic, do site PostQuantum.com. A máquina não lê todas as respostas: ela faz as erradas se cancelarem, como ondas que se anulam, e deixa a certa sobrar.",
+        "Em 1994, Peter Shor mostrou como usar isso para transformar a conta impossível em um problema que o computador quântico resolve: achar um padrão que se repete. É o **algoritmo de Shor**. Desde então, a pergunta é só quando a máquina vai existir."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Por que a pressa",
+      "heading": "O ataque que já pode estar acontecendo",
+      "steps": [
+        { "title": "Copiar hoje", "text": "Quem espiona a rede copia o tráfego cifrado que passa: mensagens, contratos, dados de saúde. Não consegue ler nada." },
+        { "title": "Guardar", "text": "Os arquivos ficam armazenados por anos. Dados sigilosos continuam valiosos uma década depois." },
+        { "title": "Esperar a máquina", "text": "Quando existir um computador quântico grande o bastante, ele abre tudo o que foi guardado." },
+        { "title": "Trocar a fechadura antes", "text": "Por isso a troca não pode esperar a máquina chegar. O Google chama o ataque de \"guardar agora, decifrar depois\"." }
+      ],
+      "body": [
+        "A Cloudflare, empresa de infraestrutura de internet, diz que esse é o risco principal enquanto a máquina está longe. Quando ela se aproximar, o problema passa a ser outro: falsificar identidades e assinaturas digitais."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Trinta anos de aviso",
+      "heading": "De um teorema a um prazo",
+      "items": [
+        { "when": "1994", "what": "Peter Shor publica o algoritmo que quebra a criptografia RSA num computador quântico grande o bastante." },
+        { "when": "2016", "what": "O NIST, instituto de padrões dos EUA, abre um concurso por fechaduras novas. Chegam **82 propostas de 25 países**." },
+        { "when": "2019", "what": "Estimativa: quebrar uma chave RSA-2048 exigiria cerca de 20 milhões de qubits ruidosos." },
+        { "when": "ago. 2024", "what": "O NIST publica os três primeiros padrões pós-quânticos (ML-KEM, ML-DSA e SLH-DSA)." },
+        { "when": "mai. 2025", "what": "Craig Gidney, do Google, refaz a conta: menos de 1 milhão de qubits." },
+        { "when": "mar. e abr. 2026", "what": "Google e Cloudflare fixam 2029 como prazo para a migração completa." }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "A conta que encolheu",
+      "big": "1 milhão",
+      "unit": "",
+      "label": "de qubits ruidosos, ou menos, bastariam para quebrar uma chave RSA-2048 em menos de uma semana, segundo a estimativa de 2025. Em 2019, a conta era 20 milhões.",
+      "body": [
+        "Qubit é a unidade básica de um computador quântico, o equivalente ao bit. \"Ruidoso\" quer dizer que erra, e precisa de muitos qubits extras para corrigir os erros. A estimativa supõe uma taxa de erro de 0,1% por operação.",
+        "Nenhuma máquina assim existe hoje. Mas a Cloudflare escreveu, em abril, que a data provável, antes estimada para \"2035 ou depois\", avançou bastante."
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "Onde a troca já aconteceu",
+      "heading": "Dois terços do tráfego da Cloudflare já usam a fechadura nova",
+      "total": 100,
+      "filled": 65,
+      "on_label": "65% do tráfego humano já protegido (abr. 2026)",
+      "off_label": "ainda com criptografia antiga",
+      "body": [
+        "A parte feita é a **cifragem da conexão**: o segredo trocado entre o seu navegador e o site, que vale contra o \"guardar agora, decifrar depois\". A Cloudflare ligou isso para todos os seus sites em 2022, e o Chrome já aceita.",
+        "A parte que falta é a **assinatura**: o certificado que prova que o site é quem diz ser. A Cloudflare prevê terminar em 2029, e o Google diz que está integrando a assinatura nova (ML-DSA) ao Android 17."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Quem faz a conta",
+      "text": "Estimo que um inteiro RSA de 2048 bits poderia ser fatorado em menos de uma semana.",
+      "who": "Craig Gidney, Google Quantum AI, no resumo do artigo de maio de 2025 (tradução livre)",
+      "body": [
+        "A estimativa vale para uma máquina com menos de 1 milhão de qubits ruidosos. O próprio artigo lista as suposições: taxa de erro de 0,1%, qubits dispostos em grade e ciclos de correção de 1 microssegundo. Um computador assim ainda não existe, e o próprio Google diz que as assinaturas digitais precisam ser trocadas antes de ele existir."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/criptografia-pos-quantica-2.jpg",
+      "caption": "Foto: Laura Ockel / Unsplash",
+      "check": [
+        "**\"Pós-quântico\" não é computador quântico.** É criptografia comum, feita para resistir a ele, e já roda no Chrome.",
+        "**O risco de hoje é o arquivo guardado.** O que for copiado agora pode ser aberto depois. Por isso a troca não espera a máquina.",
+        "**Metade da troca já foi feita.** A conexão com o site já usa a fechadura nova na maior parte da Cloudflare; as assinaturas digitais ficam para 2029."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Craig Gidney, arXiv:2505.15917, 21 mai. 2025", "what": "Menos de 1 milhão de qubits ruidosos, menos de uma semana, taxa de erro de 0,1%, grade, ciclo de 1 microssegundo; estimativa de 2019 de 20 milhões de qubits (Gidney e Ekerå)" },
+        { "who": "Google, Heather Adkins e Sophie Schmieg, blog.google, 25 mar. 2026", "what": "Prazo de 2029, \"store-now-decrypt-later\", assinaturas como risco futuro, Chrome com PQC, Android 17 com ML-DSA" },
+        { "who": "Cloudflare, blog.cloudflare.com, 7 abr. 2026", "what": "Mais de 65% do tráfego humano pós-quântico, ligado para todos os sites em 2022, meta de 2029, data provável antes estimada em 2035 ou depois, cifragem feita e autenticação pendente" },
+        { "who": "HPCwire, 13 ago. 2024, sobre os padrões do NIST", "what": "FIPS 203, 204 e 205 (ML-KEM, ML-DSA, SLH-DSA), processo desde 2016, 82 propostas de 25 países, Shor em 1994, \"harvest now, decrypt later\"" },
+        { "who": "Marin Ivezic, PostQuantum.com, 1º jul. 2025", "what": "Por que a explicação \"testa todas as respostas de uma vez\" está errada; interferência; Shor converte fatoração em busca de período" },
+        { "who": "Fotos", "what": "gurpreet singh e Laura Ockel, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "O cadeado verde do seu navegador está sendo trocado por dentro, e a maioria das pessoas nunca vai notar.\n\nA criptografia que protege sites e mensagens depende de uma conta que computadores comuns não resolvem: desfazer a multiplicação de dois números primos gigantes. Em 1994, Peter Shor mostrou que um computador quântico grande o bastante resolveria. Essa máquina ainda não existe, mas a estimativa do que ela precisa caiu de 20 milhões de qubits, em 2019, para menos de 1 milhão, em 2025. Google e Cloudflare responderam com um prazo: migração completa até 2029. Dois terços do tráfego que passa pela Cloudflare já usam os padrões novos, publicados pelo NIST em 2024.\n\nO motivo da pressa tem nome: \"guardar agora, decifrar depois\". O que for copiado hoje pode ser aberto quando a máquina chegar.\n\nQue informação sua de hoje você não gostaria que alguém lesse em 2035?\n\n—\nFontes no último slide.\n\n#criptografia #computacaoquantica #seguranca #internet #explica #privacidade #tecnologia"
+}
