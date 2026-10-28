@@ -29,7 +29,7 @@
       "heading": "O ataque que já pode estar acontecendo",
       "steps": [
         { "title": "Copiar hoje", "text": "Quem espiona a rede copia o tráfego cifrado que passa: mensagens, contratos, dados de saúde. Não consegue ler nada." },
-        { "title": "Guardar", "text": "Os arquivos ficam armazenados por anos. Dados sigilosos continuam valiosos uma década depois." },
+        { "title": "Guardar", "text": "Os arquivos ficam armazenados, sem pressa, até existir uma máquina capaz de abri-los." },
         { "title": "Esperar a máquina", "text": "Quando existir um computador quântico grande o bastante, ele abre tudo o que foi guardado." },
         { "title": "Trocar a fechadura antes", "text": "Por isso a troca não pode esperar a máquina chegar. O Google chama o ataque de \"guardar agora, decifrar depois\"." }
       ],
@@ -46,8 +46,8 @@
         { "when": "2016", "what": "O NIST, instituto de padrões dos EUA, abre um concurso por fechaduras novas. Chegam **82 propostas de 25 países**." },
         { "when": "2019", "what": "Estimativa: quebrar uma chave RSA-2048 exigiria cerca de 20 milhões de qubits ruidosos." },
         { "when": "ago. 2024", "what": "O NIST publica os três primeiros padrões pós-quânticos (ML-KEM, ML-DSA e SLH-DSA)." },
-        { "when": "mai. 2025", "what": "Craig Gidney, do Google, refaz a conta: menos de 1 milhão de qubits." },
-        { "when": "mar. e abr. 2026", "what": "Google e Cloudflare fixam 2029 como prazo para a migração completa." }
+        { "when": "mai. 2025", "what": "Craig Gidney refaz a conta: menos de 1 milhão de qubits." },
+        { "when": "mar. e abr. 2026", "what": "Google e Cloudflare fixam 2029 como prazo para a migração." }
       ]
     },
     {
@@ -57,17 +57,17 @@
       "unit": "",
       "label": "de qubits ruidosos, ou menos, bastariam para quebrar uma chave RSA-2048 em menos de uma semana, segundo a estimativa de 2025. Em 2019, a conta era 20 milhões.",
       "body": [
-        "Qubit é a unidade básica de um computador quântico, o equivalente ao bit. \"Ruidoso\" quer dizer que erra, e precisa de muitos qubits extras para corrigir os erros. A estimativa supõe uma taxa de erro de 0,1% por operação.",
+        "Qubit é a unidade de informação de um computador quântico. \"Ruidoso\" quer dizer que erra: os melhores de hoje erram cerca de uma vez a cada mil operações, segundo Ivezic, e é preciso agrupar muitos deles para formar um qubit confiável. A estimativa supõe uma taxa de erro de 0,1% por operação.",
         "Nenhuma máquina assim existe hoje. Mas a Cloudflare escreveu, em abril, que a data provável, antes estimada para \"2035 ou depois\", avançou bastante."
       ]
     },
     {
       "type": "meter",
       "kicker": "Onde a troca já aconteceu",
-      "heading": "Dois terços do tráfego da Cloudflare já usam a fechadura nova",
+      "heading": "Mais de 65% do tráfego humano da Cloudflare já usa a fechadura nova",
       "total": 100,
       "filled": 65,
-      "on_label": "65% do tráfego humano já protegido (abr. 2026)",
+      "on_label": "mais de 65% do tráfego humano já protegido (abr. 2026)",
       "off_label": "ainda com criptografia antiga",
       "body": [
         "A parte feita é a **cifragem da conexão**: o segredo trocado entre o seu navegador e o site, que vale contra o \"guardar agora, decifrar depois\". A Cloudflare ligou isso para todos os seus sites em 2022, e o Chrome já aceita.",
@@ -77,10 +77,10 @@
     {
       "type": "quote",
       "kicker": "Quem faz a conta",
-      "text": "Estimo que um inteiro RSA de 2048 bits poderia ser fatorado em menos de uma semana.",
-      "who": "Craig Gidney, Google Quantum AI, no resumo do artigo de maio de 2025 (tradução livre)",
+      "text": "Estimo que um inteiro RSA de 2048 bits poderia ser fatorado em menos de uma semana (...)",
+      "who": "Craig Gidney, no resumo do artigo de maio de 2025 (tradução livre)",
       "body": [
-        "A estimativa vale para uma máquina com menos de 1 milhão de qubits ruidosos. O próprio artigo lista as suposições: taxa de erro de 0,1%, qubits dispostos em grade e ciclos de correção de 1 microssegundo. Um computador assim ainda não existe, e o próprio Google diz que as assinaturas digitais precisam ser trocadas antes de ele existir."
+        "A frase continua: \"por um computador quântico com menos de um milhão de qubits ruidosos\". O próprio artigo lista as suposições: taxa de erro de 0,1%, qubits dispostos em grade e ciclos de correção de 1 microssegundo. Um computador assim ainda não existe, e o próprio Google diz que as assinaturas digitais precisam ser trocadas antes de ele existir."
       ]
     },
     {
@@ -107,5 +107,5 @@
       ]
     }
   ],
-  "legenda": "O cadeado verde do seu navegador está sendo trocado por dentro, e a maioria das pessoas nunca vai notar.\n\nA criptografia que protege sites e mensagens depende de uma conta que computadores comuns não resolvem: desfazer a multiplicação de dois números primos gigantes. Em 1994, Peter Shor mostrou que um computador quântico grande o bastante resolveria. Essa máquina ainda não existe, mas a estimativa do que ela precisa caiu de 20 milhões de qubits, em 2019, para menos de 1 milhão, em 2025. Google e Cloudflare responderam com um prazo: migração completa até 2029. Dois terços do tráfego que passa pela Cloudflare já usam os padrões novos, publicados pelo NIST em 2024.\n\nO motivo da pressa tem nome: \"guardar agora, decifrar depois\". O que for copiado hoje pode ser aberto quando a máquina chegar.\n\nQue informação sua de hoje você não gostaria que alguém lesse em 2035?\n\n—\nFontes no último slide.\n\n#criptografia #computacaoquantica #seguranca #internet #explica #privacidade #tecnologia"
+  "legenda": "O cadeado verde do seu navegador está sendo trocado por dentro, e a maioria das pessoas nunca vai notar.\n\nA criptografia que protege sites e mensagens depende de uma conta que computadores comuns não resolvem: desfazer a multiplicação de dois números primos gigantes. Em 1994, Peter Shor mostrou que um computador quântico grande o bastante resolveria. Essa máquina ainda não existe, mas a estimativa do que ela precisa caiu de 20 milhões de qubits, em 2019, para menos de 1 milhão, em 2025. Google e Cloudflare responderam com um prazo: 2029. Mais de 65% do tráfego humano que passa pela Cloudflare já usa cifragem pós-quântica; os padrões oficiais foram publicados pelo NIST em 2024.\n\nO motivo da pressa tem nome: \"guardar agora, decifrar depois\". O que for copiado hoje pode ser aberto quando a máquina chegar.\n\nQue informação sua de hoje você não gostaria que alguém lesse em 2035?\n\n—\nFontes no último slide.\n\n#criptografia #computacaoquantica #seguranca #internet #explica #privacidade #tecnologia"
 }

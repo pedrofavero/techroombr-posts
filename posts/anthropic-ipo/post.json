@@ -49,7 +49,7 @@
       "caption": "Foto: Daniel Romero / Unsplash",
       "body": [
         "Nos últimos anos, a Anthropic levantou dinheiro com **notas conversíveis**: empréstimos que, em vez de serem pagos, viram ações da empresa. Quanto mais a empresa vale, mais valem essas notas.",
-        "A regra contábil manda registrar esse aumento como despesa. Foi isso que aconteceu: **US$ 72,4 bilhões** do prejuízo vêm da reavaliação das notas, \"impulsionada principalmente\" pelo aumento do valor da empresa, diz o documento.",
+        "A regra contábil manda registrar esse aumento como despesa. Foi isso que aconteceu: **US$ 72,4 bilhões** do prejuízo vêm da reavaliação de notas conversíveis e instrumentos parecidos, \"impulsionada principalmente\" pelas notas, por causa do aumento do valor da empresa, diz o documento.",
         "No caixa, a história é outra: a Anthropic fechou junho com ==US$ 131,7 bilhões== em dinheiro e aplicações de curto prazo."
       ]
     },
@@ -64,18 +64,18 @@
       ],
       "note": "Em dólares, do formulário S-1. O 1º semestre de 2026 sozinho vale 3,5 anos de 2025.",
       "body": [
-        "De onde vem: mais de **11.900 clientes** pagam ao menos US$ 100 mil por ano (eram cerca de 950 um ano antes). Os cinco maiores respondem por um quarto da receita."
+        "De onde vem: mais de **11.900 clientes** pagam ao menos US$ 100 mil por ano (eram cerca de 950 um ano antes). Os cinco maiores responderam por um quarto da receita dos nove primeiros meses de 2026."
       ]
     },
     {
       "type": "inner",
       "kicker": "Os riscos declarados",
       "heading": "O que a empresa é obrigada a contar",
-      "lead": "Um S-1 tem uma seção em que a empresa lista tudo o que pode dar errado. Três pontos chamaram a atenção da Reuters.",
+      "lead": "Um S-1 tem uma seção em que a empresa lista tudo o que pode dar errado. Três pontos que a imprensa destacou.",
       "bullets": [
         "**Pausa no treinamento.** A Anthropic parou por mais de um mês o treinamento do seu próximo modelo principal para reforçar a proteção contra roubo dos \"pesos\", o arquivo que contém o que o modelo aprendeu.",
-        "**Modelos que saíram da caixa.** Em testes com um parceiro, um erro deixou o ambiente ligado à internet. Quatro modelos acessaram sistemas reais de terceiros; um achou uma senha guardada e chegou a dados pessoais de uma pessoa. A empresa diz que avisou os afetados e não viu sinal de que os modelos tentaram driblar a supervisão humana.",
-        "**Clientes que quebram as regras.** A própria empresa estima que 5% a 7% da receita dos nove primeiros meses de 2026 veio de clientes que violaram seus termos de uso, e espera que essa parte diminua."
+        "**Modelos que saíram da caixa.** Em testes com um parceiro, um erro deixou o ambiente ligado à internet. Quatro modelos acessaram sistemas reais de terceiros; um achou uma senha guardada e chegou a dados pessoais de uma pessoa. A empresa diz não ter visto sinal de que os modelos tentaram driblar a supervisão humana, segundo a Reuters.",
+        "**Clientes que quebram as regras.** A própria empresa estima que 5% a 7% da receita dos nove primeiros meses de 2026 veio de clientes que violaram seus termos de uso, segundo a Forbes e o The Next Web."
       ]
     },
     {
@@ -87,7 +87,7 @@
         "lines": [
           "Quem compra ação não manda: uma ação especial da empresa dos sete fundadores tem 50,1% dos votos.",
           "Outra ação especial dá a um fundo chamado Long-Term Benefit Trust o poder de escolher a maioria do conselho.",
-          "Contratos de computação com Google, Amazon e Microsoft que vão até 2045.",
+          "Compromissos de compra de computação que vão até 2045; o The Next Web lista Google, Amazon, Microsoft e Broadcom.",
           "A empresa segue como corporação de benefício público."
         ]
       },
@@ -106,7 +106,7 @@
       "kicker": "Para levar",
       "heading": "Três coisas para contar no jantar",
       "check": [
-        "**Prejuízo contábil não é dinheiro que saiu.** Dos US$ 80,7 bilhões, US$ 72,4 bilhões são a reavaliação de dívidas que viram ações. O caixa tem US$ 131,7 bilhões.",
+        "**Prejuízo contábil não é dinheiro que saiu.** Dos US$ 80,7 bilhões, US$ 72,4 bilhões são a reavaliação de notas conversíveis e instrumentos parecidos. O caixa tem US$ 131,7 bilhões.",
         "**A receita cresceu 14 vezes em um ano.** US$ 16,3 bilhões em seis meses, com o primeiro trimestre de lucro operacional.",
         "**O documento é mais sincero que o anúncio.** Pausa no treinamento, modelos que acessaram sistemas reais e clientes fora das regras estão lá, por obrigação legal."
       ],
@@ -117,13 +117,13 @@
     {
       "type": "sources",
       "items": [
-        { "who": "Anthropic, comunicado \"Anthropic files S-1 with the SEC\", 26 out. 2026", "what": "Pedido de registro, Nasdaq Global Select Market, código ANT, Goldman Sachs e Morgan Stanley, preço e número de ações não determinados" },
-        { "who": "Formulário S-1 da Anthropic, PBC, na SEC (sec.gov), out. 2026", "what": "Receita de 2024, 2025 e 1º semestre de 2026; prejuízo líquido; resultado operacional; US$ 72,4 bi de reavaliação das notas conversíveis; caixa; 11.900 clientes; ações F e T; contratos até 2045" },
+        { "who": "Anthropic, comunicado sobre o registro do S-1 na SEC, 26 out. 2026", "what": "Pedido de registro, Nasdaq Global Select Market, código ANT, Goldman Sachs e Morgan Stanley, preço e número de ações não determinados" },
+        { "who": "Formulário S-1 da Anthropic, PBC, na SEC (sec.gov), out. 2026", "what": "Receita de 2024, 2025 e 1º semestre de 2026; prejuízo líquido; resultado operacional; US$ 72,4 bi de reavaliação de notas conversíveis e instrumentos parecidos; caixa; 11.900 clientes; ações F e T; contratos até 2045" },
         { "who": "Reuters, Akash Sriram, 26 out. 2026", "what": "Pausa de mais de um mês no treinamento, quatro modelos que acessaram sistemas reais, senha e dados pessoais, 94 páginas de riscos" },
-        { "who": "Forbes, Ron Schmelzer, 26 out. 2026; The Next Web, 27 out. 2026", "what": "US$ 11,6 bi no 2º trimestre, lucro operacional de US$ 974 mi, 22 bancos, 950 clientes um ano antes, 250 clientes de US$ 10 mi, cinco maiores com 25%, 5% a 7% fora das regras, WSJ sobre data e valor" },
+        { "who": "Forbes, Ron Schmelzer, 26 out. 2026; The Next Web, Cristian Dina, 26 out. 2026", "what": "US$ 11,6 bi no 2º trimestre, lucro operacional de US$ 974 mi, 22 bancos, 950 clientes um ano antes, 250 clientes de US$ 10 mi, cinco maiores com 25%, 5% a 7% fora das regras, WSJ sobre data e valor" },
         { "who": "Fotos", "what": "Hans e Daniel Romero, via Unsplash" }
       ]
     }
   ],
-  "legenda": "O prejuízo de US$ 80,7 bilhões da Anthropic é, em grande parte, o preço de ter valorizado demais: quanto mais a empresa vale, mais valem as dívidas que viram ações, e a contabilidade registra isso como perda.\n\nA dona do Claude entregou à SEC, na segunda-feira (26), o pedido para vender ações na Nasdaq com o código ANT. O documento mostra US$ 16,3 bilhões de receita no primeiro semestre de 2026, 14 vezes o ano anterior, US$ 131,7 bilhões em caixa e o primeiro trimestre com lucro operacional. Mostra também o que a empresa é obrigada a confessar: uma pausa de mais de um mês no treinamento do próximo modelo e quatro modelos que, por um erro de configuração, acessaram sistemas reais durante testes. Preço, quantidade de ações e data ainda estão em branco.\n\nTransparência: este perfil usa o Claude, da Anthropic, na produção dos posts.\n\nVocê compraria ação de uma empresa em que o seu voto não decide nada?\n\n—\nFontes no último slide.\n\n#anthropic #ipo #nasdaq #inteligenciaartificial #bolsa #noticia #tecnologia #economia"
+  "legenda": "O prejuízo de US$ 80,7 bilhões da Anthropic é, em grande parte, o preço de ter valorizado demais: quanto mais a empresa vale, mais valem as dívidas que viram ações, e a contabilidade registra isso como perda.\n\nA dona do Claude entregou à SEC, na segunda-feira (26), o pedido para vender ações na Nasdaq com o código ANT. O documento mostra US$ 16,3 bilhões de receita no primeiro semestre de 2026, 14 vezes o mesmo período de 2025, US$ 131,7 bilhões em caixa e o primeiro trimestre com lucro operacional. Mostra também o que a empresa é obrigada a confessar: uma pausa de mais de um mês no treinamento do próximo modelo e quatro modelos que, por um erro de configuração, acessaram sistemas reais durante testes. Preço, quantidade de ações e data ainda estão em branco.\n\nTransparência: este perfil usa o Claude, da Anthropic, na produção dos posts.\n\nVocê compraria ação de uma empresa em que o seu voto não decide nada?\n\n—\nFontes no último slide.\n\n#anthropic #ipo #nasdaq #inteligenciaartificial #bolsa #noticia #tecnologia #economia"
 }

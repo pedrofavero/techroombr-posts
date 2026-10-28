@@ -1,6 +1,6 @@
 O prejuízo de US$ 80,7 bilhões da Anthropic é, em grande parte, o preço de ter valorizado demais: quanto mais a empresa vale, mais valem as dívidas que viram ações, e a contabilidade registra isso como perda.
 
-A dona do Claude entregou à SEC, na segunda-feira (26), o pedido para vender ações na Nasdaq com o código ANT. O documento mostra US$ 16,3 bilhões de receita no primeiro semestre de 2026, 14 vezes o ano anterior, US$ 131,7 bilhões em caixa e o primeiro trimestre com lucro operacional. Mostra também o que a empresa é obrigada a confessar: uma pausa de mais de um mês no treinamento do próximo modelo e quatro modelos que, por um erro de configuração, acessaram sistemas reais durante testes. Preço, quantidade de ações e data ainda estão em branco.
+A dona do Claude entregou à SEC, na segunda-feira (26), o pedido para vender ações na Nasdaq com o código ANT. O documento mostra US$ 16,3 bilhões de receita no primeiro semestre de 2026, 14 vezes o mesmo período de 2025, US$ 131,7 bilhões em caixa e o primeiro trimestre com lucro operacional. Mostra também o que a empresa é obrigada a confessar: uma pausa de mais de um mês no treinamento do próximo modelo e quatro modelos que, por um erro de configuração, acessaram sistemas reais durante testes. Preço, quantidade de ações e data ainda estão em branco.
 
 Transparência: este perfil usa o Claude, da Anthropic, na produção dos posts.
 

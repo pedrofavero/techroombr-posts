@@ -1,6 +1,6 @@
 O cadeado verde do seu navegador está sendo trocado por dentro, e a maioria das pessoas nunca vai notar.
 
-A criptografia que protege sites e mensagens depende de uma conta que computadores comuns não resolvem: desfazer a multiplicação de dois números primos gigantes. Em 1994, Peter Shor mostrou que um computador quântico grande o bastante resolveria. Essa máquina ainda não existe, mas a estimativa do que ela precisa caiu de 20 milhões de qubits, em 2019, para menos de 1 milhão, em 2025. Google e Cloudflare responderam com um prazo: migração completa até 2029. Dois terços do tráfego que passa pela Cloudflare já usam os padrões novos, publicados pelo NIST em 2024.
+A criptografia que protege sites e mensagens depende de uma conta que computadores comuns não resolvem: desfazer a multiplicação de dois números primos gigantes. Em 1994, Peter Shor mostrou que um computador quântico grande o bastante resolveria. Essa máquina ainda não existe, mas a estimativa do que ela precisa caiu de 20 milhões de qubits, em 2019, para menos de 1 milhão, em 2025. Google e Cloudflare responderam com um prazo: 2029. Mais de 65% do tráfego humano que passa pela Cloudflare já usa cifragem pós-quântica; os padrões oficiais foram publicados pelo NIST em 2024.
 
 O motivo da pressa tem nome: "guardar agora, decifrar depois". O que for copiado hoje pode ser aberto quando a máquina chegar.
 
