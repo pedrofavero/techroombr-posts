@@ -1,0 +1,111 @@
+{
+  "slug": "celular-depois-das-22h",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/celular-depois-das-22h-1.jpg",
+      "title": "O celular depois das 22h adia o sono. Medido noite a noite",
+      "dek": "Pesquisadores acompanharam 425 adolescentes americanos por 7.591 noites: o uso do celular registrado por um aplicativo, o sono medido por uma pulseira. Cada minuto a mais no celular depois das 22h se associou a quase um minuto a mais para pegar no sono.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi medido, e em quem",
+      "rows": [
+        { "k": "Publicação", "v": "JAMA Pediatrics, 19 de outubro de 2026. Revisado por pares." },
+        { "k": "Autores", "v": "Yihong Zhao (Universidade Columbia), Lauren Hale (Universidade Stony Brook) e Dimitri Christakis (Seattle Children's Research Institute, também editor da revista)" },
+        { "k": "Participantes", "v": "425 adolescentes dos EUA, idade média de 14,8 anos, 51% meninas. Todos com celular Android." },
+        { "k": "Dados", "v": "7.591 noites, de novembro de 2020 a fevereiro de 2024, dentro do estudo ABCD, um acompanhamento nacional de adolescentes" },
+        { "k": "Medidas", "v": "Uso do celular gravado automaticamente por um aplicativo de pesquisa; sono medido por pulseira Fitbit. Nada de questionário." },
+        { "k": "Desenho", "v": "Observacional. Cada noite foi comparada com a média do próprio adolescente, não com a de outras pessoas." }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O resultado-manchete",
+      "big": "65",
+      "unit": " min",
+      "label": "mais tarde para pegar no sono, nas noites em que o adolescente usou o celular depois das 22h acima da própria média",
+      "body": [
+        "Nessas mesmas noites, o sono total foi em média **20 minutos mais curto**. Os números exatos são 64,73 e 20,05 minutos.",
+        "A variação entre noites é grande: o desvio-padrão, a medida dessa variação, ficou perto de 50 minutos nos dois casos. É uma média descritiva, não o efeito ajustado. Esse vem na próxima página."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "O efeito ajustado",
+      "heading": "Por minuto a mais de celular depois das 22h",
+      "bars": [
+        { "name": "Pegar no sono mais tarde", "value": 87, "label": "0,87" },
+        { "name": "Dormir menos", "value": 43, "label": "0,43" },
+        { "name": "Acordar mais tarde", "value": 37, "label": "0,37" }
+      ],
+      "note": "Cada barra, em minutos, é a mudança associada a 1 minuto de uso acima da média da própria pessoa, já descontados outros fatores. Intervalos de confiança de 95%: 0,84 a 0,90; 0,39 a 0,47; 0,33 a 0,41. Todos com p < 0,001.",
+      "body": [
+        "Fazendo a conta a partir desses coeficientes: ==meia hora a mais== no celular depois das 22h corresponde a cerca de 26 minutos a mais para adormecer e 13 minutos a menos de sono. A noite não estica: o adolescente acorda só um pouco mais tarde e perde o resto."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O horário importa",
+      "heading": "Quanto mais perto da meia-noite, pior",
+      "photo": "fotos/celular-depois-das-22h-2.jpg",
+      "caption": "Foto: Tarikul Raana / Unsplash",
+      "body": [
+        "Os pesquisadores repetiram a conta com cortes de horário de hora em hora, das 20h à meia-noite. A associação cresceu a cada corte: o mesmo minuto de celular pesa mais quanto mais tarde ele acontece.",
+        "Os minutos finais também contaram. Cada minuto de uso nos ==5 minutos antes de pegar no sono== se associou a 0,74 minuto a mais acordado depois de adormecer (intervalo de 0,50 a 0,98), concentrado na primeira meia hora de sono. Olhando os últimos 20 minutos, a associação ficou desprezível."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como mediram",
+      "heading": "Sem perguntar nada ao adolescente",
+      "steps": [
+        { "title": "Aplicativo no celular", "text": "Um aplicativo de pesquisa registrou o uso do aparelho em segundo plano, minuto a minuto. Só celulares Android entraram." },
+        { "title": "Pulseira no pulso", "text": "Uma pulseira Fitbit marcou a hora de pegar no sono, a hora de acordar, o tempo total dormido e os despertares durante a noite." },
+        { "title": "Pelo menos 14 noites por pessoa", "text": "Cada adolescente precisava ter 14 dias ou mais com os dois registros ao mesmo tempo. Deu 7.591 noites no total." },
+        { "title": "Cada um contra si mesmo", "text": "O modelo separou duas coisas: a diferença entre pessoas (quem usa mais o celular em geral) e a diferença entre noites da mesma pessoa. O resultado principal vem da segunda." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Limites",
+      "heading": "O que o estudo não prova",
+      "nocheck": [
+        "**Que o celular causa o atraso.** É um estudo observacional: mostra associação. Quem não consegue dormir também pode pegar o celular, e a relação pode ir nos dois sentidos, como apontou a cobertura do Medical Daily.",
+        "**Que vale para quem tem iPhone.** Só usuários de Android entraram na amostra.",
+        "**O que o adolescente fazia no celular.** O resumo publicado não separa vídeo, mensagem ou dever de casa.",
+        "**Que a pulseira é um exame de sono.** O Fitbit é menos preciso que um exame de laboratório, e parte das noites é dos anos de pandemia, com horários escolares fora do normal."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas que sobrevivem à leitura crítica",
+      "check": [
+        "**A medição foi objetiva.** Aplicativo e pulseira, não a memória de quem responde a um questionário. É raro nesse tema.",
+        "**O horário pesa mais que o total.** O mesmo minuto vale mais depois das 22h, e os 5 minutos finais antes de dormir se associam a mais despertares.",
+        "**É associação, mas a recomendação dos autores é concreta.** Reduzir o uso depois das 22h e logo antes de deitar \"pode melhorar o sono\" dos adolescentes, na conclusão do artigo (tradução livre)."
+      ],
+      "after": [
+        "Para referência, a Academia Americana de Medicina do Sono recomenda de 8 a 10 horas de sono por dia dos 13 aos 18 anos, segundo o Medical Daily."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Zhao, Hale e Christakis — JAMA Pediatrics, 19 out. 2026", "what": "\"Evening Phone Use and Sleep Outcomes Among Youth\" (doi 10.1001/jamapediatrics.2026.4902): desenho, amostra, coeficientes, intervalos de confiança e conclusão" },
+        { "who": "Medical Dialogues, 23 out. 2026", "what": "Cobertura do estudo: aplicativo de registro, Fitbit, método estatístico, período de coleta" },
+        { "who": "Medical Daily, 24 out. 2026", "what": "Cobertura do estudo: limites (causa e efeito, Android, precisão da pulseira, pandemia) e recomendação de sono da AASM" },
+        { "who": "Fotos", "what": "Kajetan Sumila e Tarikul Raana, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A diferença entre uma noite normal e uma noite de celular até tarde, para um adolescente, foi de 65 minutos para pegar no sono e 20 minutos a menos dormidos.\n\nO estudo saiu na JAMA Pediatrics em 19 de outubro e tem o que a maioria das pesquisas sobre tela e sono não tem: medição objetiva. Um aplicativo gravou o uso do celular de 425 adolescentes americanos e uma pulseira Fitbit mediu o sono, por 7.591 noites. Cada minuto a mais depois das 22h se associou a 0,87 minuto a mais para adormecer, e o efeito cresce quanto mais perto da meia-noite. É associação, não prova de causa, e só entraram usuários de Android.\n\nNa sua casa, o celular dorme no quarto ou fora dele?\n\n—\nFontes no último slide.\n\n#sono #adolescentes #celular #estudo #saude #ciencia #tecnologia #tempodetela"
+}

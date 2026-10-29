@@ -1,0 +1,114 @@
+{
+  "slug": "intel-dobrar-nao-10x",
+  "categoria": "CONVERSA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/intel-dobrar-nao-10x-4.jpg",
+      "title": "Querem 10 vezes mais chips. O CTO da Intel diz: dá para dobrar",
+      "dek": "Dwarkesh Patel passou dois dias na fábrica mais avançada da Intel e perguntou se existem máquinas no mundo para multiplicar por 10 a produção de chips de ponta. Pushkar Ranade, diretor de tecnologia da empresa, respondeu que não. O gargalo não é dinheiro: são as máquinas.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A conversa",
+      "heading": "Dois dias dentro de uma fábrica de chips",
+      "body": [
+        "O episódio \"What will computer chips look like in 2045?\" saiu no Dwarkesh Podcast em 22 de outubro de 2026, com transcrição pública. Dwarkesh Patel visitou a fábrica mais avançada da Intel, no Oregon, segundo o The Next Web, e conversou com engenheiros e executivos.",
+        "Os principais: **Pushkar Ranade**, CTO (diretor de tecnologia) da Intel; **Chris Auth**, que lidera o desenvolvimento dos processos de fabricação; **Jack Kavalieros**, do laboratório de pesquisa; e **Tyler Osborn**, diretor da área de empacotamento avançado, a etapa que junta chips diferentes num só pacote.",
+        "O pano de fundo, nas palavras de Dwarkesh: a indústria de inteligência artificial vem ==triplicando== a computação que usa a cada ano há uma década. A pergunta do episódio é se as fábricas conseguem acompanhar."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A frase",
+      "text": "Não 10 vezes, mas provavelmente 2 vezes, sim.",
+      "who": "Pushkar Ranade, CTO da Intel, ao ser perguntado se há ferramentas no mundo para multiplicar por 10 a produção de wafers de ponta (tradução livre)",
+      "body": [
+        "Wafer é o disco de silício em que os chips são gravados antes de serem cortados. \"De ponta\" são os processos mais avançados, usados nos chips de IA e de celulares novos. A resposta de Ranade vale para o estoque de máquinas que existe hoje no mundo, não para o que a Intel pode comprar: \"a menos que todo mundo produza mais, não dá para aumentar a saída\", disse ele ao citar fornecedores e subfornecedores (tradução livre, via The Next Web)."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Por que não dá para apertar um botão",
+      "heading": "A máquina que grava os circuitos é rara e cara",
+      "cells": [
+        { "big": "< 100", "label": "máquinas de litografia EUV por ano saem da ASML, segundo Dwarkesh, sem plano de passar muito disso até o fim da década", "text": "EUV é a litografia por luz ultravioleta extrema, a etapa que desenha os circuitos mais finos. Intel, TSMC e os fabricantes de memória disputam as mesmas máquinas." },
+        { "big": "US$ 400", "unit": " mi", "label": "custa um scanner High-NA EUV com os equipamentos associados, segundo Ranade", "text": "High-NA é a geração mais nova dessas máquinas, que a Intel usa no processo 14A. Ranade diz que o EUV é o maior gargalo, mas não o único: a maioria dos equipamentos está em falta." }
+      ],
+      "body": [
+        "Segundo o The Next Web, ferramentas encomendadas hoje levam cerca de 18 meses para chegar, o que empurra as entregas para 2028."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O tempo da fábrica",
+      "heading": "Um processo novo: três anos e 2.000 passos",
+      "photo": "fotos/intel-dobrar-nao-10x-2.jpg",
+      "caption": "Foto: Laura Ockel / Unsplash",
+      "body": [
+        "Chris Auth diz que o 14A, o próximo processo da Intel, está em desenvolvimento há \"três anos e pouco\" e que há \"cerca de 2.000 passos na fábrica\" para produzir um chip. Ranade estima que o custo de construir uma fábrica ==dobra a cada 4 ou 5 anos== e que só restam três fundições no nível mais avançado.",
+        "A Intel aprendeu isso do jeito difícil: o processo de 10 nanômetros, que tinha alvo em 2016, só entrou em produção em 2018, segundo a narração do episódio. A lição de Auth: limitar a quantidade de inovação por geração para manter o cronograma."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Até 2045",
+      "heading": "Para onde o chip vai, na visão da Intel",
+      "items": [
+        { "when": "15 anos atrás", "what": "Conexões entre chips empilhados a 130 a 150 micrômetros de distância, segundo Tyler Osborn. Um micrômetro é um milésimo de milímetro." },
+        { "when": "Hoje", "what": "25 micrômetros na produção em volume do Foveros, a tecnologia de empilhamento da Intel. No laboratório, abaixo de 10." },
+        { "when": "Em artigo", "what": "Osborn cita um trabalho de conferência com dados de confiabilidade a 0,45 micrômetro." },
+        { "when": "Em pesquisa", "what": "O CFET, que empilha os dois tipos de transistor um sobre o outro. Em princípio, cabe o dobro de transistores na mesma área, na narração de Dwarkesh. Para Jack Kavalieros, é \"o máximo em empilhabilidade\"." },
+        { "when": "2045", "what": "Chris Auth: a Intel tem visibilidade de \"cerca de quatro anos\". Em 10 anos, \"fica difícil dizer\" (tradução livre)." }
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Contraponto",
+      "heading": "O que sustenta a tese, e o que pede cautela",
+      "a": {
+        "title": "A favor",
+        "lines": [
+          "Ranade diz que a falta de memória hoje é maior que a de processadores.",
+          "Elon Musk, em trecho citado no episódio: \"ou construímos a Terafab ou não temos os chips\" (tradução livre). A Intel ajuda a acelerar a obra.",
+          "Ranade: \"se soubéssemos o que sabemos hoje, teríamos investido mais, uns um ano atrás\" (tradução livre)."
+        ]
+      },
+      "b": {
+        "title": "Cautela",
+        "lines": [
+          "Ranade é CTO da Intel, que busca clientes e investimento. Descrever escassez interessa a quem vende capacidade.",
+          "Os números de investimento (TSMC perto de US$ 50 bilhões no ano, Intel perto de US$ 20 bilhões) são estimativas de Dwarkesh, não dados da Intel.",
+          "O próprio Ranade contestou a comparação de densidade de transistores feita pelo entrevistador: \"eu discordaria do seu benchmarking\" (tradução livre)."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para recontar",
+      "check": [
+        "**O limite não é dinheiro, é máquina.** Com o estoque de ferramentas que existe no mundo, a produção de chips de ponta dobra; não multiplica por 10, segundo o CTO da Intel.",
+        "**O relógio da fábrica é lento.** Menos de 100 máquinas EUV por ano, 18 meses de espera por ferramenta, três anos para um processo novo. Nada disso acelera com um anúncio.",
+        "**É uma opinião informada, com interesse.** Vem de quem fabrica e quer vender capacidade. O contraponto está no próprio episódio."
+      ],
+      "after": [
+        "A transcrição completa está em dwarkesh.com. Vale ler inteira: é uma aula sobre como se faz um chip."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Dwarkesh Podcast, 22 out. 2026", "what": "\"What will computer chips look like in 2045?\": transcrição pública da visita à fábrica da Intel e das conversas com Pushkar Ranade, Chris Auth, Jack Kavalieros e Tyler Osborn" },
+        { "who": "The Next Web, 23 out. 2026", "what": "\"Intel CTO tells Dwarkesh Patel the world lacks tools to 10x chip output\": fábrica no Oregon, prazo de 18 meses das ferramentas, citação sobre fornecedores" },
+        { "who": "Fotos", "what": "Laura Ockel, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "Se a demanda por chips de inteligência artificial triplica a cada ano e as fábricas só conseguem dobrar, a conta não fecha. Foi isso que o CTO da Intel disse, com todas as letras, num podcast.\n\nDwarkesh Patel passou dois dias na fábrica mais avançada da Intel, no Oregon, e publicou a conversa com transcrição em 22 de outubro. O gargalo, segundo Pushkar Ranade, está nas máquinas: a ASML entrega menos de 100 equipamentos de litografia EUV por ano, cada scanner High-NA custa cerca de US$ 400 milhões e uma ferramenta encomendada hoje chega em 18 meses. Ranade fala como executivo de uma empresa que quer vender capacidade; o contraponto está no carrossel.\n\nVocê acha que a escassez de chips vai durar, ou é só a fase de corrida?\n\n—\nFontes no último slide.\n\n#chips #semicondutores #intel #inteligenciaartificial #conversa #podcast #tecnologia #industria"
+}
