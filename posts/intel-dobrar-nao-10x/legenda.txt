@@ -1,6 +1,6 @@
-Se a demanda por chips de inteligência artificial triplica a cada ano e as fábricas só conseguem dobrar, a conta não fecha. Foi isso que o CTO da Intel disse, com todas as letras, num podcast.
+A computação usada pela inteligência artificial triplica a cada ano, segundo Dwarkesh Patel. Com as máquinas que existem no mundo, a produção de chips de ponta só dobra, segundo o CTO da Intel. A conta não fecha.
 
-Dwarkesh Patel passou dois dias na fábrica mais avançada da Intel, no Oregon, e publicou a conversa com transcrição em 22 de outubro. O gargalo, segundo Pushkar Ranade, está nas máquinas: a ASML entrega menos de 100 equipamentos de litografia EUV por ano, cada scanner High-NA custa cerca de US$ 400 milhões e uma ferramenta encomendada hoje chega em 18 meses. Ranade fala como executivo de uma empresa que quer vender capacidade; o contraponto está no carrossel.
+Dwarkesh Patel passou dois dias na fábrica mais avançada da Intel, no Oregon, e publicou a conversa com transcrição em 22 de outubro. O gargalo está nas máquinas: a ASML entrega menos de 100 equipamentos de litografia EUV por ano, segundo Dwarkesh; cada scanner High-NA custa cerca de US$ 400 milhões e uma ferramenta encomendada hoje chega em 18 meses, segundo Pushkar Ranade. Ranade fala como executivo de uma empresa que quer vender capacidade; o contraponto está no carrossel.
 
 Você acha que a escassez de chips vai durar, ou é só a fase de corrida?
 

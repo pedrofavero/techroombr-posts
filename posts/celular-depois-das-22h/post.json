@@ -18,11 +18,11 @@
       "kicker": "Ficha do estudo",
       "heading": "O que foi medido, e em quem",
       "rows": [
-        { "k": "Publicação", "v": "JAMA Pediatrics, 19 de outubro de 2026. Revisado por pares." },
+        { "k": "Publicação", "v": "JAMA Pediatrics, 19 de outubro de 2026." },
         { "k": "Autores", "v": "Yihong Zhao (Universidade Columbia), Lauren Hale (Universidade Stony Brook) e Dimitri Christakis (Seattle Children's Research Institute, também editor da revista)" },
         { "k": "Participantes", "v": "425 adolescentes dos EUA, idade média de 14,8 anos, 51% meninas. Todos com celular Android." },
         { "k": "Dados", "v": "7.591 noites, de novembro de 2020 a fevereiro de 2024, dentro do estudo ABCD, um acompanhamento nacional de adolescentes" },
-        { "k": "Medidas", "v": "Uso do celular gravado automaticamente por um aplicativo de pesquisa; sono medido por pulseira Fitbit. Nada de questionário." },
+        { "k": "Medidas", "v": "Uso do celular gravado automaticamente por um aplicativo de pesquisa; sono medido por pulseira Fitbit. Medição passiva, sem autorrelato." },
         { "k": "Desenho", "v": "Observacional. Cada noite foi comparada com a média do próprio adolescente, não com a de outras pessoas." }
       ]
     },
@@ -67,7 +67,7 @@
       "kicker": "Como mediram",
       "heading": "Sem perguntar nada ao adolescente",
       "steps": [
-        { "title": "Aplicativo no celular", "text": "Um aplicativo de pesquisa registrou o uso do aparelho em segundo plano, minuto a minuto. Só celulares Android entraram." },
+        { "title": "Aplicativo no celular", "text": "Um aplicativo de pesquisa registrou o uso do aparelho em segundo plano, automaticamente. Só celulares Android entraram." },
         { "title": "Pulseira no pulso", "text": "Uma pulseira Fitbit marcou a hora de pegar no sono, a hora de acordar, o tempo total dormido e os despertares durante a noite." },
         { "title": "Pelo menos 14 noites por pessoa", "text": "Cada adolescente precisava ter 14 dias ou mais com os dois registros ao mesmo tempo. Deu 7.591 noites no total." },
         { "title": "Cada um contra si mesmo", "text": "O modelo separou duas coisas: a diferença entre pessoas (quem usa mais o celular em geral) e a diferença entre noites da mesma pessoa. O resultado principal vem da segunda." }
@@ -90,8 +90,8 @@
       "heading": "Três coisas que sobrevivem à leitura crítica",
       "check": [
         "**A medição foi objetiva.** Aplicativo e pulseira, não a memória de quem responde a um questionário. É raro nesse tema.",
-        "**O horário pesa mais que o total.** O mesmo minuto vale mais depois das 22h, e os 5 minutos finais antes de dormir se associam a mais despertares.",
-        "**É associação, mas a recomendação dos autores é concreta.** Reduzir o uso depois das 22h e logo antes de deitar \"pode melhorar o sono\" dos adolescentes, na conclusão do artigo (tradução livre)."
+        "**O horário pesa mais que o total.** O mesmo minuto vale mais depois das 22h, e os 5 minutos finais antes de dormir se associam a mais tempo acordado depois de adormecer.",
+        "**É associação, mas a recomendação dos autores é concreta.** Reduzir o uso depois das 22h e logo antes de deitar \"pode ajudar a melhorar a saúde do sono\" dos adolescentes, na conclusão do artigo (tradução livre)."
       ],
       "after": [
         "Para referência, a Academia Americana de Medicina do Sono recomenda de 8 a 10 horas de sono por dia dos 13 aos 18 anos, segundo o Medical Daily."
