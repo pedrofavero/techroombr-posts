@@ -1,0 +1,98 @@
+{
+  "slug": "qr-code-jogo-go",
+  "categoria": "CURIOSIDADE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/qr-code-jogo-go-1.jpg",
+      "title": "O QR code veio de um jogo de tabuleiro na hora do almoço",
+      "dek": "Em 1992, um engenheiro de uma fábrica de autopeças no Japão precisava de um código que guardasse mais que 20 caracteres. A resposta apareceu no tabuleiro de Go. Dois anos depois, a empresa abriu a invenção para o mundo.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Vinte caracteres não bastavam",
+      "photo": "fotos/qr-code-jogo-go-2.jpg",
+      "caption": "Foto: Sou Jest / Unsplash",
+      "body": [
+        "No começo dos anos 1990, a Denso, fornecedora de autopeças do grupo Toyota, em Aichi, no Japão, controlava peças com código de barras. Cada um guardava cerca de **20 caracteres**. Uma peça podia precisar de até dez códigos, e os leitores tinham de passar por todos.",
+        "Em 1992, a equipe do engenheiro **Masahiro Hara** recebeu a tarefa de criar um código com mais capacidade. A ideia do formato veio fora do expediente: \"Eu costumava jogar Go na hora do almoço\", contou Hara (tradução livre).",
+        "No Go, pedras pretas e brancas ficam nos cruzamentos de uma grade de 19 por 19 linhas. Um padrão de quadrados pretos e brancos podia guardar dados nas duas direções, e não só na horizontal, como o código de barras."
+      ]
+    },
+    {
+      "type": "stat",
+      "display": "sans",
+      "kicker": "Capacidade",
+      "big": "7.087",
+      "unit": " dígitos",
+      "label": "cabem num QR code, contra cerca de 20 caracteres num código de barras",
+      "body": [
+        "O nome vem de ==Quick Response==, resposta rápida. Segundo Hara, à revista IEEE Spectrum, o código é lido cerca de cinco vezes mais rápido que um código de barras comum e aceita também letras, símbolos e caracteres japoneses.",
+        "O código ficou pronto em 1994, cerca de 18 meses depois do início do projeto."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Os três quadrados",
+      "heading": "Por que o QR code tem três cantos marcados",
+      "steps": [
+        {"title": "O prédio na janela do trem", "text": "Hara precisava de um sinal para o leitor achar o código em meio a texto e imagens. A ideia veio ao ver, da janela do trem, um prédio alto se destacando da paisagem."},
+        {"title": "A proporção que não aparece em texto", "text": "A equipe analisou materiais impressos, como jornais, atrás de uma sequência de preto e branco que quase nunca aparece em letras ou desenhos: **1:1:3:1:1**. Levou cerca de três meses."},
+        {"title": "Um quadrado em cada canto", "text": "Três cantos ganharam um quadrado com essa proporção. É por isso que o leitor acha o código de qualquer ângulo, mesmo com a câmera torta."}
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "Resistência",
+      "heading": "Rasgou, sujou, borrou: ainda lê",
+      "total": 10,
+      "filled": 7,
+      "on_label": "do código basta para a leitura",
+      "off_label": "pode estar sujo ou danificado",
+      "body": [
+        "Segundo Hara, o QR code continua legível com até **30% da área** suja ou danificada. A inspiração também veio do Go: uma pedra um pouco fora do lugar ainda é reconhecida. No código, a informação é duplicada para compensar as partes perdidas."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Quem fez, quando e a quem pertence",
+      "rows": [
+        {"k": "Inventores", "v": "Masahiro Hara, Motoaki Watabe e Tadao Nojiri (Denso Wave); Takayuki Nagaya e Yuji Uchiyama (Toyota Central R&D Labs)"},
+        {"k": "Empresa", "v": "Denso, fornecedora de autopeças do grupo Toyota, Aichi, Japão"},
+        {"k": "Lançamento", "v": "1994, para rastrear peças na produção de carros"},
+        {"k": "Patentes", "v": "EUA em 1998, Japão em 1999, Europa em 2000. A Denso Wave liberou o uso de graça para qualquer um"},
+        {"k": "Padrão", "v": "Norma internacional ISO aprovada em junho de 2000"},
+        {"k": "Prêmio", "v": "European Inventor Award 2014, prêmio popular por voto do público, em Berlim: primeiros japoneses a vencer"}
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Nasceu numa fábrica de autopeças.** A Denso precisava guardar mais que os 20 caracteres de um código de barras. Masahiro Hara liderou o projeto a partir de 1992; o código saiu em 1994.",
+        "**Tem três cantos marcados por causa de um prédio.** Hara viu um edifício se destacar na paisagem e percebeu que o código precisava de um sinal que o leitor achasse de qualquer ângulo. A proporção 1:1:3:1:1 quase não aparece em texto impresso.",
+        "**É de graça por decisão da empresa.** A Denso Wave registrou as patentes, mas liberou o uso. Hoje o código está em cartões de embarque, pagamentos e cardápios."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "IEEE Spectrum (Joanna Goodrich), \"How a Board Game and Skyscrapers Inspired the Development of the QR Code\", 13 nov. 2020", "what": "Denso em Aichi, 1992, Go e pedras fora do lugar, duplicação de dados, prédio visto do trem, proporção 1:1:3:1:1 e três meses, 7.087 dígitos, 30% de dano, cinco vezes mais rápido, patentes de 1998, 1999 e 2000, usos atuais"},
+        {"who": "ANZ Bluenotes (Luke Deer), \"The history of QR codes\", out. 2021", "what": "Grupo Toyota, 20 caracteres, até dez códigos por peça, tarefa em 1992, citação sobre o Go na hora do almoço, 18 meses, 7.000 caracteres com kanji, leitura de qualquer ângulo, patentes mantidas sem cobrança, ISO em junho de 2000"},
+        {"who": "European Patent Office, finalistas do European Inventor Award 2014; Denso, comunicado de 17 jun. 2014", "what": "Nomes dos cinco inventores, Hara como líder da equipe, cerca de 20 caracteres no código de barras e cerca de 7.000 numerais no QR, prêmio popular, Berlim, primeiros japoneses a vencer"},
+        {"who": "Good Design Award Journal (Japan Institute of Design Promotion), 12 jun. 2025", "what": "Nome Quick Response, patentes liberadas de graça, proporção escolhida por quase não aparecer em impressos"},
+        {"who": "BGR, \"The Idea For QR Codes Came From A Popular Board Game\"", "what": "Tabuleiro de Go com grade de 19 por 19"},
+        {"who": "Fotos", "what": "Albert Hu e Sou Jest, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "O código que você aponta o celular para pagar um café foi desenhado para caixas de peças de carro numa fábrica japonesa, e a empresa decidiu não cobrar por ele.\n\nMasahiro Hara, engenheiro da Denso, recebeu em 1992 a tarefa de substituir códigos de barras que guardavam só 20 caracteres. O desenho veio do Go, jogo que ele jogava na hora do almoço; os três quadrados dos cantos vieram de um prédio visto da janela do trem. O resultado, lançado em 1994, guarda até 7.087 dígitos e segue legível com 30% da área danificada. A Denso Wave registrou as patentes e liberou o uso para qualquer um.\n\nQual foi o último QR code que você escaneou?\n\n—\nFontes no último slide.\n\n#qrcode #curiosidade #historiadatecnologia #japao #pix #tecnologia #design"
+}

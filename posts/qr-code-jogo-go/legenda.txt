@@ -1,0 +1,10 @@
+O código que você aponta o celular para pagar um café foi desenhado para caixas de peças de carro numa fábrica japonesa, e a empresa decidiu não cobrar por ele.
+
+Masahiro Hara, engenheiro da Denso, recebeu em 1992 a tarefa de substituir códigos de barras que guardavam só 20 caracteres. O desenho veio do Go, jogo que ele jogava na hora do almoço; os três quadrados dos cantos vieram de um prédio visto da janela do trem. O resultado, lançado em 1994, guarda até 7.087 dígitos e segue legível com 30% da área danificada. A Denso Wave registrou as patentes e liberou o uso para qualquer um.
+
+Qual foi o último QR code que você escaneou?
+
+—
+Fontes no último slide.
+
+#qrcode #curiosidade #historiadatecnologia #japao #pix #tecnologia #design
