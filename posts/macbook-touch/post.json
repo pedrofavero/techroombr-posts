@@ -20,7 +20,7 @@
       "photo": "fotos/macbook-touch-2.jpg",
       "caption": "Foto: Jakob Owens / Unsplash",
       "body": [
-        "Em **28 de outubro de 2026**, a Apple anunciou um MacBook Pro com tela OLED (tela em que cada ponto emite a própria luz, sem lâmpada por trás) e sensível ao toque. Segundo a empresa e o site MacRumors, é o primeiro Mac com as duas coisas.",
+        "Em **28 de outubro de 2026**, a Apple anunciou um MacBook Pro com tela OLED (tela em que cada ponto emite a própria luz, sem lâmpada por trás) e sensível ao toque. Segundo a Apple, é a primeira vez que o toque chega ao Mac; segundo o site MacRumors, é também o primeiro Mac com tela OLED.",
         "A Apple chama a tela de PROLED XDR: 14 ou 16 polegadas, duas camadas de OLED empilhadas, brilho de até 2.000 nits e atualização de 10 a 120 vezes por segundo. Os chips são o M5 Pro e o M5 Max, com até 128 GB de memória e até 16 TB de armazenamento.",
         "A pré-venda abriu no mesmo dia, inclusive no Brasil. O aparelho chega às lojas em ==6 de novembro==."
       ]
@@ -31,7 +31,7 @@
       "text": "Depois de um tempo, parece que o braço vai cair. Superfícies de toque querem ser horizontais.",
       "who": "Steve Jobs, 20 de outubro de 2010, em evento da Apple (transcrição ao vivo do Engadget; tradução livre)",
       "body": [
-        "Jobs explicava por que a Apple colocava o toque no trackpad, e não na tela do Mac. Dez meses antes ele tinha lançado o iPad, e cerca de dois anos depois a Microsoft lançaria o Surface, um tablet com teclado, segundo o TechRadar. O argumento era de ergonomia, não de tecnologia."
+        "Jobs explicava por que a Apple colocava o toque no trackpad, e não na tela do Mac. Dez meses antes ele tinha lançado o iPad, e cerca de dois anos depois a Microsoft lançaria o Surface Pro, um tablet com teclado destacável, segundo o TechRadar. O argumento era de ergonomia, não de tecnologia."
       ]
     },
     {
@@ -40,8 +40,8 @@
       "heading": "Do \"não\" de Jobs à tela de toque",
       "items": [
         {"when": "20 out. 2010", "what": "Steve Jobs diz que superfícies de toque \"querem ser horizontais\" e que o braço cansa numa tela vertical."},
-        {"when": "2016", "what": "A Apple lança a **Touch Bar**, uma faixa de toque no MacBook Pro. Segundo o TechCrunch, foi o primeiro teste da empresa com toque num Mac."},
-        {"when": "2023", "what": "A Touch Bar é descontinuada, segundo o TechCrunch, citando o MacRumors."},
+        {"when": "out. 2016", "what": "A Apple lança a **Touch Bar**, uma faixa de toque no lugar das teclas de função do MacBook Pro. O TechRadar chama de meio-termo."},
+        {"when": "31 out. 2023", "what": "A Touch Bar sai de todos os MacBooks novos, pouco mais de sete anos depois de estrear, segundo o MacRumors."},
         {"when": "28 out. 2026", "what": "A Apple anuncia o MacBook Pro com tela PROLED XDR e toque. O sensor fica dentro do painel, não numa camada por cima; a dobradiça foi redesenhada para aguentar o dedo na tela."},
         {"when": "6 nov. 2026", "what": "O aparelho chega às lojas e aos compradores, nos EUA e no Brasil."}
       ]
@@ -68,13 +68,13 @@
           "Primeiro Mac com tela OLED e com toque, anunciado em 28 de outubro.",
           "Pré-venda aberta; entregas a partir de 6 de novembro, inclusive no Brasil.",
           "Toque embutido no painel. Apps antigos funcionam porque o macOS traduz o toque em clique.",
-          "Bateria de até 24 horas, segundo teste da própria Apple. Modelos mini-LED, sem toque, continuam à venda."
+          "Por que agora, segundo a Apple à revista Wired: o toque não deixou o aparelho mais pesado nem mais grosso (John Ternus, CEO), e jovens criadores esperam toque (Greg Joswiak, marketing)."
         ]
       },
       "b": {
         "title": "O que ainda não se sabe",
         "lines": [
-          "Por que a Apple mudou de ideia. O comunicado não explica.",
+          "Se o argumento de 2010 foi abandonado ou só adiado. Ternus ainda chama o Mac de aparelho de \"entrada indireta\", feito em torno do trackpad e do teclado.",
           "Quem fabrica o painel. A Apple não informa; uma reportagem do The Elec aponta a Samsung Display, sem confirmação.",
           "Se o braço cansa mesmo, como dizia Jobs. O aparelho só chega às mãos dos compradores em 6 de novembro.",
           "\"A melhor tela de notebook do mundo\", nas palavras de Johny Srouji, chefe de hardware da Apple, é alegação da empresa."
@@ -88,20 +88,20 @@
       "check": [
         "**O primeiro Mac com toque chega em 6 de novembro.** Tela OLED de 14 ou 16 polegadas, a partir de US$ 2.899 nos EUA e R$ 34.999 no Brasil. Os modelos sem toque continuam à venda.",
         "**A Apple disse não por 16 anos.** Em 2010, Jobs disse que superfícies de toque querem ser horizontais. A Touch Bar de 2016 foi o meio-termo, abandonado em 2023.",
-        "**O que falta saber:** por que a empresa mudou de ideia, quem fabrica o painel e se o toque numa tela vertical funciona no dia a dia."
+        "**O porquê, segundo a Apple:** o toque só entrou quando não deixou o Mac mais pesado nem mais grosso, disse o CEO John Ternus à Wired. Falta saber quem fabrica o painel e se o toque numa tela vertical funciona no dia a dia."
       ]
     },
     {
       "type": "sources",
       "items": [
-        {"who": "Apple Newsroom, \"Apple unveils groundbreaking MacBook Pro with PROLED XDR Display\", 28 out. 2026", "what": "Especificações da tela, chips, memória, armazenamento, sensor no painel, dobradiça, toque traduzido em clique, bateria de 24 h, preços nos EUA, pré-venda em 28 out. e lojas em 6 nov., citação de Johny Srouji"},
-        {"who": "TechCrunch (28 out. 2026), \"Apple's touchscreen MacBook Pro pushes laptop pricing to a new extreme\"", "what": "US$ 14.549 no máximo, US$ 4.400 acima do teto anterior, escassez de memória, Touch Bar em 2016 e descontinuada em 2023"},
-        {"who": "MacRumors, \"Here's Everything Apple Announced This Week\" e \"Apple Announces OLED MacBook Pro With Touch Display\", 28 out. 2026", "what": "Primeiro Mac com OLED e toque, US$ 400 a mais que o mini-LED, modelos mini-LED continuam à venda"},
-        {"who": "Engadget, transcrição ao vivo do evento da Apple, 20 out. 2010; 512 Pixels, 21 out. 2010; TechRadar, 22 out. 2026", "what": "Citação de Steve Jobs sobre superfícies de toque, atribuição e data; iPad dez meses antes e Surface dois anos depois"},
-        {"who": "Mundo Conectado e Antihype, 28 out. 2026", "what": "Preços no Brasil (R$ 34.999 a R$ 57.999), R$ 4.000 a mais que o mini-LED (R$ 30.999), pré-venda no Brasil, The Elec e Samsung Display"},
+        {"who": "Apple Newsroom, \"Apple unveils groundbreaking MacBook Pro with PROLED XDR Display\", 28 out. 2026", "what": "Especificações, sensor no painel, dobradiça, toque traduzido em clique, bateria de 24 h, preços nos EUA, pré-venda em 28 out. e lojas em 6 nov., citação de Johny Srouji"},
+        {"who": "TechCrunch, \"Apple's touchscreen MacBook Pro pushes laptop pricing to a new extreme\", 28 out. 2026", "what": "US$ 14.549 no máximo, US$ 4.400 acima do teto anterior, escassez de memória"},
+        {"who": "MacRumors: \"Here's Everything Apple Announced This Week\" e \"Apple Executives Explain Why the MacBook Pro Finally Has a Touch Screen\", 28 out. 2026; \"Touch Bar Fully Discontinued on New MacBooks After Seven Years\", 31 out. 2023", "what": "Primeiro Mac com OLED e toque, US$ 400 a mais que o mini-LED, mini-LED continua à venda, falas de Ternus e Joswiak à Wired, Touch Bar de out. 2016 a out. 2023"},
+        {"who": "Engadget, transcrição ao vivo, 20 out. 2010; 512 Pixels, 21 out. 2010; TechRadar, 22 out. 2026", "what": "Citação de Steve Jobs e atribuição; iPad dez meses antes, Surface Pro dois anos depois, Touch Bar como meio-termo"},
+        {"who": "Mundo Conectado e Antihype, 28 out. 2026", "what": "Preços de entrada por modelo no Brasil (de R$ 34.999 a R$ 57.999), R$ 4.000 a mais que o mini-LED (R$ 30.999), pré-venda no Brasil, The Elec e Samsung Display"},
         {"who": "Fotos", "what": "Joachim Pressl e Jakob Owens, via Unsplash"}
       ]
     }
   ],
-  "legenda": "O argumento que a Apple usou por 16 anos contra a tela de toque no Mac era de ergonomia, não de tecnologia. O comunicado de 28 de outubro não diz o que mudou.\n\nO novo MacBook Pro tem tela OLED de duas camadas, batizada pela Apple de PROLED XDR, com até 2.000 nits e 120 Hz, e o sensor de toque embutido no próprio painel. Nos EUA custa a partir de US$ 2.899; no Brasil, R$ 34.999, R$ 4.000 acima do modelo mini-LED equivalente, que continua à venda. A versão de 16 polegadas com tudo no máximo chega a US$ 14.549. Pré-venda aberta; entregas em 6 de novembro.\n\nVocê tocaria na tela de um notebook ou prefere o trackpad?\n\n—\nFontes no último slide.\n\n#apple #macbook #oled #telatouch #noticia #tecnologia #notebook"
+  "legenda": "O argumento que a Apple usou por 16 anos contra a tela de toque no Mac era de ergonomia, não de tecnologia. O que mudou, segundo o CEO John Ternus à revista Wired: a empresa chegou a um ponto em que o toque não deixa o aparelho mais pesado nem mais grosso.\n\nO novo MacBook Pro tem tela OLED de duas camadas, batizada pela Apple de PROLED XDR, com até 2.000 nits e 120 Hz, e o sensor de toque embutido no próprio painel. Nos EUA custa a partir de US$ 2.899; no Brasil, R$ 34.999, R$ 4.000 acima do modelo mini-LED equivalente, que continua à venda. A versão de 16 polegadas com tudo no máximo chega a US$ 14.549. Pré-venda aberta; entregas em 6 de novembro.\n\nVocê tocaria na tela de um notebook ou prefere o trackpad?\n\n—\nFontes no último slide.\n\n#apple #macbook #oled #telatouch #noticia #tecnologia #notebook"
 }

@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/qr-code-jogo-go-1.jpg",
       "title": "O QR code veio de um jogo de tabuleiro na hora do almoço",
-      "dek": "Em 1992, um engenheiro de uma fábrica de autopeças no Japão precisava de um código que guardasse mais que 20 caracteres. A resposta apareceu no tabuleiro de Go. Dois anos depois, a empresa abriu a invenção para o mundo.",
+      "dek": "Em 1992, um engenheiro de uma fábrica de autopeças no Japão precisava de um código que guardasse mais que 20 caracteres. A resposta apareceu no tabuleiro de Go. Dois anos depois o código estava pronto, e a empresa não cobrou por ele.",
       "swipe": "arraste →"
     },
     {
@@ -33,7 +33,7 @@
       "unit": " dígitos",
       "label": "cabem num QR code, contra cerca de 20 caracteres num código de barras",
       "body": [
-        "O nome vem de ==Quick Response==, resposta rápida. Segundo Hara, à revista IEEE Spectrum, o código é lido cerca de cinco vezes mais rápido que um código de barras comum e aceita também letras, símbolos e caracteres japoneses.",
+        "O nome vem de ==Quick Response==, resposta rápida. Segundo Hara, à revista IEEE Spectrum, o código é lido cerca de cinco vezes mais rápido que um código de barras comum. Ele aceita também letras, símbolos e caracteres japoneses, segundo o Escritório Europeu de Patentes.",
         "O código ficou pronto em 1994, cerca de 18 meses depois do início do projeto."
       ]
     },
