@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/rede-eletrica-calor-1.jpg",
       "title": "No calor, cabos de alta tensão perdem até metade da força",
-      "dek": "Pesquisadores de Cambridge e Hong Kong simularam centenas de ondas de calor sobre as redes elétricas de oito países da Europa. Em três deles, faltou luz. E as baterias quase não ajudaram.",
+      "dek": "Pesquisadores de Hong Kong e Cambridge simularam centenas de ondas de calor sobre as redes elétricas de oito países da Europa. Em três deles, faltou luz. E encher o armazenamento de energia quase não ajudou.",
       "swipe": "arraste →"
     },
     {
@@ -18,12 +18,30 @@
       "kicker": "Ficha do estudo",
       "heading": "O que foi testado, e como",
       "rows": [
-        {"k": "Publicação", "v": "Nature Energy, 22 de outubro de 2026, acesso aberto."},
-        {"k": "Autores", "v": "Enming Liang (City University of Hong Kong), Minghua Chen e Srinivasan Keshav (Universidade de Cambridge, Reino Unido)."},
-        {"k": "Método", "v": "Simulação em computador, não medição em campo. Modelo aberto da rede europeia (PyPSA-Eur), dados de clima do ERA5 e de consumo."},
-        {"k": "Cenários", "v": "Centenas de ondas de calor projetadas para 2026 a 2030, com o padrão das ondas reais de 2019, 2022 e 2024."},
-        {"k": "Países", "v": "Espanha, Portugal, França, Itália, Alemanha, Bélgica, Holanda e Reino Unido."},
-        {"k": "Novidade", "v": "Cada cabo é calculado trecho a trecho, com a temperatura local. Os métodos usuais tratam o cabo como se tivesse um limite fixo."}
+        {
+          "k": "Publicação",
+          "v": "Nature Energy, 22 de outubro de 2026, acesso aberto."
+        },
+        {
+          "k": "Autores",
+          "v": "Enming Liang e Minghua Chen (City University of Hong Kong) e Srinivasan Keshav (Universidade de Cambridge, Reino Unido)."
+        },
+        {
+          "k": "Método",
+          "v": "Simulação em computador, não medição em campo. Modelo aberto da rede europeia (PyPSA-Eur), dados de clima do ERA5 e de consumo."
+        },
+        {
+          "k": "Cenários",
+          "v": "Centenas de ondas de calor projetadas para 2026 a 2030, com o padrão das ondas reais de 2019, 2022 e 2024."
+        },
+        {
+          "k": "Países",
+          "v": "Espanha, Portugal, França, Itália, Alemanha, Bélgica, Holanda e Reino Unido."
+        },
+        {
+          "k": "Novidade",
+          "v": "Cada cabo é calculado trecho a trecho, com a temperatura local. Os métodos usuais tratam o cabo como se tivesse um limite fixo."
+        }
       ]
     },
     {
@@ -31,37 +49,78 @@
       "kicker": "O mecanismo",
       "heading": "Uma onda de calor dá três golpes ao mesmo tempo",
       "steps": [
-        {"title": "A demanda sobe", "text": "Todo mundo liga o ar-condicionado na mesma hora."},
-        {"title": "A geração cai", "text": "Usinas térmicas têm dificuldade para dissipar calor, painéis solares perdem eficiência e o vento costuma enfraquecer."},
-        {"title": "Os cabos carregam menos", "text": "Um cabo de alta tensão esquenta com a corrente e precisa do ar para esfriar. Em ar quente e parado, ele não consegue, e a capacidade tem de ser reduzida."}
+        {
+          "title": "A demanda sobe",
+          "text": "Todo mundo liga o ar-condicionado na mesma hora."
+        },
+        {
+          "title": "A geração cai",
+          "text": "Usinas térmicas têm dificuldade para dissipar calor, painéis solares perdem eficiência e o vento costuma enfraquecer."
+        },
+        {
+          "title": "Os cabos carregam menos",
+          "text": "Um cabo de alta tensão esquenta com a corrente e precisa do ar para esfriar. Em ar quente e parado, ele não consegue, e a capacidade tem de ser reduzida."
+        }
       ],
-      "body": ["Os autores dizem que pesquisas anteriores olhavam para esses efeitos separados. Poucos modelos os juntavam. ==O problema aparece quando os três acontecem juntos.=="]
+      "body": [
+        "Os autores dizem que pesquisas anteriores olhavam para esses efeitos separados. Poucos modelos os juntavam. ==O problema aparece quando os três acontecem juntos.=="
+      ]
     },
     {
       "type": "stat",
       "kicker": "O limite físico",
       "big": "90",
       "unit": " °C",
-      "label": "é a temperatura máxima típica de um cabo de alta tensão. Acima disso, ele dilata e pode ceder em direção a árvores e ao chão.",
-      "body": ["Para não passar do limite, o operador corta a corrente que passa pelo cabo. Em dias quentes, o corte pode chegar a **metade da capacidade nominal** da linha, segundo o estudo.", "No modelo simplificado dos autores, um cabo comum de alumínio com alma de aço chega aos 90 °C com o ar a cerca de 25 °C, em condições de vento fraco (0,6 m/s) e sol forte (900 W/m²)."]
+      "label": "é a temperatura máxima típica de um cabo de alta tensão. Acima disso, ele pode ceder em direção a árvores e ao chão.",
+      "body": [
+        "Para não passar do limite, o operador corta a corrente que passa pelo cabo. Em dias quentes e sem vento, o corte pode chegar a **metade da capacidade nominal** da linha, segundo o estudo.",
+        "Nos cálculos dos autores, um cabo de alumínio com alma de aço, em feixe de quatro condutores, chega aos 90 °C com o ar a cerca de 25 °C, em condições de vento fraco (0,6 m/s) e sol forte (900 W/m²)."
+      ]
     },
     {
       "type": "split",
       "kicker": "Por que trecho a trecho",
       "heading": "Uma linha, oito climas diferentes",
       "cells": [
-        {"big": "130", "unit": " km", "label": "de extensão de uma linha no noroeste da Espanha, usada como exemplo pelos autores", "text": "O calor, o vento e o sol variam ao longo do caminho."},
-        {"big": "8", "unit": " regiões", "label": "do tempo cruzadas por essa mesma linha", "text": "Basta um trecho quente para limitar a linha inteira."}
+        {
+          "big": "130",
+          "unit": " km",
+          "label": "de extensão de uma linha no noroeste da Espanha, usada como exemplo pelos autores",
+          "text": "O calor, o vento e o sol variam ao longo do caminho."
+        },
+        {
+          "big": "8",
+          "unit": " regiões",
+          "label": "do tempo cruzadas por essa mesma linha",
+          "text": "Basta um trecho quente para limitar a linha inteira."
+        }
       ],
-      "body": ["Calcular isso para toda a Europa era pesado demais. Os autores dividiram o problema em dois passos mais simples, repetidos em alternância: primeiro o fluxo de energia com temperaturas fixas, depois a atualização das temperaturas. O resultado ficou próximo do cálculo completo com **cerca de metade do custo computacional**."]
+      "body": [
+        "Calcular isso para toda a Europa era pesado demais. Os autores dividiram o problema em dois passos mais simples, repetidos em alternância: primeiro o fluxo de energia com temperaturas fixas, depois a atualização das temperaturas. O resultado ficou próximo do cálculo completo com **cerca de metade do custo computacional**."
+      ]
     },
     {
       "type": "compare",
       "kicker": "O resultado",
       "heading": "Onde faltou luz nas simulações",
-      "a": {"title": "✕ Cortes prováveis", "lines": ["**França**, **Espanha** e **Itália** tiveram corte de carga, o desligamento controlado que o operador usa para proteger o resto da rede.", "A Espanha concentrou os gargalos: em ondas de calor que cobrem regiões inteiras, os vizinhos também ficam sem folga para ajudar."]},
-      "b": {"title": "✓ Mantiveram o abastecimento", "lines": ["**Alemanha**, **Reino Unido**, **Holanda**, **Bélgica** e **Portugal**, nos mesmos cenários.", "A França, ao contrário da Espanha, teve alívio grande quando ligada a vizinhos menos pressionados."]},
-      "body": ["Com crescimento de demanda de **1% a 3% ao ano**, esperado de carros elétricos, aquecimento e refrigeração elétricos e data centers, os cortes subiram na mesma proporção.", "E as baterias? Mesmo com **todos os reservatórios de energia cheios** no início da onda de calor, o corte de carga caiu só um pouco. \"Energia extra não compensa demanda maior e geração perdida se as linhas não conseguem entregá-la\", escreve Liang (tradução livre)."]
+      "a": {
+        "title": "✕ Cortes prováveis",
+        "lines": [
+          "**França**, **Espanha** e **Itália** tiveram corte de carga, o desligamento controlado que o operador usa para proteger o resto da rede.",
+          "A Espanha concentrou os gargalos: em ondas de calor que cobrem regiões inteiras, os vizinhos também ficam sem folga para ajudar."
+        ]
+      },
+      "b": {
+        "title": "✓ Mantiveram o abastecimento",
+        "lines": [
+          "**Alemanha**, **Reino Unido**, **Holanda**, **Bélgica** e **Portugal**, nos mesmos cenários.",
+          "A França, ao contrário da Espanha, teve alívio grande quando ligada a vizinhos menos pressionados."
+        ]
+      },
+      "body": [
+        "Com crescimento de demanda de **1% a 3% ao ano**, esperado de carros elétricos, aquecimento e refrigeração elétricos e data centers, os cortes subiram junto.",
+        "E o armazenamento? Mesmo com **todos os sistemas de armazenamento de energia cheios** no início da onda de calor, o corte de carga caiu só um pouco. \"Energia extra não compensa demanda maior e geração perdida se as linhas não conseguem entregá-la\", escreve Liang (tradução livre)."
+      ]
     },
     {
       "type": "inner",
@@ -72,7 +131,7 @@
       "nocheck": [
         "**Que vai faltar luz na Espanha.** Os cenários são testes de estresse, não previsões. Eles mostram onde a rede é fraca, não quando ou se um apagão vai acontecer.",
         "**Que o modelo é a rede real.** O PyPSA-Eur é um modelo público, deixa de fora alguns componentes e pode exagerar gargalos ou deixar outros passar, segundo os próprios autores.",
-        "**Que nada vai mudar até 2030.** O estudo não inclui novos investimentos em geração, baterias ou linhas. É uma linha de base, não o sistema do futuro.",
+        "**Que nada vai mudar até 2030.** O estudo não inclui expansão da rede nem novos investimentos em geração. É uma linha de base, não o sistema do futuro.",
         "**Que vale para o Brasil.** Só a Europa Ocidental foi simulada. Os autores dizem que o método pode ser aplicado a outros lugares, mas isso ainda não foi feito."
       ]
     },
@@ -82,20 +141,35 @@
       "heading": "Três ideias que sobrevivem à leitura crítica",
       "check": [
         "**Calor extremo ataca a rede por três lados.** Mais consumo, menos geração e cabos que carregam menos, tudo ao mesmo tempo.",
-        "**Bateria sem fio não resolve.** Nos cenários testados, encher todos os reservatórios de energia quase não reduziu os cortes, porque o gargalo era a transmissão.",
-        "**Tem saída, e ela é conhecida.** Os autores citam trocar os cabos de linhas vulneráveis por modelos que suportam mais calor e colocar baterias perto dos gargalos. O código do estudo é aberto para operadores testarem a própria rede."
+        "**Armazenar energia sem fio não resolve.** Nos cenários testados, encher todos os sistemas de armazenamento quase não reduziu os cortes, porque o gargalo era a transmissão.",
+        "**Tem saída, e ela é conhecida.** Os autores citam trocar os cabos de linhas vulneráveis por modelos que suportam mais calor e colocar armazenamento perto dos gargalos. O código do estudo é aberto para operadores testarem a própria rede."
       ]
     },
     {
       "type": "sources",
       "items": [
-        {"who": "Liang, Chen e Keshav — Nature Energy, 22 out. 2026", "what": "\"Heatwave-induced capacity bottlenecks in European electricity grids\" (doi 10.1038/s41560-026-02151-1), acesso aberto"},
-        {"who": "Enming Liang — Springer Nature Research Communities, 27 out. 2026", "what": "\"What happens to the power grid in a heatwave?\": relato do autor sobre método, 90 °C, metade da capacidade, 130 km e 8 regiões, países com e sem corte, baterias e vizinhos"},
-        {"who": "Scienmag / Bioengineer.org, 28 out. 2026", "what": "Cobertura com detalhes do método: PyPSA-Eur, ERA5, cenários 2026–2030 a partir das ondas de 2019, 2022 e 2024, limite de 90 °C a 25 °C ambiente"},
-        {"who": "Universidade de Cambridge e City University of Hong Kong", "what": "Páginas institucionais: afiliações de Srinivasan Keshav (Dept. de Ciência da Computação e Tecnologia) e Enming Liang"},
-        {"who": "Fotos", "what": "kiwi thompson e Filipe Paulo, via Unsplash"}
+        {
+          "who": "Liang, Chen e Keshav — Nature Energy, 22 out. 2026",
+          "what": "\"Heatwave-induced capacity bottlenecks in European electricity grids\" (doi 10.1038/s41560-026-02151-1), acesso aberto"
+        },
+        {
+          "who": "Enming Liang — Springer Nature Research Communities, 27 out. 2026",
+          "what": "\"What happens to the power grid in a heatwave?\": relato do autor sobre método, 90 °C, metade da capacidade, 130 km e 8 regiões, países com e sem corte, baterias e vizinhos"
+        },
+        {
+          "who": "Scienmag / Bioengineer.org, 28 out. 2026",
+          "what": "Cobertura com detalhes do método: PyPSA-Eur, ERA5, cenários 2026–2030 a partir das ondas de 2019, 2022 e 2024, limite de 90 °C a 25 °C ambiente"
+        },
+        {
+          "who": "Cambridge, CityU e Research Communities",
+          "what": "Afiliações: Keshav (Dept. de Ciência da Computação e Tecnologia, Cambridge), Chen (perfil oficial na CityU) e Liang (perfil no Springer Nature Research Communities)"
+        },
+        {
+          "who": "Fotos",
+          "what": "kiwi thompson e Filipe Paulo, via Unsplash"
+        }
       ]
     }
   ],
-  "legenda": "A pergunta não é só se vai ter energia para o ar-condicionado. É se o fio consegue levá-la até você quando faz 40 graus lá fora.\n\nUm estudo publicado na Nature Energy em 22 de outubro simulou centenas de ondas de calor sobre as redes elétricas de oito países da Europa Ocidental, entre 2026 e 2030. Um cabo de alta tensão precisa ficar abaixo de cerca de 90 °C; em ar quente e parado, a capacidade pode cair pela metade. Nas simulações, França, Espanha e Itália tiveram cortes de carga. Alemanha, Reino Unido, Holanda, Bélgica e Portugal, não. Mesmo com todas as baterias cheias, os cortes quase não diminuíram: o gargalo era a transmissão.\n\nOs autores insistem que são testes de estresse, não previsões, e o Brasil não foi simulado.\n\nNa última onda de calor da sua cidade, faltou luz ou faltou só paciência?\n\n—\nFontes no último slide.\n\n#energia #ondadecalor #redeeletrica #apagao #estudo #clima #ciencia #tecnologia"
+  "legenda": "A pergunta não é só se vai ter energia para o ar-condicionado. É se o fio consegue levá-la até você quando o calor aperta lá fora.\n\nUm estudo publicado na Nature Energy em 22 de outubro simulou centenas de ondas de calor sobre as redes elétricas de oito países da Europa Ocidental, entre 2026 e 2030. Um cabo de alta tensão precisa ficar abaixo de cerca de 90 °C; em ar quente e parado, a capacidade pode cair pela metade. Nas simulações, França, Espanha e Itália tiveram cortes de carga. Alemanha, Reino Unido, Holanda, Bélgica e Portugal, não. Mesmo com todo o armazenamento de energia cheio, os cortes quase não diminuíram: o gargalo era a transmissão.\n\nOs autores insistem que são testes de estresse, não previsões, e o Brasil não foi simulado.\n\nNa última onda de calor da sua cidade, faltou luz ou faltou só paciência?\n\n—\nFontes no último slide.\n\n#energia #ondadecalor #redeeletrica #apagao #estudo #clima #ciencia #tecnologia"
 }
