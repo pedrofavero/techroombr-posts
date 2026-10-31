@@ -1,0 +1,99 @@
+{
+  "slug": "a-informacao-gleick",
+  "categoria": "ESTANTE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/a-informacao-gleick-1.jpg",
+      "title": "O livro que vai dos tambores africanos ao bit",
+      "dek": "A Informação, de James Gleick: como uma ideia abstrata virou a unidade de medida de telégrafos, computadores e genes.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Uma história, uma teoria, uma enxurrada",
+      "rows": [
+        {"k": "Título", "v": "A Informação: uma história, uma teoria, uma enxurrada"},
+        {"k": "Autor", "v": "James Gleick, jornalista e escritor de ciência americano"},
+        {"k": "Original", "v": "The Information: A History, a Theory, a Flood. Pantheon (EUA), março de 2011, 544 páginas"},
+        {"k": "No Brasil", "v": "Companhia das Letras, 2013, 521 páginas, tradução de Augusto Calil"},
+        {"k": "Prêmio", "v": "Royal Society Winton Prize for Science Books, 2012 (10 mil libras)"},
+        {"k": "Em uma frase", "v": "Informação é uma coisa que se mede, e descobrir isso mudou a ciência, a técnica e a vida de todo mundo."}
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O júri do prêmio",
+      "text": "Um livro ambicioso e perspicaz que nos leva, com verve e brilho, dos tambores africanos aos computadores.",
+      "who": "Jocelyn Bell Burnell, astrofísica, presidente do júri da Royal Society, 2012 (tradução livre)",
+      "body": ["Na mesma final estavam, entre outros, **Os Anjos Bons da Nossa Natureza**, de Steven Pinker, e **A Realidade Oculta**, de Brian Greene. O júri chamou o livro de Gleick de \"um daqueles livros muito raros que oferecem uma estrutura completamente nova para entender o mundo ao nosso redor\" (tradução livre)."]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O percurso do livro",
+      "heading": "Dois séculos em zigue-zague",
+      "items": [
+        {"when": "Anos 1830", "what": "Viajantes europeus encontram na África tambores que imitam os tons da fala. Mensagens viajam cerca de 160 km em uma hora."},
+        {"when": "1848", "what": "O telégrafo elétrico substitui as torres de semáforo. No código Morse, as letras mais comuns ganham sinais mais curtos."},
+        {"when": "Século 19", "what": "Charles Babbage projeta a Máquina Analítica e Ada Lovelace escreve programas para ela. A máquina nunca é construída."},
+        {"when": "1871", "what": "Ludwig Boltzmann chega, na física do calor, à fórmula que Shannon reencontraria para a informação."},
+        {"when": "1948", "what": "Claude Shannon publica, nos Laboratórios Bell, \"Uma Teoria Matemática da Comunicação\". Nasce o bit."},
+        {"when": "Hoje", "what": "A \"enxurrada\": excesso de informação, filtros e a Wikipédia."}
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia central",
+      "heading": "Informação não é a mesma coisa que significado",
+      "photo": "fotos/a-informacao-gleick-2.jpg",
+      "caption": "Foto: Sandra Tan / Unsplash",
+      "body": ["Shannon fez uma escolha que incomoda à primeira vista: para o problema de engenharia de transmitir uma mensagem, ==o significado dela é irrelevante==. O que importa é quanta incerteza a mensagem elimina.", "Uma mensagem que cai de um conjunto de poucas alternativas carrega pouca informação; uma que surpreende carrega muita. Essa medida de incerteza ganhou o nome de **entropia**, emprestado da física.", "Daí o exemplo que a resenha do TLS destaca: saber quem está ligando, entre esposa, pai ou filha, vale 1,5 bit."]
+    },
+    {
+      "type": "stat",
+      "display": "sans",
+      "kicker": "A unidade",
+      "big": "1",
+      "unit": " bit",
+      "label": "é uma única escolha entre 0 e 1: a resposta a uma pergunta de sim ou não",
+      "body": ["Foi assim que Shannon definiu a unidade básica da informação. Toda mensagem, uma foto ou um gene, pode ser contada em bits.", "Para Gleick, a partir daí a ideia se espalhou: a bioquímica passou a olhar o DNA como fluxo de informação, do gene à proteína, e a física passou a perguntar o que a informação tem a ver com a matéria."]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": {"title": "✓ Serve", "lines": ["Quem gosta de história contada por pessoas: Babbage, Lovelace, Morse, Shannon.", "Quem quer entender de onde vem a palavra \"bit\" que aparece em todo plano de internet.", "Quem lê sem formação técnica. A resenha do Times Higher Education resume: ele \"escreve como se se importasse que a gente entenda\" (tradução livre)."]},
+      "b": {"title": "✕ Não serve", "lines": ["Quem quer a história dos computadores de verdade: o livro fala de máquinas hipotéticas e quase nada das eletrônicas, aponta Ernest Davis, no TLS.", "Quem precisa de linha reta: a narrativa vai e volta por dois séculos, e Davis sentiu falta de uma cronologia.", "Quem se cansa de detalhe: a Kirkus Reviews avisa que a densidade pode fazer alguns suspirarem \"informação demais\"."]},
+      "body": ["Davis também discorda do peso que Gleick dá à teoria de Shannon diante de outras invenções, como o transistor, e acha os capítulos finais sobre a \"enxurrada\" exagerados."]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/a-informacao-gleick-3.jpg",
+      "caption": "Foto: Michael Umoh / Unsplash",
+      "check": [
+        "Antes do telégrafo, tambores africanos já levavam mensagens a cerca de 160 km em uma hora, imitando os tons da fala.",
+        "Em 1948, Claude Shannon mostrou que informação se mede. A unidade é o bit: uma escolha entre 0 e 1.",
+        "Existe em português: A Informação, Companhia das Letras, 2013, 521 páginas, tradução de Augusto Calil."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Royal Society, 26 nov. 2012", "what": "Anúncio do Winton Prize for Science Books: vencedor, valor, finalistas e declaração de Jocelyn Bell Burnell"},
+        {"who": "Ernest Davis — Times Literary Supplement, 17 ago. 2011", "what": "Resenha \"The Life of Information: From Drums to Wikipedia\": tambores, telégrafo, Babbage, Shannon, bit, entropia, Boltzmann, DNA e críticas"},
+        {"who": "Times Higher Education, 18 ago. 2011; Kirkus Reviews, 1 mar. 2011", "what": "Resenhas: estrutura do livro, elogios e reservas; edição original (Pantheon, 544 p.)"},
+        {"who": "Geoffrey Nunberg — New York Times Book Review, 20 mar. 2011", "what": "Resenha: Shannon em 1948 nos Laboratórios Bell, significado irrelevante ao problema de engenharia, origem da palavra bit"},
+        {"who": "Catálogo da biblioteca do NIC.br", "what": "Ficha da edição brasileira: Companhia das Letras, São Paulo, 2013, 521 p., trad. Augusto Calil"},
+        {"who": "Fotos", "what": "Enrico Bet, Sandra Tan e Michael Umoh, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "A palavra \"bit\" que aparece no seu plano de internet nasceu em 1948, num artigo de um engenheiro da companhia telefônica. Antes disso, ninguém sabia medir informação.\n\n\"A Informação\", de James Gleick, conta essa história em três partes: os sistemas de comunicação antes da eletricidade (tambores africanos, semáforos, telégrafo), a teoria de Claude Shannon, que separou informação de significado e criou o bit, e a \"enxurrada\" de hoje. O livro ganhou o prêmio de livros de ciência da Royal Society em 2012 e saiu no Brasil pela Companhia das Letras em 2013, com 521 páginas.\n\nOs críticos apontam o que falta: quase nada sobre computadores eletrônicos de verdade e uma narrativa que vai e volta no tempo.\n\nQual palavra técnica você usa todo dia sem saber de onde veio?\n\n—\nFontes no último slide.\n\n#livros #estante #informacao #shannon #bit #historiadatecnologia #leitura #tecnologia"
+}
