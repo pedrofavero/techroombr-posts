@@ -1,0 +1,119 @@
+{
+  "slug": "arpanet-primeira-mensagem",
+  "categoria": "HISTÓRIA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/arpanet-primeira-mensagem-1.jpg",
+      "title": "A primeira mensagem da internet foi “lo”. Depois, travou",
+      "dek": "Na noite de 29 de outubro de 1969, um estudante da UCLA tentou digitar \"login\" num computador a mais de 500 km. Chegaram duas letras, e o sistema caiu. Ninguém filmou, ninguém gravou.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O cenário",
+      "heading": "Dois computadores, dois telefones e uma linha alugada",
+      "photo": "fotos/arpanet-primeira-mensagem-2.jpg",
+      "caption": "Foto: inni w / Unsplash",
+      "body": [
+        "Nos anos 1960, computadores quase não se falavam entre si, lembra Bill Duvall, um dos dois programadores daquela noite. A **ARPA**, agência de pesquisa do Departamento de Defesa dos EUA, pagou para ligar quatro centros de pesquisa numa rede experimental: a ==ARPANET==, antepassada da internet.",
+        "Em cada ponto havia um ==IMP==, um minicomputador Honeywell com 12 K de memória, feito pela empresa BBN para fazer a tradução entre máquinas diferentes. O primeiro chegou à UCLA em 30 de agosto de 1969. A linha até o SRI, em Menlo Park, era alugada da AT&T e transmitia 50 kbit/s: milhares de vezes menos que um celular hoje.",
+        "Para conferir se funcionava, os dois lados falavam ao mesmo tempo por telefone, com fones de cabeça."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "22h30, 29 de outubro de 1969",
+      "heading": "Letra por letra, pelo telefone",
+      "steps": [
+        {"title": "“l”", "text": "Charley Kline, programador de Leonard Kleinrock na UCLA, digita a primeira letra de \"login\". Duvall, no SRI, confirma pelo telefone: \"Recebi o l\"."},
+        {"title": "“o”", "text": "Kline digita a segunda letra. Do outro lado: \"Recebi o o\"."},
+        {"title": "“g”", "text": "Kline digita a terceira. Antes que o SRI confirme, o sistema de lá trava. A máquina do SRI completava sozinha \"log\" para \"login\" e, nas palavras de Kline, \"tinha um bug\"."},
+        {"title": "Cerca de 1 hora depois", "text": "Recuperados do travamento, eles conseguem a conexão completa. A ARPANET está no ar."}
+      ],
+      "body": [
+        "A máquina da UCLA era um **SDS Sigma 7**; a do SRI, um **SDS 940**. O único registro da noite é uma anotação à mão no caderno de bordo do IMP, com as iniciais CSK, de Charles S. Kline."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O que ficou faltando",
+      "text": "Deveríamos ter preparado uma mensagem maravilhosa.",
+      "who": "Leonard Kleinrock, professor da UCLA que supervisionou a transmissão, à NPR (tradução livre)",
+      "body": [
+        "Não havia câmera nem gravador na sala 3420 do Boelter Hall. Com o tempo, Kleinrock passou a gostar do acidente: \"lo\" é o começo de **\"lo and behold\"**, expressão em inglês para \"eis que\". Ao New York Times, ele disse que não poderia ter pedido mensagem \"mais sucinta, mais profética, mais poderosa\" (tradução livre).",
+        "O lado social da rede, ele admite, não previu."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De um plano em papel a quatro nós",
+      "items": [
+        {"when": "3 jun. 1968", "what": "Larry Roberts entrega à ARPA o plano da rede; aprovado em 21 de junho."},
+        {"when": "dez. 1968", "what": "A BBN, de Cambridge (Massachusetts), vence a licitação para construir os IMPs."},
+        {"when": "3 jul. 1969", "what": "Comunicado da UCLA anuncia a rede. Kleinrock prevê \"utilidades de computação\" como as de luz e telefone."},
+        {"when": "30 ago. 1969", "what": "O primeiro IMP chega à UCLA."},
+        {"when": "29 out. 1969", "what": "Às 22h30, a primeira mensagem entre UCLA e SRI: **\"lo\"**."},
+        {"when": "21 nov. 1969", "what": "A ligação UCLA–SRI fica permanente."},
+        {"when": "5 dez. 1969", "what": "UC Santa Barbara e Universidade de Utah entram: **quatro nós**."}
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "A rede cresce",
+      "heading": "De 4 pontos a 111 computadores em oito anos",
+      "display": "sans",
+      "bars": [
+        {"name": "dez. 1969", "value": 4, "label": "4"},
+        {"name": "1971", "value": 19, "label": "19"},
+        {"name": "1972", "value": 24, "label": "24"},
+        {"name": "1973", "value": 37, "label": "37"},
+        {"name": "1977", "value": 111, "label": "111"}
+      ],
+      "note": "Nós em 1969, instituições em 1971, locais em 1972 e 1973, computadores em 1977. Contagens de fontes diferentes (Smithsonian e Living Internet).",
+      "body": [
+        "O segredo era a ==comutação de pacotes==: em vez de reservar uma linha inteira para cada conversa, como no telefone, a rede corta cada mensagem em pedaços que dividem o caminho com os pedaços de todo mundo. Kleinrock desenvolveu a matemática disso no doutorado, no MIT, no começo dos anos 1960."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ficou",
+      "heading": "A rede que não tinha uso comercial",
+      "body": [
+        "A ARPANET \"não tinha aplicação comercial na época\", lembra Duvall. Em 1982 nasceu o **TCP/IP**, o conjunto de regras que até hoje faz computadores diferentes se entenderem; em 1983, a ARPANET passou a fazer parte de redes maiores, militares e acadêmicas. Foi desligada em 1990.",
+        "A ideia de ligar máquinas de qualquer tipo, por linhas de telefone feitas para voz, é a base da internet, nas palavras do marco histórico que o IEEE fixou no prédio do SRI em 2009.",
+        "Duas letras e um travamento: foi assim que, em 1969, duas máquinas a mais de 500 km de distância se falaram pela primeira vez."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A primeira mensagem da internet foi um acidente.** Era para ser \"login\"; chegou \"lo\" e o computador do SRI travou.",
+        "**Ninguém achou que era histórico.** Sem foto, sem gravação: só uma anotação à mão num caderno de bordo, às 22h30.",
+        "**A rede tinha quatro pontos em 1969** e 111 computadores em 1977. A regra que a fez crescer, cortar mensagens em pacotes, é a mesma de hoje."
+      ],
+      "after": [
+        "Em 2019, aos 50 anos da mensagem, a UCLA reuniu Kleinrock, Vint Cerf e Steve Crocker no mesmo campus para contar a história de novo."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Leonard Kleinrock, UCLA, página \"The first words on the Internet\" (caderno de bordo do IMP) e blog da ICANN, 29 out. 2019", "what": "22h30, Kline e Duvall, Sigma 7 e SDS 940, \"l\", \"o\", travamento no \"g\", login uma hora depois, fones de telefone, ausência de câmera, datas de 1968 e 1969, comunicado de 3 jul. 1969"},
+        {"who": "Computer History Museum, Marc Weber, 28 out. 2009; e citações de Kline e Kleinrock reunidas pela UCLA (Internet50, 2019)", "what": "contexto dos anos 1960, equipamento da BBN, \"primeira coisa que digitei foi um L\", sala 3420 do Boelter Hall, distância, citação ao New York Times, teoria de Kleinrock no MIT"},
+        {"who": "Smithsonian Magazine, 2017 (com entrevistas da NPR)", "what": "\"Deveríamos ter preparado uma mensagem maravilhosa\", 19 instituições em 1971"},
+        {"who": "SRI International, série 75 anos; IEEE Milestone \"Inception of the ARPANET, 1969\" (ETHW)", "what": "21 nov. e 5 dez. 1969, TCP/IP e 1983, placa de 2009 no SRI, comutação de pacotes"},
+        {"who": "Living Internet, \"ARPANET – The First Internet\" (cita RFC 1000 e Kleinrock)", "what": "IMP em 30 ago. 1969, Honeywell DDP-516 com 12 K, linha de 50 kbit/s da AT&T, 24, 37 e 111 máquinas, desligamento em 1990"},
+        {"who": "Fotos", "what": "Niklas König e inni w, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "A internet não nasceu com um discurso. Nasceu com um travamento, anotado à mão num caderno de bordo.\n\nEm 29 de outubro de 1969, às 22h30, Charley Kline, programador do professor Leonard Kleinrock na UCLA, tentou se conectar ao computador do SRI, a mais de 500 km. Bill Duvall confirmava cada letra pelo telefone: \"l\", \"o\"... e no \"g\" a máquina do SRI caiu. Uma hora depois, a conexão completa funcionou. Em dezembro, a ARPANET tinha quatro pontos; em 1977, 111 computadores. Ela foi desligada em 1990, mas a regra que a fez crescer, cortar mensagens em pacotes, é a mesma que leva este post até você.\n\nSe você pudesse escolher a primeira mensagem da internet, qual seria?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #internet #arpanet #ucla #computacao #historia #tecnologia"
+}

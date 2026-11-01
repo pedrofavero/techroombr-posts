@@ -1,0 +1,10 @@
+A internet não nasceu com um discurso. Nasceu com um travamento, anotado à mão num caderno de bordo.
+
+Em 29 de outubro de 1969, às 22h30, Charley Kline, programador do professor Leonard Kleinrock na UCLA, tentou se conectar ao computador do SRI, a mais de 500 km. Bill Duvall confirmava cada letra pelo telefone: "l", "o"... e no "g" a máquina do SRI caiu. Uma hora depois, a conexão completa funcionou. Em dezembro, a ARPANET tinha quatro pontos; em 1977, 111 computadores. Ela foi desligada em 1990, mas a regra que a fez crescer, cortar mensagens em pacotes, é a mesma que leva este post até você.
+
+Se você pudesse escolher a primeira mensagem da internet, qual seria?
+
+—
+Fontes no último slide.
+
+#historiadatecnologia #internet #arpanet #ucla #computacao #historia #tecnologia

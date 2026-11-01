@@ -1,0 +1,123 @@
+{
+  "slug": "binance-roubo-recorde",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/binance-roubo-recorde-1.jpg",
+      "title": "O maior roubo de cripto da história levou 20 minutos",
+      "dek": "A Binance diz que US$ 6,3 bilhões saíram de suas carteiras na quinta-feira (29). O FBI culpa a Coreia do Norte. A empresa promete cobrir tudo do próprio caixa.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A ficha do caso",
+      "rows": [
+        {"k": "Quem", "v": "**Binance**, a maior corretora de criptomoedas do mundo"},
+        {"k": "O quê", "v": "Saída não autorizada de cerca de **US$ 6,3 bilhões** em criptomoedas"},
+        {"k": "Quando", "v": "Quinta-feira, **29 de outubro de 2026**; a maior parte em cerca de 20 minutos"},
+        {"k": "De onde", "v": "Carteiras \"quentes\" da empresa em **10 blockchains**, segundo a TRM Labs"},
+        {"k": "Recorde anterior", "v": "US$ 1,5 bilhão, Bybit, fevereiro de 2025"},
+        {"k": "Fontes", "v": "Binance (X), FBI, Reuters, AP, The Hacker News"}
+      ],
+      "body": [
+        "Uma ==corretora de criptomoedas== é a empresa onde as pessoas compram, vendem e guardam moedas digitais. ==Carteira quente== é a carteira ligada à internet, usada para pagar saques; a maior parte do dinheiro dos clientes fica em carteiras \"frias\", desligadas da rede, segundo a própria Binance."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O tamanho",
+      "big": "6,3",
+      "unit": " bilhões",
+      "label": "de dólares é a estimativa da Binance. A Chainalysis calcula US$ 5,9 bilhões; a Elliptic, US$ 6,4 bilhões; o FBI fala em \"mais de US$ 6 bilhões\".",
+      "body": [
+        "Qualquer que seja o número, é quase **quatro vezes** o maior roubo anterior, segundo a Chainalysis. Para comparar: o fundo de emergência da Binance, criado em 2018 para cobrir incidentes assim, tinha **US$ 1 bilhão**, todo em bitcoin.",
+        "A Binance avisou que o valor \"pode continuar a aumentar\" conforme rastreia e congela mais ativos."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Como entraram",
+      "heading": "Um notebook, um servidor e nenhuma chave roubada (segundo a Binance)",
+      "photo": "fotos/binance-roubo-recorde-2.jpg",
+      "caption": "Foto: Taylor Vick / Unsplash",
+      "body": [
+        "A versão da empresa: a invasão \"pode ter começado\" pelo **notebook comprometido de um engenheiro de infraestrutura**, que deu ao invasor acesso a um servidor interno de onde saíram os pedidos de saque. A Binance diz não ter encontrado \"nenhuma evidência de vazamento de chave privada de carteira\".",
+        "Na sexta (30), a empresa admitiu ter achado \"pontos adicionais de invasão\". O copresidente **Richard Teng** disse que não foi \"um único clique\" nem o uso das permissões de um só funcionário, e que o programa malicioso apagava os próprios rastros. O relatório técnico completo ainda não saiu."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Onde está o dinheiro",
+      "heading": "Metade congelada, metade em movimento",
+      "cells": [
+        {"big": "3", "unit": " bi", "label": "congelados, em dólares", "text": "Segundo a Binance, com ajuda de parceiros. Mais de US$ 2,3 bilhões foram travados pela Tether e pela Circle, emissoras das moedas estáveis USDT e USDC, segundo a Reuters."},
+        {"big": "3,3", "unit": " bi", "label": "fora de alcance, em dólares", "text": "Segundo a Elliptic, o invasor controla cerca de 43 carteiras com bitcoin, ether, XRP e TRX, moedas que ninguém consegue congelar à distância."}
+      ],
+      "body": [
+        "==Moeda estável== (stablecoin) é uma criptomoeda atrelada ao dólar e emitida por uma empresa, que pode bloquear endereços. Bitcoin e ether não têm dono central: quem tem a chave, tem o dinheiro. Por isso o FBI viu os ativos sendo convertidos principalmente em ether."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem foi",
+      "heading": "O FBI aponta a Coreia do Norte. A Binance não aponta ninguém.",
+      "body": [
+        "No sábado (31), o **FBI** atribuiu o roubo à Coreia do Norte e ao grupo que chama de **TraderTraitor**, o mesmo que acusou pelo caso Bybit em 2025. Disse que os ativos estão sendo lavados em etapas e publicou centenas de endereços de carteiras para as empresas do setor bloquearem. ==Lavar== é passar o dinheiro por várias contas e moedas até apagar a origem.",
+        "As empresas de rastreamento **TRM Labs** e **Chainalysis** chegaram à mesma conclusão \"com alta confiança\" já na quinta; a **Elliptic** concorda, mas pede cautela, porque a velocidade e o método de lavagem fugiram do padrão. A Binance diz que a investigação \"não atribuiu responsabilidade a nenhum indivíduo\". A Coreia do Norte costuma negar envolvimento em ataques.",
+        "\"É um assalto a banco, neste caso, na velocidade da internet\", resumiu Ari Redbord, da TRM Labs (tradução livre)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Documentado",
+        "lines": [
+          "Saques foram suspensos na quinta e começaram a voltar em fases no domingo (1º), segundo a Binance.",
+          "A empresa diz ter reservado mais de US$ 6,34 bilhões do próprio caixa e coberto 95% das moedas roubadas até domingo.",
+          "O bitcoin caiu à mínima de seis semanas, US$ 76.368, e as ações da Coinbase recuaram 4,8% na sexta (Reuters)."
+        ]
+      },
+      "b": {
+        "title": "Em aberto",
+        "lines": [
+          "Como o notebook foi invadido e quais são os \"pontos adicionais\" de entrada.",
+          "Se houve ou não chave vazada: Mark Karpelès, ex-chefe da falida Mt. Gox, disse à Reuters que os invasores provavelmente acessaram chaves de ao menos duas carteiras.",
+          "Quanto dos US$ 3,3 bilhões soltos será recuperado, e quando sai a prova de reservas prometida para terça (3)."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Foi o maior roubo de cripto já registrado:** cerca de US$ 6,3 bilhões em uns 20 minutos, quatro vezes o recorde anterior.",
+        "**A empresa diz que vai pagar a conta,** não os clientes. A promessa é dela; o relatório técnico e a prova de reservas ainda não saíram.",
+        "**O FBI culpa a Coreia do Norte.** Segundo a Elliptic, só este caso quase dobra tudo o que o país já tinha roubado em cripto."
+      ],
+      "after": [
+        "Alegações da Binance são apresentadas como alegações. A empresa prometeu um relatório técnico quando \"cada fato for verificado\"."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "FBI, alerta \"North Korea Responsible for $6 Billion+ Binance Attack\", 31 out. 2026 (via The Next Web, Reuters/Al Jazeera e ABC)", "what": "atribuição à Coreia do Norte e ao TraderTraitor, data \"por volta de 29 de outubro\", conversão em ether, lavagem em etapas, lista de endereços, caso Bybit"},
+        {"who": "Binance e Richard Teng no X, 30 e 31 out. 2026 (citados por Decrypt, CyberInsider, Al Jazeera e The Next Web)", "what": "notebook do engenheiro, servidor interno, \"nenhuma evidência\" de chave vazada, pontos adicionais de invasão, US$ 3 bi congelados, SAFU de US$ 1 bi, cobertura de 90% e 95%, saques em fases, prova de reservas"},
+        {"who": "Reuters via Al Jazeera, 30 out. e 1º nov. 2026", "what": "20 minutos, 10 blockchains, US$ 6,36 bi (TRM), Tether e Circle, Karpelès, mínima do bitcoin, Coinbase, Redbord, negativas da Coreia do Norte"},
+        {"who": "AP via PBS NewsHour, 31 out. 2026; ABC News (Austrália), 1º nov. 2026", "what": "carteiras quentes e frias, US$ 6,34 bi reservados, posição da Binance sobre atribuição, citação de Redbord"},
+        {"who": "The Hacker News, 30 out. 2026 (com dados de Chainalysis, Elliptic e TRM Labs)", "what": "estimativas de US$ 5,9 bi e US$ 6,4 bi, \"quase 4x\", US$ 3,33 bi em 43 carteiras, cautela da Elliptic"},
+        {"who": "Fotos", "what": "Jacob Griesemer e Taylor Vick, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "A parte mais rara dessa história não é o tamanho do roubo. É quem está pagando a conta: a Binance diz que reservou mais de US$ 6,34 bilhões do próprio caixa para repor as moedas dos clientes.\n\nNa quinta-feira (29), cerca de US$ 6,3 bilhões saíram das carteiras da maior corretora de cripto do mundo em uns 20 minutos, segundo a TRM Labs: quatro vezes o recorde anterior. Metade foi congelada por emissoras de moedas estáveis; a outra metade está em bitcoin e ether, que ninguém bloqueia à distância. No sábado, o FBI atribuiu o ataque à Coreia do Norte. A Binance ainda não aponta culpados, admite \"pontos adicionais de invasão\" e promete um relatório técnico.\n\nNo carrossel, separamos o que está documentado, o que é alegação da empresa e o que ainda ninguém sabe.\n\nVocê deixaria dinheiro numa corretora depois de um caso desses?\n\n—\nFontes no último slide.\n\n#binance #criptomoedas #bitcoin #ciberseguranca #coreiadonorte #noticia #tecnologia #hackers"
+}
