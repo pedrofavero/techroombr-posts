@@ -9,7 +9,7 @@
     {
       "type": "cover",
       "photo": "fotos/binance-roubo-recorde-1.jpg",
-      "title": "O maior roubo de cripto da história levou 20 minutos",
+      "title": "O maior roubo de cripto da história. Quase tudo em 20 minutos",
       "dek": "A Binance diz que US$ 6,3 bilhões saíram de suas carteiras na quinta-feira (29). O FBI culpa a Coreia do Norte. A empresa promete cobrir tudo do próprio caixa.",
       "swipe": "arraste →"
     },
@@ -47,7 +47,7 @@
       "photo": "fotos/binance-roubo-recorde-2.jpg",
       "caption": "Foto: Taylor Vick / Unsplash",
       "body": [
-        "A versão da empresa: a invasão \"pode ter começado\" pelo **notebook comprometido de um engenheiro de infraestrutura**, que deu ao invasor acesso a um servidor interno de onde saíram os pedidos de saque. A Binance diz não ter encontrado \"nenhuma evidência de vazamento de chave privada de carteira\".",
+        "A versão da empresa: a invasão \"pode ter começado\" pelo **notebook comprometido de um engenheiro de DevOps** (a área que opera os sistemas internos), que deu ao invasor acesso a um \"contêiner de serviço\", uma peça do sistema de onde saíram os pedidos de saque. A Binance diz não ter encontrado \"nenhuma evidência de vazamento de chave privada de carteira\".",
         "Na sexta (30), a empresa admitiu ter achado \"pontos adicionais de invasão\". O copresidente **Richard Teng** disse que não foi \"um único clique\" nem o uso das permissões de um só funcionário, e que o programa malicioso apagava os próprios rastros. O relatório técnico completo ainda não saiu."
       ]
     },
@@ -60,7 +60,7 @@
         {"big": "3,3", "unit": " bi", "label": "fora de alcance, em dólares", "text": "Segundo a Elliptic, o invasor controla cerca de 43 carteiras com bitcoin, ether, XRP e TRX, moedas que ninguém consegue congelar à distância."}
       ],
       "body": [
-        "==Moeda estável== (stablecoin) é uma criptomoeda atrelada ao dólar e emitida por uma empresa, que pode bloquear endereços. Bitcoin e ether não têm dono central: quem tem a chave, tem o dinheiro. Por isso o FBI viu os ativos sendo convertidos principalmente em ether."
+        "==Moeda estável== (stablecoin) é uma criptomoeda atrelada ao dólar e emitida por uma empresa, que pode bloquear endereços. Bitcoin e ether não têm dono central: quem tem a chave, tem o dinheiro. O FBI viu os ativos roubados sendo convertidos principalmente em ether."
       ]
     },
     {
@@ -82,7 +82,7 @@
         "lines": [
           "Saques foram suspensos na quinta e começaram a voltar em fases no domingo (1º), segundo a Binance.",
           "A empresa diz ter reservado mais de US$ 6,34 bilhões do próprio caixa e coberto 95% das moedas roubadas até domingo.",
-          "O bitcoin caiu à mínima de seis semanas, US$ 76.368, e as ações da Coinbase recuaram 4,8% na sexta (Reuters)."
+          "O bitcoin caiu à mínima de seis semanas, US$ 76.368, e as ações da Coinbase recuaram 4,8% (Al Jazeera, 30/10)."
         ]
       },
       "b": {
@@ -119,5 +119,5 @@
       ]
     }
   ],
-  "legenda": "A parte mais rara dessa história não é o tamanho do roubo. É quem está pagando a conta: a Binance diz que reservou mais de US$ 6,34 bilhões do próprio caixa para repor as moedas dos clientes.\n\nNa quinta-feira (29), cerca de US$ 6,3 bilhões saíram das carteiras da maior corretora de cripto do mundo em uns 20 minutos, segundo a TRM Labs: quatro vezes o recorde anterior. Metade foi congelada por emissoras de moedas estáveis; a outra metade está em bitcoin e ether, que ninguém bloqueia à distância. No sábado, o FBI atribuiu o ataque à Coreia do Norte. A Binance ainda não aponta culpados, admite \"pontos adicionais de invasão\" e promete um relatório técnico.\n\nNo carrossel, separamos o que está documentado, o que é alegação da empresa e o que ainda ninguém sabe.\n\nVocê deixaria dinheiro numa corretora depois de um caso desses?\n\n—\nFontes no último slide.\n\n#binance #criptomoedas #bitcoin #ciberseguranca #coreiadonorte #noticia #tecnologia #hackers"
+  "legenda": "A parte mais rara dessa história não é o tamanho do roubo. É quem está pagando a conta: a Binance diz que reservou mais de US$ 6,34 bilhões do próprio caixa para repor as moedas dos clientes.\n\nNa quinta-feira (29), cerca de US$ 6,3 bilhões saíram das carteiras da maior corretora de cripto do mundo em uns 20 minutos, segundo a TRM Labs: quatro vezes o recorde anterior. Metade foi congelada, a maior parte por emissoras de moedas estáveis; a outra metade está em bitcoin e ether, que ninguém bloqueia à distância. No sábado, o FBI atribuiu o ataque à Coreia do Norte. A Binance ainda não aponta culpados, admite \"pontos adicionais de invasão\" e promete um relatório técnico.\n\nNo carrossel, separamos o que está documentado, o que é alegação da empresa e o que ainda ninguém sabe.\n\nVocê deixaria dinheiro numa corretora depois de um caso desses?\n\n—\nFontes no último slide.\n\n#binance #criptomoedas #bitcoin #ciberseguranca #coreiadonorte #noticia #tecnologia #hackers"
 }

@@ -21,7 +21,7 @@
       "caption": "Foto: inni w / Unsplash",
       "body": [
         "Nos anos 1960, computadores quase não se falavam entre si, lembra Bill Duvall, um dos dois programadores daquela noite. A **ARPA**, agência de pesquisa do Departamento de Defesa dos EUA, pagou para ligar quatro centros de pesquisa numa rede experimental: a ==ARPANET==, antepassada da internet.",
-        "Em cada ponto havia um ==IMP==, um minicomputador Honeywell com 12 K de memória, feito pela empresa BBN para fazer a tradução entre máquinas diferentes. O primeiro chegou à UCLA em 30 de agosto de 1969. A linha até o SRI, em Menlo Park, era alugada da AT&T e transmitia 50 kbit/s: milhares de vezes menos que um celular hoje.",
+        "Em cada ponto havia um ==IMP==, um minicomputador Honeywell com 12 K de memória, feito pela empresa BBN para encaminhar os pacotes de dados entre os pontos da rede. O primeiro chegou à UCLA em 30 de agosto de 1969. A linha até o SRI, em Menlo Park, era alugada da AT&T e transmitia 50 kbit/s.",
         "Para conferir se funcionava, os dois lados falavam ao mesmo tempo por telefone, com fones de cabeça."
       ]
     },
@@ -86,7 +86,7 @@
       "heading": "A rede que não tinha uso comercial",
       "body": [
         "A ARPANET \"não tinha aplicação comercial na época\", lembra Duvall. Em 1982 nasceu o **TCP/IP**, o conjunto de regras que até hoje faz computadores diferentes se entenderem; em 1983, a ARPANET passou a fazer parte de redes maiores, militares e acadêmicas. Foi desligada em 1990.",
-        "A ideia de ligar máquinas de qualquer tipo, por linhas de telefone feitas para voz, é a base da internet, nas palavras do marco histórico que o IEEE fixou no prédio do SRI em 2009.",
+        "A placa de marco histórico que o IEEE fixou no prédio do SRI em 2009 resume: a tecnologia da ARPANET \"lançou a base para o desenvolvimento da internet\" (tradução livre). Segundo o IEEE, a rede ligava máquinas de tipos diferentes por uma rede telefônica feita para voz.",
         "Duas letras e um travamento: foi assim que, em 1969, duas máquinas a mais de 500 km de distância se falaram pela primeira vez."
       ]
     },
@@ -100,7 +100,7 @@
         "**A rede tinha quatro pontos em 1969** e 111 computadores em 1977. A regra que a fez crescer, cortar mensagens em pacotes, é a mesma de hoje."
       ],
       "after": [
-        "Em 2019, aos 50 anos da mensagem, a UCLA reuniu Kleinrock, Vint Cerf e Steve Crocker no mesmo campus para contar a história de novo."
+        "Em 15 de outubro de 2019, perto dos 50 anos da mensagem, Kleinrock se juntou a Vint Cerf e Steve Crocker, outros dois pioneiros da internet, para contar a história de novo à equipe da ICANN."
       ]
     },
     {
