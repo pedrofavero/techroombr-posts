@@ -1,0 +1,158 @@
+{
+  "slug": "imas-no-musculo",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/imas-no-musculo-1.jpg",
+      "title": "Ímãs de 3 mm no músculo para controlar uma prótese",
+      "dek": "Três pessoas com amputação abaixo do joelho vivem, em média, há mais de um ano com pequenos ímãs dentro dos músculos da perna. Um sensor na pele lê o movimento deles. No teste do MIT, o controle saiu mais estável do que com os eletrodos usados hoje.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi testado, e com quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature Sensors, 29 de outubro de 2026. Versão preliminar (preprint) no medRxiv."
+        },
+        {
+          "k": "Quem",
+          "v": "Grupo de Hugh Herr, no Media Lab do MIT. Primeiros autores: Christopher Shallal (MIT) e Cameron Taylor (Univ. da Carolina do Norte)."
+        },
+        {
+          "k": "Participantes",
+          "v": "Três pessoas com amputação abaixo do joelho, operadas no hospital Brigham and Women's (Boston)."
+        },
+        {
+          "k": "O implante",
+          "v": "Esferas magnéticas de 3 mm em até quatro músculos do tornozelo, com eletrodos nos mesmos músculos para comparação."
+        },
+        {
+          "k": "A tarefa",
+          "v": "Mover um cursor na tela até alvos usando só o músculo, sem prótese. Um substituto virtual do controle de um tornozelo robótico."
+        },
+        {
+          "k": "Financiamento",
+          "v": "Yang Tan Collective (MIT), bolsa da National Science Foundation e MIT HEALS."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O problema de hoje",
+      "big": "3",
+      "unit": " métodos",
+      "label": "de ler o músculo foram comparados nas mesmas pessoas: ímãs implantados, eletrodos implantados e eletrodos colados na pele",
+      "body": [
+        "O padrão atual são os eletrodos na pele, que captam o sinal elétrico do músculo (a eletromiografia, ou EMG). Segundo o MIT, o sinal **some quando o músculo fica parado** por alguns segundos, mistura músculos vizinhos e sofre com o suor.",
+        "Os ímãs medem outra coisa: ==o quanto o músculo encurtou e a que velocidade==. Um sensor sobre a pele acompanha a distância entre pares de ímãs, a até 6 centímetros de profundidade, e converte isso em comprimento do músculo."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "O resultado",
+      "heading": "Cursor mais firme com os ímãs",
+      "bars": [
+        {
+          "name": "Ímãs no músculo",
+          "value": 44,
+          "label": "44%"
+        },
+        {
+          "name": "Eletrodo implantado",
+          "value": 79,
+          "label": "79%",
+          "other": true
+        },
+        {
+          "name": "Eletrodo na pele",
+          "value": 187,
+          "label": "187%",
+          "other": true
+        }
+      ],
+      "note": "Variação do cursor na tarefa de mirar alvos: quanto menor, mais estável. Dados do preprint (medRxiv): dois dos três participantes, três tentativas cada, dez alvos por tentativa.",
+      "body": [
+        "Na mesma tarefa, o cursor dos ímãs ficou **3,50 segundos** dentro do alvo, contra 2,59 s com eletrodo implantado e 1,54 s com eletrodo na pele. Passou do alvo menos vezes: 2,0 contra 3,9 e 7,7.",
+        "Em um critério, o caminho até o alvo, o eletrodo implantado foi melhor que os ímãs. Os autores registram isso no próprio artigo."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "A escala",
+      "heading": "Pequeno por dentro, lido por fora",
+      "cells": [
+        {
+          "big": "3",
+          "unit": " mm",
+          "label": "de diâmetro tem cada esfera de neodímio-ferro-boro, revestida de ouro e de um plástico biocompatível (parileno C)",
+          "text": "Os ímãs ficaram implantados por mais de um ano, em média, sem migrar nem irritar o tecido, segundo o preprint."
+        },
+        {
+          "big": "6",
+          "unit": " cm",
+          "label": "é a profundidade máxima que o sensor externo consegue ler, com precisão abaixo de 1 milímetro",
+          "text": "O sensor fica do lado de fora, sobre a pele, e lê os ímãs sem fio, através do corpo."
+        }
+      ],
+      "body": [
+        "A técnica chama-se magnetomicrometria. O grupo a demonstrou em animais em 2021; agora, em pessoas com implante de longa duração."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Limites",
+      "heading": "O que o estudo não prova",
+      "photo": "fotos/imas-no-musculo-2.jpg",
+      "caption": "Foto: ThisisEngineering / Unsplash",
+      "nocheck": [
+        "**Que funciona andando com a prótese.** Ninguém usou o tornozelo robótico: o teste foi um cursor na tela. Um estudo maior, com a prótese, está em andamento, segundo o MIT.",
+        "**Que vale para muita gente.** Foram três participantes, todos com uma cirurgia especial que religa pares de músculos (a chamada AMI). O movimento forte visto pode, em parte, vir dessa cirurgia, dizem os autores.",
+        "**Que é só colar um sensor.** Os ímãs exigem cirurgia, ainda que os autores a descrevam como minimamente invasiva."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Eletrodo lê eletricidade; ímã lê movimento.** O sinal elétrico some quando o músculo fica parado. A distância entre dois ímãs, não.",
+        "**O ganho foi em estabilidade.** Na tarefa do cursor, feita por dois dos participantes, o cursor tremeu menos e ficou mais tempo no alvo com os ímãs do que com os eletrodos, na pele ou implantados.",
+        "**Ainda é um estudo pequeno.** Três pessoas, tarefa virtual, cirurgia necessária. O próximo passo, com a prótese de verdade, está sendo testado agora."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Shallal, Taylor e outros — Nature Sensors, 29 out. 2026",
+          "what": "\"A wireless magnetic implant system for continuous neuromuscular sensing\" (doi 10.1038/s44460-026-00157-6)"
+        },
+        {
+          "who": "Preprint no medRxiv, 17 nov. 2025 (doi 10.1101/2025.11.17.25340274)",
+          "what": "Versão preliminar com os números: três participantes, mais de um ano de implante em média, e a tarefa do cursor com dois deles (variação, tempo no alvo, ultrapassagens e caminho)"
+        },
+        {
+          "who": "MIT News e McGovern Institute, 29 out. 2026",
+          "what": "\"Magnetic sensors track muscle movement, for better prosthetic limb control\": método, ímãs de 3 mm, 6 cm, limites do EMG, financiamento e estudo maior em andamento"
+        },
+        {
+          "who": "News-Medical, 29 out. 2026",
+          "what": "Cobertura com a referência completa do artigo e os três métodos comparados"
+        },
+        {
+          "who": "Fotos",
+          "what": "Elevate e ThisisEngineering, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A pergunta que o grupo de Hugh Herr, no MIT, tenta responder há anos: como uma prótese pode sentir o que o músculo faz, e não só a eletricidade que ele emite?\n\nO estudo, publicado na Nature Sensors em 29 de outubro, acompanhou três pessoas com amputação abaixo do joelho que receberam esferas magnéticas de 3 milímetros dentro dos músculos do tornozelo. Um sensor externo mede a distância entre os ímãs, a até 6 centímetros de profundidade, e calcula o comprimento e a velocidade do músculo. Numa tarefa de mirar alvos com um cursor, feita por dois dos participantes, o controle por ímãs foi mais estável que o dos eletrodos na pele e o dos eletrodos implantados. Os ímãs estão no corpo há mais de um ano, em média, sem migrar.\n\nO que falta: testar com a prótese de verdade (um estudo maior está em andamento), ampliar além de três pessoas e lembrar que o implante exige cirurgia.\n\nVocê aceitaria um implante de 3 milímetros se ele tornasse uma prótese mais precisa?\n\n—\nFontes no último slide.\n\n#protese #bionica #mit #estudo #biotecnologia #saude #tecnologia #ciencia"
+}

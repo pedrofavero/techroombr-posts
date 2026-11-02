@@ -1,0 +1,12 @@
+A pergunta que o grupo de Hugh Herr, no MIT, tenta responder há anos: como uma prótese pode sentir o que o músculo faz, e não só a eletricidade que ele emite?
+
+O estudo, publicado na Nature Sensors em 29 de outubro, acompanhou três pessoas com amputação abaixo do joelho que receberam esferas magnéticas de 3 milímetros dentro dos músculos do tornozelo. Um sensor externo mede a distância entre os ímãs, a até 6 centímetros de profundidade, e calcula o comprimento e a velocidade do músculo. Numa tarefa de mirar alvos com um cursor, feita por dois dos participantes, o controle por ímãs foi mais estável que o dos eletrodos na pele e o dos eletrodos implantados. Os ímãs estão no corpo há mais de um ano, em média, sem migrar.
+
+O que falta: testar com a prótese de verdade (um estudo maior está em andamento), ampliar além de três pessoas e lembrar que o implante exige cirurgia.
+
+Você aceitaria um implante de 3 milímetros se ele tornasse uma prótese mais precisa?
+
+—
+Fontes no último slide.
+
+#protese #bionica #mit #estudo #biotecnologia #saude #tecnologia #ciencia

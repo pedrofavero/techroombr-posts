@@ -1,0 +1,12 @@
+O cartão por aproximação é o aparelho eletrônico mais simples que você carrega: não tem bateria, não tem botão e só funciona quando alguém o liga de fora.
+
+A maquininha cria um campo magnético que oscila 13,56 milhões de vezes por segundo. Uma bobina escondida no plástico do cartão capta esse campo e gera a corrente que acende o chip, pelo mesmo princípio de um transformador. O chip então cria um código válido só para aquela compra, o criptograma do padrão EMV, e a rede confere e autoriza. O alcance fica abaixo de 10 cm; a Visa orienta 2 a 5 cm. No Brasil, segundo a Abecs, 76% dos pagamentos presenciais com cartão em junho de 2026 foram por aproximação, contra 14% cinco anos antes, somando R$ 1 trilhão no primeiro semestre.
+
+No carrossel, também separamos o que está documentado e o que ainda se discute sobre o chamado golpe da maquininha.
+
+Você já desligou a aproximação do seu cartão por medo, ou nunca pensou nisso?
+
+—
+Fontes no último slide.
+
+#cartao #aproximacao #nfc #pagamentos #comofunciona #fintech #tecnologia #brasil
