@@ -1,0 +1,122 @@
+{
+  "slug": "suncatcher-haicai",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/suncatcher-haicai-1.jpg",
+      "title": "Um satélite do Google rodou uma IA. Ela escreveu um haicai",
+      "dek": "Em 30 de outubro, a empresa anunciou a primeira resposta de um modelo de IA rodando num chip de data center em órbita. O Google chama de teste mínimo. Atrás dele há um plano de décadas.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A ficha do caso",
+      "rows": [
+        {"k": "Quem", "v": "**Google** (Project Suncatcher), com um satélite construído pela **Planet**"},
+        {"k": "O quê", "v": "Um chip **TPU** em órbita rodou o modelo **Gemma 4** e respondeu a um pedido enviado da Terra"},
+        {"k": "Quando", "v": "Lançamento em **1º de outubro**, num Falcon 9 da SpaceX; resultado anunciado em **30 de outubro**"},
+        {"k": "Onde", "v": "Em órbita; a resposta foi baixada quando o satélite passou sobre **Svalbard**, na Noruega"},
+        {"k": "Fontes", "v": "Google Research, TechCrunch, NPR, The Next Web"}
+      ],
+      "body": [
+        "==TPU== é o chip que o Google desenha para rodar inteligência artificial nos seus data centers. ==Gemma 4== é um modelo de linguagem aberto da empresa, do mesmo tipo que responde perguntas num chat. O Google chamou o resultado de \"a primeira resposta de IA de um TPU de classe data center em órbita\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A resposta",
+      "text": "Blue marble below / Data streams in silent grace / Starlight feeds my core.",
+      "who": "Gemma 4, rodando num TPU em órbita. Publicado pelo Google em 30 de outubro de 2026",
+      "body": [
+        "Em tradução livre: \"Bolinha azul abaixo / Dados fluem em graça silenciosa / A luz das estrelas alimenta meu núcleo\". O pedido era um haicai sobre estar no espaço.",
+        "Depois, a equipe pediu limeriques (poemas curtos de humor) sobre o espaço e relatórios sobre o estado dos sistemas do satélite. Um porta-voz disse ao TechCrunch que o satélite \"opera nominalmente\", ou seja, dentro do esperado."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Como foi o teste",
+      "heading": "Um chip de cada vez, por uns 20 minutos",
+      "photo": "fotos/suncatcher-haicai-2.jpg",
+      "caption": "Foto: Donald Giannatti / Unsplash",
+      "body": [
+        "O satélite tem o tamanho de uma geladeira e leva **quatro TPUs**, segundo a NPR. Os painéis solares geram até **1 quilowatt**, segundo o TechCrunch. Por causa dessa limitação, só um chip roda de cada vez, por cerca de 20 minutos, segundo o TechCrunch.",
+        "Foram cerca de três semanas de testes dos sistemas antes do primeiro pedido. O comando subiu durante a passagem por uma estação de rastreamento; a resposta desceu na passagem seguinte. O modelo rodou com energia solar armazenada em baterias."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "Por que no espaço",
+      "big": "8",
+      "unit": " vezes",
+      "label": "mais eficiente pode ser um painel solar em órbita, em comparação com um na Terra, segundo o Google. E ele pode gerar energia sem parar.",
+      "body": [
+        "Esse é o argumento central do projeto, apresentado pelo Google em novembro de 2025: IA consome muita eletricidade, e no espaço o sol não se põe nem passa por nuvens. \"O sol produz quase toda a energia do nosso sistema solar\", disse Travis Beals, que lidera o projeto, à NPR (tradução livre).",
+        "A visão de longo prazo: grupos de satélites, cada um com dezenas de TPUs, conversando entre si por laser. Numa simulação, o Google descreveu 81 satélites voando a 100 a 200 metros uns dos outros, a 650 km de altitude. É simulação, não plano de lançamento."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De artigo a haicai em um ano",
+      "items": [
+        {"when": "nov. 2025", "what": "Google apresenta o Project Suncatcher e o teste de radiação nos chips: a memória foi a parte mais sensível."},
+        {"when": "1º out. 2026", "what": "Satélite protótipo sobe num Falcon 9, junto com mais de 100 outras cargas."},
+        {"when": "30 out. 2026", "what": "Primeira resposta do Gemma 4 em órbita. Próximos testes: calor e radiação."},
+        {"when": "2027", "what": "Plano de lançar dois satélites ligados entre si, com mais energia e link óptico, se os chips aguentarem."},
+        {"when": "anos 2030", "what": "Em meados da década, o Google supõe que lançar vai custar US$ 200 por kg, mais de 10 vezes abaixo do preço atual. É a premissa para a conta fechar."}
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Documentado",
+        "lines": [
+          "O chip ligou, rodou o modelo e respondeu. O Google chamou isso de \"Hello World\", o primeiro programa de teste.",
+          "O satélite não está em órbita heliossíncrona (sempre ao sol) e usa baterias, segundo correção da NPR.",
+          "Beals, do Google: \"Não vejo isso ficando mais barato nos próximos cinco anos\" (tradução livre)."
+        ]
+      },
+      "b": {
+        "title": "Em aberto",
+        "lines": [
+          "Se os chips sobrevivem à radiação por anos. Ela pode corromper a memória sem avisar; o teste em órbita ainda não tem resultado.",
+          "Como tirar o calor: no vácuo não há ar para resfriar. O próprio Google chama isso de \"desafio de pesquisa crucial\".",
+          "O custo. Brandon Lucia, da Carnegie Mellon, disse à NPR que manutenção no espaço fica \"10, talvez 100 vezes\" mais cara e complexa."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Um chip de IA funcionou em órbita e escreveu um haicai.** É o primeiro teste do tipo com um TPU de data center, segundo o Google.",
+        "**É um teste mínimo:** quatro chips, 1 kW de energia, um chip por vez. Nada de data center no espaço ainda.",
+        "**A aposta é no sol.** Painel solar em órbita pode render até 8 vezes mais, diz o Google. Radiação, calor e custo de lançamento ainda não têm resposta."
+      ],
+      "after": [
+        "As afirmações sobre eficiência e custo são do Google e de pesquisadores citados pela imprensa; os testes de radiação e calor em órbita ainda não foram publicados."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Travis Beals, Google Research, \"Project Suncatcher: our first AI response from a TPU in orbit\", 30 out. 2026", "what": "lançamento em 1º de outubro, Gemma 4, haicai, Svalbard, limeriques e telemetria, \"Hello World\", testes de calor e radiação, dois satélites em 2027"},
+        {"who": "Tim Fernholz, TechCrunch, 30 out. 2026", "what": "Falcon 9 com mais de 100 cargas, satélite da Planet, quatro TPUs, 1 kW, um chip por vez por cerca de 20 minutos, três semanas de testes, \"operando nominalmente\", link óptico"},
+        {"who": "John Ruwitch e Geoff Brumfiel, NPR, 2 out. 2026", "what": "tamanho de geladeira, órbita e baterias (correção), citações de Travis Beals e Brandon Lucia, calor como desafio, visão de longo prazo com lasers"},
+        {"who": "Ana-Maria Stanciuc, The Next Web, 1º nov. 2026", "what": "energia solar armazenada, radiação pode corromper memória, plano de 2027"},
+        {"who": "Tobias Mann, The Register, 4 nov. 2025", "what": "painéis até 8 vezes mais eficientes, simulação de 81 satélites a 650 km, US$ 200 por kg em meados de 2030, teste de radiação com a memória como parte mais sensível"},
+        {"who": "Fotos", "what": "Robin Canfield e Donald Giannatti, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "O poema em si é o detalhe menos importante dessa história. O que o Google queria saber era se um chip feito para data center liga, roda um modelo de IA e responde depois de passar pelo foguete, pelo vácuo e pela radiação. Ligou.\n\nO satélite protótipo do Project Suncatcher subiu em 1º de outubro num Falcon 9 e, em 30 de outubro, a empresa publicou a primeira resposta do modelo Gemma 4 rodando em órbita: um haicai sobre estar no espaço. O teste é pequeno: quatro chips, 1 quilowatt de energia solar, um chip rodando de cada vez por uns 20 minutos. A aposta de longo prazo é que painéis solares no espaço rendam até 8 vezes mais do que na Terra. O que ainda não tem resposta: radiação, calor e custo de lançamento. O próprio líder do projeto diz que não vê isso ficando mais barato nos próximos cinco anos.\n\nVocê acha que faz sentido levar computadores para o espaço para economizar energia aqui embaixo?\n\n—\nFontes no último slide.\n\n#google #inteligenciaartificial #espaco #satelite #datacenter #energiasolar #noticia #tecnologia"
+}

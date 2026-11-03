@@ -1,0 +1,111 @@
+{
+  "slug": "memoria-ram-cara",
+  "categoria": "EXPLICA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/memoria-ram-cara-1.jpg",
+      "title": "A memória do computador dobrou de preço. Entenda a conta",
+      "dek": "A explicação comum é \"a IA está comprando toda a memória\". É só metade. A outra metade está dentro da fábrica: o tipo de memória que a IA usa gasta três vezes mais silício.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "chart",
+      "kicker": "O sintoma",
+      "heading": "Quanto o preço de contrato da memória subiu em 2026",
+      "bars": [
+        {"name": "1º trimestre", "value": 98, "label": "até 98%"},
+        {"name": "2º trimestre", "value": 63, "label": "58–63%"},
+        {"name": "3º trimestre", "value": 23, "label": "18–23%"},
+        {"name": "4º tri (previsão)", "value": 18, "label": "13–18%", "other": true}
+      ],
+      "note": "Variação sobre o trimestre anterior, segundo a TrendForce. 1º e 2º tri: DRAM convencional; 3º e 4º: DRAM de PC. O 2º tri era previsão em junho; o 4º, em outubro.",
+      "body": [
+        "==DRAM== é a memória de trabalho do computador e do celular, onde ficam os programas abertos. ==Preço de contrato== é o que fabricantes de computador pagam em acordos de volume, antes de o aumento chegar à loja.",
+        "No primeiro trimestre, o preço praticamente dobrou. A receita das fabricantes de chips de memória subiu 81% no mesmo período, para US$ 97 bilhões, segundo a TrendForce."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O lado de quem vende",
+      "heading": "Em setembro, metade do que a Coreia do Sul exportou foi chip",
+      "photo": "fotos/memoria-ram-cara-2.jpg",
+      "caption": "Foto: Timelab / Unsplash",
+      "body": [
+        "As exportações de semicondutores do país somaram **US$ 60,3 bilhões** em setembro, alta de 263% em um ano e a primeira vez acima de US$ 60 bilhões, segundo o Ministério do Comércio sul-coreano, citado pela Yonhap. O total exportado foi de US$ 120,9 bilhões.",
+        "O ministério atribui o salto a mais volume e a preços mais altos dos chips de memória. Um exemplo, do jornal Herald Business: o chip DDR5 de 16 gigabits foi de US$ 37,50 em maio para US$ 48 em setembro."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "A explicação de verdade",
+      "heading": "A mesma fábrica, três vezes menos memória",
+      "svg": "<svg viewBox='0 0 800 360' fill='none' stroke='currentColor' stroke-width='3' font-family='inherit'><circle cx='120' cy='180' r='85'/><circle cx='120' cy='180' r='60' stroke-dasharray='6 8' stroke-width='2'/><text x='120' y='300' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>1 pastilha de silício</text><path d='M210 165 L330 100' marker-end='none'/><path d='M210 195 L330 260'/><path d='M318 96 L334 98 L326 112 Z' fill='currentColor' stroke='none'/><path d='M318 264 L334 262 L326 248 Z' fill='currentColor' stroke='none'/><rect x='350' y='60' width='110' height='70' rx='6'/><rect x='480' y='60' width='110' height='70' rx='6'/><rect x='610' y='60' width='110' height='70' rx='6'/><text x='535' y='40' font-size='20' text-anchor='middle' fill='currentColor' stroke='none'>DDR5 (PC e celular): 3 unidades</text><rect x='350' y='225' width='370' height='70' rx='6' stroke='var(--accent)' stroke-width='4'/><text x='535' y='330' font-size='20' text-anchor='middle' fill='var(--accent)' stroke='none'>HBM (servidor de IA): 1 unidade</text></svg>",
+      "caption": "Para a mesma capacidade, a memória HBM ocupa cerca de 3 vezes a área de silício da DDR5, segundo a Micron.",
+      "body": [
+        "==HBM== (memória de alta largura de banda) é a memória empilhada colada ao chip de IA nos servidores. Para entregar dados muito mais rápido, cada pastilha tem 256 bancos em vez de 32, mais furos verticais (TSV) que ligam as camadas da pilha. Tudo isso ocupa área, explicou Raghu Sreeramaneni, da Micron, na conferência Hot Chips, em agosto: \"definitivamente não está melhorando\" (tradução livre). Samsung, SK hynix e Micron priorizam a HBM, segundo a TrendForce."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "O caminho até a sua conta",
+      "heading": "Como a alta chega ao notebook",
+      "steps": [
+        {"title": "Quem compra para IA paga mais", "text": "Grandes clientes de nuvem aceitam aumentos com mais facilidade; os outros compradores precisam acompanhar para garantir cota de fornecimento, segundo a TrendForce."},
+        {"title": "A fábrica prioriza o servidor", "text": "O pouco de oferta nova vai para módulos de alta capacidade de servidores de IA. Em junho, o estoque das fabricantes estava \"extremamente baixo\", segundo a TrendForce."},
+        {"title": "Fábrica nova demora", "text": "A Micron começou a produzir DRAM na Virgínia; a primeira fábrica em Idaho só gera pastilhas em meados de 2027. Capacidade relevante, só em 2027 e 2028."},
+        {"title": "O preço chega à loja", "text": "Dell e HP compram memória com cerca de um ano de antecedência; quando o estoque antigo acaba, o preço do computador sobe. Analistas citados pela Canaltech falam em notebooks 15% a 30% mais caros em 2026."}
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Uma opinião no meio da crise",
+      "text": "É bem terrível que todo mundo tenha um monte da oferta limitada de DRAM do mundo parada no próprio computador.",
+      "who": "Sam Altman, CEO da OpenAI, no podcast Cheeky Pint, citado pela PC Gamer em 30 out. 2026 (tradução livre)",
+      "body": [
+        "O argumento dele: a memória de um computador pessoal fica em uso só cerca de 5% do tempo, e num cenário de escassez o melhor seria concentrar os chips na nuvem, onde ficam ocupados o tempo todo. Ele falava de desenvolvedores que querem rodar IA no próprio computador.",
+        "O contraponto, da jornalista Jess Kinghorn, da PC Gamer: os data centers de IA, incluindo os da OpenAI, são parte da causa da escassez que encarece a memória para todo mundo. É uma opinião de executivo com interesse direto no assunto."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Quando acaba",
+      "heading": "As previsões vão de 2027 a 2030",
+      "body": [
+        "Analistas ouvidos pela The Register esperam a escassez até o fim de 2027. Chey Tae-won, presidente da SK hynix, disse em Taipé que a empresa quer dobrar a capacidade de pastilhas, mas aos poucos, ao longo de cinco anos, e que a falta pode durar até 2030.",
+        "A TrendForce previa em fevereiro que os preços atingiriam o pico ainda em 2026 e seguiriam altos até 2028. Em outubro, viu os aumentos de DRAM de PC desacelerando, mas com um alerta: fornecedores coreanos planejam cortar as entregas de DRAM de PC em mais de 20% em 2027, e a consultoria projeta corte acima de 40%, porque um fornecedor americano vai desviar capacidade para servidores.",
+        "Tudo isso é previsão. O que está documentado é o preço de 2026 e as fábricas novas só a partir de 2027."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O preço de contrato da DRAM quase dobrou no primeiro trimestre de 2026** e seguiu subindo o ano todo, segundo a TrendForce.",
+        "**A causa não é só a demanda.** A memória HBM, usada em servidores de IA, gasta cerca de 3 vezes mais silício para a mesma capacidade, segundo a Micron. Fábrica que faz HBM faz menos memória comum.",
+        "**Fábrica nova só em 2027 e 2028.** As previsões de alívio vão do fim de 2027 (analistas) a 2030 (presidente da SK hynix)."
+      ],
+      "after": [
+        "Os números de preço são da TrendForce, consultoria de mercado; a afirmação sobre área de silício é da Micron, fabricante de memória; o prazo até 2030 é da SK hynix, concorrente da Micron."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Dan Robinson, The Register, 2 jun. 2026 (dados da TrendForce)", "what": "DRAM convencional até +98% no 1º tri, receita +81% a US$ 97 bi, previsão de +58% a 63% no 2º tri, estoques, prioridade a servidores e HBM, clientes de nuvem, Chey Tae-won e 2030, analistas e fim de 2027, fábricas da Micron"},
+        {"who": "Tobias Mann, The Register, 2 fev. 2026 (dados da TrendForce)", "what": "pico em 2026 e preços altos até 2028, Dell e HP compram com um ano de antecedência, demanda de inferência de IA"},
+        {"who": "TrendForce, via RPRNA, 30 out. 2026", "what": "DRAM de PC +18% a 23% no 3º tri, previsão de +13% a 18% no 4º tri, corte de mais de 20% nas entregas em 2027"},
+        {"who": "Luke James, Tom's Hardware, 25 ago. 2026", "what": "Raghu Sreeramaneni (Micron) na Hot Chips: HBM usa cerca de 3 vezes a área de pastilha da DDR5, 256 bancos contra 32, TSVs, \"definitivamente não está melhorando\""},
+        {"who": "Yonhap/The Korea Times, 1º out. 2026; Herald Business, 21 out. 2026", "what": "exportações de setembro: US$ 120,9 bi no total e US$ 60,3 bi em chips (+263%); DDR5 16 Gb de US$ 37,50 a US$ 48"},
+        {"who": "Jess Kinghorn, PC Gamer, 30 out. 2026; Raphael Giannotti, Canaltech, 17 jun. 2026", "what": "citação de Sam Altman, 5% de uso, contraponto; notebooks 15% a 30% mais caros"},
+        {"who": "Fotos", "what": "Ian Talmacs e Timelab, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "Se você foi comprar notebook este ano e achou tudo mais caro, parte da resposta está num detalhe de fábrica que quase ninguém explica: a memória usada em servidores de IA gasta cerca de três vezes mais silício do que a memória do seu computador, para a mesma capacidade.\n\nO preço de contrato da DRAM praticamente dobrou no primeiro trimestre de 2026 e continuou subindo, segundo a TrendForce. Samsung, SK hynix e Micron priorizam a HBM, a memória empilhada colada ao chip de IA; cada pastilha desviada para ela rende três vezes menos memória comum, segundo a própria Micron. Fábricas novas só produzem a partir de 2027, e o presidente da SK hynix fala em escassez até 2030. No meio disso, Sam Altman disse que é \"terrível\" ter memória parada em computadores pessoais. No carrossel, a explicação completa, o caminho até a sua conta e o contraponto.\n\nVocê adiou a compra de algum aparelho por causa do preço este ano?\n\n—\nFontes no último slide.\n\n#memoriaram #notebook #chips #semicondutores #inteligenciaartificial #explica #tecnologia #economia"
+}

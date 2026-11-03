@@ -1,0 +1,10 @@
+O poema em si é o detalhe menos importante dessa história. O que o Google queria saber era se um chip feito para data center liga, roda um modelo de IA e responde depois de passar pelo foguete, pelo vácuo e pela radiação. Ligou.
+
+O satélite protótipo do Project Suncatcher subiu em 1º de outubro num Falcon 9 e, em 30 de outubro, a empresa publicou a primeira resposta do modelo Gemma 4 rodando em órbita: um haicai sobre estar no espaço. O teste é pequeno: quatro chips, 1 quilowatt de energia solar, um chip rodando de cada vez por uns 20 minutos. A aposta de longo prazo é que painéis solares no espaço rendam até 8 vezes mais do que na Terra. O que ainda não tem resposta: radiação, calor e custo de lançamento. O próprio líder do projeto diz que não vê isso ficando mais barato nos próximos cinco anos.
+
+Você acha que faz sentido levar computadores para o espaço para economizar energia aqui embaixo?
+
+—
+Fontes no último slide.
+
+#google #inteligenciaartificial #espaco #satelite #datacenter #energiasolar #noticia #tecnologia
