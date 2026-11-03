@@ -1,6 +1,6 @@
 Se você foi comprar notebook este ano e achou tudo mais caro, parte da resposta está num detalhe de fábrica que quase ninguém explica: a memória usada em servidores de IA gasta cerca de três vezes mais silício do que a memória do seu computador, para a mesma capacidade.
 
-O preço de contrato da DRAM praticamente dobrou no primeiro trimestre de 2026 e continuou subindo, segundo a TrendForce. Samsung, SK hynix e Micron priorizam a HBM, a memória empilhada colada ao chip de IA; cada pastilha desviada para ela rende três vezes menos memória comum, segundo a própria Micron. Fábricas novas só produzem a partir de 2027, e o presidente da SK hynix fala em escassez até 2030. No meio disso, Sam Altman disse que é "terrível" ter memória parada em computadores pessoais. No carrossel, a explicação completa, o caminho até a sua conta e o contraponto.
+O preço de contrato da DRAM praticamente dobrou no primeiro trimestre de 2026 e continuou subindo, segundo a TrendForce. Samsung, SK hynix e Micron priorizam a HBM, a memória empilhada colada ao chip de IA; cada pastilha desviada para ela rende três vezes menos memória comum, segundo a própria Micron. Capacidade nova relevante só chega em 2027 e 2028, e o presidente da SK hynix fala em escassez até 2030. No meio disso, Sam Altman disse que é "terrível" ter memória parada em computadores pessoais. No carrossel, a explicação completa, o caminho até a sua conta e o contraponto.
 
 Você adiou a compra de algum aparelho por causa do preço este ano?
 

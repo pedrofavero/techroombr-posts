@@ -34,7 +34,7 @@
       "text": "Blue marble below / Data streams in silent grace / Starlight feeds my core.",
       "who": "Gemma 4, rodando num TPU em órbita. Publicado pelo Google em 30 de outubro de 2026",
       "body": [
-        "Em tradução livre: \"Bolinha azul abaixo / Dados fluem em graça silenciosa / A luz das estrelas alimenta meu núcleo\". O pedido era um haicai sobre estar no espaço.",
+        "Em tradução livre: \"O planeta azul abaixo / Dados fluem em graça silenciosa / A luz das estrelas alimenta meu núcleo\". O pedido era um haicai sobre estar no espaço.",
         "Depois, a equipe pediu limeriques (poemas curtos de humor) sobre o espaço e relatórios sobre o estado dos sistemas do satélite. Um porta-voz disse ao TechCrunch que o satélite \"opera nominalmente\", ou seja, dentro do esperado."
       ]
     },
@@ -46,7 +46,7 @@
       "caption": "Foto: Donald Giannatti / Unsplash",
       "body": [
         "O satélite tem o tamanho de uma geladeira e leva **quatro TPUs**, segundo a NPR. Os painéis solares geram até **1 quilowatt**, segundo o TechCrunch. Por causa dessa limitação, só um chip roda de cada vez, por cerca de 20 minutos, segundo o TechCrunch.",
-        "Foram cerca de três semanas de testes dos sistemas antes do primeiro pedido. O comando subiu durante a passagem por uma estação de rastreamento; a resposta desceu na passagem seguinte. O modelo rodou com energia solar armazenada em baterias."
+        "Foram cerca de três semanas de testes dos sistemas antes do primeiro pedido. O comando subiu durante a passagem por uma estação de rastreamento; a resposta desceu quando o satélite passou sobre Svalbard, na Noruega. O modelo rodou com energia solar armazenada em baterias."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "items": [
         {"when": "nov. 2025", "what": "Google apresenta o Project Suncatcher e o teste de radiação nos chips: a memória foi a parte mais sensível."},
         {"when": "1º out. 2026", "what": "Satélite protótipo sobe num Falcon 9, junto com mais de 100 outras cargas."},
-        {"when": "30 out. 2026", "what": "Primeira resposta do Gemma 4 em órbita. Próximos testes: calor e radiação."},
+        {"when": "30 out. 2026", "what": "Google anuncia a primeira resposta do Gemma 4 em órbita. Próximos testes: calor e radiação."},
         {"when": "2027", "what": "Plano de lançar dois satélites ligados entre si, com mais energia e link óptico, se os chips aguentarem."},
         {"when": "anos 2030", "what": "Em meados da década, o Google supõe que lançar vai custar US$ 200 por kg, mais de 10 vezes abaixo do preço atual. É a premissa para a conta fechar."}
       ]
@@ -89,7 +89,7 @@
         "lines": [
           "Se os chips sobrevivem à radiação por anos. Ela pode corromper a memória sem avisar; o teste em órbita ainda não tem resultado.",
           "Como tirar o calor: no vácuo não há ar para resfriar. O próprio Google chama isso de \"desafio de pesquisa crucial\".",
-          "O custo. Brandon Lucia, da Carnegie Mellon, disse à NPR que manutenção no espaço fica \"10, talvez 100 vezes\" mais cara e complexa."
+          "O custo. Brandon Lucia, da Carnegie Mellon, disse à NPR que manutenção no espaço fica \"10, talvez 100 vezes\" mais cara e complexa (tradução livre)."
         ]
       }
     },
@@ -109,7 +109,7 @@
     {
       "type": "sources",
       "items": [
-        {"who": "Travis Beals, Google Research, \"Project Suncatcher: our first AI response from a TPU in orbit\", 30 out. 2026", "what": "lançamento em 1º de outubro, Gemma 4, haicai, Svalbard, limeriques e telemetria, \"Hello World\", testes de calor e radiação, dois satélites em 2027"},
+        {"who": "Travis Beals, Google Research, \"We've received our first response from the Project Suncatcher prototype satellite\", 30 out. 2026", "what": "lançamento em 1º de outubro, Gemma 4, haicai, Svalbard, limeriques e telemetria, \"Hello World\", testes de calor e radiação, dois satélites em 2027"},
         {"who": "Tim Fernholz, TechCrunch, 30 out. 2026", "what": "Falcon 9 com mais de 100 cargas, satélite da Planet, quatro TPUs, 1 kW, um chip por vez por cerca de 20 minutos, três semanas de testes, \"operando nominalmente\", link óptico"},
         {"who": "John Ruwitch e Geoff Brumfiel, NPR, 2 out. 2026", "what": "tamanho de geladeira, órbita e baterias (correção), citações de Travis Beals e Brandon Lucia, calor como desafio, visão de longo prazo com lasers"},
         {"who": "Ana-Maria Stanciuc, The Next Web, 1º nov. 2026", "what": "energia solar armazenada, radiação pode corromper memória, plano de 2027"},
