@@ -28,11 +28,11 @@
         },
         {
           "k": "Cobaias",
-          "v": "Camundongos com diabetes tipo 2 e obesidade. O teste automático de ponta a ponta rodou em oito animais, por cerca de 12 dias."
+          "v": "Camundongos com diabetes tipo 2 e obesidade. O teste automático de ponta a ponta rodou em oito animais, por cerca de duas semanas (12 dias)."
         },
         {
           "k": "Duração",
-          "v": "Seis semanas de tratamento, com o implante funcionando sem falhas, segundo os autores."
+          "v": "Seis semanas de tratamento, com o implante funcionando de forma confiável, segundo os autores."
         },
         {
           "k": "Humanos",
@@ -76,7 +76,7 @@
           "big": "0,75",
           "unit": " volt",
           "label": "é a tensão em que o aparelho opera, com corrente de 10 miliamperes, segundo a revista GEN",
-          "text": "Os autores dizem não ter visto dano ao tecido por eletricidade ou calor. Uma pilha comum tem 1,5 volt."
+          "text": "Os autores dizem não ter visto dano ao tecido por eletricidade ou calor."
         },
         {
           "big": "90",
@@ -116,7 +116,7 @@
         "title": "Não mostra",
         "lines": [
           "Que funciona em pessoas. Um humano come cerca de 250 g de carboidrato por dia; um camundongo, 2 g, estima o endocrinologista David Klonoff.",
-          "Que o gluconato é inofensivo em grande quantidade: o efeito sobre os rins e o equilíbrio do sangue não foi medido.",
+          "Que o gluconato é inofensivo em grande quantidade: ainda falta saber quanto dele os rins conseguem eliminar, alerta Klonoff.",
           "Que não há outros subprodutos da reação, ponto levantado pela farmacóloga Josefa García Barrado."
         ]
       }
@@ -129,7 +129,7 @@
       "caption": "Foto: ThisisEngineering / Unsplash",
       "body": [
         "David Klonoff, endocrinologista do Sutter Mills-Peninsula Medical Center (EUA), que não participou do estudo, chamou o método de \"potencialmente promissor\". E completou: \"os riscos são significativos e precisam ser descartados com cuidado antes de um teste seguro em humanos\" (tradução livre, à Science News).",
-        "O próprio Fussenegger diz que o aparelho **não substitui alimentação saudável e exercício**, e que o maior desafio é provar que ele converte glicose suficiente em um corpo humano."
+        "O próprio Fussenegger diz que o aparelho **não substitui alimentação saudável e exercício**, e que um desafio importante é provar que ele converte glicose suficiente em um corpo humano."
       ]
     },
     {
