@@ -1,0 +1,176 @@
+{
+  "slug": "implante-glicose",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/implante-glicose-1.jpg",
+      "title": "O implante que transforma açúcar do sangue em xixi",
+      "dek": "Pesquisadores da ETH Zurich testaram, em camundongos com diabetes e obesidade, um aparelho sob a pele que converte o excesso de glicose em uma substância que sai na urina. Sem remédio, sem insulina. O que falta: provar que funciona em gente.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi testado, e em quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Science, 22 de outubro de 2026. Primeiro autor: Debasis Maity; líder: Martin Fussenegger."
+        },
+        {
+          "k": "Quem",
+          "v": "ETH Zurich, Departamento de Biossistemas, campus da Basileia (Suíça)."
+        },
+        {
+          "k": "Cobaias",
+          "v": "Camundongos com diabetes tipo 2 e obesidade. O teste automático de ponta a ponta rodou em oito animais, por cerca de 12 dias."
+        },
+        {
+          "k": "Duração",
+          "v": "Seis semanas de tratamento, com o implante funcionando sem falhas, segundo os autores."
+        },
+        {
+          "k": "Humanos",
+          "v": "Nenhum. Próximo passo: porcos e ovelhas."
+        },
+        {
+          "k": "Nome",
+          "v": "ECHO (sigla em inglês para otimização de saúde eletrocatalítica em circuito fechado)."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Quatro passos, nenhum remédio",
+      "steps": [
+        {
+          "title": "Um sensor comum mede o açúcar",
+          "text": "É o mesmo sensor de glicose que pessoas com diabetes já colam no braço. Ele lê a glicose no tecido sob a pele."
+        },
+        {
+          "title": "O celular recebe o aviso",
+          "text": "Quando a glicose sobe depois de uma refeição, o sensor avisa um smartphone ou relógio por Bluetooth."
+        },
+        {
+          "title": "O implante liga e converte",
+          "text": "O celular liga o implante por energia sem fio (13,56 MHz). Dentro dele, um catalisador de grafite coberto com ouro e platina transforma glicose em gluconato, uma substância que os rins eliminam."
+        },
+        {
+          "title": "Desliga sozinho",
+          "text": "Quando a glicose volta ao alvo, o sistema para. Isso evita que o açúcar caia demais. O gluconato sai na urina."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "Pouca energia, resposta rápida",
+      "cells": [
+        {
+          "big": "0,75",
+          "unit": " volt",
+          "label": "é a tensão em que o aparelho opera, com corrente de 10 miliamperes, segundo a revista GEN",
+          "text": "Os autores dizem não ter visto dano ao tecido por eletricidade ou calor. Uma pilha comum tem 1,5 volt."
+        },
+        {
+          "big": "90",
+          "unit": " min",
+          "label": "no máximo (de 60 a 90) foi o tempo para a glicose alta voltar ao normal depois de o implante ser ligado, segundo a Science News",
+          "text": "No laboratório, uma versão maior do catalisador limpou quase toda a glicose de 5 litros de solução, mais ou menos o volume de sangue de um adulto."
+        }
+      ],
+      "body": [
+        "O catalisador é todo inorgânico: ==não usa células nem enzimas==. Por isso, dizem os autores, deve ser mais simples de transformar em produto médico do que implantes com células vivas."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O resultado",
+      "big": "10",
+      "unit": "%",
+      "label": "do peso corporal, até cerca disso, perderam os camundongos tratados em seis semanas. Os triglicerídeos (gorduras no sangue) também caíram",
+      "body": [
+        "A ideia dos autores: o açúcar que vira gluconato **deixa de ser guardado como gordura**. Nos animais, subiram os corpos cetônicos no sangue, sinal de que o corpo passou a queimar reservas de gordura, suspeitam os pesquisadores.",
+        "O catalisador ainda convertia glicose depois de até três meses sob a pele. A vida útil do aparelho completo não foi medida."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Prova e não prova",
+      "heading": "O que o estudo mostra, e o que não mostra",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Em camundongos com diabetes e obesidade, a glicose voltou ao normal com o implante ligado.",
+          "Os animais tratados perderam peso e tiveram menos gordura no sangue em seis semanas.",
+          "O sistema rodou sozinho, do sensor ao implante, sem intervenção humana."
+        ]
+      },
+      "b": {
+        "title": "Não mostra",
+        "lines": [
+          "Que funciona em pessoas. Um humano come cerca de 250 g de carboidrato por dia; um camundongo, 2 g, estima o endocrinologista David Klonoff.",
+          "Que o gluconato é inofensivo em grande quantidade: o efeito sobre os rins e o equilíbrio do sangue não foi medido.",
+          "Que não há outros subprodutos da reação, ponto levantado pela farmacóloga Josefa García Barrado."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Contraponto",
+      "heading": "Promissor, com riscos a descartar",
+      "photo": "fotos/implante-glicose-2.jpg",
+      "caption": "Foto: ThisisEngineering / Unsplash",
+      "body": [
+        "David Klonoff, endocrinologista do Sutter Mills-Peninsula Medical Center (EUA), que não participou do estudo, chamou o método de \"potencialmente promissor\". E completou: \"os riscos são significativos e precisam ser descartados com cuidado antes de um teste seguro em humanos\" (tradução livre, à Science News).",
+        "O próprio Fussenegger diz que o aparelho **não substitui alimentação saudável e exercício**, e que o maior desafio é provar que ele converte glicose suficiente em um corpo humano."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Em vez de mandar o corpo controlar o açúcar, o implante tira o açúcar.** Ele converte glicose em gluconato, que sai na urina, e desliga quando o nível volta ao normal.",
+        "**Funcionou em camundongos por seis semanas.** Glicose normalizada em 60 a 90 minutos, até cerca de 10% de perda de peso, sem dano ao tecido visto pelos autores.",
+        "**É só o começo.** Nenhum humano testado; um adulto come mais de 100 vezes mais carboidrato que um camundongo, segundo a estimativa de um especialista; e ninguém sabe ainda o que tanto gluconato faz aos rins."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Maity, Guha Ray, Buchmann, Charpin-El Hamri e Fussenegger — Science, 22 out. 2026",
+          "what": "\"Wireless electrocatalytic closed-loop system for drug-free management of diabesity\" (doi 10.1126/science.ady8560)"
+        },
+        {
+          "who": "ETH Zurich (Peter Rüegg), 22 out. 2026",
+          "what": "Comunicado oficial: mecanismo, catalisador de grafite, ouro e platina, 13,56 MHz, 5 litros, seis semanas, citações de Fussenegger"
+        },
+        {
+          "who": "Science News (Isha Ishtiaq), 3 nov. 2026",
+          "what": "Oito camundongos no teste automático, 60 a 90 minutos, até 10% de peso, três meses do catalisador, comentário de David Klonoff e os 250 g contra 2 g"
+        },
+        {
+          "who": "Science Media Centre Espanha, 22 out. 2026",
+          "what": "Reações de José M. Ordovás (Tufts), Josefa García Barrado (Salamanca) e J. P. Miramontes: 12 dias de teste automático, subprodutos, limites"
+        },
+        {
+          "who": "GEN e Live Science, 23 e 27 out. 2026",
+          "what": "Nome ECHO, 0,75 volt e 10 miliamperes; citações de Fussenegger sobre dieta, exercício e escala"
+        },
+        {
+          "who": "Fotos",
+          "what": "Sweet Life e ThisisEngineering, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A frase que resume a aposta, dita pelo líder do estudo, Martin Fussenegger: por décadas tratamos o diabetes dizendo ao corpo como lidar com a glicose; agora a ideia é tirar a glicose diretamente, com eletrônica em vez de remédio.\n\nO estudo saiu na Science em 22 de outubro. Um implante de cerca de 3 centímetros, com um catalisador de grafite, ouro e platina, converte o excesso de açúcar em gluconato, que sai na urina. Um sensor de glicose comum no braço avisa o celular, o celular liga o implante sem fio, e tudo desliga quando o açúcar volta ao normal. Em camundongos com diabetes e obesidade, a glicose normalizou em 60 a 90 minutos e os animais perderam até cerca de 10% do peso em seis semanas. Nenhum humano foi testado: um adulto come mais de 100 vezes mais carboidrato que um camundongo, e ninguém sabe ainda o que tanto gluconato faz aos rins.\n\nVocê aceitaria um implante no lugar de um remédio diário, se ele fosse aprovado?\n\n—\nFontes no último slide.\n\n#diabetes #glicose #implante #estudo #biotecnologia #saude #ciencia #tecnologia"
+}
