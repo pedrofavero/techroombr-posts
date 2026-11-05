@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/php2shell-1.jpg",
       "title": "EUA: eleitores barraram data centers em 46 de 47 votações",
-      "dek": "Na eleição de terça-feira (3), 41 cidades e condados americanos votaram sobre data centers. Quase todos disseram não. Nem a propaganda da indústria mudou o resultado.",
+      "dek": "Na eleição de terça-feira (3), houve 41 votações locais sobre data centers nos EUA. Quase todas disseram não. Nem a propaganda da indústria mudou o resultado.",
       "swipe": "arraste →"
     },
     {
@@ -57,7 +57,7 @@
         "**Proibição total**, como em Granville (Ohio) e Alhambra (Califórnia).",
         "**Limite de potência**: barrar instalações acima de 25 megawatts, o corte que separa um data center comum de um \"hyperscale\", os gigantes das big techs.",
         "**Moratória**: pausa de 180 dias para novos projetos, em cidades do Maine.",
-        "**Voto popular obrigatório** antes de aprovar um projeto grande, como em Grove City (Ohio) e Janesville (Wisconsin).",
+        "**Voto popular obrigatório** antes de aprovar um projeto grande, como em Grove City (Ohio).",
         "**Rejeição de rezoneamento**: desfazer a mudança de uso do terreno, como em Wilmington (Ohio)."
       ]
     },
@@ -137,7 +137,7 @@
       "body": [
         "Na pesquisa de Ohio, o motivo número um da rejeição foi o **meio ambiente**, seguido de qualidade de vida e economia. E **65%** se disseram contra incentivos fiscais para data centers.",
         "Keith Durkin, sociólogo da Ohio Northern University, atribui o sentimento ao medo dos riscos ambientais e econômicos e ao pouco que as pessoas sabem sobre esses prédios. Em tradução livre: \"Nunca vi nenhuma propaganda pró-data center.\"",
-        "Para Ben Green, professor de políticas públicas na Universidade de Michigan, a questão é de voz: grandes empresas chegam e a comunidade não participa da decisão. Uma pesquisa de boca de urna da NBC, citada pela Reason, achou que IA e data centers pesaram na escolha de **56%** dos eleitores."
+        "Para Ben Green, professor assistente de políticas públicas na Universidade de Michigan, a questão é de voz: grandes empresas chegam e a comunidade não participa da decisão. Uma pesquisa de boca de urna da NBC, citada pela Reason, achou que IA e data centers pesaram na escolha de **56%** dos eleitores."
       ]
     },
     {
@@ -157,7 +157,7 @@
         "lines": [
           "Se obras já em andamento param. Em Trenton, a proibição não deve atingir o campus da AWS em construção, segundo o Journal-News.",
           "Resultados ainda são preliminares; algumas contagens seguiam em curso em 4 nov.",
-          "Se as medidas resistem a contestações. A proibição estadual de Ohio ficou para 2027."
+          "Se as medidas resistem a contestações. A campanha por uma proibição estadual em Ohio mira 2027 (Ballotpedia)."
         ]
       }
     },
@@ -200,5 +200,5 @@
       ]
     }
   ],
-  "legenda": "A votação mais consistente da eleição americana de terça não foi sobre um candidato. Foi sobre prédios cheios de computadores.\n\nSegundo a Ballotpedia, 41 cidades e condados de 10 estados votaram em 3 de novembro sobre data centers, as instalações que sustentam a internet e a inteligência artificial. Somando as votações anteriores do ano, 46 das 47 medidas já decididas favoreceram proibir, limitar ou exigir voto popular antes de novos projetos. A única exceção foi Harwood, na Dakota do Norte. Ohio, que já tem mais de 200 data centers e 125 moratórias locais, concentrou 21 das medidas. Uma pesquisa de boca de urna da NBC achou que o tema pesou na escolha de 56% dos eleitores.\n\nNo carrossel, separamos o que está apurado, o que a indústria gastou e o que ainda ninguém sabe, incluindo se obras já começadas param.\n\nSe um data center fosse anunciado no seu bairro, você votaria a favor ou contra?\n\n—\nFontes no último slide.\n\n#datacenter #inteligenciaartificial #energia #eleicoes #eua #noticia #tecnologia #infraestrutura"
+  "legenda": "A votação mais consistente da eleição americana de terça não foi sobre um candidato. Foi sobre prédios cheios de computadores.\n\nSegundo a Ballotpedia, houve 41 votações locais em 10 estados, em 3 de novembro, sobre data centers, as instalações que sustentam a internet e a inteligência artificial. Somando as votações anteriores do ano, 46 das 47 medidas já decididas favoreceram proibir, limitar ou exigir voto popular antes de novos projetos. A única exceção foi Harwood, na Dakota do Norte. Ohio, que já tem mais de 200 data centers e 125 moratórias locais, concentrou 21 das medidas. Uma pesquisa de boca de urna da NBC achou que o tema pesou na escolha de 56% dos eleitores.\n\nNo carrossel, separamos o que está apurado, o que a indústria gastou e o que ainda ninguém sabe, incluindo se obras já começadas param.\n\nSe um data center fosse anunciado no seu bairro, você votaria a favor ou contra?\n\n—\nFontes no último slide.\n\n#datacenter #inteligenciaartificial #energia #eleicoes #eua #noticia #tecnologia #infraestrutura"
 }

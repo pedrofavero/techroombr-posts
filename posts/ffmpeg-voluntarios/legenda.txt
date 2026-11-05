@@ -2,7 +2,7 @@ Duas agências de inteligência já pediram ao VLC uma porta dos fundos. A respo
 
 Essa é só uma das histórias da conversa de 4 horas de Lex Fridman com Kempf, presidente da VideoLAN, e Kieran Kunhya, colaborador do FFmpeg, o software gratuito que lê e comprime vídeo dentro do Chrome, do VLC, de smart TVs e dos servidores do YouTube. Segundo Kempf, o núcleo que mantém o FFmpeg tem de 10 a 15 pessoas; o do VLC, 5. Ele diz ter recusado dezenas de milhões de dólares de empresas de anúncios para manter o VLC limpo. E, em 2025, o grupo bateu de frente com o Google por causa de relatórios de bugs gerados por IA em formatos de vídeo que quase ninguém usa.
 
-No carrossel, a ideia central, os números e o contraponto: o próprio Kunhya reconhece que o Google financia e contribui com o projeto.
+No carrossel, a ideia central, os números e o contraponto: o próprio Kunhya reconhece que o Google financia estudantes e contribui com código para o projeto.
 
 Você já tinha ouvido falar do FFmpeg, o programa que roda por trás dos vídeos que você assiste?
 
