@@ -1,0 +1,135 @@
+{
+  "slug": "ffmpeg-voluntarios",
+  "categoria": "CONVERSA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/ia-programadores-1.jpg",
+      "title": "YouTube, Chrome e sua TV usam um código feito por voluntários",
+      "dek": "Chama-se FFmpeg. No podcast de Lex Fridman, dois de seus responsáveis contam quem o mantém, por que recusaram milhões e por que brigaram com o Google.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A conversa",
+      "heading": "O programa que ninguém vê e todo mundo usa",
+      "photo": "fotos/php2shell-2.jpg",
+      "caption": "Foto: Arif Riyanto / Unsplash",
+      "body": [
+        "Em maio, Lex Fridman recebeu **Jean-Baptiste Kempf**, presidente da VideoLAN e líder do VLC, e **Kieran Kunhya**, engenheiro de codecs e colaborador do FFmpeg. Transcrição pública, 4 horas.",
+        "O ==FFmpeg== é um software gratuito que lê, converte e comprime áudio e vídeo. Começou em 2000, criado por Fabrice Bellard. Segundo Kempf, é usado \"como biblioteca dentro de tudo, do VLC ao Chrome às smart TVs\" (tradução livre). No YouTube, diz ele, está do lado do servidor; o Chrome cuida do seu lado.",
+        "Fridman estima que mais de 90% do processamento de vídeo online passa pelo FFmpeg. É uma estimativa do apresentador, sem fonte citada."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A ideia central",
+      "text": "A comunidade central do FFmpeg tem de dez a quinze pessoas.",
+      "who": "Jean-Baptiste Kempf, presidente da VideoLAN, no Lex Fridman Podcast (tradução livre)",
+      "body": [
+        "Desde 2000, entre **2 mil e 3 mil pessoas** já contribuíram com código, diz Kempf. Mas quem garante que tudo continue funcionando é um grupo que cabe numa sala. No VLC, o núcleo é de **cinco pessoas**. Segundo Kunhya, o FFmpeg \"é desenvolvido quase inteiramente por voluntários\"."
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "Quem fica",
+      "heading": "De cada 100 que chegam, 1 permanece",
+      "total": 100,
+      "filled": 1,
+      "on_label": "fica e mantém o código",
+      "off_label": "envia uma correção e desaparece",
+      "body": [
+        "A conta é de Kempf: mil contribuidores ao longo do tempo, dez que ficam, \"uma chance de 1%\" de alguém chegar e permanecer. Quem vai embora deixa o código para os que ficam manterem.",
+        "Kunhya acrescenta: muitos voluntários respondem de forma seca porque chegam exaustos de um dia de trabalho em outro emprego."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O dinheiro recusado",
+      "heading": "\"Recusei dezenas de milhões de dólares, várias vezes\"",
+      "body": [
+        "A frase é de Kempf, em tradução livre. O VLC, nascido em 1996 como projeto de estudantes da École Centrale Paris e aberto ao mundo em 1º de fevereiro de 2001, já foi baixado mais de **3,5 bilhões de vezes**, segundo a própria VideoLAN, uma organização sem fins lucrativos francesa.",
+        "As ofertas eram para embutir barras de ferramentas, trocar o navegador ou o buscador do usuário, ou colocar anúncios dentro do programa. \"Só quem veio até nós foram empresas de anúncios duvidosas\", diz ele. A última oferta, segundo Kempf, foi \"obscena\".",
+        "O argumento: com o dinheiro, o projeto morreria em três anos, e ele teria traído quem trabalha ali de graça. Ele diz não ser contra dinheiro, mas que é preciso \"ganhar dinheiro de forma ética\"."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A briga",
+      "heading": "Uma IA do Google achou um bug num jogo de 1995. E aí?",
+      "body": [
+        "Em 2025, o Google passou a usar uma IA chamada **Big Sleep** para procurar falhas de segurança em programas abertos. Uma delas, no FFmpeg, estava no decodificador de um formato de vídeo usado pelo jogo Rebel Assault II, de 1995.",
+        "O Google abriu um prazo padrão de 90 dias para a correção. Em 31 de outubro de 2025, a conta oficial do FFmpeg no X perguntou, em tradução livre: \"É justo que corporações de trilhões de dólares rodem IA para achar falhas no código de hobby das pessoas?\"",
+        "No podcast, Kunhya chama a enxurrada de relatórios de \"quase um ataque de negação de serviço por relatórios de bug gerados por IA\": textos longos, tudo marcado como alta prioridade, em formatos que quase ninguém usa."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Dois lados",
+      "heading": "O argumento dos voluntários e o contraponto",
+      "a": {
+        "title": "Os voluntários",
+        "lines": [
+          "O prazo de 90 dias ignora como funciona um projeto voluntário, diz Kunhya.",
+          "Quem acha a falha leva o crédito; quem corrige, não. Kempf: o problema é a \"desproporção de meios\" entre descobrir e consertar.",
+          "Pedido do FFmpeg no X: se quer ajudar, mande ou financie correções."
+        ]
+      },
+      "b": {
+        "title": "O contraponto",
+        "lines": [
+          "O Project Zero, do Google, defende que anunciar a falha em uma semana e dar 90 dias encurta o tempo até a correção chegar aos usuários (Tim Willis, jul. 2025).",
+          "O próprio Kunhya: o Google é \"um dos maiores apoiadores do código aberto\", financia estudantes e contribui com os codecs VP9 e AV1.",
+          "Depois da polêmica, o Google começou a enviar correções e criou recompensas por consertos, dizem os dois."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O vídeo da internet depende de poucos:** o núcleo do FFmpeg tem de 10 a 15 pessoas, o do VLC, 5, segundo Kempf.",
+        "**O VLC segue sem anúncios por escolha:** seu líder diz ter recusado dezenas de milhões de dólares de empresas de publicidade.",
+        "**IA achando bugs não resolve sozinha:** descobrir falhas é barato; consertar é trabalho humano, e o Google só passou a mandar correções depois da briga."
+      ],
+      "after": [
+        "Números de equipe e ofertas são declarações dos convidados no podcast, não dados auditados."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Lex Fridman Podcast #496, 6 mai. 2026",
+          "what": "\"FFmpeg: The Incredible Technology Behind Video on the Internet\", com Jean-Baptiste Kempf e Kieran Kunhya; transcrição pública em lexfridman.com/ffmpeg-transcript"
+        },
+        {
+          "who": "VideoLAN, comunicado \"VideoLAN is 20 years old today!\", 1º fev. 2021, e wiki.videolan.org",
+          "what": "origem em 1996 na École Centrale Paris; código aberto em 1º fev. 2001; organização sem fins lucrativos francesa; mais de 3,5 bilhões de downloads"
+        },
+        {
+          "who": "Wikipedia, \"FFmpeg\" (cita LWN, Phoronix e Multimedia.cx)",
+          "what": "criado por Fabrice Bellard em 2000; uso no Chromium, Firefox para Linux e YouTube"
+        },
+        {
+          "who": "GIGAZINE, 12 nov. 2025, e It's FOSS, 14 nov. 2025 (citando The New Stack)",
+          "what": "Big Sleep; codec do Rebel Assault II (1995); post do @FFmpeg de 31 out. 2025; prazo de 90 dias"
+        },
+        {
+          "who": "PiunikaWeb, 6 nov. 2025",
+          "what": "Project Zero, Tim Willis e a política \"Reporting Transparency\" de jul. 2025"
+        },
+        {
+          "who": "Fotos",
+          "what": "Olli Potapenko e Arif Riyanto, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Duas agências de inteligência já pediram ao VLC uma porta dos fundos. A resposta de Jean-Baptiste Kempf, no podcast: se tivessem de comprometer o programa, fechariam o projeto.\n\nEssa é só uma das histórias da conversa de 4 horas de Lex Fridman com Kempf, presidente da VideoLAN, e Kieran Kunhya, colaborador do FFmpeg, o software gratuito que lê e comprime vídeo dentro do Chrome, do VLC, de smart TVs e dos servidores do YouTube. Segundo Kempf, o núcleo que mantém o FFmpeg tem de 10 a 15 pessoas; o do VLC, 5. Ele diz ter recusado dezenas de milhões de dólares de empresas de anúncios para manter o VLC limpo. E, em 2025, o grupo bateu de frente com o Google por causa de relatórios de bugs gerados por IA em formatos de vídeo que quase ninguém usa.\n\nNo carrossel, a ideia central, os números e o contraponto: o próprio Kunhya reconhece que o Google financia e contribui com o projeto.\n\nVocê já tinha ouvido falar do FFmpeg, o programa que roda por trás dos vídeos que você assiste?\n\n—\nFontes no último slide.\n\n#ffmpeg #vlc #codigoaberto #opensource #video #podcast #conversa #tecnologia"
+}

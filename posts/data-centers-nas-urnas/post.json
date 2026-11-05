@@ -1,0 +1,204 @@
+{
+  "slug": "data-centers-nas-urnas",
+  "categoria": "NOTÍCIA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/php2shell-1.jpg",
+      "title": "EUA: eleitores barraram data centers em 46 de 47 votações",
+      "dek": "Na eleição de terça-feira (3), 41 cidades e condados americanos votaram sobre data centers. Quase todos disseram não. Nem a propaganda da indústria mudou o resultado.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A ficha do caso",
+      "rows": [
+        {
+          "k": "Quando",
+          "v": "**3 de novembro de 2026**, eleições de meio de mandato nos EUA"
+        },
+        {
+          "k": "O quê",
+          "v": "**41 votações locais** sobre data centers, em **10 estados**"
+        },
+        {
+          "k": "Resultado",
+          "v": "Das 47 medidas de 2026 já decididas, **46 favoreceram limites** (98%)"
+        },
+        {
+          "k": "A exceção",
+          "v": "Harwood, Dakota do Norte: eleitores rejeitaram uma exigência de revisão extra"
+        },
+        {
+          "k": "Pendentes",
+          "v": "3 votações em dezembro: Clarksville (Arkansas) e Mandan (Dakota do Norte)"
+        },
+        {
+          "k": "Fontes",
+          "v": "Ballotpedia (apuração até 4 nov.), Fortune, Reason, GovTech/Washington Post"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que estava em jogo",
+      "heading": "Cinco tipos de pergunta na cédula",
+      "photo": "fotos/rede-eletrica-calor-3.jpg",
+      "caption": "Foto: Filipe Paulo / Unsplash",
+      "body": [
+        "==Data center== é o prédio cheio de computadores que guarda e processa o que a internet faz, incluindo a inteligência artificial. As medidas votadas eram de cinco tipos:"
+      ],
+      "bullets": [
+        "**Proibição total**, como em Granville (Ohio) e Alhambra (Califórnia).",
+        "**Limite de potência**: barrar instalações acima de 25 megawatts, o corte que separa um data center comum de um \"hyperscale\", os gigantes das big techs.",
+        "**Moratória**: pausa de 180 dias para novos projetos, em cidades do Maine.",
+        "**Voto popular obrigatório** antes de aprovar um projeto grande, como em Grove City (Ohio) e Janesville (Wisconsin).",
+        "**Rejeição de rezoneamento**: desfazer a mudança de uso do terreno, como em Wilmington (Ohio)."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Onde",
+      "heading": "Ohio concentrou mais de 40% das medidas do ano",
+      "bars": [
+        {
+          "name": "Ohio",
+          "value": 21,
+          "label": "21"
+        },
+        {
+          "name": "Illinois",
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "name": "Maine",
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "name": "Kansas",
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "name": "Wisconsin",
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "name": "Califórnia",
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "name": "Outros 7 estados",
+          "value": 10,
+          "label": "10",
+          "other": true
+        }
+      ],
+      "note": "Medidas locais sobre data centers em 2026, por estado (50 no total, em 13 estados). Fonte: Ballotpedia, 4 nov. 2026.",
+      "body": [
+        "Ohio já tem mais de **200 data centers** em operação e **125 moratórias** locais em vigor, segundo a Fortune. Empresas planejam investir até US$ 40 bilhões em infraestrutura de IA no estado até 2030, segundo dados estaduais citados pela revista."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "Vitórias largas, com uma exceção apertada",
+      "cells": [
+        {
+          "big": "82",
+          "unit": "%",
+          "label": "a favor da proibição em Granville, Ohio",
+          "text": "2.015 votos contra 429. Em Alhambra (Califórnia), também 82%; em Edgewater (Flórida), 77%; em Bloomington (Illinois), 78%."
+        },
+        {
+          "big": "55",
+          "unit": "%",
+          "label": "o resultado mais apertado, em Grove City, Ohio",
+          "text": "11.317 a 9.411 para exigir voto popular antes de projetos com mais de 20 MW ou 500 mil galões de água por dia."
+        }
+      ],
+      "body": [
+        "Pesquisas já apontavam o clima. Uma Gallup de maio achou cerca de **70%** dos americanos contra data centers na própria região. Em Ohio, levantamento da Ohio Northern University com 1.650 adultos deu 55% contra e 22% a favor da construção no estado."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por quê",
+      "heading": "O eleitor não vê o prédio. Vê a conta e a incerteza.",
+      "body": [
+        "Na pesquisa de Ohio, o motivo número um da rejeição foi o **meio ambiente**, seguido de qualidade de vida e economia. E **65%** se disseram contra incentivos fiscais para data centers.",
+        "Keith Durkin, sociólogo da Ohio Northern University, atribui o sentimento ao medo dos riscos ambientais e econômicos e ao pouco que as pessoas sabem sobre esses prédios. Em tradução livre: \"Nunca vi nenhuma propaganda pró-data center.\"",
+        "Para Ben Green, professor de políticas públicas na Universidade de Michigan, a questão é de voz: grandes empresas chegam e a comunidade não participa da decisão. Uma pesquisa de boca de urna da NBC, citada pela Reason, achou que IA e data centers pesaram na escolha de **56%** dos eleitores."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Documentado",
+        "lines": [
+          "46 das 47 medidas de 2026 já decididas favoreceram limites (Ballotpedia).",
+          "Em Ohio, pelo menos 14 municípios aprovaram proibição ou restrição (Fortune).",
+          "Um grupo pró-IA gastou ao menos US$ 2,54 milhões em TV em Ohio, segundo a DeSmog, citada pela Fortune."
+        ]
+      },
+      "b": {
+        "title": "Em aberto",
+        "lines": [
+          "Se obras já em andamento param. Em Trenton, a proibição não deve atingir o campus da AWS em construção, segundo o Journal-News.",
+          "Resultados ainda são preliminares; algumas contagens seguiam em curso em 4 nov.",
+          "Se as medidas resistem a contestações. A proibição estadual de Ohio ficou para 2027."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Quase unanimidade:** 46 de 47 votações locais nos EUA em 2026 favoreceram limitar data centers. A exceção foi uma cidade na Dakota do Norte.",
+        "**Ohio é o epicentro:** 21 das 41 medidas de terça, mais de 200 data centers em operação e US$ 40 bilhões em investimentos planejados em IA.",
+        "**O motivo é desconfiança, não só energia:** meio ambiente, qualidade de vida e incentivos fiscais lideram a rejeição, segundo a pesquisa de Ohio."
+      ],
+      "after": [
+        "Resultados preliminares, apurados até 4 de novembro. Opiniões de pesquisadores são apresentadas como opiniões."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Ballotpedia, \"Data center-related ballot measures, 2026\" (apuração até 4 nov. 2026)",
+          "what": "50 medidas em 13 estados; 41 em 3 nov.; 46 de 47 favoráveis a limites; Harwood; votações pendentes; resultados por cidade (Granville, Grove City, Alhambra, Edgewater, Bloomington)"
+        },
+        {
+          "who": "Fortune, Sasha Rogelberg, 4 nov. 2026",
+          "what": "14 municípios de Ohio; 200+ data centers; 125 moratórias; US$ 40 bi; pesquisa ICAPP/SurveyUSA; Gallup; Durkin e Green; DeSmog; Trenton e AWS"
+        },
+        {
+          "who": "Reason, Tosin Akintola, 4 nov. 2026",
+          "what": "definição de hyperscaler (25 MW); 21 medidas em 18 jurisdições de Ohio; boca de urna NBC (56%)"
+        },
+        {
+          "who": "GovTech/TNS, 4 nov. 2026, citando o Washington Post",
+          "what": "41 medidas em 3 nov.; cerca de 30 jurisdições contra data centers na apuração inicial"
+        },
+        {
+          "who": "Fotos",
+          "what": "Eric Stoynov e Filipe Paulo, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A votação mais consistente da eleição americana de terça não foi sobre um candidato. Foi sobre prédios cheios de computadores.\n\nSegundo a Ballotpedia, 41 cidades e condados de 10 estados votaram em 3 de novembro sobre data centers, as instalações que sustentam a internet e a inteligência artificial. Somando as votações anteriores do ano, 46 das 47 medidas já decididas favoreceram proibir, limitar ou exigir voto popular antes de novos projetos. A única exceção foi Harwood, na Dakota do Norte. Ohio, que já tem mais de 200 data centers e 125 moratórias locais, concentrou 21 das medidas. Uma pesquisa de boca de urna da NBC achou que o tema pesou na escolha de 56% dos eleitores.\n\nNo carrossel, separamos o que está apurado, o que a indústria gastou e o que ainda ninguém sabe, incluindo se obras já começadas param.\n\nSe um data center fosse anunciado no seu bairro, você votaria a favor ou contra?\n\n—\nFontes no último slide.\n\n#datacenter #inteligenciaartificial #energia #eleicoes #eua #noticia #tecnologia #infraestrutura"
+}
