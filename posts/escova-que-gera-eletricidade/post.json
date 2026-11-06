@@ -1,0 +1,182 @@
+{
+  "slug": "escova-que-gera-eletricidade",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/exame-sangue-cancer-2.jpg",
+      "title": "Uma escova sem pilha que gera eletricidade ao escovar",
+      "dek": "Pesquisadores da Universidade de Pequim fizeram cerdas de um plástico que cria carga elétrica quando se dobra. No laboratório, a carga matou mais bactérias que o náilon. Em 115 adultos, por três meses, houve menos placa e menos sangramento. O que falta: provar que isso evita cárie.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi testado, e em quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Science Advances, 4 de novembro de 2026. Lista de autores encabeçada por Yanhui Lu; contatos do estudo: Xuehui Zhang e Xuliang Deng."
+        },
+        {
+          "k": "Quem",
+          "v": "Universidade de Pequim, Hospital de Estomatologia (odontologia), China."
+        },
+        {
+          "k": "Laboratório",
+          "v": "Bactérias cultivadas sobre as cerdas e placa humana sobre esmalte de dente de boi."
+        },
+        {
+          "k": "Pessoas",
+          "v": "115 adultos com inflamação na gengiva ou cárie, sorteados entre a escova nova e uma de náilon, duas vezes ao dia, por três meses. 109 concluíram."
+        },
+        {
+          "k": "Quem fez",
+          "v": "A mesma equipe que criou a escova. Não é um teste independente."
+        },
+        {
+          "k": "Produto",
+          "v": "Nenhum à venda. Nenhuma empresa, preço ou data citados."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Da cerda dobrada à bactéria morta",
+      "steps": [
+        {
+          "title": "Um plástico que gera carga",
+          "text": "As cerdas são de PVDF (fluoreto de polivinilideno), um plástico que produz carga elétrica quando é dobrado. Materiais assim se chamam piezoelétricos. A equipe esticou e aqueceu o material para dar essa propriedade."
+        },
+        {
+          "title": "Escovar é dobrar",
+          "text": "A cada passada, as cerdas se curvam e geram uma pequena carga. Não há bateria nem fio: a energia vem do movimento da sua mão."
+        },
+        {
+          "title": "A carga reage com a saliva",
+          "text": "Na saliva e na água, a carga dispara reações que criam espécies reativas de oxigênio: moléculas muito reativas que danificam a membrana das bactérias."
+        },
+        {
+          "title": "A prova do mecanismo",
+          "text": "Quando os autores adicionaram um antioxidante, que neutraliza essas moléculas, o efeito contra as bactérias quase sumiu. Para eles, é o sinal de que a eletricidade é a chave."
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "No laboratório",
+      "heading": "Bactérias reduzidas: escova nova contra náilon",
+      "bars": [
+        { "name": "S. mutans (cárie), escova nova", "value": 53, "label": "53%" },
+        { "name": "S. mutans, náilon", "value": 9, "label": "9%", "other": true },
+        { "name": "P. gingivalis (gengiva), escova nova", "value": 78, "label": "até 78%" },
+        { "name": "P. gingivalis, náilon", "value": 8, "label": "< 8%", "other": true },
+        { "name": "Placa em esmalte de boi, escova nova", "value": 99, "label": "> 99%" },
+        { "name": "Placa em esmalte de boi, náilon", "value": 80, "label": "80%", "other": true }
+      ],
+      "note": "Redução das bactérias cultivadas sobre as cerdas e da placa humana removida do esmalte em 3 minutos de escovação. Fonte: Live Science, Gigazine e BigGo, sobre o artigo.",
+      "body": [
+        "Streptococcus mutans é a bactéria mais ligada à cárie; Porphyromonas gingivalis, à periodontite, a inflamação que destrói o apoio do dente."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Nas pessoas",
+      "heading": "Três meses, duas escovas",
+      "cells": [
+        {
+          "big": "115",
+          "unit": " adultos",
+          "label": "com gengiva inflamada ou cárie foram sorteados entre a escova nova e uma de náilon comum",
+          "text": "Mesmas instruções de escovação, duas vezes ao dia. 109 chegaram ao fim e foram examinados."
+        },
+        {
+          "big": "40",
+          "unit": "%",
+          "label": "foi a melhora aproximada nos índices de placa, inflamação e sangramento no grupo da escova nova, contra cerca de 15% no grupo do náilon, segundo as reportagens",
+          "text": "O sequenciamento genético da saliva mostrou menos bactérias ligadas a doença e mais bactérias benéficas."
+        }
+      ],
+      "body": [
+        "O artigo ==não relata se os participantes sentiram alguma diferença== ao escovar. E a equipe chama o próprio teste de relativamente pequeno."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Prova e não prova",
+      "heading": "O que o estudo mostra, e o que não mostra",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Cerdas de PVDF geram carga ao dobrar e matam mais bactérias em laboratório do que o náilon.",
+          "Em 3 meses de uso, as cerdas mantiveram a forma e a carga; células de camundongo e esmalte de boi não mostraram dano.",
+          "Em 115 adultos, menos placa, inflamação e sangramento do que com a escova comum."
+        ]
+      },
+      "b": {
+        "title": "Não mostra",
+        "lines": [
+          "Que previne cárie ou perda de dente. Menos placa hoje não é menos cárie daqui a anos; isso pede acompanhamento mais longo.",
+          "Que é seguro usar por anos na boca. Os testes de segurança foram em células e esmalte de boi, não em gente, por longo prazo.",
+          "Que a eletricidade poupa as bactérias boas. Os autores admitem que essa seletividade ainda não está clara."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Contraponto",
+      "heading": "Uma prova de conceito, diz quem não participou",
+      "photo": "fotos/implante-glicose-2.jpg",
+      "caption": "Foto: ThisisEngineering / Unsplash",
+      "body": [
+        "Nicholas Jakubovics, microbiologista oral da Universidade de Newcastle (Reino Unido), que não participou do estudo, chamou a escova de \"uma prova de conceito\" e disse: \"Queremos ter certeza de que é segura para os tecidos no uso de longo prazo\" (tradução livre, à Live Science).",
+        "Ele lembra que, no laboratório, as bactérias cresceram horas sobre as cerdas, enquanto na boca a cerda toca o dente só por um instante. E pede **estudos grandes** para saber se a escova evita cárie e perda de dente."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**A escova não tem pilha.** As cerdas são de um plástico que gera carga elétrica ao dobrar; a carga, na saliva, cria moléculas que atacam bactérias.",
+        "**No laboratório, venceu o náilon.** Reduziu a bactéria da cárie em cerca de 53% (náilon: 9%) e a da gengiva em até 78% (náilon: menos de 8%).",
+        "**Em gente, é só o começo.** 115 adultos, 3 meses, menos placa e sangramento. Ninguém sabe ainda se evita cárie nem se é segura por anos. Nada à venda."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Lu, Zhang, Deng e outros — Science Advances, 4 nov. 2026",
+          "what": "\"Self-charged toothbrush facilitates tooth healthcare maintenance\" (doi 10.1126/sciadv.aeg5744)"
+        },
+        {
+          "who": "EurekAlert / AAAS, 4 nov. 2026",
+          "what": "Comunicado oficial da revista: cerdas piezoelétricas, espécies reativas de oxigênio, 115 voluntários por 3 meses, P. gingivalis"
+        },
+        {
+          "who": "Live Science (Isha Ishtiaq), 4 nov. 2026",
+          "what": "PVDF, 53% e 78% contra 9% e 8%, placa em esmalte de boi, antioxidante, sorteio dos 115 adultos, testes de segurança e citações de Nicholas Jakubovics"
+        },
+        {
+          "who": "New Atlas (Mike McRae), 4 nov. 2026",
+          "what": "Sem bateria, 45% a 78% contra menos de 10%, mais de 99% de remoção, ressalva sobre cárie no longo prazo"
+        },
+        {
+          "who": "Gigazine e BigGo Finance, 5 e 6 nov. 2026",
+          "what": "Material esticado e aquecido, 3 minutos de escovação, 80% do náilon, 109 concluintes, melhora de cerca de 40% contra 15%"
+        },
+        {
+          "who": "Fotos",
+          "what": "National Cancer Institute e ThisisEngineering, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A parte mais curiosa dessa escova não é a eletricidade. É de onde ela vem: do movimento da sua mão, sem pilha, sem fio e sem carregador.\n\nO estudo saiu na Science Advances em 4 de novembro, feito pela equipe de Xuliang Deng e Xuehui Zhang, da Universidade de Pequim. As cerdas são de PVDF, um plástico que gera carga elétrica quando se dobra. Na saliva, essa carga cria moléculas reativas de oxigênio que danificam bactérias. No laboratório, a escova reduziu a bactéria da cárie em cerca de 53% (o náilon, 9%) e a da gengiva em até 78% (náilon, menos de 8%). Em 115 adultos sorteados entre as duas escovas, por três meses, o grupo da escova nova teve menos placa, inflamação e sangramento. Vale a ressalva: o teste foi feito por quem criou a escova, é pequeno e curto, e ninguém mediu se ela evita cárie. Não há produto à venda.\n\nVocê trocaria sua escova por uma dessas antes de ver um teste de longo prazo?\n\n—\nFontes no último slide.\n\n#escovadedentes #odontologia #estudo #piezoeletrico #saudebucal #ciencia #tecnologia #inovacao"
+}

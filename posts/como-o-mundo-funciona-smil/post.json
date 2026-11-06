@@ -1,0 +1,138 @@
+{
+  "slug": "como-o-mundo-funciona-smil",
+  "categoria": "ESTANTE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/rede-eletrica-calor-1.jpg",
+      "title": "O livro que diz que o mundo roda em quatro materiais",
+      "dek": "Amônia, aço, concreto e plástico. Para Vaclav Smil, um dos autores preferidos de Bill Gates, é neles, e no combustível fóssil que os produz, que a civilização se apoia. \"Como o Mundo Funciona\" explica por que isso muda devagar. E irrita gente dos dois lados.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Sete capítulos, nenhum milagre",
+      "rows": [
+        { "k": "Título", "v": "Como o Mundo Funciona: um guia científico para o nosso passado, presente e futuro" },
+        { "k": "Autor", "v": "Vaclav Smil, professor emérito da Universidade de Manitoba (Canadá), que deixou a antiga Tchecoslováquia aos 25 anos; autor de mais de 40 livros" },
+        { "k": "Original", "v": "How the World Really Works, Viking/Penguin, 2022" },
+        { "k": "No Brasil", "v": "Intrínseca, 2024, tradução de Antenor Savoldi Jr., 400 páginas" },
+        { "k": "Capítulos", "v": "Energia, alimentos, materiais, globalização, riscos, meio ambiente e futuro, mais um apêndice sobre ordens de grandeza" },
+        { "k": "Para quem", "v": "Escrito \"para o leigo\", diz a introdução. Muitos números, nenhuma receita política" }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia central",
+      "heading": "Quatro pilares, e todos dependem de combustível fóssil",
+      "photo": "fotos/rede-eletrica-calor-3.jpg",
+      "caption": "Foto: Filipe Paulo / Unsplash",
+      "body": [
+        "Smil chama de **quatro pilares da civilização moderna** a amônia (base dos fertilizantes), o aço, o concreto e os plásticos. São produzidos de centenas de milhões a bilhões de toneladas por ano, e aço, concreto e plásticos, diz ele, não têm como ser feitos nessa escala hoje sem grandes emissões de carbono.",
+        "Daí a tese do livro: somos uma civilização movida a combustível fóssil, e a dependência ainda cresce. Por isso ele acha ==improvável uma eliminação completa e rápida== desses combustíveis, por mais que as metas prometam."
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "O número que ele quer que você guarde",
+      "heading": "40 em cada 100 pessoas vivem com a energia de 1860",
+      "total": 100,
+      "filled": 40,
+      "on_label": "energia por pessoa igual ou menor que a da Alemanha e da França em 1860",
+      "off_label": "acima disso",
+      "body": [
+        "Em 2020, cerca de 3,1 bilhões de pessoas, quase toda a África subsaariana, tinham por pessoa o mesmo suprimento de energia que alemães e franceses tinham em 1860, segundo o livro. Para Smil, esse grupo precisa **pelo menos dobrar, de preferência triplicar** o consumo.",
+        "É o argumento contra quem só olha a redução de emissões: metade do mundo ainda precisa de mais energia, não de menos."
+      ]
+    },
+    {
+      "type": "stat",
+      "display": "sans",
+      "kicker": "Comer combustível fóssil",
+      "big": "5",
+      "unit": " colheres",
+      "label": "de diesel: é o equivalente em energia embutido em um único tomate de estufa de supermercado, calcula Smil",
+      "body": [
+        "O capítulo sobre alimentos mostra que a comida moderna é feita de energia fóssil escondida. Nos Estados Unidos, **menos de 1% da população** (cerca de 3 milhões de pessoas) trabalha diretamente na produção de alimentos. A comida chega à mesa com energia fóssil embutida, argumenta ele.",
+        "Outro exemplo do livro: em 2020, 70% das luvas de borracha do mundo saíam de uma única fábrica na Malásia. É assim que a globalização fica frágil."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O autor sobre si mesmo",
+      "text": "Não sou pessimista nem otimista: sou um cientista tentando explicar como o mundo realmente funciona.",
+      "who": "Vaclav Smil, na introdução (tradução da Intrínseca)",
+      "body": [
+        "Nem todo crítico comprou a neutralidade. Para Nathaniel Rich, no New York Times, a pose de cientista imparcial escorrega a cada ironia contra os defensores de um mundo verde. Simon Ings, na New Scientist, chamou o livro de \"um relato rabugento e combativo\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": {
+        "title": "Serve",
+        "lines": [
+          "Para quem quer entender, com números, de onde vêm energia, comida e materiais do dia a dia.",
+          "Para quem se cansou tanto do catastrofismo quanto da promessa de que a tecnologia resolve tudo em dez anos.",
+          "Para quem gosta de ser contrariado: \"há algo no livro para cada um odiar\", escreveu Kyle Harper no Wall Street Journal (tradução livre)."
+        ]
+      },
+      "b": {
+        "title": "Não serve",
+        "lines": [
+          "Para quem procura soluções: Pilita Clark, no Financial Times, diz que o livro oferece \"pouquíssimo em termos de remédios de política pública\" (tradução livre).",
+          "Para quem aposta numa transição verde rápida: Pilita Clark acha Smil pessimista demais com essa possibilidade.",
+          "Para quem quer leitura leve: os capítulos do meio, sobre globalização e riscos, perdem o fio, segundo o blog Inquisitive Biologist."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/a-informacao-gleick-1.jpg",
+      "caption": "Foto: Enrico Bet / Unsplash",
+      "check": [
+        "**Quatro materiais sustentam o mundo:** amônia, aço, concreto e plástico, todos feitos com muito combustível fóssil.",
+        "**Metade do mundo precisa de mais energia, não de menos:** 40% da humanidade vive no nível da Alemanha e da França de 1860.",
+        "**Leia com um grão de sal:** Smil é bom em diagnóstico e fraco em remédio, e os críticos o acham duro demais com as renováveis."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Vaclav Smil — Como o Mundo Funciona (Intrínseca, 2024, trad. Antenor Savoldi Jr.)",
+          "what": "Trecho de amostra da editora: ficha catalográfica, sumário, introdução (quatro pilares, 40% da humanidade, menos de 1% nos EUA, citação do autor)"
+        },
+        {
+          "who": "Penguin Random House e Penguin UK, páginas do livro",
+          "what": "Edição original de 2022, biografia do autor, 5 colheres de diesel, 70% das luvas, blurbs de Bill Gates, Nathaniel Rich, Simon Ings e Pilita Clark"
+        },
+        {
+          "who": "Book Marks (Lit Hub), resenhas reunidas",
+          "what": "Kyle Harper (Wall Street Journal), Pilita Clark (Financial Times) e Nathaniel Rich (New York Times Book Review)"
+        },
+        {
+          "who": "Brazil Journal (Giuliano Guandalini) e NeoFeed (Gonçalo Junior), 14 abr. 2024",
+          "what": "Edição brasileira, 400 páginas, biografia, Bill Gates, 70% das luvas"
+        },
+        {
+          "who": "Inquisitive Biologist, 19 jan. 2023",
+          "what": "Resenha crítica: capítulos do meio, tom, posição sobre renováveis"
+        },
+        {
+          "who": "Fotos",
+          "what": "kiwi thompson, Filipe Paulo e Enrico Bet, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A frase que melhor resume o livro não é sobre clima nem sobre tecnologia: é sobre tomate. Um tomate de estufa de supermercado carrega, segundo Vaclav Smil, o equivalente em energia a cinco colheres de diesel.\n\n\"Como o Mundo Funciona\" (Intrínseca, 2024; original de 2022) é a tentativa de um professor emérito da Universidade de Manitoba, autor de mais de 40 livros e leitura obrigatória para Bill Gates, de explicar em sete capítulos o que sustenta a vida moderna: energia, comida, quatro materiais (amônia, aço, concreto e plástico), globalização, riscos, meio ambiente e futuro. A tese é que tudo isso depende de combustível fóssil em escala tão grande que a transição será lenta. Os críticos concordam com o diagnóstico e reclamam do resto: pouca solução, tom rabugento e pessimismo com as renováveis.\n\nQual número desse post você vai lembrar amanhã?\n\n—\nFontes no último slide.\n\n#livros #estante #vaclavsmil #energia #leitura #ciencia #tecnologia #sustentabilidade"
+}
