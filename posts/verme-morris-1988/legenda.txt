@@ -1,6 +1,6 @@
-Antes do primeiro antivírus popular, antes da web, a internet já tinha caído inteira por causa de um erro de cálculo.
+Antes da web existir, um décimo da internet já tinha travado por causa de um erro de cálculo.
 
-Robert Tappan Morris queria, ao que tudo indica, medir o tamanho da rede com um programa que se copiava de máquina em máquina. Para não ser enganado por administradores que fingissem já estar infectados, mandou o verme se copiar mesmo assim uma vez a cada sete. Foi o suficiente para que os mesmos computadores fossem invadidos repetidamente até travar. A comissão de Cornell não viu genialidade no código, e sim "desprezo imprudente" pelas consequências. Morris foi o primeiro condenado pela lei americana de crimes de computador, pegou condicional e serviço comunitário, e hoje é professor no MIT.
+Segundo o FBI, Robert Tappan Morris queria medir o tamanho da rede com um programa que se copiava de máquina em máquina. O programa devia parar ao encontrar uma máquina já infectada, mas Morris o mandou se copiar mesmo assim uma vez a cada sete. Foi o suficiente para que os mesmos computadores fossem invadidos repetidamente até travar. A comissão de Cornell não viu genialidade no código, e sim "desprezo imprudente" pelas consequências. Morris foi o primeiro condenado pela lei americana de crimes de computador, pegou condicional e serviço comunitário, e hoje é professor no MIT.
 
 Se quase todos os seus aparelhos rodam o mesmo sistema, o que acontece quando aparece uma falha nele?
 

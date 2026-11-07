@@ -18,12 +18,30 @@
       "kicker": "O que aconteceu",
       "heading": "A ficha do caso",
       "rows": [
-        {"k": "Quando", "v": "**4 de novembro de 2026**, 7h39 no horário de Washington (9h39 em Brasília)"},
-        {"k": "Onde", "v": "Sobre o norte de **Sumatra, Indonésia** (3,4° N, 98,6° L), segundo a Força Espacial dos EUA"},
-        {"k": "O quê", "v": "O **Neil Gehrels Swift Observatory**, da NASA, cerca de 1.450 kg, reentrou sem controle e quase 22 anos após o lançamento"},
-        {"k": "Risco", "v": "A NASA estimava em **1 em 2.100** a chance de algum pedaço ferir alguém"},
-        {"k": "Antes", "v": "Uma nave-robô contratada por **US$ 30 milhões** tentou capturá-lo e subir sua órbita; a captura foi cancelada em agosto"},
-        {"k": "Fontes", "v": "NASA (2 e 4 nov.), Katalyst Space, Space.com, Spaceflight Now"}
+        {
+          "k": "Quando",
+          "v": "**4 de novembro de 2026**, 7h39 no horário de Washington (9h39 em Brasília)"
+        },
+        {
+          "k": "Onde",
+          "v": "Sobre o norte de **Sumatra, Indonésia** (3,4° N, 98,6° L), segundo a Força Espacial dos EUA"
+        },
+        {
+          "k": "O quê",
+          "v": "O **Neil Gehrels Swift Observatory**, da NASA, cerca de 1.450 kg, reentrou sem controle e quase 22 anos após o lançamento"
+        },
+        {
+          "k": "Risco",
+          "v": "A NASA estimava em **1 em 2.100** a chance de algum pedaço ferir alguém"
+        },
+        {
+          "k": "Antes",
+          "v": "Uma nave-robô contratada por **US$ 30 milhões** tentou capturá-lo e subir sua órbita; a captura foi cancelada em agosto"
+        },
+        {
+          "k": "Fontes",
+          "v": "NASA (2 e 4 nov.), Katalyst Space, Space.com, Spaceflight Now"
+        }
       ]
     },
     {
@@ -43,8 +61,16 @@
       "kicker": "O legado em números",
       "heading": "Mais de duas décadas de alertas",
       "cells": [
-        {"big": "2 mil", "label": "explosões de raios gama observadas", "text": "Além de mais de 1.400 supernovas, galáxias ativas, asteroides e cometas."},
-        {"big": "7 mil", "label": "artigos científicos citam seus dados", "text": "O arquivo tem cerca de 12 terabytes, segundo o Spaceflight Now."}
+        {
+          "big": "2 mil",
+          "label": "explosões de raios gama observadas",
+          "text": "Além de mais de 1.400 supernovas, galáxias ativas, asteroides e cometas."
+        },
+        {
+          "big": "7 mil",
+          "label": "artigos científicos citam seus dados",
+          "text": "O arquivo tem cerca de 12 terabytes, segundo o Spaceflight Now."
+        }
       ],
       "body": [
         "Em 2017, quando detectores de ondas gravitacionais sentiram duas estrelas de nêutrons se fundindo, o Swift registrou luz ultravioleta inesperadamente brilhante nos destroços. A última observação científica foi em **20 de outubro de 2026**."
@@ -55,13 +81,30 @@
       "kicker": "A tentativa de resgate",
       "heading": "Nove meses para construir um robô",
       "items": [
-        {"when": "set. 2025", "what": "A NASA contrata a **Katalyst Space**, do Arizona, por US$ 30 milhões, para projetar, lançar e operar uma nave que agarrasse o Swift e o empurrasse para cima."},
-        {"when": "fev.–ago. 2026", "what": "O Swift para quase toda a ciência e vira de lado para deslizar pelo ar rarefeito e perder menos altura."},
-        {"when": "3 jul. 2026", "what": "A nave **LINK**, com três braços robóticos, é lançada num foguete Pegasus XL solto de um avião perto do atol de Kwajalein."},
-        {"when": "fim de jul.", "what": "Uma falha elétrica deixa duas das três rodas de reação (que controlam a orientação) fora de uso. A nave gira a 9° por segundo."},
-        {"when": "19 ago.", "what": "NASA e Katalyst concluem que a captura não é possível. Controlar a nave com os jatos gastou combustível demais."},
-        {"when": "25 set.", "what": "A LINK, que chegou a 12–15 km do Swift em testes, reentra na atmosfera."},
-        {"when": "4 nov.", "what": "O **Swift** reentra sobre Sumatra."}
+        {
+          "when": "set. 2025",
+          "what": "A NASA contrata a **Katalyst Space**, do Arizona, por US$ 30 milhões, para lançar uma nave que agarrasse o Swift e o empurrasse para cima."
+        },
+        {
+          "when": "3 jul. 2026",
+          "what": "A nave **LINK**, com três braços robóticos, é lançada num foguete Pegasus XL solto de um avião perto do atol de Kwajalein."
+        },
+        {
+          "when": "jul. 2026",
+          "what": "Semanas após o lançamento, uma falha elétrica tira de uso duas das três rodas de reação, que controlam a orientação. A nave chega a girar a 9° por segundo."
+        },
+        {
+          "when": "19 ago.",
+          "what": "NASA e Katalyst concluem que a captura não é possível. Segundo a Katalyst, controlar a nave com os jatos gastou combustível demais."
+        },
+        {
+          "when": "25 set.",
+          "what": "A LINK, que chegou a 12–15 km do Swift em testes, reentra na atmosfera."
+        },
+        {
+          "when": "4 nov.",
+          "what": "O **Swift** reentra sobre Sumatra."
+        }
       ]
     },
     {
@@ -78,16 +121,22 @@
       "type": "compare",
       "kicker": "Checagem",
       "heading": "O que se sabe e o que ainda não",
-      "a": {"title": "Já se sabe", "lines": [
-        "Hora e local da reentrada, confirmados pela Força Espacial dos EUA.",
-        "A NASA esperava que a maior parte queimasse, mas admite que peças podem ter sobrevivido.",
-        "Por que a LINK falhou: falha elétrica, rodas de reação perdidas, combustível gasto para parar o giro."
-      ]},
-      "b": {"title": "Ainda não se sabe", "lines": [
-        "Se algum destroço chegou ao chão, e onde.",
-        "Vídeos nas redes que mostrariam a reentrada não foram verificados de forma independente, segundo o Space.com.",
-        "Quem substitui o Swift: a NASA não nomeou sucessor. Em 29 de outubro, pediu propostas para subir ou guiar o Hubble, que deve cair entre 2033 e 2034."
-      ]},
+      "a": {
+        "title": "Já se sabe",
+        "lines": [
+          "Hora e local da reentrada, confirmados pela Força Espacial dos EUA.",
+          "A NASA esperava que a maior parte queimasse, mas admite que peças podem ter sobrevivido.",
+          "Por que a LINK falhou: falha elétrica, rodas de reação perdidas, combustível gasto para parar o giro."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Se algum destroço chegou ao chão, e onde.",
+          "Vídeos nas redes que mostrariam a reentrada não foram verificados de forma independente, segundo o Space.com.",
+          "Quem substitui o Swift: a NASA não nomeou sucessor. Em 29 de outubro, pediu propostas para subir ou guiar o Hubble, que deve cair entre 2033 e 2034."
+        ]
+      },
       "body": []
     },
     {
@@ -97,19 +146,34 @@
       "check": [
         "**Um telescópio de 2 anos durou 22.** O Swift observou mais de 2 mil explosões de raios gama e caiu sobre Sumatra em 4 de novembro.",
         "**Satélites sem motor caem.** O atrito do ar e o Sol mais ativo apressaram o fim; a última observação foi em 20 de outubro.",
-        "**O resgate de US$ 30 milhões falhou por uma falha elétrica.** Mas o robô chegou a 12 km do alvo e a NASA agora estuda fazer o mesmo pelo Hubble."
+        "**O resgate de US$ 30 milhões falhou por uma falha elétrica.** Mas o robô chegou a cerca de 12 km do alvo e a NASA agora estuda fazer o mesmo pelo Hubble."
       ]
     },
     {
       "type": "sources",
       "items": [
-        {"who": "NASA Science, blog do Swift (Alise Fisher), 2 nov. 2026, atualizado em 4 nov.; APOD de 6 nov. 2026", "what": "hora e local da reentrada, confirmação da Força Espacial, expectativa de queima, missão de 2 anos, três telescópios, máximo solar"},
-        {"who": "NASA Science, \"Lessons Learned From Swift Boost Mission\" (Jeanette Kazmierczak), 28 set. 2026", "what": "contrato em set. 2025, altitude crítica de 300 km, pausa na ciência de fevereiro a agosto, 12–15 km de aproximação, fim da participação da NASA em 3 set."},
-        {"who": "Katalyst Space, comunicado de 25 set. 2026; SpacePolicyOnline (Marcia Smith), 19 ago. 2026", "what": "US$ 30 milhões, nove meses, lançamento em 3 jul., falha elétrica e rodas de reação, giro de 9°/s, consumo de combustível, cancelamento em 19 ago., citações de Isaacman e Domagal-Goldman"},
-        {"who": "Space.com (Mike Wall), 5 nov. 2026; Spaceflight Now (Houston Harwood), 3 nov. 2026", "what": "1.450 kg, risco de 1 em 2.100, mais de 2 mil explosões e 1.400 supernovas, 12 TB e 7 mil artigos, última observação em 20 out., vídeos não verificados, Hubble e pedido de 29 out."},
-        {"who": "Fotos", "what": "Yang e Donald Giannatti, via Unsplash"}
+        {
+          "who": "NASA Science, blog do Swift (Alise Fisher), 2 nov. 2026, atualizado em 4 nov.; APOD de 6 nov. 2026",
+          "what": "hora e local da reentrada, confirmação da Força Espacial, expectativa de queima, missão de 2 anos, três telescópios, máximo solar"
+        },
+        {
+          "who": "NASA Science, \"Lessons Learned From Swift Boost Mission\" (Jeanette Kazmierczak), 28 set. 2026",
+          "what": "contrato em set. 2025, altitude crítica de 300 km, pausa na ciência de fevereiro a agosto, 12–15 km de aproximação, fim da participação da NASA em 3 set."
+        },
+        {
+          "who": "Katalyst Space, comunicado de 25 set. 2026; SpacePolicyOnline (Marcia Smith), 19 ago. 2026",
+          "what": "US$ 30 milhões, nove meses, lançamento em 3 jul., falha elétrica e rodas de reação, giro de 9°/s, consumo de combustível, cancelamento em 19 ago., citações de Isaacman e Domagal-Goldman"
+        },
+        {
+          "who": "Space.com (Mike Wall), 5 nov. 2026; Spaceflight Now (Houston Harwood), 3 nov. 2026",
+          "what": "1.450 kg, risco de 1 em 2.100, mais de 2 mil explosões e 1.400 supernovas, 12 TB e 7 mil artigos, última observação em 20 out., vídeos não verificados, Hubble e pedido de 29 out."
+        },
+        {
+          "who": "Fotos",
+          "what": "Yang e Donald Giannatti, via Unsplash"
+        }
       ]
     }
   ],
-  "legenda": "Um telescópio que chegava primeiro a cada grande explosão do universo acabou virando uma estrela cadente sobre a Indonésia.\n\nO Swift não tinha motor para se manter na órbita, e o atrito com a atmosfera o puxava para baixo desde 2004. Quando o Sol entrou numa fase mais ativa, o ar lá em cima inchou e a queda acelerou. A NASA apostou US$ 30 milhões numa nave-robô construída em nove meses pela Katalyst Space para agarrar o telescópio e empurrá-lo para cima. Uma falha elétrica tirou duas das três rodas que controlam a orientação, e parar o giro consumiu o combustível que seria usado na captura. A nave chegou a 12 km do alvo. Em 29 de outubro, a NASA pediu a empresas propostas para fazer o mesmo pelo Hubble.\n\nVale gastar dezenas de milhões para tentar salvar um satélite velho, ou é melhor investir num novo?\n\n—\nFontes no último slide.\n\n#nasa #swift #espaco #astronomia #satelites #ciencia #tecnologia #raiosgama"
+  "legenda": "Um telescópio que chegava primeiro a cada grande explosão do universo acabou virando uma estrela cadente sobre a Indonésia.\n\nO Swift não tinha motor para se manter na órbita, e o atrito com a atmosfera o puxava para baixo desde 2004. Quando o Sol entrou numa fase mais ativa, o ar lá em cima inchou e a queda acelerou. A NASA apostou US$ 30 milhões numa nave-robô construída em nove meses pela Katalyst Space para agarrar o telescópio e empurrá-lo para cima. Uma falha elétrica tirou duas das três rodas que controlam a orientação, e parar o giro consumiu o combustível que seria usado na captura. A nave chegou a cerca de 12 km do alvo. Em 29 de outubro, a NASA pediu a empresas propostas para fazer o mesmo pelo Hubble.\n\nVale gastar dezenas de milhões para tentar salvar um satélite velho, ou é melhor investir num novo?\n\n—\nFontes no último slide.\n\n#nasa #swift #espaco #astronomia #satelites #ciencia #tecnologia #raiosgama"
 }
