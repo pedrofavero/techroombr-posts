@@ -22,7 +22,7 @@
       "body": [
         "Em 1988, a internet era uma rede fechada de universidades, centros de pesquisa e órgãos do governo: cerca de **60 mil computadores** em menos de 20 países, segundo a revista de ex-alunos de Cornell. A web ainda não existia.",
         "**Robert Tappan Morris** tinha chegado a Cornell dois meses antes, como aluno de primeiro ano da pós-graduação em computação. O pai, de mesmo nome, era um dos maiores especialistas em segurança de computadores da NSA, a agência de inteligência dos EUA.",
-        "Por volta das 18h de 2 de novembro, segundo a Atlas Obscura, ele soltou o programa a partir de um computador do MIT, para disfarçar a origem. A comissão de Cornell concluiu depois que ele agiu sozinho."
+        "Por volta das 18h de 2 de novembro, segundo a Atlas Obscura, ele soltou o programa a partir de um computador do MIT; segundo a Universidade Purdue, para disfarçar a origem. A comissão de Cornell concluiu depois que ele agiu sozinho."
       ]
     },
     {
@@ -37,7 +37,7 @@
         },
         {
           "title": "Perguntava antes",
-          "text": "Ao chegar, perguntava: \"já estou aqui?\". Se a resposta fosse sim, não devia se copiar de novo."
+          "text": "Ao chegar, perguntava se a máquina já estava infectada. Se a resposta fosse sim, não devia se copiar de novo."
         },
         {
           "title": "O erro",
@@ -57,7 +57,7 @@
       "big": "6 mil",
       "label": "computadores parados em cerca de 24 horas, de 60 mil conectados",
       "body": [
-        "Harvard, Stanford, Johns Hopkins e a NASA estavam entre as vítimas, segundo o FBI citado por Cornell. E-mails atrasaram dias; algumas instituições ficaram fora do ar por até uma semana e os prejuízos foram estimados em vários milhões de dólares.",
+        "Harvard, Stanford, Johns Hopkins e a NASA estavam entre as vítimas, e algumas instituições ficaram fora do ar por até uma semana, segundo o FBI citado por Cornell. E-mails atrasaram dias. Os prejuízos foram estimados em até vários milhões de dólares.",
         "O número exato ninguém mediu: a comissão de Cornell escreveu que \"vários milhares\" de máquinas foram infectadas e não tentou estimar com precisão."
       ]
     },
@@ -71,8 +71,8 @@
           "what": "O verme é solto a partir do MIT."
         },
         {
-          "when": "madrugada de 3 nov.",
-          "what": "Keith Bostic (Berkeley) e Gene Spafford (Purdue) distribuem correções. Morris pede a um amigo de Harvard que publique um pedido anônimo de desculpas com instruções para remover o programa; quase ninguém vê a tempo, porque a rede está travada."
+          "when": "3 nov.",
+          "what": "Na madrugada, Keith Bostic (Berkeley) e Gene Spafford (Purdue) distribuem correções. Morris pede a um amigo de Harvard que publique um pedido anônimo de desculpas com instruções para remover o programa; a mensagem só é notada dias depois, com a rede travada."
         },
         {
           "when": "4 nov., 21h30",
@@ -84,11 +84,11 @@
         },
         {
           "when": "abr. 1989",
-          "what": "A comissão de Cornell publica seu relatório de 65 páginas. Morris é expulso."
+          "what": "A comissão de Cornell publica seu relatório sobre o caso."
         },
         {
           "when": "Depois",
-          "what": "**Primeiro condenado** pela Lei de Fraude e Abuso de Computadores, de 1986: 3 anos de condicional, 400 horas de serviço comunitário e multa de US$ 10.050. Sem prisão."
+          "what": "Expulso de Cornell, Morris é o **primeiro condenado** pela Lei de Fraude e Abuso de Computadores, de 1986: 3 anos de condicional, 400 horas de serviço comunitário e multa de US$ 10.050. Sem prisão."
         }
       ]
     },
@@ -99,7 +99,7 @@
       "who": "Comissão de Cornell (Eisenberg e outros), Communications of the ACM, jun. 1989 (tradução livre)",
       "body": [
         "A comissão concluiu que Morris provavelmente não queria destruir dados nem derrubar computadores, mas \"sabia ou claramente deveria saber\" que o programa iria se multiplicar sem controle. Chamou isso de \"desprezo imprudente\" pelas consequências e notou que ele fez \"esforços mínimos\" para contê-lo.",
-        "Também desmontou o mito do gênio: o verme \"poderia ter sido criado por muitos estudantes\", com \"dedicação e perseverança em vez de brilho técnico\" (tradução livre)."
+        "Também desmontou o mito do gênio: embora \"tecnicamente sofisticado\", o verme \"poderia ter sido criado por muitos estudantes\", com \"dedicação e perseverança em vez de brilho técnico\" (tradução livre)."
       ]
     },
     {
@@ -107,9 +107,9 @@
       "kicker": "O que ficou",
       "heading": "A lição da monocultura",
       "body": [
-        "O professor Fred Schneider, de Cornell, resume por que tantas máquinas caíram de uma vez: \"as pessoas provavelmente não acreditavam que nossos sistemas fossem uma monocultura tão grande que tantos cairiam no mesmo tipo de ataque, mas caíram\" (tradução livre). Quase todas rodavam a mesma versão do sistema Unix, com as mesmas brechas.",
+        "O professor Fred Schneider, de Cornell, resume por que tantas máquinas caíram de uma vez: \"as pessoas provavelmente não acreditavam que nossos sistemas fossem uma monocultura tão grande que tantos cairiam no mesmo tipo de ataque, mas caíram\" (tradução livre). O verme procurava máquinas com uma versão específica do Unix, e elas eram milhares.",
         "Segundo o livro **Cyberpunk** (1995), citado por Cornell, o episódio marcou uma virada: o mundo privado das redes de computadores passou a ser assunto do público em geral.",
-        "Morris terminou o doutorado em Harvard, fundou em 1995 a Viaweb, tida como a primeira aplicação web, vendida ao Yahoo por quase US$ 50 milhões, e dá aula no MIT desde meados dos anos 2000. Um disquete com o código do verme está exposto no Computer History Museum, na Califórnia."
+        "Morris terminou o doutorado em Harvard, fundou com dois colegas em 1995 a Viaweb, tida como a primeira aplicação web, vendida ao Yahoo por quase US$ 50 milhões, e dá aula no MIT desde meados dos anos 2000. Um disquete com o código do verme já esteve exposto no Computer History Museum, na Califórnia."
       ]
     },
     {
@@ -127,19 +127,19 @@
       "items": [
         {
           "who": "Eisenberg, Gries, Hartmanis, Holcomb, Lynn e Santoro, \"The Cornell Commission: On Morris and the Worm\", Communications of the ACM, jun. 1989",
-          "what": "agiu sozinho, aluno de primeiro ano, não destruiu arquivos, \"vários milhares\", \"ato juvenil\", \"desprezo imprudente\", \"esforços mínimos\", \"dedicação e perseverança\", Washington Post em 4 nov. às 21h30, relatório de 65 páginas"
+          "what": "agiu sozinho, aluno de primeiro ano, não destruiu arquivos, \"vários milhares\", \"ato juvenil\", \"desprezo imprudente\", \"esforços mínimos\", \"tecnicamente sofisticado\", \"dedicação e perseverança\", Washington Post em 4 nov. às 21h30, relatório de abril de 1989"
         },
         {
           "who": "Cornellians, revista de ex-alunos de Cornell (Lindsay Lennon), 16 nov. 2023",
-          "what": "60 mil máquinas em menos de 20 países, 6 mil em 24 horas, 99 linhas, dois meses em Cornell, pai na NSA, vítimas e prejuízos segundo o FBI, pedido anônimo de desculpas, NYT de 5 nov., expulsão, condenação e pena, Viaweb e Yahoo, MIT, citações de Fred Schneider, livro Cyberpunk"
+          "what": "60 mil máquinas em menos de 20 países, 6 mil em 24 horas, 99 linhas, dois meses em Cornell, pai na NSA, vítimas e semana fora do ar segundo o FBI, prejuízos, pedido anônimo de desculpas, NYT de 5 nov., expulsão, condenação e pena, Viaweb e Yahoo, MIT, citação de Fred Schneider, livro Cyberpunk, disquete que esteve no museu"
         },
         {
           "who": "Purdue University, cyberTAP (Hope Trampski), 23 jul. 2024",
-          "what": "pergunta \"já estou aqui?\", cópia a cada sete respostas e 14%, Bostic e Spafford na madrugada de 3 nov., origem disfarçada no MIT, iniciais reveladas ao NYT"
+          "what": "pergunta se já estava infectada, cópia a cada sete respostas e 14%, Bostic e Spafford na madrugada de 3 nov., origem disfarçada no MIT, amigo de Harvard, iniciais reveladas ao NYT"
         },
         {
           "who": "Atlas Obscura, \"In 1988, One Rogue Worm Shut Down 10 Percent of the Internet\"; Tom's Hardware (Mark Tyson), 4 nov. 2025",
-          "what": "18h de 2 nov., conta do MIT, senhas óbvias e Sendmail, multa de US$ 10.050, disquete no Computer History Museum; brecha no \"finger\" e vítimas segundo o FBI"
+          "what": "18h de 2 nov., conta do MIT, senhas óbvias e Sendmail, amigo de Harvard e mensagem notada dias depois, multa de US$ 10.050, pai Robert Morris Sr.; brecha no \"finger\" segundo o FBI, lei de 1986"
         },
         {
           "who": "Fotos",
@@ -148,5 +148,5 @@
       ]
     }
   ],
-  "legenda": "Antes da web existir, um décimo da internet já tinha travado por causa de um erro de cálculo.\n\nSegundo o FBI, Robert Tappan Morris queria medir o tamanho da rede com um programa que se copiava de máquina em máquina. O programa devia parar ao encontrar uma máquina já infectada, mas Morris o mandou se copiar mesmo assim uma vez a cada sete. Foi o suficiente para que os mesmos computadores fossem invadidos repetidamente até travar. A comissão de Cornell não viu genialidade no código, e sim \"desprezo imprudente\" pelas consequências. Morris foi o primeiro condenado pela lei americana de crimes de computador, pegou condicional e serviço comunitário, e hoje é professor no MIT.\n\nSe quase todos os seus aparelhos rodam o mesmo sistema, o que acontece quando aparece uma falha nele?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #seguranca #internet #ciberseguranca #cornell #computacao #tecnologia"
+  "legenda": "Antes da web existir, um décimo da internet já tinha travado por causa de um erro de cálculo.\n\nRobert Tappan Morris teria querido medir o tamanho da rede com um programa que se copiava de máquina em máquina. O programa devia parar ao encontrar uma máquina já infectada, mas Morris o mandou se copiar mesmo assim uma vez a cada sete. Foi o suficiente para que os mesmos computadores fossem invadidos repetidamente até travar. A comissão de Cornell não viu genialidade no código, e sim \"desprezo imprudente\" pelas consequências. Morris foi o primeiro condenado pela lei americana de crimes de computador, pegou condicional e serviço comunitário, e hoje é professor no MIT.\n\nSe quase todos os seus aparelhos rodam o mesmo sistema, o que acontece quando aparece uma falha nele?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #seguranca #internet #ciberseguranca #cornell #computacao #tecnologia"
 }

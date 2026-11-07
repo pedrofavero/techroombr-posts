@@ -91,7 +91,7 @@
         },
         {
           "when": "jul. 2026",
-          "what": "Semanas após o lançamento, uma falha elétrica tira de uso duas das três rodas de reação, que controlam a orientação. A nave chega a girar a 9° por segundo."
+          "what": "Cerca de uma semana após o lançamento, uma falha elétrica tira de uso duas das três rodas de reação, que controlam a orientação. A nave chega a girar a 9° por segundo."
         },
         {
           "when": "19 ago.",
@@ -113,7 +113,7 @@
       "text": "Este não é o resultado que buscávamos, mas não muda por que valeu a pena tentar.",
       "who": "Jared Isaacman, administrador da NASA, em comunicado da Katalyst (tradução livre)",
       "body": [
-        "Segundo a NASA, o objetivo era também avançar o ==serviço em órbita==: consertar ou reposicionar satélites com robôs. Se tivesse dado certo, seria a primeira vez que um robô comercial agarraria um satélite do governo que nunca foi feito para ser tocado no espaço. O Swift não tinha nenhuma alça para isso.",
+        "Segundo a NASA, o objetivo era também avançar o ==serviço em órbita==: atender satélites com robôs. Segundo o Spaceflight Now, seria a primeira vez que um robô comercial agarraria um satélite do governo que nunca foi feito para isso: o Swift não tem encaixe de acoplagem; o plano era prender os braços num suporte usado para manuseá-lo no chão.",
         "Shawn Domagal-Goldman, diretor de astrofísica da NASA: \"desde o início, esta foi uma missão de alto risco e alta recompensa\" (tradução livre)."
       ]
     },
@@ -126,7 +126,7 @@
         "lines": [
           "Hora e local da reentrada, confirmados pela Força Espacial dos EUA.",
           "A NASA esperava que a maior parte queimasse, mas admite que peças podem ter sobrevivido.",
-          "Por que a LINK falhou: falha elétrica, rodas de reação perdidas, combustível gasto para parar o giro."
+          "Por que a LINK falhou: uma falha elétrica tirou as rodas de reação, e manter a orientação só com os jatos gastou o combustível da captura, segundo a Katalyst."
         ]
       },
       "b": {
@@ -134,7 +134,7 @@
         "lines": [
           "Se algum destroço chegou ao chão, e onde.",
           "Vídeos nas redes que mostrariam a reentrada não foram verificados de forma independente, segundo o Space.com.",
-          "Quem substitui o Swift: a NASA não nomeou sucessor. Em 29 de outubro, pediu propostas para subir ou guiar o Hubble, que deve cair entre 2033 e 2034."
+          "Quem substitui o Swift: a NASA não nomeou sucessor, segundo o Spaceflight Now. Em 29 de outubro, pediu a empresas ideias para subir ou guiar o Hubble, que deve cair entre 2033 e 2034."
         ]
       },
       "body": []
@@ -146,7 +146,7 @@
       "check": [
         "**Um telescópio de 2 anos durou 22.** O Swift observou mais de 2 mil explosões de raios gama e caiu sobre Sumatra em 4 de novembro.",
         "**Satélites sem motor caem.** O atrito do ar e o Sol mais ativo apressaram o fim; a última observação foi em 20 de outubro.",
-        "**O resgate de US$ 30 milhões falhou por uma falha elétrica.** Mas o robô chegou a cerca de 12 km do alvo e a NASA agora estuda fazer o mesmo pelo Hubble."
+        "**O resgate de US$ 30 milhões falhou por uma falha elétrica.** Mas o robô chegou a 12–15 km do alvo e a NASA agora estuda fazer o mesmo pelo Hubble."
       ]
     },
     {
@@ -165,8 +165,8 @@
           "what": "US$ 30 milhões, nove meses, lançamento em 3 jul., falha elétrica e rodas de reação, giro de 9°/s, consumo de combustível, cancelamento em 19 ago., citações de Isaacman e Domagal-Goldman"
         },
         {
-          "who": "Space.com (Mike Wall), 5 nov. 2026; Spaceflight Now (Houston Harwood), 3 nov. 2026",
-          "what": "1.450 kg, risco de 1 em 2.100, mais de 2 mil explosões e 1.400 supernovas, 12 TB e 7 mil artigos, última observação em 20 out., vídeos não verificados, Hubble e pedido de 29 out."
+          "who": "Space.com (Mike Wall), 4 nov. 2026, atualizado em 5 nov.; Spaceflight Now (Houston Harwood), 3 nov. 2026",
+          "what": "1.450 kg, risco de 1 em 2.100, mais de 2 mil explosões e 1.400 supernovas, 12 TB e 7 mil artigos, última observação em 20 out., vídeos não verificados, \"primeira vez\" de um robô comercial, suporte de manuseio, sem sucessor, Hubble e pedido de 29 out."
         },
         {
           "who": "Fotos",
@@ -175,5 +175,5 @@
       ]
     }
   ],
-  "legenda": "Um telescópio que chegava primeiro a cada grande explosão do universo acabou virando uma estrela cadente sobre a Indonésia.\n\nO Swift não tinha motor para se manter na órbita, e o atrito com a atmosfera o puxava para baixo desde 2004. Quando o Sol entrou numa fase mais ativa, o ar lá em cima inchou e a queda acelerou. A NASA apostou US$ 30 milhões numa nave-robô construída em nove meses pela Katalyst Space para agarrar o telescópio e empurrá-lo para cima. Uma falha elétrica tirou duas das três rodas que controlam a orientação, e parar o giro consumiu o combustível que seria usado na captura. A nave chegou a cerca de 12 km do alvo. Em 29 de outubro, a NASA pediu a empresas propostas para fazer o mesmo pelo Hubble.\n\nVale gastar dezenas de milhões para tentar salvar um satélite velho, ou é melhor investir num novo?\n\n—\nFontes no último slide.\n\n#nasa #swift #espaco #astronomia #satelites #ciencia #tecnologia #raiosgama"
+  "legenda": "Um telescópio que chegava primeiro a cada grande explosão do universo acabou virando uma estrela cadente sobre a Indonésia.\n\nO Swift não tinha motor para se manter na órbita, e o atrito com a atmosfera o puxava para baixo desde 2004. Quando o Sol entrou numa fase mais ativa, o ar lá em cima inchou e a queda acelerou. A NASA apostou US$ 30 milhões numa nave-robô construída em nove meses pela Katalyst Space para agarrar o telescópio e empurrá-lo para cima. Uma falha elétrica tirou duas das três rodas que controlam a orientação, e manter a nave apontada só com os jatos consumiu o combustível que seria usado na captura. A nave chegou a 12–15 km do alvo. Em 29 de outubro, a NASA pediu a empresas ideias para fazer o mesmo pelo Hubble.\n\nVale gastar dezenas de milhões para tentar salvar um satélite velho, ou é melhor investir num novo?\n\n—\nFontes no último slide.\n\n#nasa #swift #espaco #astronomia #satelites #ciencia #tecnologia #raiosgama"
 }
