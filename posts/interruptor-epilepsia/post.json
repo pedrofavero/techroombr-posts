@@ -1,0 +1,209 @@
+{
+  "slug": "interruptor-epilepsia",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/vacina-mrna-melanoma-2.jpg",
+      "title": "Um comprimido virou botão de desligar crises no cérebro",
+      "dek": "Em Pequim, três homens com epilepsia que nenhum remédio controlava receberam um gene num ponto do cérebro. Ele só liga quando a pessoa toma uma dose mínima de um remédio antigo. Em dois meses, as crises caíram mais de 90%. O estudo é pequeno e o teste está só começando.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi testado, e em quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "New England Journal of Medicine, 5 nov. 2026, como carta de pesquisa (texto curto). Primeiro autor Yang Dai; coordenação de Guoguang Zhao e Minmin Luo."
+        },
+        {
+          "k": "Quem",
+          "v": "Hospital Xuanwu (Universidade Médica da Capital), Instituto Chinês de Pesquisa do Cérebro e a empresa GenAns, em Pequim."
+        },
+        {
+          "k": "Pacientes",
+          "v": "3 homens, de 28 a 37 anos, com epilepsia resistente a remédios causada por uma cicatriz no hipocampo."
+        },
+        {
+          "k": "O que receberam",
+          "v": "Um vírus inofensivo (vetor AAV) injetado na área cicatrizada, guiado por ressonância, com o gene de um receptor artificial. Depois, doses baixas de clozapina."
+        },
+        {
+          "k": "Tempo",
+          "v": "Crises contadas aos dois meses. Sem grupo de comparação."
+        },
+        {
+          "k": "Conflito",
+          "v": "Quatro dos doze autores trabalham na GenAns, dona da tecnologia."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como funciona",
+      "heading": "Um gene, um receptor e um comprimido",
+      "steps": [
+        {
+          "title": "O vírus entrega o gene",
+          "text": "O vetor AAV é um vírus esvaziado que funciona como caminhão de entrega. Ele foi infundido direto no pedaço cicatrizado do hipocampo, a região onde as crises começam."
+        },
+        {
+          "title": "Só os neurônios excitatórios recebem",
+          "text": "O gene é lido apenas pelos neurônios excitatórios, as células que disparam demais na epilepsia. Elas passam a fabricar um receptor artificial, chamado DREADD, que nada no corpo ativa por conta própria."
+        },
+        {
+          "title": "A clozapina liga o receptor",
+          "text": "A clozapina é um antipsicótico antigo. Em dose muito baixa, ela gruda nesse receptor e manda os neurônios se acalmarem. Segundo a Nature, o remédio funciona como um dimmer: mais dose, mais efeito; sem dose, nada."
+        },
+        {
+          "title": "O cérebro fica inteiro",
+          "text": "Diferente da cirurgia que remove o hipocampo, aqui nada é cortado. O tecido continua lá; o que muda é o quanto ele dispara, controlado pelo comprimido."
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Resultado",
+      "heading": "Crises por mês, antes e depois",
+      "bars": [
+        {
+          "name": "Paciente 1, antes",
+          "value": 4.5,
+          "label": "4,5",
+          "other": true
+        },
+        {
+          "name": "Paciente 1, aos 2 meses",
+          "value": 0.5,
+          "label": "0,5"
+        },
+        {
+          "name": "Paciente 2, antes",
+          "value": 4.5,
+          "label": "4,5",
+          "other": true
+        },
+        {
+          "name": "Paciente 2, aos 2 meses",
+          "value": 0.5,
+          "label": "0,5"
+        },
+        {
+          "name": "Paciente 3, antes",
+          "value": 4,
+          "label": "4",
+          "other": true
+        },
+        {
+          "name": "Paciente 3, aos 2 meses",
+          "value": 0,
+          "label": "0"
+        }
+      ],
+      "note": "Crises mensais relatadas pelo The Independent a partir do artigo. A Nature resume como queda de mais de 90%; o South China Morning Post fala em média de 92,6%. Para 4,5 → 0,5, a conta dá cerca de 89%.",
+      "body": [
+        "Nenhum efeito colateral grave foi relatado, segundo a Nature. Um dos pacientes parou de tomar a clozapina sem querer, teve duas crises e voltou a ficar sem crises quando retomou o comprimido."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Em números",
+      "heading": "O tamanho do que se sabe",
+      "cells": [
+        {
+          "big": "3",
+          "unit": " pessoas",
+          "label": "receberam o tratamento. É o primeiro teste desse tipo de terapia em humanos.",
+          "text": "Todos homens, todos com a mesma causa de epilepsia. Nenhum grupo recebeu placebo para comparar."
+        },
+        {
+          "big": "2",
+          "unit": " meses",
+          "label": "foi o tempo de acompanhamento na hora de contar as crises.",
+          "text": "Os pesquisadores dizem que vão seguir os três por longo prazo e preparam testes com mais pacientes."
+        }
+      ],
+      "body": [
+        "Hoje, uma das alternativas para quem tem crises que os remédios não controlam é a cirurgia que remove o hipocampo. A nova terapia foi pensada para não cortar nada, segundo as reportagens."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Prova e não prova",
+      "heading": "O que o estudo mostra, e o que não mostra",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Que é possível instalar um receptor artificial em neurônios humanos e controlá-lo com um comprimido.",
+          "Que, em 3 pessoas, as crises mensais caíram de 4 ou 4,5 para 0,5 ou zero em dois meses.",
+          "Que o efeito depende do remédio: sem a clozapina, as crises voltaram num paciente."
+        ]
+      },
+      "b": {
+        "title": "Não mostra",
+        "lines": [
+          "Que funciona na maioria dos pacientes. Três pessoas não bastam para saber isso.",
+          "Que é seguro por anos. O gene fica para sempre; a clozapina em dose alta é ligada a problemas do coração, e ninguém sabe o efeito de décadas em dose baixa.",
+          "Que vence a cirurgia tradicional ou os estimuladores cerebrais. Não houve comparação."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Contraponto",
+      "heading": "Empolgação com cautela, diz quem não participou",
+      "photo": "fotos/exame-sangue-cancer-2.jpg",
+      "caption": "Foto: National Cancer Institute / Unsplash",
+      "body": [
+        "Matthew Walker, neurologista da University College London que não participou do estudo, disse ao jornal The Independent: \"É empolgante que haja um efeito tão dramático e que eles vejam tão poucos efeitos colaterais\" (tradução livre).",
+        "Ele lembra que a amostra é pequena e que tomar clozapina por anos é uma preocupação. Sua esperança: \"No futuro, com sorte, vão existir remédios melhores para isso\" (tradução livre). Ou seja, o receptor pode ficar; o comprimido que o liga pode mudar."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Não é um remédio novo, é um interruptor.** Um vírus leva um gene a um ponto do cérebro; o gene cria um receptor que só liga com uma dose mínima de clozapina. Sem comprimido, nada acontece.",
+        "**Três pacientes, dois meses, crises quase zeradas.** De 4 ou 4,5 crises por mês para 0,5 ou nenhuma, sem efeito grave relatado. O efeito sumiu quando um deles parou o remédio, e voltou quando retomou.",
+        "**É o começo, não o fim.** Sem grupo de comparação, com autores da empresa dona da tecnologia e sem saber o que anos de clozapina fazem. Testes maiores estão sendo preparados."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Dai, Liu, Wang e outros — New England Journal of Medicine, 5 nov. 2026",
+          "what": "\"Chemogenetic Neuromodulation for Refractory Epilepsy\", carta de pesquisa (doi 10.1056/NEJMc2606815; registro PubMed 42981577 com autores, instituições e financiamento)"
+        },
+        {
+          "who": "Instituto Chinês de Pesquisa do Cérebro (CIBR), Pequim",
+          "what": "Nota institucional: coordenação de Guoguang Zhao e Minmin Luo, parceria com a GenAns Biotechnology, link do artigo"
+        },
+        {
+          "who": "Nature News (Mariana Lenharo), 4 nov. 2026",
+          "what": "Queda de mais de 90% nas crises, sem efeito colateral grave, analogia do dimmer; trechos reproduzidos por Bioethics.com"
+        },
+        {
+          "who": "The Independent, 4-5 nov. 2026 (reproduzido por Newswav e bdnews24)",
+          "what": "Crises por paciente (4,5 → 0,5 e 4 → 0), dois meses, paciente que parou a clozapina, limites do estudo e citações de Matthew Walker"
+        },
+        {
+          "who": "South China Morning Post, 5 nov. 2026 (via Kantan News)",
+          "what": "Média de 92,6%, vetor GA002, três homens de 28 a 37 anos, guia por ressonância"
+        },
+        {
+          "who": "Fotos",
+          "what": "CDC e National Cancer Institute, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A frase que resume o estudo não é sobre genes: é sobre um comprimido que liga e desliga uma parte do cérebro.\n\nO artigo saiu no New England Journal of Medicine em 5 de novembro, assinado por equipes do Hospital Xuanwu, do Instituto Chinês de Pesquisa do Cérebro e da empresa GenAns, em Pequim. Três homens de 28 a 37 anos, com epilepsia que nenhum remédio controlava, receberam no hipocampo um vírus carregando o gene de um receptor artificial. O receptor só é ativado por uma dose baixa de clozapina, um antipsicótico antigo. Aos dois meses, dois pacientes passaram de 4,5 crises por mês para 0,5, e o terceiro, de 4 para nenhuma. Quando um deles parou o comprimido sem querer, as crises voltaram; quando retomou, pararam. Vale a ressalva: três pacientes, sem grupo de comparação, quatro autores empregados pela empresa dona da tecnologia e ninguém sabe o efeito de anos de clozapina. Hoje, a alternativa para casos assim costuma ser a cirurgia que retira o tecido onde as crises nascem.\n\nVocê aceitaria um tratamento que depende de tomar um comprimido todo dia para funcionar, se ele evitasse uma cirurgia?\n\n—\nFontes no último slide.\n\n#epilepsia #terapiagenica #neurociencia #estudo #biotecnologia #saude #ciencia #tecnologia"
+}

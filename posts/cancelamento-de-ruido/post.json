@@ -1,0 +1,158 @@
+{
+  "slug": "cancelamento-de-ruido",
+  "categoria": "COMO FUNCIONA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/a-informacao-gleick-3.jpg",
+      "title": "Seu fone não bloqueia o barulho. Ele faz mais barulho",
+      "dek": "O cancelamento de ruído funciona criando uma cópia invertida do som que chega ao ouvido, milhares de vezes por segundo. As duas ondas se anulam. Por que isso apaga o ronco do avião e não a conversa do vizinho, e como a ideia nasceu num voo de oito horas.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A história",
+      "heading": "Um voo de Zurique a Boston, em 1978",
+      "body": [
+        "Segundo a linha do tempo oficial da Bose, em 19 de abril de 1978 Amar Bose, professor do MIT e dono da empresa de som que leva seu nome, testou num voo da Swissair os fones novos que a companhia oferecia. Eles deixavam entrar ainda mais barulho de motor: a música ficava inaudível ou alta e distorcida.",
+        "Em vez de ouvir música, ele pegou lápis e papel. Cerca de oito horas depois, ao pousar em Boston, tinha a matemática de um fone que cancela ruído. Dan Gauger, engenheiro que entrou na Bose em 1980, conta à revista AIN que a equipe não conhecia patentes dos anos 1930 e pesquisas militares dos anos 1950 sobre a mesma ideia: \"Nós inventamos independentemente\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "O princípio",
+      "heading": "Onda mais onda invertida é silêncio",
+      "svg": "<svg viewBox='0 0 700 260' fill='none' stroke='currentColor' stroke-width='3'><path d='M40 70 C 70 20, 100 20, 130 70 S 190 120, 220 70 S 280 20, 310 70' stroke='currentColor'/><text x='40' y='118' font-size='20' fill='currentColor' stroke='none'>ruído do motor</text><path d='M40 190 C 70 240, 100 240, 130 190 S 190 140, 220 190 S 280 240, 310 190' stroke='var(--accent)'/><text x='40' y='146' font-size='20' fill='var(--accent)' stroke='none'>cópia invertida (anti-ruído)</text><text x='350' y='140' font-size='34' fill='currentColor' stroke='none' text-anchor='middle'>=</text><path d='M400 130 L 660 130' stroke='currentColor' stroke-width='4'/><text x='530' y='170' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>quase nada no ouvido</text><path d='M400 60 L 660 60' stroke='currentColor' stroke-width='1' stroke-dasharray='6 6'/><path d='M400 200 L 660 200' stroke='currentColor' stroke-width='1' stroke-dasharray='6 6'/></svg>",
+      "caption": "Onde uma onda empurra o ar, a outra puxa. Somadas, sobra quase nada.",
+      "body": [
+        "Som é ar sendo empurrado e puxado em ondas. Se uma segunda onda puxa exatamente quando a primeira empurra, com a mesma força, as duas se anulam. Os físicos chamam isso de **interferência destrutiva**.",
+        "Pense numa gangorra: quando um lado sobe, o outro desce, e o ponto do meio não se mexe. Seu ouvido é o ponto do meio. Por isso o fone precisa produzir tanto som quanto o barulho que quer cancelar, só que ao contrário."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Passo a passo",
+      "heading": "O que acontece dentro da concha",
+      "steps": [
+        {
+          "title": "Um microfone escuta",
+          "text": "Há um microfone dentro da concha, perto da entrada do ouvido (sistema de retroalimentação, o da Bose) e, nos fones atuais, outro do lado de fora (sistema antecipado). A maioria dos fones modernos usa os dois, segundo o TechRadar."
+        },
+        {
+          "title": "O circuito compara",
+          "text": "O som captado é comparado com o que deveria chegar ao ouvido: a música. A diferença é o ruído. Dan Gauger, da Bose: \"A diferença é o barulho que você não quer ouvir\" (tradução livre)."
+        },
+        {
+          "title": "O alto-falante corrige",
+          "text": "O circuito inverte essa diferença, amplifica e manda ao alto-falante. Quando a pressão do ar está alta demais, o alto-falante recua para baixá-la. Isso se repete milhares de vezes por segundo."
+        },
+        {
+          "title": "Rápido demais para ser digital",
+          "text": "Por décadas o circuito foi analógico, porque não pode haver atraso: o anti-ruído precisa chegar junto com o ruído. O processamento digital só entrou nos fones da Bose em 2013."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Limites",
+      "heading": "Por que apaga o motor e não a conversa",
+      "body": [
+        "Sons graves e constantes têm ondas longas e previsíveis: o circuito acerta a cópia. Sons agudos e irregulares têm ondas curtas e acabam antes de o sistema reagir."
+      ],
+      "check": [
+        "Motor de avião, ar-condicionado, ronco de ônibus e trem: graves, contínuos, fáceis de prever.",
+        "Redução típica de 20 a 40 decibéis nesses sons, segundo TechRadar e SoundGuys."
+      ],
+      "nocheck": [
+        "Vozes, choro de bebê, vidro quebrando: curtos e irregulares; a fala termina antes de o circuito responder.",
+        "Agudos em geral: a onda é tão curta que o microfone teria de ficar quase no tímpano. Aí quem trabalha é a espuma da concha."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De uma patente alemã ao fone de todo dia",
+      "items": [
+        {
+          "when": "1933",
+          "what": "Paul Lueg registra na Alemanha a ideia de cancelar som com som invertido; a patente americana sai em 1936."
+        },
+        {
+          "when": "1958–61",
+          "what": "Lawrence Fogel obtém patentes para reduzir o barulho de cabines de helicóptero nos EUA."
+        },
+        {
+          "when": "1978",
+          "what": "Amar Bose esboça seu fone num voo Zurique–Boston, segundo a Bose."
+        },
+        {
+          "when": "1986",
+          "what": "Dois protótipos voam com os pilotos do Voyager na primeira volta ao mundo sem escalas e sem reabastecer."
+        },
+        {
+          "when": "1989",
+          "what": "Primeiro fone comercial, para pilotos: US$ 795 de lançamento, segundo a AIN."
+        },
+        {
+          "when": "2000",
+          "what": "Chega o QuietComfort, para passageiros, por US$ 299, segundo a MIT Technology Review."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Em uma frase",
+      "text": "Um fone com cancelamento de ruído tem de fazer tanto som quanto o que está tentando cancelar.",
+      "who": "Dan Gauger, engenheiro da Bose, à Crutchfield (tradução livre)",
+      "body": [
+        "O chiado leve que alguns fones fazem é o ruído de fundo da própria eletrônica, segundo Gauger à MIT Technology Review."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Cancelar é somar.** O fone grava o barulho, inverte e toca de volta. Onde uma onda empurra o ar, a outra puxa; no ouvido, sobra quase nada.",
+        "**Funciona em grave e constante.** Motor, ônibus, ar-condicionado. Voz e barulho súbito escapam, e os agudos ficam por conta da espuma da concha.",
+        "**A ideia tem 90 anos.** Patente alemã de 1933, cabines de helicóptero nos anos 1950, pilotos em 1989 e passageiros em 2000."
+      ],
+      "photo": "fotos/celular-sem-internet-1.jpg",
+      "caption": "Foto: Sheng Hu / Unsplash"
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Bose — linha do tempo oficial (timeline.bose.com) e Bose Aviation, história",
+          "what": "Voo de 19 de abril de 1978, Zurique–Boston, oito horas; Voyager em 1986; primeiro fone para pilotos em 1989; QuietComfort em 2000"
+        },
+        {
+          "who": "AIN (Aviation International News), 1º out. 2026",
+          "what": "Entrevista com Dan Gauger: microfone dentro da concha, correção milhares de vezes por segundo, US$ 795, patentes anteriores desconhecidas pela equipe"
+        },
+        {
+          "who": "Crutchfield — entrevista com Dan Gauger",
+          "what": "Circuito analógico pela velocidade, processamento digital em 2013, citação sobre fazer tanto som quanto cancela"
+        },
+        {
+          "who": "TechRadar (Alex Cox), 24 jun. 2024; SoundGuys (Christian Thomas), 2025",
+          "what": "Sistemas antecipado, de retroalimentação e híbrido; redução de 20 a 40 dB; por que voz e agudos escapam"
+        },
+        {
+          "who": "Google Patents US 2.043.416 (Lueg); MIT Technology Review, 9 jul. 2003; Wikipedia (Lawrence J. Fogel)",
+          "what": "Patente de 1933/1936; preço de US$ 299 e chiado da eletrônica; patentes de Fogel de 1958 a 1961"
+        },
+        {
+          "who": "Fotos",
+          "what": "Michael Umoh e Sheng Hu, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O detalhe que mais surpreende é este: para fazer silêncio, o fone precisa produzir tanto som quanto o barulho que quer apagar.\n\nUm microfone dentro da concha mede o som que chega ao ouvido, o circuito tira dele a música e sobra o ruído. Esse ruído é invertido e tocado de volta, milhares de vezes por segundo, segundo Dan Gauger, engenheiro da Bose desde 1980. Funciona bem com sons graves e constantes, como motor de avião e ar-condicionado (redução típica de 20 a 40 decibéis, segundo TechRadar e SoundGuys), e mal com voz e barulhos curtos. A história oficial da Bose diz que a ideia veio num voo da Swissair em 1978; a patente mais antiga do princípio é de 1933, do alemão Paul Lueg, e a própria equipe da Bose conta que só soube disso depois.\n\nQual barulho do seu dia você mais gostaria de apagar com um botão?\n\n—\nFontes no último slide.\n\n#fonedeouvido #cancelamentoderuido #comofunciona #acustica #som #fisica #tecnologia #bose"
+}
