@@ -18,8 +18,8 @@
       "kicker": "A história",
       "heading": "Um voo de Zurique a Boston, em 1978",
       "body": [
-        "Segundo a linha do tempo oficial da Bose, em 19 de abril de 1978 Amar Bose, professor do MIT e dono da empresa de som que leva seu nome, testou num voo da Swissair os fones novos que a companhia oferecia. Eles deixavam entrar ainda mais barulho de motor: a música ficava inaudível ou alta e distorcida.",
-        "Em vez de ouvir música, ele pegou lápis e papel. Cerca de oito horas depois, ao pousar em Boston, tinha a matemática de um fone que cancela ruído. Dan Gauger, engenheiro que entrou na Bose em 1980, conta à revista AIN que a equipe não conhecia patentes dos anos 1930 e pesquisas militares dos anos 1950 sobre a mesma ideia: \"Nós inventamos independentemente\" (tradução livre)."
+        "Segundo a própria Bose, em 19 de abril de 1978 Amar Bose, professor do MIT e dono da empresa de som que leva seu nome, testou num voo da Swissair os fones novos que a companhia oferecia. Eles deixavam entrar ainda mais barulho de motor: a música ficava inaudível ou alta e distorcida.",
+        "Em vez de ouvir música, ele pegou lápis e papel. Cerca de oito horas depois, ao pousar em Boston, tinha o conceito e a matemática de um fone que cancela ruído. Dan Gauger, engenheiro que entrou na Bose em 1980, conta à revista AIN que a equipe não conhecia patentes dos anos 1930 e pesquisas militares dos anos 1950 sobre a mesma ideia: \"Nós inventamos independentemente\" (tradução livre)."
       ]
     },
     {
@@ -69,7 +69,7 @@
       ],
       "nocheck": [
         "Vozes, choro de bebê, vidro quebrando: curtos e irregulares; a fala termina antes de o circuito responder.",
-        "Agudos em geral: a onda é tão curta que o microfone teria de ficar quase no tímpano. Aí quem trabalha é a espuma da concha."
+        "Agudos em geral: a onda é curta demais para o cancelamento ativo acertar. Aí quem trabalha é o isolamento da concha."
       ]
     },
     {
@@ -83,7 +83,7 @@
         },
         {
           "when": "1958–61",
-          "what": "Lawrence Fogel obtém patentes para reduzir o barulho de cabines de helicóptero nos EUA."
+          "what": "Lawrence Fogel obtém patentes nos EUA e no Canadá para reduzir o barulho na cabine de pilotagem de helicópteros."
         },
         {
           "when": "1978",
@@ -118,8 +118,8 @@
       "heading": "Três ideias para recontar",
       "check": [
         "**Cancelar é somar.** O fone grava o barulho, inverte e toca de volta. Onde uma onda empurra o ar, a outra puxa; no ouvido, sobra quase nada.",
-        "**Funciona em grave e constante.** Motor, ônibus, ar-condicionado. Voz e barulho súbito escapam, e os agudos ficam por conta da espuma da concha.",
-        "**A ideia tem 90 anos.** Patente alemã de 1933, cabines de helicóptero nos anos 1950, pilotos em 1989 e passageiros em 2000."
+        "**Funciona em grave e constante.** Motor, ônibus, ar-condicionado. Voz e barulho súbito escapam, e os agudos ficam por conta do isolamento da concha.",
+        "**A ideia tem 90 anos.** Patente alemã de 1933, cabines de helicóptero no fim dos anos 1950, pilotos em 1989 e passageiros em 2000."
       ],
       "photo": "fotos/celular-sem-internet-1.jpg",
       "caption": "Foto: Sheng Hu / Unsplash"
@@ -132,7 +132,7 @@
           "what": "Voo de 19 de abril de 1978, Zurique–Boston, oito horas; Voyager em 1986; primeiro fone para pilotos em 1989; QuietComfort em 2000"
         },
         {
-          "who": "AIN (Aviation International News), 1º out. 2026",
+          "who": "AIN (Aviation International News), out.–nov. 2026",
           "what": "Entrevista com Dan Gauger: microfone dentro da concha, correção milhares de vezes por segundo, US$ 795, patentes anteriores desconhecidas pela equipe"
         },
         {
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "legenda": "O detalhe que mais surpreende é este: para fazer silêncio, o fone precisa produzir tanto som quanto o barulho que quer apagar.\n\nUm microfone dentro da concha mede o som que chega ao ouvido, o circuito tira dele a música e sobra o ruído. Esse ruído é invertido e tocado de volta, milhares de vezes por segundo, segundo Dan Gauger, engenheiro da Bose desde 1980. Funciona bem com sons graves e constantes, como motor de avião e ar-condicionado (redução típica de 20 a 40 decibéis, segundo TechRadar e SoundGuys), e mal com voz e barulhos curtos. A história oficial da Bose diz que a ideia veio num voo da Swissair em 1978; a patente mais antiga do princípio é de 1933, do alemão Paul Lueg, e a própria equipe da Bose conta que só soube disso depois.\n\nQual barulho do seu dia você mais gostaria de apagar com um botão?\n\n—\nFontes no último slide.\n\n#fonedeouvido #cancelamentoderuido #comofunciona #acustica #som #fisica #tecnologia #bose"
+  "legenda": "O detalhe que mais surpreende é este: para fazer silêncio, o fone precisa produzir tanto som quanto o barulho que quer apagar.\n\nUm microfone dentro da concha mede o som que chega ao ouvido, o circuito tira dele a música e sobra o ruído. Esse ruído é invertido e tocado de volta, milhares de vezes por segundo, segundo Dan Gauger, engenheiro da Bose desde 1980. Funciona bem com sons graves e constantes, como motor de avião e ar-condicionado (redução típica de 20 a 40 decibéis, segundo TechRadar e SoundGuys), e mal com voz e barulhos curtos. A história oficial da Bose diz que a ideia veio num voo da Swissair em 1978; o princípio já estava numa patente de 1933 do alemão Paul Lueg, e a própria equipe da Bose conta que só soube disso depois.\n\nQual barulho do seu dia você mais gostaria de apagar com um botão?\n\n—\nFontes no último slide.\n\n#fonedeouvido #cancelamentoderuido #comofunciona #acustica #som #fisica #tecnologia #bose"
 }
