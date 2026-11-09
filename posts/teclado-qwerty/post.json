@@ -1,0 +1,110 @@
+{
+  "slug": "teclado-qwerty",
+  "categoria": "CURIOSIDADE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/primeiro-sms-2.jpg",
+      "title": "O teclado QWERTY não foi feito para deixar você mais lento",
+      "dek": "A explicação famosa diz que as letras foram embaralhadas para as hastes da máquina de escrever não travarem. Pesquisadores que foram aos documentos da década de 1870 não encontraram prova disso.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A lenda",
+      "heading": "A história que todo mundo conta",
+      "body": [
+        "A versão popular diz que Christopher Latham Sholes, inventor da máquina de escrever, separou as letras mais usadas para que as **hastes** (as peças de metal que batem no papel) não travassem umas nas outras. Ou seja: o teclado teria sido desenhado para deixar o datilógrafo mais lento.",
+        "Koichi e Motoko Yasuoka, da Universidade de Kyoto, rastrearam quem espalhou essa versão: livros e artigos dos anos 1980, entre eles textos de Paul David e de Stephen Jay Gould. Para a BBC Science Focus, hoje ela é considerada ==uma lenda urbana==.",
+        "Um detalhe que a lenda não explica, apontado pela Smithsonian Magazine: E e R continuam lado a lado, e \"er\" é o quarto par de letras mais comum do inglês."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De um piano de seis teclas ao padrão mundial",
+      "items": [
+        { "when": "Jun. 1868", "what": "Sholes, Carlos Glidden e Samuel Soule patenteiam a máquina em Milwaukee. O modelo guardado no Smithsonian tem teclas de piano e só seis delas." },
+        { "when": "Nov. 1868", "what": "Primeira máquina enviada a Chicago: 28 teclas, em ordem alfabética." },
+        { "when": "Abr. 1870", "what": "Nova versão com 38 teclas em quatro fileiras. As vogais vão para a fileira de cima." },
+        { "when": "1º mar. 1873", "what": "A Remington assina contrato para produzir a máquina." },
+        { "when": "Abr. 1874", "what": "A Sholes & Glidden Type-Writer chega às lojas por US$ 125 (mais de US$ 3 mil em valores de hoje, segundo a Smithsonian Magazine)." },
+        { "when": "1882", "what": "O M vai para o lado do N, e C e X trocam de lugar. Nasce o QWERTY que usamos hoje." },
+        { "when": "1893", "what": "Cinco fabricantes, incluindo a Remington, se fundem na Union Typewriter Company. O padrão se consolida." }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A outra hipótese",
+      "heading": "Os primeiros clientes ouviam código Morse",
+      "photo": "fotos/a-informacao-gleick-2.jpg",
+      "caption": "Foto: Sandra Tan / Unsplash",
+      "body": [
+        "Segundo os Yasuoka, os primeiros compradores da máquina eram **telegrafistas**: pessoas que recebiam mensagens em código Morse e precisavam escrevê-las na velocidade em que chegavam. O primeiro cliente foi Edward Payson Porter, dono de uma escola de telegrafia em Chicago.",
+        "Um exemplo que eles dão: no Morse americano, o sinal da letra Z se confundia com o do par de letras SE. Por isso o S foi parar perto do Z e do E, onde está até hoje.",
+        "A conclusão dos autores: o teclado mudou várias vezes para atender telegrafistas, estenógrafos e exigências de patente. Não houve uma política consistente por trás do QWERTY."
+      ]
+    },
+    {
+      "type": "split",
+      "display": "sans",
+      "kicker": "Os números",
+      "heading": "Do alfabeto ao embaralhado",
+      "cells": [
+        { "big": "28", "unit": " teclas", "label": "em 1868", "text": "em ordem alfabética, de A a Z" },
+        { "big": "43", "unit": " teclas", "label": "em 1873", "text": "na máquina levada à Remington" }
+      ],
+      "body": [
+        "Um protótipo chegou a ter o ponto final onde hoje fica o R. A fileira de cima era ==QWE.TY==, e a ideia foi descartada, segundo a Smithsonian Magazine.",
+        "A sequência **DFGHJKL**, na fileira do meio do seu teclado, é o que sobrou da ordem alfabética original, aponta a BBC Science Focus."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O veredito dos pesquisadores",
+      "text": "‘Para desacelerar o operador.’ Isso é um absurdo",
+      "who": "Koichi e Motoko Yasuoka, Universidade de Kyoto, no artigo \"On the Prehistory of QWERTY\" (tradução livre)",
+      "body": [
+        "Os autores lembram que uma máquina mais lenta não servia a quem copiava Morse em tempo real. Mas admitem que, sem intenção, o teclado acabou ficando mais difícil de digitar rápido ao longo das mudanças.",
+        "A BBC Science Focus vai na mesma direção: há indícios de que Sholes tentava **acelerar** a digitação, seguindo o retorno dos telegrafistas."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que ficou",
+      "heading": "O teclado treinou o datilógrafo",
+      "photo": "fotos/arpanet-primeira-mensagem-1.jpg",
+      "caption": "Foto: Niklas König / Unsplash",
+      "body": [
+        "Em 1891, a Remington dizia ter mais de 100 mil máquinas QWERTY em uso. Em 1893 veio a fusão das cinco fabricantes, e em 1898 o arranjo já era o padrão de fato, segundo os Yasuoka.",
+        "O resto é inércia: o teletipo adotou o QWERTY nos anos 1910, e as máquinas de teletipo serviram de terminal de computador dos anos 1940 aos 1970. Dali, o arranjo passou para o PC e para a tela do seu celular.",
+        "\"A forma seguiu a função, e o teclado treinou o datilógrafo\", resume a Smithsonian Magazine (tradução livre)."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Não há prova de que o QWERTY foi feito para atrasar.** A versão das hastes travando vem de textos dos anos 1980, não dos documentos da época.",
+        "**Os primeiros usuários eram telegrafistas.** Pesquisadores de Kyoto mostram que o arranjo mudou para facilitar a cópia de código Morse e por exigências de patente.",
+        "**O padrão venceu por escala, não por ser o melhor.** Em 1898 o QWERTY já era o padrão de fato, e cada geração de máquina herdou o teclado da anterior."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Koichi Yasuoka e Motoko Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN nº 42, Universidade de Kyoto, 2011", "what": "Cronologia de 1868 a 1898, telegrafistas, Porter, exemplo do Z e SE, 1882, Union Typewriter, teletipo, citação sobre o absurdo" },
+        { "who": "Smithsonian Magazine (Jimmy Stamp e Ellen Wexler), 25 fev. 2025", "what": "A lenda das hastes, E e R lado a lado, protótipo QWE.TY, preço de US$ 125 em 1874, 100 mil máquinas em 1891, fusão de 1893, citação sobre forma e função" },
+        { "who": "BBC Science Focus (Peter Bentley), 2019, atualizado em 2023", "what": "Lenda urbana, indícios de que Sholes queria acelerar, venda à Remington em 1873, fileira DFGHJKL" },
+        { "who": "Smithsonian National Museum of American History, ficha do modelo de patente Sholes, Glidden & Soule", "what": "Patente de 23 jun. 1868, Milwaukee, teclas de piano, seis teclas" },
+        { "who": "Fotos", "what": "Johnny Briggs, Sandra Tan e Niklas König, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A parte mais curiosa dessa história é que o teclado do seu celular ainda carrega decisões tomadas para quem ouvia código Morse em 1870.\n\nA lenda de que o QWERTY foi embaralhado para as hastes da máquina de escrever não travarem, e por isso deixaria o datilógrafo mais lento, vem de livros e artigos dos anos 1980. Koichi e Motoko Yasuoka, da Universidade de Kyoto, foram aos documentos da época e acharam outra coisa: os primeiros compradores eram telegrafistas, e o arranjo foi mudando, de 28 teclas em ordem alfabética em 1868 ao QWERTY de 1882, para facilitar a cópia de Morse e atender exigências de patente. Até o ponto final já ocupou o lugar do R. Em 1898, o arranjo já era o padrão de fato, e cada geração de máquina herdou o teclado da anterior.\n\nVocê já tentou digitar em um teclado com outro arranjo?\n\n—\nFontes no último slide.\n\n#teclado #qwerty #curiosidade #historiadatecnologia #maquinadeescrever #telegrafo #design #tecnologia"
+}
