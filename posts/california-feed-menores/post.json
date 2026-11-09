@@ -22,11 +22,11 @@
         { "k": "Contra quem", "v": "Rob Bonta, procurador-geral da Califórnia" },
         { "k": "Quando", "v": "4 de novembro de 2026" },
         { "k": "Onde", "v": "Tribunais federais: Meta em São Francisco, Google em San José, TikTok em Los Angeles" },
-        { "k": "O pedido", "v": "Declarar a lei inconstitucional e barrar sua aplicação antes de janeiro" },
+        { "k": "O pedido", "v": "Declarar a lei inconstitucional e proibir sua aplicação, em liminar e em definitivo" },
         { "k": "Fontes", "v": "Petição da Meta (caso 3:26-cv-13201), KQED, TechCrunch" }
       ],
       "body": [
-        "As empresas dizem que a lei viola a **Primeira Emenda** (a garantia de liberdade de expressão da Constituição americana) e a **Seção 230**, lei federal que impede tratar a plataforma como autora do que os usuários publicam."
+        "As empresas dizem que a lei viola a **Primeira Emenda** (a garantia de liberdade de expressão da Constituição americana) e a **Seção 230**, lei federal que, segundo as empresas, também protege as recomendações de conteúdo."
       ]
     },
     {
@@ -53,7 +53,7 @@
       ],
       "note": "Pesquisa Pew Research Center, dezembro de 2025, citada na análise do Senado da Califórnia.",
       "body": [
-        "Segundo a mesma pesquisa, **21%** dos adolescentes dizem usar o TikTok \"quase constantemente\", e **17%**, o YouTube. Cerca de um em cada cinco afirma que as redes prejudicam a própria saúde mental."
+        "Segundo a mesma pesquisa, **21%** dos adolescentes dizem usar o TikTok \"quase constantemente\", e **17%**, o YouTube. Outro dado do Pew citado na mesma análise: cerca de um em cada cinco afirma que as redes prejudicam a própria saúde mental."
       ]
     },
     {
@@ -66,7 +66,7 @@
       ],
       "body": [
         "Só o procurador-geral do estado ou um promotor local pode processar. Usuários não podem entrar com ação individual com base nessa lei, segundo a petição da Meta e a análise do Senado.",
-        "A Meta diz que quase **4 bilhões de pessoas** usam seus serviços no mundo, segundo a própria petição."
+        "A Meta diz que seus serviços já alcançaram quase **4 bilhões de pessoas** desde 2004, segundo a própria petição."
       ]
     },
     {
@@ -89,7 +89,7 @@
         "lines": [
           "As três ações foram protocoladas em 4 de novembro em tribunais federais.",
           "A lei entra em vigor em 1º de janeiro de 2027 se nenhum juiz a suspender.",
-          "A Austrália proíbe contas para menores de 16 desde dezembro de 2025; a mais alta corte da França derrubou uma lei parecida em agosto de 2026."
+          "A Austrália proíbe contas para menores de 16 desde dezembro de 2025; a mais alta corte da França derrubou uma lei parecida, segundo o TechCrunch."
         ]
       },
       "b": {
@@ -107,7 +107,7 @@
       "heading": "Três ideias para recontar",
       "check": [
         "**A Califórnia quer um feed sem algoritmo para menores de 16.** A lei proíbe recomendação personalizada e vídeo automático, mesmo com aval dos pais, a partir de 2027.",
-        "**Meta, Google e TikTok dizem que isso é censura.** Para elas, escolher o que mostrar é liberdade de expressão protegida pela Constituição americana.",
+        "**Meta, Google e TikTok dizem que isso viola a liberdade de expressão.** Para elas, escolher o que mostrar é liberdade de expressão protegida pela Constituição americana.",
         "**A disputa é de direito, não de dados.** A lei passou por 76 a 0; a briga agora é se um estado pode mandar na forma como uma plataforma organiza conteúdo."
       ]
     },
@@ -123,5 +123,5 @@
       ]
     }
   ],
-  "legenda": "A pergunta no centro dos três processos não é se as redes fazem mal aos adolescentes. É se um estado pode decidir como uma plataforma organiza o que cada pessoa vê.\n\nA lei AB 1709, sancionada em setembro pelo governador Gavin Newsom depois de passar sem voto contrário, proíbe feed personalizado e vídeo automático para menores de 16 anos na Califórnia a partir de 1º de janeiro de 2027, mesmo com autorização dos pais. A multa chega a US$ 50 mil por menor afetado. Em 4 de novembro, Meta, Google e TikTok entraram com ações separadas contra o procurador-geral Rob Bonta, alegando violação da liberdade de expressão e da Seção 230, a lei federal que protege plataformas pelo que os usuários publicam. A procuradoria diz que vai defender a lei. A Austrália já tem uma proibição parecida; a França viu a sua ser derrubada pela mais alta corte do país.\n\nSe uma lei dessas valesse no Brasil, você deixaria o feed do seu filho sem algoritmo ou preferiria decidir em casa?\n\n—\nFontes no último slide.\n\n#redessociais #adolescentes #california #regulacao #meta #tiktok #youtube #noticia #tecnologia"
+  "legenda": "A pergunta no centro dos três processos não é se as redes fazem mal aos adolescentes. É se um estado pode decidir como uma plataforma organiza o que cada pessoa vê.\n\nA lei AB 1709, sancionada em setembro pelo governador Gavin Newsom depois de passar sem voto contrário, proíbe feed personalizado e vídeo automático para menores de 16 anos na Califórnia a partir de 1º de janeiro de 2027, mesmo com autorização dos pais. A multa chega a US$ 50 mil por menor afetado. Em 4 de novembro, Meta, Google e TikTok entraram com ações separadas contra o procurador-geral Rob Bonta, alegando violação da liberdade de expressão e da Seção 230, lei federal que, segundo elas, também protege as recomendações de conteúdo. A procuradoria diz que vai defender a lei. A Austrália já tem uma proibição parecida; a França viu a sua ser derrubada pela mais alta corte do país.\n\nSe uma lei dessas valesse no Brasil, você deixaria o feed do seu filho sem algoritmo ou preferiria decidir em casa?\n\n—\nFontes no último slide.\n\n#redessociais #adolescentes #california #regulacao #meta #tiktok #youtube #noticia #tecnologia"
 }

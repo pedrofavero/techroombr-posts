@@ -1,6 +1,6 @@
 A parte mais curiosa dessa história é que o teclado do seu celular ainda carrega decisões tomadas para quem ouvia código Morse em 1870.
 
-A lenda de que o QWERTY foi embaralhado para as hastes da máquina de escrever não travarem, e por isso deixaria o datilógrafo mais lento, vem de livros e artigos dos anos 1980. Koichi e Motoko Yasuoka, da Universidade de Kyoto, foram aos documentos da época e acharam outra coisa: os primeiros compradores eram telegrafistas, e o arranjo foi mudando, de 28 teclas em ordem alfabética em 1868 ao QWERTY de 1882, para facilitar a cópia de Morse e atender exigências de patente. Até o ponto final já ocupou o lugar do R. Em 1898, o arranjo já era o padrão de fato, e cada geração de máquina herdou o teclado da anterior.
+A lenda de que o QWERTY foi embaralhado para as hastes da máquina de escrever não travarem, e por isso deixaria o datilógrafo mais lento, vem de livros e artigos dos anos 1980. Koichi e Motoko Yasuoka, da Universidade de Kyoto, foram aos documentos da época e acharam outra coisa: os primeiros compradores eram telegrafistas, e o arranjo foi mudando, de 28 teclas em ordem alfabética em 1868 ao QWERTY de 1882, para facilitar a cópia de Morse, por acordos entre inventores e fabricantes e para contornar patentes antigas. Até o ponto final já ocupou o lugar do R. Em 1898, o arranjo já era o padrão de fato, e do teletipo ele passou aos teclados de computador.
 
 Você já tentou digitar em um teclado com outro arranjo?
 
