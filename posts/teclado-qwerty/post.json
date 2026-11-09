@@ -34,7 +34,7 @@
         { "when": "1º mar. 1873", "what": "A Remington assina contrato para produzir a máquina." },
         { "when": "Abr. 1874", "what": "A Sholes & Glidden Type-Writer chega às lojas por US$ 125 (mais de US$ 3 mil em valores de hoje, segundo a Smithsonian Magazine)." },
         { "when": "1882", "what": "O M vai para o lado do N, e C e X trocam de lugar. Nasce o QWERTY que usamos hoje." },
-        { "when": "1893", "what": "Cinco fabricantes, incluindo a Remington, se fundem na Union Typewriter Company. O padrão se consolida." }
+        { "when": "1893", "what": "Cinco fabricantes, incluindo a Remington, passam ao controle de uma mesma empresa, a Union Typewriter Company. O padrão se consolida." }
       ]
     },
     {
@@ -80,7 +80,7 @@
       "photo": "fotos/arpanet-primeira-mensagem-1.jpg",
       "caption": "Foto: Niklas König / Unsplash",
       "body": [
-        "Em 1891, a Remington dizia ter mais de 100 mil máquinas QWERTY em uso, segundo a Smithsonian Magazine. Em 1893 veio a fusão das cinco fabricantes, e em 1898 o arranjo já era o padrão de fato, segundo os Yasuoka.",
+        "Em 1891, a Remington dizia ter mais de 100 mil máquinas QWERTY em uso, segundo a Smithsonian Magazine. Em 1893, as cinco principais fabricantes passaram ao controle da Union Typewriter Company, e em 1898 o arranjo já era o padrão de fato, segundo os Yasuoka.",
         "O resto é inércia: o teletipo adotou o QWERTY nos anos 1910, e as máquinas de teletipo serviram de terminal de computador dos anos 1940 aos 1970. Dali, o arranjo passou para os teclados de computador.",
         "\"A forma seguiu a função, e o teclado treinou o datilógrafo\", resume a Smithsonian Magazine (tradução livre)."
       ]
@@ -99,7 +99,7 @@
       "type": "sources",
       "items": [
         { "who": "Koichi Yasuoka e Motoko Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN nº 42 (2009/2010), Universidade de Kyoto", "what": "Cronologia de 1868 a 1898, telegrafistas, Porter, exemplo do Z e SE, 1882, Union Typewriter, teletipo, citação sobre o absurdo" },
-        { "who": "Smithsonian Magazine (Jimmy Stamp e Ellen Wexler), 25 fev. 2025", "what": "A lenda das hastes, E e R lado a lado, protótipo QWE.TY, preço de US$ 125 em 1874, 100 mil máquinas em 1891, fusão de 1893, citação sobre forma e função" },
+        { "who": "Smithsonian Magazine (Jimmy Stamp e Ellen Wexler), 25 fev. 2025", "what": "A lenda das hastes, E e R lado a lado, protótipo QWE.TY, preço de US$ 125 em 1874, 100 mil máquinas em 1891, Union Typewriter em 1893, citação sobre forma e função" },
         { "who": "BBC Science Focus (Peter Bentley), 2019, atualizado em 2023", "what": "Lenda urbana, indícios de que Sholes queria acelerar, venda à Remington em 1873, fileira DFGHJKL" },
         { "who": "Smithsonian National Museum of American History, ficha do modelo de patente Sholes, Glidden & Soule", "what": "Patente de 23 jun. 1868, Milwaukee, teclas de piano, seis teclas" },
         { "who": "Fotos", "what": "Johnny Briggs, Sandra Tan e Niklas König, via Unsplash" }
