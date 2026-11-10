@@ -1,4 +1,4 @@
-semelhança roteiro x áudio: 97.9%
+semelhança roteiro x áudio: 98.4%
 números do roteiro: 1870, 28, 1882, 1898
 números ouvidos:    1870, 28, 1882, 1898
 números: todos ouvidos
@@ -7,4 +7,4 @@ ROTEIRO:
 Te contaram que as letras do teclado foram embaralhadas para você digitar mais devagar. Não foi isso. Pesquisadores da Universidade de Kyoto foram aos documentos de 1870. Os primeiros clientes da máquina de escrever eram telegrafistas. Eles copiavam código Morse em tempo real. O arranjo mudou várias vezes: para facilitar o Morse, por acordos entre inventores e fabricantes, e para contornar patentes antigas. A primeira versão tinha 28 teclas, em ordem alfabética. Em 1882, nasceu o QWERTY que você usa hoje. Em 1898 já era o padrão. O resto é costume. Fontes no primeiro comentário.
 
 OUVIDO:
-Te contaram que as letras do teclado foram embaralhadas para você digitar mais devagar. Não foi isso. Esquisadores da Universidade de Kyoto foram aos documentos de 1870. Os primeiros clientes da máquina de escrever eram telegrafistas. Eles copiavam código morse em tempo real. O arranjo mudou várias vezes para facilitar o morse por acordos entre inventores e fabricantes e para contornar patentes antigas. A primeira versão tinha 28 teclas em ordem alfabética. Em 1882 nasceu o curte que você usa hoje. Em 1898 já era o padrão. O resto é costume. Fontes no primeiro comentário.
+Te contaram que as letras do teclado foram embaralhadas para você digitar mais devagar. Não foi isso. Esquisadores da Universidade de Kyoto foram aos documentos de 1870. Os primeiros clientes da máquina de escrever eram telegrafistas. Eles copiavam o código morse em tempo real. O arranjo mudou várias vezes para facilitar o morse por acordos entre inventores e fabricantes e para contornar patentes antigas. A primeira versão tinha 28 teclas em ordem alfabética. Em 1882, nasceu o QWERTY que você usa hoje. Em 1898 já era o padrão, o resto é costume. Fontes no primeiro comentário.
