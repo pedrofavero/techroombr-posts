@@ -60,7 +60,7 @@ jobs:
 
       - name: Dependências Python e navegador
         run: |
-          pip install -q playwright pillow edge-tts kokoro-onnx soundfile faster-whisper "av<19"
+          pip install -q playwright pillow numpy scipy edge-tts kokoro-onnx soundfile faster-whisper "av<19"
           python -m playwright install --with-deps chromium
 
       - name: ffmpeg 7 (o do runner é 6.x; o mux.sh do toolbox pede 7+)
