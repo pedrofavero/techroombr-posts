@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/celular-depois-das-22h-3.jpg",
       "title": "O relógio achou pressão alta em 2 de cada 3. Sem braçadeira",
-      "dek": "Estudo do Google, publicado na Nature, usou os sensores comuns de um Pixel Watch e uma semana de uso para apontar quem tem hipertensão. O desempenho empatou com a medição no consultório. É triagem, não diagnóstico.",
+      "dek": "Estudo do Google, publicado na Nature, usou os sensores comuns de um Pixel Watch e uma semana de uso para apontar quem tem hipertensão. O desempenho foi comparável ao da medição no consultório. É triagem, não diagnóstico.",
       "swipe": "arraste →"
     },
     {
@@ -22,7 +22,7 @@
       "body": [
         "**196 adultos**, em cinco centros nos Estados Unidos, usaram um Pixel Watch 3 por cerca de uma semana (média de 7,3 dias, 14,7 horas por dia), inclusive dormindo. Ninguém tomava remédio para pressão nem tinha doença do coração conhecida.",
         "A referência foi o ==MAPA==, a braçadeira que mede a pressão por 24 horas: a cada 20 minutos de dia e a cada hora à noite. Hipertensão foi definida como média de 24 horas igual ou acima de 130 por 80. Pelo MAPA, 38,8% dos participantes tinham pressão alta.",
-        "296 pessoas entraram no estudo; 100 saíram da análise, 75 delas porque faltaram dados da braçadeira, em geral porque não dormiram com ela."
+        "296 pessoas entraram no estudo; 100 saíram da análise, 75 delas porque faltaram dados da braçadeira, muitas porque não dormiram com ela."
       ]
     },
     {
@@ -32,19 +32,19 @@
       "rows": [
         {
           "k": "Publicação",
-          "v": "Nature, 5 nov. 2026. Versão preliminar (preprint, sem revisão por pares) no medRxiv em dez. 2025."
+          "v": "Nature, 5 nov. 2026. Preprint (sem revisão por pares) no medRxiv em dez. 2025."
         },
         {
           "k": "Autores",
-          "v": "16: 15 do Google Research e 1 do Beth Israel Deaconess Medical Center (Harvard)."
+          "v": "16: 15 do Google Research e 1 do Beth Israel Deaconess Medical Center (Boston)."
         },
         {
           "k": "Financiamento",
-          "v": "Alphabet, dona do Google. Os 15 autores da empresa podem ter ações dela."
+          "v": "Alphabet, dona do Google. 15 dos 16 autores são funcionários da empresa."
         },
         {
           "k": "Treino da IA",
-          "v": "492.347 horas de sensores de 2.109 pessoas, sem rótulo de pressão; ajuste final com 663 pessoas que usaram MAPA."
+          "v": "492.347 horas de sensores de 2.109 pessoas, sem rótulo de pressão; classificador treinado com 663 pessoas que fizeram MAPA."
         },
         {
           "k": "Teste",
@@ -63,8 +63,8 @@
       "unit": "%",
       "label": "das pessoas com hipertensão pelo MAPA foram apontadas pelo relógio (a chamada sensibilidade)",
       "body": [
-        "Uma única medição no consultório, com o corte de 140 por 90, apontou **55,3%**. Nos dois casos, a especificidade foi de 90%: 1 em cada 10 pessoas sem hipertensão recebeu um alerta falso.",
-        "Quando o relógio alerta, acerta 4 em 5 vezes (valor preditivo positivo de 80,6%). Os intervalos de confiança do relógio (54% a 76%) e do consultório (43% a 67%) se sobrepõem: é empate técnico, não vitória."
+        "Uma só consulta no consultório (média de duas leituras, corte de 140 por 90) apontou **55,3%**. Nos dois casos, a especificidade foi de 90%: 1 em cada 10 pessoas sem hipertensão recebeu um alerta falso.",
+        "Quando o relógio alerta, acerta 4 em 5 vezes (valor preditivo positivo de 80,6%). Os intervalos de confiança do relógio (54% a 76%) e do consultório (43% a 67%) se sobrepõem: os autores falam em desempenho comparável, não em vitória."
       ]
     },
     {
@@ -78,7 +78,7 @@
           "label": "65,8%"
         },
         {
-          "name": "Consultório, 1 medição",
+          "name": "Consultório, 1 consulta",
           "value": 55.3,
           "label": "55,3%",
           "other": true
@@ -92,7 +92,7 @@
       ],
       "note": "Sensibilidade com especificidade fixada em 90%, nos 196 participantes, tendo o MAPA de 24 h como referência. Fonte: Tabela 2 da versão preliminar do estudo (medRxiv).",
       "body": [
-        "O relógio acerta mais quando a pressão é mais alta: 89,5% dos casos com média de 24 h de 145 por 90 ou mais, contra 52,8% dos casos leves (125 por 75).",
+        "O relógio acerta mais quando a pressão é mais alta: 89,5% dos casos quando o corte sobe para 145 por 90, e 52,8% quando o corte cai para 125 por 75.",
         "Num subgrupo de 48 pessoas com pressão alta na primeira consulta, a braçadeira em casa por 3 dias ou mais achou 89,2%; o relógio, 78,4%; a segunda consulta, 67,6%. Amostra pequena."
       ]
     },
@@ -114,7 +114,7 @@
         "title": "Mostra",
         "lines": [
           "Que sensores já presentes num relógio comum, usados por uma semana, apontam hipertensão tão bem quanto uma medição no consultório.",
-          "Que o erro se concentra nos casos leves: 17 dos 26 hipertensos que o relógio deixou passar também passaram pelo consultório.",
+          "Que os erros se sobrepõem: 17 dos 26 hipertensos que o relógio deixou passar também passaram pela consulta no consultório.",
           "Que 9 dos 12 alertas falsos tinham algum critério de hipertensão, sobretudo à noite, quando a consulta não mede."
         ]
       },
@@ -135,20 +135,17 @@
       "kicker": "Para levar",
       "heading": "Três ideias para recontar",
       "check": [
-        "**Relógio comum, sem braçadeira, uma semana de uso.** Em 196 adultos, a IA do Google apontou 65,8% dos hipertensos, contra 55,3% de uma medição no consultório, com os mesmos 10% de alarmes falsos.",
+        "**Relógio comum, sem braçadeira, uma semana de uso.** Em 196 adultos, a IA do Google apontou 65,8% dos hipertensos, contra 55,3% de uma consulta no consultório, com os mesmos 10% de alarmes falsos.",
         "**Não é um medidor de pressão.** O sistema devolve uma probabilidade de hipertensão a partir do padrão do pulso de vários dias, não um número.",
         "**Triagem, não diagnóstico.** Deixa passar 1 em cada 3 casos, foi pago pela Alphabet e ainda precisa de testes maiores e fora dos EUA. Alerta serve para procurar um profissional."
-      ],
-      "after": [
-        "Contexto citado na introdução do estudo: 57,8% dos adultos americanos com pressão descontrolada não sabem disso."
       ]
     },
     {
       "type": "sources",
       "items": [
         {
-          "who": "Google Research e Beth Israel Deaconess (autor correspondente Ming-Zher Poh) — Nature, 5 nov. 2026",
-          "what": "\"Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch\" (doi 10.1038/s41586-026-11336-3). Números deste post vêm da versão preliminar no medRxiv (doi 10.64898/2025.12.10.25341972, 15 dez. 2025): métodos, Tabela 2, análise de erros, limitações, financiamento"
+          "who": "Google Research (Ming-Zher Poh, Paolo Di Achille e outros) e Beth Israel Deaconess — Nature, 5 nov. 2026",
+          "what": "\"Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch\" (doi 10.1038/s41586-026-11336-3). Números deste post vêm da versão preliminar no medRxiv (doi 10.64898/2025.12.10.25341972, dez. 2025): métodos, Tabela 2, análise de erros, limitações"
         },
         {
           "who": "The Decoder (Manuel Uth), 7 nov. 2026",
@@ -165,5 +162,5 @@
       ]
     }
   ],
-  "legenda": "A parte mais importante do estudo não é o relógio: é a comparação. O relógio foi testado contra a braçadeira de 24 horas, o padrão para confirmar hipertensão, e não contra uma medição isolada.\n\nO artigo saiu na Nature em 5 de novembro, assinado por 15 pesquisadores do Google Research e um médico do Beth Israel Deaconess (Harvard), com financiamento da Alphabet. 196 adultos sem remédio para pressão usaram um Pixel Watch 3 por uma semana; uma IA treinada em quase 500 mil horas de dados de pulso e movimento, sem rótulo de pressão, apontou 65,8% dos hipertensos, contra 55,3% de uma medição no consultório, ambos com 10% de alarmes falsos. Ficaram de fora pessoas com doença do coração e quem já toma remédio. Os autores pedem estudos maiores, fora dos EUA, e um ensaio clínico. Um alerta do relógio deve levar à medição com um profissional, não substituí-la.\n\nVocê mediria a pressão com mais frequência se o relógio avisasse?\n\n—\nFontes no último slide.\n\n#pressaoalta #hipertensao #smartwatch #google #estudo #saude #inteligenciaartificial #tecnologia"
+  "legenda": "A parte mais importante do estudo não é o relógio: é a comparação. O relógio foi testado contra a braçadeira de 24 horas, o padrão para confirmar hipertensão, e não contra uma medição isolada.\n\nO artigo saiu na Nature em 5 de novembro, assinado por 15 pesquisadores do Google Research e um médico do Beth Israel Deaconess, de Boston, com financiamento da Alphabet. 196 adultos sem remédio para pressão usaram um Pixel Watch 3 por uma semana; uma IA treinada em quase 500 mil horas de dados de pulso e movimento, sem rótulo de pressão, apontou 65,8% dos hipertensos, contra 55,3% de uma consulta no consultório, ambos com 10% de alarmes falsos. Ficaram de fora pessoas com doença do coração e quem já toma remédio. Os autores pedem estudos maiores, fora dos EUA, e um ensaio clínico. Um alerta do relógio deve levar à medição com um profissional, não substituí-la.\n\nVocê mediria a pressão com mais frequência se o relógio avisasse?\n\n—\nFontes no último slide.\n\n#pressaoalta #hipertensao #smartwatch #google #estudo #saude #inteligenciaartificial #tecnologia"
 }
