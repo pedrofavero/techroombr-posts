@@ -221,6 +221,8 @@ def chunk_words(words, max_words=3, max_chars=18):
         if cur and (len(cur) >= max_words or sum(len(x[2]) for x in cur) + len(w[2]) > max_chars):
             chunks.append(cur); cur = []
         cur.append(w)
+        if w[2][-1:] in ".!?:":   # fim de frase fecha o bloco (não mistura frases nem cenas)
+            chunks.append(cur); cur = []
     if cur:
         chunks.append(cur)
     return chunks
