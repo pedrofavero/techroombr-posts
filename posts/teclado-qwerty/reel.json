@@ -4,7 +4,6 @@
   "voice": "pt-BR-ThalitaMultilingualNeural",
   "voice_rate": "+10%",
   "captions": true,
-  "music": "auto",
   "scenes": [
     {
       "kicker": "Mito x fato",

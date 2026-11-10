@@ -8,7 +8,8 @@ Saída: posts/<slug>/reel.mp4 (1080x1920, 30 fps, H.264 + AAC), reel_cover.jpg, 
 REEL (reel.json):
   slug, [display "sans"|"serif"], [accent "#hex"], [masthead], [handle]
   [voice "pt-BR-FranciscaNeural" | "pt-BR-AntonioNeural" | "pt-BR-ThalitaMultilingualNeural"]  (edge-tts, gratuito)
-  [voice_rate "+6%"]  [captions true]  [music "reels/musica/x.mp3"]  [music_volume 0.22]
+  [voice_rate "+6%"]  [captions true]
+  Som: por padrão SÓ a voz. Opcionais, desligados: [music "auto" | "reels/musica/x.mp3"] [music_volume] [sfx true]
   scenes[]  legenda  [fontes_comentario]  (texto do 1º comentário com as fontes)
 
 CENA (scenes[]):
@@ -554,13 +555,17 @@ def main(paths):
                         events += [(t0 + 0.2 + k * step, "pop") for k in range(len(a["items"]))]
                 elif i > 0:
                     events.append((t0, "thump" if sc.get("big") else "cut"))
-            music = reel.get("music", "auto")
+            music = reel.get("music")   # padrão: sem trilha (decisão editorial de 10/11/2026: só a voz da narradora)
             sfx_wav, mus_wav = tmp / "sfx.wav", tmp / "music.wav"
             try:
+                if not (reel.get("sfx", False) or music == "auto"):
+                    raise RuntimeError("desligado")
                 import reel_audio
-                reel_audio.build(total, events if reel.get("sfx", True) else [], str(mus_wav), str(sfx_wav), music_on=(music == "auto"))
+                reel_audio.build(total, events if reel.get("sfx", False) else [], str(mus_wav), str(sfx_wav), music_on=(music == "auto"))
             except Exception as e:
-                print(f"  som procedural indisponível ({type(e).__name__}: {e})"); music = None if music == "auto" else music
+                if str(e) != "desligado":
+                    print(f"  som procedural indisponível ({type(e).__name__}: {e})")
+                music = None if music == "auto" else music
             if music == "auto" and mus_wav.exists():
                 music_path = mus_wav
             else:

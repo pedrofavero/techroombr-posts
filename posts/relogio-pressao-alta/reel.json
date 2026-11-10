@@ -5,7 +5,6 @@
   "voice": "pt-BR-ThalitaMultilingualNeural",
   "voice_rate": "+10%",
   "captions": true,
-  "music": "auto",
   "scenes": [
     {
       "media": "fotos/relogio-pressao-alta-1.jpg",

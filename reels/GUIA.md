@@ -25,8 +25,8 @@ e a página "Instagram Ranking Explained". Nenhuma fonte primária do Instagram 
 4. **Evidência em tela.** Todo número aparece com selo `FONTE` na mesma cena (`anim.fonte`); crédito da foto no canto.
 5. **Nada parado.** Cortes secos na grade de 0,5 s; a foto troca de enquadramento a cada ~2,5 s; contadores rolam; barras crescem.
 6. **Legenda é o ator principal.** Blocos de até 3 palavras, caixa alta, entram com "slam"; palavra falada em amarelo.
-7. **Som.** Voz + trilha procedural a 120 BPM (gerada em código, sem direitos de terceiros) + efeitos nas ações de tela.
-   Master em −14 LUFS.
+7. **Som: só a voz da narradora** (Thalita). Sem trilha e sem efeitos, por decisão editorial de 10/11/2026.
+   Master em −14 LUFS. O motor ainda sabe gerar trilha e efeitos (`music`, `sfx`), mas ficam desligados.
 8. **Fecho curto.** Cartão de fontes de 2 a 3 s; fontes completas no primeiro comentário.
 
 Ordem de um fato: imagem (sensação) → número no cartão → de onde veio → consequência.
@@ -54,9 +54,9 @@ Ainda proibido em qualquer estilo: imagem gerada por IA, render 3D, robô, cére
 | Função | Ferramenta | Observação |
 |---|---|---|
 | Render | GitHub Actions (repositório público) + Playwright + ffmpeg 7 | ~4 min por reel |
-| Voz | edge-tts: `pt-BR-AntonioNeural` (masculina), `pt-BR-ThalitaMultilingualNeural` | Plano B offline: Kokoro (`pm_alex`, `pf_dora`) |
+| Voz | edge-tts: `pt-BR-ThalitaMultilingualNeural` (voz da casa) | Plano B offline: Kokoro (`pm_alex`, `pf_dora`) |
 | Animação | contrato `window.render(t)` do lemo-opuscar (MIT) | cenas `hook`, `number`, `bars`, `timeline` |
-| Som | `engine/reel_audio.py` + `toolbox/sfx.py` | trilha e efeitos gerados em código |
+| Som | só voz | trilha e efeitos existem no motor, desligados |
 | Master | `toolbox/mux.sh` | −14 LUFS, duas passagens |
 | Conferência | faster-whisper (pt) em `engine/asr_check_pt.py` | número não ouvido bloqueia a publicação |
 | Foto | Unsplash (Action `fotos`) | já em uso |
