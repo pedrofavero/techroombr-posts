@@ -87,7 +87,7 @@ jobs:
           if [ -n "$SLUG_IN" ]; then
             slugs="$SLUG_IN"
           else
-            slugs=$(git diff --name-only HEAD~1 HEAD -- 'posts/*/reel.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            slugs=$(git diff --name-only --diff-filter=d HEAD~1 HEAD -- 'posts/*/reel.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
           fi
           echo "slugs=$slugs" >> "$GITHUB_OUTPUT"; echo "reels: $slugs"
 
