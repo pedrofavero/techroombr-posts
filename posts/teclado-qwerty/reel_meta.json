@@ -1,0 +1,29 @@
+{
+ "slug": "teclado-qwerty",
+ "total_s": 39.6,
+ "scenes": [
+  {
+   "dur": 6.5,
+   "start": 0.0
+  },
+  {
+   "dur": 9.0,
+   "start": 6.4
+  },
+  {
+   "dur": 10.5,
+   "start": 15.3
+  },
+  {
+   "dur": 11.5,
+   "start": 25.7
+  },
+  {
+   "dur": 2.5,
+   "start": 37.1
+  }
+ ],
+ "words": 95,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 96.3%
+números do roteiro: 1991, 1961, 2013, 2008
+números ouvidos:    1991, 1961, 2013, 2008
+números: todos ouvidos
+
+ROTEIRO:
+A regra do modo avião não nasceu para proteger o avião. Dizem que o celular derruba o avião. A regra americana de 1991 nasceu por outro motivo: proteger a rede de celular no chão. No chão, o celular fala com uma torre. Lá em cima, o sinal alcança várias ao mesmo tempo e atrapalha quem está embaixo. A preocupação com o avião é outra regra, de 1961. Em 2013, a agência de aviação americana concluiu que a maioria dos aviões tolera os aparelhos. A saída existe desde 2008: uma antena pequena dentro do avião, que leva o sinal por satélite ou pela rede no chão. Fontes no primeiro comentário.
+
+OUVIDO:
+A regra do modo avião não nasceu para proteger o avião. Dizem que o celular derruba o avião. A regra americana de 1991 nasceu por outro motivo, proteger a rede de celular no chão. No chão o celular fala com uma torre. Lá em cima, o sinal alcança várias ao mesmo tempo e atrapalha quem está embaixo. A preocupação com o avião é outra regra, de 1961. Em 2013, a agência de aviação americana concluiu que a maioria dos aviões tolera os aparelhos. A saída existe desde 2008. Mantenha a pequena dentro do avião e leva o sinal por satélite ou pela rede no chão. Vontes no primeiro comentário.

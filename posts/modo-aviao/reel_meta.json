@@ -1,0 +1,33 @@
+{
+ "slug": "modo-aviao",
+ "total_s": 39.0,
+ "scenes": [
+  {
+   "dur": 3.5,
+   "start": 0.0
+  },
+  {
+   "dur": 8.5,
+   "start": 3.4
+  },
+  {
+   "dur": 7.0,
+   "start": 11.8
+  },
+  {
+   "dur": 10.5,
+   "start": 18.7
+  },
+  {
+   "dur": 7.5,
+   "start": 29.1
+  },
+  {
+   "dur": 2.5,
+   "start": 36.5
+  }
+ ],
+ "words": 109,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

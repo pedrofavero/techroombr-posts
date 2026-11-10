@@ -1,4 +1,4 @@
-semelhança roteiro x áudio: 96.8%
+semelhança roteiro x áudio: 96.2%
 números do roteiro: 2, 3, 196, 65.8, 55.3
 números ouvidos:    196, 65.8, 55.3, 2, 3
 números: todos ouvidos
@@ -7,4 +7,4 @@ ROTEIRO:
 Um relógio comum achou 2 em cada 3 casos de pressão alta. Sem braçadeira. O estudo é do Google e saiu na Nature. 196 adultos usaram o relógio por uma semana. Ele apontou 65,8% dos hipertensos. Uma consulta no consultório apontou 55,3%. Mas a inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso e devolve uma probabilidade. É triagem, não diagnóstico. E o estudo foi pago pela dona do Google. Fontes no primeiro comentário.
 
 OUVIDO:
-Um relógio comum achou dois em cada três casos de pressão alta, sem braçadeira. O estudo é do Google e saiu na nature. 196 adultos usaram o relógio por uma semana. Ele apontou 65,8% dos hipertensos. Uma consulta no consultório apontou 55,3%. Mas a inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso e devolve uma probabilidade. Triagem não diagnóstico e o estudo foi pago pela dona do Google. Fontes no primeiro comentário.
+O relógio comum achou dois em cada três casos de pressão alta, sem braçadeira. O estudo é do Google e saiu na nature. 196 adultos usaram o relógio por uma semana. Ele apontou 65,8% dos hipertensos. Uma consulta no consultório apontou 55,3%. Mas a inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso e devolve uma probabilidade. É triagem não diagnóstico e o estudo foi pago pela dona do Google. Fontes no primeiro comentário.
