@@ -14,7 +14,19 @@ na conta dona do repositório.
    *Workflow permissions*, **Read and write permissions**.
 3. Teste: **Actions → fotos → Run workflow**. Se passar de 10 segundos, destravou.
 
-## 2. App da Meta (Instagram API with Instagram Login)
+## 2. App da Meta
+
+> **Atualização 10/11/2026.** A Meta migrou os apps criados recentemente para
+> **"API setup with Unified login"** e removeu deles a "API setup with Instagram login".
+> O painel exibe: "A configuração da API com login do Instagram não está disponível para
+> apps mais recentes." O fluxo unificado entrega um token de usuário do sistema (SUAT),
+> **sem expiração** — o que elimina a renovação a cada 60 dias — mas usa `graph.facebook.com`
+> em vez de `graph.instagram.com` e exige criar uma configuração com URL de redirecionamento.
+> Relatos públicos de outros projetos (Postiz, openreply, roadie, todos de fim de out./2026)
+> ainda não confirmam uma publicação bem-sucedida por esse caminho.
+> O passo a passo abaixo vale para apps que **já tinham** o fluxo de login do Instagram.
+
+## 2-bis. Fluxo antigo (Instagram API with Instagram Login)
 
 Esta é a API que publica carrossel e reel de graça, sem limite mensal e sem Página do
 Facebook. O limite da Meta é 100 publicações por 24 h.
