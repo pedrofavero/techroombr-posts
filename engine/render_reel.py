@@ -245,9 +245,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     acc = ass_color(accent)
     lines = []
-    for chunk in chunk_words(all_words):
+    chunks = chunk_words(all_words)
+    for ci, chunk in enumerate(chunks):
+        prox = chunks[ci + 1][0][0] if ci + 1 < len(chunks) else None   # início do bloco seguinte: nunca dois blocos na tela
         for k, (st, en, w) in enumerate(chunk):
-            nxt = chunk[k + 1][0] if k + 1 < len(chunk) else en + 0.18
+            nxt = chunk[k + 1][0] if k + 1 < len(chunk) else (min(en + 0.18, prox) if prox is not None else en + 0.18)
+            if nxt <= st:
+                continue
             parts = []
             for j, (_, _, ww) in enumerate(chunk):
                 txt = ww.upper()
