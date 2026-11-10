@@ -20,7 +20,7 @@ Um arquivo por item em `fila-publicacao/`:
 - Padrão do dia: carrossel 10:00, reel 12:30, carrossel 18:30. Nunca para hoje na rotina: o dia de intervalo é a janela para segurar.
 - Antes: liste `fila-publicacao/*.json` para não empilhar nem repetir. Reel precisa de `reel_asr.txt` com "números: todos ouvidos".
 - `git add fila-publicacao && git commit -m "fila: <slugs>" && git pull --rebase origin main && git push`.
-- O workflow `publicar` roda aos minutos 05 e 35 (o agendador do GitHub pode atrasar alguns minutos). Conferir sem
+- O workflow `publicar` roda a cada 10 minutos (o agendador do GitHub pode atrasar alguns minutos). Conferir sem
   publicar: `python3 engine/publish_ig.py due --dry-run`.
 
 ## Segurar, liberar, mudar

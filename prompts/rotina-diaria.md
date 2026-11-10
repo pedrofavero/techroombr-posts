@@ -97,7 +97,7 @@ CONFERÊNCIA DA VOZ: leia posts/<slug>/reel_asr.txt. Precisa conter "números: t
 SE NÃO PASSAR (render não chegou em 15 min, número não ouvido depois de 2 tentativas, checagem com erro): NÃO agende o reel; entregue o roteiro e o motivo para aprovação manual. Os carrosséis seguem normalmente.
 
 === AGENDAMENTO: SILÊNCIO = APROVADO (fila própria) ===
-Só depois das checagens limpas, e sempre para o dia escolhido no passo 5 da preparação (nunca hoje: o dia de intervalo é a janela para uma pessoa segurar). Cada item é um arquivo JSON em fila-publicacao/; o workflow "publicar" roda aos minutos 05 e 35 e publica o que venceu (pode atrasar alguns minutos).
+Só depois das checagens limpas, e sempre para o dia escolhido no passo 5 da preparação (nunca hoje: o dia de intervalo é a janela para uma pessoa segurar). Cada item é um arquivo JSON em fila-publicacao/; o workflow "publicar" roda a cada 10 minutos e publica o que venceu (pode atrasar alguns minutos).
 1. Carrossel 1: fila-publicacao/<AAAA-MM-DD>-1-carrossel-<slug>.json com {"type": "carousel", "slug": "<slug>", "when": "<AAAA-MM-DD>T10:00:00-03:00"}.
 2. Reel: fila-publicacao/<AAAA-MM-DD>-2-reel-<slug>.json com {"type": "reel", "slug": "<slug>", "when": "<AAAA-MM-DD>T12:30:00-03:00"}. As fontes vão sozinhas no primeiro comentário.
 3. Carrossel 2: fila-publicacao/<AAAA-MM-DD>-3-carrossel-<slug>.json com {"type": "carousel", "slug": "<slug>", "when": "<AAAA-MM-DD>T18:30:00-03:00"}.

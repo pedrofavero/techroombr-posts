@@ -1,13 +1,13 @@
 name: publicar
 
 # Publica no Instagram pela API oficial (login unificado, token SUAT) sem Metricool.
-# - A cada 30 min: publica os itens vencidos de fila-publicacao/*.json ("due").
+# - A cada 10 min (o agendador do GitHub atrasa e às vezes pula rodadas): publica os itens vencidos de fila-publicacao/*.json ("due").
 # - Manual (Run workflow): me | debug | limit | due | carousel <slug> | reel <slug>.
 # Secrets: IG_USER_ID, IG_ACCESS_TOKEN, IG_APP_ID, IG_APP_SECRET (ver SETUP.md).
 
 on:
   schedule:
-    - cron: "5,35 * * * *"
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
     inputs:
       comando:

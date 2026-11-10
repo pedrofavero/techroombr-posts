@@ -42,7 +42,7 @@ e reels, hospeda a mídia e publica.
   seguinte e publica se ninguém segurar ("silêncio = aprovado"). A instrução inteira dela é `prompts/rotina-diaria.md`:
   a tarefa só clona o repositório e segue esse arquivo. Para mudar a rotina, edite o arquivo e faça push.
 - **Tudo é publicado pela fila própria:** um JSON por item em `fila-publicacao/` (`type`, `slug`, `when`, `hold`); o
-  workflow `publicar` roda aos minutos 05 e 35 e publica o que venceu pela API oficial do Instagram. Padrão do dia:
+  workflow `publicar` roda a cada 10 minutos e publica o que venceu pela API oficial do Instagram. Padrão do dia:
   carrossel às 10:00, reel às 12:30, carrossel às 18:30.
 - **Metricool saiu do fluxo em 10/11/2026.** Não agende nada lá. O conector serve, no máximo, para ler métricas.
 - **Reels:** o workflow `reel` renderiza e hospeda o vídeo no branch `media` antes de a fila publicar.
