@@ -1,0 +1,37 @@
+{
+ "slug": "relogio-pressao-alta",
+ "total_s": 48.97,
+ "scenes": [
+  {
+   "dur": 5.87,
+   "start": 0.0
+  },
+  {
+   "dur": 10.5,
+   "start": 5.37
+  },
+  {
+   "dur": 5.5,
+   "start": 15.37
+  },
+  {
+   "dur": 7.78,
+   "start": 20.37
+  },
+  {
+   "dur": 7.95,
+   "start": 27.65
+  },
+  {
+   "dur": 9.23,
+   "start": 35.1
+  },
+  {
+   "dur": 5.14,
+   "start": 43.83
+  }
+ ],
+ "words": 130,
+ "voice": "pt-BR-FranciscaNeural",
+ "fake_tts": false
+}

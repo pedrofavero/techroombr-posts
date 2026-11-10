@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 93.2%
+números do roteiro: 2, 3, 196, 24, 65.8, 55.3, 1, 3
+números ouvidos:    196, 24, 65.8, 55.3, 2, 3, 3
+números: todos ouvidos
+
+ROTEIRO:
+Um relógio comum, sem braçadeira, apontou pressão alta em 2 de cada 3 pessoas que tinham o problema. O estudo é do Google e saiu na revista Nature. 196 adultos usaram um Pixel Watch por uma semana. A referência foi a braçadeira que mede a pressão por 24 horas. O relógio apontou 65,8% dos hipertensos. Uma consulta no consultório apontou 55,3%. Os autores falam em desempenho comparável. A inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso, ao longo de vários dias, e devolve uma probabilidade. É triagem, não diagnóstico. O relógio deixa passar 1 em cada 3 casos, e o estudo foi pago pela dona do Google. Um alerta serve para procurar um profissional. Fontes no primeiro comentário. Siga o Tech Room: tecnologia explicada com clareza.
+
+OUVIDO:
+O relógio comum, sem braçadeira, apontou pressão alta em dois de cada três pessoas que tinham o problema. O estudo é do Google e saiu na revista Nature. 196 adultos usaram um piché ouate por uma semana. A referência foi a braçadeira que mede a pressão por 24 horas. O relógio apontou 65,8% dos hipertensos. Uma consulta no consultório apontou 55,3%. Os autores falam em desempenho comparável. A inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso ao longo de vários dias e devolve uma probabilidade. É triagem, não diagnóstico. O relógio deixa passar um em cada três casos e o estudo foi pago pela dona do Google. Um alerta serve para procurar um profissional. Fontes no primeiro comentário. Siga o Test Home, tecnologia explicada com clareza.
