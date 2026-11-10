@@ -26,7 +26,32 @@ na conta dona do repositório.
 > ainda não confirmam uma publicação bem-sucedida por esse caminho.
 > O passo a passo abaixo vale para apps que **já tinham** o fluxo de login do Instagram.
 
-## 2-bis. Fluxo antigo (Instagram API with Instagram Login)
+### 2.A Caminho atual: API setup with Unified login (apps novos)
+
+Decisão de 10/11/2026 depois de inspecionar o painel: o app `evolu` é de WhatsApp e não
+serve; o `Tech Room Publisher` só oferece o login unificado. Seguimos por ele.
+O roteiro completo para o Claude no Chrome está em `prompts/setup-meta-etapa-b.md`.
+Resumo:
+
+1. **Funções do app → Funções → Adicionar pessoas → Testador do Instagram** com o usuário
+   `techroombr`. Depois, no celular: Instagram → Configurações → Apps e sites →
+   **Convites de testadores → Aceitar**. Sem isso o botão "Adicionar conta" não libera.
+2. **Instagram → API setup with Unified login → Criar nova configuração** (Geral, SUAT,
+   expiração Nunca, ativo obrigatório: conta do Instagram). Anote o `config_id`.
+3. **Registrar URL de redirecionamento**: `https://github.com/pedrofavero/techroombr-posts/`.
+4. **2. Gerar tokens de acesso → Adicionar conta** → login com @techroombr, portfólio
+   The Tech Room, marcar a conta do Instagram → copiar **ID da conta** e **Gerar token**.
+5. **Configurações do app → Básico**: copiar **ID do Aplicativo** e **Chave Secreta**.
+
+Secrets: `IG_USER_ID`, `IG_ACCESS_TOKEN` (SUAT, não expira), `IG_APP_ID`, `IG_APP_SECRET`.
+O publicador usa `graph.facebook.com` por padrão. Teste: `python3 engine/publish_ig.py debug`
+e depois `python3 engine/publish_ig.py me`.
+
+O que ainda não está provado em público: ninguém relatou uma publicação concluída com SUAT
+de login unificado (relatos de 29–30 out. 2026 mostram erro 400 em leituras). O primeiro
+teste real será `me`; se falhar, o `debug` mostra escopos e ids com acesso para ajustar.
+
+## 2.B Fluxo antigo (Instagram API with Instagram Login) — só para apps anteriores ao corte
 
 Esta é a API que publica carrossel e reel de graça, sem limite mensal e sem Página do
 Facebook. O limite da Meta é 100 publicações por 24 h.
@@ -112,7 +137,8 @@ GitHub → repositório → **Settings → Secrets and variables → Actions →
 |---|---|
 | `IG_USER_ID` | passo 2 |
 | `IG_ACCESS_TOKEN` | passo 2 (renovado sozinho a cada 50 dias) |
-| `IG_APP_SECRET` | passo 2 |
+| `IG_APP_ID` | Configurações → Básico |
+| `IG_APP_SECRET` | Configurações → Básico |
 | `PEXELS_API_KEY` | passo 3 |
 
 ## 5. Conferir

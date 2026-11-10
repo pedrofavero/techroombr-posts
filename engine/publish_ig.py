@@ -7,8 +7,10 @@ Substitui o Metricool. Publica carrosséis e reels direto na conta profissional,
 "media" (engine/media_branch.py), servido por raw.githubusercontent.com.
 
 Variáveis de ambiente (secrets do repositório):
-  IG_USER_ID        id da conta profissional (painel do app → Instagram → API setup with Instagram login)
-  IG_ACCESS_TOKEN   token de longa duração (60 dias; renove com `refresh-token`)
+  IG_USER_ID        id da conta profissional (painel do app → Instagram → API setup → Gerar tokens)
+  IG_ACCESS_TOKEN   token. Login unificado: SUAT, nunca expira. Login do Instagram: 60 dias (`refresh-token`)
+  IG_APP_ID / IG_APP_SECRET   id e chave secreta do app (Configurações → Básico); só para `debug`
+  IG_API_BASE       opcional; padrão https://graph.facebook.com/v25.0 (unificado). Fluxo antigo: https://graph.instagram.com/v25.0
   GITHUB_TOKEN      para empurrar o branch media (no Actions já existe)
   GH_PAT            opcional: token fino com "Secrets: read/write" para `refresh-token --save` gravar o novo token
 
@@ -19,6 +21,7 @@ Uso:
   python3 engine/publish_ig.py refresh-token [--save]            # renova o token (válido por mais 60 dias)
   python3 engine/publish_ig.py limit                             # quota usada nas últimas 24 h
   python3 engine/publish_ig.py me                                # confere conta e token
+  python3 engine/publish_ig.py debug                             # inspeciona o token (tipo, escopos, validade, ids)
 
 Item da fila (fila-publicacao/<slug>-<tipo>.json):
   {"type": "carousel" | "reel", "slug": "...", "when": "2026-11-11T10:00:00-03:00", "hold": false}
@@ -30,7 +33,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-API = "https://graph.instagram.com/v25.0"
+# Host da API: o login unificado (apps novos, token SUAT sem expiração) usa graph.facebook.com;
+# o fluxo antigo "Instagram Login" usa graph.instagram.com. Troque com IG_API_BASE.
+API = os.environ.get("IG_API_BASE", "https://graph.facebook.com/v25.0").rstrip("/")
 FILA = ROOT / "fila-publicacao"
 sys.path.insert(0, str(ROOT / "engine"))
 import media_branch  # noqa: E402
@@ -208,7 +213,18 @@ def due():
         it.unlink(); marcar_historico(d["slug"], link)
 
 
+def debug_token():
+    """GET /debug_token: mostra tipo (USER/SYSTEM_USER), escopos, expiração e ids com acesso."""
+    app_id, secret = os.environ.get("IG_APP_ID"), os.environ.get("IG_APP_SECRET")
+    if not (TOKEN and app_id and secret):
+        raise SystemExit("debug precisa de IG_ACCESS_TOKEN, IG_APP_ID e IG_APP_SECRET")
+    res = api("GET", "debug_token", input_token=TOKEN, access_token=f"{app_id}|{secret}")
+    print(json.dumps(res, indent=1, ensure_ascii=False))
+
+
 def refresh_token(save=False):
+    if "graph.facebook.com" in API:
+        print("Token SUAT do login unificado não expira; renovação não se aplica."); return
     if not TOKEN:
         raise SystemExit("falta IG_ACCESS_TOKEN")
     res = api("GET", "refresh_access_token", grant_type="ig_refresh_token")
@@ -243,6 +259,8 @@ def main():
         refresh_token(save="--save" in sys.argv)
     elif cmd == "limit":
         need_auth(); print(json.dumps(api("GET", f"{IG}/content_publishing_limit", fields="quota_usage,config"), indent=1))
+    elif cmd == "debug":
+        debug_token()
     elif cmd == "me":
         need_auth(); print(json.dumps(api("GET", IG, fields="id,username,account_type,media_count,followers_count"), indent=1))
     else:
