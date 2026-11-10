@@ -77,3 +77,20 @@ GitHub → repositório → **Settings → Secrets and variables → Actions →
 Com os secrets salvos, rode no Actions o workflow **publicar → me** (ou localmente
 `IG_USER_ID=... IG_ACCESS_TOKEN=... python3 engine/publish_ig.py me`). Deve imprimir o
 usuário @techroombr e a contagem de seguidores.
+
+## Problemas comuns no passo 2
+
+**Abriu "Adicionar pessoas ao seu aplicativo" com Administrador / Desenvolvedor / Testador.**
+Essa é a tela **Funções do app → Funções** (*App roles*), que serve para dar acesso a
+pessoas ao painel. Não é ela que gera o token. O botão certo fica em
+**Instagram → Configuração da API com login do Instagram → 1. Gerar tokens de acesso →
+Adicionar conta**, e ele abre um **pop-up do instagram.com** pedindo login da conta.
+Se nada abriu, o navegador bloqueou o pop-up.
+
+**Só existe a opção "Testador do Instagram".** Significa que o app ficou no fluxo antigo
+(login via Facebook). Nesse caso: adicione @techroombr como *Testador do Instagram*, depois
+abra o app do Instagram com essa conta → **Configurações → Apps e sites → Convites de
+testadores** → **Aceitar**. Só depois o painel deixa gerar o token.
+
+**A conta não aparece para ser adicionada.** Ela precisa ser Profissional (Criador ou
+Empresa) e **pública**. Conta privada é recusada mesmo para teste.
