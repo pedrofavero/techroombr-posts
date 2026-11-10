@@ -36,15 +36,16 @@ Regras de tela: zonas seguras do Instagram (topo 250 px e base 420 px sem texto)
 palavra ativa na cor de destaque. Transição: fundido de 0,5 s. Música com ducking automático sob a voz.
 --fake-tts: gera silêncio e tempos estimados (para testar sem internet). A voz real exige acesso a speech.platform.bing.com.
 """
-import asyncio, json, os, re, shutil, subprocess, sys, tempfile
+import asyncio, json, math, os, re, shutil, subprocess, sys, tempfile
 from html import escape
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "engine"))
 FONTS_DIR = ROOT / "engine" / "fonts"
-W, H, FPS, XF = 1080, 1920, 30, 0.5
+W, H, FPS, XF = 1080, 1920, 30, 0.1   # XF curto: corte seco (gramática caption-news), não fundido
 FAKE = "--fake-tts" in sys.argv
 
 _nat = (ROOT / "engine" / "natgeo.html").read_text(encoding="utf-8")
@@ -215,7 +216,7 @@ def ass_time(t):
     return f"{h}:{m:02d}:{s:05.2f}"
 
 
-def chunk_words(words, max_words=3, max_chars=18):
+def chunk_words(words, max_words=3, max_chars=15):
     chunks, cur = [], []
     for w in words:
         if cur and (len(cur) >= max_words or sum(len(x[2]) for x in cur) + len(w[2]) > max_chars):
@@ -240,7 +241,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,{font},62,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H80000000&,-1,0,0,0,100,100,0.5,0,1,5,2,2,90,90,560,1
+Style: Cap,{font},80,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H80000000&,-1,0,0,0,100,100,0.5,0,1,6,3,2,70,70,600,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -258,7 +259,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             for j, (_, _, ww) in enumerate(chunk):
                 txt = ww.upper()
                 parts.append(f"{{\\c{acc}\\fscx106\\fscy106}}{txt}{{\\c&H00FFFFFF&\\fscx100\\fscy100}}" if j == k else txt)
-            lines.append(f"Dialogue: 0,{ass_time(st)},{ass_time(nxt)},Cap,,0,0,0,,{' '.join(parts)}")
+            slam = "{\\fscx122\\fscy122\\t(0,110,\\fscx100\\fscy100)}" if k == 0 else ""
+            lines.append(f"Dialogue: 0,{ass_time(st)},{ass_time(nxt)},Cap,,0,0,0,,{slam}{' '.join(parts)}")
     return head + "\n".join(lines) + "\n"
 
 
@@ -282,6 +284,15 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:#0E1420; }
 .it { display:flex; gap:34px; padding:22px 0; border-top:1px solid rgba(255,255,255,.18); opacity:0; }
 .it .w { font-family:"Montserrat"; font-weight:800; font-size:50px; color:var(--accent); min-width:190px; }
 .it .t { font-size:36px; line-height:1.32; }
+.bg.hook { filter:blur(4px) brightness(.62) saturate(.85) contrast(1.05); inset:-20px; }
+.hk { font-family:"Montserrat"; font-weight:700; font-size:30px; letter-spacing:.26em; text-transform:uppercase; margin-bottom:26px; }
+.hb { display:inline-block; position:relative; font-family:"Montserrat"; font-weight:800; font-size:210px; line-height:1; color:#0E0E0C;
+      padding:6px 30px 14px; letter-spacing:-.02em; transform-origin:left center; white-space:nowrap; align-self:flex-start; }
+.hb i { position:absolute; inset:0; background:var(--accent); z-index:-1; transform-origin:left center; }
+.hl { margin-top:34px; font-family:"Montserrat"; font-weight:800; font-size:74px; line-height:1.08; text-transform:uppercase;
+      text-shadow:0 2px 18px rgba(0,0,0,.6); }
+.src { margin-top:40px; align-self:flex-start; display:flex; font-family:"Montserrat"; font-size:24px; font-weight:700; letter-spacing:.06em; }
+.src b { background:#fff; color:#0E0E0C; padding:8px 14px; } .src span { background:rgba(14,14,12,.82); padding:8px 16px; font-weight:600; }
 """
 ANIM_JS = """
 (() => {
@@ -293,11 +304,24 @@ if (A.type === 'number') {
   st.innerHTML = `<div class="num"><span id="v"></span><small>${A.unit || ''}</small></div><div class="lab" id="l">${A.label || ''}</div>`;
 } else if (A.type === 'bars') {
   st.innerHTML = A.bars.map((b, i) => `<div class="row ${b.other ? 'other' : ''}"><div class="n"><span>${b.name}</span><b id="b${i}"></b></div><div class="track"><div class="fill" id="f${i}"></div></div></div>`).join('') + (A.note ? `<div class="note">${A.note}</div>` : '');
+} else if (A.type === 'hook') {
+  st.innerHTML = `<div class="hk">${A.kicker || ''}</div><div class="hb" id="hb"><i id="hbi"></i><span id="v">${A.big}</span></div><div class="hl" id="hl">${A.line || ''}</div>`;
 } else if (A.type === 'timeline') {
   st.innerHTML = A.items.map((it, i) => `<div class="it" id="i${i}"><div class="w">${it.when}</div><div class="t">${it.what}</div></div>`).join('');
 }
+if (A.fonte) st.insertAdjacentHTML('beforeend', `<div class="src" id="src"><b>FONTE</b><span>${A.fonte}</span></div>`);
+const back = x => { x = clamp(x); const c = 1.6; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
 window.render = t => {
-  if (A.type === 'number') {
+  const src = document.getElementById('src');
+  if (src) { const p = ease((t - 0.35) / 0.2); src.style.opacity = p; src.style.transform = `translateX(${(1 - p) * -60}px)`; }
+  if (A.type === 'hook') {
+    const p = clamp((t - 0.1) / 0.13);
+    document.getElementById('hbi').style.transform = `scaleX(${ease((t - 0.1) / 0.12)})`;
+    const hb = document.getElementById('hb'); hb.style.opacity = t >= 0.1 ? 1 : 0; hb.style.transform = `scale(${1.3 - 0.3 * back(p)})`;
+    if (A.value != null) document.getElementById('v').textContent = (A.prefix || '') + fmt(A.value * ease((t - 0.1) / 0.45), A.decimals || 0) + (A.unit || '');
+    const q = ease((t - 0.55) / 0.18), hl = document.getElementById('hl'); hl.style.opacity = q; hl.style.transform = `translateY(${(1 - q) * 14}px)`;
+    document.querySelector('.hk').style.opacity = clamp(t / 0.1);
+  } else if (A.type === 'number') {
     const p = ease((t - 0.2) / Math.min(1.3, window.DUR * 0.4));
     document.getElementById('v').textContent = (A.prefix || '') + fmt(A.value * p, A.decimals || 0);
     document.getElementById('l').style.opacity = clamp((t - 0.6) / 0.6);
@@ -327,7 +351,7 @@ def anim_clip(pg, reel, s, ov, dest, dur):
     if s.get("media"):
         import base64
         m = ROOT / s["media"]
-        bg = f'<div class="bg" style="background-image:url(data:image/jpeg;base64,{base64.b64encode(m.read_bytes()).decode()})"></div>'
+        bg = f'<div class="bg{" hook" if s["anim"].get("type") == "hook" else ""}" style="background-image:url(data:image/jpeg;base64,{base64.b64encode(m.read_bytes()).decode()})"></div>'
     js = ANIM_JS.replace("__ANIM__", json.dumps(s["anim"], ensure_ascii=False)).replace("__DUR__", str(dur))
     html = (f'<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}{ANIM_CSS}</style></head>'
             f'<body style="--accent:{reel.get("accent", "#F2B36B")}">{bg}<div class="stage"></div><script>{js}</script></body></html>')
@@ -359,9 +383,20 @@ def scene_clip(s, ov, dest, idx, dur):
             vf = f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1[v]"
             cmd = ["ffmpeg", "-y", "-stream_loop", "-1", "-ss", str(s.get("start", 0)), "-t", str(dur), "-i", str(media)]
         else:  # foto: Ken Burns (zoom in nas cenas pares, zoom out nas ímpares)
-            z = f"1+0.10*on/{frames}" if idx % 2 == 0 else f"1.10-0.10*on/{frames}"
+            # nenhum plano parado: a cada ~2,5 s a mesma foto "corta" para outro enquadramento (punch-in) e segue em push lento
+            nseg = max(1, round(dur / 2.5)); seg = frames / nseg
+            Z = [1.00, 1.24, 1.10, 1.32]; CX = [0.50, 0.40, 0.60, 0.50]; CY = [0.50, 0.42, 0.56, 0.38]
+            def nest(vals):
+                e = vals[-1]
+                for k in range(len(vals) - 2, -1, -1):
+                    e = f"if(lt(on,{int((k + 1) * seg)}),{vals[k]},{e})"
+                return e
+            o = idx % 2
+            z = nest([f"{Z[(k + o) % 4]}+0.05*(on-{int(k * seg)})/{seg:.1f}" for k in range(nseg)])
+            cx = nest([str(CX[(k + o) % 4]) for k in range(nseg)]); cy = nest([str(CY[(k + o) % 4]) for k in range(nseg)])
             vf = (f"[0:v]scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
-                  f"zoompan=z='{z}':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps={FPS},setsar=1[v]")
+                  f"zoompan=z='{z}':d={frames}:x='(iw-iw/zoom)*({cx})':y='(ih-ih/zoom)*({cy})':s={W}x{H}:fps={FPS},"
+                  f"eq=contrast=1.07:saturation=0.92:brightness=-0.02,setsar=1[v]")
             cmd = ["ffmpeg", "-y", "-i", str(media)]
     cmd += ["-i", str(ov), "-filter_complex", vf + ";[v][1:v]overlay=0:0,format=yuv420p[o]", "-map", "[o]",
             "-t", str(dur), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "19", str(dest)]
@@ -408,7 +443,7 @@ def main(paths):
                     a = tmp / f"say{i:02d}.mp3"
                     words = tts(s["say"], voice, rate, a)
                     adur = probe_dur(a)
-                    dur = round(adur + float(s.get("hold", 0.35)), 2)
+                    dur = math.ceil((adur + float(s.get("hold", 0.25)) + XF) * 2) / 2   # cortes na grade de 0,5 s (120 BPM)
                     voices.append((a, adur)); words_all.append(words)
                 else:
                     dur = float(s.get("dur", 4)); voices.append(None); words_all.append([])
@@ -465,15 +500,43 @@ def main(paths):
                 af.append("".join(voice_lbls) + f"amix=inputs={len(voice_lbls)}:normalize=0,apad,atrim=0:{total:.2f}[voz]")
             elif voice_lbls:
                 af.append(f"{voice_lbls[0]}apad,atrim=0:{total:.2f}[voz]")
-            music = reel.get("music")
-            has_music = bool(music) and (ROOT / music).exists()
+            # efeitos e trilha gerados em código (engine/reel_audio.py, com toolbox/sfx.py)
+            events = []
+            for i, sc in enumerate(scenes):
+                a = sc.get("anim") or {}; t0 = starts[i]
+                if a.get("type") == "hook":
+                    events.append((t0 + 0.1, "hook"))
+                elif a:
+                    events.append((t0, "whoosh"))
+                    if a.get("type") == "number":
+                        events.append((t0 + 0.2, "ticks", min(1.3, durs[i] * 0.4)))
+                    elif a.get("type") == "bars":
+                        events += [(t0 + 0.6 + k * 0.45, "pop") for k in range(len(a["bars"]))]
+                    elif a.get("type") == "timeline":
+                        step = min(1.6, durs[i] * 0.75 / len(a["items"]))
+                        events += [(t0 + 0.2 + k * step, "pop") for k in range(len(a["items"]))]
+                elif i > 0:
+                    events.append((t0, "thump" if sc.get("big") else "cut"))
+            music = reel.get("music", "auto")
+            sfx_wav, mus_wav = tmp / "sfx.wav", tmp / "music.wav"
+            try:
+                import reel_audio
+                reel_audio.build(total, events if reel.get("sfx", True) else [], str(mus_wav), str(sfx_wav), music_on=(music == "auto"))
+            except Exception as e:
+                print(f"  som procedural indisponível ({type(e).__name__}: {e})"); music = None if music == "auto" else music
+            if music == "auto" and mus_wav.exists():
+                music_path = mus_wav
+            else:
+                music_path = (ROOT / music) if music and music != "auto" else None
+            has_music = bool(music_path) and Path(music_path).exists()
             if has_music:
-                cmd += ["-stream_loop", "-1", "-i", str(ROOT / music)]
+                cmd += ["-stream_loop", "-1", "-i", str(music_path)]
                 af.append(f"[{ai}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{total:.2f},asetpts=PTS-STARTPTS,"
-                          f"afade=t=in:d=1,afade=t=out:st={max(0, total-2.5):.2f}:d=2.5,volume={reel.get('music_volume', 0.22)}[mus]"); ai += 1
+                          f"afade=t=in:d=1,afade=t=out:st={max(0, total-2.5):.2f}:d=2.5,volume={reel.get('music_volume', 0.5 if music == 'auto' else 0.22)}[mus]"); ai += 1
             if voice_lbls and has_music:
-                af.append("[mus][voz]sidechaincompress=threshold=0.03:ratio=6:attack=30:release=500[musd]")
-                af.append("[musd][voz]amix=inputs=2:normalize=0[aout]")
+                af.append("[voz]asplit=2[voza][vozk]")
+                af.append("[mus][vozk]sidechaincompress=threshold=0.03:ratio=6:attack=30:release=500[musd]")
+                af.append("[musd][voza]amix=inputs=2:normalize=0[aout]")
             elif voice_lbls:
                 af.append("[voz]anull[aout]")
             elif has_music:
@@ -481,11 +544,16 @@ def main(paths):
             else:
                 cmd += ["-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=48000:cl=stereo"]
                 af.append(f"[{ai}:a]anull[aout]")
+            if sfx_wav.exists():
+                cmd += ["-i", str(sfx_wav)]
+                af.append(f"[aout][{ai}:a]amix=inputs=2:normalize=0[aout2]"); ai += 1; aout = "[aout2]"
+            else:
+                aout = "[aout]"
             pre, mix = tmp / "pre.mp4", tmp / "mix.wav"
             cmd += ["-filter_complex", ";".join(fc + af),
                     "-map", vlast, "-t", f"{total:.2f}", "-an", "-c:v", "libx264", "-preset", "medium", "-crf", "17",
                     "-pix_fmt", "yuv420p", "-r", str(FPS), str(pre),
-                    "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "pcm_s16le", "-ar", "48000", str(mix)]
+                    "-map", aout, "-t", f"{total:.2f}", "-c:a", "pcm_s16le", "-ar", "48000", str(mix)]
             run(cmd)
             master(pre, mix, out / "reel.mp4")
 
