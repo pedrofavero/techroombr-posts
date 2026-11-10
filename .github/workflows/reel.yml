@@ -42,7 +42,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 20
 
       - uses: actions/setup-python@v5
         with:
@@ -87,7 +87,8 @@ jobs:
           if [ -n "$SLUG_IN" ]; then
             slugs="$SLUG_IN"
           else
-            slugs=$(git diff --name-only --diff-filter=d HEAD~1 HEAD -- 'posts/*/reel.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            base="${{ github.event.before }}"; git cat-file -e "$base^{commit}" 2>/dev/null || base="HEAD~1"
+            slugs=$(git diff --name-only --diff-filter=d "$base" HEAD -- 'posts/*/reel.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
           fi
           echo "slugs=$slugs" >> "$GITHUB_OUTPUT"; echo "reels: $slugs"
 
