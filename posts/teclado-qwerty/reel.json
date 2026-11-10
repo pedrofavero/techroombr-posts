@@ -1,0 +1,57 @@
+{
+  "slug": "teclado-qwerty",
+  "display": "serif",
+  "accent": "#F2B36B",
+  "voice": "pt-BR-FranciscaNeural",
+  "voice_rate": "+8%",
+  "captions": true,
+  "music": "reels/musica/ambiente-01.mp3",
+  "music_volume": 0.2,
+  "scenes": [
+    {
+      "media": "fotos/primeiro-sms-2.jpg",
+      "kicker": "Mito vs fato",
+      "text": "O teclado não foi feito para te atrasar",
+      "big": true,
+      "credit": "Foto: Johnny Briggs / Unsplash",
+      "say": "Te contaram que as letras do teclado foram embaralhadas para você digitar mais devagar. Não foi isso."
+    },
+    {
+      "media": "fotos/a-informacao-gleick-2.jpg",
+      "credit": "Foto: Sandra Tan / Unsplash",
+      "say": "Pesquisadores da Universidade de Kyoto foram aos documentos de 1870. Os primeiros clientes da máquina de escrever eram telegrafistas."
+    },
+    {
+      "media": "fotos/primeiro-sms-2.jpg",
+      "kicker": "1868",
+      "text": "28 teclas, em ordem alfabética",
+      "big": true,
+      "say": "Eles copiavam código Morse em tempo real. Uma máquina lenta não servia para eles. A primeira versão tinha 28 teclas, em ordem alfabética."
+    },
+    {
+      "media": "fotos/macbook-touch-2.jpg",
+      "kicker": "1882",
+      "text": "Nasce o QWERTY de hoje",
+      "big": true,
+      "credit": "Foto: Jakob Owens / Unsplash",
+      "say": "O arranjo mudou várias vezes: para facilitar o Morse, por acordos entre inventores e fabricantes, e para contornar patentes antigas. Em 1882, nasceu o QWERTY que você usa hoje."
+    },
+    {
+      "media": "fotos/arpanet-primeira-mensagem-1.jpg",
+      "credit": "Foto: Niklas König / Unsplash",
+      "say": "Em 1898 já era o padrão. Do teletipo, passou para os teclados de computador. O resto é costume."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Yasuoka & Yasuoka, On the Prehistory of QWERTY — Univ. de Kyoto",
+        "Smithsonian Magazine, fev. 2025",
+        "BBC Science Focus"
+      ],
+      "say": "Fontes no primeiro comentário. Siga o Tech Room: tecnologia explicada com clareza."
+    }
+  ],
+  "legenda": "A lenda das hastes que travavam vem de livros dos anos 1980, não dos documentos da época. Quem foi às fontes de 1870 encontrou telegrafistas, acordos entre fabricantes e patentes a contornar.\n\nVocê já tentou digitar em outro arranjo de teclado?\n\n—\nFontes no primeiro comentário.\n\n#teclado #qwerty #curiosidade #historiadatecnologia #tecnologia",
+  "fontes_comentario": "Fontes: Koichi e Motoko Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN 42 (Universidade de Kyoto); Smithsonian Magazine (Stamp e Wexler), 25 fev. 2025; BBC Science Focus (Peter Bentley). Fotos: Johnny Briggs, Sandra Tan, Jakob Owens e Niklas König, via Unsplash."
+}
