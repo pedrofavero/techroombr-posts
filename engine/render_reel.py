@@ -22,12 +22,21 @@ CENA (scenes[]):
   credit   "Vídeo: Nome / Pexels" ou "Foto: Nome / Unsplash" (pequeno no topo direito)
   align    "bottom" (padrão) ou "center" (só para cenas sem narração)
   end      true = cartão final: fundo escuro, title + lines[] (fontes) + handle. Sem media.
+  anim     cena de dados animada (contrato window.DUR / window.render(t) do toolbox lemo-opuscar), no lugar de "text":
+             {"type":"number","value":65.8,"decimals":1,"prefix":"","unit":"%","label":"..."}
+             {"type":"bars","bars":[{"name":"...","value":65.8,"label":"65,8%","other":false}],"note":"..."}
+             {"type":"timeline","items":[{"when":"1991","what":"..."}]}
+           "media" (foto) vira fundo desfocado e escurecido; sem media, fundo da marca. Só infográfico: nada de ilustração.
+
+Voz: edge-tts (online). Se falhar, cai para Kokoro offline (pt-BR: pf_dora / pm_alex) quando KOKORO_DIR aponta para a pasta
+com kokoro-v1.0.onnx e voices-v1.0.bin. Áudio final: toolbox/mux.sh (loudnorm em duas passagens, -14 LUFS) com ffmpeg 7+;
+com ffmpeg mais antigo, loudnorm simples.
 
 Regras de tela: zonas seguras do Instagram (topo 250 px e base 420 px sem texto). Legendas em Montserrat Bold,
 palavra ativa na cor de destaque. Transição: fundido de 0,5 s. Música com ducking automático sob a voz.
 --fake-tts: gera silêncio e tempos estimados (para testar sem internet). A voz real exige acesso a speech.platform.bing.com.
 """
-import asyncio, json, re, shutil, subprocess, sys, tempfile
+import asyncio, json, os, re, shutil, subprocess, sys, tempfile
 from html import escape
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -52,6 +61,7 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:transparen
               linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.70) 28%, rgba(0,0,0,.25) 55%, rgba(0,0,0,0) 70%); }
 .page.center .scrim { background: linear-gradient(to bottom, rgba(0,0,0,.55) 0%, rgba(0,0,0,.72) 50%, rgba(0,0,0,.88) 100%); }
 .page.end .scrim { background:#0E1420; }
+.page.anim .scrim { background: linear-gradient(to bottom, rgba(0,0,0,.45) 0%, rgba(0,0,0,0) 22%); }
 .masthead { position:absolute; top:270px; left:72px; font-family:"Montserrat"; font-weight:600; font-size:22px;
             letter-spacing:.32em; text-transform:uppercase; text-shadow:0 1px 8px rgba(0,0,0,.5); }
 .credit { position:absolute; top:272px; right:72px; font-size:17px; letter-spacing:.06em; opacity:.8; }
@@ -94,6 +104,8 @@ def overlay_html(reel, s, i, n):
         cls.append("center")
     elif has_say:
         cls.append("top")
+    if s.get("anim"):
+        cls.append("anim")
     kicker = f'<div class="kicker">{escape(s["kicker"])}</div>' if s.get("kicker") else ""
     if s.get("end"):
         lines = "".join(f'<div class="line">{rich(l)}</div>' for l in s.get("lines", []))
@@ -133,19 +145,63 @@ def tts(text, voice, rate, dest):
         dur = 0.3 + per * len(words)
         run(["ffmpeg", "-y", "-f", "lavfi", "-t", f"{dur:.2f}", "-i", "anullsrc=r=24000:cl=mono", "-c:a", "libmp3lame", "-q:a", "6", str(dest)])
         return [(0.15 + i * per, 0.15 + (i + 1) * per - 0.05, w) for i, w in enumerate(words)]
-    import edge_tts
+    try:
+        import edge_tts
 
-    async def go():
-        comm = edge_tts.Communicate(text, voice, rate=rate)
-        words = []
-        with open(dest, "wb") as f:
-            async for ch in comm.stream():
-                if ch["type"] == "audio":
-                    f.write(ch["data"])
-                elif ch["type"] == "WordBoundary":
-                    words.append((ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7, ch["text"]))
-        return words
-    return asyncio.run(go())
+        async def go():
+            comm = edge_tts.Communicate(text, voice, rate=rate)
+            words = []
+            with open(dest, "wb") as f:
+                async for ch in comm.stream():
+                    if ch["type"] == "audio":
+                        f.write(ch["data"])
+                    elif ch["type"] == "WordBoundary":
+                        words.append((ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7, ch["text"]))
+            return words
+        words = asyncio.run(go())
+        if Path(dest).exists() and Path(dest).stat().st_size > 1000:
+            if not words:   # versões novas do edge-tts só mandam limites de frase: estima por palavra
+                words = estimate_words(text, probe_dur(dest))
+            return words
+        raise RuntimeError("edge-tts não devolveu áudio")
+    except Exception as e:
+        print(f"  voz: edge-tts falhou ({type(e).__name__}: {str(e)[:120]}); usando Kokoro offline")
+        return tts_kokoro(text, voice, rate, dest)
+
+
+def estimate_words(text, dur, lead=0.08):
+    """Sem marcação de palavras: distribui a duração pelo tamanho de cada palavra."""
+    ws = text.split()
+    if not ws:
+        return []
+    weights = [len(re.sub(r"\W", "", w)) + 1.5 + (2.5 if w[-1] in ".!?:;" else 1.0 if w[-1] == "," else 0) for w in ws]
+    unit = max(0.01, dur - lead - 0.1) / sum(weights)
+    out, t = [], lead
+    for w, k in zip(ws, weights):
+        out.append((t, t + k * unit * 0.92, w)); t += k * unit
+    return out
+
+
+_KOKORO = None
+def tts_kokoro(text, voice, rate, dest):
+    global _KOKORO
+    import numpy as np, soundfile as sf
+    from kokoro_onnx import Kokoro
+    d = Path(os.environ.get("KOKORO_DIR", ROOT / "toolbox" / "modelos"))
+    if _KOKORO is None:
+        _KOKORO = Kokoro(str(d / "kokoro-v1.0.onnx"), str(d / "voices-v1.0.bin"))
+    kv = "pm_alex" if "Antonio" in voice else "pf_dora"
+    try:
+        speed = 1.0 + int(re.sub(r"[^\d+-]", "", rate or "0") or 0) / 100
+    except ValueError:
+        speed = 1.0
+    a, sr = _KOKORO.create(text, voice=kv, speed=speed, lang="pt-br")
+    nz = np.where(np.abs(a) > (np.abs(a).max() if len(a) else 0) * .02)[0]
+    if len(nz):
+        a = a[max(0, nz[0] - int(.03 * sr)): nz[-1] + int(.08 * sr)]
+    wav = Path(dest).with_suffix(".wav"); sf.write(wav, a, sr)
+    run(["ffmpeg", "-y", "-i", str(wav), "-c:a", "libmp3lame", "-q:a", "3", str(dest)])
+    return estimate_words(text, len(a) / sr, lead=0.03)
 
 
 # ---------- legendas (ASS) ----------
@@ -200,6 +256,89 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     return head + "\n".join(lines) + "\n"
 
 
+# ---------- cenas animadas (contrato window.DUR / window.render(t), do toolbox lemo-opuscar) ----------
+ANIM_CSS = """
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1080px; height:1920px; overflow:hidden; background:#0E1420; }
+.bg { position:absolute; inset:-60px; background-size:cover; background-position:center; filter:blur(26px) brightness(.32) saturate(.8); }
+.stage { position:absolute; left:72px; right:72px; top:520px; height:700px; font-family:"Lato",sans-serif; color:#fff;
+         display:flex; flex-direction:column; justify-content:center; }
+.num { font-family:"Montserrat"; font-weight:800; font-size:230px; line-height:1; color:var(--accent); letter-spacing:-.02em; white-space:nowrap; }
+.num small { font-size:96px; font-weight:700; margin-left:10px; letter-spacing:0; }
+.lab { margin-top:34px; font-size:44px; line-height:1.3; max-width:900px; }
+.row { margin:0 0 44px; }
+.row .n { font-family:"Montserrat"; font-weight:600; font-size:34px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:baseline; }
+.row .n b { font-family:"Montserrat"; font-weight:800; font-size:46px; }
+.track { height:34px; background:rgba(255,255,255,.12); border-radius:4px; overflow:hidden; }
+.fill { height:100%; width:0; background:var(--accent); border-radius:4px; }
+.row.other .fill { background:rgba(255,255,255,.55); } .row.other .n b { color:#fff; } .row .n b { color:var(--accent); }
+.note { font-size:26px; line-height:1.35; opacity:.7; margin-top:6px; }
+.it { display:flex; gap:34px; padding:22px 0; border-top:1px solid rgba(255,255,255,.18); opacity:0; }
+.it .w { font-family:"Montserrat"; font-weight:800; font-size:50px; color:var(--accent); min-width:190px; }
+.it .t { font-size:36px; line-height:1.32; }
+"""
+ANIM_JS = """
+(() => {
+const A = __ANIM__; window.DUR = __DUR__;
+const clamp = (x, a=0, b=1) => Math.max(a, Math.min(b, x)), ease = x => 1 - Math.pow(1 - clamp(x), 3);
+const fmt = (v, d) => v.toFixed(d).replace('.', ',').replace(/\\B(?=(\\d{3})+(?!\\d))/g, '.');
+const st = document.querySelector('.stage');
+if (A.type === 'number') {
+  st.innerHTML = `<div class="num"><span id="v"></span><small>${A.unit || ''}</small></div><div class="lab" id="l">${A.label || ''}</div>`;
+} else if (A.type === 'bars') {
+  st.innerHTML = A.bars.map((b, i) => `<div class="row ${b.other ? 'other' : ''}"><div class="n"><span>${b.name}</span><b id="b${i}"></b></div><div class="track"><div class="fill" id="f${i}"></div></div></div>`).join('') + (A.note ? `<div class="note">${A.note}</div>` : '');
+} else if (A.type === 'timeline') {
+  st.innerHTML = A.items.map((it, i) => `<div class="it" id="i${i}"><div class="w">${it.when}</div><div class="t">${it.what}</div></div>`).join('');
+}
+window.render = t => {
+  if (A.type === 'number') {
+    const p = ease((t - 0.2) / Math.min(1.3, window.DUR * 0.4));
+    document.getElementById('v').textContent = (A.prefix || '') + fmt(A.value * p, A.decimals || 0);
+    document.getElementById('l').style.opacity = clamp((t - 0.6) / 0.6);
+  } else if (A.type === 'bars') {
+    const max = Math.max(...A.bars.map(b => b.value)) || 1;
+    A.bars.forEach((b, i) => {
+      const p = ease((t - 0.25 - i * 0.45) / 1.1);
+      document.getElementById('f' + i).style.width = (b.value / max * 100 * p) + '%';
+      const el = document.getElementById('b' + i); el.textContent = b.label || ''; el.style.opacity = clamp((t - 0.6 - i * 0.45) / 0.4);
+    });
+  } else if (A.type === 'timeline') {
+    const step = Math.min(1.6, (window.DUR * 0.75) / A.items.length);
+    A.items.forEach((it, i) => {
+      const p = ease((t - 0.2 - i * step) / 0.6), el = document.getElementById('i' + i);
+      el.style.opacity = p; el.style.transform = `translateY(${(1 - p) * 26}px)`;
+    });
+  }
+};
+window.render(0);
+})();
+"""
+
+
+def anim_clip(pg, reel, s, ov, dest, dur):
+    """Renderiza a cena quadro a quadro: o navegador desenha window.render(t) e os JPEGs vão por pipe para o ffmpeg."""
+    bg = ""
+    if s.get("media"):
+        import base64
+        m = ROOT / s["media"]
+        bg = f'<div class="bg" style="background-image:url(data:image/jpeg;base64,{base64.b64encode(m.read_bytes()).decode()})"></div>'
+    js = ANIM_JS.replace("__ANIM__", json.dumps(s["anim"], ensure_ascii=False)).replace("__DUR__", str(dur))
+    html = (f'<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}{ANIM_CSS}</style></head>'
+            f'<body style="--accent:{reel.get("accent", "#F2B36B")}">{bg}<div class="stage"></div><script>{js}</script></body></html>')
+    pg.set_content(html, wait_until="load"); pg.wait_for_timeout(200)
+    frames = int(round(dur * FPS))
+    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg", "-i", "-",
+                           "-i", str(ov), "-filter_complex", "[0:v][1:v]overlay=0:0,format=yuv420p[o]", "-map", "[o]",
+                           "-t", str(dur), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "19", "-r", str(FPS), str(dest)],
+                          stdin=subprocess.PIPE)
+    for f in range(frames):
+        pg.evaluate("t => window.render(t)", f / FPS)
+        ff.stdin.write(pg.screenshot(type="jpeg", quality=92))
+    ff.stdin.close()
+    if ff.wait():
+        raise SystemExit("ffmpeg falhou na cena animada")
+
+
 # ---------- cenas ----------
 def scene_clip(s, ov, dest, idx, dur):
     frames = int(dur * FPS)
@@ -221,6 +360,27 @@ def scene_clip(s, ov, dest, idx, dur):
     cmd += ["-i", str(ov), "-filter_complex", vf + ";[v][1:v]overlay=0:0,format=yuv420p[o]", "-map", "[o]",
             "-t", str(dur), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "19", str(dest)]
     run(cmd)
+
+
+def ffmpeg_major():
+    r = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True).stdout
+    m = re.search(r"ffmpeg version n?(\d+)", r)
+    return int(m.group(1)) if m else 0
+
+
+def master(video, mix, dest):
+    """Áudio final em -14 LUFS. Com ffmpeg 7+, usa toolbox/mux.sh (duas passagens + limitador); senão, loudnorm simples."""
+    mux = ROOT / "toolbox" / "mux.sh"
+    if mux.exists() and ffmpeg_major() >= 7 and not FAKE:
+        r = subprocess.run(["sh", str(mux), str(video), str(mix), str(dest), str(FPS), "0"], capture_output=True, text=True,
+                           env={**os.environ, "LEMO_COLOR": "bt709"})
+        print("  " + "\n  ".join((r.stdout + r.stderr).strip().splitlines()[-6:]))
+        if r.returncode == 0 and Path(dest).exists():
+            return
+        print("  mux.sh falhou; usando loudnorm simples")
+    af = "anull" if FAKE else "loudnorm=I=-14:TP=-1.5:LRA=11"
+    run(["ffmpeg", "-y", "-i", str(video), "-i", str(mix), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-af", af,
+         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", "-shortest", str(dest)])
 
 
 def main(paths):
@@ -255,7 +415,12 @@ def main(paths):
                 if box and s.get("say") and not s.get("end") and box[1] > 1180 and s.get("text"):
                     print(f"  AVISO: cena {i+1}: texto desce até {int(box[1])}px e pode encostar na legenda — encurte")
                 # 3) clipe
-                c = tmp / f"c{i:02d}.mp4"; scene_clip(s, ov, c, i, dur); clips.append(c); durs.append(dur)
+                c = tmp / f"c{i:02d}.mp4"
+                if s.get("anim"):
+                    anim_clip(pg, reel, s, ov, c, dur)
+                else:
+                    scene_clip(s, ov, c, i, dur)
+                clips.append(c); durs.append(dur)
                 print(f"  cena {i+1}/{n} · {dur:.1f}s · {s.get('media', 'cartão final')}" + (f" · {len(words_all[-1])} palavras" if s.get('say') else ""))
             pg.close()
 
@@ -310,10 +475,13 @@ def main(paths):
             else:
                 cmd += ["-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=48000:cl=stereo"]
                 af.append(f"[{ai}:a]anull[aout]")
-            cmd += ["-filter_complex", ";".join(fc + af), "-map", vlast, "-map", "[aout]", "-t", f"{total:.2f}",
-                    "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS),
-                    "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(out / "reel.mp4")]
+            pre, mix = tmp / "pre.mp4", tmp / "mix.wav"
+            cmd += ["-filter_complex", ";".join(fc + af),
+                    "-map", vlast, "-t", f"{total:.2f}", "-an", "-c:v", "libx264", "-preset", "medium", "-crf", "17",
+                    "-pix_fmt", "yuv420p", "-r", str(FPS), str(pre),
+                    "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "pcm_s16le", "-ar", "48000", str(mix)]
             run(cmd)
+            master(pre, mix, out / "reel.mp4")
 
             # 7) capa, prancha, textos e metadados
             run(["ffmpeg", "-y", "-ss", "0.6", "-i", str(out / "reel.mp4"), "-frames:v", "1", "-q:v", "2", str(out / "reel_cover.jpg")])

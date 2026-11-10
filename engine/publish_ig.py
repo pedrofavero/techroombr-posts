@@ -155,27 +155,41 @@ def publish_carousel(slug):
     return mid, link
 
 
+def url_ok(u):
+    r = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-r", "0-10", u], capture_output=True, text=True)
+    return r.stdout.strip() in ("200", "206")
+
+
+def host_reel(slug):
+    """Garante reel.mp4 e a capa no branch media e devolve (url_video, url_capa|None).
+    Se o mp4 não está na máquina (ele não vai para o git), usa o que o workflow "reel" já hospedou."""
+    d = ROOT / "posts" / slug
+    mp4, cover = d / "reel.mp4", d / "reel_cover.jpg"
+    if mp4.exists():
+        tmp = d / "_ig"; tmp.mkdir(exist_ok=True)
+        named = []
+        for f in [mp4] + ([cover] if cover.exists() else []):
+            t = tmp / f"{slug}-{f.name}"; shutil.copy2(f, t); named.append(t)
+        urls = media_branch.push(named)
+        return urls[0], (urls[1] if len(urls) > 1 else None)
+    v, c = media_branch.public_url(f"{slug}-reel.mp4"), media_branch.public_url(f"{slug}-reel_cover.jpg")
+    if not url_ok(v):
+        raise SystemExit(f"falta {mp4} e não há {v}: rode o workflow 'reel' para renderizar")
+    return v, (c if url_ok(c) else None)
+
+
 def publish_reel(slug):
     DRY or need_auth()
     d = ROOT / "posts" / slug
-    mp4, cover = d / "reel.mp4", d / "reel_cover.jpg"
-    if not mp4.exists():
-        raise SystemExit(f"falta {mp4}")
     cap = read_caption(slug, "reel_legenda.txt")
     fontes = (d / "reel_fontes.txt").read_text(encoding="utf-8").strip() if (d / "reel_fontes.txt").exists() else ""
-    print(f"reel {slug}: {mp4.stat().st_size/1e6:.1f} MB")
+    print(f"reel {slug}")
     if DRY:
         print("  [dry-run] legenda:", cap[:120].replace("\n", " "), "…"); return None, ""
-    files = [mp4] + ([cover] if cover.exists() else [])
-    # nomes únicos no branch media (slug no nome)
-    tmp = d / "_ig"; tmp.mkdir(exist_ok=True)
-    named = []
-    for f in files:
-        t = tmp / f"{slug}-{f.name}"; shutil.copy2(f, t); named.append(t)
-    urls = media_branch.push(named)
-    params = dict(media_type="REELS", video_url=urls[0], caption=cap, share_to_feed="true")
-    if cover.exists():
-        params["cover_url"] = urls[1]
+    video, cover = host_reel(slug)
+    params = dict(media_type="REELS", video_url=video, caption=cap, share_to_feed="true")
+    if cover:
+        params["cover_url"] = cover
     cont = api("POST", f"{IG}/media", **params)
     wait_container(cont["id"], max_s=1200, every=20)
     mid, link = publish_container(cont["id"])
@@ -269,6 +283,8 @@ def main():
         refresh_token(save="--save" in sys.argv)
     elif cmd == "limit":
         need_auth(); print(json.dumps(api("GET", f"{IG}/content_publishing_limit", fields="quota_usage,config"), indent=1))
+    elif cmd == "host-reel":
+        print("\n".join(u for u in host_reel(sys.argv[2]) if u))
     elif cmd == "debug":
         debug_token()
     elif cmd == "me":

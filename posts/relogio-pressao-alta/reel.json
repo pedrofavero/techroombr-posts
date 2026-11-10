@@ -1,0 +1,81 @@
+{
+  "slug": "relogio-pressao-alta",
+  "display": "sans",
+  "accent": "#F2B36B",
+  "voice": "pt-BR-FranciscaNeural",
+  "voice_rate": "+8%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/relogio-pressao-alta-1.jpg",
+      "kicker": "Estudo · Nature",
+      "text": "O relógio que aponta pressão alta",
+      "big": true,
+      "credit": "Foto: Ștefan Iancu / Unsplash",
+      "say": "Um relógio comum, sem braçadeira, apontou pressão alta em 2 de cada 3 pessoas que tinham o problema."
+    },
+    {
+      "media": "fotos/relogio-pressao-alta-2.jpg",
+      "credit": "Foto: CDC / Unsplash",
+      "say": "O estudo é do Google e saiu na revista Nature. 196 adultos usaram um Pixel Watch por uma semana. A referência foi a braçadeira que mede a pressão por 24 horas."
+    },
+    {
+      "media": "fotos/relogio-pressao-alta-1.jpg",
+      "kicker": "Resultado",
+      "anim": {
+        "type": "number",
+        "value": 65.8,
+        "decimals": 1,
+        "unit": "%",
+        "label": "dos hipertensos foram apontados pelo relógio"
+      },
+      "say": "O relógio apontou 65,8% dos hipertensos.",
+      "hold": 1.3
+    },
+    {
+      "kicker": "Comparação",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "Relógio + IA",
+            "value": 65.8,
+            "label": "65,8%"
+          },
+          {
+            "name": "Consultório, 1 consulta",
+            "value": 55.3,
+            "label": "55,3%",
+            "other": true
+          }
+        ],
+        "note": "Com 10% de alarmes falsos nos dois. Referência: braçadeira de 24 h. Fonte: preprint no medRxiv."
+      },
+      "say": "Uma consulta no consultório apontou 55,3%. Os autores falam em desempenho comparável.",
+      "hold": 1.0
+    },
+    {
+      "media": "fotos/relogio-pressao-alta-3.jpg",
+      "credit": "Foto: Julia Taubitz / Unsplash",
+      "say": "A inteligência artificial não mede a pressão. Ela reconhece um padrão no pulso, ao longo de vários dias, e devolve uma probabilidade."
+    },
+    {
+      "media": "fotos/relogio-pressao-alta-2.jpg",
+      "text": "Triagem, não diagnóstico",
+      "big": true,
+      "say": "É triagem, não diagnóstico. O relógio deixa passar 1 em cada 3 casos, e o estudo foi pago pela dona do Google. Um alerta serve para procurar um profissional."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Google Research e Beth Israel Deaconess — Nature, 5 nov. 2026",
+        "Preprint no medRxiv, dez. 2025",
+        "The Decoder, 7 nov. 2026"
+      ],
+      "say": "Fontes no primeiro comentário. Siga o Tech Room: tecnologia explicada com clareza."
+    }
+  ],
+  "legenda": "Um relógio comum pode servir de triagem para pressão alta? Um estudo do Google na Nature testou isso contra a braçadeira de 24 horas, em 196 adultos.\n\nO relógio apontou 65,8% dos hipertensos; uma consulta no consultório, 55,3%, com os mesmos 10% de alarmes falsos. Não é diagnóstico: o estudo foi pago pela Alphabet, deixou de fora quem já toma remédio e os autores pedem testes maiores.\n\nVocê confiaria num alerta do relógio para marcar uma consulta?\n\n—\nFontes no primeiro comentário.\n\n#pressaoalta #hipertensao #smartwatch #estudo #saude #tecnologia",
+  "fontes_comentario": "Fontes: Google Research e Beth Israel Deaconess, \"Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch\", Nature, 5 nov. 2026 (doi 10.1038/s41586-026-11336-3); versão preliminar no medRxiv, dez. 2025; The Decoder (Manuel Uth), 7 nov. 2026. Fotos: Ștefan Iancu, CDC e Julia Taubitz, via Unsplash."
+}

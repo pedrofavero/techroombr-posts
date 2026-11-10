@@ -1,0 +1,162 @@
+name: reel
+
+# Renderiza o reel de um post a partir de posts/<slug>/reel.json (voz, legendas, cenas animadas),
+# confere a narração, hospeda o vídeo no branch "media" e, se pedido, publica no Instagram.
+# - Automático: a cada push que altere posts/*/reel.json (só renderiza e hospeda).
+# - Manual (Run workflow): slug + publicar (nao | agora).
+# O mp4 não vai para o git: fica em https://raw.githubusercontent.com/<repo>/media/<slug>-reel.mp4
+# Secrets para publicar: IG_USER_ID, IG_ACCESS_TOKEN, IG_APP_ID, IG_APP_SECRET.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/*/reel.json"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug do post (pasta em posts/)"
+        required: true
+      publicar:
+        description: "Publicar no Instagram depois de renderizar?"
+        type: choice
+        default: nao
+        options: [nao, agora]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reel
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      KOKORO_DIR: ${{ github.workspace }}/toolbox/modelos
+      SLUG_IN: ${{ github.event.inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache (navegador, voz offline, whisper)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/ms-playwright
+            ~/.cache/huggingface
+            toolbox/modelos
+            ~/ffmpeg7
+          key: reel-deps-v1
+
+      - name: Dependências Python e navegador
+        run: |
+          pip install -q playwright pillow edge-tts kokoro-onnx soundfile faster-whisper "av<19"
+          python -m playwright install --with-deps chromium
+
+      - name: ffmpeg 7 (o do runner é 6.x; o mux.sh do toolbox pede 7+)
+        run: |
+          if [ ! -x "$HOME/ffmpeg7/bin/ffmpeg" ]; then
+            mkdir -p "$HOME/ffmpeg7"
+            curl -fsSL "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n7.1-latest-linux64-gpl-7.1.tar.xz" \
+              | tar -xJ --strip-components=1 -C "$HOME/ffmpeg7" || echo "download do ffmpeg 7 falhou; segue com o do sistema"
+          fi
+          if [ -x "$HOME/ffmpeg7/bin/ffmpeg" ]; then echo "$HOME/ffmpeg7/bin" >> "$GITHUB_PATH"; else sudo apt-get install -y -q ffmpeg; fi
+
+      - name: Voz offline Kokoro (plano B do edge-tts)
+        run: |
+          mkdir -p toolbox/modelos
+          base="https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0"
+          for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+            [ -s "toolbox/modelos/$f" ] || curl -fsSL -o "toolbox/modelos/$f" "$base/$f" || echo "sem $f: só edge-tts"
+          done
+          ls -la toolbox/modelos; ffmpeg -version | head -1
+
+      - name: Quais reels renderizar
+        id: quais
+        run: |
+          if [ -n "$SLUG_IN" ]; then
+            slugs="$SLUG_IN"
+          else
+            slugs=$(git diff --name-only HEAD~1 HEAD -- 'posts/*/reel.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+          fi
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"; echo "reels: $slugs"
+
+      - name: Baixar b-roll usado nos roteiros
+        run: |
+          python3 - ${{ steps.quais.outputs.slugs }} <<'PY'
+          import json, sys, shutil, urllib.request
+          from pathlib import Path
+          for slug in sys.argv[1:]:
+              reel = json.loads(Path(f"posts/{slug}/reel.json").read_text(encoding="utf-8"))
+              for s in reel["scenes"]:
+                  m = s.get("media", "")
+                  if m.startswith("videos/") and not Path(m).exists():
+                      meta = json.loads(Path(m).with_suffix(".json").read_text(encoding="utf-8"))
+                      print("baixando", m)
+                      with urllib.request.urlopen(meta["asset_url"]) as r, open(m, "wb") as o:
+                          shutil.copyfileobj(r, o)
+          PY
+
+      - name: Renderizar
+        run: |
+          set -e
+          for s in ${{ steps.quais.outputs.slugs }}; do
+            python3 engine/render_reel.py "posts/$s/reel.json"
+          done
+
+      - name: Conferir a narração (whisper, pt-BR)
+        id: asr
+        continue-on-error: true
+        run: |
+          rc=0
+          for s in ${{ steps.quais.outputs.slugs }}; do
+            python3 engine/asr_check_pt.py "posts/$s/reel.json" || rc=1
+          done
+          exit $rc
+
+      - name: Hospedar vídeo e capa no branch media
+        run: |
+          for s in ${{ steps.quais.outputs.slugs }}; do
+            python3 engine/publish_ig.py host-reel "$s"
+          done
+
+      - name: Registrar no repositório (capa, prancha, legenda, conferência)
+        run: |
+          git config user.name "techroom-bot"
+          git config user.email "bot@techroombr.local"
+          for s in ${{ steps.quais.outputs.slugs }}; do
+            git add -f "posts/$s/reel_cover.jpg" "posts/$s/_reel_prancha.jpg" "posts/$s/reel_meta.json" || true
+            git add "posts/$s/reel_legenda.txt" "posts/$s/reel_fontes.txt" "posts/$s/reel_asr.txt" 2>/dev/null || true
+          done
+          git diff --cached --quiet && { echo "nada a registrar"; exit 0; }
+          git commit -m "reel: render automático (${{ steps.quais.outputs.slugs }})"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Publicar no Instagram
+        if: github.event.inputs.publicar == 'agora'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_APP_ID: ${{ secrets.IG_APP_ID }}
+          IG_APP_SECRET: ${{ secrets.IG_APP_SECRET }}
+        run: |
+          set -e
+          if [ "${{ steps.asr.outcome }}" != "success" ]; then
+            echo "::error::A conferência da narração reprovou (número não ouvido). Não publiquei. Veja posts/<slug>/reel_asr.txt."
+            exit 1
+          fi
+          python3 engine/publish_ig.py reel "$SLUG_IN"
+          git config user.name "techroom-bot"; git config user.email "bot@techroombr.local"
+          git add posts/historico.csv fila-publicacao || true
+          git diff --cached --quiet || { git commit -m "publicar: reel $SLUG_IN"; git pull --rebase origin main; git push origin HEAD:main; }
