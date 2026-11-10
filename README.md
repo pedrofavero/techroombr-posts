@@ -9,6 +9,6 @@ Repositório de apoio da publicação @techroombr. Nenhum arquivo aqui precisa s
 | `fotos/` | Fotos baixadas pela Action (`slug.jpg`) |
 | `posts/<slug>/` | Conteúdo do post (`post.json`), páginas renderizadas (`01.png`…`06.png`), `legenda.txt` |
 
-Fluxo: Claude escolhe a foto no Unsplash → grava `fila/slug.txt` → a Action baixa para `fotos/` → Claude renderiza as páginas → publica em `posts/` → após "aprovado", o Metricool agenda usando as URLs públicas de `posts/`.
+Fluxo: Claude escolhe a foto no Unsplash → grava `fila/slug.txt` → a Action baixa para `fotos/` → Claude renderiza as páginas → publica em `posts/` → checagem dupla → um arquivo em `fila-publicacao/` agenda → o workflow `publicar` posta no Instagram pela API oficial.
 
 Fotos: licença Unsplash. Crédito ao fotógrafo na página de fontes de cada post.

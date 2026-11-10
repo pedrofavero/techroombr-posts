@@ -39,11 +39,13 @@ e reels, hospeda a mídia e publica.
 ## Como as coisas rodam
 
 - **Rotina diária (7h52, Brasília):** uma tarefa agendada no Claude produz 2 carrosséis + 1 reel, agenda para o dia
-  seguinte e publica se ninguém segurar ("silêncio = aprovado"). Ela é independente deste repositório aberto no
-  Claude Code; o prompt dela mora na tarefa, não aqui. Mudou uma regra? Atualize a tarefa também.
-- **Carrosséis** são agendados no Metricool (blogId 7436094) usando as URLs `raw.githubusercontent.com/.../posts/<slug>/NN.png`.
-- **Reels** são publicados pela API própria: workflow `reel` renderiza e hospeda; `fila-publicacao/` + workflow
-  `publicar` (minutos 05 e 35) publicam no horário.
+  seguinte e publica se ninguém segurar ("silêncio = aprovado"). A instrução inteira dela é `prompts/rotina-diaria.md`:
+  a tarefa só clona o repositório e segue esse arquivo. Para mudar a rotina, edite o arquivo e faça push.
+- **Tudo é publicado pela fila própria:** um JSON por item em `fila-publicacao/` (`type`, `slug`, `when`, `hold`); o
+  workflow `publicar` roda aos minutos 05 e 35 e publica o que venceu pela API oficial do Instagram. Padrão do dia:
+  carrossel às 10:00, reel às 12:30, carrossel às 18:30.
+- **Metricool saiu do fluxo em 10/11/2026.** Não agende nada lá. O conector serve, no máximo, para ler métricas.
+- **Reels:** o workflow `reel` renderiza e hospeda o vídeo no branch `media` antes de a fila publicar.
 - **Workflows** (`.github/workflows/`): `fotos` (push em `fila/`), `reel` (push em `posts/*/reel.json` ou manual),
   `publicar` (agendado + manual: `me`, `debug`, `limit`, `due`, `carousel`, `reel`), `videos` (b-roll do Pexels;
   precisa do secret `PEXELS_API_KEY`, ainda ausente). `reels.yml` é legado.
@@ -64,8 +66,10 @@ Dependências locais: `pip install playwright pillow numpy scipy edge-tts` e `py
 
 - **Publicar é público e não tem ensaio.** `--dry-run` não chama a Meta. Nunca rode `carousel`, `reel` ou `due`
   de verdade, nem o workflow com `publicar = agora`, sem pedido explícito de quem é dono da conta.
-- **Duplicidade:** um post agendado no Metricool e publicado também pela API sai duas vezes. Antes de publicar pela
-  API, tire o agendamento do Metricool (vira rascunho).
+- **Duplicidade:** publicar à mão um item que também está em `fila-publicacao/` faz sair duas vezes. Antes de publicar
+  agora, apague o arquivo da fila ou ponha `"hold": true`.
+- **O agendador do GitHub atrasa:** o workflow `publicar` pode rodar alguns minutos depois do minuto 05/35 e, raramente,
+  pular uma rodada; o item sai na rodada seguinte. Para horário exato, dispare o workflow à mão (`due`).
 - **Ambientes na nuvem** (Claude Code web, rotina): `images.unsplash.com`, a voz do edge-tts e o Hugging Face são
   bloqueados. Foto só pela Action `fotos`; reel com voz só pelo workflow `reel`. Em máquina local funciona direto.
 - **Saídas de reel não vão para o git à mão:** o workflow faz o commit de capa, prancha, legenda e conferência.

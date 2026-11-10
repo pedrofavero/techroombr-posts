@@ -42,4 +42,4 @@ python3 engine/render_natgeo.py posts/<slug>/post.json
 ## 5. Checar e entregar
 - Rode a skill `checagem-dupla`. Corrija, renderize, repita até limpar.
 - `git add posts/<slug> fila fotos && git commit -m "post: <slug>" && git pull --rebase origin main && git push`.
-- Agendamento e publicação: skill `publicar`.
+- Agendamento e publicação: skill `publicar` (fila própria em `fila-publicacao/`).
