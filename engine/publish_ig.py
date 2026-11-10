@@ -234,7 +234,7 @@ def due():
         mid, link = publish_reel(d["slug"]) if d["type"] == "reel" else publish_carousel(d["slug"])
         d.update(published_at=datetime.now().astimezone().isoformat(timespec="seconds"), media_id=mid, permalink=link)
         (FILA / "feito" / it.name).write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-        it.unlink(); marcar_historico(d["slug"], link)
+        it.unlink(); marcar_historico(d["slug"] + ("-reel" if d["type"] == "reel" else ""), link)   # reel tem linha própria no histórico
 
 
 def debug_token():
