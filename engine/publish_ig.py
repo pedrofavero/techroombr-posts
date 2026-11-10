@@ -59,6 +59,16 @@ def api(method, path, **params):
             return json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
         body = e.read().decode(errors="replace")
+        try:
+            err = json.loads(body).get("error", {})
+        except ValueError:
+            err = {}
+        if err.get("code") == 190:
+            raise SystemExit("TOKEN INVÁLIDO (erro 190): o IG_ACCESS_TOKEN foi revogado ou expirou. Gere outro em "
+                             "developers.facebook.com → app → Instagram → API setup with Unified login → Gerar token, "
+                             f"e atualize o secret. Detalhe: {err.get('message', '')[:300]}")
+        if err.get("code") == 4 or err.get("code") == 9:
+            raise SystemExit(f"LIMITE DA API (erro {err['code']}): {err.get('message', '')[:300]}. Tente mais tarde.")
         raise SystemExit(f"Instagram API {e.code} em {method} {path}: {body[:800]}")
 
 
