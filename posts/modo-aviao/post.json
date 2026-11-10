@@ -1,0 +1,145 @@
+{
+  "slug": "modo-aviao",
+  "categoria": "EXPLICA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/bateria-de-litio-1.jpg",
+      "title": "Modo avião: a regra mais antiga não é sobre o avião",
+      "dek": "A proibição americana de usar celular em voo, de 1991, existe para proteger as antenas no chão. A preocupação com a eletrônica do avião é outra regra, mais antiga, e os testes de 2013 mudaram a conversa.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa",
+      "heading": "\"O celular derruba o avião\"",
+      "body": [
+        "É o que muita gente aprende no aviso de bordo. Mas a regra que proíbe o celular ligado em voo nos Estados Unidos, a **47 CFR 22.925** da FCC (a agência do espectro de rádio), não trata de turbinas nem de instrumentos. Ela foi escrita em 1991 para proteger a rede de celular no chão, segundo a análise do site Make Tech Easier, que foi ao texto da ordem.",
+        "A preocupação com o avião em si é de outra agência, a FAA (aviação), e vem de 1961, quando rádios FM portáteis interferiram em equipamentos de navegação. A ordem de 1991 registrou essa dúvida e pediu testes. Em 2013, a FAA concluiu que a maioria dos aviões comerciais tolera as emissões dos aparelhos e liberou o uso em todas as fases do voo, em modo avião. ==Duas regras, dois motivos.=="
+      ],
+      "photo": "fotos/rede-eletrica-calor-2.jpg",
+      "caption": "Foto: Jorge Salvador / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "kicker": "O problema de verdade",
+      "heading": "Lá em cima, o celular enxerga antenas demais",
+      "svg": "<svg viewBox='0 0 800 430' fill='none' stroke='currentColor' stroke-width='3' font-family='inherit'><text x='40' y='40' font-size='20' fill='currentColor' stroke='none'>No ar: o sinal chega a várias torres de uma vez</text><path d='M320 85 Q400 62 490 72 L470 90 Q400 106 320 85 Z'/><path d='M338 82 L322 58 L350 68'/><path d='M412 76 L384 122 L404 124 L432 88'/><path d='M400 96 L120 290 M400 96 L280 290 M400 96 L440 290 M400 96 L600 290 M400 96 L720 290' stroke='var(--accent)' stroke-width='2' stroke-dasharray='8 8'/><path d='M102 380 L120 290 L138 380 M106 360 L134 360 M110 335 L130 335'/><path d='M262 380 L280 290 L298 380 M266 360 L294 360 M270 335 L290 335'/><path d='M422 380 L440 290 L458 380 M426 360 L454 360 M430 335 L450 335'/><path d='M582 380 L600 290 L618 380 M586 360 L614 360 M590 335 L610 335'/><path d='M702 380 L720 290 L738 380 M706 360 L734 360 M710 335 L730 335'/><path d='M106 286 Q120 272 134 286 M266 286 Q280 272 294 286 M426 286 Q440 272 454 286 M586 286 Q600 272 614 286 M706 286 Q720 272 734 286'/><path d='M40 380 L760 380'/><rect x='190' y='336' width='18' height='32' rx='3'/><path d='M208 340 L270 300' stroke='var(--accent)' stroke-width='3'/><text x='40' y='418' font-size='20' fill='currentColor' stroke='none'>No chão: uma torre por vez</text></svg>",
+      "caption": "No chão, o celular fala com a antena mais próxima. No ar, sem prédios no caminho, o sinal alcança várias ao mesmo tempo. Como as operadoras reaproveitam as mesmas frequências em células vizinhas, isso vira interferência para quem está embaixo.",
+      "body": [
+        "Segundo o Make Tech Easier, que leu a ordem de 1991 da FCC, um celular em altitude tem alcance muito maior e pode ocupar várias estações de uma vez. É esse o problema que a regra resolve.",
+        "Efeito colateral, segundo o mesmo site: longe de qualquer antena, o celular fica procurando rede e gasta bateria. O modo avião também evita isso."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "De 1961 ao 5G a bordo",
+      "items": [
+        {
+          "when": "1961",
+          "what": "A antecessora da FAA restringe eletrônicos a bordo depois que rádios FM portáteis interferem em equipamentos de navegação e comunicação."
+        },
+        {
+          "when": "1991",
+          "what": "A FCC proíbe o celular em voo para proteger a rede no chão. A mesma ordem anota a dúvida da FAA sobre o avião e pede testes."
+        },
+        {
+          "when": "2008",
+          "what": "A Emirates faz as primeiras ligações em voo com uma antena a bordo, em 20 de março; o regulador britânico, a Ofcom, libera o sistema seis dias depois."
+        },
+        {
+          "when": "2013",
+          "what": "A FAA (31 de outubro) e a agência europeia EASA (9 de dezembro) liberam aparelhos em modo avião em todas as fases do voo. A FCC propõe acabar com a proibição de celular."
+        },
+        {
+          "when": "2020",
+          "what": "A FCC encerra oficialmente a proposta de 2013, depois da oposição de pilotos, comissários e passageiros."
+        },
+        {
+          "when": "2022",
+          "what": "A Comissão Europeia reserva frequências para 5G a bordo; prazo para os países, 30 de junho de 2023."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Como o avião resolveu",
+      "heading": "Uma antena pequena dentro da cabine",
+      "body": [
+        "O sistema usado desde 2008 chama-se ==picocélula==: uma estação de celular em miniatura instalada no avião. Os celulares se conectam a ela, pertinho e com pouca potência, e ela repassa a conversa ao chão por satélite, segundo a Lonely Planet e o Washington Post.",
+        "Tom Wheeler, ex-presidente da FCC, disse ao Washington Post que esse avanço resolve em grande parte a preocupação técnica que motivou a proibição. O que travou a proposta americana de 2013 foi outra coisa: o incômodo de ouvir o vizinho de poltrona falando ao telefone.",
+        "Sem essa antena a bordo, lembrou à Forbes o professor de engenharia Sven Bilén, da Penn State, a maioria dos voos está alta demais para alcançar as torres comuns."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "E hoje?",
+      "heading": "O que vale nos EUA, na Europa e no Brasil",
+      "a": {
+        "title": "Ainda proibido",
+        "lines": [
+          "EUA: a regra da FCC contra celular em voo segue de pé. A FAA libera aparelhos em modo avião e Wi-Fi, se a companhia oferecer.",
+          "Brasil: ligações e internet pelo celular continuam proibidas. O aparelho em modo avião pode ficar ligado em todas as fases do voo, regra geral desde 2016 (Resolução 400 da ANAC, segundo o Correio Braziliense)."
+        ]
+      },
+      "b": {
+        "title": "Liberado",
+        "lines": [
+          "Europa: desde 2014 a EASA permite aparelhos ligados e conectados durante todo o voo; desde 2023, há espaço para 5G a bordo com antena no avião.",
+          "Em voos com picocélula, ligação e internet pelo celular funcionam porque o sinal não sai procurando torre no chão."
+        ]
+      },
+      "body": [
+        "No Brasil, a palavra final a bordo é do comandante, lembra o Correio Braziliense: a tripulação pode advertir ou desembarcar quem desobedece."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Duas regras, dois motivos.** A proibição de celular em voo nos EUA (FCC, 1991) protege a rede no chão; a preocupação com a eletrônica do avião é da FAA e vem de 1961.",
+        "**Desde 2013, modo avião basta.** A FAA concluiu que a maioria dos aviões tolera as emissões dos aparelhos. FAA, EASA e ANAC liberaram aparelhos ligados em todas as fases do voo, desde que sem o rádio de celular.",
+        "**A solução é uma antena a bordo.** A picocélula faz o celular transmitir fraco e repassa tudo por satélite. Na Europa, virou 5G a bordo a partir de 2023. Nos EUA, a liberação morreu em 2020 por outro motivo: ninguém quer ouvir o vizinho ao telefone."
+      ],
+      "after": [
+        "Modo avião segue sendo a regra, inclusive no Brasil. O que mudou foi o entendimento de por quê."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Make Tech Easier (redação), 29 jul. 2026",
+          "what": "origem da regra: ordem da FCC de 1991 (alcance, reúso de frequências, dúvida da FAA), regra de 1961, revisão da FAA de 2013, bateria"
+        },
+        {
+          "who": "Washington Post, 6 dez. 2022",
+          "what": "decisão europeia, picocélula, Tom Wheeler sobre a proibição e a proposta de 2013, encerramento em 2020"
+        },
+        {
+          "who": "Forbes (Arianna Johnson), 9 dez. 2022, e Lonely Planet",
+          "what": "5G a bordo na União Europeia, prazo de 30 jun. 2023, satélite, Sven Bilén"
+        },
+        {
+          "who": "Wikipedia, \"Mobile phones on aircraft\" e \"Airplane mode\"",
+          "what": "regra 47 CFR 22.925 e guia da FCC; Emirates 20 mar. 2008 e Ofcom 26 mar. 2008; FAA 31 out. 2013; EASA 9 dez. 2013 e set. 2014"
+        },
+        {
+          "who": "Folha de S.Paulo (Ricardo Gallo), via Biblioteca Jurídica SP; Correio Braziliense (Carlos Emanoel), 3 jul. 2025",
+          "what": "regras da ANAC: modo avião em todas as fases, ligações e internet proibidas, Resolução 400/2016, autoridade do comandante"
+        },
+        {
+          "who": "Fotos",
+          "what": "Andreas Haslinger e Jorge Salvador, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O detalhe que muda a conversa: a regra americana que proíbe celular em voo foi escrita por quem cuida das antenas, não por quem cuida dos aviões.\n\nA FCC, agência do espectro de rádio, proibiu o celular no ar em 1991 porque um aparelho em altitude alcança várias torres de uma vez e atrapalha a rede no chão, segundo a análise do Make Tech Easier. A preocupação com a eletrônica do avião é da FAA e vem de 1961. Em 2013, a FAA concluiu que a maioria dos aviões comerciais tolera as emissões dos aparelhos e liberou o uso em todas as fases, em modo avião; a Europa e o Brasil seguiram. A solução para falar ao telefone a bordo existe desde 2008: uma antena em miniatura dentro do avião, que repassa o sinal por satélite. Na Europa, ela abriu caminho para o 5G a bordo a partir de 2023. Nos EUA, a proposta de liberar morreu em 2020, por oposição de pilotos, comissários e passageiros.\n\nVocê liga o modo avião por hábito ou por convicção?\n\n—\nFontes no último slide.\n\n#modoaviao #celular #aviacao #explica #telecomunicacoes #viagem #tecnologia #5g"
+}

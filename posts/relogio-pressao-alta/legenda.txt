@@ -1,0 +1,10 @@
+A parte mais importante do estudo não é o relógio: é a comparação. O relógio foi testado contra a braçadeira de 24 horas, o padrão para confirmar hipertensão, e não contra uma medição isolada.
+
+O artigo saiu na Nature em 5 de novembro, assinado por 15 pesquisadores do Google Research e um médico do Beth Israel Deaconess (Harvard), com financiamento da Alphabet. 196 adultos sem remédio para pressão usaram um Pixel Watch 3 por uma semana; uma IA treinada em quase 500 mil horas de dados de pulso e movimento, sem rótulo de pressão, apontou 65,8% dos hipertensos, contra 55,3% de uma medição no consultório, ambos com 10% de alarmes falsos. Ficaram de fora pessoas com doença do coração e quem já toma remédio. Os autores pedem estudos maiores, fora dos EUA, e um ensaio clínico. Um alerta do relógio deve levar à medição com um profissional, não substituí-la.
+
+Você mediria a pressão com mais frequência se o relógio avisasse?
+
+—
+Fontes no último slide.
+
+#pressaoalta #hipertensao #smartwatch #google #estudo #saude #inteligenciaartificial #tecnologia
