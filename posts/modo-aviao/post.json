@@ -8,7 +8,7 @@
   "slides": [
     {
       "type": "cover",
-      "photo": "fotos/bateria-de-litio-1.jpg",
+      "photo": "fotos/modo-aviao-3.jpg",
       "title": "Modo avião: a regra mais antiga não é sobre o avião",
       "dek": "A proibição americana de usar celular em voo, do início dos anos 1990, existe para proteger as antenas no chão. A preocupação com a eletrônica do avião é outra regra, mais antiga, e os testes de 2013 mudaram a conversa.",
       "swipe": "arraste →"
@@ -21,8 +21,8 @@
         "É o que muita gente aprende no aviso de bordo. Mas a regra que proíbe o celular ligado em voo nos Estados Unidos, da FCC (a agência do espectro de rádio, hoje no item **47 CFR 22.925**), não trata de turbinas nem de instrumentos. Ela nasceu de uma ordem de 1991 para proteger a rede de celular no chão, segundo a análise do site Make Tech Easier.",
         "A preocupação com o avião em si é de outra agência, a FAA (aviação), e vem de 1961, quando estudos mostraram que rádios FM portáteis podiam interferir em equipamentos de navegação. A ordem de 1991 registrou essa dúvida e pediu testes. Em 2013, a FAA concluiu que a maioria dos aviões comerciais tolera as emissões dos aparelhos e liberou o uso em todas as fases do voo, em modo avião. ==Duas regras, dois motivos.=="
       ],
-      "photo": "fotos/rede-eletrica-calor-2.jpg",
-      "caption": "Foto: Jorge Salvador / Unsplash"
+      "photo": "fotos/modo-aviao-2.jpg",
+      "caption": "Foto: Dušan veverkolog / Unsplash"
     },
     {
       "type": "diagram",
@@ -135,7 +135,7 @@
         },
         {
           "who": "Fotos",
-          "what": "Andreas Haslinger e Jorge Salvador, via Unsplash"
+          "what": "park ingyeom e Dušan veverkolog, via Unsplash"
         }
       ]
     }

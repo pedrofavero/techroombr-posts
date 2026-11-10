@@ -8,7 +8,7 @@
   "slides": [
     {
       "type": "cover",
-      "photo": "fotos/celular-depois-das-22h-3.jpg",
+      "photo": "fotos/relogio-pressao-alta-1.jpg",
       "title": "O relógio achou pressão alta em 2 de cada 3. Sem braçadeira",
       "dek": "Estudo do Google, publicado na Nature, usou os sensores comuns de um Pixel Watch e uma semana de uso para apontar quem tem hipertensão. O desempenho foi comparável ao da medição no consultório. É triagem, não diagnóstico.",
       "swipe": "arraste →"
@@ -17,11 +17,11 @@
       "type": "inner",
       "kicker": "O que foi testado",
       "heading": "Uma semana de relógio contra 24 horas de braçadeira",
-      "photo": "fotos/exame-sangue-cancer-2.jpg",
-      "caption": "Foto: National Cancer Institute / Unsplash",
+      "photo": "fotos/relogio-pressao-alta-2.jpg",
+      "caption": "Foto: CDC / Unsplash",
       "body": [
         "**196 adultos**, em cinco centros nos Estados Unidos, usaram um Pixel Watch 3 por cerca de uma semana (média de 7,3 dias, 14,7 horas por dia), inclusive dormindo. Ninguém tomava remédio para pressão nem tinha doença do coração conhecida.",
-        "A referência foi o ==MAPA==, a braçadeira que mede a pressão por 24 horas: a cada 20 minutos de dia e a cada hora à noite. Hipertensão foi definida como média de 24 horas igual ou acima de 130 por 80. Pelo MAPA, 38,8% dos participantes tinham pressão alta.",
+        "A referência foi o **MAPA**, a braçadeira que mede a pressão por 24 horas: a cada 20 minutos de dia e a cada hora à noite. Hipertensão foi definida como média de 24 horas igual ou acima de 130 por 80. Pelo MAPA, 38,8% dos participantes tinham pressão alta.",
         "296 pessoas entraram no estudo; 100 saíram da análise, 75 delas porque faltaram dados da braçadeira, muitas porque não dormiram com ela."
       ]
     },
@@ -157,7 +157,7 @@
         },
         {
           "who": "Fotos",
-          "what": "Ivan Shilov e National Cancer Institute, via Unsplash"
+          "what": "Ștefan Iancu e CDC, via Unsplash"
         }
       ]
     }
