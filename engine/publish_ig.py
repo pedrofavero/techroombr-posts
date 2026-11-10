@@ -272,7 +272,10 @@ def main():
     elif cmd == "debug":
         debug_token()
     elif cmd == "me":
-        need_auth(); print(json.dumps(api("GET", IG, fields="id,username,account_type,media_count,followers_count"), indent=1))
+        need_auth()
+        # account_type só existe em graph.instagram.com (fluxo antigo); no login unificado dá erro 100
+        campos = "id,username,media_count,followers_count" if "graph.facebook.com" in API else "id,username,account_type,media_count,followers_count"
+        print(json.dumps(api("GET", IG, fields=campos), indent=1))
     else:
         print(__doc__); raise SystemExit(1)
 
