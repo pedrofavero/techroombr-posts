@@ -1,0 +1,84 @@
+{
+  "slug": "modo-aviao",
+  "style": "lousa",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "music": "auto",
+  "scenes": [
+    {
+      "kicker": "Explica",
+      "anim": {
+        "type": "hook",
+        "big": "Modo avião",
+        "line": "a regra mais antiga ==não== é sobre o avião"
+      },
+      "say": "A regra do modo avião não nasceu para proteger o avião."
+    },
+    {
+      "kicker": "O mito e o fato",
+      "anim": {
+        "type": "corrige",
+        "errado": "O celular derruba o avião",
+        "certo": "O celular atrapalha as antenas no chão",
+        "fonte": "ordem da FCC, 1991"
+      },
+      "say": "Dizem que o celular derruba o avião. A regra americana de 1991 nasceu por outro motivo: proteger a rede de celular no chão."
+    },
+    {
+      "kicker": "O problema",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 900 620'><path d='M330 90 Q450 55 590 72 L560 100 Q450 122 330 90 Z'/><path d='M352 86 L330 48 L372 66'/><path d='M468 80 L430 150 L458 152 L498 96'/><path class='acc' d='M455 125 L110 420'/><path class='acc' d='M455 125 L290 420'/><path class='acc' d='M455 125 L470 420'/><path class='acc' d='M455 125 L650 420'/><path class='acc' d='M455 125 L820 420'/><path d='M85 560 L110 420 L135 560 M92 520 L128 520 M98 480 L122 480'/><path d='M265 560 L290 420 L315 560 M272 520 L308 520 M278 480 L302 480'/><path d='M445 560 L470 420 L495 560 M452 520 L488 520 M458 480 L482 480'/><path d='M625 560 L650 420 L675 560 M632 520 L668 520 M638 480 L662 480'/><path d='M795 560 L820 420 L845 560 M802 520 L838 520 M808 480 L832 480'/><path d='M30 560 L870 560'/><text x='30' y='612'>no chão: uma torre por vez</text><text class='acc' x='30' y='40'>no ar: várias de uma vez</text></svg>",
+        "caption": "sem obstáculos, o sinal alcança ==várias torres=="
+      },
+      "say": "No chão, o celular fala com uma torre. Lá em cima, o sinal alcança várias ao mesmo tempo e atrapalha quem está embaixo."
+    },
+    {
+      "kicker": "E o avião?",
+      "anim": {
+        "type": "timeline",
+        "items": [
+          {
+            "when": "1961",
+            "what": "rádios FM podiam interferir na navegação"
+          },
+          {
+            "when": "1991",
+            "what": "a regra do celular, pela rede no chão"
+          },
+          {
+            "when": "2013",
+            "what": "testes: a maioria dos aviões tolera os aparelhos"
+          }
+        ]
+      },
+      "say": "A preocupação com o avião é outra regra, de 1961. Em 2013, a agência de aviação americana concluiu que a maioria dos aviões tolera os aparelhos."
+    },
+    {
+      "kicker": "A solução",
+      "anim": {
+        "type": "write",
+        "title": "Uma antena a bordo",
+        "lines": [
+          "o celular transmite ==fraco==",
+          "o sinal segue por satélite ou pelo chão",
+          "na Europa: 5G a bordo desde 2023"
+        ]
+      },
+      "say": "A saída existe desde 2008: uma antena pequena dentro do avião, que leva o sinal por satélite ou pela rede no chão."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Make Tech Easier, 29 jul. 2026",
+        "Washington Post, 6 dez. 2022",
+        "Forbes e Lonely Planet, dez. 2022"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Por que existe o modo avião? A regra americana que proíbe celular em voo, de 1991, foi escrita para proteger as antenas no chão, não o avião.\n\nA preocupação com a eletrônica do avião é outra regra, de 1961, e em 2013 a agência de aviação dos EUA concluiu que a maioria dos aviões tolera os aparelhos. Modo avião segue sendo a regra, inclusive no Brasil.\n\nManda para quem sempre esquece de ligar o modo avião.\n\n—\nFontes no primeiro comentário.\n\n#modoaviao #celular #aviacao #explica #tecnologia",
+  "fontes_comentario": "Fontes: Make Tech Easier, 29 jul. 2026 (ordem da FCC de 1991, regra de 1961, revisão da FAA de 2013); Washington Post, 6 dez. 2022 (picocélula, satélite ou rede no chão); Forbes (Arianna Johnson), 9 dez. 2022, e Lonely Planet (5G a bordo na União Europeia)."
+}

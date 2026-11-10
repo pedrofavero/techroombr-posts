@@ -5,7 +5,7 @@ Efeitos vêm de toolbox/sfx.py (lemo-opuscar, MIT): whoosh, thump, click, pop. A
 (bumbo suave, chimbal no contratempo, baixo em colcheias, ostinato de marimba) pensada para ficar SOB a voz.
 
   build(total_s, events, out_music, out_sfx, music=True)
-  events: lista de (tempo_s, tipo[, duração]) com tipo em hook | whoosh | thump | pop | ticks | cut
+  events: lista de (tempo_s, tipo[, duração]) com tipo em hook | whoosh | thump | pop | ticks | cut | scratch | pencil | brush
 """
 import sys
 from pathlib import Path
@@ -102,6 +102,14 @@ def effects(total, events):
             put(S.pop(), t, 0.35)
         elif kind == "cut":
             put(S.click(1.3), t, 0.10)
+        elif kind in ("scratch", "pencil", "brush"):
+            # giz, lápis ou pincel: ruído filtrado em rajadas curtas, como traços sucessivos
+            d = max(0.3, ev[2] if len(ev) > 2 else 1.0)
+            lo, hi, g, rate = {"scratch": (1800, 6500, 0.16, 5.5), "pencil": (900, 3800, 0.09, 6.5), "brush": (300, 1800, 0.10, 2.2)}[kind]
+            tt = S.t_(d); x = S.bp(S.noise(d), lo, hi)
+            gate = np.clip(np.sin(2 * np.pi * rate * tt + 0.6 * np.sin(2 * np.pi * 0.9 * tt)) * 1.6 + 0.35, 0, 1) ** 1.5
+            x = x[: len(tt)] * gate * np.minimum(1, tt / 0.03) * np.minimum(1, (d - tt) / 0.08)
+            put(S.norm(x), t, g)
         elif kind == "ticks":
             d = ev[2] if len(ev) > 2 else 1.0
             for k in range(int(d / 0.06)):

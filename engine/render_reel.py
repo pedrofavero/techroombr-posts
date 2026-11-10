@@ -44,6 +44,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "engine"))
+import reel_styles  # noqa: E402
 FONTS_DIR = ROOT / "engine" / "fonts"
 W, H, FPS, XF = 1080, 1920, 30, 0.1   # XF curto: corte seco (gramática caption-news), não fundido
 FAKE = "--fake-tts" in sys.argv
@@ -62,6 +63,9 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:transparen
               linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.70) 28%, rgba(0,0,0,.25) 55%, rgba(0,0,0,0) 70%); }
 .page.center .scrim { background: linear-gradient(to bottom, rgba(0,0,0,.55) 0%, rgba(0,0,0,.72) 50%, rgba(0,0,0,.88) 100%); }
 .page.end .scrim { background:#0E1420; }
+.page.flat .scrim { background:none; }
+.page.flat .masthead, .page.flat .credit { text-shadow:none; }
+.page.light { color:#1F1C18; } .page.light .bar { background:rgba(0,0,0,.16); }
 .page.anim .scrim { background: linear-gradient(to bottom, rgba(0,0,0,.45) 0%, rgba(0,0,0,0) 22%); }
 .masthead { position:absolute; top:270px; left:72px; font-family:"Montserrat"; font-weight:600; font-size:22px;
             letter-spacing:.32em; text-transform:uppercase; text-shadow:0 1px 8px rgba(0,0,0,.5); }
@@ -96,6 +100,13 @@ def rich(t):
 
 
 def overlay_html(reel, s, i, n):
+    if reel_styles.is_drawn(reel):   # estilos desenhados: a página do estilo traz o conteúdo; aqui só a moldura da marca
+        stl = reel_styles.STYLES[reel["style"]]
+        return (f'<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}{CSS}</style></head><body>'
+                f'<div class="page sans flat {"light" if stl["light"] else ""}" style="--accent:{reel.get("accent") or stl["accent"]}"><div class="scrim"></div>'
+                f'<div class="masthead">{escape(reel.get("masthead", "The Tech Room"))}</div>'
+                f'<div class="handle">{escape(reel.get("handle", "@techroombr"))}</div>'
+                f'<div class="bar"><i style="width:{(i + 1) / n * 100:.1f}%"></i></div></div></body></html>')
     serif = reel.get("display", "sans") == "serif"
     has_say = bool(s.get("say")) and reel.get("captions", True)
     cls = ["page", "serif" if serif else "sans"]
@@ -347,6 +358,9 @@ window.render(0);
 
 def anim_clip(pg, reel, s, ov, dest, dur):
     """Renderiza a cena quadro a quadro: o navegador desenha window.render(t) e os JPEGs vão por pipe para o ffmpeg."""
+    if reel_styles.is_drawn(reel):
+        html = reel_styles.page(reel, s, dur)
+        return _frames(pg, html, ov, dest, dur)
     bg = ""
     if s.get("media"):
         import base64
@@ -355,7 +369,11 @@ def anim_clip(pg, reel, s, ov, dest, dur):
     js = ANIM_JS.replace("__ANIM__", json.dumps(s["anim"], ensure_ascii=False)).replace("__DUR__", str(dur))
     html = (f'<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}{ANIM_CSS}</style></head>'
             f'<body style="--accent:{reel.get("accent", "#F2B36B")}">{bg}<div class="stage"></div><script>{js}</script></body></html>')
-    pg.set_content(html, wait_until="load"); pg.wait_for_timeout(200)
+    _frames(pg, html, ov, dest, dur)
+
+
+def _frames(pg, html, ov, dest, dur):
+    pg.set_content(html, wait_until="load"); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(250)
     frames = int(round(dur * FPS))
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg", "-i", "-",
                            "-i", str(ov), "-filter_complex", "[0:v][1:v]overlay=0:0,format=yuv420p[o]", "-map", "[o]",
@@ -435,6 +453,12 @@ def main(paths):
             scenes = reel["scenes"]; n = len(scenes)
             voice = reel.get("voice", "pt-BR-FranciscaNeural"); rate = reel.get("voice_rate", "+6%")
             accent = reel.get("accent", "#F2B36B"); serif = reel.get("display", "sans") == "serif"
+            drawn = reel_styles.is_drawn(reel)
+            if drawn:
+                accent = reel_styles.STYLES[reel["style"]]["caps_color"]
+                for k, sc in enumerate(scenes):
+                    if not sc.get("anim") and not sc.get("end"):
+                        raise SystemExit(f"cena {k+1}: no estilo '{reel['style']}' toda cena precisa de 'anim' (hook, write, corrige, draw, number, bars, timeline)")
             clips, durs, voices, words_all = [], [], [], []
             pg = br.new_page(viewport={"width": W, "height": H})
             for i, s in enumerate(scenes):
@@ -457,7 +481,7 @@ def main(paths):
                     print(f"  AVISO: cena {i+1}: texto desce até {int(box[1])}px e pode encostar na legenda — encurte")
                 # 3) clipe
                 c = tmp / f"c{i:02d}.mp4"
-                if s.get("anim"):
+                if s.get("anim") or drawn:
                     anim_clip(pg, reel, s, ov, c, dur)
                 else:
                     scene_clip(s, ov, c, i, dur)
@@ -504,7 +528,20 @@ def main(paths):
             events = []
             for i, sc in enumerate(scenes):
                 a = sc.get("anim") or {}; t0 = starts[i]
-                if a.get("type") == "hook":
+                if drawn:
+                    kind = reel_styles.STYLES[reel["style"]]["sfx"]
+                    fim = max(1.2, min(durs[i] * 0.72, durs[i] - 0.9))
+                    if a.get("type") == "hook":
+                        events.append((t0 + 0.08, "thump"))
+                    if a.get("type") == "number":
+                        events.append((t0 + 0.2, "ticks", min(1.3, durs[i] * 0.4)))
+                    elif a.get("type") == "bars":
+                        events += [(t0 + 0.6 + k * 0.45, "pop") for k in range(len(a["bars"]))]
+                    else:
+                        events.append((t0 + 0.15, kind, fim - 0.15))
+                    if a.get("type") == "corrige":
+                        events.append((t0 + fim * 0.38, "whoosh"))
+                elif a.get("type") == "hook":
                     events.append((t0 + 0.1, "hook"))
                 elif a:
                     events.append((t0, "whoosh"))

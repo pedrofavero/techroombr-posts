@@ -1,57 +1,71 @@
 {
   "slug": "teclado-qwerty",
-  "display": "serif",
-  "accent": "#F2B36B",
-  "voice": "pt-BR-FranciscaNeural",
-  "voice_rate": "+8%",
+  "style": "caderno",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
   "captions": true,
-  "music": "reels/musica/ambiente-01.mp3",
-  "music_volume": 0.2,
+  "music": "auto",
   "scenes": [
     {
-      "media": "fotos/primeiro-sms-2.jpg",
-      "kicker": "Mito vs fato",
-      "text": "O teclado não foi feito para te atrasar",
-      "big": true,
-      "credit": "Foto: Johnny Briggs / Unsplash",
+      "kicker": "Mito x fato",
+      "anim": {
+        "type": "hook",
+        "big": "QWERTY",
+        "line": "não foi feito para te ==atrasar=="
+      },
       "say": "Te contaram que as letras do teclado foram embaralhadas para você digitar mais devagar. Não foi isso."
     },
     {
-      "media": "fotos/a-informacao-gleick-2.jpg",
-      "credit": "Foto: Sandra Tan / Unsplash",
+      "kicker": "O que os documentos dizem",
+      "anim": {
+        "type": "corrige",
+        "errado": "embaralhado para travar menos",
+        "certo": "feito para ==telegrafistas==",
+        "fonte": "Yasuoka e Yasuoka, Univ. de Kyoto"
+      },
       "say": "Pesquisadores da Universidade de Kyoto foram aos documentos de 1870. Os primeiros clientes da máquina de escrever eram telegrafistas."
     },
     {
-      "media": "fotos/primeiro-sms-2.jpg",
-      "kicker": "1868",
-      "text": "28 teclas, em ordem alfabética",
-      "big": true,
-      "say": "Eles copiavam código Morse em tempo real. Uma máquina lenta não servia para eles. A primeira versão tinha 28 teclas, em ordem alfabética."
+      "kicker": "O arranjo",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 900 420'><rect x='40' y='60' width='70' height='84' rx='10'/><rect x='124' y='60' width='70' height='84' rx='10'/><rect x='208' y='60' width='70' height='84' rx='10'/><rect x='292' y='60' width='70' height='84' rx='10'/><rect x='376' y='60' width='70' height='84' rx='10'/><rect x='460' y='60' width='70' height='84' rx='10'/><rect x='544' y='60' width='70' height='84' rx='10'/><rect x='628' y='60' width='70' height='84' rx='10'/><rect x='712' y='60' width='70' height='84' rx='10'/><rect x='796' y='60' width='70' height='84' rx='10'/><rect x='78' y='170' width='70' height='84' rx='10'/><rect x='162' y='170' width='70' height='84' rx='10'/><rect x='246' y='170' width='70' height='84' rx='10'/><rect x='330' y='170' width='70' height='84' rx='10'/><rect x='414' y='170' width='70' height='84' rx='10'/><rect x='498' y='170' width='70' height='84' rx='10'/><rect x='582' y='170' width='70' height='84' rx='10'/><rect x='666' y='170' width='70' height='84' rx='10'/><rect x='750' y='170' width='70' height='84' rx='10'/><rect x='116' y='280' width='70' height='84' rx='10'/><rect x='200' y='280' width='70' height='84' rx='10'/><rect x='284' y='280' width='70' height='84' rx='10'/><rect x='368' y='280' width='70' height='84' rx='10'/><rect x='452' y='280' width='70' height='84' rx='10'/><rect x='536' y='280' width='70' height='84' rx='10'/><rect x='620' y='280' width='70' height='84' rx='10'/><text class='acc' x='60' y='118'>Q</text><text class='acc' x='144' y='118'>W</text><text class='acc' x='228' y='118'>E</text><text class='acc' x='312' y='118'>R</text><text class='acc' x='396' y='118'>T</text><text class='acc' x='480' y='118'>Y</text><path class='acc' d='M36 160 C 180 176, 400 150, 548 164'/></svg>",
+        "caption": "mudou várias vezes: Morse, acordos e ==patentes=="
+      },
+      "say": "Eles copiavam código Morse em tempo real. O arranjo mudou várias vezes: para facilitar o Morse, por acordos entre inventores e fabricantes, e para contornar patentes antigas."
     },
     {
-      "media": "fotos/macbook-touch-2.jpg",
-      "kicker": "1882",
-      "text": "Nasce o QWERTY de hoje",
-      "big": true,
-      "credit": "Foto: Jakob Owens / Unsplash",
-      "say": "O arranjo mudou várias vezes: para facilitar o Morse, por acordos entre inventores e fabricantes, e para contornar patentes antigas. Em 1882, nasceu o QWERTY que você usa hoje."
-    },
-    {
-      "media": "fotos/arpanet-primeira-mensagem-1.jpg",
-      "credit": "Foto: Niklas König / Unsplash",
-      "say": "Em 1898 já era o padrão. Do teletipo, passou para os teclados de computador. O resto é costume."
+      "kicker": "Linha do tempo",
+      "anim": {
+        "type": "timeline",
+        "items": [
+          {
+            "when": "1868",
+            "what": "28 teclas, em ordem alfabética"
+          },
+          {
+            "when": "1882",
+            "what": "nasce o QWERTY de hoje"
+          },
+          {
+            "when": "1898",
+            "what": "já era o padrão"
+          }
+        ]
+      },
+      "say": "A primeira versão tinha 28 teclas, em ordem alfabética. Em 1882, nasceu o QWERTY que você usa hoje. Em 1898 já era o padrão. O resto é costume."
     },
     {
       "end": true,
       "title": "Fontes",
       "lines": [
-        "Yasuoka & Yasuoka, On the Prehistory of QWERTY — Univ. de Kyoto",
+        "Yasuoka & Yasuoka, On the Prehistory of QWERTY",
         "Smithsonian Magazine, fev. 2025",
         "BBC Science Focus"
       ],
-      "say": "Fontes no primeiro comentário. Siga o Tech Room: tecnologia explicada com clareza."
+      "say": "Fontes no primeiro comentário."
     }
   ],
   "legenda": "A lenda das hastes que travavam vem de livros dos anos 1980, não dos documentos da época. Quem foi às fontes de 1870 encontrou telegrafistas, acordos entre fabricantes e patentes a contornar.\n\nVocê já tentou digitar em outro arranjo de teclado?\n\n—\nFontes no primeiro comentário.\n\n#teclado #qwerty #curiosidade #historiadatecnologia #tecnologia",
-  "fontes_comentario": "Fontes: Koichi e Motoko Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN 42 (Universidade de Kyoto); Smithsonian Magazine (Stamp e Wexler), 25 fev. 2025; BBC Science Focus (Peter Bentley). Fotos: Johnny Briggs, Sandra Tan, Jakob Owens e Niklas König, via Unsplash."
+  "fontes_comentario": "Fontes: Koichi e Motoko Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN 42 (Universidade de Kyoto); Smithsonian Magazine (Stamp e Wexler), 25 fev. 2025; BBC Science Focus (Peter Bentley)."
 }

@@ -2,7 +2,7 @@
   "slug": "relogio-pressao-alta",
   "display": "sans",
   "accent": "#FFC21A",
-  "voice": "pt-BR-AntonioNeural",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
   "voice_rate": "+10%",
   "captions": true,
   "music": "auto",
