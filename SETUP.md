@@ -19,43 +19,74 @@ na conta dona do repositório.
 Esta é a API que publica carrossel e reel de graça, sem limite mensal e sem Página do
 Facebook. O limite da Meta é 100 publicações por 24 h.
 
-Pré-requisito: @techroombr precisa ser conta **Profissional** (Criador ou Empresa) e
-**pública**. No app do Instagram: Configurações → Tipo de conta e ferramentas.
+### 2.0 Antes de começar
 
-### Criar o app (a ordem importa)
+A conta @techroombr precisa estar **Profissional** e **pública**. No app do Instagram:
+**Configurações e privacidade → Tipo de conta e ferramentas → Mudar para conta
+profissional** (escolha Criador). E em **Privacidade da conta**, deixe desmarcado
+"Conta privada". Conta privada é recusada até para teste.
 
-A opção de Instagram só aparece se o app for do tipo **Empresa**. O caminho é:
+### 2.1 Criar o app (a ordem das telas importa)
 
-1. developers.facebook.com/apps → **Criar app** (*Create app*).
-2. Tela de caso de uso / "o que seu app faz": escolha **Outro** (*Other*) → **Avançar**.
-   Não existe um caso de uso chamado "Instagram" nessa lista.
-3. Tela de tipo: escolha **Empresa** (*Business*) → **Avançar**. É este passo que libera
-   o produto Instagram.
-4. Nome do app ("Tech Room Publisher") e e-mail de contato → **Criar app**.
-5. No painel do app, role até o card **Instagram** → **Configurar** (*Set up*).
-   Isso adiciona sozinho a **Configuração da API com login do Instagram**
-   (*API setup with Instagram login*) no menu da esquerda.
+O produto Instagram só aparece em app do tipo **Empresa**, e só se chega nesse tipo
+passando pelo caso de uso **Outro**. Não existe caso de uso chamado "Instagram".
 
-Se o app já criado não tiver o card Instagram, ele foi criado com outro tipo: crie um novo,
-é gratuito e leva dois minutos.
+1. Abra **developers.facebook.com/apps** e faça login com o Facebook do Pedro.
+   Se for a primeira vez, o site pede para registrar a conta de desenvolvedor:
+   aceite os termos e confirme o e-mail ou telefone.
+2. Botão **Criar app** (canto superior direito).
+3. Tela **Detalhes do app**: preencha **Nome do app** (ex.: "Tech Room Publisher") e
+   **E-mail de contato do app** → **Avançar**.
+4. Tela **Caso de uso** ("O que você quer que seu app faça?"): marque **Outro**
+   (*Other*) → **Avançar**. Ignore as opções de mensagens, login e anúncios.
+5. Tela **Tipo de app**: marque **Empresa** (*Business*) → **Avançar**.
+   **Este é o passo que libera o Instagram.** Se você marcar "Consumidor" ou
+   "Nenhum", o card do Instagram nunca vai aparecer.
+6. Tela **Portfólio comercial** (se aparecer): pode escolher **Não conectar** agora.
+   Só é exigido para publicar o app, e não vamos publicar.
+7. **Criar app** → confirme a senha do Facebook se for pedida.
 
-### Pegar as credenciais
+Conferência: você cai no painel do app, com o nome dele no topo e um menu à esquerda
+com "Painel", "Configurações do app", "Funções do app", "Análise do app".
 
-Menu da esquerda → **Instagram → Configuração da API com login do Instagram**:
+### 2.2 Adicionar o produto Instagram
 
-- Seção **1. Gerar tokens de acesso** (*Generate access tokens*) → **Adicionar conta** →
-  faça login com @techroombr e autorize. Depois disso aparecem o **ID da conta** e o botão
-  de gerar token. Copie os dois → `IG_USER_ID` e `IG_ACCESS_TOKEN`.
-- Seção **3. Configurar o login comercial do Instagram** → **Configurações de login
-  comercial** (*Business login settings*): ali ficam o **ID do app do Instagram** e a
-  **Chave secreta do app do Instagram** → `IG_APP_SECRET` (usada só para renovar o token).
+8. No **Painel** do app, role a página para baixo até a lista de produtos
+   ("Adicione produtos ao seu app"). Procure o card **Instagram** → **Configurar**
+   (*Set up*).
+9. O menu da esquerda ganha um item **Instagram**. Clique nele e depois em
+   **Configuração da API com login do Instagram**
+   (*API setup with Instagram login*).
 
-Permissões necessárias (aparecem no caso de uso do app): `instagram_business_basic`,
-`instagram_business_content_publish`, `instagram_business_manage_comments` e, para o
-relatório semanal, `instagram_business_manage_insights`.
+Se não houver card Instagram na lista de produtos, o app foi criado com o tipo errado.
+Não dá para converter: volte ao passo 2 e crie outro app (é gratuito; o limite é 15 apps).
 
-Revisão do app (App Review) **não** é necessária para publicar na própria conta adicionada
-no painel: isso é Acesso Padrão (*Standard Access*).
+### 2.3 Gerar o token
+
+10. Na tela **Configuração da API com login do Instagram**, a primeira seção é
+    **1. Gerar tokens de acesso** (*Generate access tokens*). Clique em
+    **Adicionar conta** (*Add account*).
+11. Abre um **pop-up do instagram.com** pedindo login. Entre com @techroombr e
+    **Permitir**. Se nada abrir, o navegador bloqueou o pop-up: libere e clique de novo.
+12. De volta ao painel, a conta aparece listada com o **ID da conta do Instagram**
+    (número longo) e um botão **Gerar token**. Copie os dois:
+    - ID → `IG_USER_ID`
+    - token → `IG_ACCESS_TOKEN`
+
+### 2.4 Pegar a chave secreta
+
+13. Na mesma tela, role até **3. Configurar o login comercial do Instagram** →
+    **Configurações de login comercial** (*Business login settings*).
+    Ali aparecem **ID do app do Instagram** e **Chave secreta do app do Instagram**.
+    Copie a chave secreta → `IG_APP_SECRET`. (Serve só para renovar o token sozinho.)
+
+Permissões que o app já traz nesse caso de uso: `instagram_business_basic`,
+`instagram_business_content_publish`, `instagram_business_manage_comments`. Se houver uma
+lista de permissões com chaves para ligar, ligue também `instagram_business_manage_insights`
+(é para o relatório semanal; sem ela o resto funciona).
+
+Revisão do app (*App Review*) **não** é necessária para publicar na própria conta
+adicionada no painel: isso é Acesso Padrão (*Standard Access*).
 
 ## 3. Pexels (b-roll dos reels, gratuito)
 
