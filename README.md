@@ -4,7 +4,7 @@ Repositório de apoio da publicação @techroombr. Nenhum arquivo aqui precisa s
 
 | Pasta | O que é |
 |---|---|
-| `engine/` | Molde NatGeo (`natgeo.html`) e renderizador (`render_natgeo.py`) |
+| `engine/` | Motores de carrossel, reel e publicação. Comece por `CLAUDE.md` |
 | `fila/` | Pedidos de foto: `slug.txt` com a URL do Unsplash na primeira linha |
 | `fotos/` | Fotos baixadas pela Action (`slug.jpg`) |
 | `posts/<slug>/` | Conteúdo do post (`post.json`), páginas renderizadas (`01.png`…`06.png`), `legenda.txt` |
