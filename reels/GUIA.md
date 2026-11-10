@@ -31,11 +31,23 @@ e a página "Instagram Ranking Explained". Nenhuma fonte primária do Instagram 
 
 Ordem de um fato: imagem (sensação) → número no cartão → de onde veio → consequência.
 
-## 3. O que continua proibido
+## 3. Repertório de estilos (campo `style` do reel.json)
 
-Imagem gerada, ilustração, render 3D, robô, cérebro brilhante. Dos 66 estilos do lemo-opuscar só servem os que partem de
-material real: `caption-news`, `visual-investigation`, `archive-lighttable`, `dataviz`, `swiss-motion`.
-Palavras banidas e regras de fonte dos carrosséis valem igual.
+Decisão de 10/11/2026: nos **reels** valem estilos desenhados, sem foto. Os carrosséis continuam só com fotografia real.
+
+| Estilo | Visual | Encaixa em | Cena-assinatura |
+|---|---|---|---|
+| `foto` (padrão) | fotografia real, legenda gigante, bloco amarelo | NOTÍCIA, ESTUDO | `hook` com número, `number`, `bars` |
+| `lousa` | quadro-negro, giz branco e um giz amarelo | EXPLICA, COMO FUNCIONA | `corrige`: escreve o mito, risca, escreve o fato |
+| `caderno` | papel creme pontilhado, nanquim e lápis vermelho | CURIOSIDADE, CONVERSA, ESTANTE | `draw`: o objeto se desenha traço a traço |
+| `planta` | cianotipia azul, linha técnica branca, grade | COMO FUNCIONA (máquinas, redes, chips) | `draw` em ordem de desenho técnico |
+| `aquarela` | papel de algodão, manchas translúcidas | HISTÓRIA, ESTANTE | `timeline` e `draw` com `class="wash"` |
+
+Regras dos estilos desenhados (vêm dos STYLE.md de chalkboard, whiteboard, blueprint e watercolor do lemo-opuscar):
+tudo o que aparece é **escrito ou traçado na tela**, nunca surge pronto; uma só cor de destaque, reservada ao que a
+lição acompanha; o desenho é o mais simples que carrega a ideia (linhas, não ilustração detalhada); nenhum desenho,
+personagem ou layout copiado de terceiros. Nunca dois reels seguidos no mesmo estilo.
+Ainda proibido em qualquer estilo: imagem gerada por IA, render 3D, robô, cérebro brilhante.
 
 ## 4. Ferramentas (todas gratuitas)
 
