@@ -40,7 +40,7 @@
         },
         {
           "k": "Pendência",
-          "v": "Licença da FAA, a agência de aviação dos EUA; a página da missão dizia \"aguardando aprovação\" em 11/11"
+          "v": "Licença da FAA, a agência de aviação dos EUA; a página da missão dizia \"aguardando aprovação regulatória\" em 11/11"
         }
       ],
       "body": [
@@ -54,9 +54,9 @@
       "photo": "fotos/starship-pegar-no-ar-2.jpg",
       "caption": "Foto: Jay Wedgeworth / Unsplash",
       "body": [
-        "Foguete **reutilizável** é o que volta inteiro para voar de novo, em vez de cair no mar. Segundo o Space.com, as duas partes do Starship foram projetadas para isso. A torre já agarrou o propulsor três vezes, mas a nave de cima sempre terminou no oceano.",
-        "A descrição oficial do voo, citada pelo Space.com, diz que, se der certo, será \"a primeira recuperação completa de um sistema de lançamento orbital\" e um \"momento decisivo\" para fazer do Starship um foguete \"confiável e rapidamente reutilizável\" (tradução livre).",
-        "Elon Musk, em teleconferência com investidores em 20 de outubro, segundo o site Teslarati, deu à primeira tentativa chance \"mais provável que improvável\" de dar certo."
+        "Foguete **reutilizável** é o que volta inteiro para voar de novo, em vez de cair no mar. Segundo o Space.com, as duas partes do Starship foram projetadas para isso. A torre já agarrou o propulsor três vezes, mas a SpaceX nunca tentou o mesmo com a nave de cima.",
+        "A descrição oficial do voo, citada pelo Space.com, diz que, se der certo, será \"a primeira recuperação completa de um sistema de lançamento orbital\" e um \"momento de virada\" para fazer do Starship um foguete \"confiável e rapidamente reutilizável\" (tradução livre).",
+        "Elon Musk, na apresentação de resultados do 3º trimestre, em 20 de outubro, deu à primeira tentativa chance \"mais provável que improvável\" de dar certo, segundo o site Teslarati."
       ]
     },
     {
@@ -78,7 +78,7 @@
         },
         {
           "title": "Nave volta, pela primeira vez",
-          "text": "A SpaceX nunca tentou agarrar a nave. Segundo o Space.com, o retorno dela é \"mais complexo e energético\" que o do propulsor, e a empresa cancela a tentativa se algo sair do planejado."
+          "text": "A SpaceX nunca tentou agarrar a nave. Segundo o Space.com, o retorno dela é \"mais complexo e energético\" que o do propulsor, e a tentativa será cancelada se algo sair do plano."
         }
       ]
     },
@@ -93,11 +93,11 @@
         },
         {
           "when": "28 set. 2026",
-          "what": "Voo 14: Starship chega à órbita e solta 26 satélites. A nave cai no Pacífico."
+          "what": "Voo 14: Starship chega à órbita e solta 26 satélites. A nave volta antes do previsto (seriam quase 10 h) e cai no Pacífico 3 h 8 min após a decolagem; a SpaceX não tinha explicado o motivo até o fechamento da reportagem do SpacePolicyOnline."
         },
         {
           "when": "20 out.",
-          "what": "Musk anuncia a investidores que o voo 15 tentará agarrar os dois estágios."
+          "what": "Na apresentação de resultados, Musk diz que, se der certo, será a primeira recuperação completa de um veículo orbital."
         },
         {
           "when": "25 out.",
@@ -112,9 +112,7 @@
           "what": "Janela de lançamento a partir das 19h45 de Brasília, se a licença sair."
         }
       ],
-      "body": [
-        "No voo 14, a nave soltou os 26 satélites e caiu no Pacífico Norte 3 horas e 8 minutos depois da decolagem, segundo o SpacePolicyOnline. Um dos seis motores dela desligou antes da hora, sem afetar o voo."
-      ]
+      "body": []
     },
     {
       "type": "inner",
@@ -123,7 +121,7 @@
       "photo": "fotos/starship-pegar-no-ar-3.jpg",
       "caption": "Foto: nader saremi / Unsplash",
       "body": [
-        "A NASA contratou uma versão do Starship para levar astronautas à superfície da Lua. Segundo o SpacePolicyOnline, essa versão precisa ser reabastecida em órbita por outros Starships, e uma executiva da SpaceX estimou, em 2024, um \"chute\" de uns 10 lançamentos para encher o depósito de combustível.",
+        "A NASA contratou uma versão do Starship para levar astronautas à superfície da Lua. Segundo o SpacePolicyOnline, essa versão precisa ser reabastecida em um depósito de combustível em órbita, que ainda não existe, e uma executiva da SpaceX estimou, em 2024, um \"chute\" de uns 10 lançamentos para encher o depósito de combustível.",
         "Com tanto voo, reaproveitar as duas partes do foguete deixa de ser detalhe. A meta declarada da NASA é levar astronautas à Lua antes de janeiro de 2029."
       ]
     },
@@ -144,7 +142,7 @@
         "title": "Ainda não se sabe",
         "lines": [
           "Se a FAA libera a tempo: em 11/11 a licença ainda não tinha saído.",
-          "Se a SpaceX vai mesmo tentar pegar a nave: a empresa diz que cancela se algo sair do plano.",
+          "Se a SpaceX vai mesmo tentar pegar a nave: segundo o Space.com, a tentativa é cancelada se algo sair do plano.",
           "Quanto isso vai baratear cada lançamento: nenhuma das fontes consultadas traz números."
         ]
       }
@@ -156,7 +154,7 @@
       "check": [
         "**Pela primeira vez, as duas partes de um foguete orbital devem voltar à base e ser agarradas no ar.** A tentativa está marcada para sexta, 13, a partir das 19h45 de Brasília.",
         "**O propulsor já volta; a nave de cima, ainda não.** Ela vai dar 14 voltas na Terra, soltar 26 satélites e voltar mais de 22 horas depois.",
-        "**Nada é garantido.** A licença da agência de aviação dos EUA ainda não tinha saído em 11/11, e a SpaceX diz que cancela a pegada se algo sair do planejado."
+        "**Nada é garantido.** A licença da agência de aviação dos EUA ainda não tinha saído em 11/11, e, segundo o Space.com, a pegada é cancelada se algo sair do planejado."
       ]
     },
     {
@@ -176,7 +174,7 @@
         },
         {
           "who": "Teslarati, 20 out. 2026",
-          "what": "Teleconferência de resultados da SpaceX: falas de Elon Musk e Gwynne Shotwell"
+          "what": "Apresentação de resultados do 3º trimestre da SpaceX: falas de Elon Musk e Gwynne Shotwell"
         },
         {
           "who": "The Space Road (Chetan Kale), atualizado 11 nov. 2026",
@@ -189,5 +187,5 @@
       ]
     }
   ],
-  "legenda": "O detalhe menos comentado do voo de sexta é o relógio: o propulsor volta em 6 minutos e meio, mas a nave só volta mais de 22 horas depois, após 14 voltas na Terra.\n\nA SpaceX marcou o 15º voo de teste do Starship para 13 de novembro, com janela a partir das 19h45 de Brasília, em Starbase, no Texas. Pela primeira vez, o plano é trazer de volta à base e agarrar nos braços da torre tanto o propulsor Super Heavy quanto a nave de cima. O propulsor já foi agarrado três vezes; a nave, nunca. No voo anterior, em 28 de setembro, o Starship chegou à órbita pela primeira vez e soltou 26 satélites Starlink. Vale a ressalva: até 11 de novembro, a licença da agência de aviação dos EUA não tinha saído, e a empresa diz que cancela a pegada se algo sair do planejado.\n\nVocê acompanharia um lançamento ao vivo às 19h45 de uma sexta?\n\n—\nFontes no último slide.\n\n#spacex #starship #foguete #espaco #starlink #noticia #tecnologia #nasa"
+  "legenda": "O detalhe menos comentado do voo de sexta é o relógio: o propulsor volta em 6 minutos e meio, mas a nave só volta mais de 22 horas depois, após 14 voltas na Terra.\n\nA SpaceX marcou o 15º voo de teste do Starship para 13 de novembro, com janela a partir das 19h45 de Brasília, em Starbase, no Texas. Pela primeira vez, o plano é trazer de volta à base e agarrar nos braços da torre tanto o propulsor Super Heavy quanto a nave de cima. O propulsor já foi agarrado três vezes; a nave, nunca. No voo anterior, em 28 de setembro, o Starship chegou à órbita pela primeira vez e soltou 26 satélites Starlink. Vale a ressalva: até 11 de novembro, a licença da agência de aviação dos EUA não tinha saído, e, segundo o Space.com, a pegada é cancelada se algo sair do planejado.\n\nVocê acompanharia um lançamento ao vivo às 19h45 de uma sexta?\n\n—\nFontes no último slide.\n\n#spacex #starship #foguete #espaco #starlink #noticia #tecnologia #nasa"
 }

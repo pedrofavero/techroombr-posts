@@ -20,7 +20,7 @@
       "photo": "fotos/mariposa-primeiro-bug-2.jpg",
       "caption": "Foto: Museums Victoria / Unsplash",
       "body": [
-        "O **Mark II** era um computador de Harvard feito de **relés**, chaves eletromagnéticas que abrem e fecham para representar números. Naquela tarde, a máquina falhou. A equipe abriu o painel F e achou, no relé nº 70, uma mariposa.",
+        "O **Mark II** era um computador de Harvard feito de **relés**, chaves eletromagnéticas que abrem e fecham para representar números. Naquela tarde, a máquina falhou. A equipe achou, no relé nº 70 do painel F, uma mariposa.",
         "Alguém a colou com fita no caderno de bordo e anotou: \"First actual case of bug being found\", ou \"primeiro caso real de um bug sendo encontrado\" (tradução livre).",
         "O caderno, com a mariposa ainda presa, está hoje no Museu Nacional de História Americana, do Smithsonian, em Washington. Não está em exposição."
       ]
@@ -32,7 +32,7 @@
       "who": "Caderno de bordo do Mark II, Harvard, 9 set. 1947 (acervo do Smithsonian)",
       "body": [
         "A frase é uma piada de laboratório: \"bug\" já significava \"defeito\" entre engenheiros. A graça era ter achado, pela primeira vez, um bug de verdade, com asas.",
-        "O caderno ficou esquecido por décadas. Segundo a revista CHIPS, da Marinha dos EUA, ele foi reencontrado em 1988 no museu de computação da base naval de Dahlgren, na Virgínia, e de lá foi transferido ao Smithsonian."
+        "O caderno ficou esquecido por décadas. Segundo a revista CHIPS, da Marinha dos EUA, ele foi reencontrado em 1988 no museu de computação do Centro de Guerra de Superfície da Marinha, em Dahlgren, na Virgínia. O Smithsonian registra o caderno como transferência da Marinha."
       ]
     },
     {
@@ -43,11 +43,11 @@
         { "when": "1878", "what": "Thomas Edison, em carta, chama de \"bugs\" as \"pequenas falhas e dificuldades\" de suas invenções (tradução livre)." },
         { "when": "1889", "what": "O jornal Pall Mall Gazette descreve Edison \"descobrindo um bug\" em seu fonógrafo." },
         { "when": "1934", "what": "O dicionário Webster registra \"bug\" como \"um defeito em um aparelho ou em seu funcionamento\"." },
-        { "when": "1945", "what": "A palavra \"debug\" (tirar os defeitos) aparece no jornal da Sociedade Real de Aeronáutica britânica." },
+        { "when": "1945", "what": "A palavra \"debug\" (tirar os defeitos) aparece no periódico da Royal Aeronautical Society." },
         { "when": "1947", "what": "A mariposa é encontrada no Mark II e colada no caderno." }
       ],
       "body": [
-        "A cronologia vem do linguista Fred R. Shapiro, no periódico American Speech (1987), resumida pela revista JSTOR Daily."
+        "A cronologia vem do pesquisador Fred R. Shapiro, no periódico American Speech (1987), resumida pela revista JSTOR Daily."
       ]
     },
     {
@@ -97,7 +97,7 @@
       "caption": "Foto: Alessio Fiorentino / Unsplash",
       "body": [
         "A revista CHIPS, da própria Marinha, descreve a tenente Hopper como \"parte de uma equipe que encontra uma mariposa\" e credita a ela a anotação. O Smithsonian é mais cauteloso: diz que ela e o resto da equipe \"ajudaram a popularizar\" o termo.",
-        "Hopper publicou sua versão em 1981, no periódico Annals of the History of Computing, e, segundo o JSTOR Daily, provavelmente foi ela quem tornou o episódio famoso. Com uma contadora dessas, a mariposa virou a origem de tudo.",
+        "Hopper publicou sua versão em 1981, no periódico Annals of the History of Computing, e, como resumem o JSTOR Daily e o Centre for Computing History, provavelmente ajudou a tornar o episódio famoso. Com uma contadora dessas, a mariposa virou a origem de tudo.",
         "A lição vale para a tecnologia de hoje: a melhor história nem sempre é a mais documentada."
       ]
     },
