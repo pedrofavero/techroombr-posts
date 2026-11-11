@@ -1,0 +1,127 @@
+{
+  "slug": "mariposa-primeiro-bug",
+  "categoria": "HISTÓRIA",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/mariposa-primeiro-bug-1.jpg",
+      "title": "A mariposa que virou o primeiro “bug” de computador",
+      "dek": "Em 1947, um inseto travou um relé em Harvard e foi colado no caderno de bordo. A história virou lenda: diz que foi ali que nasceu a palavra “bug”. Os documentos contam outra coisa.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A cena",
+      "heading": "9 de setembro de 1947, 15h45",
+      "photo": "fotos/mariposa-primeiro-bug-2.jpg",
+      "caption": "Foto: Museums Victoria / Unsplash",
+      "body": [
+        "O **Mark II** era um computador de Harvard feito de **relés**, chaves eletromagnéticas que abrem e fecham para representar números. Naquela tarde, a máquina falhou. A equipe abriu o painel F e achou, no relé nº 70, uma mariposa.",
+        "Alguém a colou com fita no caderno de bordo e anotou: \"First actual case of bug being found\", ou \"primeiro caso real de um bug sendo encontrado\" (tradução livre).",
+        "O caderno, com a mariposa ainda presa, está hoje no Museu Nacional de História Americana, do Smithsonian, em Washington. Não está em exposição."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A anotação",
+      "text": "First actual case of bug being found.",
+      "who": "Caderno de bordo do Mark II, Harvard, 9 set. 1947 (acervo do Smithsonian)",
+      "body": [
+        "A frase é uma piada de laboratório: \"bug\" já significava \"defeito\" entre engenheiros. A graça era ter achado, pela primeira vez, um bug de verdade, com asas.",
+        "O caderno ficou esquecido por décadas. Segundo a revista CHIPS, da Marinha dos EUA, ele foi reencontrado em 1988 no museu de computação da base naval de Dahlgren, na Virgínia, e de lá foi transferido ao Smithsonian."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "A palavra",
+      "heading": "“Bug” é 69 anos mais velha que a mariposa",
+      "items": [
+        { "when": "1878", "what": "Thomas Edison, em carta, chama de \"bugs\" as \"pequenas falhas e dificuldades\" de suas invenções (tradução livre)." },
+        { "when": "1889", "what": "O jornal Pall Mall Gazette descreve Edison \"descobrindo um bug\" em seu fonógrafo." },
+        { "when": "1934", "what": "O dicionário Webster registra \"bug\" como \"um defeito em um aparelho ou em seu funcionamento\"." },
+        { "when": "1945", "what": "A palavra \"debug\" (tirar os defeitos) aparece no jornal da Sociedade Real de Aeronáutica britânica." },
+        { "when": "1947", "what": "A mariposa é encontrada no Mark II e colada no caderno." }
+      ],
+      "body": [
+        "A cronologia vem do linguista Fred R. Shapiro, no periódico American Speech (1987), resumida pela revista JSTOR Daily."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Mito e documento",
+      "heading": "O que se conta e o que as fontes dizem",
+      "a": {
+        "title": "A versão famosa",
+        "lines": [
+          "Grace Hopper achou a mariposa.",
+          "Ela inventou ali a palavra \"bug\".",
+          "Dali nasceu o verbo \"debugar\"."
+        ]
+      },
+      "b": {
+        "title": "O que está documentado",
+        "lines": [
+          "Hopper fazia parte da equipe do Mark II, mas o Smithsonian diz que o caderno \"provavelmente não era dela\".",
+          "\"Bug\" como defeito já existia desde Edison, 1878.",
+          "\"Debug\" está impresso em 1945, dois anos antes.",
+          "A anotação só faz sentido porque a palavra já era usada."
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "kicker": "Quem foi",
+      "heading": "Grace Hopper (1906–1992)",
+      "display": "sans",
+      "rows": [
+        { "k": "Formação", "v": "Doutora em matemática por Yale; professora no Vassar College" },
+        { "k": "1943", "v": "Entra na reserva da Marinha dos EUA e vai programar o Mark I, em Harvard" },
+        { "k": "1949", "v": "Entra na Eckert-Mauchly e trabalha no computador UNIVAC I" },
+        { "k": "1952", "v": "Cria o compilador A-0, programa que traduz instruções para a linguagem da máquina" },
+        { "k": "COBOL", "v": "Tem papel central na criação da linguagem de programação para negócios" },
+        { "k": "1985–86", "v": "Promovida a contra-almirante; ao se aposentar em 1986, era a oficial mais velha na ativa" }
+      ],
+      "body": [
+        "Em 1991, recebeu a Medalha Nacional de Tecnologia dos EUA, a primeira pessoa a ganhá-la individualmente, segundo o Centre for Computing History."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ficou",
+      "heading": "Por que a lenda colou nela",
+      "photo": "fotos/mariposa-primeiro-bug-3.jpg",
+      "caption": "Foto: Alessio Fiorentino / Unsplash",
+      "body": [
+        "A revista CHIPS, da própria Marinha, descreve a tenente Hopper como \"parte de uma equipe que encontra uma mariposa\" e credita a ela a anotação. O Smithsonian é mais cauteloso: diz que ela e o resto da equipe \"ajudaram a popularizar\" o termo.",
+        "Hopper publicou sua versão em 1981, no periódico Annals of the History of Computing, e, segundo o JSTOR Daily, provavelmente foi ela quem tornou o episódio famoso. Com uma contadora dessas, a mariposa virou a origem de tudo.",
+        "A lição vale para a tecnologia de hoje: a melhor história nem sempre é a mais documentada."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O primeiro “bug” de verdade foi uma mariposa num relé de Harvard, em 9 de setembro de 1947.** Ela está colada num caderno guardado no Smithsonian.",
+        "**A palavra é bem mais velha:** Edison já chamava defeitos de “bugs” em 1878, e “debug” foi impresso em 1945.",
+        "**Grace Hopper estava na equipe, mas o caderno provavelmente não era dela.** Ela ajudou a espalhar a história, e a lenda ficou com seu nome."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        { "who": "Smithsonian, National Museum of American History", "what": "Log Book With Computer Bug, ficha do objeto nmah_334663" },
+        { "who": "JSTOR Daily (Matthew Wills), 3 mai. 2022", "what": "The Bug in the Computer Bug Story, citando Fred R. Shapiro, American Speech, 1987" },
+        { "who": "CHIPS, revista da Marinha dos EUA", "what": "Artigo sobre a mariposa de 1947 (cópia arquivada pela Univ. do Norte do Texas)" },
+        { "who": "Centre for Computing History (Reino Unido)", "what": "First computer “bug” is found; Grace Murray Hopper (biografia)" },
+        { "who": "Atlas Obscura", "what": "Grace Hopper's Bug" },
+        { "who": "Fotos", "what": "Rashid, Museums Victoria e Alessio Fiorentino, via Unsplash" }
+      ]
+    }
+  ],
+  "legenda": "A parte mais curiosa dessa história não é a mariposa. É que a piada anotada no caderno só funciona porque a palavra \"bug\" já existia.\n\nEm 9 de setembro de 1947, às 15h45, a equipe do computador Mark II, em Harvard, achou uma mariposa presa no relé nº 70 e a colou no caderno de bordo com a anotação \"primeiro caso real de um bug sendo encontrado\". Thomas Edison já chamava defeitos de \"bugs\" em 1878, e \"debug\" foi impresso em 1945. Grace Hopper, que depois virou contra-almirante da Marinha e ajudou a criar a linguagem COBOL, estava na equipe e ajudou a tornar o caso famoso, mas o Smithsonian, que guarda o caderno, diz que ele provavelmente não era dela.\n\nQual história de tecnologia você repetiu por anos até descobrir que era lenda?\n\n—\nFontes no último slide.\n\n#historiadatecnologia #bug #gracehopper #computacao #programacao #harvard #smithsonian #tecnologia"
+}

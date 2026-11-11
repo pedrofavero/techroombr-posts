@@ -1,0 +1,193 @@
+{
+  "slug": "starship-pegar-no-ar",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/starship-pegar-no-ar-1.jpg",
+      "title": "Um foguete de 40 andares vai tentar voltar inteiro para a torre",
+      "dek": "A SpaceX marcou para esta sexta (13), à noite, o 15º voo de teste do Starship. Pela primeira vez, as duas partes do foguete devem voltar à base e ser agarradas no ar pelos braços da torre de lançamento. Depende de licença e pode adiar.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que vai acontecer",
+      "heading": "Voo 15 do Starship",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "SpaceX, empresa de foguetes de Elon Musk"
+        },
+        {
+          "k": "Quando",
+          "v": "Sexta, 13 de novembro, janela a partir das 19h45 de Brasília, segundo o Space.com"
+        },
+        {
+          "k": "Onde",
+          "v": "Starbase, base da empresa no sul do Texas"
+        },
+        {
+          "k": "A novidade",
+          "v": "Primeiro voo planejado para trazer de volta à base e agarrar na torre o estágio de baixo e a nave de cima"
+        },
+        {
+          "k": "Carga",
+          "v": "26 satélites Starlink V3, a nova geração da internet via satélite da empresa"
+        },
+        {
+          "k": "Pendência",
+          "v": "Licença da FAA, a agência de aviação dos EUA; a página da missão dizia \"aguardando aprovação\" em 11/11"
+        }
+      ],
+      "body": [
+        "O **Starship** é um foguete de dois estágios: o **Super Heavy**, o propulsor de baixo, e a nave **Starship**, o estágio de cima. O Space.com descreve o conjunto como \"um foguete do tamanho de um prédio de 40 andares\"."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que importa",
+      "heading": "Um foguete que não se joga fora",
+      "photo": "fotos/starship-pegar-no-ar-2.jpg",
+      "caption": "Foto: Jay Wedgeworth / Unsplash",
+      "body": [
+        "Foguete **reutilizável** é o que volta inteiro para voar de novo, em vez de cair no mar. Segundo o Space.com, as duas partes do Starship foram projetadas para isso. A torre já agarrou o propulsor três vezes, mas a nave de cima sempre terminou no oceano.",
+        "A descrição oficial do voo, citada pelo Space.com, diz que, se der certo, será \"a primeira recuperação completa de um sistema de lançamento orbital\" e um \"momento decisivo\" para fazer do Starship um foguete \"confiável e rapidamente reutilizável\" (tradução livre).",
+        "Elon Musk, em teleconferência com investidores em 20 de outubro, segundo o site Teslarati, deu à primeira tentativa chance \"mais provável que improvável\" de dar certo."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como é a pegada",
+      "heading": "Dois retornos, com 22 horas de diferença",
+      "steps": [
+        {
+          "title": "Decolagem",
+          "text": "Os 33 motores do Super Heavy acendem. Depois da separação, a nave segue para a órbita com seus 6 motores."
+        },
+        {
+          "title": "Propulsor volta, ~6,5 min depois",
+          "text": "O Super Heavy retorna à base e os braços da torre, apelidados de \"pauzinhos\", o seguram no ar. Isso já foi feito nos voos 5, 7 e 8."
+        },
+        {
+          "title": "Nave dá 14 voltas na Terra",
+          "text": "A cerca de 275 km de altitude, por mais de 22 horas. Nesse tempo, solta os 26 satélites."
+        },
+        {
+          "title": "Nave volta, pela primeira vez",
+          "text": "A SpaceX nunca tentou agarrar a nave. Segundo o Space.com, o retorno dela é \"mais complexo e energético\" que o do propulsor, e a empresa cancela a tentativa se algo sair do planejado."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "Do primeiro abraço da torre até sexta",
+      "items": [
+        {
+          "when": "13 out. 2024",
+          "what": "Voo 5: a torre agarra o Super Heavy no ar pela primeira vez."
+        },
+        {
+          "when": "28 set. 2026",
+          "what": "Voo 14: Starship chega à órbita e solta 26 satélites. A nave cai no Pacífico."
+        },
+        {
+          "when": "20 out.",
+          "what": "Musk anuncia a investidores que o voo 15 tentará agarrar os dois estágios."
+        },
+        {
+          "when": "25 out.",
+          "what": "Teste estático: os 33 motores do propulsor acendem por cerca de 15 segundos, presos ao chão."
+        },
+        {
+          "when": "10 nov.",
+          "what": "O propulsor vai para a plataforma; a torre faz um \"teste de aperto\" segurando-o na altura da pegada."
+        },
+        {
+          "when": "13 nov.",
+          "what": "Janela de lançamento a partir das 19h45 de Brasília, se a licença sair."
+        }
+      ],
+      "body": [
+        "No voo 14, a nave soltou os 26 satélites e caiu no Pacífico Norte 3 horas e 8 minutos depois da decolagem, segundo o SpacePolicyOnline. Um dos seis motores dela desligou antes da hora, sem afetar o voo."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que está em jogo",
+      "heading": "A Lua espera por este foguete",
+      "photo": "fotos/starship-pegar-no-ar-3.jpg",
+      "caption": "Foto: nader saremi / Unsplash",
+      "body": [
+        "A NASA contratou uma versão do Starship para levar astronautas à superfície da Lua. Segundo o SpacePolicyOnline, essa versão precisa ser reabastecida em órbita por outros Starships, e uma executiva da SpaceX estimou, em 2024, um \"chute\" de uns 10 lançamentos para encher o depósito de combustível.",
+        "Com tanto voo, reaproveitar as duas partes do foguete deixa de ser detalhe. A meta declarada da NASA é levar astronautas à Lua antes de janeiro de 2029."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Balanço",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Se sabe",
+        "lines": [
+          "Data e janela anunciadas: 13/11, a partir das 19h45 de Brasília.",
+          "Plano: agarrar propulsor e nave na mesma torre.",
+          "O propulsor já foi agarrado 3 vezes; a nave, nunca.",
+          "O voo 14 chegou à órbita e soltou 26 satélites."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Se a FAA libera a tempo: em 11/11 a licença ainda não tinha saído.",
+          "Se a SpaceX vai mesmo tentar pegar a nave: a empresa diz que cancela se algo sair do plano.",
+          "Quanto isso vai baratear cada lançamento: nenhuma das fontes consultadas traz números."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Pela primeira vez, as duas partes de um foguete orbital devem voltar à base e ser agarradas no ar.** A tentativa está marcada para sexta, 13, a partir das 19h45 de Brasília.",
+        "**O propulsor já volta; a nave de cima, ainda não.** Ela vai dar 14 voltas na Terra, soltar 26 satélites e voltar mais de 22 horas depois.",
+        "**Nada é garantido.** A licença da agência de aviação dos EUA ainda não tinha saído em 11/11, e a SpaceX diz que cancela a pegada se algo sair do planejado."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Space.com (Mike Wall), 9 nov. 2026",
+          "what": "SpaceX will launch epic double-catch Starship Flight 15 test mission on Nov. 13, com a descrição oficial da missão"
+        },
+        {
+          "who": "Space.com (Wall, Dinner, Malik), 10 nov. 2026",
+          "what": "Starship Flight 15 live updates: propulsor levado à plataforma"
+        },
+        {
+          "who": "SpacePolicyOnline (Marcia Smith), 28 set. 2026",
+          "what": "Starship Achieves Orbit for the First Time"
+        },
+        {
+          "who": "Teslarati, 20 out. 2026",
+          "what": "Teleconferência de resultados da SpaceX: falas de Elon Musk e Gwynne Shotwell"
+        },
+        {
+          "who": "The Space Road (Chetan Kale), atualizado 11 nov. 2026",
+          "what": "When is Starship Flight 15: cronograma, testes e situação da licença"
+        },
+        {
+          "who": "Fotos",
+          "what": "Tarik Caramanico, Jay Wedgeworth e nader saremi, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O detalhe menos comentado do voo de sexta é o relógio: o propulsor volta em 6 minutos e meio, mas a nave só volta mais de 22 horas depois, após 14 voltas na Terra.\n\nA SpaceX marcou o 15º voo de teste do Starship para 13 de novembro, com janela a partir das 19h45 de Brasília, em Starbase, no Texas. Pela primeira vez, o plano é trazer de volta à base e agarrar nos braços da torre tanto o propulsor Super Heavy quanto a nave de cima. O propulsor já foi agarrado três vezes; a nave, nunca. No voo anterior, em 28 de setembro, o Starship chegou à órbita pela primeira vez e soltou 26 satélites Starlink. Vale a ressalva: até 11 de novembro, a licença da agência de aviação dos EUA não tinha saído, e a empresa diz que cancela a pegada se algo sair do planejado.\n\nVocê acompanharia um lançamento ao vivo às 19h45 de uma sexta?\n\n—\nFontes no último slide.\n\n#spacex #starship #foguete #espaco #starlink #noticia #tecnologia #nasa"
+}

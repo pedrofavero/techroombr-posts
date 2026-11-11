@@ -1,0 +1,10 @@
+A parte mais curiosa dessa história não é a mariposa. É que a piada anotada no caderno só funciona porque a palavra "bug" já existia.
+
+Em 9 de setembro de 1947, às 15h45, a equipe do computador Mark II, em Harvard, achou uma mariposa presa no relé nº 70 e a colou no caderno de bordo com a anotação "primeiro caso real de um bug sendo encontrado". Thomas Edison já chamava defeitos de "bugs" em 1878, e "debug" foi impresso em 1945. Grace Hopper, que depois virou contra-almirante da Marinha e ajudou a criar a linguagem COBOL, estava na equipe e ajudou a tornar o caso famoso, mas o Smithsonian, que guarda o caderno, diz que ele provavelmente não era dela.
+
+Qual história de tecnologia você repetiu por anos até descobrir que era lenda?
+
+—
+Fontes no último slide.
+
+#historiadatecnologia #bug #gracehopper #computacao #programacao #harvard #smithsonian #tecnologia
