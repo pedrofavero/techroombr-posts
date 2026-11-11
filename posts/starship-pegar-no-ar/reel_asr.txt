@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 95.0%
+números do roteiro: 40, 3, 14, 22, 2, 2
+números ouvidos:    40, 14, 22, 2, 2, 3
+números: todos ouvidos
+
+ROTEIRO:
+Um foguete de 40 andares vai tentar voltar inteiro para a torre. Hoje à noite, se a licença sair. O foguete da SpaceX tem duas partes: o propulsor e a nave. As duas devem voltar e ser agarradas pelos braços da torre. A torre já agarrou o propulsor 3 vezes. Mas a nave nunca foi agarrada. Ela vai dar 14 voltas na Terra e só volta mais de 22 horas depois. Nada é garantido: a agência de aviação americana ainda não tinha liberado o voo. Fontes no primeiro comentário.
+
+OUVIDO:
+O foguete de 40 andares vai tentar voltar inteiro para a torre, hoje à noite, se a licença sair. O foguete das Pay-X tem duas partes, o propulsor e a nave. As duas devem voltar e ser agarradas pelos braços da torre. A torre já agarrou o propulsor três vezes. Mas a nave nunca foi agarrada. Ela vai dar 14 voltas na terra e só volta mais de 22 horas depois. Nada é garantido. A agência de aviação americana ainda não tinha liberado o voo. Fontes no primeiro comentário.

@@ -1,0 +1,33 @@
+{
+ "slug": "starship-pegar-no-ar",
+ "total_s": 31.5,
+ "scenes": [
+  {
+   "dur": 6.0,
+   "start": 0.0
+  },
+  {
+   "dur": 7.5,
+   "start": 5.9
+  },
+  {
+   "dur": 3.5,
+   "start": 13.3
+  },
+  {
+   "dur": 7.5,
+   "start": 16.7
+  },
+  {
+   "dur": 5.0,
+   "start": 24.1
+  },
+  {
+   "dur": 2.5,
+   "start": 29.0
+  }
+ ],
+ "words": 89,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
