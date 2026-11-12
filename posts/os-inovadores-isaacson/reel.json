@@ -13,7 +13,7 @@
         "line": "o computador começa com ==Ada Lovelace==",
         "fonte": "Isaacson, Os Inovadores (via Dallas Morning News)"
       },
-      "say": "Para Walter Isaacson, a história do computador começa em 1843, com as notas de Ada Lovelace."
+      "say": "Para Walter Isaacson, o computador começa em 1843, com as notas de Ada Lovelace."
     },
     {
       "kicker": "Mito x fato",
@@ -23,7 +23,7 @@
         "certo": "==centenas de pessoas==, ao longo de décadas",
         "fonte": "Os Inovadores (Cia. das Letras / Intrínseca)"
       },
-      "say": "O livro Os Inovadores derruba uma lenda: a do gênio sozinho na garagem. Computador e internet foram invenções coletivas, de centenas de pessoas, ao longo de décadas."
+      "say": "Os Inovadores derruba uma lenda: a do gênio sozinho na garagem. Computador e internet foram invenções coletivas, de centenas de pessoas, ao longo de décadas."
     },
     {
       "kicker": "Linha do tempo",
@@ -49,7 +49,7 @@
         ],
         "fonte": "Dallas Morning News, out. 2014"
       },
-      "say": "Seis mulheres programaram o ENIAC em 1945. Jack Kilby teve a ideia do microchip em 1958. O projeto da rede que antecedeu a internet começou em 1966."
+      "say": "Seis mulheres programaram o ENIAC em 1945. Na Texas Instruments, um engenheiro teve a ideia do microchip em 1958. O projeto da rede que antecedeu a internet começou em 1966."
     },
     {
       "kicker": "Mas...",
@@ -62,7 +62,7 @@
         ],
         "fonte": "Dallas Morning News, out. 2014"
       },
-      "say": "Mas nem todo crítico gostou. Para o Dallas Morning News, tanto dado em 560 páginas deixa a narrativa em segundo plano."
+      "say": "Mas nem todo crítico gostou: para o Dallas Morning News, 560 páginas de dados deixam a narrativa em segundo plano."
     },
     {
       "end": true,
