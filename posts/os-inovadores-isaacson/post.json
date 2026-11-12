@@ -1,0 +1,172 @@
+{
+  "slug": "os-inovadores-isaacson",
+  "categoria": "ESTANTE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/os-inovadores-isaacson-1.jpg",
+      "title": "O livro que tira o gênio solitário da garagem",
+      "dek": "Walter Isaacson, o biógrafo de Steve Jobs, conta a história do computador e da internet de Ada Lovelace, em 1843, aos fundadores do Google. A tese: inovação é um esporte de equipe. Nem todo crítico comprou.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Um século e meio em um volume",
+      "rows": [
+        {
+          "k": "Título",
+          "v": "Os Inovadores: uma biografia da revolução digital"
+        },
+        {
+          "k": "Autor",
+          "v": "Walter Isaacson, autor da biografia de Steve Jobs (2011)"
+        },
+        {
+          "k": "Original",
+          "v": "The Innovators, Simon & Schuster, outubro de 2014"
+        },
+        {
+          "k": "No Brasil",
+          "v": "Companhia das Letras, 2014; nova edição pela Intrínseca, 2021, 592 páginas"
+        },
+        {
+          "k": "Período",
+          "v": "Das notas de Ada Lovelace (1843) ao computador Watson da IBM vencendo um programa de perguntas na TV (2011)"
+        },
+        {
+          "k": "Para quem",
+          "v": "Quem quer a história inteira em um só lugar, com nome, data e disputa de crédito"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A tese",
+      "heading": "Ninguém inventou o computador sozinho",
+      "photo": "fotos/os-inovadores-isaacson-2.jpg",
+      "caption": "Foto: ThisisEngineering / Unsplash",
+      "body": [
+        "Isaacson sustenta que biografias distorcem a história quando contam a inovação como o lampejo de um gênio sozinho numa garagem. Na era digital, diz ele, **a invenção acontece em equipe**, em sucessos aos poucos e dentro de instituições.",
+        "A Publishers Weekly resumiu: o progresso tecnológico é um **esporte de equipe**. E leu o livro como um antídoto ao próprio Isaacson, que em 2011 tinha escrito a biografia-homenagem de Steve Jobs.",
+        "Por isso o foco em duplas e grupos: Lovelace e Babbage, o laboratório Bell, as mulheres que programaram o ENIAC, a equipe da ARPANET, Noyce e Grove na Intel."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Em uma frase",
+      "text": "A inovação não é um empreendimento de solitários.",
+      "who": "Walter Isaacson, em Os Inovadores (citado pela Kirkus Reviews; tradução livre)",
+      "body": [
+        "O fecho do livro, segundo a Publishers Weekly, é um trocadilho: em inglês, não existe \"eu\" na palavra computador. A Kirkus chamou o resultado de uma narrativa vigorosa e envolvente, feita de pesquisa prodigiosa e anedotas bem construídas (tradução livre)."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O que passa pelo livro",
+      "heading": "Seis paradas, segundo as resenhas",
+      "items": [
+        {
+          "when": "1843",
+          "what": "Ada Lovelace publica suas \"Notas\" sobre a máquina analítica de Charles Babbage: para Isaacson, o começo da história."
+        },
+        {
+          "when": "1942",
+          "what": "John Atanasoff quase termina um computador antes de ser convocado pela Marinha dos EUA."
+        },
+        {
+          "when": "1945",
+          "what": "Seis mulheres programam o ENIAC. Grace Hopper escreve o manual do Harvard Mark I e cria sub-rotinas e compiladores."
+        },
+        {
+          "when": "1958",
+          "what": "Jack Kilby, recém-contratado pela Texas Instruments, tem a ideia do primeiro microchip."
+        },
+        {
+          "when": "1966",
+          "what": "Bob Taylor começa o projeto que vira a ARPANET, a rede que antecede a internet."
+        },
+        {
+          "when": "2011",
+          "what": "O Watson, da IBM, vence humanos no programa de perguntas Jeopardy!"
+        }
+      ],
+      "body": [
+        "Datas e episódios conforme as resenhas do Dallas Morning News e da Publishers Weekly."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Contraponto",
+      "heading": "Quem não comprou a tese",
+      "body": [
+        "Matt Novak, no Paleofuture (Gizmodo), diz que Isaacson **quer as duas coisas ao mesmo tempo**: condena a briga pelo \"fui o primeiro!\" e, no capítulo seguinte, toma posição firme sobre quem merece o crédito. Para ele, o livro é uma penitência pela metade dos livros anteriores sobre grandes homens.",
+        "O Dallas Morning News reclamou que, com tanto dado espremido em 560 páginas, ==a narrativa fica em segundo plano==, e que o tema do trabalho em equipe, repetido, às vezes soa como aula de escola de negócios.",
+        "Do outro lado, o New York Times Book Review chamou de uma história ampla e surpreendentemente afetuosa da era digital, e o Christian Science Monitor, de lúcida, viva e fácil de acompanhar (traduções livres)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": {
+        "title": "Serve",
+        "lines": [
+          "Para quem quer a história do computador e da internet em um só volume, da Inglaterra vitoriana ao Google.",
+          "Para quem lidera equipe: o livro é sobre como criatividade e trabalho coletivo se combinam, diz a blogueira Elilyan Andrade.",
+          "Para quem gosta de disputas de crédito: Mauchly contra Atanasoff, Kilby contra Noyce, Taylor e Roberts na ARPANET."
+        ]
+      },
+      "b": {
+        "title": "Não serve",
+        "lines": [
+          "Para quem quer leitura empolgante: Andrade deu 3,5 de 5 e achou o livro \"tão sem graça\" que hesita em indicar.",
+          "Para quem já leu os livros de cada capítulo: cada um deles, lembra Novak, já foi um livro inteiro de outro autor.",
+          "Para quem quer o presente: a linha do tempo do livro para em 2011."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/os-inovadores-isaacson-3.jpg",
+      "caption": "Foto: Dana Ward / Unsplash",
+      "check": [
+        "**A tese:** o computador e a internet foram invenções coletivas, feitas por centenas de pessoas ao longo de décadas, não por um gênio de garagem.",
+        "**O arco:** de Ada Lovelace, em 1843, a Larry Page e Sergey Brin, com Turing, Hopper, Noyce, Gates, Wozniak, Jobs e Berners-Lee no caminho.",
+        "**A ressalva:** é denso e, segundo críticos, repete a lição; vale como mapa, não como romance."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Publishers Weekly, resenha de 4 ago. 2014",
+          "what": "\"Esporte de equipe\", antídoto à biografia de Jobs, Ada Lovelace a Page e Brin, Atanasoff em 1942, trocadilho final"
+        },
+        {
+          "who": "Kirkus Reviews, 2014",
+          "what": "Citação \"Innovation is not a loner's endeavor\", data de publicação (7 out. 2014), avaliação"
+        },
+        {
+          "who": "Dallas Morning News, 11 out. 2014; Christian Science Monitor (James Norton), 13 out. 2014",
+          "what": "Linha do tempo de 1843 a 2011, ENIAC, Hopper, Kilby, Taylor; 560 páginas; críticas e elogios"
+        },
+        {
+          "who": "Matt Novak, Paleofuture/Gizmodo, 7 out. 2014; Travessa e Skoob (edições brasileiras); Elilyan Andrade, ConversaCult, 15 abr. 2015",
+          "what": "Contraponto; Companhia das Letras 2014 e Intrínseca 2021; nota 3,5 e \"sem graça\""
+        },
+        {
+          "who": "Fotos",
+          "what": "Niklas König, ThisisEngineering e Dana Ward, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A pergunta que organiza o livro inteiro não é \"quem inventou\", e sim \"com quem\".\n\n\"Os Inovadores\" (Companhia das Letras, 2014; Intrínseca, 2021; original de 2014) é a tentativa de Walter Isaacson, depois da biografia de Steve Jobs, de contar a revolução digital como obra coletiva: de Ada Lovelace e Babbage, em 1843, às mulheres do ENIAC, ao microchip de Kilby e Noyce, à ARPANET e ao Google. Críticos elogiaram a pesquisa e o fôlego; outros, como o Dallas Morning News, acharam que a quantidade de dados atropela a narrativa, e Matt Novak, do Paleofuture, viu contradição em condenar a briga por crédito e depois distribuir crédito.\n\nQual invenção você achava que era de uma pessoa só?\n\n—\nFontes no último slide.\n\n#livros #históriadatecnologia #walterisaacson #osinovadores #computação #inovação #estante"
+}

@@ -1,0 +1,10 @@
+A ideia que sustenta esse material não veio da engenharia. Veio de olhar para uma asa de libélula e para o mapa de uma rede social: poucas ligações grossas, muitas finas, nenhum padrão repetido.
+
+O estudo saiu na Nature em 11 de novembro, assinado por Carlos Portela (MIT) e Albert-László Barabási (Northeastern), com colegas. Em vez de copiar e colar uma célula, um algoritmo com dois parâmetros sorteia vigas cada vez mais finas até formar uma rede. Impressas em 3D e comprimidas, as peças deformaram por igual, sem as faixas de esmagamento das colmeias, e absorveram energia igual ou maior. Em simulação, a rede reduziu em até 4,9 vezes a tensão sobre um objeto frágil embutido. Capacetes e embalagens ainda são só possibilidades.
+
+Se um capacete assim existisse, você trocaria o seu?
+
+—
+Fontes no último slide.
+
+#metamateriais #ciênciadosmateriais #impressão3D #engenharia #MIT #tecnologiaexplicada #ciência

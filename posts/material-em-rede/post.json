@@ -1,0 +1,170 @@
+{
+  "slug": "material-em-rede",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/material-em-rede-1.jpg",
+      "title": "Copiaram a asa da libélula. O material aguenta mais pancada",
+      "dek": "Engenheiros do MIT e da Northeastern imprimiram em 3D um material feito de vigas de tamanhos diferentes, ligadas como uma rede. Na prensa, ele se deformou por igual, sem o colapso em cadeia das colmeias e das grades. O estudo saiu na Nature em 11 de novembro.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "O que foi feito, e por quem",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature, 11 de novembro de 2026, acesso aberto (doi 10.1038/s41586-026-11191-2). Versão preliminar no arXiv em novembro de 2025."
+        },
+        {
+          "k": "Quem",
+          "v": "Carlos Portela (MIT, engenharia mecânica) e Albert-László Barabási (Northeastern, física e ciência de redes), com Csaba Both, Andrew Chen, Ting-Ting Gao, Niek Mooij e Mohammad Charara."
+        },
+        {
+          "k": "O que",
+          "v": "Metamateriais: materiais cuja estrutura interna, e não a substância, dá as propriedades. Aqui, uma rede de vigas de muitos tamanhos."
+        },
+        {
+          "k": "Teste",
+          "v": "Peças impressas em 3D em resina, comprimidas até 40% da altura, mais simulações em computador."
+        },
+        {
+          "k": "Comparação",
+          "v": "Grade quadrada, colmeia (hexágonos) e padrão Voronoi (células irregulares), com a mesma densidade."
+        },
+        {
+          "k": "Financiamento",
+          "v": "Fundação Nacional de Ciência dos EUA (NSF), entre outros. Nenhum produto à venda."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A inspiração",
+      "heading": "Veias de folha, asas de libélula, redes sociais",
+      "photo": "fotos/material-em-rede-2.jpg",
+      "caption": "Foto: David Clode / Unsplash",
+      "body": [
+        "Um metamaterial comum nasce de uma **célula unitária**, um bloquinho copiado e colado milhares de vezes, como uma colmeia. O padrão é preciso e repetido. E é aí que mora o problema, diz Carlos Portela: se uma parte fura ou trinca, as células vizinhas, todas iguais, respondem juntas, e **o resto flamba e falha em cadeia**.",
+        "A natureza faz diferente. As veias de uma folha e da asa de uma libélula têm nervuras grossas e finas misturadas. Na asa da libélula, elas vão de 0,1 mm a cerca de 50 mm de comprimento. Redes sociais têm a mesma mistura: poucos nós muito ligados, muitos pouco ligados.",
+        "A equipe chamou o resultado de **material rico em escalas**: vigas que vão do micrômetro ao centímetro, espalhadas e conectadas como uma rede, em vez de um padrão repetido."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como se desenha",
+      "heading": "Dois números controlam tudo",
+      "steps": [
+        {
+          "title": "Uma linha de cada vez",
+          "text": "O computador sorteia um ponto e um ângulo e traça uma viga até ela bater em outra viga ou na borda. Depois repete, com vigas cada vez mais finas e curtas."
+        },
+        {
+          "title": "Só dois ajustes",
+          "text": "A espessura da primeira viga e a velocidade com que a espessura diminui. Mudando só esses dois números, saem redes muito diferentes, de quase isotrópicas (iguais em toda direção) a muito direcionais."
+        },
+        {
+          "title": "Impressão em resina",
+          "text": "Nos testes, cada peça tinha 500 vigas e era do tamanho de um cartão de crédito, impressa em 3D com detalhes de cerca de 0,1 mm. Para redes ainda mais finas, a equipe usou uma técnica de impressão (litografia de dois fótons) com traços menores que um micrômetro."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Na prensa",
+      "heading": "Como cada geometria quebrou",
+      "a": {
+        "title": "Grade, colmeia e Voronoi",
+        "lines": [
+          "A grade quadrada flambou camada por camada, com quedas súbitas na carga que suportava.",
+          "A colmeia formou faixas de esmagamento que atravessaram a peça de lado a lado.",
+          "O padrão Voronoi esmagou primeiro a parte de baixo, até formar uma faixa compactada."
+        ]
+      },
+      "b": {
+        "title": "Rede rica em escalas",
+        "lines": [
+          "Deformou de modo espalhado e homogêneo, sem faixas de esmagamento, em todas as amostras testadas.",
+          "A tenacidade (energia absorvida até 40% de compressão) igualou ou superou a das três geometrias de referência.",
+          "Portela: se uma parte falha, há uma teia forte de estruturas em volta; é mais eficiente para distribuir o dano e absorver energia."
+        ]
+      },
+      "body": [
+        "Foram 3 peças de cada geometria, todas com densidade nominal de 42%, comprimidas devagar, à mesma velocidade."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "Pouca amostra física, muita simulação",
+      "cells": [
+        {
+          "big": "2.600",
+          "unit": " redes",
+          "label": "diferentes foram simuladas em computador para mapear como a rigidez muda com os dois parâmetros",
+          "text": "A anisotropia (rigidez que muda conforme a direção) cobriu uma faixa de 24 vezes entre o mínimo e o máximo, mais do que as três geometrias clássicas somadas."
+        },
+        {
+          "big": "3",
+          "unit": " peças",
+          "label": "de cada geometria foram esmagadas de verdade no teste de referência, todas com 42% de densidade",
+          "text": "É um estudo de materiais, não um ensaio clínico: poucas amostras, bem instrumentadas, são o padrão da área."
+        }
+      ],
+      "body": [
+        "Um limite declarado pelos autores: a compressão até o fim só foi testada na variante mais uniforme da rede. Nas mais direcionais, a viga maior pode flambar quando fica atravessada à força."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "Para proteger algo frágil",
+      "big": "4,9",
+      "unit": " vezes",
+      "label": "menos tensão média, no máximo, sobre um objeto frágil embutido no material em rede, comparado às geometrias de referência. Resultado de simulação, não de teste físico",
+      "body": [
+        "A equipe também desenhou uma rede inspirada na casca grossa do pomelo (uma fruta cítrica), mais densa nas bordas e mais aberta no centro, para amortecer uma peça colocada no meio. E simulou **lentes acústicas**, estruturas que concentram som ou vibração num ponto.",
+        "O que ainda não existe: capacete, armadura ou embalagem feitos assim. As aplicações são **possibilidades listadas pelos autores**, e a parte acústica só foi testada em computador."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "photo": "fotos/material-em-rede-3.jpg",
+      "caption": "Foto: Osman Talha Dikyar / Unsplash",
+      "check": [
+        "**Padrão perfeito quebra em cadeia.** Colmeias e grades são feitas de células iguais; quando uma falha, as vizinhas vão junto.",
+        "**Mistura de tamanhos espalha o dano.** Vigas do micrômetro ao centímetro, ligadas como uma rede, deformaram por igual e absorveram energia igual ou maior que as geometrias clássicas.",
+        "**Ainda é laboratório.** Peças de resina do tamanho de um cartão, 3 de cada tipo; proteção 4,9 vezes maior só em simulação. Nenhum produto existe."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Both, Chen, Gao, Mooij, Charara, Portela e Barabási — Nature, 11 nov. 2026",
+          "what": "\"Scale-rich network-based metamaterials\" (doi 10.1038/s41586-026-11191-2), acesso aberto"
+        },
+        {
+          "who": "Mesmos autores — arXiv 2511.18108, nov. 2025 (versão preliminar)",
+          "what": "Algoritmo de dois parâmetros, 500 vigas, resina e resolução, 3 peças por geometria a 42%, 2.600 redes simuladas, faixa de 24 vezes, 40% de compressão, fator de 4,91 em simulação, limites"
+        },
+        {
+          "who": "MIT News (Jennifer Chu), 11 nov. 2026",
+          "what": "Folha, libélula e rede social; célula unitária; tamanho de cartão de crédito; citações de Carlos Portela; pomelo; capacetes, armaduras e lentes acústicas; financiamento da NSF"
+        },
+        {
+          "who": "Fotos",
+          "what": "sai pixels, David Clode e Osman Talha Dikyar, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A ideia que sustenta esse material não veio da engenharia. Veio de olhar para uma asa de libélula e para o mapa de uma rede social: poucas ligações grossas, muitas finas, nenhum padrão repetido.\n\nO estudo saiu na Nature em 11 de novembro, assinado por Carlos Portela (MIT) e Albert-László Barabási (Northeastern), com colegas. Em vez de copiar e colar uma célula, um algoritmo com dois parâmetros sorteia vigas cada vez mais finas até formar uma rede. Impressas em 3D e comprimidas, as peças deformaram por igual, sem as faixas de esmagamento das colmeias, e absorveram energia igual ou maior. Em simulação, a rede reduziu em até 4,9 vezes a tensão sobre um objeto frágil embutido. Capacetes e embalagens ainda são só possibilidades.\n\nSe um capacete assim existisse, você trocaria o seu?\n\n—\nFontes no último slide.\n\n#metamateriais #ciênciadosmateriais #impressão3D #engenharia #MIT #tecnologiaexplicada #ciência"
+}
