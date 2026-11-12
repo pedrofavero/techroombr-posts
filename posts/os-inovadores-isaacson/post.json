@@ -51,7 +51,7 @@
       "photo": "fotos/os-inovadores-isaacson-2.jpg",
       "caption": "Foto: ThisisEngineering / Unsplash",
       "body": [
-        "Isaacson sustenta que biografias distorcem a história quando contam a inovação como o lampejo de um gênio sozinho numa garagem. Na era digital, diz ele, **a invenção acontece em equipe**, em sucessos aos poucos e dentro de instituições.",
+        "Isaacson sustenta que biografias simplificam a história quando contam a inovação como o lampejo de um gênio sozinho numa garagem. Na era digital, diz ele, **a invenção acontece em equipe**, dentro de instituições como a ARPA, Stanford e o laboratório Bell.",
         "A Publishers Weekly resumiu: o progresso tecnológico é um **esporte de equipe**. E leu o livro como um antídoto ao próprio Isaacson, que em 2011 tinha escrito a biografia-homenagem de Steve Jobs.",
         "Por isso o foco em duplas e grupos: Lovelace e Babbage, o laboratório Bell, as mulheres que programaram o ENIAC, a equipe da ARPANET, Noyce e Grove na Intel."
       ]
@@ -60,9 +60,9 @@
       "type": "quote",
       "kicker": "Em uma frase",
       "text": "A inovação não é um empreendimento de solitários.",
-      "who": "Walter Isaacson, em Os Inovadores (citado pela Kirkus Reviews; tradução livre)",
+      "who": "Kirkus Reviews, resumindo a tese de Isaacson em Os Inovadores (tradução livre)",
       "body": [
-        "O fecho do livro, segundo a Publishers Weekly, é um trocadilho: em inglês, não existe \"eu\" na palavra computador. A Kirkus chamou o resultado de uma narrativa vigorosa e envolvente, feita de pesquisa prodigiosa e anedotas bem construídas (tradução livre)."
+        "A Publishers Weekly resumiu a lição do livro com um trocadilho: em inglês, não existe \"eu\" na palavra computador. A Kirkus chamou o resultado de uma narrativa vigorosa e envolvente, feita de pesquisa prodigiosa e anedotas bem construídas (tradução livre)."
       ]
     },
     {
@@ -80,7 +80,7 @@
         },
         {
           "when": "1945",
-          "what": "Seis mulheres programam o ENIAC. Grace Hopper escreve o manual do Harvard Mark I e cria sub-rotinas e compiladores."
+          "what": "Seis mulheres programam o ENIAC, o precursor dos computadores modernos."
         },
         {
           "when": "1958",
@@ -104,7 +104,7 @@
       "kicker": "Contraponto",
       "heading": "Quem não comprou a tese",
       "body": [
-        "Matt Novak, no Paleofuture (Gizmodo), diz que Isaacson **quer as duas coisas ao mesmo tempo**: condena a briga pelo \"fui o primeiro!\" e, no capítulo seguinte, toma posição firme sobre quem merece o crédito. Para ele, o livro é uma penitência pela metade dos livros anteriores sobre grandes homens.",
+        "Matt Novak, no blog Paleofuture, diz que Isaacson **quer as duas coisas ao mesmo tempo**: condena a briga pelo \"fui o primeiro!\" e, no capítulo seguinte, toma posição firme sobre quem merece o crédito. Para ele, o livro é uma penitência pela metade dos livros anteriores sobre grandes homens.",
         "O Dallas Morning News reclamou que, com tanto dado espremido em 560 páginas, ==a narrativa fica em segundo plano==, e que o tema do trabalho em equipe, repetido, às vezes soa como aula de escola de negócios.",
         "Do outro lado, o New York Times Book Review chamou de uma história ampla e surpreendentemente afetuosa da era digital, e o Christian Science Monitor, de lúcida, viva e fácil de acompanhar (traduções livres)."
       ]
@@ -116,15 +116,15 @@
       "a": {
         "title": "Serve",
         "lines": [
-          "Para quem quer a história do computador e da internet em um só volume, da Inglaterra vitoriana ao Google.",
-          "Para quem lidera equipe: o livro é sobre como criatividade e trabalho coletivo se combinam, diz a blogueira Elilyan Andrade.",
+          "Para quem quer a história do computador e da internet em um só volume, da era vitoriana ao Google.",
+          "Para quem quer entender como criatividade e trabalho em equipe se combinam, diz a blogueira Elilyan Andrade.",
           "Para quem gosta de disputas de crédito: Mauchly contra Atanasoff, Kilby contra Noyce, Taylor e Roberts na ARPANET."
         ]
       },
       "b": {
         "title": "Não serve",
         "lines": [
-          "Para quem quer leitura empolgante: Andrade deu 3,5 de 5 e achou o livro \"tão sem graça\" que hesita em indicar.",
+          "Para quem quer leitura empolgante: Andrade deu nota 3,5 e achou o livro \"tão sem graça\" que hesita em indicar.",
           "Para quem já leu os livros de cada capítulo: cada um deles, lembra Novak, já foi um livro inteiro de outro autor.",
           "Para quem quer o presente: a linha do tempo do livro para em 2011."
         ]
@@ -147,18 +147,18 @@
       "items": [
         {
           "who": "Publishers Weekly, resenha de 4 ago. 2014",
-          "what": "\"Esporte de equipe\", antídoto à biografia de Jobs, Ada Lovelace a Page e Brin, Atanasoff em 1942, trocadilho final"
+          "what": "\"Esporte de equipe\", antídoto à biografia de Jobs, Ada Lovelace a Page e Brin, Atanasoff em 1942, trocadilho \"no I in computer\""
         },
         {
           "who": "Kirkus Reviews, 2014",
           "what": "Citação \"Innovation is not a loner's endeavor\", data de publicação (7 out. 2014), avaliação"
         },
         {
-          "who": "Dallas Morning News, 11 out. 2014; Christian Science Monitor (James Norton), 13 out. 2014",
-          "what": "Linha do tempo de 1843 a 2011, ENIAC, Hopper, Kilby, Taylor; 560 páginas; críticas e elogios"
+          "who": "Dallas Morning News, 11 out. 2014; Christian Science Monitor (James Norton), 13 out. 2014; Bloomberg, 2 out. 2014",
+          "what": "Linha do tempo de 1843 a 2011, ENIAC, Hopper, Kilby, Taylor; 560 páginas; Noyce e Grove, Taylor e Roberts; críticas e elogios"
         },
         {
-          "who": "Matt Novak, Paleofuture/Gizmodo, 7 out. 2014; Travessa e Skoob (edições brasileiras); Elilyan Andrade, ConversaCult, 15 abr. 2015",
+          "who": "Matt Novak, Paleofuture, 7 out. 2014; Travessa e Skoob (edições brasileiras); Elilyan Andrade, ConversaCult, 15 abr. 2015",
           "what": "Contraponto; Companhia das Letras 2014 e Intrínseca 2021; nota 3,5 e \"sem graça\""
         },
         {

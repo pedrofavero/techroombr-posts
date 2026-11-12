@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/material-em-rede-1.jpg",
       "title": "Copiaram a asa da libélula. O material aguenta mais pancada",
-      "dek": "Engenheiros do MIT e da Northeastern imprimiram em 3D um material feito de vigas de tamanhos diferentes, ligadas como uma rede. Na prensa, ele se deformou por igual, sem o colapso em cadeia das colmeias e das grades. O estudo saiu na Nature em 11 de novembro.",
+      "dek": "Pesquisadores do MIT e da Northeastern imprimiram em 3D um material feito de vigas de tamanhos diferentes, ligadas como uma rede. Na prensa, ele se deformou por igual, sem as faixas de esmagamento das colmeias nem o colapso em cadeia das grades. O estudo saiu na Nature em 11 de novembro.",
       "swipe": "arraste →"
     },
     {
@@ -24,7 +24,7 @@
         },
         {
           "k": "Quem",
-          "v": "Carlos Portela (MIT, engenharia mecânica) e Albert-László Barabási (Northeastern, física e ciência de redes), com Csaba Both, Andrew Chen, Ting-Ting Gao, Niek Mooij e Mohammad Charara."
+          "v": "Carlos Portela (MIT, engenharia mecânica) e Albert-László Barabási (Northeastern, ciência de redes), com Csaba Both, Andrew Chen, Ting-Ting Gao, Niek Mooij, Mohammad Charara e Jayna Wadhwa."
         },
         {
           "k": "O que",
@@ -40,7 +40,7 @@
         },
         {
           "k": "Financiamento",
-          "v": "Fundação Nacional de Ciência dos EUA (NSF), entre outros. Nenhum produto à venda."
+          "v": "Fundação Nacional de Ciência dos EUA (NSF), entre outros."
         }
       ]
     },
@@ -51,7 +51,7 @@
       "photo": "fotos/material-em-rede-2.jpg",
       "caption": "Foto: David Clode / Unsplash",
       "body": [
-        "Um metamaterial comum nasce de uma **célula unitária**, um bloquinho copiado e colado milhares de vezes, como uma colmeia. O padrão é preciso e repetido. E é aí que mora o problema, diz Carlos Portela: se uma parte fura ou trinca, as células vizinhas, todas iguais, respondem juntas, e **o resto flamba e falha em cadeia**.",
+        "Um metamaterial comum nasce de uma **célula unitária**, um bloquinho copiado e colado milhares de vezes, como uma colmeia. O padrão é preciso e repetido. E é aí que mora o problema, segundo o MIT: se uma parte fura ou trinca, as células vizinhas, todas iguais, **deformam do mesmo jeito, e o resto flamba e falha**.",
         "A natureza faz diferente. As veias de uma folha e da asa de uma libélula têm nervuras grossas e finas misturadas. Na asa da libélula, elas vão de 0,1 mm a cerca de 50 mm de comprimento. Redes sociais têm a mesma mistura: poucos nós muito ligados, muitos pouco ligados.",
         "A equipe chamou o resultado de **material rico em escalas**: vigas que vão do micrômetro ao centímetro, espalhadas e conectadas como uma rede, em vez de um padrão repetido."
       ]
@@ -84,7 +84,7 @@
         "lines": [
           "A grade quadrada flambou camada por camada, com quedas súbitas na carga que suportava.",
           "A colmeia formou faixas de esmagamento que atravessaram a peça de lado a lado.",
-          "O padrão Voronoi esmagou primeiro a parte de baixo, até formar uma faixa compactada."
+          "O padrão Voronoi esmagou primeiro a parte de baixo."
         ]
       },
       "b": {
@@ -114,11 +114,11 @@
           "big": "3",
           "unit": " peças",
           "label": "de cada geometria foram esmagadas de verdade no teste de referência, todas com 42% de densidade",
-          "text": "É um estudo de materiais, não um ensaio clínico: poucas amostras, bem instrumentadas, são o padrão da área."
+          "text": "Outras peças, de variantes mais direcionais da rede, também foram comprimidas; esses resultados ficaram no material suplementar."
         }
       ],
       "body": [
-        "Um limite declarado pelos autores: a compressão até o fim só foi testada na variante mais uniforme da rede. Nas mais direcionais, a viga maior pode flambar quando fica atravessada à força."
+        "Um limite: o texto principal só analisa a compressão até o fim na variante mais uniforme da rede. Nas mais direcionais, a viga maior pode flambar quando fica atravessada em relação à compressão."
       ]
     },
     {
@@ -139,7 +139,7 @@
       "photo": "fotos/material-em-rede-3.jpg",
       "caption": "Foto: Osman Talha Dikyar / Unsplash",
       "check": [
-        "**Padrão perfeito quebra em cadeia.** Colmeias e grades são feitas de células iguais; quando uma falha, as vizinhas vão junto.",
+        "**Padrão perfeito falha junto.** Grades e colmeias são feitas de células iguais; quando uma parte fura ou trinca, as vizinhas deformam do mesmo jeito e o resto flamba e falha, explica o MIT.",
         "**Mistura de tamanhos espalha o dano.** Vigas do micrômetro ao centímetro, ligadas como uma rede, deformaram por igual e absorveram energia igual ou maior que as geometrias clássicas.",
         "**Ainda é laboratório.** Peças de resina do tamanho de um cartão, 3 de cada tipo; proteção 4,9 vezes maior só em simulação. Nenhum produto existe."
       ]
@@ -148,11 +148,11 @@
       "type": "sources",
       "items": [
         {
-          "who": "Both, Chen, Gao, Mooij, Charara, Portela e Barabási — Nature, 11 nov. 2026",
+          "who": "Both, Chen, Gao, Mooij, Charara, Wadhwa, Portela e Barabási — Nature, 11 nov. 2026",
           "what": "\"Scale-rich network-based metamaterials\" (doi 10.1038/s41586-026-11191-2), acesso aberto"
         },
         {
-          "who": "Mesmos autores — arXiv 2511.18108, nov. 2025 (versão preliminar)",
+          "who": "Both, Chen e outros — arXiv 2511.18108, nov. 2025 (versão preliminar)",
           "what": "Algoritmo de dois parâmetros, 500 vigas, resina e resolução, 3 peças por geometria a 42%, 2.600 redes simuladas, faixa de 24 vezes, 40% de compressão, fator de 4,91 em simulação, limites"
         },
         {
