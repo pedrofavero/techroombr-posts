@@ -1,0 +1,29 @@
+{
+ "slug": "os-inovadores-isaacson",
+ "total_s": 40.1,
+ "scenes": [
+  {
+   "dur": 7.0,
+   "start": 0.0
+  },
+  {
+   "dur": 10.0,
+   "start": 6.9
+  },
+  {
+   "dur": 13.0,
+   "start": 16.8
+  },
+  {
+   "dur": 8.0,
+   "start": 29.7
+  },
+  {
+   "dur": 2.5,
+   "start": 37.6
+  }
+ ],
+ "words": 95,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

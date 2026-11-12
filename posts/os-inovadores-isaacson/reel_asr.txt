@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 94.2%
+números do roteiro: 1843, 1945, 1958, 1966, 560, 6
+números ouvidos:    1843, 1945, 1958, 1966, 560, 6
+números: todos ouvidos
+
+ROTEIRO:
+Para Walter Isaacson, a história do computador começa em 1843, com as notas de Ada Lovelace. O livro Os Inovadores derruba uma lenda: a do gênio sozinho na garagem. Computador e internet foram invenções coletivas, de centenas de pessoas, ao longo de décadas. Seis mulheres programaram o ENIAC em 1945. Jack Kilby teve a ideia do microchip em 1958. O projeto da rede que antecedeu a internet começou em 1966. Mas nem todo crítico gostou. Para o Dallas Morning News, tanto dado em 560 páginas deixa a narrativa em segundo plano. Fontes no primeiro comentário.
+
+OUVIDO:
+Para Walter Isaacson, a história do computador começa em 1843, com as notas de Adalo Velace. O Livro dos Inovadores derruba uma lenda, a do Gênio Sozinho na Garagem. Computador e internet foram invenções coletivas de centenas de pessoas ao longo de décadas. Seis mulheres programaram o ENIAC em 1945, já que QB teve a ideia do microchip em 1958. O projeto da rede que antecedeu a internet começou em 1966. Mas nem todo crítico gostou. Para o Dallas Morning News, tanto dado em 560 páginas, deixa a narrativa em segundo plano. Fontes no primeiro comentário.
