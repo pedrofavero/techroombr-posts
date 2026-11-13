@@ -1,0 +1,33 @@
+{
+ "slug": "nvidia-ceo-sai",
+ "total_s": 40.0,
+ "scenes": [
+  {
+   "dur": 5.5,
+   "start": 0.0
+  },
+  {
+   "dur": 8.0,
+   "start": 5.4
+  },
+  {
+   "dur": 9.0,
+   "start": 13.3
+  },
+  {
+   "dur": 8.0,
+   "start": 22.2
+  },
+  {
+   "dur": 7.5,
+   "start": 30.1
+  },
+  {
+   "dur": 2.5,
+   "start": 37.5
+  }
+ ],
+ "words": 99,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

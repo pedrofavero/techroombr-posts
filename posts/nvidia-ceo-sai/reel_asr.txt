@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 95.9%
+números do roteiro: 490, 33, 11, 80, 90, 4.5, 4
+números ouvidos:    490, 33, 11, 80, 90, 4.5, 4
+números: todos ouvidos
+
+ROTEIRO:
+A Nvidia perdeu o cofundador. E 490 bilhões de dólares em uma semana. Ele comandou a empresa por 33 anos. A renúncia foi aceita em 11 de novembro. A diretora financeira assume interinamente. A Nvidia faz o chip que treina a inteligência artificial. De 80 a 90 por cento do mercado de chips avançados, segundo estimativas. A virada: ele admitiu um caso com uma executiva que, segundo um jornal americano, a inteligência americana liga ao governo chinês. O valor caiu de 4,5 para 4 trilhões de dólares. O conselho diz não ter indício de vazamento. Fontes no primeiro comentário.
+
+OUVIDO:
+Amvidia perdeu o cofundador e 490 bilhões de dólares em uma semana. Ele comandou a empresa por 33 anos. A renúncia foi aceita em 11 de novembro. A diretora financeira assume interinamente. Amvidia faz o chip que treina a inteligência artificial de 80 a 90% do mercado de chips avançados, segundo estimativas. A virada, ele admitiu um caso com uma executiva que, segundo um jornal americano, a inteligência americana liga ao governo chinês. O valor caiu de 4,5 para 4 trilhões de dólares. O conselho diz não ter indício de vazamento. Fontes no primeiro comentário.
