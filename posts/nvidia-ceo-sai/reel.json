@@ -1,0 +1,81 @@
+{
+  "slug": "nvidia-ceo-sai",
+  "display": "sans",
+  "accent": "#FFC21A",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/nvidia-ceo-sai-1.jpg",
+      "credit": "Foto: Abhishek Kumar / Unsplash",
+      "anim": {
+        "type": "hook",
+        "kicker": "Notícia · Nvidia",
+        "big": "490 bi",
+        "line": "de dólares a menos em uma semana. O cofundador da Nvidia saiu.",
+        "fonte": "Yahoo Finance · 12 nov. 2026"
+      },
+      "say": "A Nvidia perdeu o cofundador. E 490 bilhões de dólares em uma semana."
+    },
+    {
+      "media": "fotos/nvidia-ceo-sai-2.jpg",
+      "credit": "Foto: Kevin Ache / Unsplash",
+      "kicker": "O que aconteceu",
+      "text": "**Jensen Huang** renunciou após **33 anos**. Renúncia aceita em **11/11**, anunciada em 12/11. **Colette Kress**, diretora financeira, é a CEO interina. Fonte: Nvidia e SEC, 12 nov.",
+      "say": "Ele comandou a empresa por 33 anos. A renúncia foi aceita em 11 de novembro. A diretora financeira assume interinamente."
+    },
+    {
+      "media": "fotos/nvidia-ceo-sai-3.jpg",
+      "credit": "Foto: Taylor Vick / Unsplash",
+      "kicker": "Por que importa",
+      "anim": {
+        "type": "number",
+        "value": 90,
+        "decimals": 0,
+        "prefix": "80 a ",
+        "unit": "%",
+        "label": "do mercado de chips avançados de IA, segundo estimativas",
+        "fonte": "Fast Company e Al Jazeera · 12 nov. 2026"
+      },
+      "say": "A Nvidia faz o chip que treina a inteligência artificial. De 80 a 90 por cento do mercado de chips avançados, segundo estimativas.",
+      "hold": 0.6
+    },
+    {
+      "media": "fotos/nvidia-ceo-sai-1.jpg",
+      "credit": "Foto: Abhishek Kumar / Unsplash",
+      "kicker": "A virada",
+      "text": "Ele admitiu um caso com uma executiva que, segundo o New York Times, a inteligência dos EUA liga ao governo chinês.",
+      "big": true,
+      "say": "A virada: ele admitiu um caso com uma executiva que, segundo um jornal americano, a inteligência americana liga ao governo chinês."
+    },
+    {
+      "media": "fotos/nvidia-ceo-sai-2.jpg",
+      "credit": "Foto: Kevin Ache / Unsplash",
+      "kicker": "A conta",
+      "anim": {
+        "type": "number",
+        "value": 4.0,
+        "decimals": 1,
+        "prefix": "",
+        "unit": " tri",
+        "label": "de dólares em valor de mercado em 12/11. Eram US$ 4,5 tri em 6/11. O conselho diz não ter indício de vazamento.",
+        "fonte": "Yahoo Finance · 12 nov. 2026; AP · 8 nov."
+      },
+      "say": "O valor caiu de 4,5 para 4 trilhões de dólares. O conselho diz não ter indício de vazamento.",
+      "hold": 0.8
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Nvidia, comunicado e 8-K na SEC, 12 nov. 2026",
+        "AP, 8 nov.; Bloomberg, 12 nov. 2026",
+        "Yahoo Finance; Al Jazeera; Fast Company, 12 nov."
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Jensen Huang, cofundador da Nvidia, renunciou aos cargos de presidente, CEO e conselheiro depois de 33 anos; a empresa anunciou a saída em 12 de novembro e colocou a diretora financeira Colette Kress como CEO interina.\n\nA Nvidia faz os chips que treinam inteligência artificial e, segundo estimativas citadas pela Fast Company e pela Al Jazeera, tem de 80% a 90% do mercado de chips avançados de IA. A saída veio dias depois de Huang admitir um caso com uma executiva que o New York Times liga à inteligência chinesa; o conselho diz não ter indício de que segredos vazaram, a China chama as acusações de calúnia e a empresa não deu motivo oficial. Entre 6 e 12 de novembro, o valor de mercado caiu de US$ 4,5 trilhões para US$ 4,0 trilhões, segundo o Yahoo Finance.\n\nManda para quem acha que notícia de empresa de chip não tem nada a ver com a vida dela.\n\n—\nFontes no primeiro comentário.\n\n#nvidia #inteligenciaartificial #chips #tecnologia #noticia",
+  "fontes_comentario": "Fontes: Nvidia, comunicado \"NVIDIA Announces CEO Transition\", 12 nov. 2026; SEC, formulário 8-K da Nvidia, 12 nov. 2026 (renúncia aceita em 11 nov.); Associated Press (Rio Yamat), \"Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy\", 8 nov. 2026, via KPTV; Bloomberg (Ian King), 12 nov. 2026, via CPA Practice Advisor; Yahoo Finance, live updates, 12 nov. 2026; Al Jazeera e Reuters, 9 e 12 nov. 2026; Fast Company (Adele Peters), \"Everything you wanted to know about Nvidia\", 12 nov. 2026. Fotos: Abhishek Kumar, Kevin Ache e Taylor Vick, via Unsplash."
+}
