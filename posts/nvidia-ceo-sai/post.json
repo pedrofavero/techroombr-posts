@@ -1,0 +1,183 @@
+{
+  "slug": "nvidia-ceo-sai",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/nvidia-ceo-sai-1.jpg",
+      "title": "O chefe da Nvidia saiu. Sumiram US$ 490 bilhões em 1 semana",
+      "dek": "Jensen Huang comandou por 33 anos a empresa que faz os chips por trás da inteligência artificial. Renunciou na quinta (12), após admitir um caso com uma executiva que, segundo o New York Times, a inteligência dos EUA liga ao governo chinês. A Nvidia não deu motivo oficial.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A saída, em seis linhas",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "Jensen Huang, 63 anos, cofundador da Nvidia em 1993 e no comando há 33 anos"
+        },
+        {
+          "k": "O quê",
+          "v": "Renunciou aos cargos de presidente, CEO e membro do conselho, \"com efeito imediato\""
+        },
+        {
+          "k": "Quando",
+          "v": "O conselho aceitou a renúncia em 11 de novembro; o anúncio saiu em 12 de novembro de 2026"
+        },
+        {
+          "k": "Quem assume",
+          "v": "Colette Kress, 59, diretora financeira desde 2013, como CEO interina. O conselho busca um sucessor, de dentro ou de fora"
+        },
+        {
+          "k": "Motivo oficial",
+          "v": "Nenhum. O comunicado e o documento enviado à SEC, o órgão que fiscaliza a bolsa americana, não explicam a saída"
+        },
+        {
+          "k": "Fonte",
+          "v": "Comunicado da Nvidia e formulário 8-K na SEC, 12 nov. 2026"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "Duas semanas entre a reportagem e a renúncia",
+      "items": [
+        {
+          "when": "29 out.",
+          "what": "O New York Times reporta que a inteligência dos EUA via relação próxima entre Huang e Alice Huang, cidadã chinesa e ex-executiva da Megaspeed, de Singapura, que comprou mais de US$ 4,8 bilhões em chips da Nvidia em dois anos. Não são parentes."
+        },
+        {
+          "when": "8 nov.",
+          "what": "Huang admite o relacionamento ao conselho e escreve aos funcionários: \"Fiquei aquém dessa responsabilidade\" (tradução livre). O conselho abre investigação sobre um possível \"esforço de inteligência estrangeira\"."
+        },
+        {
+          "when": "10 nov.",
+          "what": "O conselho contrata o ex-promotor federal Joon H. Kim para uma investigação independente, segundo a Bloomberg."
+        },
+        {
+          "when": "11 nov.",
+          "what": "O New York Times relata um segundo caso, com uma executiva da Nvidia. O conselho se reúne e aceita a renúncia."
+        },
+        {
+          "when": "12 nov.",
+          "what": "Anúncio público. A ação chega a cair 14% e fecha em queda de 4,3% (Bloomberg)."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que importa",
+      "heading": "A empresa que vende as pás da corrida do ouro",
+      "photo": "fotos/nvidia-ceo-sai-2.jpg",
+      "caption": "Foto: Kevin Ache / Unsplash",
+      "body": [
+        "A Nvidia nasceu fazendo **GPU**, o chip que desenha os gráficos dos videogames. Esse chip faz milhares de contas simples ao mesmo tempo, e isso é exatamente o que treinar uma inteligência artificial exige. Segundo a Fast Company, um grande data center pode ter dezenas de milhares de GPUs, e treinar um modelo pode usar até 100 mil deles por meses.",
+        "Microsoft, Amazon, OpenAI e CoreWeave estão entre os compradores. Estimativas citadas pela Fast Company e pela Al Jazeera dão à Nvidia de 80% a 90% do mercado de chips avançados de IA. Na gestão de Kress como diretora financeira, a receita anual foi de US$ 4,13 bilhões para US$ 215,9 bilhões, segundo a Al Jazeera."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "A conta da semana",
+      "heading": "Valor de mercado: o preço de todas as ações juntas",
+      "cells": [
+        {
+          "big": "4,5",
+          "unit": " tri",
+          "label": "US$, no fechamento de 6 de novembro",
+          "text": "Uma semana antes da renúncia, segundo o Yahoo Finance."
+        },
+        {
+          "big": "4,0",
+          "unit": " tri",
+          "label": "US$, no fechamento de 12 de novembro",
+          "text": "Dia do anúncio. Cerca de US$ 490 bilhões a menos em uma semana."
+        }
+      ],
+      "body": [
+        "No dia 5 de outubro, a Nvidia chegou a valer US$ 5,75 trilhões, segundo o Yahoo Finance. A Bloomberg calcula que a ação subiu cerca de 700.000% desde a abertura de capital, em 1999. Quase tudo isso aconteceu com uma pessoa no comando."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que dizem",
+      "heading": "Conselho elogia e nega vazamento. A China chama de calúnia",
+      "photo": "fotos/nvidia-ceo-sai-3.jpg",
+      "caption": "Foto: Taylor Vick / Unsplash",
+      "body": [
+        "O conselho afirmou que \"não tem motivo para acreditar\" que a segurança nacional ou os segredos da Nvidia tenham sido comprometidos (tradução livre, via AP e Al Jazeera). Ao anunciar a saída, disse à Bloomberg: \"As contribuições de Jensen para a Nvidia são profundas\" (tradução livre).",
+        "O porta-voz da chancelaria chinesa, Guo Jiakun, chamou as acusações de \"calúnia e difamação sem fundamento\" (tradução livre, via Al Jazeera). A Nvidia e a Megaspeed negaram irregularidades, segundo a Bloomberg. Nada disso foi julgado: são alegações de reportagens e uma investigação interna em andamento."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Balanço",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Se sabe",
+        "lines": [
+          "Huang deixou os três cargos, com efeito imediato.",
+          "Colette Kress acumula a chefia interina com a diretoria financeira.",
+          "O conselho busca um CEO permanente, interno ou externo.",
+          "A investigação independente continua.",
+          "O balanço trimestral sai em 17 de novembro."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Quem será o sucessor. O presidente dos EUA sugeriu Tim Cook, ex-Apple; segundo a Al Jazeera, não há sinal de interesse dele.",
+          "O que a investigação vai concluir.",
+          "Se a troca muda alguma coisa para quem compra os chips.",
+          "Por que a empresa não deu um motivo oficial."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O homem que comandou a Nvidia por 33 anos renunciou em 12 de novembro**, uma semana depois de admitir um caso com uma executiva que o New York Times liga à inteligência chinesa. A empresa não deu motivo oficial.",
+        "**A Nvidia vende o chip que treina a IA**: estimativas falam em 80% a 90% do mercado de chips avançados. Por isso a saída de um executivo virou notícia de economia mundial.",
+        "**A conta: cerca de US$ 490 bilhões a menos em valor de mercado em uma semana.** O conselho diz não ter indício de que segredos vazaram, e a investigação segue."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Nvidia, comunicado oficial, 12 nov. 2026",
+          "what": "NVIDIA Announces CEO Transition (nvidianews.nvidia.com)"
+        },
+        {
+          "who": "SEC, formulário 8-K da Nvidia, 12 nov. 2026",
+          "what": "Item 5.02: renúncia aceita em 11 nov.; Kress interina; Jones presidente do conselho"
+        },
+        {
+          "who": "Associated Press (Rio Yamat), 8 nov. 2026",
+          "what": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy, via KPTV"
+        },
+        {
+          "who": "Bloomberg (Ian King), 12 nov. 2026",
+          "what": "Nvidia ousts CEO Jensen Huang, via CPA Practice Advisor; Yahoo Finance, live updates, 12 nov."
+        },
+        {
+          "who": "Al Jazeera e Reuters, 12 nov. 2026; Fast Company (Adele Peters), 12 nov. 2026",
+          "what": "Why did Nvidia CEO Jensen Huang resign; Everything you wanted to know about Nvidia"
+        },
+        {
+          "who": "Fotos",
+          "what": "Abhishek Kumar, Kevin Ache e Taylor Vick, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O detalhe que explica a reação do mercado: a Nvidia não é só uma empresa grande, é a fornecedora de quase todos os chips que treinam inteligência artificial no mundo.\n\nJensen Huang cofundou a Nvidia em 1993 e a comandou por 33 anos. Em 12 de novembro, a empresa anunciou sua renúncia aos cargos de presidente, CEO e conselheiro, com efeito imediato, e colocou a diretora financeira Colette Kress como chefe interina. A saída veio duas semanas depois de o New York Times reportar que a inteligência dos EUA ligava uma executiva próxima de Huang ao governo chinês, e quatro dias depois de ele admitir o relacionamento. O conselho diz não ter indício de que segredos vazaram; a China chama as acusações de calúnia; a Nvidia não deu motivo oficial. Entre 6 e 12 de novembro, o valor de mercado caiu de US$ 4,5 trilhões para US$ 4,0 trilhões, segundo o Yahoo Finance.\n\nUma empresa pode depender tanto assim de uma pessoa?\n\n—\nFontes no último slide.\n\n#nvidia #jensenhuang #inteligenciaartificial #chips #tecnologia #noticia #economia #ia"
+}
