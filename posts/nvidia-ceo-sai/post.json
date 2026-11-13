@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/nvidia-ceo-sai-1.jpg",
       "title": "O chefe da Nvidia saiu. Sumiram US$ 490 bilhões em 1 semana",
-      "dek": "Jensen Huang comandou por 33 anos a empresa que faz os chips por trás da inteligência artificial. Renunciou na quinta (12), após admitir um caso com uma executiva que, segundo o New York Times, a inteligência dos EUA liga ao governo chinês. A Nvidia não deu motivo oficial.",
+      "dek": "Jensen Huang comandou por 33 anos a empresa que faz os chips por trás da inteligência artificial. A saída foi anunciada na quinta (12), quatro dias depois de ele admitir um caso com uma executiva que, segundo o New York Times, a inteligência dos EUA liga ao governo chinês. A Nvidia não deu motivo oficial.",
       "swipe": "arraste →"
     },
     {
@@ -78,7 +78,7 @@
       "photo": "fotos/nvidia-ceo-sai-2.jpg",
       "caption": "Foto: Kevin Ache / Unsplash",
       "body": [
-        "A Nvidia nasceu fazendo **GPU**, o chip que desenha os gráficos dos videogames. Esse chip faz milhares de contas simples ao mesmo tempo, e isso é exatamente o que treinar uma inteligência artificial exige. Segundo a Fast Company, um grande data center pode ter dezenas de milhares de GPUs, e treinar um modelo pode usar até 100 mil deles por meses.",
+        "A Nvidia nasceu fazendo **GPU**, o chip que desenha os gráficos dos videogames e que, segundo a Fast Company, se mostrou ideal para treinar inteligência artificial. Um grande data center pode ter dezenas de milhares de GPUs, e treinar um modelo pode usar até 100 mil deles por meses, diz a revista.",
         "Microsoft, Amazon, OpenAI e CoreWeave estão entre os compradores. Estimativas citadas pela Fast Company e pela Al Jazeera dão à Nvidia de 80% a 90% do mercado de chips avançados de IA. Na gestão de Kress como diretora financeira, a receita anual foi de US$ 4,13 bilhões para US$ 215,9 bilhões, segundo a Al Jazeera."
       ]
     },
@@ -101,7 +101,7 @@
         }
       ],
       "body": [
-        "No dia 5 de outubro, a Nvidia chegou a valer US$ 5,75 trilhões, segundo o Yahoo Finance. A Bloomberg calcula que a ação subiu cerca de 700.000% desde a abertura de capital, em 1999. Quase tudo isso aconteceu com uma pessoa no comando."
+        "No dia 5 de outubro, a Nvidia chegou a valer US$ 5,75 trilhões, segundo o Yahoo Finance. A Bloomberg calcula que a ação subiu mais de 700.000% desde a abertura de capital, em 1999. Quase tudo isso aconteceu com uma pessoa no comando."
       ]
     },
     {
@@ -111,8 +111,8 @@
       "photo": "fotos/nvidia-ceo-sai-3.jpg",
       "caption": "Foto: Taylor Vick / Unsplash",
       "body": [
-        "O conselho afirmou que \"não tem motivo para acreditar\" que a segurança nacional ou os segredos da Nvidia tenham sido comprometidos (tradução livre, via AP e Al Jazeera). Ao anunciar a saída, disse à Bloomberg: \"As contribuições de Jensen para a Nvidia são profundas\" (tradução livre).",
-        "O porta-voz da chancelaria chinesa, Guo Jiakun, chamou as acusações de \"calúnia e difamação sem fundamento\" (tradução livre, via Al Jazeera). A Nvidia e a Megaspeed negaram irregularidades, segundo a Bloomberg. Nada disso foi julgado: são alegações de reportagens e uma investigação interna em andamento."
+        "O conselho afirmou que \"não tem motivo para acreditar\" que a segurança nacional ou os segredos da Nvidia tenham sido comprometidos (tradução livre, via AP e Al Jazeera). Ao anunciar a saída, disse em nota citada pela Bloomberg: \"As contribuições de Jensen para a Nvidia são profundas\" (tradução livre).",
+        "O porta-voz da chancelaria chinesa, Guo Jiakun, chamou a história de espionagem de \"acusação sem fundamento, calúnia e difamação\" (tradução livre, via Al Jazeera). A Nvidia e a Megaspeed negaram irregularidades na investigação dos EUA sobre envio de chips à China, segundo a Bloomberg. Nada disso foi julgado: são alegações de reportagens e uma investigação interna em andamento."
       ]
     },
     {
@@ -132,7 +132,7 @@
       "b": {
         "title": "Ainda não se sabe",
         "lines": [
-          "Quem será o sucessor. O presidente dos EUA sugeriu Tim Cook, ex-Apple; segundo a Al Jazeera, não há sinal de interesse dele.",
+          "Quem será o sucessor. O presidente dos EUA sugeriu Tim Cook, ex-CEO da Apple; segundo a Al Jazeera, não há sinal de interesse dele.",
           "O que a investigação vai concluir.",
           "Se a troca muda alguma coisa para quem compra os chips.",
           "Por que a empresa não deu um motivo oficial."
@@ -144,7 +144,7 @@
       "kicker": "Para levar",
       "heading": "Três coisas para contar no jantar",
       "check": [
-        "**O homem que comandou a Nvidia por 33 anos renunciou em 12 de novembro**, uma semana depois de admitir um caso com uma executiva que o New York Times liga à inteligência chinesa. A empresa não deu motivo oficial.",
+        "**O homem que comandou a Nvidia por 33 anos saiu. A renúncia foi anunciada em 12 de novembro**, quatro dias depois de ele admitir um caso com uma executiva que o New York Times liga à inteligência chinesa. A empresa não deu motivo oficial.",
         "**A Nvidia vende o chip que treina a IA**: estimativas falam em 80% a 90% do mercado de chips avançados. Por isso a saída de um executivo virou notícia de economia mundial.",
         "**A conta: cerca de US$ 490 bilhões a menos em valor de mercado em uma semana.** O conselho diz não ter indício de que segredos vazaram, e a investigação segue."
       ]
@@ -169,8 +169,8 @@
           "what": "Nvidia ousts CEO Jensen Huang, via CPA Practice Advisor; Yahoo Finance, live updates, 12 nov."
         },
         {
-          "who": "Al Jazeera e Reuters, 12 nov. 2026; Fast Company (Adele Peters), 12 nov. 2026",
-          "what": "Why did Nvidia CEO Jensen Huang resign; Everything you wanted to know about Nvidia"
+          "who": "Al Jazeera e Reuters, 9 e 12 nov. 2026; Fast Company (Adele Peters), 12 nov. 2026",
+          "what": "Nvidia shares slump; Why did Nvidia CEO Jensen Huang resign; Everything you wanted to know about Nvidia"
         },
         {
           "who": "Fotos",
@@ -179,5 +179,5 @@
       ]
     }
   ],
-  "legenda": "O detalhe que explica a reação do mercado: a Nvidia não é só uma empresa grande, é a fornecedora de quase todos os chips que treinam inteligência artificial no mundo.\n\nJensen Huang cofundou a Nvidia em 1993 e a comandou por 33 anos. Em 12 de novembro, a empresa anunciou sua renúncia aos cargos de presidente, CEO e conselheiro, com efeito imediato, e colocou a diretora financeira Colette Kress como chefe interina. A saída veio duas semanas depois de o New York Times reportar que a inteligência dos EUA ligava uma executiva próxima de Huang ao governo chinês, e quatro dias depois de ele admitir o relacionamento. O conselho diz não ter indício de que segredos vazaram; a China chama as acusações de calúnia; a Nvidia não deu motivo oficial. Entre 6 e 12 de novembro, o valor de mercado caiu de US$ 4,5 trilhões para US$ 4,0 trilhões, segundo o Yahoo Finance.\n\nUma empresa pode depender tanto assim de uma pessoa?\n\n—\nFontes no último slide.\n\n#nvidia #jensenhuang #inteligenciaartificial #chips #tecnologia #noticia #economia #ia"
+  "legenda": "O detalhe que explica a reação do mercado: a Nvidia não é só uma empresa grande, é a fornecedora da maior parte dos chips avançados que treinam inteligência artificial no mundo.\n\nJensen Huang cofundou a Nvidia em 1993 e a comandou por 33 anos. Em 12 de novembro, a empresa anunciou sua renúncia aos cargos de presidente, CEO e conselheiro, com efeito imediato, e colocou a diretora financeira Colette Kress como chefe interina. A saída veio duas semanas depois de o New York Times reportar que a inteligência dos EUA ligava uma executiva próxima de Huang ao governo chinês, e quatro dias depois de ele admitir o relacionamento. O conselho diz não ter indício de que segredos vazaram; a China chama as acusações de calúnia; a Nvidia não deu motivo oficial. Entre 6 e 12 de novembro, o valor de mercado caiu de US$ 4,5 trilhões para US$ 4,0 trilhões, segundo o Yahoo Finance.\n\nUma empresa pode depender tanto assim de uma pessoa?\n\n—\nFontes no último slide.\n\n#nvidia #jensenhuang #inteligenciaartificial #chips #tecnologia #noticia #economia #ia"
 }

@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/ar-condicionado-calor-3.jpg",
       "title": "O ar-condicionado não faz frio. Ele leva o calor para a rua",
-      "dek": "O aparelho não cria nada: pega o calor que está no quarto e despeja do lado de fora. Entenda o truque de um líquido que ferve a frio, e por que isso pesa tanto na conta de luz no verão brasileiro.",
+      "dek": "O aparelho não cria nada: pega o calor que está no quarto e despeja do lado de fora. Entenda o truque de um fluido que evapora dentro de casa e volta a ser líquido na rua, e por que isso pesa tanto na conta de luz no verão brasileiro.",
       "swipe": "arraste →"
     },
     {
@@ -20,18 +20,18 @@
       "photo": "fotos/ar-condicionado-calor-2.jpg",
       "caption": "Foto: Joel Muniz / Unsplash",
       "body": [
-        "Segundo o Departamento de Energia dos EUA, o ar-condicionado \"usa energia para transferir calor do interior da casa para o ambiente externo, relativamente quente\" (tradução livre). É o mesmo princípio da geladeira: ela não gera frio, tira calor de dentro e solta atrás, por isso a parte de trás é quente.",
-        "O segredo é um fluido chamado **refrigerante**, que dá voltas num circuito fechado entre a parte de dentro e a de fora. Quando ele evapora, puxa calor do ar do quarto. Quando volta a ser líquido, do lado de fora, solta esse calor na rua. Pense no suor: quando evapora da pele, leva calor embora."
+        "Segundo o Departamento de Energia dos EUA, o ar-condicionado \"usa energia para transferir calor do interior da casa para o ambiente externo, relativamente quente\" (tradução livre). A mesma fonte diz que ele usa os mesmos princípios e as mesmas peças básicas da geladeira de casa.",
+        "O segredo é um fluido chamado **refrigerante**, que dá voltas num circuito fechado entre a parte de dentro e a de fora. Quando ele evapora, puxa calor do ar do quarto. Quando volta a ser líquido, do lado de fora, solta esse calor na rua. Uma analogia: o suor, ao evaporar da pele, leva calor embora."
       ]
     },
     {
       "type": "diagram",
       "kicker": "O circuito",
       "heading": "Quatro peças, um ciclo sem fim",
-      "svg": "<svg viewBox='0 0 700 300' fill='none' stroke='currentColor' stroke-width='3'><path d='M20 20 L 330 20 L 330 280 L 20 280 Z' stroke='currentColor' stroke-width='1' stroke-dasharray='8 6'/><text x='40' y='52' font-size='20' fill='currentColor' stroke='none'>DENTRO DE CASA</text><text x='400' y='52' font-size='20' fill='currentColor' stroke='none'>DO LADO DE FORA</text><rect x='60' y='90' width='200' height='60' rx='10' stroke='var(--accent)'/><text x='160' y='127' font-size='20' fill='var(--accent)' stroke='none' text-anchor='middle'>1 · EVAPORADOR</text><rect x='440' y='90' width='200' height='60' rx='10'/><text x='540' y='127' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>3 · CONDENSADOR</text><rect x='440' y='200' width='200' height='60' rx='10'/><text x='540' y='237' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>2 · COMPRESSOR</text><rect x='60' y='200' width='200' height='60' rx='10'/><text x='160' y='237' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>4 · VÁLVULA</text><path d='M260 230 L 440 230' stroke='var(--accent)'/><path d='M430 222 L 440 230 L 430 238' stroke='var(--accent)'/><path d='M540 200 L 540 150' stroke='var(--accent)'/><path d='M532 160 L 540 150 L 548 160' stroke='var(--accent)'/><path d='M440 120 L 260 120'/><path d='M270 112 L 260 120 L 270 128'/><path d='M160 150 L 160 200'/><path d='M152 190 L 160 200 L 168 190'/><text x='350' y='215' font-size='20' fill='var(--accent)' stroke='none' text-anchor='middle'>gás com calor</text><text x='350' y='105' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>líquido</text></svg>",
+      "svg": "<svg viewBox='0 0 700 300' fill='none' stroke='currentColor' stroke-width='3'><path d='M20 20 L 330 20 L 330 280 L 20 280 Z' stroke='currentColor' stroke-width='1' stroke-dasharray='8 6'/><text x='40' y='52' font-size='20' fill='currentColor' stroke='none'>DENTRO DE CASA</text><text x='400' y='52' font-size='20' fill='currentColor' stroke='none'>DO LADO DE FORA</text><rect x='60' y='90' width='200' height='60' rx='10' stroke='var(--accent)'/><text x='160' y='127' font-size='20' fill='var(--accent)' stroke='none' text-anchor='middle'>1 · EVAPORADOR</text><rect x='440' y='90' width='200' height='60' rx='10'/><text x='540' y='127' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>3 · CONDENSADOR</text><rect x='440' y='200' width='200' height='60' rx='10'/><text x='540' y='237' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>2 · COMPRESSOR</text><rect x='60' y='200' width='200' height='60' rx='10'/><text x='160' y='237' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>4 · EXPANSÃO</text><path d='M260 230 L 440 230' stroke='var(--accent)'/><path d='M430 222 L 440 230 L 430 238' stroke='var(--accent)'/><path d='M540 200 L 540 150' stroke='var(--accent)'/><path d='M532 160 L 540 150 L 548 160' stroke='var(--accent)'/><path d='M440 120 L 260 120'/><path d='M270 112 L 260 120 L 270 128'/><path d='M160 150 L 160 200'/><path d='M152 190 L 160 200 L 168 190'/><text x='350' y='215' font-size='20' fill='var(--accent)' stroke='none' text-anchor='middle'>gás com calor</text><text x='350' y='105' font-size='20' fill='currentColor' stroke='none' text-anchor='middle'>líquido</text></svg>",
       "caption": "O refrigerante leva o calor de dentro (1) e o solta fora (3). O compressor (2) é a bomba que empurra o ciclo.",
       "body": [
-        "Evaporador e condensador são serpentinas, canos enrolados por onde o fluido passa. O compressor, segundo o Departamento de Energia dos EUA, é \"uma bomba\". A válvula de expansão regula quanto líquido entra na serpentina de dentro, segundo a Live Science. O fluido absorve calor ao virar gás e solta calor ao voltar a ser líquido."
+        "Evaporador e condensador são serpentinas, canos enrolados por onde o fluido passa. O compressor, segundo o Departamento de Energia dos EUA, é \"uma bomba\". O dispositivo de expansão regula quanto líquido entra na serpentina de dentro, segundo a Live Science. O fluido absorve calor ao virar gás e solta calor ao voltar a ser líquido."
       ]
     },
     {
@@ -40,7 +40,7 @@
       "heading": "A volta completa do refrigerante",
       "steps": [
         {
-          "title": "1. Dentro: o líquido ferve e rouba calor",
+          "title": "1. Dentro: o líquido evapora e rouba calor",
           "text": "O refrigerante líquido entra frio na serpentina de dentro. O ar quente do quarto passa por ela, o fluido evapora e, ao virar gás, absorve o calor do ar. O ar sai mais frio pela frente do aparelho."
         },
         {
@@ -52,8 +52,8 @@
           "text": "Na serpentina de fora, o gás quente esfria com o ar externo e volta a ser líquido, \"cedendo seu calor\", nas palavras do Departamento de Energia. É o ar quente que sai da unidade na varanda."
         },
         {
-          "title": "4. A válvula fecha o ciclo",
-          "text": "O líquido passa pela válvula de expansão, que regula quanto entra na serpentina de dentro, segundo a Live Science. Ele volta para o quarto, evapora de novo, e o ciclo recomeça enquanto o aparelho estiver ligado."
+          "title": "4. O dispositivo de expansão fecha o ciclo",
+          "text": "O líquido passa pelo dispositivo de expansão, que regula quanto entra na serpentina de dentro, segundo a Live Science. Ele volta para o quarto, evapora de novo, e o ciclo recomeça enquanto o aparelho estiver ligado."
         }
       ]
     },
@@ -64,8 +64,8 @@
       "unit": "%",
       "label": "da eletricidade das casas brasileiras ia para o ar-condicionado em 2018",
       "body": [
-        "Em 2005, eram 6,7%. O consumo do ar-condicionado residencial cresceu cerca de 237% entre 2005 e 2017, contra 61% de todo o setor residencial, segundo o estudo do Instituto Escolhas de 2020, com base em dados da EPE, a empresa de planejamento energético do governo.",
-        "A EPE projetava, em 2018, que 60% dos domicílios brasileiros teriam ao menos um aparelho em 2030, contra 15% a 20% na época. Nos EUA, o ar-condicionado responde por cerca de 6% de toda a eletricidade do país, segundo o Departamento de Energia."
+        "Em 2005, eram 6,7%. O consumo do ar-condicionado residencial cresceu cerca de 237% entre 2005 e 2017, contra 61% de todo o setor residencial, segundo o estudo do Instituto Escolhas de 2020, com base em dados da Empresa de Pesquisa Energética, a EPE.",
+        "Antes da pandemia, a EPE projetava que 60% dos domicílios brasileiros teriam ao menos um aparelho em 2030, contra 15% a 20% em 2020, segundo o Escolhas. Nos EUA, o ar-condicionado responde por cerca de 6% de toda a eletricidade do país, segundo o Departamento de Energia."
       ]
     },
     {
@@ -75,7 +75,7 @@
       "photo": "fotos/ar-condicionado-calor-1.jpg",
       "caption": "Foto: Ashkan Forouzani / Unsplash",
       "body": [
-        "**Inverter** é o nome do aparelho cujo compressor varia a velocidade do motor em vez de apenas ligar e desligar. O estudo do Instituto Escolhas cita uma pesquisa de 2017 (Lima) segundo a qual o compressor inverter pode reduzir o consumo de energia em até 40%.",
+        "**Inverter** é o aparelho cujo compressor não desliga ao atingir a temperatura, ao contrário do modelo convencional, de velocidade fixa, que desliga e religa pelo termostato. O estudo do Instituto Escolhas cita uma pesquisa de 2017 (Lima) segundo a qual o compressor inverter pode reduzir o consumo de energia em até 40%.",
         "Desde 2007 o Brasil tem índices mínimos de eficiência para o aparelho, revisados em 2011 e 2018, segundo a EPE, citada pelo Estadão. A eficiência é medida em watts de frio por watt de eletricidade: a média dos splits era 3,20, segundo o Escolhas."
       ]
     },
@@ -85,8 +85,8 @@
       "heading": "Nasceu para secar papel, não para refrescar gente",
       "body": [
         "Em 17 de julho de 1902, o engenheiro Willis Carrier, 25 anos, projetou o primeiro sistema moderno de ar-condicionado para uma gráfica no Brooklyn, em Nova York, segundo a própria Carrier. O problema não era calor: a umidade fazia o papel inchar entre uma passada e outra, e as cores saíam desalinhadas.",
-        "A patente, \"Aparelho para tratar ar\", saiu em 2 de janeiro de 1906. Segundo a Live Science, o aparelho só chegou às casas ricas nos anos 1930 e 1940 e às de classe média nos anos 1950 e 1960.",
-        "Os gases do circuito também mudaram: os CFCs saíram de uso nos EUA em 1995, e o R-22 deixou de ser produzido lá em 2020, segundo o Departamento de Energia."
+        "A patente, \"Aparelho para tratar ar\", saiu em 2 de janeiro de 1906. Segundo um representante do setor ouvido pela Live Science, o aparelho só chegou às casas ricas nos anos 1930 e 1940 e às de classe média nos anos 1950 e 1960.",
+        "Os gases do circuito também mudaram: a produção de CFCs parou nos EUA em 1995, e a retirada do R-22 foi concluída lá em 2020, segundo o Departamento de Energia."
       ]
     },
     {
@@ -95,8 +95,8 @@
       "heading": "Três coisas para contar no jantar",
       "check": [
         "**O ar-condicionado não produz frio: ele transporta calor.** Um fluido evapora dentro de casa, puxa o calor do ar e o solta na rua quando volta a ser líquido. É o mesmo truque da geladeira.",
-        "**O compressor é a bomba que faz o fluido circular.** No modelo inverter, ele varia a velocidade em vez de só ligar e desligar, com economia de até 40%, segundo pesquisa citada pelo Escolhas.",
-        "**No Brasil, o aparelho já levava 14% da luz das casas em 2018**, mais que o dobro de 2005, segundo o Escolhas com dados da EPE. E a EPE projetava 60% dos lares com ar-condicionado em 2030."
+        "**O compressor é a bomba que faz o fluido circular.** No modelo inverter, ele não desliga ao atingir a temperatura, e isso pode economizar até 40%, segundo pesquisa citada pelo Escolhas.",
+        "**No Brasil, o aparelho já levava 14% da luz das casas em 2018**, mais que o dobro de 2005, segundo o Escolhas com dados da EPE. Antes da pandemia, a EPE projetava 60% dos lares com ar-condicionado em 2030."
       ]
     },
     {
@@ -129,5 +129,5 @@
       ]
     }
   ],
-  "legenda": "O ar quente que sai da unidade na varanda é o calor que estava no seu quarto, só que do lado de fora.\n\nO aparelho funciona com um fluido que evapora dentro de casa, roubando calor do ar, e volta a ser líquido do lado de fora, onde solta esse calor. O compressor é a bomba do ciclo; o modelo inverter varia a velocidade do motor em vez de ligar e desligar, com economia de até 40%, segundo pesquisa citada pelo Instituto Escolhas. No Brasil, o ar-condicionado passou de 6,7% para 14% da eletricidade das casas entre 2005 e 2018, e a EPE projetava 60% dos lares com aparelho em 2030. O primeiro sistema, de 1902, foi feito para controlar a umidade de uma gráfica, não para refrescar pessoas.\n\nSeu ar-condicionado é inverter ou do tipo que liga e desliga?\n\n—\nFontes no último slide.\n\n#arcondicionado #comofunciona #energia #verao #contadeluz #tecnologia #ciencia"
+  "legenda": "O ar quente que sai da unidade na varanda é o calor que estava no seu quarto, só que do lado de fora.\n\nO aparelho funciona com um fluido que evapora dentro de casa, roubando calor do ar, e volta a ser líquido do lado de fora, onde solta esse calor. O compressor é a bomba do ciclo; o modelo inverter não desliga o compressor ao atingir a temperatura, com economia de até 40%, segundo pesquisa citada pelo Instituto Escolhas. No Brasil, o ar-condicionado passou de 6,7% para 14% da eletricidade das casas entre 2005 e 2018, e, antes da pandemia, a EPE projetava 60% dos lares com aparelho em 2030. O primeiro sistema, de 1902, foi feito para controlar a umidade de uma gráfica, não para refrescar pessoas.\n\nSeu ar-condicionado é inverter ou do tipo que liga e desliga?\n\n—\nFontes no último slide.\n\n#arcondicionado #comofunciona #energia #verao #contadeluz #tecnologia #ciencia"
 }
