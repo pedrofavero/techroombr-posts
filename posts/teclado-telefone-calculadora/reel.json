@@ -36,7 +36,7 @@
             "label": "5,08 s"
           },
           {
-            "name": "mesma forma, outra numeração",
+            "name": "outra numeração, outro grupo",
             "value": 4.92,
             "label": "4,92 s",
             "other": true
@@ -45,7 +45,7 @@
         "note": "tempo médio por número de telefone, do 1º ao 7º toque",
         "fonte": "Deininger, Bell System Technical Journal, 1960"
       },
-      "say": "O desenho de calculadora levou 5,08 segundos por número. Com outra numeração, 4,92. Diferença pequena, diz o artigo."
+      "say": "O desenho de calculadora levou 5,08 segundos por número. Com outra numeração, em outro grupo, 4,92. Diferença pequena, diz o artigo."
     },
     {
       "kicker": "Mas...",
@@ -82,6 +82,6 @@
       "say": "Fontes no primeiro comentário."
     }
   ],
-  "legenda": "O teclado do telefone, com 1-2-3 em cima, foi testado pelos Bell Labs em 1960 contra 15 outros desenhos, inclusive o da calculadora. O desenho de calculadora levou 5,08 segundos por número e o mesmo desenho com outra numeração, testado em outro grupo, 4,92; na final, com cinco desenhos, não houve diferença significativa, e o artigo não explica a escolha do 1-2-3 em cima. Manda para quem já apertou o número errado trocando o teclado do celular pelo da calculadora.\n\n—\nFontes no primeiro comentário.\n\n#telefone #calculadora #teclado #belllabs #curiosidade",
+  "legenda": "Antes de lançar o telefone de teclas, os Bell Labs testaram 16 desenhos de teclado em 1960, inclusive o da calculadora, com 7-8-9 em cima. O desenho de calculadora levou 5,08 segundos por número e o mesmo desenho com outra numeração, testado em outro grupo, 4,92; na final, com cinco desenhos, não houve diferença significativa, e o artigo não explica a escolha do 1-2-3 em cima. Manda para quem já apertou o número errado trocando o teclado do celular pelo da calculadora.\n\n—\nFontes no primeiro comentário.\n\n#telefone #calculadora #teclado #belllabs #curiosidade",
   "fontes_comentario": "Fontes: R. L. Deininger, \"Human Factors Engineering Studies of the Design and Use of Pushbutton Telephone Sets\", The Bell System Technical Journal, julho de 1960, p. 995 a 1012 (cópia em PDF hospedada em vcalc.net); Nokia Bell Labs, página da publicação (1º de julho de 1960); DataGenetics (Nick Berry), \"Telephone Keypad Design\", 29 de agosto de 2015; Wikipédia em inglês, verbete \"Keypad\", para as teorias populares que circulam."
 }
