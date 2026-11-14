@@ -23,7 +23,7 @@
         "caption": "16 desenhos, cronômetro e contagem de erros",
         "fonte": "Deininger, Bell System Technical Journal, 1960"
       },
-      "say": "Os laboratórios Bell puseram 16 desenhos de teclado na frente dos próprios funcionários, com cronômetro."
+      "say": "Nos laboratórios Bell, 16 desenhos de teclado foram parar na frente dos funcionários, com cronômetro."
     },
     {
       "kicker": "Resultado",
@@ -45,7 +45,7 @@
         "note": "tempo médio por número de telefone, do 1º ao 7º toque",
         "fonte": "Deininger, Bell System Technical Journal, 1960"
       },
-      "say": "O desenho de calculadora levou 5,08 segundos por número. Com outra numeração, em outro grupo, 4,92. Diferença pequena, diz o artigo."
+      "say": "O desenho de calculadora levou 5,08 segundos por número. Outra numeração, outro grupo: 4,92. Diferença pequena, diz o artigo."
     },
     {
       "kicker": "Mas...",
@@ -69,7 +69,7 @@
         ],
         "fonte": "Deininger, Bell System Technical Journal, 1960"
       },
-      "say": "Dois retangulares seguiram por vantagens de engenharia. As colunas verticais caíram porque as pessoas não gostaram. E o 1-2-3 em cima? O artigo não explica."
+      "say": "Dois retangulares seguiram por vantagens de engenharia. As colunas verticais caíram: as pessoas não gostaram. E o 1, 2 e 3 em cima? O artigo não explica."
     },
     {
       "end": true,
