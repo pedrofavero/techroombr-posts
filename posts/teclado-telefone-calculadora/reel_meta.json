@@ -1,0 +1,33 @@
+{
+ "slug": "teclado-telefone-calculadora",
+ "total_s": 41.0,
+ "scenes": [
+  {
+   "dur": 7.5,
+   "start": 0.0
+  },
+  {
+   "dur": 6.5,
+   "start": 7.4
+  },
+  {
+   "dur": 9.5,
+   "start": 13.8
+  },
+  {
+   "dur": 5.0,
+   "start": 23.2
+  },
+  {
+   "dur": 10.5,
+   "start": 28.1
+  },
+  {
+   "dur": 2.5,
+   "start": 38.5
+  }
+ ],
+ "words": 95,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 92.0%
+números do roteiro: 1, 2, 3, 7, 8, 9, 1960, 16, 5.08, 4.92, 5, 1, 2, 3, 2
+números ouvidos:    1, 2, 3, 7, 8, 9, 1960, 16, 5.08, 4.92, 5, 2, 2, 3
+números: todos ouvidos
+
+ROTEIRO:
+No telefone, 1, 2 e 3 ficam em cima. Na calculadora, 7, 8 e 9. Em 1960, alguém testou. Os laboratórios Bell puseram 16 desenhos de teclado na frente dos próprios funcionários, com cronômetro. O desenho de calculadora levou 5,08 segundos por número. Com outra numeração, 4,92. Diferença pequena, diz o artigo. Mas a conclusão foi outra: na final, com 5 desenhos, qualquer um era aceitável. Dois retangulares seguiram por vantagens de engenharia. As colunas verticais caíram porque as pessoas não gostaram. E o 1-2-3 em cima? O artigo não explica. Fontes no primeiro comentário.
+
+OUVIDO:
+Do telefone 1, 2 e 3 ficam em cima, na calculadora 7, 8 e 9, em 1960, alguém testou. Os laboratórios belpos eram 16 desenhos de teclado na frente dos próprios funcionários, com cronômetro. O desenho de calculadora levou 5,08 segundos por número, com outra numeração, 4,92, diferença pequena, diz o artigo. Mas a conclusão foi outra, na final, com 5 desenhos, qualquer um era aceitável. Dois retangulares seguiram por vantagens de engenharia. As colunas verticais caíram porque as pessoas não gostaram. E ou um menos dois menos três em cima, o artigo não explica. Fontes no primeiro comentário.
