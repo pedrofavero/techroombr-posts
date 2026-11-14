@@ -1,0 +1,87 @@
+{
+  "slug": "teclado-telefone-calculadora",
+  "style": "caderno",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Curiosidade",
+      "anim": {
+        "type": "hook",
+        "big": "1-2-3 × 7-8-9",
+        "line": "telefone e calculadora, ordens invertidas. Em ==1960==, alguém testou",
+        "fonte": "Deininger, Bell System Technical Journal, jul. 1960"
+      },
+      "say": "No telefone, 1, 2 e 3 ficam em cima. Na calculadora, 7, 8 e 9. Em 1960, alguém testou."
+    },
+    {
+      "kicker": "O teste",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 760 420'><text x='195' y='38' font-size='32' text-anchor='middle'>telefone</text><rect x='30' y='60' width='100' height='72' rx='10' class='acc'/><text x='80' y='110' font-size='38' text-anchor='middle' class='acc'>1</text><rect x='145' y='60' width='100' height='72' rx='10' class='acc'/><text x='195' y='110' font-size='38' text-anchor='middle' class='acc'>2</text><rect x='260' y='60' width='100' height='72' rx='10' class='acc'/><text x='310' y='110' font-size='38' text-anchor='middle' class='acc'>3</text><rect x='30' y='148' width='100' height='72' rx='10'/><text x='80' y='198' font-size='38' text-anchor='middle'>4</text><rect x='145' y='148' width='100' height='72' rx='10'/><text x='195' y='198' font-size='38' text-anchor='middle'>5</text><rect x='260' y='148' width='100' height='72' rx='10'/><text x='310' y='198' font-size='38' text-anchor='middle'>6</text><rect x='30' y='236' width='100' height='72' rx='10'/><text x='80' y='286' font-size='38' text-anchor='middle'>7</text><rect x='145' y='236' width='100' height='72' rx='10'/><text x='195' y='286' font-size='38' text-anchor='middle'>8</text><rect x='260' y='236' width='100' height='72' rx='10'/><text x='310' y='286' font-size='38' text-anchor='middle'>9</text><rect x='145' y='324' width='100' height='72' rx='10'/><text x='195' y='374' font-size='38' text-anchor='middle'>0</text><text x='575' y='38' font-size='32' text-anchor='middle'>calculadora</text><rect x='410' y='60' width='100' height='72' rx='10' class='acc'/><text x='460' y='110' font-size='38' text-anchor='middle' class='acc'>7</text><rect x='525' y='60' width='100' height='72' rx='10' class='acc'/><text x='575' y='110' font-size='38' text-anchor='middle' class='acc'>8</text><rect x='640' y='60' width='100' height='72' rx='10' class='acc'/><text x='690' y='110' font-size='38' text-anchor='middle' class='acc'>9</text><rect x='410' y='148' width='100' height='72' rx='10'/><text x='460' y='198' font-size='38' text-anchor='middle'>4</text><rect x='525' y='148' width='100' height='72' rx='10'/><text x='575' y='198' font-size='38' text-anchor='middle'>5</text><rect x='640' y='148' width='100' height='72' rx='10'/><text x='690' y='198' font-size='38' text-anchor='middle'>6</text><rect x='410' y='236' width='100' height='72' rx='10'/><text x='460' y='286' font-size='38' text-anchor='middle'>1</text><rect x='525' y='236' width='100' height='72' rx='10'/><text x='575' y='286' font-size='38' text-anchor='middle'>2</text><rect x='640' y='236' width='100' height='72' rx='10'/><text x='690' y='286' font-size='38' text-anchor='middle'>3</text><rect x='525' y='324' width='100' height='72' rx='10'/><text x='575' y='374' font-size='38' text-anchor='middle'>0</text></svg>",
+        "caption": "16 desenhos, cronômetro e contagem de erros",
+        "fonte": "Deininger, Bell System Technical Journal, 1960"
+      },
+      "say": "Os laboratórios Bell puseram 16 desenhos de teclado na frente dos próprios funcionários, com cronômetro."
+    },
+    {
+      "kicker": "Resultado",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "desenho de calculadora",
+            "value": 5.08,
+            "label": "5,08 s"
+          },
+          {
+            "name": "mesma forma, outra numeração",
+            "value": 4.92,
+            "label": "4,92 s",
+            "other": true
+          }
+        ],
+        "note": "tempo médio por número de telefone, do 1º ao 7º toque",
+        "fonte": "Deininger, Bell System Technical Journal, 1960"
+      },
+      "say": "O desenho de calculadora levou 5,08 segundos por número. Com outra numeração, 4,92. Diferença pequena, diz o artigo."
+    },
+    {
+      "kicker": "Mas...",
+      "anim": {
+        "type": "corrige",
+        "errado": "provaram que 1-2-3 em cima é mais rápido",
+        "certo": "na final, ==qualquer um dos 5== era aceitável",
+        "fonte": "Deininger, Bell System Technical Journal, 1960"
+      },
+      "say": "Mas a conclusão foi outra: na final, com 5 desenhos, qualquer um era aceitável."
+    },
+    {
+      "kicker": "O que decidiu",
+      "anim": {
+        "type": "write",
+        "title": "engenharia e gosto",
+        "lines": [
+          "2 retangulares: ==vantagens de engenharia==",
+          "colunas verticais: muitos não gostaram",
+          "1-2-3 em cima: sem explicação"
+        ],
+        "fonte": "Deininger, Bell System Technical Journal, 1960"
+      },
+      "say": "Dois retangulares seguiram por vantagens de engenharia. As colunas verticais caíram porque as pessoas não gostaram. E o 1-2-3 em cima? O artigo não explica."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Deininger, Bell System Technical Journal, jul. 1960",
+        "Nokia Bell Labs, registro da publicação",
+        "DataGenetics, 2015"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "O teclado do telefone, com 1-2-3 em cima, foi testado pelos Bell Labs em 1960 contra 15 outros desenhos, inclusive o da calculadora. O desenho de calculadora levou 5,08 segundos por número e o mesmo desenho com outra numeração, testado em outro grupo, 4,92; na final, com cinco desenhos, não houve diferença significativa, e o artigo não explica a escolha do 1-2-3 em cima. Manda para quem já apertou o número errado trocando o teclado do celular pelo da calculadora.\n\n—\nFontes no primeiro comentário.\n\n#telefone #calculadora #teclado #belllabs #curiosidade",
+  "fontes_comentario": "Fontes: R. L. Deininger, \"Human Factors Engineering Studies of the Design and Use of Pushbutton Telephone Sets\", The Bell System Technical Journal, julho de 1960, p. 995 a 1012 (cópia em PDF hospedada em vcalc.net); Nokia Bell Labs, página da publicação (1º de julho de 1960); DataGenetics (Nick Berry), \"Telephone Keypad Design\", 29 de agosto de 2015; Wikipédia em inglês, verbete \"Keypad\", para as teorias populares que circulam."
+}
