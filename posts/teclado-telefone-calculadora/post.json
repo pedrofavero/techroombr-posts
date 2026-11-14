@@ -1,0 +1,162 @@
+{
+  "slug": "teclado-telefone-calculadora",
+  "categoria": "CURIOSIDADE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/teclado-telefone-calculadora-5.jpg",
+      "title": "Telefone tem 1-2-3 em cima. Calculadora, 7-8-9. Alguém testou",
+      "dek": "Em 1960, antes de lançar o telefone de teclas, os Bell Labs puseram 16 desenhos de teclado na frente dos próprios funcionários e cronometraram. A conclusão guarda uma surpresa: a diferença entre os finalistas era pequena.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A pergunta",
+      "heading": "Dois teclados de números, duas ordens diferentes",
+      "photo": "fotos/teclado-telefone-calculadora-2.jpg",
+      "caption": "Foto: Annie Spratt / Unsplash",
+      "body": [
+        "Olhe para o teclado do celular: 1, 2 e 3 ficam na fila de cima. Agora olhe para a calculadora ou para o teclado numérico do computador: 7, 8 e 9 ficam em cima, e o 1 fica embaixo.",
+        "Os dois convivem há décadas, e quase ninguém erra. Mas o telefone de teclas foi desenhado do zero, nos Estados Unidos, quando as máquinas de somar com 7-8-9 em cima já existiam. Por que não copiar?",
+        "A resposta está num artigo de 18 páginas publicado no Bell System Technical Journal em julho de 1960, assinado por R. L. Deininger, engenheiro dos Bell Labs."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Como os Bell Labs testaram o teclado",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Bell System Technical Journal, julho de 1960, p. 995 a 1012; manuscrito recebido em 16 de fevereiro de 1960."
+        },
+        {
+          "k": "Autor",
+          "v": "R. L. Deininger, Bell Telephone Laboratories."
+        },
+        {
+          "k": "Cobaias",
+          "v": "Funcionários dos Bell Labs em Murray Hill, Nova Jersey, sorteados: 10 a 15 por estudo."
+        },
+        {
+          "k": "Tarefa",
+          "v": "Digitar 10 a 15 números de telefone por dia, em sessões ao longo de 3 a 5 dias."
+        },
+        {
+          "k": "Medidas",
+          "v": "Tempo do primeiro ao sétimo toque, erros (comparação automática) e preferência, em entrevista no fim."
+        },
+        {
+          "k": "Teclados",
+          "v": "16 arranjos no primeiro estudo, em grupos de 3; 5 finalistas no segundo, com 15 pessoas."
+        }
+      ]
+    },
+    {
+      "type": "meter",
+      "kicker": "Primeira rodada",
+      "heading": "De 16 desenhos, 5 chegaram à final",
+      "total": 16,
+      "filled": 5,
+      "on_label": "finalistas",
+      "off_label": "eliminados",
+      "body": [
+        "Os 16 arranjos foram comparados em grupos de três; cada grupo foi testado por seis funcionários, em cinco sessões. Entraram formas retangulares e circulares, duas filas horizontais, duas colunas verticais e um desenho parecido com o disco do telefone antigo.",
+        "Em quatro das seis comparações houve diferença significativa em tempo, erro ou preferência. Os quatro melhores de cada grupo, mais o arranjo que imitava o disco, foram para a segunda rodada."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O detalhe que surpreende",
+      "heading": "O desenho de calculadora não venceu, mas por pouco",
+      "display": "sans",
+      "cells": [
+        {
+          "big": "5,08",
+          "unit": " s",
+          "label": "arranjo de máquina de somar (7-8-9 em cima)",
+          "text": "Tempo médio para digitar um número de 7 dígitos."
+        },
+        {
+          "big": "4,92",
+          "unit": " s",
+          "label": "mesma geometria, numeração diferente",
+          "text": "O artigo diz: \"as diferenças de desempenho entre os dois foram pequenas\" (tradução livre)."
+        }
+      ],
+      "body": [
+        "O arranjo \"frequentemente encontrado em máquinas de somar de dez teclas\" não foi o melhor do seu grupo de três. Mas 0,16 segundo de diferença não decide um teclado. Na segunda rodada, com os cinco finalistas, o artigo não encontrou diferença significativa nem em tempo nem em erros."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "A conclusão, em 1960",
+      "text": "Concluiu-se que qualquer um dos cinco arranjos era aceitável.",
+      "who": "R. L. Deininger, Bell System Technical Journal, julho de 1960 (tradução livre)",
+      "body": [
+        "A frase continua: o arranjo com duas colunas verticais \"deveria ser evitado porque muitos participantes não gostaram dele\". E dois dos arranjos retangulares \"ofereciam certas vantagens de engenharia e foram estudados mais a fundo\".",
+        "O artigo não diz qual deles virou o teclado do telefone, nem explica a escolha do 1-2-3 em cima. O teclado que usamos hoje é um dos retangulares: três por três, mais um."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Mito e fonte",
+      "heading": "O que se repete por aí, e o que o artigo sustenta",
+      "a": {
+        "title": "O que se repete",
+        "lines": [
+          "\"Os Bell Labs provaram que o 1-2-3 em cima é mais rápido.\"",
+          "\"O telefone foi desenhado ao contrário da calculadora de propósito.\"",
+          "\"O teclado foi escolhido pela ordem de leitura, de cima para baixo.\""
+        ]
+      },
+      "b": {
+        "title": "O que o artigo diz",
+        "lines": [
+          "Qualquer um dos cinco finalistas era aceitável; a diferença entre eles era pequena.",
+          "Os retangulares seguiram por vantagens de engenharia; as duas colunas verticais caíram porque desagradaram.",
+          "O texto não menciona ordem de leitura. Ele mede tempo, erro e preferência, e para por aí."
+        ]
+      },
+      "body": [
+        "Até o espaçamento entre as teclas pesou pouco: no arranjo três por três mais um, 5/8 ou 3/4 de polegada entre centros deu 5,56 s e 5,54 s, com 1,7% e 2,5% de erros. As pessoas só preferiam o espaçamento maior."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Teste de verdade, em 1960.** Os Bell Labs cronometraram funcionários digitando números de telefone em 16 desenhos de teclado, com erros contados automaticamente.",
+        "**A diferença era pequena.** O desenho de calculadora não foi o melhor do seu grupo, mas perdeu por 0,16 segundo; na final, nenhum dos cinco se destacou em tempo ou erro.",
+        "**Engenharia e gosto decidiram.** Os retangulares tinham vantagens de fabricação; as duas colunas verticais caíram porque as pessoas não gostaram. O artigo não explica o 1-2-3 em cima."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "R. L. Deininger — The Bell System Technical Journal, vol. 39, julho de 1960, p. 995 a 1012",
+          "what": "\"Human Factors Engineering Studies of the Design and Use of Pushbutton Telephone Sets\": método, 16 arranjos, tempos de 5,08 s e 4,92 s, conclusões, espaçamento (cópia em PDF hospedada em vcalc.net)"
+        },
+        {
+          "who": "Nokia Bell Labs, página da publicação",
+          "what": "registro oficial do artigo, data de 1º de julho de 1960"
+        },
+        {
+          "who": "DataGenetics (Nick Berry), \"Telephone Keypad Design\", 29 ago. 2015",
+          "what": "resumo do estudo e os nomes dados aos 16 arranjos; alerta que alguns nomes são do blog, não do artigo"
+        },
+        {
+          "who": "Fotos",
+          "what": "Kelly Hardwick e Annie Spratt, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O teclado do telefone foi testado antes de nascer, e o teste não deu o resultado que a lenda conta.\n\nEm julho de 1960, o engenheiro R. L. Deininger publicou no Bell System Technical Journal o estudo que precedeu o telefone de teclas. Funcionários dos Bell Labs, sorteados, digitaram 10 a 15 números de telefone por dia em 16 desenhos diferentes de teclado, com tempo cronometrado e erros contados automaticamente. O arranjo de máquina de somar, com 7-8-9 em cima, levou 5,08 segundos por número; uma versão com outra numeração, 4,92. Na final, com cinco desenhos, não houve diferença significativa. A conclusão do artigo: qualquer um dos cinco era aceitável. Os retangulares seguiram adiante por vantagens de engenharia, e o 1-2-3 em cima nunca é explicado no texto.\n\nVocê já apertou o número errado por trocar o teclado do celular pelo da calculadora?\n\n—\nFontes no último slide.\n\n#telefone #calculadora #teclado #belllabs #historia #design #curiosidade #tecnologia"
+}

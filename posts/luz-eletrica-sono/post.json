@@ -1,0 +1,168 @@
+{
+  "slug": "luz-eletrica-sono",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/luz-eletrica-sono-1.jpg",
+      "title": "A luz chegou à aldeia. O sono encurtou 35 minutos em 10 anos",
+      "dek": "Pesquisadores da Argentina e dos EUA acompanharam por 12 anos comunidades indígenas Toba/Qom enquanto a eletricidade, a TV e o celular iam chegando. O sono atrasou quase 1 hora. Mas nem a luz nem o celular, sozinhos, explicam a mudança.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que foi medido",
+      "heading": "Um relógio no pulso, três comunidades, 12 anos",
+      "photo": "fotos/luz-eletrica-sono-3.jpg",
+      "caption": "Foto: Nicholas Gray / Unsplash",
+      "body": [
+        "**156 pessoas** de três comunidades Toba/Qom, na província de Formosa, no norte da Argentina, usaram um ==actígrafo== (relógio de pulso que registra movimento e estima quando a pessoa dorme) em três períodos: 2012 a 2014, 2016 a 2018 e 2023 a 2024.",
+        "Foram 12.307 noites registradas; 11.620 entraram na análise. 93 participantes eram de duas comunidades rurais, 62 de um bairro urbano e 1 se mudou. Metade era mulher; a idade mediana ao entrar foi de 20 anos.",
+        "A pergunta: o que acontece com o sono de uma comunidade quando a eletricidade, a TV e a internet chegam, em tempo real, diante dos pesquisadores?"
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O que chegou, e quando",
+      "heading": "A modernização, ano a ano, nas comunidades rurais",
+      "items": [
+        {
+          "when": "2012",
+          "what": "Começam as medições. O bairro urbano (ao lado de uma cidade de quase 20 mil habitantes) já tinha luz 24 horas; as duas aldeias rurais, não."
+        },
+        {
+          "when": "2016",
+          "what": "A eletricidade começa a chegar a Vaca Perdida, aldeia rural de algumas centenas de pessoas, a cerca de 60 km da cidade."
+        },
+        {
+          "when": "2017",
+          "what": "Isla García, aldeia de 50 a 70 pessoas, passa a ter luz constante; acesso pleno no local atual em 2018."
+        },
+        {
+          "when": "2018",
+          "what": "Nenhum participante tinha smartphone, segundo o estudo."
+        },
+        {
+          "when": "2024",
+          "what": "Cerca de metade dos participantes tinha smartphone; proporção parecida tinha TV ou computador em casa."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "Resultado principal",
+      "big": "35",
+      "unit": " min",
+      "label": "de sono a menos por noite nas comunidades rurais, entre 2014 e 2024 (0,58 hora; intervalo de 0,30 a 0,86)",
+      "body": [
+        "A hora de dormir atrasou nos dois grupos: **0,88 hora** nas aldeias rurais e **0,90 hora** no bairro urbano, cerca de 53 minutos, segundo as previsões do modelo estatístico para uma pessoa de 22 anos.",
+        "A diferença está na manhã. No bairro urbano, a hora de acordar também atrasou (0,87 hora), e o total de sono ficou estável. Nas aldeias rurais, o despertar quase não mudou, e o sono encurtou."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Em minutos",
+      "heading": "O que mudou de 2014 a 2024, por grupo",
+      "bars": [
+        {
+          "name": "Dormir mais tarde, rural",
+          "value": 53,
+          "label": "53 min"
+        },
+        {
+          "name": "Dormir mais tarde, urbano",
+          "value": 54,
+          "label": "54 min"
+        },
+        {
+          "name": "Acordar mais tarde, urbano",
+          "value": 52,
+          "label": "52 min"
+        },
+        {
+          "name": "Acordar mais tarde, rural",
+          "value": 19,
+          "label": "19 min*",
+          "other": true
+        }
+      ],
+      "note": "Previsões do modelo do estudo (0,88 h, 0,90 h, 0,87 h e 0,32 h), convertidas em minutos. *Mudança sem significância estatística. Fonte: Casiraghi e colegas, Current Biology, 2026.",
+      "body": [
+        "O sono também ficou menos regular: o índice de regularidade caiu 5,2 pontos no grupo rural e 10,2 no urbano.",
+        "Fim de semana quase não muda nada: as pessoas dormem só 0,18 hora mais tarde e acordam 0,21 hora depois. Os autores dizem que o \"jet lag social\" é mínimo nessas comunidades."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A surpresa",
+      "heading": "A luz, sozinha, não explica. O celular, sozinho, também não",
+      "photo": "fotos/luz-eletrica-sono-4.jpg",
+      "caption": "Foto: Maik Astheimer / Unsplash",
+      "body": [
+        "Quando os pesquisadores colocaram no modelo a chegada da eletricidade e a \"era do smartphone\" (dados de 2023 em diante), o atraso na hora de dormir continuou lá: **0,12 hora por ano**, sem diminuir. Nas palavras do estudo, nenhum dos dois fatores explica a mudança por si só.",
+        "Os autores apontam outros candidatos, ligados às telas mas não só a elas: a \"vida noturna\" aberta pela TV e pela internet, o horário nobre tardio da TV argentina e os jogos de futebol à noite. É interpretação deles, não medição.",
+        "Para Leandro Casiraghi, primeiro autor, em entrevista à agência da Universidade Nacional de Quilmes: \"Ni la llegada de la electricidad ni la adopción de celulares marcan un quiebre abrupto o inmediato en el sueño\"."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Prova e não prova",
+      "heading": "O que o estudo mostra, e o que fica em aberto",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Medição objetiva, no pulso, de uma comunidade antes e depois da luz e do celular. É raro: quase todo o resto do mundo passou por isso sem ninguém medir.",
+          "Sono mais tardio, mais curto nas áreas rurais e menos regular nos dois grupos, ao longo de uma década.",
+          "Financiamento público (NIH, dos EUA, e Universidade de San Andrés, entre outros). Os autores declaram não ter conflito de interesses."
+        ]
+      },
+      "b": {
+        "title": "Não mostra",
+        "lines": [
+          "Que a luz ou o celular causam a mudança: o atraso continua mesmo descontando os dois. Pode ser o conjunto da vida moderna.",
+          "Que vale para você: são comunidades pequenas, de uma região; poucos dados rurais de antes da luz; e os aparelhos de medição mudaram ao longo dos anos (diferença abaixo de 20 min, corrigida por estatística).",
+          "Que o sono ficou \"ruim\": as médias seguem dentro das faixas recomendadas. O que mais preocupa os autores é a perda de regularidade."
+        ]
+      },
+      "body": [
+        "Houve um vazio de 5 anos nos dados (2018 a 2023), por causa da pandemia. Os autores argumentam que o efeito da pandemia seria no sentido oposto e sobretudo urbano."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**A modernização medida ao vivo.** 156 pessoas de comunidades Toba/Qom, no norte da Argentina, usaram relógio de pulso por 12 anos enquanto a luz, a TV e o celular chegavam.",
+        "**Dormir mais tarde, não acordar mais tarde.** A hora de deitar atrasou quase 1 hora em todos; nas aldeias rurais, quem precisa acordar cedo perdeu 35 minutos de sono por noite.",
+        "**Não é só a tela.** Descontando a eletricidade e o smartphone, o atraso continua. O estudo sugere que é a vida noturna como um todo, não um aparelho."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Casiraghi, Spiousas, Trebucq, Golombek, de la Iglesia e outros (Universidad de San Andrés, CONICET e University of Washington) — Current Biology, 15 out. 2026",
+          "what": "\"Longitudinal Study of Toba/Qom Communities Reveals Delay and Shortening of Sleep in Real-Time\" (doi 10.1016/j.cub.2026.09.058; manuscrito dos autores em PMC13674011): métodos, resultados, limitações, financiamento"
+        },
+        {
+          "who": "Agencia de Noticias Científicas da Universidad Nacional de Quilmes (María Ximena Perez), 5 nov. 2026",
+          "what": "entrevista com Leandro Casiraghi; resumo dos resultados"
+        },
+        {
+          "who": "Cell Press, página do artigo na Current Biology",
+          "what": "resumo e dados de publicação"
+        },
+        {
+          "who": "Fotos",
+          "what": "Zakaria EL BAZI, Nicholas Gray e Maik Astheimer, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O mais raro neste estudo não é o resultado, é a oportunidade: medir o sono de uma comunidade antes, durante e depois da chegada da luz elétrica, da TV e do celular.\n\nO artigo saiu na Current Biology em 15 de outubro, assinado por pesquisadores da Universidad de San Andrés, do CONICET (Argentina) e da University of Washington (EUA). 156 pessoas de três comunidades Toba/Qom, na província de Formosa, usaram um relógio de pulso que registra o sono em três períodos entre 2012 e 2024. A hora de dormir atrasou quase 1 hora em todos os grupos; nas aldeias rurais, onde não dá para acordar mais tarde, o sono encurtou 35 minutos. Ao descontar a chegada da eletricidade e a era do smartphone, o atraso continuou: os autores sugerem que é a vida noturna como um todo, não um aparelho. São comunidades pequenas, de uma região, e os aparelhos de medição mudaram ao longo dos anos.\n\nVocê dorme mais tarde do que dormia há 10 anos?\n\n—\nFontes no último slide.\n\n#sono #eletricidade #celular #estudo #argentina #ciencia #tecnologia #saude"
+}
