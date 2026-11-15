@@ -1,0 +1,73 @@
+{
+  "slug": "microsoft-365-queda",
+  "display": "sans",
+  "accent": "#FFC21A",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/microsoft-365-queda-1.jpg",
+      "credit": "Foto: Madeline Liu / Unsplash",
+      "anim": {
+        "type": "hook",
+        "kicker": "Notícia · Microsoft",
+        "big": "74 países",
+        "line": "sem Outlook e Teams. Não foi ataque, diz a Microsoft.",
+        "fonte": "Al Jazeera (com Reuters) e TechRadar · 13 nov. 2026"
+      },
+      "say": "Outlook e Teams caíram em pelo menos 74 países. Não foi ataque, diz a Microsoft."
+    },
+    {
+      "media": "fotos/microsoft-365-queda-3.jpg",
+      "credit": "Foto: nrd / Unsplash",
+      "kicker": "O que aconteceu",
+      "text": "De **12 a 13 de novembro**, usuários sem abrir a caixa de e-mail e Teams sem agendar reuniões. **30 h 5 min** de incidente, pelo registro da Microsoft. Fonte: Microsoft, incidente MO1550821",
+      "say": "Entre quinta e sexta, o e-mail não abria. A Microsoft registra 30 horas e 5 minutos de incidente."
+    },
+    {
+      "media": "fotos/microsoft-365-queda-1.jpg",
+      "credit": "Foto: Madeline Liu / Unsplash",
+      "kicker": "O tamanho",
+      "anim": {
+        "type": "number",
+        "value": 131,
+        "decimals": 0,
+        "prefix": "",
+        "unit": " mil",
+        "label": "relatos (mais de 131 mil) sobre o Outlook no Downdetector, site que reúne queixas de usuários. A Microsoft não disse quantas pessoas foram afetadas.",
+        "fonte": "Downdetector via TechRadar · 12 nov. 2026; Al Jazeera · 13 nov."
+      },
+      "say": "Só o Outlook passou de 131 mil queixas. A Microsoft não disse quantas pessoas foram afetadas.",
+      "hold": 0.6
+    },
+    {
+      "media": "fotos/microsoft-365-queda-2.jpg",
+      "credit": "Foto: Yuriy Vertikov / Unsplash",
+      "kicker": "A virada",
+      "text": "A causa, segundo a Microsoft: uma atualização na própria rede. Servidores saíram do ar e os outros não deram conta.",
+      "big": true,
+      "say": "A causa, segundo a Microsoft: uma atualização na própria rede. Servidores saíram do ar sem aviso, e os que sobraram não deram conta."
+    },
+    {
+      "media": "fotos/microsoft-365-queda-3.jpg",
+      "credit": "Foto: nrd / Unsplash",
+      "kicker": "Quem sentiu",
+      "text": "**Parlamento da Noruega** sem e-mail. **Saúde pública britânica** no papel. Bolsa **Euronext** por telefone. Relatório final prometido em **5 dias úteis**. Fonte: Al Jazeera com Reuters, 13 nov.; Microsoft, 14 nov.",
+      "say": "O parlamento da Noruega ficou sem e-mail. A saúde britânica voltou ao papel. A Microsoft promete o relatório final em 5 dias úteis.",
+      "hold": 0.6
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Microsoft 365 Status e central de administração, MO1550821, 12 a 14 nov. 2026",
+        "Al Jazeera, com Reuters, 13 e 14 nov. 2026",
+        "TechRadar, 12 e 13 nov.; SecurityWeek, 12 nov. 2026"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Outlook, Teams e outros serviços do Microsoft 365 caíram para usuários em pelo menos 74 países entre quinta (12) e sexta (13); a Microsoft registra 30 horas e 5 minutos de incidente.\n\nA empresa diz que a causa foi técnica e interna: uma atualização anterior de capacidade da rede deixou um problema que apareceu depois de uma nova mudança; servidores saíram do ar sem aviso e os restantes não deram conta. Não há indício de ataque, segundo a Microsoft, que ainda não explicou por que os servidores falharam e promete o relatório final em cinco dias úteis. Só o Outlook passou de 131 mil relatos no Downdetector; o número de pessoas afetadas não foi divulgado.\n\nManda para quem acha que e-mail corporativo nunca para.\n\n—\nFontes no primeiro comentário.\n\n#microsoft #outlook #teams #tecnologia #noticia",
+  "fontes_comentario": "Fontes: Microsoft 365 Status (X) e central de administração do Microsoft 365, incidentes MO1550821 e EX1550543, 12 a 14 nov. 2026 (texto reproduzido em cloudadminhub.com): horários de início e fim, causa preliminar, negação de ataque, prazo de 48 h para e-mails, promessa de relatório; Al Jazeera, com Reuters, \"Microsoft says affected services fully recovered following worldwide outage\", 13 e 14 nov. 2026: 74 países, Parlamento da Noruega, saúde britânica, Euronext, 450 milhões de assinantes; TechRadar, cobertura ao vivo \"Outlook outage\", 12 e 13 nov. 2026: Downdetector acima de 131 mil relatos, declaração da Microsoft no X; SecurityWeek, 12 nov. 2026; azureblog.co.uk, 12 e 13 nov.; controlplane.com, 13 nov. 2026. Fotos: Madeline Liu, Yuriy Vertikov e nrd, via Unsplash."
+}
