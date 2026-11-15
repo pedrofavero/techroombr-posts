@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 97.0%
+números do roteiro: 74, 30, 5, 131, 5
+números ouvidos:    74, 30, 131, 5, 5
+números: todos ouvidos
+
+ROTEIRO:
+Outlook e Teams caíram em pelo menos 74 países. Não foi ataque, diz a Microsoft. Entre quinta e sexta, o e-mail não abria. A Microsoft registra 30 horas e 5 minutos de incidente. Só o Outlook passou de 131 mil queixas. A Microsoft não disse quantas pessoas foram afetadas. A causa, segundo a Microsoft: uma atualização na própria rede. Servidores saíram do ar sem aviso, e os que sobraram não deram conta. O parlamento da Noruega ficou sem e-mail. A saúde britânica voltou ao papel. A Microsoft promete o relatório final em 5 dias úteis. Fontes no primeiro comentário.
+
+OUVIDO:
+Outlook e TAMS caíram em pelo menos 74 países. Não foi ataque, diz a Microsoft. Entre quinta e sexta, o e-mail não abria. A Microsoft registra 30 horas e cinco minutos de incidente. Só o Outlook passou de 131 mil queixas. A Microsoft não disse quantas pessoas foram afetadas. A causa, segundo a Microsoft, uma atualização na própria rede. Servidores saíram do ar sem aviso e os que sobraram não deram conta. O Parlamento da Noruega ficou sem e-mail. A Saúde Britânica voltou ao papel. A Microsoft promete o relatório final em cinco dias úteis. Fontes no primeiro comentário.

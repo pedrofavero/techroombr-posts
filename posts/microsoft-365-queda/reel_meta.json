@@ -1,0 +1,33 @@
+{
+ "slug": "microsoft-365-queda",
+ "total_s": 38.5,
+ "scenes": [
+  {
+   "dur": 6.0,
+   "start": 0.0
+  },
+  {
+   "dur": 6.5,
+   "start": 5.9
+  },
+  {
+   "dur": 7.0,
+   "start": 12.3
+  },
+  {
+   "dur": 8.0,
+   "start": 19.2
+  },
+  {
+   "dur": 9.0,
+   "start": 27.1
+  },
+  {
+   "dur": 2.5,
+   "start": 36.0
+  }
+ ],
+ "words": 99,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

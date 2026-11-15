@@ -1,0 +1,10 @@
+Outlook, Teams e outros serviços do Microsoft 365 caíram para usuários em pelo menos 74 países entre quinta (12) e sexta (13); a Microsoft registra 30 horas e 5 minutos de incidente.
+
+A empresa diz que a causa foi técnica e interna: uma atualização anterior de capacidade da rede deixou um problema que apareceu depois de uma nova mudança; servidores saíram do ar sem aviso e os restantes não deram conta. Não há indício de ataque, segundo a Microsoft, que ainda não explicou por que os servidores falharam e promete o relatório final em cinco dias úteis. Só o Outlook passou de 131 mil relatos no Downdetector; o número de pessoas afetadas não foi divulgado.
+
+Manda para quem acha que e-mail corporativo nunca para.
+
+—
+Fontes no primeiro comentário.
+
+#microsoft #outlook #teams #tecnologia #noticia
