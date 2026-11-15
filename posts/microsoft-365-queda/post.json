@@ -51,7 +51,7 @@
       "items": [
         {
           "when": "12 nov., 13h17",
-          "what": "A Microsoft abre o incidente EX1550543: pessoas não conseguem abrir a caixa de e-mail no Exchange Online, o serviço por trás do Outlook."
+          "what": "Começa a falha registrada como EX1550543: pessoas não conseguem abrir a caixa de e-mail no Exchange Online, o serviço por trás do Outlook."
         },
         {
           "when": "12 nov., 15h",
