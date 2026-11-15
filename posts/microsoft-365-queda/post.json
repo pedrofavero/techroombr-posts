@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/microsoft-365-queda-1.jpg",
       "title": "E-mail parado em 74 países por 30 horas. Não foi ataque",
-      "dek": "Na quinta (12), Outlook, Teams e outros serviços do Microsoft 365 pararam para empresas, escolas e governos. A Microsoft registra 30 horas e 5 minutos de incidente e diz que a causa foi uma mudança na própria rede, não um ataque. O relatório final ainda não saiu.",
+      "dek": "Na quinta (12), Outlook, Teams e outros serviços do Microsoft 365 pararam para empresas e governos. A Microsoft registra 30 horas e 5 minutos de incidente e diz que a causa foi uma mudança na própria rede, não um ataque. O relatório final ainda não saiu.",
       "swipe": "arraste →"
     },
     {
@@ -28,7 +28,7 @@
         },
         {
           "k": "Onde",
-          "v": "Usuários afetados em pelo menos 74 países, segundo a Reuters e o TechRadar"
+          "v": "Usuários afetados em pelo menos 74 países, segundo a Al Jazeera (com Reuters) e o TechRadar"
         },
         {
           "k": "Quantos",
@@ -55,31 +55,35 @@
         },
         {
           "when": "12 nov., 15h",
-          "what": "Pico: mais de 131 mil relatos sobre o Outlook no Downdetector (TechRadar). Às 15h26, a Microsoft abre o incidente geral MO1550821, com vários serviços."
+          "what": "Pico no Downdetector: cerca de 130 mil relatos sobre o Outlook (azureblog); o TechRadar contou mais de 131 mil na tarde. Às 15h26, abre o incidente geral MO1550821."
         },
         {
-          "when": "12 nov., noite",
-          "what": "A Microsoft diz que a sobrecarga não veio de mais tráfego, e sim de \"vários servidores inesperadamente indisponíveis\"; depois, que um \"processo central\" nesses servidores estava \"sobrecarregado\" (tradução livre)."
+          "when": "12 nov., tarde e noite",
+          "what": "A Microsoft diz que a sobrecarga veio de \"um grande número de servidores inesperadamente indisponíveis\", não de mais tráfego; à noite, que um \"processo central\" neles estava \"sobrecarregado\" (tradução livre)."
+        },
+        {
+          "when": "13 nov., 6h03",
+          "what": "Para não perder e-mails atrasados, a Microsoft estende o prazo de entrega para 48 horas."
         },
         {
           "when": "13 nov., 13h10",
-          "what": "Fim do incidente no registro da Microsoft, com restauração gradual. E-mails atrasados ganharam prazo de 48 horas para não se perderem."
+          "what": "Fim do incidente no registro da Microsoft, com restauração gradual."
         },
         {
           "when": "14 nov.",
-          "what": "A Microsoft afirma ter restaurado o serviço \"aos clientes e regiões restantes\" e promete relatório preliminar em dois dias úteis e final em cinco (tradução livre)."
+          "what": "A Microsoft diz ter restaurado o serviço \"aos clientes e regiões restantes\" e promete relatório preliminar em 2 dias úteis e final em 5 (tradução livre)."
         }
       ]
     },
     {
       "type": "inner",
       "kicker": "Por que caiu",
-      "heading": "Metade dos caixas fechou. A fila dos outros estourou",
+      "heading": "Servidores caíram em cadeia. A analogia é a fila do caixa",
       "photo": "fotos/microsoft-365-queda-2.jpg",
       "caption": "Foto: Yuriy Vertikov / Unsplash",
       "body": [
         "Pela explicação da Microsoft, uma **atualização de capacidade da rede** feita antes deixou um problema escondido, que apareceu depois de uma nova mudança na rede. **Servidores saíram do ar sem aviso**, e o trabalho deles caiu sobre os que sobraram. Nesses, um processo que abre **conexões seguras** (a camada que protege o que vai do seu computador até o servidor) não deu vazão.",
-        "É como um supermercado em que metade dos caixas fecha de repente: os outros não dão conta, e a fila cresce. A empresa afirma que foi \"um problema técnico não relacionado a cibersegurança ou a IA e agentes\", sem \"evidência de atividade maliciosa\" (tradução livre). Por que os servidores saíram do ar, ela ainda não explicou."
+        "É como um supermercado em que muitos caixas fecham de repente: os outros não dão conta, e a fila cresce. A empresa afirma que foi \"um problema técnico não relacionado a cibersegurança ou a IA e agentes\", sem \"evidência de atividade maliciosa\" (tradução livre). Por que os servidores saíram do ar, ela ainda não explicou."
       ]
     },
     {
@@ -89,8 +93,8 @@
       "photo": "fotos/microsoft-365-queda-3.jpg",
       "caption": "Foto: nrd / Unsplash",
       "body": [
-        "Segundo a Reuters e a Al Jazeera, o Parlamento da Noruega e vários ministérios ficaram sem e-mail; de 80 a 90 prefeituras da Dinamarca relataram problemas; operadoras de trem na Alemanha, no Reino Unido e no Canadá tiveram falhas em horários e bilhetes; o sistema público de saúde britânico voltou a registros em papel; a Câmara dos Deputados dos EUA e bancos em Taiwan também foram atingidos. A bolsa Euronext pediu que empresas negociassem por telefone. Nenhuma fonte consultada cita o Brasil.",
-        "\"Isso é, antes de tudo, um risco de comunicação\", disse Walter Pasquarelli, consultor de governos em IA e pesquisador afiliado à Universidade de Cambridge, à Al Jazeera (tradução livre). Para Matt Saunders, da consultoria Adaptavist, ao TechRadar, o manual clássico manda ter um segundo serviço de reserva."
+        "Segundo a Al Jazeera, com a Reuters, o Parlamento da Noruega e vários ministérios ficaram sem e-mail; entre 80 e 90 prefeituras dinamarquesas teriam sido afetadas; operadoras de trem na Alemanha, no Reino Unido e no Canadá tiveram falhas em horários e bilhetes; o sistema público de saúde britânico voltou a registros em papel; a Câmara dos Deputados dos EUA e bancos em Taiwan também foram atingidos. A bolsa Euronext pediu que empresas negociassem por telefone. Nenhuma fonte consultada cita o Brasil.",
+        "\"Isso é, antes de tudo, um risco de comunicação\", disse Walter Pasquarelli, consultor de governos em IA e pesquisador afiliado à Universidade de Cambridge, à Al Jazeera (tradução livre). Para Matt Saunders, da Adaptavist, ao TechRadar, o manual clássico de contingência sugere ter um segundo serviço de reserva."
       ]
     },
     {
@@ -144,7 +148,7 @@
           "what": "Outlook outage live: Downdetector acima de 131 mil relatos, 74 países, declaração da Microsoft no X, Matt Saunders (Adaptavist)"
         },
         {
-          "who": "SecurityWeek, 13 nov. 2026; azureblog.co.uk e controlplane.com, 13 nov. 2026",
+          "who": "SecurityWeek, 12 nov. 2026; azureblog.co.uk, 12 e 13 nov. 2026; controlplane.com, 13 nov. 2026",
           "what": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams; linha do tempo dos incidentes, processo de conexões seguras sobrecarregado, lista de serviços"
         },
         {

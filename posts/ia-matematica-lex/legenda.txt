@@ -1,6 +1,6 @@
 O mais interessante da conversa não é o que a IA provou, e sim o que três matemáticos fizeram com a notícia: discordaram entre si, em público, e com argumentos.
 
-No episódio 503 do Lex Fridman Podcast (26 de outubro), Ankur Moitra (MIT), Alex Kontorovich (Rutgers) e Steven Brunton (Universidade de Washington) discutem os anúncios de que sistemas de IA provaram uma versão das equações de Navier-Stokes e uma versão parcial da hipótese de Riemann. Para Kontorovich, as provas combinam ideias conhecidas e só valem depois de conferidas pelo programa Lean. Para Moitra, a fronteira do conhecimento mudou, mas só os acertos são anunciados: ele fala em 10% de sucesso. Para Brunton, a engenharia de fluidos do dia a dia segue igual. Tudo aqui é relato deles; os anúncios das empresas não foram checados por nós.
+No episódio 503 do Lex Fridman Podcast (26 de outubro), Ankur Moitra (MIT), Alex Kontorovich (Rutgers) e Steven Brunton (Universidade de Washington) discutem os anúncios de que sistemas de IA provaram uma versão das equações de Navier-Stokes e a chamada quase-hipótese de Riemann. Para Kontorovich, as provas combinam ideias conhecidas e só valem depois de conferidas pelo programa Lean. Para Moitra, a fronteira do conhecimento mudou, mas só os acertos são anunciados: ele fala em 10% de sucesso. Para Brunton, a engenharia de fluidos do dia a dia segue igual. Tudo aqui é relato deles; os anúncios das empresas não foram checados por nós.
 
 Se uma máquina prova algo que nenhum humano entende, isso conta como saber?
 

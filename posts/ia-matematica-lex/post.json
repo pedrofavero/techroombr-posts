@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/ia-matematica-lex-1.jpg",
       "title": "IA provou um problema de US$ 1 milhão. E os matemáticos?",
-      "dek": "No podcast de Lex Fridman, três matemáticos (MIT, Rutgers e Universidade de Washington) contam o que sentiram quando máquinas apresentaram provas de problemas que eles não esperavam ver resolvidos em vida. E por que nenhum deles apertou o botão do pânico.",
+      "dek": "No podcast de Lex Fridman, três matemáticos (MIT, Rutgers e Universidade de Washington) reagem aos anúncios de que máquinas provaram problemas históricos. Um deles não esperava ver isso em vida. Outro diz que não é hora de apertar o botão do pânico.",
       "swipe": "arraste →"
     },
     {
@@ -21,7 +21,7 @@
       "caption": "Foto: Albert Stoynov / Unsplash",
       "body": [
         "Episódio 503 do Lex Fridman Podcast, 26 de outubro de 2026, transcrição pública. Convidados: **Ankur Moitra** (MIT, matemática e ciência da computação teórica), **Alex Kontorovich** (Rutgers, teoria dos números) e **Steven Brunton** (Universidade de Washington, dinâmica de fluidos).",
-        "O gancho, nas palavras do apresentador: máquinas \"alegaram ter resolvido alguns dos problemas mais difíceis da história da matemática\" (tradução livre), entre eles as equações de Navier-Stokes, que descrevem como fluidos se movem, e uma versão parcial da hipótese de Riemann, sobre a distribuição dos números primos. Kontorovich conta que viu o anúncio e pensou: \"Eu não achava que veria uma prova da quase-hipótese de Riemann na minha vida\" (tradução livre).",
+        "O gancho, nas palavras do apresentador: máquinas \"alegaram ter resolvido alguns dos problemas mais difíceis da história da matemática\" (tradução livre), entre eles as equações de Navier-Stokes, que descrevem como fluidos se movem, e a chamada quase-hipótese de Riemann (a hipótese de Riemann trata da distribuição dos números primos). Kontorovich conta que viu o anúncio e pensou: \"Eu não achava que veria uma prova da quase-hipótese de Riemann na minha vida\" (tradução livre).",
         "Tudo neste post é relato dos três no programa. As alegações sobre o que as empresas de IA conseguiram são deles e do apresentador; não as checamos por fora."
       ]
     },
@@ -43,14 +43,14 @@
         "lines": [
           "A prova da quase-hipótese de Riemann \"não é uma ideia genuinamente nova\", mas \"uma bela combinação de muitas coisas muito bem conhecidas\" (tradução livre).",
           "Imagem dele: o conhecimento é um balão; a IA ainda \"não moveu o balão para fora\".",
-          "Cita Tim Gowers: a máquina combina movimentos já conhecidos, como peças de um jogo, numa busca muito boa."
+          "Cita Tim Gowers: a IA gera o \"semigrupo\" do que já se sabe. Nas palavras do próprio Kontorovich, ela combina peças conhecidas numa busca muito boa."
         ]
       },
       "b": {
         "title": "Moitra e Brunton: mudou, sim",
         "lines": [
-          "Moitra: \"definitivamente esses problemas mudaram a fronteira\" (tradução livre). E avisa: \"posso estar errado na semana que vem\".",
-          "Brunton prefere a imagem das peças, mas acha que a IA \"extrapola\" mais do que isso.",
+          "Moitra: \"definitivamente esses problemas mudaram a fronteira\" (tradução livre). Sobre suas próprias teses, ele ressalva: \"posso estar errado na semana que vem\".",
+          "Brunton prefere a imagem do semigrupo à do balão, mas acha que a IA \"extrapola\" mais do que isso.",
           "Moitra: a forma como a IA acerta \"é menos robusta do que a de um humano\"; as soluções \"não se parecem com as de um humano\"."
         ]
       }
@@ -64,8 +64,8 @@
       "on_label": "resolvidos e publicados",
       "off_label": "não resolvidos, segundo Moitra",
       "body": [
-        "Ankur Moitra conta que, no pacote de resultados divulgado por uma empresa de IA (Kontorovich fala em cerca de **700** problemas), foram propostos **milhares** de problemas e só os que deram certo foram publicados: \"taxa de sucesso de cerca de 10%\" (tradução livre). É o relato dele no programa, não um dado auditado.",
-        "Kontorovich acrescenta que a formalização de Fermat teve \"duas ou três\" pessoas supervisionando e que a intervenção humana foi, na maior parte, escrever \"continue\". Lex Fridman lembra que há \"muito incentivo para vender assim\" (tradução livre)."
+        "Ankur Moitra conta que, no pacote de resultados divulgado pela OpenAI (Kontorovich fala em cerca de **700** problemas), foram propostos **milhares** de problemas e só os que deram certo foram publicados: \"aparentemente\", uma \"taxa de sucesso de cerca de 10%\" (tradução livre). É o relato dele no programa, não um dado auditado.",
+        "Kontorovich acrescenta que a formalização de Fermat, feita por outra empresa (a Anthropic, segundo ele), teve \"duas ou três\" pessoas supervisionando, e a intervenção humana foi, na maior parte, escrever \"continue\". Lex Fridman lembra que há \"muito incentivo\" para vender a história de que bastou um comando (tradução livre)."
       ]
     },
     {
@@ -76,7 +76,7 @@
       "caption": "Foto: Jeremy Bishop / Unsplash",
       "body": [
         "Para Brunton, as equações de **Navier-Stokes** são \"só uma forma de dizer a conservação do momento para fluidos\" (tradução livre). Ninguém sabia se as soluções podiam \"explodir\": a velocidade ir ao infinito em tempo finito. Ele compara a uma patinadora que gira e, ao encolher os braços, gira cada vez mais rápido.",
-        "Segundo Brunton, a IA provou uma versão do problema (com uma força externa suave) e um contraexemplo em que a explosão acontece. \"Resolvemos o problema de matemática de 1 milhão de dólares\", diz. E completa: existe \"um problema de engenharia de 1 trilhão de dólares\" por trás, e esse é estimativa dele.",
+        "Segundo Brunton, a IA provou, para a versão do problema com uma força externa suave, um contraexemplo em que a explosão acontece. \"Resolvemos o problema de matemática de 1 milhão de dólares\", diz. E completa: existe \"um problema de engenharia de 1 trilhão de dólares\" por trás, e esse é estimativa dele.",
         "A ressalva vem do próprio Brunton: o dia a dia da engenharia de fluidos está \"quase completamente inalterado\". Prever turbulência em asas, corações artificiais e turbinas continua dependendo de medir e simular."
       ]
     },
@@ -87,7 +87,7 @@
       "body": [
         "Moitra, sobre orientar alunos: \"o manual e o roteiro de sucesso que tivemos por tanto tempo foram jogados pela janela\" (tradução livre). Mas: \"não acho que seja a hora de apertar o botão do pânico\".",
         "Kontorovich defende o que a máquina não substitui: \"o valor da matemática pura é que ela vive na cabeça dos seres humanos\". E, sobre uma prova que ninguém entende: \"matemática não é o fato, é o porquê\" (tradução livre).",
-        "Os três lembram que a segurança digital depende de um problema **não** resolvido: fatorar números grandes, a base da criptografia que protege o seu cartão. Se uma máquina resolvesse, \"você não poderia mais usar seu cartão de crédito na Amazon\", diz Kontorovich. É hipótese, não previsão. O próprio Fridman arrisca: de 40% a 80% do que foi dito ali estará errado em cinco anos."
+        "Kontorovich e Moitra lembram que a segurança digital depende de um problema **não** resolvido: fatorar números grandes, a base da criptografia que protege o seu cartão. Se uma máquina resolvesse, \"você não poderia mais usar seu cartão de crédito na Amazon\", diz Kontorovich. É hipótese, não previsão. O próprio Fridman arrisca: de 40% a 80% do que foi dito ali estará errado em cinco anos."
       ]
     },
     {
@@ -95,7 +95,7 @@
       "kicker": "Para levar",
       "heading": "Três coisas para contar no jantar",
       "check": [
-        "**Três matemáticos dizem que máquinas provaram problemas que eles não esperavam ver resolvidos em vida**, entre eles uma versão de Navier-Stokes e uma versão parcial da hipótese de Riemann. São relatos deles; os anúncios são das empresas.",
+        "**Três matemáticos discutem anúncios de que máquinas provaram problemas históricos**, entre eles uma versão de Navier-Stokes e a chamada quase-hipótese de Riemann. Kontorovich não esperava ver isso em vida. São relatos deles; os anúncios são das empresas.",
         "**A prova só vale depois de conferida pelo Lean, passo a passo**: a IA erra em linguagem natural. E só os acertos são anunciados: Moitra fala em 10% de sucesso.",
         "**Discordam no essencial**: para Kontorovich, a IA combinou ideias conhecidas; para Moitra, a fronteira mudou. Para a engenharia, diz Brunton, quase nada mudou ainda."
       ]
@@ -122,5 +122,5 @@
       ]
     }
   ],
-  "legenda": "O mais interessante da conversa não é o que a IA provou, e sim o que três matemáticos fizeram com a notícia: discordaram entre si, em público, e com argumentos.\n\nNo episódio 503 do Lex Fridman Podcast (26 de outubro), Ankur Moitra (MIT), Alex Kontorovich (Rutgers) e Steven Brunton (Universidade de Washington) discutem os anúncios de que sistemas de IA provaram uma versão das equações de Navier-Stokes e uma versão parcial da hipótese de Riemann. Para Kontorovich, as provas combinam ideias conhecidas e só valem depois de conferidas pelo programa Lean. Para Moitra, a fronteira do conhecimento mudou, mas só os acertos são anunciados: ele fala em 10% de sucesso. Para Brunton, a engenharia de fluidos do dia a dia segue igual. Tudo aqui é relato deles; os anúncios das empresas não foram checados por nós.\n\nSe uma máquina prova algo que nenhum humano entende, isso conta como saber?\n\n—\nFontes no último slide.\n\n#matematica #inteligenciaartificial #ia #ciencia #lexfridman #podcast #tecnologia"
+  "legenda": "O mais interessante da conversa não é o que a IA provou, e sim o que três matemáticos fizeram com a notícia: discordaram entre si, em público, e com argumentos.\n\nNo episódio 503 do Lex Fridman Podcast (26 de outubro), Ankur Moitra (MIT), Alex Kontorovich (Rutgers) e Steven Brunton (Universidade de Washington) discutem os anúncios de que sistemas de IA provaram uma versão das equações de Navier-Stokes e a chamada quase-hipótese de Riemann. Para Kontorovich, as provas combinam ideias conhecidas e só valem depois de conferidas pelo programa Lean. Para Moitra, a fronteira do conhecimento mudou, mas só os acertos são anunciados: ele fala em 10% de sucesso. Para Brunton, a engenharia de fluidos do dia a dia segue igual. Tudo aqui é relato deles; os anúncios das empresas não foram checados por nós.\n\nSe uma máquina prova algo que nenhum humano entende, isso conta como saber?\n\n—\nFontes no último slide.\n\n#matematica #inteligenciaartificial #ia #ciencia #lexfridman #podcast #tecnologia"
 }
