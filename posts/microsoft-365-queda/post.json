@@ -1,0 +1,158 @@
+{
+  "slug": "microsoft-365-queda",
+  "categoria": "NOTÍCIA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/microsoft-365-queda-1.jpg",
+      "title": "E-mail parado em 74 países por 30 horas. Não foi ataque",
+      "dek": "Na quinta (12), Outlook, Teams e outros serviços do Microsoft 365 pararam para empresas, escolas e governos. A Microsoft registra 30 horas e 5 minutos de incidente e diz que a causa foi uma mudança na própria rede, não um ataque. O relatório final ainda não saiu.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A queda, em seis linhas",
+      "rows": [
+        {
+          "k": "O quê",
+          "v": "Usuários sem conseguir abrir a caixa de e-mail no Outlook; e-mails atrasados; Teams sem agendar reuniões; Copilot, SharePoint, Intune e outros serviços com falhas"
+        },
+        {
+          "k": "Quando",
+          "v": "Pelo registro da Microsoft, de 12 de novembro às 10h05 UTC (7h05 em Brasília) a 13 de novembro às 16h10 UTC (13h10): 30 h 5 min. Os relatos em massa começaram na tarde de quinta"
+        },
+        {
+          "k": "Onde",
+          "v": "Usuários afetados em pelo menos 74 países, segundo a Reuters e o TechRadar"
+        },
+        {
+          "k": "Quantos",
+          "v": "A Microsoft não disse. No Downdetector, site que reúne queixas de usuários, o Outlook passou de 131 mil relatos no pico (TechRadar)"
+        },
+        {
+          "k": "Causa declarada",
+          "v": "\"Um problema durante uma atualização anterior de capacidade da rede, que apareceu depois de uma mudança recente na rede\" (tradução livre). Sem indício de ataque"
+        },
+        {
+          "k": "Fonte",
+          "v": "Microsoft 365 Status e central de administração, incidente MO1550821, 12 a 14 nov. 2026"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "Trinta horas, em horário de Brasília",
+      "items": [
+        {
+          "when": "12 nov., 13h17",
+          "what": "A Microsoft abre o incidente EX1550543: pessoas não conseguem abrir a caixa de e-mail no Exchange Online, o serviço por trás do Outlook."
+        },
+        {
+          "when": "12 nov., 15h",
+          "what": "Pico: mais de 131 mil relatos sobre o Outlook no Downdetector (TechRadar). Às 15h26, a Microsoft abre o incidente geral MO1550821, com vários serviços."
+        },
+        {
+          "when": "12 nov., noite",
+          "what": "A Microsoft diz que a sobrecarga não veio de mais tráfego, e sim de \"vários servidores inesperadamente indisponíveis\"; depois, que um \"processo central\" nesses servidores estava \"sobrecarregado\" (tradução livre)."
+        },
+        {
+          "when": "13 nov., 13h10",
+          "what": "Fim do incidente no registro da Microsoft, com restauração gradual. E-mails atrasados ganharam prazo de 48 horas para não se perderem."
+        },
+        {
+          "when": "14 nov.",
+          "what": "A Microsoft afirma ter restaurado o serviço \"aos clientes e regiões restantes\" e promete relatório preliminar em dois dias úteis e final em cinco (tradução livre)."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que caiu",
+      "heading": "Metade dos caixas fechou. A fila dos outros estourou",
+      "photo": "fotos/microsoft-365-queda-2.jpg",
+      "caption": "Foto: Yuriy Vertikov / Unsplash",
+      "body": [
+        "Pela explicação da Microsoft, uma **atualização de capacidade da rede** feita antes deixou um problema escondido, que apareceu depois de uma nova mudança na rede. **Servidores saíram do ar sem aviso**, e o trabalho deles caiu sobre os que sobraram. Nesses, um processo que abre **conexões seguras** (a camada que protege o que vai do seu computador até o servidor) não deu vazão.",
+        "É como um supermercado em que metade dos caixas fecha de repente: os outros não dão conta, e a fila cresce. A empresa afirma que foi \"um problema técnico não relacionado a cibersegurança ou a IA e agentes\", sem \"evidência de atividade maliciosa\" (tradução livre). Por que os servidores saíram do ar, ela ainda não explicou."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem sentiu",
+      "heading": "Parlamento, hospitais, trens e bolsa de valores",
+      "photo": "fotos/microsoft-365-queda-3.jpg",
+      "caption": "Foto: nrd / Unsplash",
+      "body": [
+        "Segundo a Reuters e a Al Jazeera, o Parlamento da Noruega e vários ministérios ficaram sem e-mail; de 80 a 90 prefeituras da Dinamarca relataram problemas; operadoras de trem na Alemanha, no Reino Unido e no Canadá tiveram falhas em horários e bilhetes; o sistema público de saúde britânico voltou a registros em papel; a Câmara dos Deputados dos EUA e bancos em Taiwan também foram atingidos. A bolsa Euronext pediu que empresas negociassem por telefone. Nenhuma fonte consultada cita o Brasil.",
+        "\"Isso é, antes de tudo, um risco de comunicação\", disse Walter Pasquarelli, consultor de governos em IA e pesquisador afiliado à Universidade de Cambridge, à Al Jazeera (tradução livre). Para Matt Saunders, da consultoria Adaptavist, ao TechRadar, o manual clássico manda ter um segundo serviço de reserva."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Balanço",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Se sabe",
+        "lines": [
+          "A Microsoft classifica a causa como técnica e interna: atualização de rede anterior mais uma mudança recente.",
+          "Não há indício de ataque, segundo a empresa.",
+          "Pelo menos 74 países e mais de 131 mil relatos só do Outlook no Downdetector.",
+          "Segundo a Al Jazeera, foi a segunda queda da Microsoft no ano e uma das mais longas da história da empresa.",
+          "O Microsoft 365 tinha mais de 450 milhões de assinantes comerciais em janeiro, segundo anúncio da empresa citado pela Al Jazeera."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Qual foi a mudança de rede e por que os servidores saíram do ar.",
+          "Quantas pessoas e organizações ficaram sem serviço.",
+          "Quanto e-mail chegou atrasado ou se perdeu.",
+          "O que a Microsoft vai mudar: o relatório final está prometido para cinco dias úteis.",
+          "Se uma falha no Outlook corrigida na mesma semana tem relação: a Microsoft não ligou uma coisa à outra (SecurityWeek)."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Outlook, Teams e outros serviços da Microsoft pararam em pelo menos 74 países**, de quinta (12) a sexta (13). A Microsoft registra 30 horas e 5 minutos de incidente.",
+        "**Não foi ataque, segundo a empresa**: uma atualização de rede deixou um problema escondido, servidores saíram do ar e os restantes não deram vazão. O detalhe do que falhou ainda não foi explicado.",
+        "**Governo, hospital e bolsa dependem do mesmo e-mail que você.** Parlamento da Noruega, saúde britânica e a bolsa Euronext tiveram de improvisar: papel e telefone."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Microsoft 365 Status (X) e central de administração do Microsoft 365, 12 a 14 nov. 2026",
+          "what": "Incidentes MO1550821 e EX1550543: horários, causa preliminar, negação de ataque, prazo de 48 h para e-mails, promessa de relatório (texto reproduzido em cloudadminhub.com)"
+        },
+        {
+          "who": "Al Jazeera, com Reuters, 13 e 14 nov. 2026",
+          "what": "Microsoft says affected services fully recovered following worldwide outage: 74 países, afetados na Europa, EUA e Taiwan, 450 milhões de assinantes, Pasquarelli"
+        },
+        {
+          "who": "TechRadar (cobertura ao vivo), 12 e 13 nov. 2026",
+          "what": "Outlook outage live: Downdetector acima de 131 mil relatos, 74 países, declaração da Microsoft no X, Matt Saunders (Adaptavist)"
+        },
+        {
+          "who": "SecurityWeek, 13 nov. 2026; azureblog.co.uk e controlplane.com, 13 nov. 2026",
+          "what": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams; linha do tempo dos incidentes, processo de conexões seguras sobrecarregado, lista de serviços"
+        },
+        {
+          "who": "Fotos",
+          "what": "Madeline Liu, Yuriy Vertikov e nrd, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O que a queda mostrou não foi fragilidade de um programa, e sim quanta coisa do mundo real passa por um mesmo serviço de e-mail e reuniões.\n\nEntre quinta (12) e sexta (13), Outlook, Teams, SharePoint, Copilot e outros serviços do Microsoft 365 falharam para usuários em pelo menos 74 países. A Microsoft registra 30 horas e 5 minutos de incidente e explica a causa como um problema introduzido numa atualização anterior da rede, que apareceu depois de uma nova mudança: servidores saíram do ar sem aviso e os restantes não deram vazão. A empresa descarta ataque e promete um relatório final em cinco dias úteis. Parlamento da Noruega, prefeituras dinamarquesas, trens na Europa e no Canadá, o sistema de saúde britânico e a bolsa Euronext tiveram de improvisar.\n\nO seu trabalho tem plano B para quando o e-mail cai?\n\n—\nFontes no último slide.\n\n#microsoft #outlook #teams #tecnologia #internet #noticia #nuvem #microsoft365"
+}

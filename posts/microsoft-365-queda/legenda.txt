@@ -1,0 +1,10 @@
+O que a queda mostrou não foi fragilidade de um programa, e sim quanta coisa do mundo real passa por um mesmo serviço de e-mail e reuniões.
+
+Entre quinta (12) e sexta (13), Outlook, Teams, SharePoint, Copilot e outros serviços do Microsoft 365 falharam para usuários em pelo menos 74 países. A Microsoft registra 30 horas e 5 minutos de incidente e explica a causa como um problema introduzido numa atualização anterior da rede, que apareceu depois de uma nova mudança: servidores saíram do ar sem aviso e os restantes não deram vazão. A empresa descarta ataque e promete um relatório final em cinco dias úteis. Parlamento da Noruega, prefeituras dinamarquesas, trens na Europa e no Canadá, o sistema de saúde britânico e a bolsa Euronext tiveram de improvisar.
+
+O seu trabalho tem plano B para quando o e-mail cai?
+
+—
+Fontes no último slide.
+
+#microsoft #outlook #teams #tecnologia #internet #noticia #nuvem #microsoft365
