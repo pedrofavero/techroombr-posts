@@ -1,0 +1,10 @@
+Trocar a senha a cada 3 meses: a norma de identidade digital do governo dos Estados Unidos, final desde julho de 2025, proíbe os sistemas de exigir isso, e também a mistura obrigatória de maiúscula, número e símbolo.
+
+O motivo está no apêndice da própria norma: regras de composição produziam "Password1!", e a troca forçada, segundo a TechRadar, a senha velha com um número a mais. O que protege, diz o NIST, é tamanho (15 caracteres quando a senha é o único fator), recusar senhas vazadas, liberar gerenciador de senhas e limitar tentativas erradas; a norma se dirige aos sistemas, não ao usuário.
+
+Manda para quem administra o sistema que ainda pede senha nova todo trimestre.
+
+—
+Fontes no primeiro comentário.
+
+#senha #seguranca #explica #nist #tecnologia
