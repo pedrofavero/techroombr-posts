@@ -1,10 +1,10 @@
-semelhança roteiro x áudio: 94.3%
+semelhança roteiro x áudio: 94.9%
 números do roteiro: 3, 2025, 1, 15
 números ouvidos:    2025, 15, 3
 números: todos ouvidos
 
 ROTEIRO:
-Trocar a senha a cada 3 meses? A norma do governo americano proíbe exigir isso. A regra famosa pede símbolo, número e troca periódica. Desde julho de 2025, o instituto de padrões americano diz: sistemas não devem exigir isso. Exigiu símbolo? Muita gente só põe um 1 e uma exclamação no fim. Forçou a troca? Vira a senha velha com um número a mais. O que protege é o tamanho: 15 caracteres, no mínimo, quando a senha é o único fator. E mais: recusar senhas vazadas, liberar gerenciador de senhas, limitar tentativas. Fontes no primeiro comentário.
+Trocar a senha a cada 3 meses? A norma do governo americano proíbe exigir isso. A regra famosa pede símbolo, número e troca periódica. Desde julho de 2025, o instituto de padrões americano diz: sistemas não devem exigir isso. Exigiu número e símbolo? Muita gente só põe um 1 e uma exclamação no fim. Forçou a troca? Vira a senha velha com um número a mais. O que protege é o tamanho: 15 caracteres, no mínimo, quando a senha é o único fator. E mais: recusar senhas vazadas, liberar gerenciador de senhas, limitar tentativas. Fontes no primeiro comentário.
 
 OUVIDO:
-Procar a senha a cada três meses, a norma do governo americano proíbe exigir isso. A regra famosa pede símbolo número e troca periódica. Desde julho de 2025, o Instituto de Padrões Americanos diz, sistemas não devem exigir isso. Exigir o símbolo, muita gente só põe um um e uma exclamação no fim. Forçou a troca, vira a senha velha com um número a mais. O que protege é o tamanho, 15 caracteres no mínimo, quando a senha é o único fator. E mais, recusar senhas vazadas, liberar gerenciador de senhas, limitar tentativas. Fontes no primeiro comentário.
+Procar a senha a cada três meses, a norma do governo americano proíbe exigir isso. A regra famosa pede símbolo número e troca periódica. Desde julho de 2025, o Instituto de Padrões Americanos diz, sistemas não devem exigir isso. Exigir o número e símbolo, muita gente só põe um e uma exclamação no fim. Forçou a troca, vira a senha velha com um número a mais. O que protege é o tamanho, 15 caracteres no mínimo quando a senha é o único fator. E mais, recusar senhas vazadas, liberar gerenciador de senhas, limitar tentativas. Fontes no primeiro comentário.
