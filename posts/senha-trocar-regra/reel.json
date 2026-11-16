@@ -31,13 +31,13 @@
         "type": "write",
         "title": "O que a regra produzia",
         "lines": [
-          "exige símbolo → ==Password1!==",
+          "exige número e símbolo → ==Password1!==",
           "força a troca → a senha velha com ==1== a mais",
           "o que protege é o ==tamanho=="
         ],
         "fonte": "apêndice A do NIST; TechRadar, set. 2024"
       },
-      "say": "Exigiu símbolo? Muita gente só põe um 1 e uma exclamação no fim. Forçou a troca? Vira a senha velha com um número a mais."
+      "say": "Exigiu número e símbolo? Muita gente só põe um 1 e uma exclamação no fim. Forçou a troca? Vira a senha velha com um número a mais."
     },
     {
       "kicker": "A regra nova",
