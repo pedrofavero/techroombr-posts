@@ -1,0 +1,10 @@
+O órgão de padrões dos Estados Unidos não pediu apenas que parem de exigir troca de senha por prazo: proibiu, em linguagem de norma.
+
+A SP 800-63B-4 do NIST, final desde julho de 2025, diz que sistemas não devem impor mistura de maiúscula, número e símbolo, nem troca periódica de senha; a troca só é obrigatória quando há indício de vazamento. O motivo está no próprio apêndice da norma: as regras antigas produziam "Password1!" e senhas velhas com um número a mais. O que protege, segundo o NIST, é tamanho (15 caracteres quando a senha é o único fator), lista de senhas vazadas, gerenciador de senhas liberado e limite de tentativas erradas. A norma vale para quem constrói sistemas, e muitos ainda seguem a regra antiga.
+
+O sistema que você mais usa no trabalho ainda pede troca de senha por prazo?
+
+—
+Fontes no último slide.
+
+#senha #seguranca #explica #nist #cibersegurança #tecnologia #privacidade

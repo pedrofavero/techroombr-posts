@@ -1,0 +1,173 @@
+{
+  "slug": "bateria-agua-iodo",
+  "categoria": "ESTUDO",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/bateria-agua-iodo-1.jpg",
+      "title": "Bateria de água: o iodo passou a entregar 4 elétrons, não 2",
+      "dek": "Químicos da University College London fizeram o iodo de uma bateria à base de água trocar 4 elétrons por átomo, em vez de 2, sem o eletrólito corrosivo que isso exigia. No laboratório, a célula guardou 96% da carga depois de 1.000 ciclos. Falta provar em escala.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que foi testado",
+      "heading": "Uma bateria que usa água em vez de solvente inflamável",
+      "photo": "fotos/bateria-agua-iodo-2.jpg",
+      "caption": "Foto: Vedrana Filipović / Unsplash",
+      "body": [
+        "Uma ==bateria aquosa== usa água como líquido interno (o eletrólito, por onde a carga circula), no lugar dos solventes inflamáveis das baterias de lítio. Segundo o comunicado da UCL, ela é mais segura e mais sustentável, mas guarda pouca energia para o tamanho que tem.",
+        "O estudo, publicado na revista **Nature** em 11 de novembro, trabalha com baterias de zinco e iodo e de alumínio e iodo. O iodo é o material que armazena a energia. São 13 autores; o primeiro é Ruwei Chen e o responsável é Guanjie He, da UCL Chemistry.",
+        "A pergunta: dá para fazer o iodo guardar o dobro de energia sem o líquido corrosivo que isso costumava exigir?"
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O número",
+      "heading": "Elétrons por átomo de iodo em cada carga e descarga",
+      "cells": [
+        {
+          "big": "2",
+          "label": "no uso convencional: 211 mAh por grama de iodo, segundo a reportagem do XenoSpectrum",
+          "text": "A química de sempre"
+        },
+        {
+          "big": "4",
+          "label": "com o novo eletrólito: 422 mAh por grama, o dobro, segundo a mesma reportagem",
+          "text": "A química do estudo"
+        }
+      ],
+      "body": [
+        "**mAh por grama** é quanta carga cada grama de material guarda. Dobrar os elétrons dobra esse limite teórico do iodo, não a bateria inteira: o comunicado da UCL diz que a mudança \"aumenta efetivamente a energia que pode ser armazenada\" (tradução livre), sem dar um número para a célula completa."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema e a saída",
+      "heading": "O iodo com carga positiva não sobrevive na água",
+      "photo": "fotos/bateria-agua-iodo-3.jpg",
+      "caption": "Foto: Karsten Würth / Unsplash",
+      "body": [
+        "Para dar 4 elétrons, o iodo precisa passar por uma forma com carga positiva (o ==cátion I+==), que o comunicado descreve como altamente reativa em água. Até agora, estabilizar essa forma exigia eletrólitos muito concentrados, com outros halogênios (a família química do cloro e do bromo), que a UCL chama de corrosivos, caros e difíceis de fabricar.",
+        "A saída foi redesenhar a vizinhança do iodo em escala molecular, nas palavras do comunicado: algumas moléculas afastam a água do iodo; outras se prendem às formas reativas dele. No resumo do artigo, os autores chamam isso de ligações de halogênio entre o I+ e moléculas chamadas nucleófilos.",
+        "Segundo a reportagem do XenoSpectrum, que leu o artigo, a receita testada no zinco e iodo usa sulfato de zinco, acetato de zinco e ureia, entre outros ingredientes comuns. Nenhum halogênio além do próprio iodo."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Durabilidade no laboratório",
+      "heading": "Quanto da capacidade sobrou depois de milhares de ciclos",
+      "bars": [
+        {
+          "name": "Depois de 1.000 ciclos (corrente de 1 A/g)",
+          "value": 96,
+          "label": "96%"
+        },
+        {
+          "name": "Depois de 2.000 ciclos (corrente de 2 A/g)",
+          "value": 94,
+          "label": "94%"
+        }
+      ],
+      "note": "Bateria de zinco e iodo, segundo a reportagem do XenoSpectrum sobre o artigo. O comunicado da UCL fala em \"milhares de ciclos\" com \"quase toda\" a capacidade; a Interesting Engineering, em \"quase toda a capacidade depois de 1.000 ciclos\".",
+      "body": [
+        "Um **ciclo** é uma carga e uma descarga completas. Perder só 4% a 6% depois de milhares deles é o resultado que os autores destacam.",
+        "A reportagem do XenoSpectrum também registra uma célula de bolsa (formato de celular e notebook) de 1,1 Ah e a versão de alumínio e iodo, cujo eletrodo negativo é uma liga de alumínio com zinco, não alumínio puro."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem, onde, com que dinheiro",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature, 11 nov. 2026 (doi 10.1038/s41586-026-11282-0); preprint desde maio de 2025"
+        },
+        {
+          "k": "Equipe",
+          "v": "13 autores; Ruwei Chen (primeiro) e Guanjie He (responsável), UCL Chemistry"
+        },
+        {
+          "k": "Formatos testados",
+          "v": "células-botão e células de bolsa (pouch), zinco-iodo e alumínio-iodo"
+        },
+        {
+          "k": "Financiamento",
+          "v": "bolsa inicial do Conselho Europeu de Pesquisa (ERC), garantida pela UKRI do Reino Unido"
+        },
+        {
+          "k": "Próximo passo",
+          "v": "testar em escala maior e em condições reais de operação, segundo Guanjie He"
+        }
+      ],
+      "body": [
+        "Segundo o comunicado, o objetivo final são as \"fazendas de baterias\" que guardam a sobra de energia solar e eólica. Baterias aquosas interessam aí por não terem o risco de incêndio do lítio nem exigirem cobalto, metal escasso."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Prova e não prova",
+      "heading": "O que o estudo mostra, e o que fica em aberto",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Que o iodo troca 4 elétrons de forma reversível num eletrólito à base de água e sem halogênios extras, em células de laboratório.",
+          "Que a receita funciona com vários nucleófilos diferentes e em dois tipos de bateria (zinco-iodo e alumínio-iodo), segundo o resumo do artigo.",
+          "Durabilidade de milhares de ciclos com quase toda a capacidade mantida."
+        ]
+      },
+      "b": {
+        "title": "Não mostra",
+        "lines": [
+          "Que está pronto para uma fazenda de baterias: a equipe ainda vai testar em escala maior e em condições reais, diz He.",
+          "Quanto a célula inteira guarda por quilo: o comunicado não dá densidade de energia nem compara com o lítio em números.",
+          "O custo real: segundo o XenoSpectrum, a análise de custo do artigo é um modelo, não uma célula fabricada."
+        ]
+      },
+      "body": [
+        "Ruwei Chen, o primeiro autor, diz que ainda é preciso entender como as moléculas interagem com a água e como isso muda ao longo das cargas e descargas. Nenhuma empresa é citada no comunicado; a pesquisa é universitária, com dinheiro público europeu."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Bateria de água, iodo em dobro.** Químicos da UCL fizeram o iodo trocar 4 elétrons por átomo em vez de 2, o que dobra a carga que cada grama de iodo pode guardar.",
+        "**O truque é no líquido.** O iodo positivo não sobrevivia na água; a equipe cercou esse iodo de moléculas comuns, como ureia, e dispensou os eletrólitos corrosivos que isso exigia.",
+        "**Laboratório, ainda não fazenda.** 96% da capacidade depois de 1.000 ciclos, em células pequenas. Escala, custo real e condições de operação ficam para a próxima etapa."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Chen, Dong, Dai, Wang, Chen, Liu, Feng, Zhong, Zong, Zhang, Yang, Cui e He — Nature, 11 nov. 2026",
+          "what": "\"Non-halogen aqueous electrolytes for four-electron iodine conversion\" (doi 10.1038/s41586-026-11282-0): resumo do artigo, lista de autores, data; preprint no Research Square em 28 mai. 2025"
+        },
+        {
+          "who": "University College London, comunicado via EurekAlert, 13 nov. 2026",
+          "what": "\"Breakthrough opens new possibilities for safer, water-based batteries\": 4 elétrons vs 2, I+ reativo em água, eletrólitos com halogênios, formatos de célula, milhares de ciclos, financiamento, próximos passos, citações de He e Chen"
+        },
+        {
+          "who": "XenoSpectrum (Y. Kobayashi), 14 nov. 2026",
+          "what": "211 vs 422 mAh/g, receita do eletrólito (sulfato e acetato de zinco, ureia), 96% após 1.000 ciclos a 1 A/g, 94% após 2.000 a 2 A/g, célula de bolsa de 1,1 Ah, liga de alumínio-zinco, análise de custo em modelo"
+        },
+        {
+          "who": "Interesting Engineering (Atharva Gosavi), 14 nov. 2026",
+          "what": "quase toda a capacidade após 1.000 ciclos; 4 elétrons; células de bolsa e botão; próximos testes em escala"
+        },
+        {
+          "who": "Fotos",
+          "what": "Moritz Kindler, Vedrana Filipović e Karsten Würth, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O detalhe que importa: ninguém inventou um material novo. O iodo é o mesmo; o que mudou foi o líquido em volta dele.\n\nBaterias à base de água são mais seguras que as de lítio, mas guardam pouca energia. Uma equipe da University College London publicou na Nature uma receita de eletrólito, com ingredientes comuns como sulfato de zinco e ureia, que faz cada átomo de iodo trocar 4 elétrons em vez de 2, sem os líquidos corrosivos que isso exigia. Em células de laboratório, a bateria de zinco e iodo manteve 96% da carga depois de 1.000 ciclos, segundo reportagem que leu o artigo. O que falta: testar em escala maior, em condições reais, e medir o custo de verdade. A ideia é guardar a sobra de energia solar e eólica em fazendas de baterias.\n\nVocê confiaria mais numa bateria que não pega fogo, mesmo que ela seja maior?\n\n—\nFontes no último slide.\n\n#bateria #energia #ciencia #estudo #quimica #energiarenovavel #tecnologia"
+}
