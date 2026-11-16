@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/senha-trocar-regra-1.jpg",
       "title": "Senha nova a cada 3 meses? A norma dos EUA proíbe exigir isso",
-      "dek": "A regra famosa diz: letra maiúscula, número, símbolo e troca periódica. A norma de identidade digital do governo americano, em vigor desde julho de 2025, diz o contrário: sistemas não devem exigir nem a mistura de caracteres nem a troca por prazo. O que vale agora é o tamanho.",
+      "dek": "A regra famosa diz: letra maiúscula, número, símbolo e troca periódica. A norma de identidade digital do governo americano, publicada em julho de 2025, diz o contrário: sistemas não devem exigir nem a mistura de caracteres nem a troca por prazo. O que vale agora é o tamanho.",
       "swipe": "arraste →"
     },
     {
@@ -20,8 +20,8 @@
       "photo": "fotos/senha-trocar-regra-2.jpg",
       "caption": "Foto: Towfiqu barbhuiya / Unsplash",
       "body": [
-        "É a regra que a maioria dos sistemas de empresa ainda aplica: maiúscula, minúscula, número, caractere especial e uma senha nova a cada 1 a 3 meses. Segundo o Ars Technica, ela nasceu décadas atrás, \"quando a segurança de senhas era mal compreendida\" (tradução livre).",
-        "Quem escreve a norma de referência nos Estados Unidos é o **NIST**, o instituto de padrões e tecnologia do governo americano. A publicação chama-se SP 800-63B, parte das Diretrizes de Identidade Digital. A versão 4, final, saiu em 31 de julho de 2025, a primeira revisão completa desde 2017.",
+        "É a regra conhecida: maiúscula, minúscula, número, caractere especial e uma senha nova a cada 1 a 3 meses. Segundo o Ars Technica, a exigência de troca periódica nasceu décadas atrás, \"quando a segurança de senhas era mal compreendida\" (tradução livre).",
+        "Quem escreve a norma de referência nos Estados Unidos é o **NIST**, o instituto de padrões e tecnologia do governo americano. A publicação chama-se SP 800-63B, parte das Diretrizes de Identidade Digital. A versão 4, final, saiu em 31 de julho de 2025, a primeira revisão maior da série desde 2017.",
         "O que ela diz sobre senhas desmonta a regra famosa ponto por ponto."
       ]
     },
@@ -33,9 +33,9 @@
         "title": "A regra famosa",
         "lines": [
           "Misturar maiúscula, minúscula, número e símbolo.",
-          "Trocar a senha a cada 30, 60 ou 90 dias.",
-          "Pergunta secreta (\"nome do primeiro pet\") e dica de senha para recuperar a conta.",
-          "Senha curta serve, desde que seja \"complexa\"."
+          "Trocar a senha a cada 1 a 3 meses.",
+          "Perguntas de segurança e dica de senha para recuperar a conta.",
+          "Complexidade, que as próprias diretrizes de 2017 do NIST recomendavam, segundo a Dark Reading."
         ]
       },
       "b": {
@@ -44,7 +44,7 @@
           "Sistemas ==não devem== impor regras de composição, como exigir misturas de tipos de caractere.",
           "Sistemas ==não devem== exigir troca periódica. A troca é obrigatória só se houver indício de que a senha vazou.",
           "Sem dica acessível a quem não está logado e sem perguntas de conhecimento pessoal.",
-          "Mínimo de **15 caracteres** quando a senha é o único fator; 8 quando há um segundo fator. Aceitar pelo menos 64."
+          "Mínimo de **15 caracteres** quando a senha é o único fator; 8 quando há um segundo fator. Recomendação: aceitar pelo menos 64."
         ]
       },
       "body": [
@@ -57,39 +57,38 @@
       "heading": "A regra produzia \"Password1!\"",
       "body": [
         "O próprio NIST explica, no apêndice sobre força de senhas: quando o sistema exige maiúscula e número, muita gente transforma \"password\" em \"Password1\"; quando exige símbolo, vira \"Password1!\". A análise de bancos de senhas vazadas mostrou que o ganho das regras de composição é menor do que se pensava, e o custo para o usuário, alto.",
-        "A troca obrigatória tem o mesmo efeito, segundo o Ars Technica: forçar uma senha nova a cada 1 a 3 meses \"pode diminuir a segurança, porque o esforço extra incentiva senhas mais fracas\" (tradução livre). A TechRadar resume: as pessoas mudavam um ou dois caracteres da senha antiga.",
-        "O que pesa de verdade, diz o apêndice, é o ==tamanho==: senhas curtas caem em ataques de força bruta e de dicionário, e não há motivo para proibir frases longas."
+        "A troca obrigatória tem o mesmo efeito, segundo o Ars Technica: forçar uma senha nova a cada 1 a 3 meses \"pode diminuir a segurança, porque o esforço extra incentiva senhas mais fracas\" (tradução livre). A TechRadar resume: as pessoas trocavam só o caractere especial ou somavam 1 ao número do fim.",
+        "O que pesa de verdade, diz o apêndice, é o ==tamanho==: senhas curtas caem em ataques de força bruta e de dicionário, e não há motivo para proibir frases longas.",
+        "Gerenciadores de senha aumentam a chance de o usuário escolher senhas mais fortes, diz a seção de verificadores da norma."
       ]
     },
     {
       "type": "steps",
       "kicker": "O que a norma manda agora",
-      "heading": "Cinco regras para quem constrói sistemas",
+      "heading": "Cinco regras para quem faz sistemas",
       "steps": [
         {
           "title": "Tamanho, não enfeite",
-          "text": "Pelo menos 15 caracteres quando a senha é o único fator (8 com segundo fator). Aceitar espaço, qualquer caractere imprimível e pelo menos 64 caracteres."
+          "text": "15 caracteres se a senha é o único fator (8 com segundo fator). Recomendado: aceitar espaço e pelo menos 64."
         },
         {
           "title": "Lista de bloqueio",
-          "text": "Comparar a senha nova com uma lista de senhas comuns, esperadas ou já vazadas, e dizer ao usuário por que ela foi recusada."
+          "text": "Recusar senhas vazadas, comuns ou ligadas ao contexto (nome do serviço, do usuário), e dizer por quê."
         },
         {
           "title": "Gerenciador liberado",
-          "text": "Permitir gerenciadores de senha e preenchimento automático; permitir colar; oferecer a opção de mostrar a senha enquanto digita."
+          "text": "Aceitar gerenciadores de senha e preenchimento automático. Recomendado: colar e mostrar a senha."
         },
         {
           "title": "Freio nas tentativas",
-          "text": "Limitar o número de tentativas erradas. O apêndice chama isso de principal defesa contra ataques on-line de adivinhação."
+          "text": "Limitar as tentativas erradas: a principal defesa contra adivinhação on-line, diz o apêndice."
         },
         {
           "title": "Guardar bem",
-          "text": "Armazenar a senha com sal e função de hash própria para senhas. Trocar à força só quando houver indício de vazamento."
+          "text": "Sal e hash próprio para senhas. Troca forçada só com indício de vazamento."
         }
       ],
-      "body": [
-        "Segundo o apêndice do NIST, gerenciadores de senha aumentam a chance de o usuário escolher senhas mais fortes."
-      ]
+      "body": []
     },
     {
       "type": "timeline",
@@ -98,7 +97,7 @@
       "items": [
         {
           "when": "2017",
-          "what": "A revisão 3 da SP 800-63B diz que sistemas \"não deveriam\" exigir troca periódica, segundo o blog de Kirk Strauser; a Dark Reading também registra o SHOULD NOT das versões anteriores."
+          "what": "Sai a SP 800-63B anterior (atualizada em 2020). Segundo a Dark Reading, as diretrizes de 2017 recomendavam complexidade; sobre troca periódica, a versão anterior dizia \"não deveriam\" (SHOULD NOT), na seção 5.1.1.2, segundo Kirk Strauser."
         },
         {
           "when": "set. 2024",
@@ -120,11 +119,11 @@
       "heading": "Três ideias para recontar",
       "check": [
         "**A regra famosa está errada.** A norma de identidade digital do governo dos EUA (NIST SP 800-63B-4, julho de 2025) proíbe os sistemas de exigir mistura de caracteres e troca periódica de senha.",
-        "**O motivo é humano.** Regras de composição geram \"Password1!\"; a troca forçada gera a senha velha com um número a mais. O NIST cita pesquisas com senhas vazadas para dizer isso.",
+        "**O motivo é humano.** Regras de composição geram \"Password1!\", diz o NIST, citando pesquisas com senhas vazadas; a troca forçada gera a senha velha com um número a mais, resume a TechRadar.",
         "**O que protege é tamanho e lista de bloqueio.** 15 caracteres quando a senha é o único fator, nada de senha já vazada, gerenciador de senhas liberado e limite de tentativas erradas."
       ],
       "after": [
-        "A norma é para quem constrói sistemas, não para o usuário. Mas ela explica por que o seu banco ainda pede símbolo: a regra antiga demora a sair."
+        "A norma se dirige a quem verifica senhas (os sistemas), não ao usuário. Segundo o Ars Technica, organizações que interagem on-line com o governo federal americano precisam cumpri-la."
       ]
     },
     {
@@ -139,7 +138,7 @@
           "what": "data final 31 jul. 2025; autores Temoshok, Fenton, Choong, Lefkovitz, Regenscheid, Galluzzo e Richer; substitui a SP 800-63B de 2017 (atualizada em 2020); \"primeira revisão maior desde 2017\""
         },
         {
-          "who": "Ars Technica (Dan Goodin), 26 set. 2024, via Slashdot e TechRadar (Benedict Collins)",
+          "who": "Ars Technica (Dan Goodin), set. 2024, via Slashdot e TechRadar (Benedict Collins), 26 set. 2024",
           "what": "rascunho de 2024: 8 obrigatório e 15 recomendado; origem da regra \"décadas atrás\"; troca a cada 1 a 3 meses incentiva senhas fracas; usuários mudavam poucos caracteres"
         },
         {
@@ -153,5 +152,5 @@
       ]
     }
   ],
-  "legenda": "O órgão de padrões dos Estados Unidos não pediu apenas que parem de exigir troca de senha por prazo: proibiu, em linguagem de norma.\n\nA SP 800-63B-4 do NIST, final desde julho de 2025, diz que sistemas não devem impor mistura de maiúscula, número e símbolo, nem troca periódica de senha; a troca só é obrigatória quando há indício de vazamento. O motivo está no próprio apêndice da norma: as regras antigas produziam \"Password1!\" e senhas velhas com um número a mais. O que protege, segundo o NIST, é tamanho (15 caracteres quando a senha é o único fator), lista de senhas vazadas, gerenciador de senhas liberado e limite de tentativas erradas. A norma vale para quem constrói sistemas, e muitos ainda seguem a regra antiga.\n\nO sistema que você mais usa no trabalho ainda pede troca de senha por prazo?\n\n—\nFontes no último slide.\n\n#senha #seguranca #explica #nist #cibersegurança #tecnologia #privacidade"
+  "legenda": "O órgão de padrões dos Estados Unidos não pediu apenas que parem de exigir troca de senha por prazo: proibiu, em linguagem de norma.\n\nA SP 800-63B-4 do NIST, final desde julho de 2025, diz que sistemas não devem impor mistura de maiúscula, número e símbolo, nem troca periódica de senha; a troca só é obrigatória quando há indício de vazamento. O motivo está no próprio apêndice da norma: as regras de composição produziam \"Password1!\"; a troca forçada, segundo a TechRadar, a senha velha com um número a mais. O que protege, segundo o NIST, é tamanho (15 caracteres quando a senha é o único fator), lista de senhas vazadas, gerenciador de senhas liberado e limite de tentativas erradas. A norma se dirige aos sistemas que verificam senhas, não ao usuário.\n\nO sistema que você mais usa no trabalho ainda pede troca de senha por prazo?\n\n—\nFontes no último slide.\n\n#senha #seguranca #explica #nist #cibersegurança #tecnologia #privacidade"
 }

@@ -1,6 +1,6 @@
 O detalhe que importa: ninguém inventou um material novo. O iodo é o mesmo; o que mudou foi o líquido em volta dele.
 
-Baterias à base de água são mais seguras que as de lítio, mas guardam pouca energia. Uma equipe da University College London publicou na Nature uma receita de eletrólito, com ingredientes comuns como sulfato de zinco e ureia, que faz cada átomo de iodo trocar 4 elétrons em vez de 2, sem os líquidos corrosivos que isso exigia. Em células de laboratório, a bateria de zinco e iodo manteve 96% da carga depois de 1.000 ciclos, segundo reportagem que leu o artigo. O que falta: testar em escala maior, em condições reais, e medir o custo de verdade. A ideia é guardar a sobra de energia solar e eólica em fazendas de baterias.
+Baterias à base de água são mais seguras que as de lítio, mas guardam pouca energia. Uma equipe da University College London publicou na Nature uma receita de eletrólito, com ingredientes comuns como sulfato de zinco e ureia, que faz cada átomo de iodo trocar 4 elétrons em vez de 2, sem os líquidos corrosivos que isso exigia. Em células de laboratório, a bateria de zinco e iodo manteve 96% da carga depois de 1.000 ciclos, segundo reportagem que detalha o artigo. O que falta: testar em escala maior, em condições reais, e medir o custo de verdade. A ideia é guardar a sobra de energia solar e eólica em fazendas de baterias.
 
 Você confiaria mais numa bateria que não pega fogo, mesmo que ela seja maior?
 

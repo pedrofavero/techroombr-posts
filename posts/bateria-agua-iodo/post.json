@@ -22,7 +22,7 @@
       "body": [
         "Uma ==bateria aquosa== usa água como líquido interno (o eletrólito, por onde a carga circula), no lugar dos solventes inflamáveis das baterias de lítio. Segundo o comunicado da UCL, ela é mais segura e mais sustentável, mas guarda pouca energia para o tamanho que tem.",
         "O estudo, publicado na revista **Nature** em 11 de novembro, trabalha com baterias de zinco e iodo e de alumínio e iodo. O iodo é o material que armazena a energia. São 13 autores; o primeiro é Ruwei Chen e o responsável é Guanjie He, da UCL Chemistry.",
-        "A pergunta: dá para fazer o iodo guardar o dobro de energia sem o líquido corrosivo que isso costumava exigir?"
+        "A pergunta: dá para fazer cada grama de iodo guardar o dobro de carga sem o líquido corrosivo que isso costumava exigir?"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "body": [
         "Para dar 4 elétrons, o iodo precisa passar por uma forma com carga positiva (o ==cátion I+==), que o comunicado descreve como altamente reativa em água. Até agora, estabilizar essa forma exigia eletrólitos muito concentrados, com outros halogênios (a família química do cloro e do bromo), que a UCL chama de corrosivos, caros e difíceis de fabricar.",
         "A saída foi redesenhar a vizinhança do iodo em escala molecular, nas palavras do comunicado: algumas moléculas afastam a água do iodo; outras se prendem às formas reativas dele. No resumo do artigo, os autores chamam isso de ligações de halogênio entre o I+ e moléculas chamadas nucleófilos.",
-        "Segundo a reportagem do XenoSpectrum, que leu o artigo, a receita testada no zinco e iodo usa sulfato de zinco, acetato de zinco e ureia, entre outros ingredientes comuns. Nenhum halogênio além do próprio iodo."
+        "Segundo a reportagem do XenoSpectrum, que detalha o artigo, a receita testada no zinco e iodo tem três partes: sulfato de zinco, acetato de zinco e um nucleófilo comum, como a ureia (a equipe testou quatro). Sem os sais de haleto que antes eram necessários, diz a reportagem."
       ]
     },
     {
@@ -73,9 +73,9 @@
           "label": "94%"
         }
       ],
-      "note": "Bateria de zinco e iodo, segundo a reportagem do XenoSpectrum sobre o artigo. O comunicado da UCL fala em \"milhares de ciclos\" com \"quase toda\" a capacidade; a Interesting Engineering, em \"quase toda a capacidade depois de 1.000 ciclos\".",
+      "note": "Bateria de zinco e iodo, segundo a reportagem do XenoSpectrum sobre o artigo. O comunicado da UCL fala em \"milhares de ciclos\" com \"quase toda\" a capacidade; a Interesting Engineering, em quase toda a capacidade depois de mais de 1.000 ciclos.",
       "body": [
-        "Um **ciclo** é uma carga e uma descarga completas. Perder só 4% a 6% depois de milhares deles é o resultado que os autores destacam.",
+        "Um **ciclo** é uma carga e uma descarga completas. Manter quase tudo depois de milhares deles é o resultado que o comunicado destaca; os 96% e 94% vêm da reportagem do XenoSpectrum.",
         "A reportagem do XenoSpectrum também registra uma célula de bolsa (formato de celular e notebook) de 1,1 Ah e a versão de alumínio e iodo, cujo eletrodo negativo é uma liga de alumínio com zinco, não alumínio puro."
       ]
     },
@@ -106,7 +106,7 @@
         }
       ],
       "body": [
-        "Segundo o comunicado, o objetivo final são as \"fazendas de baterias\" que guardam a sobra de energia solar e eólica. Baterias aquosas interessam aí por não terem o risco de incêndio do lítio nem exigirem cobalto, metal escasso."
+        "Segundo o comunicado, o objetivo final são as \"fazendas de baterias\" que guardam a sobra de energia solar e eólica. Baterias aquosas interessam aí porque, segundo o comunicado, são mais seguras e mais sustentáveis; as de lítio trazem risco de incêndio e exigem mineração de cobalto, metal escasso."
       ]
     },
     {
@@ -130,7 +130,7 @@
         ]
       },
       "body": [
-        "Ruwei Chen, o primeiro autor, diz que ainda é preciso entender como as moléculas interagem com a água e como isso muda ao longo das cargas e descargas. Nenhuma empresa é citada no comunicado; a pesquisa é universitária, com dinheiro público europeu."
+        "Ruwei Chen, o primeiro autor, diz que ainda é preciso entender como as moléculas interagem com a água e como isso muda ao longo das cargas e descargas. Nenhuma empresa é citada no comunicado; a pesquisa é universitária, com bolsa do Conselho Europeu de Pesquisa garantida pela agência britânica UKRI."
       ]
     },
     {
@@ -169,5 +169,5 @@
       ]
     }
   ],
-  "legenda": "O detalhe que importa: ninguém inventou um material novo. O iodo é o mesmo; o que mudou foi o líquido em volta dele.\n\nBaterias à base de água são mais seguras que as de lítio, mas guardam pouca energia. Uma equipe da University College London publicou na Nature uma receita de eletrólito, com ingredientes comuns como sulfato de zinco e ureia, que faz cada átomo de iodo trocar 4 elétrons em vez de 2, sem os líquidos corrosivos que isso exigia. Em células de laboratório, a bateria de zinco e iodo manteve 96% da carga depois de 1.000 ciclos, segundo reportagem que leu o artigo. O que falta: testar em escala maior, em condições reais, e medir o custo de verdade. A ideia é guardar a sobra de energia solar e eólica em fazendas de baterias.\n\nVocê confiaria mais numa bateria que não pega fogo, mesmo que ela seja maior?\n\n—\nFontes no último slide.\n\n#bateria #energia #ciencia #estudo #quimica #energiarenovavel #tecnologia"
+  "legenda": "O detalhe que importa: ninguém inventou um material novo. O iodo é o mesmo; o que mudou foi o líquido em volta dele.\n\nBaterias à base de água são mais seguras que as de lítio, mas guardam pouca energia. Uma equipe da University College London publicou na Nature uma receita de eletrólito, com ingredientes comuns como sulfato de zinco e ureia, que faz cada átomo de iodo trocar 4 elétrons em vez de 2, sem os líquidos corrosivos que isso exigia. Em células de laboratório, a bateria de zinco e iodo manteve 96% da carga depois de 1.000 ciclos, segundo reportagem que detalha o artigo. O que falta: testar em escala maior, em condições reais, e medir o custo de verdade. A ideia é guardar a sobra de energia solar e eólica em fazendas de baterias.\n\nVocê confiaria mais numa bateria que não pega fogo, mesmo que ela seja maior?\n\n—\nFontes no último slide.\n\n#bateria #energia #ciencia #estudo #quimica #energiarenovavel #tecnologia"
 }
