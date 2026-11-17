@@ -1,0 +1,73 @@
+{
+  "slug": "faa-roteador-parou-avioes",
+  "display": "sans",
+  "accent": "#FFC21A",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/faa-roteador-parou-avioes-1.jpg",
+      "credit": "Foto: Jonathan Wang / Unsplash",
+      "anim": {
+        "type": "hook",
+        "kicker": "Notícia · aviação",
+        "big": "3.500",
+        "line": "aviões no ar quando os EUA pararam todos os voos.",
+        "fonte": "FAA, perguntas e respostas · 15 nov. 2026"
+      },
+      "say": "Cerca de 3.500 aviões estavam no ar quando os Estados Unidos pararam todos os voos."
+    },
+    {
+      "media": "fotos/faa-roteador-parou-avioes-4.jpg",
+      "credit": "Foto: Metin Ozer / Unsplash",
+      "kicker": "O que aconteceu",
+      "text": "Sexta, **13 de novembro**: nenhuma decolagem por **mais de 4 horas**, das 15h54 às 20h15 (horário de Washington). Instabilidade em **17 dos 22** centros de controle de rota. Fonte: FAA, 15 nov.; Al Jazeera com Reuters, 13 nov.",
+      "say": "Na sexta, nenhum avião decolou por mais de 4 horas. 17 dos 22 centros de controle ficaram instáveis."
+    },
+    {
+      "media": "fotos/faa-roteador-parou-avioes-2.jpg",
+      "credit": "Foto: Jayson Hinrichsen / Unsplash",
+      "kicker": "A causa apontada",
+      "anim": {
+        "type": "number",
+        "value": 1000,
+        "decimals": 0,
+        "prefix": "",
+        "unit": "",
+        "label": "tentativas de conexão a cada 4 ou 5 segundos inundaram a rede de telecomunicações da FAA, ainda com fios de cobre, depois da instalação de um roteador novo em um posto remoto no Arkansas.",
+        "fonte": "FAA · 15 nov. 2026; Reuters · 16 nov. 2026"
+      },
+      "say": "A causa apontada: um roteador novo foi instalado, e a rede antiga, de cobre, recebeu mil tentativas de conexão a cada 4 ou 5 segundos.",
+      "hold": 0.6
+    },
+    {
+      "media": "fotos/faa-roteador-parou-avioes-1.jpg",
+      "credit": "Foto: Jonathan Wang / Unsplash",
+      "kicker": "A virada",
+      "text": "**3 dias antes**, a FAA tinha anunciado uma ferramenta de IA para todos os 22 centros. Ela diz que os dois sistemas não têm relação. Fonte: FAA, 10 e 15 nov.",
+      "big": true,
+      "say": "Mas 3 dias antes a agência tinha anunciado uma ferramenta de inteligência artificial para todos os centros. E diz que não há relação."
+    },
+    {
+      "media": "fotos/faa-roteador-parou-avioes-2.jpg",
+      "credit": "Foto: Jayson Hinrichsen / Unsplash",
+      "kicker": "O que falta",
+      "text": "A origem exata **ainda está em investigação**. Fonte: FAA, 15 nov.; Reuters, 16 nov.",
+      "say": "A origem exata ainda está em investigação.",
+      "hold": 0.6
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "FAA, Nationwide Ground Stop: Questions and Answers, 15 nov. 2026",
+        "FAA, SMART Expanding Across the Nation, 10 nov. 2026",
+        "Reuters (Shepardson), 16 nov.; Al Jazeera com Reuters, 13 nov. 2026"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Os Estados Unidos proibiram decolagens no país inteiro por mais de 4 horas na sexta (13), e a causa apontada pela FAA é a instalação de um roteador novo em um posto remoto no Arkansas.\n\nSegundo a agência, o aparelho inundou de dados uma rede de telecomunicações antiga, ainda com fios de cobre, e 17 dos 22 centros de controle de rota ficaram instáveis; cerca de 3.500 aviões estavam no ar e pousaram em segurança. Três dias antes, a FAA tinha anunciado a expansão de uma ferramenta de IA a todos os centros; a agência diz que os dois sistemas não têm relação, e a origem exata da falha segue em investigação.\n\nManda para quem acha que a parte frágil da tecnologia é sempre a mais nova.\n\n—\nFontes no primeiro comentário.\n\n#aviação #FAA #tecnologia #infraestrutura #noticia",
+  "fontes_comentario": "Fontes: FAA, \"Nationwide Ground Stop: Questions and Answers\", 15 nov. 2026: problema por volta das 15h30, retomada às 20h15, 1.000 tentativas de conexão a cada 4 a 5 segundos, El Dorado (Arkansas) e Amarillo (Texas), L3Harris, sistema TDM e fios de cobre, 17 de 22 centros, cerca de 3.500 aviões, 12.462 cancelamentos, SMART \"não tem relação\", sem indício de ataque; FAA, declaração \"SMART Expanding Across the Nation\", 10 nov. 2026: uso nos 22 centros, 200 fluxos de dados, 180 voos, 10 minutos e quase 80 galões por voo desde 21 de setembro; Reuters (David Shepardson), 16 nov. 2026, via WKZO: causa ainda não clara, roteadores de 2001, laboratório da L3Harris na Flórida, FBI, HPE, mais de 18 mil cancelamentos; Al Jazeera com Reuters, 13 nov. 2026: ordem às 15h54, FlightAware, Mullin, contrato de US$ 875 milhões; ABC News, 14 nov. 2026; AVweb (Matt Ryan), 12 e 13 nov. 2026; The Next Web, 16 nov. 2026; Gizmodo (Tom McKay), 12 nov. 2026. Fotos: Jonathan Wang, Jayson Hinrichsen e Metin Ozer, via Unsplash."
+}
