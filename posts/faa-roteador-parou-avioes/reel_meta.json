@@ -1,0 +1,33 @@
+{
+ "slug": "faa-roteador-parou-avioes",
+ "total_s": 37.0,
+ "scenes": [
+  {
+   "dur": 6.0,
+   "start": 0.0
+  },
+  {
+   "dur": 7.5,
+   "start": 5.9
+  },
+  {
+   "dur": 9.5,
+   "start": 13.3
+  },
+  {
+   "dur": 8.5,
+   "start": 22.7
+  },
+  {
+   "dur": 3.5,
+   "start": 31.1
+  },
+  {
+   "dur": 2.5,
+   "start": 34.5
+  }
+ ],
+ "words": 92,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}

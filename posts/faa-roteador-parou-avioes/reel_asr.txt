@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 94.6%
+números do roteiro: 3500, 4, 17, 22, 4, 5, 3
+números ouvidos:    3500, 17, 22, 4, 4, 5, 3
+números: todos ouvidos
+
+ROTEIRO:
+Cerca de 3.500 aviões estavam no ar quando os Estados Unidos pararam todos os voos. Na sexta, nenhum avião decolou por mais de 4 horas. 17 dos 22 centros de controle ficaram instáveis. A causa apontada: um roteador novo foi instalado, e a rede antiga, de cobre, recebeu mil tentativas de conexão a cada 4 ou 5 segundos. Mas 3 dias antes a agência tinha anunciado uma ferramenta de inteligência artificial para todos os centros. E diz que não há relação. A origem exata ainda está em investigação. Fontes no primeiro comentário.
+
+OUVIDO:
+Cerca de 3.500 aviões estavam no ar quando os Estados Unidos pararam todos os voos. Na sexta, nenhum avião decolou por mais de quatro horas. 17 dos 22 centros de controle ficaram instáveis. A causa apontada, um roteador novo foi instalado e a rede antiga de Cobre recebeu mil tentativas de conexão a cada quatro ou cinco segundos. Mais três dias antes a agência tinha anunciado uma ferramenta de inteligência artificial para todos os centros e diz que não há relação. A origem exata ainda está em investigação. Fontes no primeiro comentário.
