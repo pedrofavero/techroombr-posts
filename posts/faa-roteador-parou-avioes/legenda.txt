@@ -1,0 +1,10 @@
+A falha que parou os aviões não estava na parte nova do sistema, e sim na parte velha que ninguém vê.
+
+Na sexta (13), a FAA, a agência de aviação dos EUA, proibiu decolagens no país inteiro por mais de 4 horas. Pela explicação da agência, a instalação de um roteador novo em um posto remoto no Arkansas inundou de dados uma rede de telecomunicações dos anos 1980, ainda com fios de cobre, e 17 dos 22 centros de controle de rota ficaram instáveis. Cerca de 3.500 aviões estavam no ar e pousaram em segurança. Três dias antes, a FAA tinha anunciado a expansão de uma ferramenta de IA a todos os centros; a agência diz que os dois sistemas não têm relação, e a causa exata ainda está em investigação.
+
+Se uma rede dos anos 1980 segura a aviação de um país, qual é a infraestrutura antiga que ainda segura a sua rotina?
+
+—
+Fontes no último slide.
+
+#TheTechRoom #tecnologia #aviação #FAA #infraestrutura #inteligenciaartificial #notícias #explicação

@@ -1,0 +1,134 @@
+{
+  "slug": "intel-4004-primeiro-chip",
+  "categoria": "HISTÓRIA",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/intel-4004-primeiro-chip-1.jpg",
+      "title": "O primeiro microprocessador nasceu para uma calculadora",
+      "dek": "Em 15 de novembro de 1971, um anúncio na publicação Electronic News apresentou o Intel 4004: um computador inteiro em um chip de 2.300 transistores. Ele existia porque uma empresa japonesa de calculadoras pediu outra coisa.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Uma calculadora que precisava de 12 chips",
+      "body": [
+        "Em 1969, a **Busicom**, fabricante japonesa de calculadoras, encomendou à Intel os chips de uma calculadora de mesa, a **141-PF**. A Intel tinha sido fundada poucos anos antes por Gordon Moore e Robert Noyce.",
+        "O projeto da Busicom previa **12 chips feitos sob medida**, cada um com mais de 3.000 transistores, segundo o engenheiro Ted Hoff contou à IEEE Spectrum. Um ==transistor== é a chave microscópica que liga e desliga a corrente; é dele que o chip é feito.",
+        "Hoff propôs o contrário: em vez de 12 chips especializados, **um chip genérico que seguisse instruções**, como um computador, mais poucos chips de apoio. Em outubro de 1969, a Busicom escolheu a ideia dele."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "Do pedido ao anúncio, em dois anos",
+      "items": [
+        {
+          "when": "Out. 1969",
+          "what": "Em reunião com a direção da Busicom, vence a proposta de Hoff: um chip genérico que segue instruções, mais chips de apoio. Também no projeto: Stan Mazor, da Intel, e Masatoshi Shima, da Busicom."
+        },
+        {
+          "when": "Abr. 1970",
+          "what": "A Intel contrata Federico Faggin para desenhar o circuito. Ele conta que ficou de queixo caído: tinha menos de seis meses para desenhar quatro chips."
+        },
+        {
+          "when": "Mar. 1971",
+          "what": "A Busicom recebe o primeiro conjunto completo e funcional de chips, conhecido como MCS-4. O 4004 é o chip que executa as instruções."
+        },
+        {
+          "when": "15 nov. 1971",
+          "what": "Sai na publicação Electronic News o anúncio do 4004 para qualquer cliente: \"Anunciando uma nova era da eletrônica integrada\" (tradução livre)."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O chip",
+      "heading": "Um computador do tamanho de uma unha",
+      "display": "sans",
+      "big": "2.300",
+      "label": "transistores no Intel 4004, em um chip de 16 pinos",
+      "body": [
+        "O 4004 trabalhava com 4 bits por vez, a um ritmo máximo de 740 mil ciclos por segundo, e executava cerca de 92 mil instruções por segundo, segundo a New Atlas e a Wikipédia.",
+        "Parece pouco hoje. Mas, segundo a New Atlas, aquele único chip tinha o poder dos primeiros computadores de 1946, que ocupavam salas inteiras."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O desenhista",
+      "text": "Fiquei de queixo caído: eu tinha menos de seis meses para desenhar quatro chips.",
+      "who": "Federico Faggin, sobre sua chegada à Intel em abril de 1970, citado pela IEEE Spectrum (tradução livre)",
+      "body": [
+        "Faggin entrou na Intel pouco antes de Shima, da Busicom, chegar para acompanhar o projeto, segundo a EE Journal. Os dois produziram amostras funcionais em cerca de nove meses, e o primeiro 4004 funcionou em um testador em janeiro de 1971.",
+        "A IEEE Spectrum lista quatro nomes no projeto: Hoff, Mazor, Faggin e Shima."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A virada",
+      "heading": "O chip era da Busicom. A Intel comprou o direito de vendê-lo",
+      "photo": "fotos/intel-4004-primeiro-chip-2.jpg",
+      "caption": "Foto: Jakub Pabis / Unsplash",
+      "body": [
+        "Pelo contrato, os chips pertenciam à Busicom. A Intel ofereceu um **desconto no preço dos chips** em troca do direito de vender a família 4000 para usos que não fossem calculadoras, segundo a IEEE Spectrum.",
+        "Robert Noyce, cofundador da Intel, e Hoff escreveram em 1981: \"por negociação, a Intel obteve o direito de vender o conjunto de chips a outros clientes para aplicações que não calculadoras\" (tradução livre, citado pela EE Journal).",
+        "Foi esse direito que virou o anúncio de 15 de novembro de 1971. O chip feito para uma calculadora passou a ser vendido como componente para qualquer máquina que não fosse uma calculadora."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ficou",
+      "heading": "Tirar o computador das mãos de poucos",
+      "body": [
+        "Um chip que executa instruções, vendido como peça avulsa, podia entrar em qualquer máquina, não só na calculadora para a qual foi encomendado. Segundo a New Atlas, ele ajudou a acender a revolução dos computadores pessoais.",
+        "Hoff disse à IEEE Spectrum, em 1994, que um resultado do trabalho com microprocessadores sempre o agradou: \"tiramos os computadores daquelas pessoas\" (tradução livre), referindo-se ao pessoal dos centros de computação.",
+        "O Museu de História da Computação marca 15 de novembro como o dia do primeiro anúncio de um microprocessador."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O primeiro microprocessador foi encomendado para uma calculadora japonesa.** A Busicom pediu 12 chips; a Intel entregou 4, com um chip genérico que seguia instruções.",
+        "**O Intel 4004 tinha 2.300 transistores** e foi anunciado em 15 de novembro de 1971, há 55 anos, como um chip para qualquer cliente.",
+        "**A virada foi comercial, não só técnica.** A Intel trocou um desconto pelo direito de vender o chip a outros clientes, fora das calculadoras, e assim ele saiu da calculadora."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Computer History Museum, \"This Day in History\", 15 de novembro",
+          "what": "anúncio na Electronic News em 15 nov. 1971; Faggin, Hoff, Mazor e Shima; Intel fundada por Moore e Noyce"
+        },
+        {
+          "who": "Ted Hoff, em perfil de Tekla S. Perry, IEEE Spectrum (fev. 1994)",
+          "what": "doze chips com mais de 3.000 transistores; reunião de outubro de 1969; 2.300 transistores; \"tiramos os computadores daquelas pessoas\""
+        },
+        {
+          "who": "Stephen Cass, \"Chip Hall of Fame: Intel 4004\", IEEE Spectrum",
+          "what": "Faggin contratado em abril de 1970; \"queixo caído\"; conjunto completo em março de 1971; quatro chips; desconto em troca do direito de venda; 141-PF; texto do anúncio"
+        },
+        {
+          "who": "David Szondy, New Atlas, 19 nov. 2021; Steven Leibson, EE Journal, 16 nov. 2021",
+          "what": "2.300 transistores, 16 pinos, 740 kHz, 92.600 instruções por segundo, comparação com 1946; Shima e Faggin, citação de Noyce (IEEE Micro, 1981)"
+        },
+        {
+          "who": "Wikipédia em inglês, verbete Intel 4004",
+          "what": "15 nov. 1971; 2.300 transistores; 740 kHz; outubro de 1969; conjunto de quatro chips"
+        },
+        {
+          "who": "Fotos",
+          "what": "Jonathan Castañeda e Jakub Pabis, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O chip que ajudou a abrir caminho para os computadores pessoais foi um pedido de calculadora que a Intel resolveu de um jeito diferente.\n\nEm 1969, a japonesa Busicom encomendou 12 chips sob medida para uma calculadora de mesa. Ted Hoff propôs um chip genérico que seguisse instruções, Federico Faggin desenhou o circuito em menos de um ano e, em março de 1971, o conjunto de quatro chips funcionou. O detalhe decisivo foi comercial: a Intel deu um desconto à Busicom em troca do direito de vender o 4004 para usos fora das calculadoras. O anúncio saiu na publicação Electronic News em 15 de novembro de 1971, há 55 anos.\n\nQual objeto da sua casa você acha que tem um microprocessador escondido?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #história #Intel #microprocessador #chips #computação #curiosidades"
+}

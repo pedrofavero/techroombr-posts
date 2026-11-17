@@ -1,0 +1,170 @@
+{
+  "slug": "faa-roteador-parou-avioes",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/faa-roteador-parou-avioes-1.jpg",
+      "title": "Todos os voos dos EUA pararam. O suspeito é um roteador",
+      "dek": "Na sexta (13), a agência de aviação americana proibiu decolagens no país inteiro por mais de 4 horas. Três dias antes, ela tinha anunciado que uma ferramenta de IA passaria a ser usada em todos os centros de controle. A agência diz que uma coisa não tem a ver com a outra.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "A parada, em seis linhas",
+      "rows": [
+        {
+          "k": "O quê",
+          "v": "Um \"ground stop\" nacional: nenhum avião podia decolar para nenhum aeroporto dos EUA. Quem já estava no ar continuou voando e pousou"
+        },
+        {
+          "k": "Quando",
+          "v": "Sexta, 13 de novembro. O problema começou por volta das 15h30 (horário de Washington); a ordem saiu às 15h54 e foi suspensa às 20h15"
+        },
+        {
+          "k": "Onde",
+          "v": "Instabilidade em 17 dos 22 centros que controlam os aviões em rota, e em vários centros de aproximação"
+        },
+        {
+          "k": "Quantos",
+          "v": "Cerca de 3.500 aviões estavam no ar e pousaram em segurança. A FAA conta 12.462 voos cancelados no dia, nem todos por causa da parada"
+        },
+        {
+          "k": "Causa",
+          "v": "Equipamento antigo da rede de telecomunicações ficou instável com uma enxurrada de dados. A origem exata ainda está em investigação"
+        },
+        {
+          "k": "Fonte",
+          "v": "FAA (perguntas e respostas de 15/11), secretário Sean Duffy, Reuters, Al Jazeera, ABC News"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Como um roteador vira um problema nacional",
+      "heading": "A versão da FAA, em cinco passos",
+      "steps": [
+        {
+          "title": "1. Uma troca de rotina",
+          "text": "A L3Harris, que opera a rede da FAA, instalava um ==roteador== novo (aparelho que encaminha dados entre redes) em um posto de rádio em El Dorado, no Arkansas."
+        },
+        {
+          "title": "2. A enxurrada",
+          "text": "Dados inundaram a rede: 1.000 tentativas de conexão a cada 4 ou 5 segundos. Um posto de radar em Amarillo, no Texas, também é investigado."
+        },
+        {
+          "title": "3. A rede antiga não aguentou",
+          "text": "A rede usa um sistema legado (TDM) com fios de cobre. Pela Reuters, os roteadores antigos eram de 2001."
+        },
+        {
+          "title": "4. Espalhou",
+          "text": "17 dos 22 centros de controle de rota passaram a ter dados inconsistentes de radar e comunicação."
+        },
+        {
+          "title": "5. Parou tudo, por precaução",
+          "text": "\"Não estávamos dispostos a correr qualquer risco de um centro perder a conexão com as aeronaves\", disse o chefe da FAA, Bryan Bedford (tradução livre)."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os números",
+      "heading": "O tamanho do susto",
+      "cells": [
+        {
+          "big": "17",
+          "unit": " de 22",
+          "label": "centros de controle de rota com instabilidade, segundo a FAA",
+          "text": "A FAA depois desligou a função que causou a inundação em cerca de 60 roteadores parecidos."
+        },
+        {
+          "big": "3.500",
+          "label": "aviões no ar na hora da ordem, todos pousaram em segurança",
+          "text": "Pelo FlightAware, citado pela Al Jazeera: mais de 10 mil voos atrasados e ao menos 4 mil cancelados."
+        }
+      ],
+      "body": [
+        "Foi a primeira parada nacional desde janeiro de 2023, segundo a AVweb. O secretário de Transportes, Sean Duffy, chamou a situação de emergência e pediu ao Congresso bilhões de dólares para uma rede nova de fibra. A FAA gasta cerca de US$ 1 bilhão por ano para manter a rede de telecomunicações dos anos 1980 funcionando, segundo a Reuters."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "E a inteligência artificial?",
+      "heading": "3 dias antes, a FAA expandiu uma ferramenta de IA ao país inteiro",
+      "photo": "fotos/faa-roteador-parou-avioes-4.jpg",
+      "caption": "Foto: Metin Ozer / Unsplash",
+      "body": [
+        "Em 10 de novembro, a FAA anunciou que o **SMART**, um sistema que junta cerca de 200 fluxos de dados (tempo, rotas, tráfego, escalas) e sugere ajustes de horário, passaria a ser usado nos 22 centros do país. Desde 21 de setembro ele rodava só na região de Washington. O contrato com a Air Space Intelligence vale US$ 875 milhões, segundo a Al Jazeera.",
+        "**A FAA afirma que os dois sistemas não têm relação**: o SMART seria um \"agregador de dados\" que não alimenta o controle de tráfego. Duffy disse que \"não há como o SMART ter impactado o que aconteceu\". Na sexta, o secretário de Segurança Interna, Markwayne Mullin, tinha dito que ainda não dava para descartar nada (tradução livre)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Balanço",
+      "heading": "O que se sabe e o que ainda não",
+      "a": {
+        "title": "Se sabe",
+        "lines": [
+          "A parada durou das 15h54 às 20h15 de sexta (13), horário de Washington.",
+          "A FAA aponta uma inundação de dados na rede, vinda da instalação de um roteador novo, sobre equipamento antigo.",
+          "A FAA não vê indício de ataque; a FAA e Duffy descartam o sistema de IA.",
+          "O roteador está em um laboratório da L3Harris na Flórida, sob supervisão da FAA."
+        ]
+      },
+      "b": {
+        "title": "Ainda não se sabe",
+        "lines": [
+          "Por que a instalação disparou a inundação: erro de instalação ou aparelho com defeito. A HPE, dona da fabricante do roteador, diz que ele funcionou como foi configurado.",
+          "Se a origem foi só El Dorado ou também o posto de Amarillo.",
+          "O número final de voos afetados: a FAA conta 12.462 cancelamentos; a Reuters, mais de 18 mil.",
+          "Quanto o Congresso vai liberar: Duffy pediu US$ 50 bilhões para uma rede nova de fibra."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**Os EUA proibiram decolagens no país inteiro por mais de 4 horas** na sexta (13). Cerca de 3.500 aviões estavam no ar e pousaram em segurança.",
+        "**A causa apontada é uma troca de roteador em um posto remoto**, que inundou uma rede de telecomunicações dos anos 1980 com dados. A origem exata ainda está em investigação.",
+        "**A FAA expandiu uma ferramenta de IA a todos os centros 3 dias antes.** A agência diz que ela não tem relação com a falha; o sindicato dos controladores diz que não participou do projeto nem dos testes do sistema."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "FAA, \"Nationwide Ground Stop: Questions and Answers\", 15 nov. 2026",
+          "what": "15h30, 20h15, 1.000 tentativas a cada 4-5 s, El Dorado e Amarillo, L3Harris, TDM e cobre, 17 de 22 centros, 3.500 aviões, 12.462 cancelamentos, 60 roteadores, SMART \"não tem relação\", sem indício de ataque, troca de rotina"
+        },
+        {
+          "who": "FAA, declaração \"SMART Expanding Across the Nation\", 10 nov. 2026",
+          "what": "22 centros, 200 fluxos de dados, recomendações ao centro de comando, 180 voos, 10 minutos e quase 80 galões por voo desde 21 de setembro"
+        },
+        {
+          "who": "Reuters (David Shepardson), 16 nov. 2026, via WKZO",
+          "what": "Duffy: causa ainda não clara, roteadores de 2001 e 2006, laboratório na Flórida, FBI, HPE, mais de 18 mil cancelamentos, pedido de bilhões ao Congresso, US$ 1 bilhão por ano na rede"
+        },
+        {
+          "who": "Al Jazeera com Reuters, 13 nov. 2026; ABC News, 14 nov.; AVweb, 13 nov.; The Next Web, 16 nov.",
+          "what": "15h54, FlightAware, Mullin, contrato de US$ 875 milhões, Duffy sobre o SMART, Bedford, primeira parada desde 2023, US$ 50 bilhões"
+        },
+        {
+          "who": "Gizmodo (Tom McKay), 12 nov. 2026; AVweb (Matt Ryan), 12 nov. 2026",
+          "what": "Gizmodo: sindicato NATCA à revista Flying, não participou do projeto, testes ou implementação do SMART. AVweb: Air Space Intelligence, 200 fluxos, 21 de setembro"
+        },
+        {
+          "who": "Fotos",
+          "what": "Jonathan Wang e Metin Ozer, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A falha que parou os aviões não estava na parte nova do sistema, e sim na parte velha que ninguém vê.\n\nNa sexta (13), a FAA, a agência de aviação dos EUA, proibiu decolagens no país inteiro por mais de 4 horas. Pela explicação da agência, a instalação de um roteador novo em um posto remoto no Arkansas inundou de dados uma rede de telecomunicações dos anos 1980, ainda com fios de cobre, e 17 dos 22 centros de controle de rota ficaram instáveis. Cerca de 3.500 aviões estavam no ar e pousaram em segurança. Três dias antes, a FAA tinha anunciado a expansão de uma ferramenta de IA a todos os centros; a agência diz que os dois sistemas não têm relação, e a causa exata ainda está em investigação.\n\nSe uma rede dos anos 1980 segura a aviação de um país, qual é a infraestrutura antiga que ainda segura a sua rotina?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #aviação #FAA #infraestrutura #inteligenciaartificial #notícias #explicação"
+}

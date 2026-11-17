@@ -1,0 +1,10 @@
+O chip que ajudou a abrir caminho para os computadores pessoais foi um pedido de calculadora que a Intel resolveu de um jeito diferente.
+
+Em 1969, a japonesa Busicom encomendou 12 chips sob medida para uma calculadora de mesa. Ted Hoff propôs um chip genérico que seguisse instruções, Federico Faggin desenhou o circuito em menos de um ano e, em março de 1971, o conjunto de quatro chips funcionou. O detalhe decisivo foi comercial: a Intel deu um desconto à Busicom em troca do direito de vender o 4004 para usos fora das calculadoras. O anúncio saiu na publicação Electronic News em 15 de novembro de 1971, há 55 anos.
+
+Qual objeto da sua casa você acha que tem um microprocessador escondido?
+
+—
+Fontes no último slide.
+
+#TheTechRoom #tecnologia #história #Intel #microprocessador #chips #computação #curiosidades
