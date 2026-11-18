@@ -45,24 +45,24 @@
         "title": "A professora de Washington",
         "lines": [
           "mal pontuada por um modelo de ==valor agregado==",
-          "feito para achar e demitir professores"
+          "feito para achar e demitir professores de desempenho fraco"
         ],
         "fonte": "InfoQ (Charles Humble), set. 2016"
       },
-      "say": "Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores pelas notas dos alunos."
+      "say": "Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores de desempenho fraco, pelas notas dos alunos."
     },
     {
       "kicker": "Mas...",
       "anim": {
         "type": "write",
-        "title": "nem todo crítico gostou",
+        "title": "há ressalvas dos críticos",
         "lines": [
           "soluções ==mais fracas== que o diagnóstico",
           "e os casos são todos dos Estados Unidos"
         ],
         "fonte": "Exame (David Cohen), dez. 2016; InfoQ, set. 2016"
       },
-      "say": "Mas críticos acharam as soluções mais fracas que o diagnóstico. E os casos são todos americanos."
+      "say": "Mas há ressalvas: críticos acharam as soluções mais fracas que o diagnóstico. E os casos são todos americanos."
     },
     {
       "end": true,
@@ -75,6 +75,6 @@
       "say": "Fontes no primeiro comentário."
     }
   ],
-  "legenda": "Algoritmos de Destruição em Massa, de Cathy O'Neil, dá nome e teste aos modelos matemáticos que decidem quem é contratado, como é avaliado e até a pena que recebe: opacidade, escala e dano. O livro saiu em 2016 e chegou ao Brasil em 2020; críticos elogiaram a clareza, mas acharam as soluções mais fracas que o diagnóstico, e todos os casos são dos Estados Unidos. Manda para quem já ouviu \"foi o sistema que decidiu\" e ficou sem resposta.\n\n—\nFontes no primeiro comentário.\n\n#livros #algoritmos #bigdata #cathyoneil",
-  "fontes_comentario": "Fontes: Cathy O'Neil, Algoritmos de Destruição em Massa: como o big data aumenta a desigualdade e ameaça a democracia (Rua do Sabão, 2020, 341 p.; original Weapons of Math Destruction, Crown, set. 2016, 288 p.); Penguin Random House, página do livro (National Book Award, lista longa; Prêmio Euler 2019); Wikipédia em inglês, verbete Cathy O'Neil; Charles Humble, InfoQ, 6 set. 2016 (opacidade, escala e dano; Sarah Wysocki e o IMPACT; críticas); Boing Boing, 6 set. 2016 (\"Models are opinions embedded in mathematics\"); David Cohen, Exame, 3 dez. 2016; PD Smith, The Guardian, 5 jul. 2017; Andrew Anthony, CartaCapital, 27 mar. 2024; Luciano Lopes Queiroz, Estudos de Sociologia (Unesp), 2022; Gidevaldo Novais dos Santos, ReCiC (UESB), 2022."
+  "legenda": "Algoritmos de Destruição em Massa, de Cathy O'Neil, dá nome e teste aos modelos matemáticos que decidem quem é contratado, como é avaliado e até a pena que recebe: opacidade, escala e dano. O livro saiu em 2016 e chegou ao Brasil em 2020; críticos elogiaram a clareza do texto; outros acharam as soluções mais fracas que o diagnóstico, e todos os casos são dos Estados Unidos. Manda para quem já ouviu \"foi o sistema que decidiu\" e ficou sem resposta.\n\n—\nFontes no primeiro comentário.\n\n#livros #algoritmos #bigdata #cathyoneil",
+  "fontes_comentario": "Fontes: Cathy O'Neil, Algoritmos de Destruição em Massa: como o big data aumenta a desigualdade e ameaça a democracia (Rua do Sabão, 2020, 341 p.; original Weapons of Math Destruction, Crown, set. 2016, 288 p.); Penguin Random House, página do livro (National Book Award, lista longa; Prêmio Euler 2019); Wikipédia em inglês, verbete Cathy O'Neil; Charles Humble, InfoQ, 6 set. 2016 (opacidade, escala e dano; Sarah Wysocki e o IMPACT; críticas); Boing Boing, 6 set. 2016 (\"modelos são opiniões embutidas em matemática\", tradução livre); David Cohen, Exame, 3 dez. 2016; PD Smith, The Guardian, 5 jul. 2017; Andrew Anthony, CartaCapital, 27 mar. 2024; Luciano Lopes Queiroz, Estudos de Sociologia (Unesp), 2022; Gidevaldo Novais dos Santos, ReCiC (UESB), 2022."
 }
