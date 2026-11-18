@@ -1,0 +1,172 @@
+{
+  "slug": "data-centers-eletricidade-estado",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/data-centers-eletricidade-estado-1.jpg",
+      "title": "403 prédios gastam tanta luz quanto um estado dos EUA",
+      "dek": "Pesquisadores de Harvard estimaram quanta eletricidade os maiores data centers dos Estados Unidos consumiram em um ano e de onde ela veio: 54% de combustíveis fósseis. É estimativa, não medição. E a conta, dizem os autores, já ficou velha.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que foi medido",
+      "heading": "Ninguém divulga a conta de luz. Então eles estimaram",
+      "photo": "fotos/data-centers-eletricidade-estado-2.jpg",
+      "caption": "Foto: Matthew Henry / Unsplash",
+      "body": [
+        "Um ==data center hyperscale== é um galpão de computadores do tamanho de fábricas, operado por gigantes da nuvem ou por empresas que alugam espaço para elas. Operadoras e distribuidoras não são obrigadas a divulgar quanto cada prédio consome, segundo a reportagem da TNW.",
+        "A equipe da Escola de Saúde Pública de Harvard listou **403 desses prédios** nos EUA com ajuda de imagens de satélite e estimou o consumo de cada um entre maio de 2024 e abril de 2025, em cenários de quanto as máquinas estariam trabalhando.",
+        "Para o carbono, usou dados da agência ambiental dos EUA (EPA) sobre as usinas que abastecem a rede de cada região. O estudo saiu em 16 de novembro na revista **Nature Sustainability**."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O número",
+      "big": "1,8",
+      "unit": "%",
+      "label": "de toda a eletricidade consumida nos Estados Unidos no período foi para esses 403 data centers, no cenário central",
+      "body": [
+        "Em números absolutos, de **68 a 99 terawatts-hora** por ano, conforme a carga de trabalho suposta; o cenário central fica em cerca de 82, segundo a TNW e a AP. Um terawatt-hora é 1 bilhão de quilowatts-hora, a unidade da sua conta de luz.",
+        "A estimativa mais alta se aproxima do que estados inteiros, como Indiana, Michigan e Tennessee, consomem em um ano, diz o comunicado de Harvard."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "De onde veio a energia",
+      "heading": "Mais da metade saiu de gás e carvão",
+      "cells": [
+        {
+          "big": "25,7",
+          "unit": " mi",
+          "label": "milhões de toneladas de CO2 atribuídas aos 403 prédios em um ano, no cenário central (de 21 a 31 milhões nos outros cenários, segundo a TNW)",
+          "text": "Carbono"
+        },
+        {
+          "big": "54",
+          "unit": "%",
+          "label": "da eletricidade veio de combustíveis fósseis: gás natural (38%) e carvão (15%)",
+          "text": "Fontes"
+        }
+      ],
+      "body": [
+        "O comunicado diz que o CO2 é **de 2 a 3 vezes** uma estimativa anterior, para 2018, e que cerca de um quarto da eletricidade estava em regiões com rede mais suja que a média. Para a autora sênior, Francesca Dominici, em declaração à AP, equivale à emissão de um estado como Michigan ou de um país europeu pequeno."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Onde está a conta",
+      "heading": "Quatro estados somam mais da metade do consumo",
+      "bars": [
+        {
+          "name": "Virgínia (142 data centers)",
+          "value": 21,
+          "label": "21 TWh"
+        },
+        {
+          "name": "Oregon (56)",
+          "value": 11,
+          "label": "11 TWh"
+        },
+        {
+          "name": "Ohio (38)",
+          "value": 9,
+          "label": "9 TWh"
+        },
+        {
+          "name": "Iowa (26)",
+          "value": 7,
+          "label": "7 TWh"
+        }
+      ],
+      "note": "Cenário central, valores aproximados do preprint do artigo (versão anterior à revisão por pares). O comunicado de Harvard confirma que os quatro estados somam mais da metade.",
+      "body": [
+        "Onde o prédio fica muda a conta de carbono: segundo a TNW, que cita o site GeekWire, o Oregon é o 2º em consumo, mas só o 6º em emissões, por causa das hidrelétricas."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que o estudo não prova",
+      "heading": "É um modelo, não um medidor",
+      "photo": "fotos/data-centers-eletricidade-estado-3.jpg",
+      "caption": "Foto: Wim van 't Einde / Unsplash",
+      "body": [
+        "Os números foram **modelados, não medidos**. Faltou dado para incluir todos os data centers do país, e o estudo não separa o que é uso geral do que é trabalho especializado em IA, admite o comunicado.",
+        "Segundo a TNW, a conta também não inclui os contratos de energia limpa que as empresas compram nem os prédios que geram a própria energia. Um grupo do setor disse à AP que os temores \"podem ser exagerados\" (tradução livre).",
+        "E o retrato é velho: o primeiro autor, Gianluca Guidi, diz que a construção não parou desde abril de 2025 e que os números podem ser bem maiores em 2026. Isso é previsão dele, não medição."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem fez, com que dado, com que dinheiro",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature Sustainability, 16 nov. 2026 (doi 10.1038/s41893-026-01985-7); preprint no arXiv"
+        },
+        {
+          "k": "Equipe",
+          "v": "9 autores; Gianluca Guidi (primeiro) e Francesca Dominici (responsável), Harvard T.H. Chan"
+        },
+        {
+          "k": "Dados",
+          "v": "403 data centers hyperscale, maio de 2024 a abril de 2025; imagens de satélite e usinas da EPA"
+        },
+        {
+          "k": "Financiamento",
+          "v": "institutos nacionais de saúde dos EUA (NIEHS e NIA)"
+        },
+        {
+          "k": "Ressalva",
+          "v": "um dos autores trabalha na Baxtel, empresa de dados sobre data centers, segundo o preprint"
+        },
+        {
+          "k": "Próximo passo",
+          "v": "medir efeitos na saúde de quem vive perto das usinas, diz Dominici"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O tamanho:** 403 data centers usaram cerca de 1,8% da eletricidade dos EUA em um ano, perto do consumo de um estado inteiro.",
+        "**A origem:** 54% dessa energia veio de gás e carvão; a emissão estimada é de 2 a 3 vezes a de 2018.",
+        "**A ressalva:** é estimativa de um modelo, feita com dados de antes do boom atual; os próprios autores dizem que a conta de hoje é maior."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Harvard T.H. Chan School of Public Health, comunicado de 16 nov. 2026 (também no EurekAlert)",
+          "what": "403 data centers, 68 a 99 TWh, 1,8%, 25,7 milhões de t, 54% (gás 38%, carvão 15%), 2 a 3 vezes 2018, estados, limites, citações de Guidi e Dominici, financiamento"
+        },
+        {
+          "who": "Guidi, Dominici e outros, Nature Sustainability, 16 nov. 2026 (doi 10.1038/s41893-026-01985-7); preprint arXiv 2606.05420",
+          "what": "Título, autores e afiliações (Baxtel), método, consumo por estado e número de data centers por estado (preprint)"
+        },
+        {
+          "who": "The Next Web (Alina Maria Stan), 17 nov. 2026, citando AP, Reuters e GeekWire",
+          "what": "Cenário central de 82 TWh, 21 a 31 milhões de t, declarações de Dominici e de Caleb Max à AP, Oregon 2º em consumo e 6º em emissões, contratos de energia limpa e geração própria"
+        },
+        {
+          "who": "Democracy Now!, 17 nov. 2026",
+          "what": "82 TWh e comparação com Michigan"
+        },
+        {
+          "who": "Fotos",
+          "what": "Matthieu Beaumont, Matthew Henry e Wim van 't Einde, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A pergunta que o estudo não responde é a que mais importa: quanto disso é IA?\n\nPesquisadores da Escola de Saúde Pública de Harvard estimaram, em artigo na Nature Sustainability (16 de novembro), o consumo de 403 data centers hyperscale dos Estados Unidos entre maio de 2024 e abril de 2025: de 68 a 99 terawatts-hora, cerca de 1,8% da eletricidade do país, com 54% vindos de gás e carvão e 25,7 milhões de toneladas de CO2 no cenário central. Os dados não separam uso geral de IA, não incluem contratos de energia limpa e, segundo os próprios autores, já estão defasados.\n\nVocê sabe de onde vem a energia que alimenta os serviços que usa todo dia?\n\n—\nFontes no último slide.\n\n#datacenter #energia #eletricidade #inteligenciaartificial #clima #ciencia #tecnologia"
+}

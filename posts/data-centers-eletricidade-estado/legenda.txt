@@ -1,0 +1,10 @@
+A pergunta que o estudo não responde é a que mais importa: quanto disso é IA?
+
+Pesquisadores da Escola de Saúde Pública de Harvard estimaram, em artigo na Nature Sustainability (16 de novembro), o consumo de 403 data centers hyperscale dos Estados Unidos entre maio de 2024 e abril de 2025: de 68 a 99 terawatts-hora, cerca de 1,8% da eletricidade do país, com 54% vindos de gás e carvão e 25,7 milhões de toneladas de CO2 no cenário central. Os dados não separam uso geral de IA, não incluem contratos de energia limpa e, segundo os próprios autores, já estão defasados.
+
+Você sabe de onde vem a energia que alimenta os serviços que usa todo dia?
+
+—
+Fontes no último slide.
+
+#datacenter #energia #eletricidade #inteligenciaartificial #clima #ciencia #tecnologia
