@@ -1,10 +1,10 @@
-semelhança roteiro x áudio: 95.7%
+semelhança roteiro x áudio: 92.5%
 números do roteiro: 2016, 3, 3
 números ouvidos:    2016, 3, 3
 números: todos ouvidos
 
 ROTEIRO:
-Modelos são opiniões embutidas em matemática. A frase é de Cathy O'Neil, matemática que trabalhou num fundo de Wall Street. Em Algoritmos de Destruição em Massa, de 2016, ela criou um teste para esses modelos. São 3 perguntas: é opaco? Cresce em escala? Causa dano? Três sins: arma de destruição matemática. Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores pelas notas dos alunos. Mas críticos acharam as soluções mais fracas que o diagnóstico. E os casos são todos americanos. Fontes no primeiro comentário.
+Modelos são opiniões embutidas em matemática. A frase é de Cathy O'Neil, matemática que trabalhou num fundo de Wall Street. Em Algoritmos de Destruição em Massa, de 2016, ela criou um teste para esses modelos. São 3 perguntas: é opaco? Cresce em escala? Causa dano? Três sins: arma de destruição matemática. Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores de desempenho fraco. Mas há ressalvas: críticos acharam as soluções mais fracas que o diagnóstico. E os casos são todos americanos. Fontes no primeiro comentário.
 
 OUVIDO:
-Modelos são opiniões embutidas em matemática. A frase é de Cathy O'Neill, matemática que trabalhou num fundo de Wall Street. Em algoritmos de destruição em massa de 2016, ela criou um teste para esses modelos. Então, três perguntas é opaco. Cresce em escala, causa dano, três sims, arma de destruição matemática. Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores pelas notas dos alunos. Mas críticos acharam as soluções mais fracas que o diagnóstico e os casos são todos americanos. Fontes no primeiro comentário.
+Modelos são opiniões embutidas em matemática. A frase é de Cate O'Neill, matemática que trabalhou no fundo de Wall Street. Em algoritmos de destruição em massa de 2016, ela criou um teste para esses modelos. Então, três perguntas é opaco. Cresce em escala, causa dano, três sims, arma de destruição matemática. Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores de desempenho fraco. Mas a ressalvas, críticos acharam as soluções mais fracas que o diagnóstico e os casos são todos americanos. Fontes no primeiro comentário.

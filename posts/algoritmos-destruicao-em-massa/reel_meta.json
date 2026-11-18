@@ -1,6 +1,6 @@
 {
  "slug": "algoritmos-destruicao-em-massa",
- "total_s": 35.0,
+ "total_s": 35.5,
  "scenes": [
   {
    "dur": 7.5,
@@ -15,19 +15,19 @@
    "start": 13.3
   },
   {
-   "dur": 7.5,
+   "dur": 7.0,
    "start": 19.2
   },
   {
-   "dur": 6.0,
-   "start": 26.6
+   "dur": 7.0,
+   "start": 26.1
   },
   {
    "dur": 2.5,
-   "start": 32.5
+   "start": 33.0
   }
  ],
- "words": 91,
+ "words": 92,
  "voice": "pt-BR-ThalitaMultilingualNeural",
  "fake_tts": false
 }
