@@ -1,0 +1,80 @@
+{
+  "slug": "algoritmos-destruicao-em-massa",
+  "style": "caderno",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Estante",
+      "anim": {
+        "type": "hook",
+        "big": "opiniões embutidas em matemática",
+        "line": "é o que são os modelos, diz ==Cathy O'Neil==",
+        "fonte": "O'Neil, Weapons of Math Destruction (via Boing Boing)"
+      },
+      "say": "Modelos são opiniões embutidas em matemática. A frase é de Cathy O'Neil, matemática que trabalhou num fundo de Wall Street."
+    },
+    {
+      "kicker": "O livro",
+      "anim": {
+        "type": "write",
+        "title": "Algoritmos de Destruição em Massa",
+        "lines": [
+          "original de ==2016==; no Brasil, 2020",
+          "lista longa do National Book Award"
+        ],
+        "fonte": "Penguin Random House; ReCiC (UESB), 2022"
+      },
+      "say": "Em Algoritmos de Destruição em Massa, de 2016, ela criou um teste para esses modelos."
+    },
+    {
+      "kicker": "O teste",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 1000 720'><rect x='60' y='60' width='260' height='120' rx='12'/><text x='190' y='134' text-anchor='middle' font-size='44'>opaco?</text><rect x='370' y='60' width='260' height='120' rx='12'/><text x='500' y='134' text-anchor='middle' font-size='44'>em escala?</text><rect x='680' y='60' width='260' height='120' rx='12'/><text x='810' y='134' text-anchor='middle' font-size='44'>dano?</text><line x1='190' y1='185' x2='470' y2='410'/><line x1='500' y1='185' x2='500' y2='410'/><line x1='810' y1='185' x2='530' y2='410'/><rect class='acc' x='300' y='420' width='400' height='170' rx='14'/><text class='acc' x='500' y='528' text-anchor='middle' font-size='60'>ADM</text></svg>",
+        "caption": "3 sins = arma de destruição matemática",
+        "fonte": "InfoQ, set. 2016; Estudos de Sociologia, 2022"
+      },
+      "say": "São 3 perguntas: é opaco? Cresce em escala? Causa dano? Três sins: arma de destruição matemática."
+    },
+    {
+      "kicker": "O caso",
+      "anim": {
+        "type": "write",
+        "title": "A professora de Washington",
+        "lines": [
+          "mal pontuada por um modelo de ==valor agregado==",
+          "feito para achar e demitir professores"
+        ],
+        "fonte": "InfoQ (Charles Humble), set. 2016"
+      },
+      "say": "Uma professora de Washington foi mal pontuada por um modelo feito para achar e demitir professores pelas notas dos alunos."
+    },
+    {
+      "kicker": "Mas...",
+      "anim": {
+        "type": "write",
+        "title": "nem todo crítico gostou",
+        "lines": [
+          "soluções ==mais fracas== que o diagnóstico",
+          "e os casos são todos dos Estados Unidos"
+        ],
+        "fonte": "Exame (David Cohen), dez. 2016; InfoQ, set. 2016"
+      },
+      "say": "Mas críticos acharam as soluções mais fracas que o diagnóstico. E os casos são todos americanos."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "O'Neil, Algoritmos de Destruição em Massa (Rua do Sabão, 2020)",
+        "Charles Humble, InfoQ, set. 2016",
+        "David Cohen, Exame, dez. 2016"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Algoritmos de Destruição em Massa, de Cathy O'Neil, dá nome e teste aos modelos matemáticos que decidem quem é contratado, como é avaliado e até a pena que recebe: opacidade, escala e dano. O livro saiu em 2016 e chegou ao Brasil em 2020; críticos elogiaram a clareza, mas acharam as soluções mais fracas que o diagnóstico, e todos os casos são dos Estados Unidos. Manda para quem já ouviu \"foi o sistema que decidiu\" e ficou sem resposta.\n\n—\nFontes no primeiro comentário.\n\n#livros #algoritmos #bigdata #cathyoneil",
+  "fontes_comentario": "Fontes: Cathy O'Neil, Algoritmos de Destruição em Massa: como o big data aumenta a desigualdade e ameaça a democracia (Rua do Sabão, 2020, 341 p.; original Weapons of Math Destruction, Crown, set. 2016, 288 p.); Penguin Random House, página do livro (National Book Award, lista longa; Prêmio Euler 2019); Wikipédia em inglês, verbete Cathy O'Neil; Charles Humble, InfoQ, 6 set. 2016 (opacidade, escala e dano; Sarah Wysocki e o IMPACT; críticas); Boing Boing, 6 set. 2016 (\"Models are opinions embedded in mathematics\"); David Cohen, Exame, 3 dez. 2016; PD Smith, The Guardian, 5 jul. 2017; Andrew Anthony, CartaCapital, 27 mar. 2024; Luciano Lopes Queiroz, Estudos de Sociologia (Unesp), 2022; Gidevaldo Novais dos Santos, ReCiC (UESB), 2022."
+}
