@@ -1,0 +1,160 @@
+{
+  "slug": "algoritmos-destruicao-em-massa",
+  "categoria": "ESTANTE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/algoritmos-destruicao-em-massa-1.jpg",
+      "title": "O livro que diz: todo algoritmo é uma opinião",
+      "dek": "Cathy O'Neil, matemática formada em Harvard que trabalhou num fundo de Wall Street, mostra como modelos matemáticos decidem quem é contratado, como é avaliado e até a pena que recebe, sem que a pessoa possa contestar. Saiu em 2016; no Brasil, em 2020.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha",
+      "heading": "Um livro de 2016 que o noticiário ainda cita",
+      "rows": [
+        {
+          "k": "Título",
+          "v": "Algoritmos de Destruição em Massa: como o big data aumenta a desigualdade e ameaça a democracia"
+        },
+        {
+          "k": "Autora",
+          "v": "Cathy O'Neil, doutora em matemática por Harvard (1999), ex-professora do Barnard College e ex-analista do fundo D. E. Shaw"
+        },
+        {
+          "k": "Original",
+          "v": "Weapons of Math Destruction, Crown, setembro de 2016, 288 páginas"
+        },
+        {
+          "k": "No Brasil",
+          "v": "Rua do Sabão, 2020, 341 páginas"
+        },
+        {
+          "k": "Prêmios",
+          "v": "Lista longa do National Book Award de 2016; Prêmio Euler de 2019, da associação americana de matemática (MAA)"
+        },
+        {
+          "k": "Para quem",
+          "v": "Quem já ouviu \"foi o sistema que decidiu\" e quis saber quem programou o sistema"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A tese",
+      "heading": "Um modelo é uma escolha humana com cara de matemática",
+      "photo": "fotos/algoritmos-destruicao-em-massa-4.jpg",
+      "caption": "Foto: semil / Unsplash",
+      "body": [
+        "Um **modelo matemático** é uma receita que transforma dados sobre uma pessoa (notas, CEP, histórico) em uma nota ou decisão. O'Neil sustenta que essa receita nunca é neutra: alguém escolheu o que medir e o que contar como sucesso, e essa escolha reflete os objetivos e a ideologia de quem a fez, como resume a resenha do Guardian.",
+        "O problema, para ela, não é usar matemática. É usar modelos que a pessoa afetada não pode ver nem contestar, aplicados a milhões, e que **punem quem já estava por baixo**: é a esses que ela dá o nome do título.",
+        "Ela sabe do que fala: depois do doutorado, deixou a universidade em 2007 e passou quatro anos no mercado financeiro, como analista do fundo D. E. Shaw, antes de se juntar ao movimento Occupy Wall Street, segundo a Wikipédia. Entrou no fundo pouco antes da crise de 2008, conta a resenha do Guardian."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Em uma frase",
+      "text": "Modelos são opiniões embutidas em matemática.",
+      "who": "Cathy O'Neil, em Weapons of Math Destruction, citada pelo Boing Boing (tradução livre)",
+      "body": [
+        "O InfoQ resume o critério do livro: para ser uma \"arma de destruição matemática\", o modelo precisa ter três elementos, opacidade, escala e dano. A resenha brasileira na revista Estudos de Sociologia traduz isso em três perguntas: o modelo é opaco ou invisível? É injusto ou causa dano? Pode crescer exponencialmente?"
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "O teste do livro",
+      "heading": "Três perguntas para qualquer algoritmo",
+      "steps": [
+        {
+          "title": "É opaco?",
+          "text": "A pessoa avaliada não sabe que foi avaliada, nem com quais critérios, nem como recorrer."
+        },
+        {
+          "title": "Cresce em escala?",
+          "text": "O mesmo modelo é aplicado a milhares ou milhões de pessoas, e o erro se repete em todas."
+        },
+        {
+          "title": "Causa dano?",
+          "text": "A decisão prejudica quem foi avaliado, e muitas vezes reforça o problema que dizia medir."
+        }
+      ],
+      "body": [
+        "Segundo as resenhas do InfoQ e da Estudos de Sociologia, as três respostas \"sim\" definem a arma de destruição matemática. O'Neil não pede o fim dos algoritmos: pede regulação e transparência, diz a resenha brasileira."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Os casos",
+      "heading": "A professora, a escala de trabalho e o ranking",
+      "body": [
+        "**A professora:** Sarah Wysocki, do 5º ano numa escola de Washington, foi mal pontuada pelo IMPACT, um modelo de \"valor agregado\" baseado nas notas de provas dos alunos e criado para achar e demitir professores de desempenho fraco, conta a resenha do InfoQ. Em entrevista à CartaCapital, O'Neil lembra que professores avaliados por um sistema secreto de pontuação às vezes perderam o emprego.",
+        "**A escala:** programas que montam os turnos de funcionários de redes como Starbucks, McDonald's e Walmart, segundo o InfoQ. **A contratação:** notas de crédito usadas para avaliar candidatos, segundo o InfoQ, e um teste de personalidade que rejeitou um jovem, caso lembrado pela resenha da ReCiC.",
+        "**O ranking:** a lista de melhores universidades da revista U.S. News, criada em 1983, que empurrou as faculdades a perseguir os critérios da lista, segundo a Estudos de Sociologia. **A prisão:** modelos de risco de reincidência usados em sentenças, segundo a Exame."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Vale para você?",
+      "heading": "Para quem serve, para quem não serve",
+      "a": {
+        "title": "Serve",
+        "lines": [
+          "Para quem quer vocabulário para discutir algoritmos sem ser da área: a Scientific American chamou o texto de acessível e até divertido.",
+          "Para quem trabalha com dados e nunca parou para pensar em quem paga pelos erros do modelo.",
+          "Para quem acha que número é neutro: a Wired o chamou de lembrete de que big data vale o que valem as pessoas que o usam."
+        ]
+      },
+      "b": {
+        "title": "Não serve",
+        "lines": [
+          "Para quem quer soluções: na Exame, David Cohen diz que as recomendações da autora não são tão bem embasadas quanto o diagnóstico; o InfoQ também acha o livro mais fraco nessa parte.",
+          "Para quem quer o mundo fora dos EUA: todos os casos são americanos, nota o InfoQ.",
+          "Para quem busca crítica às big techs e às redes: a resenha da Estudos de Sociologia diz que o livro não entra fundo nesse debate."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "photo": "fotos/algoritmos-destruicao-em-massa-3.jpg",
+      "caption": "Foto: Vitaly Gariev / Unsplash",
+      "check": [
+        "**A tese:** todo modelo embute as escolhas de quem o fez; \"foi o algoritmo\" não encerra a conversa.",
+        "**O teste:** opaco, em escala e danoso. Os três juntos fazem uma arma de destruição matemática.",
+        "**A ressalva:** o diagnóstico convence mais que as soluções, e os exemplos são todos dos Estados Unidos."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Penguin Random House, página do livro; Wikipédia em inglês, verbete Cathy O'Neil",
+          "what": "Crown, set. 2016, 288 páginas, National Book Award (lista longa), Prêmio Euler 2019, resenhas da Scientific American e da Wired; formação, Barnard, D. E. Shaw, Occupy"
+        },
+        {
+          "who": "Charles Humble, InfoQ, 6 set. 2016; Boing Boing, 6 set. 2016",
+          "what": "Opacidade, escala e dano; Sarah Wysocki e o IMPACT; turnos em Starbucks, McDonald's e Walmart; crédito na contratação; \"opiniões embutidas em matemática\"; críticas"
+        },
+        {
+          "who": "David Cohen, Exame, 3 dez. 2016; PD Smith, The Guardian, 5 jul. 2017; Andrew Anthony, CartaCapital, 27 mar. 2024",
+          "what": "Reincidência; recomendações menos embasadas; modelos nunca neutros; professores demitidos por sistema secreto; editora Rua do Sabão"
+        },
+        {
+          "who": "Luciano Lopes Queiroz, Estudos de Sociologia (Unesp), 2022; Gidevaldo Novais dos Santos, ReCiC (UESB), 2022",
+          "what": "Edição brasileira (Rua do Sabão, 2020, 341 p.); três perguntas; ranking U.S. News de 1983; teste de personalidade na contratação; regulação em vez de proibição; limites do livro"
+        },
+        {
+          "who": "Fotos",
+          "what": "Albert Stoynov, semil e Vitaly Gariev, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Dez anos depois, a pergunta do livro ficou mais urgente: quem responde quando o modelo erra?\n\n\"Algoritmos de Destruição em Massa\" (Rua do Sabão, 2020; original de 2016) é o relato de Cathy O'Neil, matemática com doutorado em Harvard que trocou a universidade por um fundo de Wall Street e saiu de lá convencida de que modelos matemáticos podem ampliar a desigualdade. O livro dá nome e teste para isso: opacidade, escala e dano. Críticos elogiaram a clareza do texto; outros, como David Cohen na Exame e Charles Humble no InfoQ, acharam as soluções mais fracas que o diagnóstico.\n\nQual decisão sobre a sua vida já foi tomada por um sistema que você não pôde contestar?\n\n—\nFontes no último slide.\n\n#livros #algoritmos #bigdata #inteligenciaartificial #cathyoneil #estante #tecnologia"
+}

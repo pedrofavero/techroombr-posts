@@ -9,7 +9,7 @@
     {
       "type": "cover",
       "photo": "fotos/data-centers-eletricidade-estado-1.jpg",
-      "title": "403 prédios gastam tanta luz quanto um estado dos EUA",
+      "title": "403 prédios chegam perto da luz de um estado dos EUA",
       "dek": "Pesquisadores de Harvard estimaram quanta eletricidade os maiores data centers dos Estados Unidos consumiram em um ano e de onde ela veio: 54% de combustíveis fósseis. É estimativa, não medição. E a conta, dizem os autores, já ficou velha.",
       "swipe": "arraste →"
     },
@@ -30,9 +30,9 @@
       "kicker": "O número",
       "big": "1,8",
       "unit": "%",
-      "label": "de toda a eletricidade consumida nos Estados Unidos no período foi para esses 403 data centers, no cenário central",
+      "label": "de toda a eletricidade consumida nos Estados Unidos no período foi para esses 403 data centers, segundo o estudo",
       "body": [
-        "Em números absolutos, de **68 a 99 terawatts-hora** por ano, conforme a carga de trabalho suposta; o cenário central fica em cerca de 82, segundo a TNW e a AP. Um terawatt-hora é 1 bilhão de quilowatts-hora, a unidade da sua conta de luz.",
+        "Em números absolutos, de **68 a 99 terawatts-hora** por ano, conforme a carga de trabalho suposta; o cenário central fica em cerca de 82, segundo a TNW e a Democracy Now. Um terawatt-hora é 1 bilhão de quilowatts-hora, a unidade da sua conta de luz.",
         "A estimativa mais alta se aproxima do que estados inteiros, como Indiana, Michigan e Tennessee, consomem em um ano, diz o comunicado de Harvard."
       ]
     },
@@ -44,7 +44,7 @@
         {
           "big": "25,7",
           "unit": " mi",
-          "label": "milhões de toneladas de CO2 atribuídas aos 403 prédios em um ano, no cenário central (de 21 a 31 milhões nos outros cenários, segundo a TNW)",
+          "label": "milhões de toneladas de CO2 atribuídas aos 403 prédios em um ano, segundo o comunicado (de 21 a 31 milhões conforme o cenário, segundo a TNW)",
           "text": "Carbono"
         },
         {
@@ -97,7 +97,7 @@
       "caption": "Foto: Wim van 't Einde / Unsplash",
       "body": [
         "Os números foram **modelados, não medidos**. Faltou dado para incluir todos os data centers do país, e o estudo não separa o que é uso geral do que é trabalho especializado em IA, admite o comunicado.",
-        "Segundo a TNW, a conta também não inclui os contratos de energia limpa que as empresas compram nem os prédios que geram a própria energia. Um grupo do setor disse à AP que os temores \"podem ser exagerados\" (tradução livre).",
+        "Segundo a TNW, a conta também não inclui os contratos de energia limpa que as empresas compram; e, segundo a Wired, citada pela TNW, deixa de fora os prédios que geram a própria energia. Um grupo do setor disse à AP que os temores \"podem ser exagerados\" (tradução livre).",
         "E o retrato é velho: o primeiro autor, Gianluca Guidi, diz que a construção não parou desde abril de 2025 e que os números podem ser bem maiores em 2026. Isso é previsão dele, não medição."
       ]
     },
@@ -123,8 +123,8 @@
           "v": "institutos nacionais de saúde dos EUA (NIEHS e NIA)"
         },
         {
-          "k": "Ressalva",
-          "v": "um dos autores trabalha na Baxtel, empresa de dados sobre data centers, segundo o preprint"
+          "k": "Conflitos",
+          "v": "os autores declaram não ter; um deles trabalha na Baxtel, que forneceu os dados dos data centers (preprint)"
         },
         {
           "k": "Próximo passo",
@@ -138,8 +138,8 @@
       "heading": "Três coisas para contar no jantar",
       "check": [
         "**O tamanho:** 403 data centers usaram cerca de 1,8% da eletricidade dos EUA em um ano, perto do consumo de um estado inteiro.",
-        "**A origem:** 54% dessa energia veio de gás e carvão; a emissão estimada é de 2 a 3 vezes a de 2018.",
-        "**A ressalva:** é estimativa de um modelo, feita com dados de antes do boom atual; os próprios autores dizem que a conta de hoje é maior."
+        "**A origem:** 54% dessa energia veio de gás e carvão; a emissão estimada é de 2 a 3 vezes uma estimativa anterior, para 2018.",
+        "**A ressalva:** é estimativa de um modelo, com dados até abril de 2025; os próprios autores dizem que o setor cresceu desde então e a conta de hoje é maior."
       ]
     },
     {

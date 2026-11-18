@@ -1,0 +1,10 @@
+Dez anos depois, a pergunta do livro ficou mais urgente: quem responde quando o modelo erra?
+
+"Algoritmos de Destruição em Massa" (Rua do Sabão, 2020; original de 2016) é o relato de Cathy O'Neil, matemática com doutorado em Harvard que trocou a universidade por um fundo de Wall Street e saiu de lá convencida de que modelos matemáticos podem ampliar a desigualdade. O livro dá nome e teste para isso: opacidade, escala e dano. Críticos elogiaram a clareza do texto; outros, como David Cohen na Exame e Charles Humble no InfoQ, acharam as soluções mais fracas que o diagnóstico.
+
+Qual decisão sobre a sua vida já foi tomada por um sistema que você não pôde contestar?
+
+—
+Fontes no último slide.
+
+#livros #algoritmos #bigdata #inteligenciaartificial #cathyoneil #estante #tecnologia
