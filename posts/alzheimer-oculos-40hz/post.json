@@ -1,0 +1,115 @@
+{
+  "slug": "alzheimer-oculos-40hz",
+  "categoria": "NOTÍCIA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/alzheimer-oculos-40hz-1.jpg",
+      "title": "Luz e som contra o Alzheimer: o teste principal falhou",
+      "dek": "Óculos que piscam e tocam um som 40 vezes por segundo foram testados em 673 pessoas por um ano. No grupo todo, nada mudou. A empresa aposta num subgrupo e quer ir à agência americana. O que isso quer dizer.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Um aparelho, um estudo, um resultado misto",
+      "rows": [
+        {"k": "Quem", "v": "Cognito Therapeutics, empresa nascida no MIT (Cambridge, EUA)"},
+        {"k": "O quê", "v": "Resultado do estudo HOPE, a fase decisiva do aparelho Spectris"},
+        {"k": "Quando", "v": "16 de novembro de 2026, no congresso CTAD, em Boston"},
+        {"k": "O aparelho", "v": "Óculos e fones: luz e som a 40 pulsos por segundo, 1 hora por dia, em casa"},
+        {"k": "Resultado", "v": "O desfecho principal, combinado em toda a amostra, não foi atingido"},
+        {"k": "Status", "v": "Não autorizado pela FDA, a agência americana; produto experimental"}
+      ],
+      "body": ["A própria empresa escreveu no comunicado: \"Na população geral do estudo, o desfecho primário não foi atingido\" (tradução livre). O que ela destaca é um subgrupo, o das pessoas com Alzheimer leve."]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Um ritmo de 40 vezes por segundo",
+      "photo": "fotos/alzheimer-oculos-40hz-2.jpg",
+      "caption": "Foto: Rod Long / Unsplash",
+      "body": [
+        "O cérebro tem ritmos elétricos. Um deles, chamado **gama**, bate perto de 40 vezes por segundo (40 hertz, ou Hz). A hipótese é que esse ritmo está desorganizado no Alzheimer e que luz e som piscando nesse compasso ajudam a recompô-lo, sem remédio.",
+        "A pista veio de camundongos. Em 2016, o laboratório de Li-Huei Tsai, no MIT, viu que luz a 40 Hz, uma hora por dia durante uma semana, reduzia placas de amiloide, a proteína que se acumula na doença. Tsai cofundou a Cognito para levar a ideia a pessoas."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O estudo HOPE",
+      "heading": "Como o aparelho foi testado",
+      "cells": [
+        {"big": "673", "unit": " pessoas", "label": "sorteadas entre aparelho real e simulado, em 70 centros nos EUA", "text": "Uso de 1 hora por dia, durante 12 meses. Nem o paciente nem a equipe sabiam quem tinha o aparelho de verdade. 663 entraram na análise principal."},
+        {"big": "18,3", "unit": "%", "label": "tiveram efeitos ligados ao aparelho; 15,5% no grupo simulado", "text": "Dor de cabeça (5,7% contra 3,9%), zumbido no ouvido (3,3% contra 1,2%) e convulsão (0,9% contra 0,3%). Nenhum efeito inesperado, segundo a empresa."}
+      ],
+      "body": ["O desfecho principal era uma nota combinada de memória (teste MMSE) e de atividades do dia a dia (escala ADCS-ADL), medida aos 12 meses. Nessa nota, e nas secundárias, o grupo com aparelho não se separou do grupo simulado."]
+    },
+    {
+      "type": "chart",
+      "kicker": "O subgrupo que a empresa destaca",
+      "heading": "Alzheimer leve: quanto o declínio foi menor que no grupo simulado",
+      "bars": [
+        {"name": "Atividades do dia a dia (ADCS-ADL)", "value": 56, "label": "56%"},
+        {"name": "Cognição e função (CDR-SB)", "value": 47, "label": "47%"},
+        {"name": "Nota principal (iADMARS)", "value": 42, "label": "42%", "other": true},
+        {"name": "Memória (MMSE)", "value": 29, "label": "29%", "other": true}
+      ],
+      "note": "395 pessoas com Alzheimer leve (MMSE de 21 a 28), subgrupo definido antes do estudo. Só as duas primeiras barras passaram do limite estatístico usual (p = 0,016 e p = 0,004); as outras não. Valores nominais, sem ajuste por comparações múltiplas. Fonte: comunicado da Cognito, 16 nov. 2026.",
+      "body": ["Em outras palavras: nesse subgrupo, quem usou o aparelho piorou mais devagar em algumas escalas. A empresa estima 5,3 a 5,6 meses \"poupados\" em um ano, uma conta exploratória."]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando as coisas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "No grupo todo, nenhuma diferença entre aparelho real e simulado, nem na medida principal nem nas secundárias.",
+          "No subgrupo leve, algumas escalas caíram menos. Os p-valores são nominais: quanto mais fatias se olha, maior a chance de um acerto por acaso.",
+          "Quem usou o aparelho pelo menos 70% do tempo (169 pessoas) teve números melhores. A própria empresa diz que isso não prova que a adesão causou o benefício."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se o efeito no subgrupo é real. Paul Aisen, neurologista da Universidade do Sul da Califórnia, ao IEEE Spectrum: achados em fatias dos dados são exploratórios.",
+          "Se as pessoas vão usar 1 hora por dia durante anos: menos da metade do grupo leve cumpriu a meta de adesão, segundo o IEEE Spectrum.",
+          "Se a FDA vai autorizar. A empresa diz que vai levar os dados à agência; ao IEEE Spectrum, o CEO falou em pedido até meados de 2027."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "kicker": "Em uma frase",
+      "text": "Esperávamos ver um efeito em toda a população do estudo, e não vimos.",
+      "who": "Christian Howell, CEO da Cognito Therapeutics, no comunicado de 16 nov. 2026 (tradução livre)",
+      "body": ["O contraponto, no IEEE Spectrum, veio de Paul Aisen: \"É simplesmente negativo\" (tradução livre). Daniel Gillen, estatístico da Universidade da Califórnia em Irvine, lembra que comparar quem aderiu com quem não aderiu não é uma comparação justa: o estudo não foi desenhado para isso."]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**O teste principal falhou.** 673 pessoas, 1 hora por dia, 12 meses: no grupo todo, luz e som a 40 Hz não se separaram do aparelho simulado.",
+        "**Há um sinal no Alzheimer leve.** Em 395 pessoas, algumas escalas caíram menos. É um subgrupo pré-definido, mas os números não têm ajuste estatístico: pista, não prova.",
+        "**O próximo passo é regulatório.** A empresa quer pedir autorização à FDA só para casos leves. Enquanto isso, o aparelho é experimental e não está à venda."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Cognito Therapeutics, comunicado de 16 nov. 2026 (Business Wire, via BioSpace)", "what": "Estudo HOPE: 673 randomizadas, 663 analisadas, 12 meses, controle simulado, MMSE 15–28; desfecho primário não atingido; subgrupo leve (395): 56%, 47%, 42%, 29% e p-valores; por protocolo (169); segurança; planos com a FDA"},
+        {"who": "MIT Picower Institute, 16 nov. 2026 (e EurekAlert, 17 nov.)", "what": "663 pessoas, 395 leves e 268 moderadas; camundongos em 2016 (luz a 40 Hz, 1 h/dia, uma semana); Li-Huei Tsai cofundadora da Cognito"},
+        {"who": "IEEE Spectrum (Elie Dolgin), 17 nov. 2026", "what": "Como o aparelho funciona; Paul Aisen, Daniel Gillen; menos da metade cumpriu a adesão; pedido à FDA até meados de 2027"},
+        {"who": "NeurologyLive (Isabella Ciccone), 17 nov. 2026", "what": "Desenho multicêntrico, randomizado, duplo-cego; iADMARS = MMSE + ADCS-ADL; p-valores; eventos adversos"},
+        {"who": "Cognito, Business Wire, 1º jul. 2025; Medical Daily (Cole Mercer), 17 nov. 2026", "what": "70 centros clínicos nos Estados Unidos"},
+        {"who": "Fotos", "what": "Benjamin Chambon e Rod Long, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "Quando um estudo \"dá positivo num subgrupo\", vale perguntar o que aconteceu no grupo todo. Aqui, a resposta é: nada.\n\nO Spectris, da Cognito Therapeutics, são óculos com fones que piscam e tocam um som 40 vezes por segundo, 1 hora por dia, em casa. No estudo HOPE, 673 pessoas com Alzheimer leve a moderado usaram o aparelho real ou um simulado por 12 meses. Na medida principal, não houve diferença. No subgrupo de 395 pessoas com a doença leve, algumas escalas caíram menos (56% e 47% a menos de declínio), com p-valores nominais, sem ajuste. A empresa quer levar isso à FDA; especialistas independentes chamam o resultado de negativo e o subgrupo de exploratório.\n\nVocê conhece alguém que compraria um aparelho assim só com esse resultado?\n\n—\nFontes no último slide.\n\n#alzheimer #neurociencia #saude #ciencia #tecnologia #noticia #estudoclinico"
+}

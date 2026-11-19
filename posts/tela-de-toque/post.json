@@ -1,0 +1,144 @@
+{
+  "slug": "tela-de-toque",
+  "categoria": "COMO FUNCIONA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/tela-de-toque-4.jpg",
+      "title": "A tela não sente seu dedo. Ela sente sua eletricidade",
+      "dek": "A tela do celular não mede pressão. Ela guarda uma carga elétrica minúscula numa grade invisível e percebe quando o seu corpo rouba um pouco dela. É por isso que luva comum falha e a chuva confunde.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "Duas famílias",
+      "heading": "A tela que cede e a tela que sente",
+      "body": [
+        "As telas antigas, de caixa eletrônico e de maquininha com caneta, são **resistivas**: duas camadas condutoras que se encostam quando o dedo aperta. Dá para sentir a tela ceder. Aceitam qualquer objeto, mas só um toque por vez, segundo a Scienceline.",
+        "A tela do celular é **capacitiva**. Ela não usa a pressão do dedo: reage a qualquer coisa que conduza eletricidade, e a pele humana conduz. Em vez de sentir um aperto, a tela sente uma mudança elétrica."
+      ],
+      "photo": "fotos/tela-de-toque-2.jpg",
+      "caption": "Foto: Sylwia Bartyzel / Unsplash"
+    },
+    {
+      "type": "diagram",
+      "kicker": "A grade invisível",
+      "heading": "Linhas e colunas que guardam carga",
+      "svg": "<svg viewBox='0 0 700 360' fill='none' stroke='currentColor' stroke-width='3'><line x1='60' y1='60' x2='640' y2='60'/><line x1='60' y1='120' x2='640' y2='120'/><line x1='60' y1='180' x2='640' y2='180'/><line x1='60' y1='240' x2='640' y2='240'/><line x1='140' y1='20' x2='140' y2='280'/><line x1='240' y1='20' x2='240' y2='280'/><line x1='340' y1='20' x2='340' y2='280'/><line x1='440' y1='20' x2='440' y2='280'/><line x1='540' y1='20' x2='540' y2='280'/><circle cx='340' cy='120' r='44' stroke='var(--accent)' stroke-width='5'/><circle cx='340' cy='120' r='8' fill='var(--accent)' stroke='none'/><text x='364' y='100' font-size='20' fill='var(--accent)' stroke='none'>dedo</text><text x='60' y='318' font-size='20' fill='currentColor' stroke='none'>linhas e colunas de material transparente e condutor</text><text x='60' y='350' font-size='20' fill='var(--accent)' stroke='none'>cada cruzamento guarda carga; o dedo rouba parte dela</text></svg>",
+      "caption": "Sob o vidro há uma grade de linhas e colunas feita de um material transparente que conduz eletricidade, o óxido de índio e estanho (ITO). Cada cruzamento guarda um pouco de carga. O dedo rouba parte dela, e o chip descobre onde.",
+      "body": [
+        "Os fios são mais finos que um fio de cabelo, segundo a Scienceline. Num padrão comum, em losangos, cada célula mede de 4 a 8 milímetros, segundo artigo técnico de Gary Barrett e Ryomei Omote na revista da Society for Information Display."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Passo a passo",
+      "heading": "O que acontece em cada toque",
+      "steps": [
+        {
+          "title": "Dois condutores próximos guardam carga",
+          "text": "Quando dois objetos que conduzem eletricidade ficam perto um do outro, eles conseguem armazenar uma carga elétrica. É a **capacitância**. Em cada cruzamento de linha e coluna da grade há um pouquinho dela guardada, explica a fabricante de telas Nelson-Miller."
+        },
+        {
+          "title": "O dedo chega e rouba carga",
+          "text": "O corpo humano é feito em grande parte de água e conduz bem. \"Quando você encosta o dedo na tela, ele suga parte da carga\", disse à Popular Science Geoff Wilson, ex-engenheiro da Intel (tradução livre). A carga daquele cruzamento cai."
+        },
+        {
+          "title": "O chip lê a grade",
+          "text": "Um controlador lê as linhas e colunas uma a uma e procura onde a carga caiu. Ele combina a leitura de vários cruzamentos vizinhos para triangular o ponto exato, com resolução típica de 1024 por 1024 posições, segundo Barrett e Omote."
+        },
+        {
+          "title": "Vários dedos ao mesmo tempo",
+          "text": "Medindo cruzamento por cruzamento (a chamada capacitância mútua), a tela distingue até dez toques de uma vez, segundo o mesmo artigo. Medir só por linha ou só por coluna cria \"toques fantasma\" quando há dois dedos, diz a Popular Science."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Na prática",
+      "heading": "Por que luva falha e chuva confunde",
+      "nocheck": [
+        "**Luva de tecido**: o pano não conduz eletricidade, então o dedo não rouba carga, a menos que a luva tenha fio condutor na ponta (Scienceline). Luva grossa também afasta demais o dedo da grade (AllPCB).",
+        "**Caneta de plástico**: não conduz, não absorve a carga da tela (Nelson-Miller).",
+        "**Gotas de chuva ou suor**: a água também é condutora e cria um caminho extra entre eletrodos, reduzindo a carga como se fosse um toque (Popular Science)."
+      ],
+      "check": [
+        "**Película fina**: só aumenta um pouco a distância; o dedo continua acoplado à grade (AllPCB).",
+        "**Vidro mais fino**: quanto mais fino o vidro de cobertura, melhor a resposta, segundo Barrett e Omote. Em celulares, ele tem de 0,55 a 1,1 milímetro."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "De onde veio",
+      "heading": "Uma invenção para controlar aviões",
+      "items": [
+        {
+          "when": "1965",
+          "what": "Eric Arthur Johnson, engenheiro do Royal Radar Establishment, em Malvern, no Reino Unido, publica a primeira tela de toque capacitiva, pensada para o controle de tráfego aéreo. A patente americana sai em 1969."
+        },
+        {
+          "when": "1971",
+          "what": "Sam Hurst, na Universidade de Kentucky, cria o sensor resistivo, batizado de Elograph; a patente é de 1977. Ele funda a Elographics, hoje Elo Touch."
+        },
+        {
+          "when": "1973",
+          "what": "Frank Beck e Bent Stumpe, engenheiros do CERN, montam uma tela capacitiva com cobre evaporado sobre película de poliéster transparente. Ela operou no laboratório de 1973 a 2008."
+        },
+        {
+          "when": "1990s",
+          "what": "Os controladores de tráfego aéreo britânicos passam a usar telas de toque, segundo a Xataka."
+        },
+        {
+          "when": "2006",
+          "what": "O LG Prada é descrito pela Xataka como o primeiro smartphone com tela capacitiva."
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "photo": "fotos/tela-de-toque-3.jpg",
+      "caption": "Foto: Shuvro Mojumder / Unsplash",
+      "check": [
+        "**A tela não mede força.** Ela guarda carga numa grade transparente e percebe quando o seu dedo, que conduz, rouba um pouco dela.",
+        "**Um chip triangula o toque.** Ele lê linhas e colunas e combina os cruzamentos vizinhos para achar o ponto; por isso vários dedos funcionam ao mesmo tempo.",
+        "**Luva e chuva atrapalham pelo mesmo motivo.** O pano não conduz e não tira carga; a água conduz e tira carga onde não há dedo."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Scienceline (Allison T. McCann), 17 jan. 2012",
+          "what": "Resistiva x capacitiva; grade de fios mais finos que cabelo; carga transferida ao dedo; luva só com fio condutor; um toque por vez na resistiva"
+        },
+        {
+          "who": "Popular Science (Daniel Engber), 30 nov. 2015",
+          "what": "Geoff Wilson: o dedo \"suga\" carga; corpo feito de água; capacitância mútua e própria; gotas de água; toques fantasma"
+        },
+        {
+          "who": "Gary L. Barrett e Ryomei Omote, Information Display (Society for Information Display)",
+          "what": "Grade de linhas e colunas lida uma a uma; triangulação; resolução 1024 x 1024; losangos de 4 a 8 mm; até dez toques; vidro de 0,55 a 1,1 mm"
+        },
+        {
+          "who": "Nelson-Miller, 24 mar. 2020 e 29 jan. 2020; AllPCB (Adrian), 26 mai. 2026",
+          "what": "Definição de capacitância mútua; caneta não condutora; luva grossa e película; ITO transparente e condutor"
+        },
+        {
+          "who": "Xataka (Enrique Pérez), 5 jul. 2020",
+          "what": "E. A. Johnson, 1965, Malvern, patente de 1969; Sam Hurst, 1971 e 1977; Beck e Stumpe no CERN, 1973–2008; controladores britânicos nos anos 1990; LG Prada, 2006"
+        },
+        {
+          "who": "Fotos",
+          "what": "Akshar Dave, Sylwia Bartyzel e Shuvro Mojumder, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A tela capacitiva do celular foi inventada para controladores de tráfego aéreo, em 1965, bem antes de existir smartphone.\n\nO princípio é simples: sob o vidro há uma grade transparente de linhas e colunas que guarda uma carga elétrica minúscula em cada cruzamento. O corpo humano conduz eletricidade, e o dedo rouba parte dessa carga; um chip lê a grade, acha onde a carga caiu e combina os cruzamentos vizinhos para calcular o ponto. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.\n\nQual objeto do seu dia a dia você gostaria de ver aberto assim?\n\n—\nFontes no último slide.\n\n#comofunciona #celular #tecnologia #telasensivel #fisica #curiosidade"
+}
