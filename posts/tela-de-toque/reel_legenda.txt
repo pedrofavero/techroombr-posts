@@ -1,0 +1,10 @@
+A tela de toque capacitiva do celular não mede pressão: ela guarda uma carga elétrica minúscula numa grade transparente e percebe quando o seu dedo, que conduz eletricidade, rouba parte dela.
+
+Um chip lê a grade cruzamento por cruzamento, acha onde a carga caiu e calcula o ponto; medindo assim, a tela distingue até dez toques de uma vez, segundo artigo técnico de Gary Barrett e Ryomei Omote. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.
+
+Manda para quem já xingou o celular na chuva.
+
+—
+Fontes no primeiro comentário.
+
+#comofunciona #celular #tecnologia #telasensivel #fisica

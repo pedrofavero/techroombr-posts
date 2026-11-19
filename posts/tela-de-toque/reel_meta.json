@@ -1,0 +1,33 @@
+{
+ "slug": "tela-de-toque",
+ "total_s": 32.5,
+ "scenes": [
+  {
+   "dur": 5.0,
+   "start": 0.0
+  },
+  {
+   "dur": 7.5,
+   "start": 4.9
+  },
+  {
+   "dur": 7.0,
+   "start": 12.3
+  },
+  {
+   "dur": 5.5,
+   "start": 19.2
+  },
+  {
+   "dur": 5.5,
+   "start": 24.6
+  },
+  {
+   "dur": 2.5,
+   "start": 30.0
+  }
+ ],
+ "words": 96,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
