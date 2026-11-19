@@ -1,0 +1,76 @@
+{
+  "slug": "tela-de-toque",
+  "style": "planta",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Como funciona",
+      "anim": {
+        "type": "hook",
+        "big": "A tela não sente seu dedo",
+        "line": "ela sente a ==eletricidade== do seu corpo",
+        "fonte": "Scienceline, 2012; Popular Science, 2015"
+      },
+      "say": "A tela do celular não sente seu dedo. Ela sente a eletricidade do seu corpo."
+    },
+    {
+      "kicker": "Mito e fato",
+      "anim": {
+        "type": "corrige",
+        "errado": "A tela mede a força do toque",
+        "certo": "A tela guarda uma carga elétrica e sente o dedo roubar parte dela",
+        "fonte": "Scienceline, 2012; Popular Science, 2015"
+      },
+      "say": "Mito: a tela mede a força do toque. Fato: ela guarda uma carga elétrica minúscula e sente quando o dedo rouba parte dela."
+    },
+    {
+      "kicker": "Por dentro",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 900 400'><line x1='80' y1='90' x2='820' y2='90'/><line x1='80' y1='190' x2='820' y2='190'/><line x1='80' y1='290' x2='820' y2='290'/><line x1='200' y1='30' x2='200' y2='350'/><line x1='350' y1='30' x2='350' y2='350'/><line x1='500' y1='30' x2='500' y2='350'/><line x1='650' y1='30' x2='650' y2='350'/><circle class='acc' cx='500' cy='190' r='64'/><circle class='acc' cx='500' cy='190' r='12'/><text class='acc' x='580' y='150'>dedo</text><text x='80' y='390'>grade: linhas e colunas</text></svg>",
+        "caption": "onde o dedo encosta, a carga cai",
+        "fonte": "Scienceline, 2012; Popular Science, 2015"
+      },
+      "say": "Sob o vidro, uma grade transparente de linhas e colunas. Seu corpo conduz: onde o dedo encosta, a carga cai."
+    },
+    {
+      "kicker": "O chip",
+      "anim": {
+        "type": "number",
+        "value": 10,
+        "decimals": 0,
+        "unit": " toques",
+        "label": "de uma vez, lendo a grade cruzamento por cruzamento",
+        "fonte": "Barrett e Omote, Information Display (SID)"
+      },
+      "say": "Um chip lê a grade cruzamento por cruzamento e distingue até 10 toques de uma vez."
+    },
+    {
+      "kicker": "Na prática",
+      "anim": {
+        "type": "write",
+        "title": "Por isso",
+        "lines": [
+          "luva de pano: ==não conduz==, não rouba carga",
+          "chuva: a água conduz e rouba carga onde não há dedo"
+        ],
+        "fonte": "Scienceline, 2012; Popular Science, 2015"
+      },
+      "say": "Luva de pano não conduz, e não rouba carga. Chuva conduz, e rouba carga onde não há dedo."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Scienceline (Allison T. McCann), jan. 2012",
+        "Popular Science (Daniel Engber), nov. 2015",
+        "Barrett e Omote, Information Display (SID)"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "A tela de toque capacitiva do celular não mede pressão: ela guarda uma carga elétrica minúscula numa grade transparente e percebe quando o seu dedo, que conduz eletricidade, rouba parte dela.\n\nUm chip lê a grade cruzamento por cruzamento, acha onde a carga caiu e calcula o ponto; medindo assim, a tela distingue até dez toques de uma vez, segundo artigo técnico de Gary Barrett e Ryomei Omote. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.\n\nManda para quem já xingou o celular na chuva.\n\n—\nFontes no primeiro comentário.\n\n#comofunciona #celular #tecnologia #telasensivel #fisica",
+  "fontes_comentario": "Fontes: Scienceline (Allison T. McCann), \"Okay, but how do touch screens actually work?\", 17 jan. 2012 (resistiva x capacitiva; grade de fios mais finos que cabelo; carga transferida ao dedo; luva só com fio condutor); Popular Science (Daniel Engber), \"Why does a drop of water confuse my touchscreen?\", 30 nov. 2015 (Geoff Wilson: o dedo \"suga\" carga; corpo feito de água; capacitância mútua; gotas de água; pontos fantasma); Gary L. Barrett e Ryomei Omote, \"Projected Capacitive Touch Screens\", Information Display, Society for Information Display (grade lida linha a linha, triangulação, resolução 1024 x 1024, até dez toques, vidro de 0,55 a 1,1 mm); Nelson-Miller, 24 mar. e 29 jan. 2020 (definição de capacitância mútua; caneta não condutora); AllPCB (Adrian), 26 mai. 2026 (ITO; luva grossa e película); Xataka (Enrique Pérez), 5 jul. 2020 (E. A. Johnson, 1965; Sam Hurst, 1971; Beck e Stumpe, CERN, 1973–2008; LG Prada, 2006)."
+}
