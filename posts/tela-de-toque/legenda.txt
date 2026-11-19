@@ -1,4 +1,4 @@
-A tela capacitiva do celular foi inventada para controladores de tráfego aéreo, em 1965, bem antes de existir smartphone.
+A ideia da tela de toque nasceu em 1965, num laboratório de radar britânico, da necessidade de controlar o tráfego aéreo, bem antes de existir smartphone.
 
 O princípio é simples: sob o vidro há uma grade transparente de linhas e colunas que guarda uma carga elétrica minúscula em cada cruzamento. O corpo humano conduz eletricidade, e o dedo rouba parte dessa carga; um chip lê a grade, acha onde a carga caiu e combina os cruzamentos vizinhos para calcular o ponto. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.
 

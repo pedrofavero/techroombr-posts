@@ -18,7 +18,7 @@
       "kicker": "Duas famílias",
       "heading": "A tela que cede e a tela que sente",
       "body": [
-        "As telas antigas, de caixa eletrônico e de maquininha com caneta, são **resistivas**: duas camadas condutoras que se encostam quando o dedo aperta. Dá para sentir a tela ceder. Aceitam qualquer objeto, mas só um toque por vez, segundo a Scienceline.",
+        "As telas antigas, de caixa eletrônico e de maquininha com caneta, são **resistivas**: duas camadas condutoras que se encostam quando o dedo aperta. Dá para sentir a tela ceder. Funcionam com dedo, luva ou caneta, diz a Nelson-Miller, mas só um toque por vez, segundo a Scienceline.",
         "A tela do celular é **capacitiva**. Ela não usa a pressão do dedo: reage a qualquer coisa que conduza eletricidade, e a pele humana conduz. Em vez de sentir um aperto, a tela sente uma mudança elétrica."
       ],
       "photo": "fotos/tela-de-toque-2.jpg",
@@ -41,11 +41,11 @@
       "steps": [
         {
           "title": "Dois condutores próximos guardam carga",
-          "text": "Quando dois objetos que conduzem eletricidade ficam perto um do outro, eles conseguem armazenar uma carga elétrica. É a **capacitância**. Em cada cruzamento de linha e coluna da grade há um pouquinho dela guardada, explica a fabricante de telas Nelson-Miller."
+          "text": "Quando dois objetos que conduzem eletricidade ficam perto um do outro, eles conseguem armazenar uma carga elétrica. É a **capacitância**, explica a Nelson-Miller, empresa de telas. Na grade, há um pouco de carga guardada entre cada linha e coluna que se cruzam, descreve a Popular Science."
         },
         {
           "title": "O dedo chega e rouba carga",
-          "text": "O corpo humano é feito em grande parte de água e conduz bem. \"Quando você encosta o dedo na tela, ele suga parte da carga\", disse à Popular Science Geoff Wilson, ex-engenheiro da Intel (tradução livre). A carga daquele cruzamento cai."
+          "text": "O corpo humano é feito em grande parte de água e conduz bem. \"Quando você encosta o dedo na tela, ele suga parte da carga\", disse à Popular Science Geoff Wilson, consultor que trabalhou com telas de toque na Intel (tradução livre). A carga daquele cruzamento cai."
         },
         {
           "title": "O chip lê a grade",
@@ -53,7 +53,7 @@
         },
         {
           "title": "Vários dedos ao mesmo tempo",
-          "text": "Medindo cruzamento por cruzamento (a chamada capacitância mútua), a tela distingue até dez toques de uma vez, segundo o mesmo artigo. Medir só por linha ou só por coluna cria \"toques fantasma\" quando há dois dedos, diz a Popular Science."
+          "text": "Medindo cruzamento por cruzamento (a chamada capacitância mútua), a tela distingue até dez toques de uma vez, segundo o mesmo artigo. Medir só por linha ou só por coluna pode criar \"pontos fantasma\" quando há mais de um toque, diz a Popular Science."
         }
       ]
     },
@@ -62,8 +62,8 @@
       "kicker": "Na prática",
       "heading": "Por que luva falha e chuva confunde",
       "nocheck": [
-        "**Luva de tecido**: o pano não conduz eletricidade, então o dedo não rouba carga, a menos que a luva tenha fio condutor na ponta (Scienceline). Luva grossa também afasta demais o dedo da grade (AllPCB).",
-        "**Caneta de plástico**: não conduz, não absorve a carga da tela (Nelson-Miller).",
+        "**Luva de tecido**: o pano não conduz eletricidade, então o dedo não rouba carga, a menos que a luva tenha fio condutor (Scienceline). Luva grossa também afasta demais o dedo da grade (AllPCB).",
+        "**Caneta comum**: em geral não conduz, então não absorve a carga da tela (Nelson-Miller).",
         "**Gotas de chuva ou suor**: a água também é condutora e cria um caminho extra entre eletrodos, reduzindo a carga como se fosse um toque (Popular Science)."
       ],
       "check": [
@@ -74,11 +74,11 @@
     {
       "type": "timeline",
       "kicker": "De onde veio",
-      "heading": "Uma invenção para controlar aviões",
+      "heading": "Uma ideia nascida do tráfego aéreo",
       "items": [
         {
           "when": "1965",
-          "what": "Eric Arthur Johnson, engenheiro do Royal Radar Establishment, em Malvern, no Reino Unido, publica a primeira tela de toque capacitiva, pensada para o controle de tráfego aéreo. A patente americana sai em 1969."
+          "what": "Eric Arthur Johnson, engenheiro do Royal Radar Establishment, em Malvern, no Reino Unido, publica um dispositivo sensível ao toque do dedo. A ideia nasceu da necessidade de controlar o tráfego aéreo, segundo a Xataka, que o considera o inventor das telas capacitivas. A patente americana sai em 1969."
         },
         {
           "when": "1971",
@@ -86,7 +86,7 @@
         },
         {
           "when": "1973",
-          "what": "Frank Beck e Bent Stumpe, engenheiros do CERN, montam uma tela capacitiva com cobre evaporado sobre película de poliéster transparente. Ela operou no laboratório de 1973 a 2008."
+          "what": "Frank Beck e Bent Stumpe, engenheiros do CERN, montam o que a Xataka chama de primeira tela de toque capacitiva: cobre evaporado sobre película de poliéster transparente. Ela operou no laboratório de 1973 a 2008."
         },
         {
           "when": "1990s",
@@ -131,7 +131,7 @@
         },
         {
           "who": "Xataka (Enrique Pérez), 5 jul. 2020",
-          "what": "E. A. Johnson, 1965, Malvern, patente de 1969; Sam Hurst, 1971 e 1977; Beck e Stumpe no CERN, 1973–2008; controladores britânicos nos anos 1990; LG Prada, 2006"
+          "what": "E. A. Johnson, 1965, Malvern, tráfego aéreo, patente de 1969; Sam Hurst, 1971 e 1977; Beck e Stumpe no CERN, 1973–2008; controladores britânicos nos anos 1990; LG Prada, 2006"
         },
         {
           "who": "Fotos",
@@ -140,5 +140,5 @@
       ]
     }
   ],
-  "legenda": "A tela capacitiva do celular foi inventada para controladores de tráfego aéreo, em 1965, bem antes de existir smartphone.\n\nO princípio é simples: sob o vidro há uma grade transparente de linhas e colunas que guarda uma carga elétrica minúscula em cada cruzamento. O corpo humano conduz eletricidade, e o dedo rouba parte dessa carga; um chip lê a grade, acha onde a carga caiu e combina os cruzamentos vizinhos para calcular o ponto. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.\n\nQual objeto do seu dia a dia você gostaria de ver aberto assim?\n\n—\nFontes no último slide.\n\n#comofunciona #celular #tecnologia #telasensivel #fisica #curiosidade"
+  "legenda": "A ideia da tela de toque nasceu em 1965, num laboratório de radar britânico, da necessidade de controlar o tráfego aéreo, bem antes de existir smartphone.\n\nO princípio é simples: sob o vidro há uma grade transparente de linhas e colunas que guarda uma carga elétrica minúscula em cada cruzamento. O corpo humano conduz eletricidade, e o dedo rouba parte dessa carga; um chip lê a grade, acha onde a carga caiu e combina os cruzamentos vizinhos para calcular o ponto. Luva de pano não conduz, por isso não funciona; gotas de água conduzem, por isso confundem.\n\nQual objeto do seu dia a dia você gostaria de ver aberto assim?\n\n—\nFontes no último slide.\n\n#comofunciona #celular #tecnologia #telasensivel #fisica #curiosidade"
 }
