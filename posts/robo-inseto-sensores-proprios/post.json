@@ -32,7 +32,7 @@
       "unit": " g",
       "label": "é o peso do robô inteiro, com os sensores a bordo, segundo o artigo. Sem o pacote de eletrônica, ele pesa 1,05 g",
       "body": [
-        "Até aqui, robôs tão leves não carregavam a eletrônica necessária para se guiar. Eles voavam dentro de uma sala com ==câmeras de captura de movimento==, o mesmo sistema usado para animar personagens de cinema, que diziam ao controlador onde o robô estava.",
+        "Até aqui, robôs tão leves não carregavam a eletrônica necessária para se guiar. Eles voavam dentro de uma sala com ==câmeras de captura de movimento==, um sistema do laboratório que rastreia a posição do robô e a informa ao controlador.",
         "Sem as câmeras, o robô perdia a referência de posição e derivava, explica o MIT."
       ]
     },
@@ -89,7 +89,7 @@
           "label": "6,09 cm"
         }
       ],
-      "note": "Erro médio (RMS) de posição lateral ou total medido pelas câmeras do laboratório, usadas só para conferir. Voos com sensores a bordo e cálculo em um computador externo; cada manobra repetida de 3 a 5 vezes. Fonte: artigo (versão arXiv).",
+      "note": "Erro médio (RMS) de posição lateral ou total medido pelas câmeras do laboratório, usadas só para conferir. Voos com sensores a bordo e cálculo em um computador externo; voos pairados repetidos 5 vezes, trajetórias 3 vezes. Fonte: artigo (versão arXiv).",
       "body": [
         "Trocar as câmeras pelos sensores a bordo aumentou o erro ao pairar em **65%**, segundo o artigo. Ainda assim, o pesquisador Yi-Hsuan Hsiao diz que a precisão é \"comparável\" à dos voos guiados por câmeras externas (tradução livre)."
       ]
@@ -101,7 +101,7 @@
       "photo": "fotos/robo-inseto-sensores-proprios-3.jpg",
       "caption": "Foto: Tim Mossholder / Unsplash",
       "body": [
-        "Na demonstração mais longa, de **30 segundos**, uma pessoa deu comandos por joystick, e o robô desviou de plantas e pousou numa flor de girassol. Nesse voo, os sensores estavam a bordo, mas as contas eram feitas num computador de mesa, diz o artigo.",
+        "Na demonstração mais longa, de **30 segundos**, uma pessoa guiou o robô por joystick por entre plantas até pousar numa flor de girassol. Nesse voo, os sensores estavam a bordo, mas as contas eram feitas num computador de mesa, diz o artigo.",
         "Com sensores **e** computação a bordo, os voos relatados são mais curtos: 10 segundos pairando e 7 segundos indo e voltando, com erro lateral de cerca de 2,2 cm.",
         "A energia ainda vem de uma fonte externa, por fio; bateria e circuitos de potência somariam de 1 a 1,5 g, estima o artigo. E não há câmera: o robô não reconhece objetos nem desvia de obstáculos sozinho. Polinizar amendoeiras, como o MIT sugere, é uma aplicação futura, não um resultado."
       ]
@@ -143,7 +143,7 @@
       "heading": "Três coisas para contar no jantar",
       "check": [
         "**O feito:** um robô voador de 1,29 g, com quatro asas, agora carrega sensores e um microcontrolador de 244 mg e voa sem as câmeras externas do laboratório.",
-        "**A precisão:** erro de posição de 2 a 6 cm nas manobras testadas, 65% maior do que com as câmeras, mas, segundo os autores, comparável.",
+        "**A precisão:** erro de posição de 2 a 6 cm nas manobras testadas; ao pairar, 65% maior do que com as câmeras, mas, segundo os autores, comparável.",
         "**A ressalva:** a energia ainda chega por fio, não há câmera a bordo, e os voos com tudo a bordo duraram até 10 segundos."
       ]
     },

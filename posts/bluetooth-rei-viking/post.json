@@ -104,9 +104,9 @@
           "text": "1998"
         },
         {
-          "big": "17 mil",
+          "big": "+17 mil",
           "unit": "",
-          "label": "empresas-membro tem o grupo hoje, segundo o site de checagem Snopes",
+          "label": "mais de 17 mil empresas-membro tem o grupo hoje, segundo o site de checagem Snopes",
           "text": "Hoje"
         }
       ],
@@ -118,7 +118,7 @@
       "type": "quote",
       "kicker": "Em uma frase",
       "text": "Gastamos zero dólar com Bluetooth, e a imprensa adorou.",
-      "who": "Jim Kardach, ex-Intel, ao blog da SnapEDA, 2019 (tradução livre)",
+      "who": "Jim Kardach, engenheiro da Intel, ao blog da SnapEDA, 2019 (tradução livre)",
       "body": [
         "Vale a ressalva: a história é contada sobretudo pelo próprio Kardach, em entrevistas e textos dele. Detalhes como a estação do ano em Toronto variam entre as versões."
       ]
@@ -129,7 +129,7 @@
       "heading": "Três coisas para contar no jantar",
       "check": [
         "**O nome:** Bluetooth é o apelido de Harald Gormsson, rei dinamarquês do século 10, lembrado por unificar a Dinamarca; a ideia surgiu num bar, em 1997, a partir de um romance.",
-        "**O acidente:** era só um codinome. O nome oficial escolhido, PAN, não pôde ser registrado como marca, e o grupo lançou o padrão com o apelido em 1998.",
+        "**O acidente:** era só um codinome. O nome oficial escolhido, PAN, não pôde ser registrado como marca, e o grupo foi formado com o apelido em 1998.",
         "**O logotipo:** são duas runas, H e B, as iniciais do rei."
       ]
     },
