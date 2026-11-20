@@ -1,0 +1,79 @@
+{
+  "slug": "bluetooth-rei-viking",
+  "style": "caderno",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Curiosidade",
+      "anim": {
+        "type": "hook",
+        "big": "Bluetooth é um rei viking",
+        "line": "e o nome era só um ==apelido provisório==",
+        "fonte": "Snopes; Gizmodo, dez. 2014"
+      },
+      "say": "Bluetooth é o apelido de um rei viking. E o nome era para ser provisório."
+    },
+    {
+      "kicker": "1997",
+      "anim": {
+        "type": "write",
+        "title": "Um bar em Toronto",
+        "lines": [
+          "engenheiros da ==Intel== e da Ericsson",
+          "e um romance sobre vikings: The Long Ships"
+        ],
+        "fonte": "Jim Kardach à SnapEDA, 2019; Snopes"
+      },
+      "say": "Em 1997, num bar em Toronto, engenheiros da Intel e da Ericsson falaram de um romance sobre vikings."
+    },
+    {
+      "kicker": "O rei",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 1000 620'><path d='M340 600 L320 200 Q350 50 500 40 Q650 50 680 200 L660 600 Z'/><line x1='425' y1='230' x2='425' y2='520'/><line x1='500' y1='170' x2='500' y2='560'/><line x1='575' y1='230' x2='575' y2='520'/><line x1='425' y1='360' x2='500' y2='290'/><line x1='575' y1='360' x2='500' y2='290'/><line class='acc' x1='230' y1='600' x2='770' y2='600'/></svg>",
+        "caption": "Harald Dente Azul uniu a Dinamarca; o rádio uniria aparelhos",
+        "fonte": "Museu Nacional da Dinamarca; Snopes"
+      },
+      "say": "O rei: Harald Dente Azul uniu a Dinamarca há mais de mil anos. Para um rádio que une aparelhos, parecia perfeito."
+    },
+    {
+      "kicker": "Mas...",
+      "anim": {
+        "type": "write",
+        "title": "era só um codinome",
+        "lines": [
+          "nome oficial escolhido: ==PAN==, proposta da IBM",
+          "busca: cerca de 1 milhão de resultados; não dava para registrar a marca"
+        ],
+        "fonte": "Jim Kardach à SnapEDA, 2019"
+      },
+      "say": "Mas era só um codinome. O nome oficial seria PAN. A busca deu cerca de 1 milhão de resultados: impossível registrar."
+    },
+    {
+      "kicker": "1998",
+      "anim": {
+        "type": "number",
+        "value": 5,
+        "decimals": 0,
+        "unit": "",
+        "label": "empresas formaram o grupo Bluetooth em 1998 com o apelido: Ericsson, IBM, Intel, Nokia e Toshiba",
+        "fonte": "Snopes; Jim Kardach à SnapEDA, 2019"
+      },
+      "say": "Em 1998, 5 empresas formaram o grupo com o apelido. Segundo Kardach, a imprensa adorou. Nunca trocaram."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Jim Kardach, entrevista à SnapEDA, out. 2019",
+        "Snopes, Bluetooth etymology; Gizmodo, dez. 2014",
+        "Museu Nacional da Dinamarca, The Jelling Stone"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Bluetooth, o rádio de curto alcance do seu fone e do seu carro, tem o nome de Harald Dente Azul, rei da Dinamarca no século 10. A história é contada sobretudo pelo próprio Jim Kardach, o engenheiro da Intel que sugeriu o codinome em 1997; detalhes como a estação do ano em Toronto mudam de uma versão para outra. O nome oficial escolhido, PAN, caiu porque não podia ser registrado como marca. Manda para quem usa Bluetooth todo dia e nunca se perguntou de onde veio a palavra.\n\n—\nFontes no primeiro comentário.\n\n#bluetooth #curiosidade #vikings #tecnologia",
+  "fontes_comentario": "Fontes: Jim Kardach, entrevista ao blog da SnapEDA (hoje SnapMagic), 7 out. 2019 (Toronto, bar, The Long Ships, The Vikings, slide, codinome, advogado da Intel, PAN com cerca de 1 milhão de resultados, Flirt, Conductor, cinco empresas, US$ 500 e 200, \"gastamos zero dólar\"); Snopes, \"Bluetooth etymology\" (1997, Jim Kardach e Sven Mattisson, livros e autores, Harald Blåtand, morte por volta de 986, grupo de 1998 com Ericsson, IBM, Intel, Nokia e Toshiba, mais de 17 mil membros, runas H e B); Adam Clark Estes, Gizmodo, 30 dez. 2014 (bar em Toronto, 1997, livros, origem discutida do apelido, PAN e Flirt, runas do logotipo); Museu Nacional da Dinamarca, \"The Jelling Stone\" (pedra erguida por Harald por volta de 965; inscrição; \"certidão de nascimento da Dinamarca\")."
+}
