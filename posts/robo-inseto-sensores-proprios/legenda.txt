@@ -1,0 +1,8 @@
+Um robô voador mais leve que um clipe de papel agora sabe onde está sem precisar das câmeras do laboratório.
+
+O pacote de sensores e computador pesa 244 miligramas e consome só 6% da energia; o resto vai para as asas. Nos testes, o erro de posição ficou entre 2 e 6 centímetros. Mas a energia ainda chega por um fio, não há câmera a bordo, e os voos com tudo embarcado duraram até 10 segundos.
+
+Você deixaria um robô desses polinizar sua horta?
+—
+Fontes no último slide.
+#robotica #mit #ciencia #tecnologia #engenharia #drones #polinizacao #techroombr

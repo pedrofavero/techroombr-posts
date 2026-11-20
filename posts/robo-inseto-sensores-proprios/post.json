@@ -1,0 +1,173 @@
+{
+  "slug": "robo-inseto-sensores-proprios",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/robo-inseto-sensores-proprios-1.jpg",
+      "title": "Um robô de 1,29 grama já voa com os próprios sensores",
+      "dek": "Até agora, robôs voadores do tamanho de um inseto só sabiam onde estavam com a ajuda de câmeras do laboratório. Um grupo do MIT colocou sensores e um computador a bordo. Mas a energia ainda chega por fio.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O que foi feito",
+      "heading": "Quatro asas, músculos artificiais e um pacote de 244 miligramas",
+      "photo": "fotos/robo-inseto-sensores-proprios-2.jpg",
+      "caption": "Foto: Vishnu Mohanan / Unsplash",
+      "body": [
+        "O robô tem quatro asas, cada uma batida por um ==atuador macio==, uma peça de material flexível que se contrai com eletricidade, como um músculo. Ele pesa menos que um clipe de papel e tem o tamanho de uma fita microcassete, diz o MIT.",
+        "A novidade é um pacote de **244 miligramas** com três sensores e um microcontrolador: uma unidade inercial, que mede a inclinação; um sensor de fluxo óptico, que mede o deslocamento para os lados; e um sensor de distância, que mede a altura.",
+        "O estudo saiu em 18 de novembro na revista **Science Robotics**, assinado por pesquisadores do MIT e da Universidade Cornell."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O número",
+      "big": "1,29",
+      "unit": " g",
+      "label": "é o peso do robô inteiro, com os sensores a bordo, segundo o artigo. Sem o pacote de eletrônica, ele pesa 1,05 g",
+      "body": [
+        "Até aqui, robôs tão leves não carregavam a eletrônica necessária para se guiar. Eles voavam dentro de uma sala com ==câmeras de captura de movimento==, o mesmo sistema usado para animar personagens de cinema, que diziam ao controlador onde o robô estava.",
+        "Sem as câmeras, o robô perdia a referência de posição e derivava, explica o MIT."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Como coube",
+      "heading": "Asas maiores pagaram o peso extra",
+      "cells": [
+        {
+          "big": "46",
+          "unit": "%",
+          "label": "a mais de sustentação depois que os atuadores cresceram 50%; o robô levanta 1,9 vez o próprio peso",
+          "text": "Força"
+        },
+        {
+          "big": "6",
+          "unit": "%",
+          "label": "da energia vai para sensores e computador; o resto move os músculos artificiais e as asas",
+          "text": "Energia"
+        }
+      ],
+      "body": [
+        "Aumentar o atuador sem perder potência \"é muito difícil\", diz o professor Kevin Chen, que lidera o grupo (tradução livre). A equipe ajustou o raio e o comprimento das peças para que a sustentação crescesse na mesma proporção do peso adicionado."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Quanto errou",
+      "heading": "Erro de posição em cada manobra, em centímetros",
+      "bars": [
+        {
+          "name": "Pairar a 5 cm do chão (12 s)",
+          "value": 3.24,
+          "label": "3,24 cm"
+        },
+        {
+          "name": "Pairar a 10 cm (12 s)",
+          "value": 3.65,
+          "label": "3,65 cm"
+        },
+        {
+          "name": "Figura de 8 (7 s)",
+          "value": 2.19,
+          "label": "2,19 cm"
+        },
+        {
+          "name": "Ir e voltar, 40 cm (7 s)",
+          "value": 4.52,
+          "label": "4,52 cm"
+        },
+        {
+          "name": "Círculo de 18 cm (7 s)",
+          "value": 6.09,
+          "label": "6,09 cm"
+        }
+      ],
+      "note": "Erro médio (RMS) de posição lateral ou total medido pelas câmeras do laboratório, usadas só para conferir. Voos com sensores a bordo e cálculo em um computador externo; cada manobra repetida de 3 a 5 vezes. Fonte: artigo (versão arXiv).",
+      "body": [
+        "Trocar as câmeras pelos sensores a bordo aumentou o erro ao pairar em **65%**, segundo o artigo. Ainda assim, o pesquisador Yi-Hsuan Hsiao diz que a precisão é \"comparável\" à dos voos guiados por câmeras externas (tradução livre)."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ainda não faz",
+      "heading": "Pousou num girassol. Mas preso a um fio",
+      "photo": "fotos/robo-inseto-sensores-proprios-3.jpg",
+      "caption": "Foto: Tim Mossholder / Unsplash",
+      "body": [
+        "Na demonstração mais longa, de **30 segundos**, uma pessoa deu comandos por joystick, e o robô desviou de plantas e pousou numa flor de girassol. Nesse voo, os sensores estavam a bordo, mas as contas eram feitas num computador de mesa, diz o artigo.",
+        "Com sensores **e** computação a bordo, os voos relatados são mais curtos: 10 segundos pairando e 7 segundos indo e voltando, com erro lateral de cerca de 2,2 cm.",
+        "A energia ainda vem de uma fonte externa, por fio; bateria e circuitos de potência somariam de 1 a 1,5 g, estima o artigo. E não há câmera: o robô não reconhece objetos nem desvia de obstáculos sozinho. Polinizar amendoeiras, como o MIT sugere, é uma aplicação futura, não um resultado."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem fez, como testou, quem pagou",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Science Robotics, 18 nov. 2026 (doi 10.1126/scirobotics.aeg6618); preprint no arXiv"
+        },
+        {
+          "k": "Equipe",
+          "v": "MIT e Cornell; co-líderes Yi-Hsuan Hsiao, Quang Phuc Kieu e Zhongtao Guan; Kevin Chen, Jonathan How e Elizabeth Farrell Helbling"
+        },
+        {
+          "k": "O que mediu",
+          "v": "voos pairando e em trajetórias, com câmeras do laboratório só para conferir o erro"
+        },
+        {
+          "k": "Peso",
+          "v": "1,29 g no total; 244 mg de sensores e microcontrolador"
+        },
+        {
+          "k": "Financiamento",
+          "v": "NSF, Marinha e Força Aérea dos EUA, MathWorks e uma bolsa Zakhartchenko"
+        },
+        {
+          "k": "Conflitos",
+          "v": "os autores declaram não ter"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O feito:** um robô voador de 1,29 g, com quatro asas, agora carrega sensores e um microcontrolador de 244 mg e voa sem as câmeras externas do laboratório.",
+        "**A precisão:** erro de posição de 2 a 6 cm nas manobras testadas, 65% maior do que com as câmeras, mas, segundo os autores, comparável.",
+        "**A ressalva:** a energia ainda chega por fio, não há câmera a bordo, e os voos com tudo a bordo duraram até 10 segundos."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Hsiao, Kieu, Guan, Kim, Cai, Matteson, How, Helbling e Chen, Science Robotics, 18 nov. 2026 (doi 10.1126/scirobotics.aeg6618); versão em preprint no arXiv (2602.08328)",
+          "what": "1,29 g e 1,05 g; 244 mg; sensores; 330 Hz; 1,9; 46%; 2,04 W e 120 mW; erros por manobra; 65%; 30 s, 10 s e 7 s; 1 a 1,5 g; financiamento e conflitos"
+        },
+        {
+          "who": "MIT News (Adam Zewe), 18 nov. 2026; mesmo texto no EurekAlert",
+          "what": "clipe de papel e microcassete; câmeras de captura de movimento; 50% e 46%; 6% da energia; joystick, plantas e girassol; fonte externa de energia; sem câmera; amendoeiras; citações de Chen e Hsiao"
+        },
+        {
+          "who": "Bioengineer.org (via Scienmag), 19 nov. 2026",
+          "what": "cobertura secundária: sensores, 244 mg, 6%, demonstração no girassol, limites"
+        },
+        {
+          "who": "Fotos",
+          "what": "David Clode, Vishnu Mohanan e Tim Mossholder, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Um robô voador mais leve que um clipe de papel agora sabe onde está sem precisar das câmeras do laboratório.\n\nO pacote de sensores e computador pesa 244 miligramas e consome só 6% da energia; o resto vai para as asas. Nos testes, o erro de posição ficou entre 2 e 6 centímetros. Mas a energia ainda chega por um fio, não há câmera a bordo, e os voos com tudo embarcado duraram até 10 segundos.\n\nVocê deixaria um robô desses polinizar sua horta?\n—\nFontes no último slide.\n#robotica #mit #ciencia #tecnologia #engenharia #drones #polinizacao #techroombr"
+}

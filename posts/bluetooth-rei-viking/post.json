@@ -1,0 +1,163 @@
+{
+  "slug": "bluetooth-rei-viking",
+  "categoria": "CURIOSIDADE",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/bluetooth-rei-viking-1.jpg",
+      "title": "Bluetooth é um rei viking. E o nome era só provisório",
+      "dek": "O nome do seu fone sem fio nasceu numa conversa de bar em 1997, saiu de um romance sobre vikings e deveria ter sido trocado antes do lançamento. Não foi, porque o nome oficial não passou no registro de marca.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A história",
+      "heading": "Dois engenheiros, um bar em Toronto e um romance de vikings",
+      "photo": "fotos/bluetooth-rei-viking-2.jpg",
+      "caption": "Foto: TheRegisti / Unsplash",
+      "body": [
+        "Em 1997, Intel, Ericsson e Nokia tentavam criar um rádio de curto alcance, barato e de baixo consumo, para celulares e notebooks conversarem sem fio. Cada empresa tinha o seu projeto e o seu nome: a Intel chamava o dela de Biz-RF; a Ericsson, de MC-Link; a Nokia, de Low Power RF.",
+        "Depois de uma reunião em Toronto, Jim Kardach, engenheiro da Intel, e Sven Mattisson, da Ericsson, foram a um bar. Mattisson tinha acabado de ler **The Long Ships**, romance de Frans G. Bengtsson sobre guerreiros dinamarqueses, e falou do rei da época: Harald Bluetooth.",
+        "Kardach, fã de história, encomendou o livro **The Vikings**, de Gwyn Jones, e nele achou uma foto da pedra rúnica em que Harald conta o que fez. Era a ideia que ele procurava."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do rei",
+      "heading": "Harald Gormsson, o Dente Azul",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "rei da Dinamarca no século 10; morreu por volta de 986"
+        },
+        {
+          "k": "Apelido",
+          "v": "Blåtand, \"dente azul\"; acredita-se que por um dente morto e escurecido, mas a origem é discutida"
+        },
+        {
+          "k": "O feito",
+          "v": "unificou a Dinamarca e converteu os dinamarqueses ao cristianismo"
+        },
+        {
+          "k": "A prova",
+          "v": "a grande pedra rúnica de Jelling, erguida por ele por volta de 965"
+        },
+        {
+          "k": "O que diz a pedra",
+          "v": "\"aquele Harald que conquistou para si toda a Dinamarca e a Noruega e fez os dinamarqueses cristãos\" (tradução livre)"
+        },
+        {
+          "k": "O apelido da pedra",
+          "v": "\"certidão de nascimento da Dinamarca\": o nome do país aparece na inscrição e a pedra registra a troca de religião"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ligação",
+      "heading": "Um rei que uniu reinos para um rádio que une aparelhos",
+      "photo": "fotos/bluetooth-rei-viking-3.jpg",
+      "caption": "Foto: Barnabas Davoti / Unsplash",
+      "body": [
+        "A ideia de Kardach: assim como Harald uniu a Dinamarca, o novo rádio uniria celulares e computadores. Ele fez um slide com o rei da pedra rúnica segurando um notebook e um celular, a pedido do chefe de marketing, Simon Ellis.",
+        "\"Bluetooth\" entrou como ==codinome==, um nome interno, só para o projeto. A Intel exigia que codinomes fossem rios ou montanhas; o advogado respondeu: \"Boa tentativa, Jim. Me dê um rio ou uma cidade da América do Norte\" (tradução livre). Duas semanas depois, voltou: ninguém tinha registrado Bluetooth.",
+        "Enquanto isso, o grupo discutia o nome oficial."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "A disputa pelo nome",
+      "heading": "Os nomes que perderam para um apelido",
+      "a": {
+        "title": "Candidatos oficiais",
+        "lines": [
+          "**PAN** (Personal Area Network), proposta da IBM: venceu a votação",
+          "**Flirt**, proposta da Ericsson: \"chegar perto sem encostar\"",
+          "**Conductor**, proposta da Nokia"
+        ]
+      },
+      "b": {
+        "title": "Por que ficou Bluetooth",
+        "lines": [
+          "Semanas depois da votação, a busca por \"PAN\" deu cerca de 1 milhão de resultados: impossível registrar como marca",
+          "Decidiram lançar o grupo com o codinome e trocar o nome depois",
+          "\"A imprensa adorou\", diz Kardach. Nunca trocaram"
+        ]
+      },
+      "body": [
+        "Ellis tinha oferecido US$ 500 a quem achasse o nome. \"Ele só me pagou 200\", conta Kardach (tradução livre)."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "De cinco para milhares",
+      "heading": "O grupo que lançou o padrão",
+      "cells": [
+        {
+          "big": "5",
+          "unit": "",
+          "label": "empresas fundaram o grupo Bluetooth em 1998: Ericsson, IBM, Intel, Nokia e Toshiba",
+          "text": "1998"
+        },
+        {
+          "big": "17 mil",
+          "unit": "",
+          "label": "empresas-membro tem o grupo hoje, segundo o site de checagem Snopes",
+          "text": "Hoje"
+        }
+      ],
+      "body": [
+        "O logotipo também é viking: junta duas ==runas==, as letras do alfabeto nórdico antigo, que correspondem a H e B, as iniciais de Harald Bluetooth."
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Em uma frase",
+      "text": "Gastamos zero dólar com Bluetooth, e a imprensa adorou.",
+      "who": "Jim Kardach, ex-Intel, ao blog da SnapEDA, 2019 (tradução livre)",
+      "body": [
+        "Vale a ressalva: a história é contada sobretudo pelo próprio Kardach, em entrevistas e textos dele. Detalhes como a estação do ano em Toronto variam entre as versões."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O nome:** Bluetooth é o apelido de Harald Gormsson, rei dinamarquês do século 10, lembrado por unificar a Dinamarca; a ideia surgiu num bar, em 1997, a partir de um romance.",
+        "**O acidente:** era só um codinome. O nome oficial escolhido, PAN, não pôde ser registrado como marca, e o grupo lançou o padrão com o apelido em 1998.",
+        "**O logotipo:** são duas runas, H e B, as iniciais do rei."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Jim Kardach, entrevista ao blog da SnapEDA (hoje SnapMagic), 7 out. 2019",
+          "what": "Toronto, bar, The Long Ships, The Vikings, slide, codinome, advogado, PAN com 1 milhão de resultados, Flirt, Conductor, cinco empresas, US$ 500 e 200, \"zero dólar\""
+        },
+        {
+          "who": "Snopes, \"Bluetooth etymology\"",
+          "what": "1997, Jim Kardach e Sven Mattisson, livros e autores, Harald Blåtand, dente escurecido, morte por volta de 986, grupo de 1998 com Ericsson, IBM, Intel, Nokia e Toshiba, 17 mil membros, runas H e B"
+        },
+        {
+          "who": "Gizmodo (Adam Clark Estes), 30 dez. 2014",
+          "what": "bar em Toronto, 1997, livros, Harald Gormsson e a origem discutida do apelido, PAN e Flirt, runas do logotipo"
+        },
+        {
+          "who": "Museu Nacional da Dinamarca, \"The Jelling Stone\"",
+          "what": "pedra erguida por Harald por volta de 965; inscrição; \"certidão de nascimento da Dinamarca\""
+        },
+        {
+          "who": "Fotos",
+          "what": "Håkan Sundblad (pedra rúnica de Rök, Suécia), TheRegisti e Barnabas Davoti, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O rei que dá nome ao seu fone de ouvido morreu há mais de mil anos e nunca soube o que era um rádio.\n\nHarald Gormsson, o Dente Azul, unificou a Dinamarca no século 10 e deixou isso gravado numa pedra. Em 1997, um engenheiro da Intel achou que era a metáfora certa para um rádio que uniria celulares e computadores. O nome era provisório; o oficial, PAN, não pôde ser registrado como marca.\n\nQual outro nome de tecnologia você sempre quis saber de onde veio?\n—\nFontes no último slide.\n#bluetooth #curiosidade #vikings #historia #tecnologia #dinamarca #techroombr"
+}
