@@ -1,0 +1,33 @@
+{
+ "slug": "bluetooth-rei-viking",
+ "total_s": 36.0,
+ "scenes": [
+  {
+   "dur": 4.5,
+   "start": 0.0
+  },
+  {
+   "dur": 7.5,
+   "start": 4.4
+  },
+  {
+   "dur": 6.5,
+   "start": 11.8
+  },
+  {
+   "dur": 7.5,
+   "start": 18.2
+  },
+  {
+   "dur": 8.0,
+   "start": 25.6
+  },
+  {
+   "dur": 2.5,
+   "start": 33.5
+  }
+ ],
+ "words": 96,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
