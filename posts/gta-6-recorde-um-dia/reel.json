@@ -1,0 +1,92 @@
+{
+  "slug": "gta-6-recorde-um-dia",
+  "display": "sans",
+  "accent": "#FFC21A",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/gta-6-recorde-um-dia-1.jpg",
+      "credit": "Foto: Diego Marín / Unsplash",
+      "anim": {
+        "type": "hook",
+        "kicker": "Notícia · games",
+        "big": "3,79 bi",
+        "line": "de dólares no primeiro dia do novo Grand Theft Auto, diz a empresa.",
+        "fonte": "Take-Two / Rockstar · comunicado à SEC · 20 nov. 2026"
+      },
+      "say": "3,79 bilhões de dólares em um dia: é o que a Rockstar diz que o novo Grand Theft Auto vendeu."
+    },
+    {
+      "media": "fotos/gta-6-recorde-um-dia-3.jpg",
+      "credit": "Foto: Vitaly Gariev / Unsplash",
+      "kicker": "O que é esse número",
+      "text": "**Vendas no varejo**: o que os compradores gastaram em lojas físicas e digitais, no mundo todo, até o fim de **19 de novembro**. Estimativa da própria empresa. Fonte: Take-Two, 20 nov. 2026",
+      "say": "É o gasto dos compradores no mundo todo até 19 de novembro, estimado pela empresa."
+    },
+    {
+      "media": "fotos/gta-6-recorde-um-dia-2.jpg",
+      "credit": "Foto: Valeriia Neganova / Unsplash",
+      "kicker": "Dias até US$ 1 bilhão",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "GTA VI (2026)",
+            "value": 1,
+            "label": "1 dia"
+          },
+          {
+            "name": "GTA V (2013)",
+            "value": 3,
+            "label": "3 dias"
+          },
+          {
+            "name": "Call of Duty: Black Ops II",
+            "value": 15,
+            "label": "15 dias",
+            "other": true
+          },
+          {
+            "name": "Os Vingadores (cinema)",
+            "value": 19,
+            "label": "19 dias",
+            "other": true
+          }
+        ],
+        "note": "Vendas mundiais estimadas.",
+        "fonte": "Take-Two · 2013 e 2026; GameSpot · 2013"
+      },
+      "say": "Em 2013, o jogo anterior levou 3 dias até 1 bilhão. Os Vingadores, no cinema, 19 dias. Agora, 1 dia.",
+      "hold": 0.6
+    },
+    {
+      "media": "fotos/gta-6-recorde-um-dia-1.jpg",
+      "credit": "Foto: Diego Marín / Unsplash",
+      "kicker": "A virada",
+      "text": "**Não é a receita da empresa.** Lojas e fabricantes de console ficam com parte. Cópias do dia 1: não divulgadas. Fonte: Motley Fool, 20 nov. 2026; Take-Two",
+      "say": "Mas não é o que entra no caixa: lojas e fabricantes de console ficam com parte. E as cópias vendidas, a empresa não disse."
+    },
+    {
+      "media": "fotos/gta-6-recorde-um-dia-3.jpg",
+      "credit": "Foto: Vitaly Gariev / Unsplash",
+      "kicker": "A crítica",
+      "text": "Nota **99** no Metacritic, empate com o recorde de 1998. Queixas: **30 quadros por segundo** e download de até **212 GB**. Fonte: The Next Web, 18 nov. 2026",
+      "say": "A crítica deu nota 99 e reclamou dos 30 quadros por segundo.",
+      "hold": 0.6
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Take-Two / Rockstar Games, comunicado de 20 nov. 2026 (SEC, 8-K)",
+        "Reuters (Deborah Mary Sophia), 19 nov. 2026; The Next Web, 18 nov. 2026",
+        "Take-Two, 20 set. 2013; GameSpot, 2013; Motley Fool, 20 nov. 2026"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Grand Theft Auto VI somou US$ 3,79 bilhões em vendas no varejo no primeiro dia, 19 de novembro, segundo a própria Rockstar, no comunicado que a Take-Two enviou à SEC.\n\nO número é uma estimativa da empresa do que os compradores gastaram no mundo todo, não a receita dela: lojas e fabricantes de console ficam com parte. A empresa não divulgou quantas cópias saíram no dia 1 nem quanto foi digital. Em 2013, GTA V levou três dias para chegar a US$ 1 bilhão.\n\nManda para quem ainda acha que videogame é coisa pequena.\n\n—\nFontes no primeiro comentário.\n\n#GTA6 #GrandTheftAutoVI #games #videogame #tecnologia",
+  "fontes_comentario": "Fontes: Take-Two Interactive / Rockstar Games, comunicado de 20 nov. 2026 (Business Wire; Exhibit 99.1 do formulário 8-K na SEC): US$ 3,79 bilhões em vendas no varejo no dia 1, \"estimativas da empresa até o fim de 19 de novembro, no mundo todo\", 32,5 milhões de cópias pré-vendidas, Metacritic 99, nenhum filme ou jogo nomeado; Reuters (Deborah Mary Sophia), 19 nov. 2026, via Yahoo Finance: Sensor Tower 19,1 milhões de cópias e US$ 1,84 bilhão, GTA V cerca de US$ 800 milhões no dia 1, custo estimado de US$ 1 bilhão ou mais; The Next Web (Darius Popa), 18 nov. 2026: lançamento em 19 nov. no PS5 e Xbox Series X|S a US$ 80, Metacritic 99 com 147 resenhas e empate com Ocarina of Time (1998), 30 fps, até 212 GB, mais de 8 anos e 4.700 pessoas (Bloomberg); Take-Two, comunicado de 20 set. 2013: GTA V, US$ 1 bilhão em 3 dias; GameSpot, set. 2013: Call of Duty: Black Ops II em 15 dias e Os Vingadores em 19; Motley Fool (Jonathan Ponciano), 20 nov. 2026: vendas no varejo não são receita; Wikipédia em inglês, verbete Grand Theft Auto VI. Fotos: Diego Marín, Vitaly Gariev e Valeriia Neganova, via Unsplash."
+}
