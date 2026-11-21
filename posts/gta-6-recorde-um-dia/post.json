@@ -1,0 +1,186 @@
+{
+  "slug": "gta-6-recorde-um-dia",
+  "categoria": "NOTÍCIA",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/gta-6-recorde-um-dia-1.jpg",
+      "title": "GTA VI vendeu US$ 3,79 bilhões em 1 dia. Entenda a conta",
+      "dek": "A Rockstar diz que o novo Grand Theft Auto bateu o recorde de todo o entretenimento no primeiro dia. O número é uma estimativa da própria empresa, não é o faturamento dela. O que ele significa e o que ficou de fora.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Um jogo, um dia, um comunicado",
+      "rows": [
+        {
+          "k": "Quem",
+          "v": "Rockstar Games, estúdio da Take-Two Interactive (Nova York, EUA)"
+        },
+        {
+          "k": "O quê",
+          "v": "Comunicado: US$ 3,79 bilhões em \"vendas no varejo\" no 1º dia, no mundo todo"
+        },
+        {
+          "k": "Quando",
+          "v": "Lançado em 19 de novembro de 2026; comunicado em 20 de novembro"
+        },
+        {
+          "k": "Onde",
+          "v": "PlayStation 5 e Xbox Series X|S, a US$ 80 (The Next Web). Sem versão para PC anunciada"
+        },
+        {
+          "k": "Pré-venda",
+          "v": "32,5 milhões de cópias antes do lançamento, recorde segundo a empresa"
+        },
+        {
+          "k": "Fonte",
+          "v": "Comunicado enviado à SEC, a comissão de valores mobiliários dos EUA"
+        }
+      ],
+      "body": [
+        "\"Vendas no varejo\" é o que os compradores gastaram nas lojas, físicas e digitais, pela estimativa da empresa até o fim do dia 19. **Não é a receita da Take-Two**: lojas e fabricantes de console ficam com uma parte, lembra o site Motley Fool."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Contexto",
+      "heading": "Treze anos, mais de 4.700 pessoas e dois adiamentos",
+      "photo": "fotos/gta-6-recorde-um-dia-3.jpg",
+      "caption": "Foto: Vitaly Gariev / Unsplash",
+      "body": [
+        "O jogo anterior, GTA V, saiu em 2013 e passou de **230 milhões de cópias** vendidas desde então, segundo o The Next Web. O novo foi revelado em dezembro de 2023 com uma janela de 2025, adiado para maio de 2026 e, de novo, para 19 de novembro de 2026.",
+        "Segundo a Bloomberg, citada pelo The Next Web, a produção levou mais de oito anos e envolveu um estúdio de mais de 4.700 pessoas. A Reuters fala em custo estimado de **US$ 1 bilhão ou mais**; a Rockstar não confirma estimativas. A história se passa em Leonida, estado fictício inspirado na Flórida, com uma Vice City inspirada em Miami."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "A régua da própria empresa",
+      "heading": "2026 contra 2013",
+      "cells": [
+        {
+          "big": "3,79",
+          "unit": " bilhões",
+          "label": "de dólares no primeiro dia de GTA VI, estimativa da Rockstar/Take-Two (20 nov. 2026)",
+          "text": "Pré-venda de 32,5 milhões de cópias. O comunicado chama de \"o maior lançamento do entretenimento da história\", sem nomear qual recorde caiu."
+        },
+        {
+          "big": "1",
+          "unit": " bilhão",
+          "label": "de dólares em 3 dias de GTA V, estimativa da Take-Two (20 set. 2013)",
+          "text": "No primeiro dia, cerca de US$ 800 milhões, segundo a GameSpot e a Reuters. Em 2013, a empresa já dizia ser o produto de entretenimento mais rápido a chegar a US$ 1 bilhão."
+        }
+      ],
+      "body": [
+        "Na manhã do lançamento, a Reuters publicou a estimativa de uma consultoria, a Sensor Tower: **19,1 milhões de cópias** e cerca de US$ 1,84 bilhão para a Take-Two. No dia seguinte, a empresa anunciou o dobro. Os dois números medem coisas diferentes: um é receita estimada da empresa, o outro é gasto do consumidor."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Dias até US$ 1 bilhão",
+      "heading": "Quanto tempo cada lançamento levou para chegar a US$ 1 bilhão",
+      "bars": [
+        {
+          "name": "GTA VI (2026)",
+          "value": 1,
+          "label": "1 dia"
+        },
+        {
+          "name": "GTA V (2013)",
+          "value": 3,
+          "label": "3 dias"
+        },
+        {
+          "name": "Call of Duty: Black Ops II (2012)",
+          "value": 15,
+          "label": "15 dias",
+          "other": true
+        },
+        {
+          "name": "Os Vingadores, cinema (2012)",
+          "value": 19,
+          "label": "19 dias",
+          "other": true
+        }
+      ],
+      "note": "Vendas mundiais estimadas. GTA VI e GTA V: comunicados da Take-Two (2026 e 2013). Call of Duty e Os Vingadores: GameSpot, 2013. Jogos e filmes somam vendas de formas diferentes; a comparação é a que a própria indústria faz.",
+      "body": [
+        "Em 2013, GTA V precisou de três dias para o que GTA VI diz ter feito em um. A diferença de escala vale com ressalva: os números de 2026 são o que a própria empresa chama de estimativa, até o fim de 19 de novembro."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A crítica",
+      "heading": "Nota 99, e reclamações",
+      "photo": "fotos/gta-6-recorde-um-dia-2.jpg",
+      "caption": "Foto: Valeriia Neganova / Unsplash",
+      "body": [
+        "No Metacritic, site que junta as notas da crítica, o jogo abriu com **99 de 100**: todas as 147 resenhas da versão de PlayStation 5 eram positivas, e a nota empata com o recorde de Ocarina of Time, de 1998, segundo o The Next Web. Jason Schreier, da Bloomberg, chamou de \"uma obra-prima\" (tradução livre).",
+        "As queixas repetidas: roda a 30 quadros por segundo em todos os consoles, sem modo de desempenho; o download chega a 212 GB; e Keza MacDonald, do The Guardian, achou os controles \"imprevisíveis, trabalhosos, desajeitados e, às vezes, injustos\" (tradução livre). Quatro redatores da IGN levaram de 42 a 115 horas para terminar a história."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando as coisas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "US$ 3,79 bilhões é estimativa da empresa, no mundo todo, até o fim de 19 de novembro, informada à SEC em 20 de novembro.",
+          "32,5 milhões de cópias vendidas antes do lançamento, segundo a empresa.",
+          "Não é receita da Take-Two: lojas e fabricantes de console ficam com parte do valor."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Quantas cópias saíram no dia 1 e quanto foi digital: a empresa não divulgou.",
+          "Como a estimativa foi feita e qual recorde caiu: o comunicado não nomeia filme ou jogo.",
+          "Quanto custou: a Rockstar não confirma estimativas acima de US$ 1 bilhão.",
+          "Versão para PC e modo online: analistas ouvidos pela Reuters esperam 2027; a empresa não anunciou."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para recontar",
+      "check": [
+        "**GTA VI diz ter vendido US$ 3,79 bilhões no primeiro dia.** É estimativa da própria Rockstar/Take-Two, informada à SEC, do que os compradores gastaram no mundo todo. Não é o lucro da empresa.",
+        "**A régua é a da própria indústria.** Em 2013, GTA V levou 3 dias para US$ 1 bilhão; o filme Os Vingadores, 19 dias, em 2012. Agora, um dia.",
+        "**Falta o que a empresa não contou:** cópias do dia 1, quanto foi digital, quanto custou fazer o jogo e quando sai para PC."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Take-Two Interactive / Rockstar Games, comunicado de 20 nov. 2026 (Business Wire; Exhibit 99.1 do formulário 8-K na SEC)",
+          "what": "US$ 3,79 bilhões em vendas no varejo no dia 1, \"estimativas da empresa até o fim de 19 de novembro, no mundo todo\"; 32,5 milhões de cópias pré-vendidas; Metacritic 99; lojas; GTA V com quase 235 milhões de unidades enviadas"
+        },
+        {
+          "who": "Reuters (Deborah Mary Sophia), 19 nov. 2026, via Yahoo Finance",
+          "what": "Sensor Tower: 19,1 milhões de cópias e US$ 1,84 bilhão; GTA V cerca de US$ 800 milhões no dia 1; custo estimado de US$ 1 bilhão ou mais; analistas esperam PC e modo online em 2027"
+        },
+        {
+          "who": "The Next Web (Darius Popa), 18 nov. 2026",
+          "what": "Lançamento em 19 nov., PS5 e Xbox Series X|S, US$ 80; Metacritic 99, 147 resenhas, empate com Ocarina of Time; 30 fps; 212 GB; 42 a 115 horas; mais de 8 anos e 4.700 pessoas (Bloomberg); Rockstar não confirma custo (The Guardian); Schreier e MacDonald"
+        },
+        {
+          "who": "Take-Two, comunicado de 20 set. 2013; GameSpot, set. 2013; Motley Fool (Jonathan Ponciano), 20 nov. 2026; Wikipédia em inglês, verbete Grand Theft Auto VI",
+          "what": "GTA V: US$ 1 bilhão em 3 dias; Black Ops II em 15 dias e Os Vingadores em 19; vendas no varejo não são receita; revelação em dez. 2023, adiamentos, Leonida e Vice City"
+        },
+        {
+          "who": "Fotos",
+          "what": "Diego Marín, Vitaly Gariev e Valeriia Neganova, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O número é enorme, mas vale ler a nota de rodapé: é a estimativa da própria empresa, e não é o que entra no caixa dela.\n\nA Rockstar informou à SEC que Grand Theft Auto VI somou US$ 3,79 bilhões em vendas no varejo no primeiro dia, 19 de novembro, no mundo todo, com 32,5 milhões de cópias vendidas antes do lançamento. Em 2013, GTA V levou três dias para chegar a US$ 1 bilhão. A empresa não divulgou quantas cópias saíram no dia 1, quanto foi digital nem como fez a conta. A crítica deu nota 99 no Metacritic e reclamou dos 30 quadros por segundo e dos controles.\n\nVocê acha que um jogo deve ser comparado com filme na mesma régua?\n\n—\nFontes no último slide.\n\n#GTA6 #GrandTheftAutoVI #Rockstar #games #videogame #tecnologia #TheTechRoom"
+}
