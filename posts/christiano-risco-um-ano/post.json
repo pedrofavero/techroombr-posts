@@ -61,7 +61,7 @@
       "caption": "Foto: Valentin Lacoste / Unsplash",
       "body": [
         "Primeiro, a velocidade. Ele cita dados da METR, organização que mede capacidades de IA, e da Anthropic, \"consistentes com o ritmo do progresso em IA ter mais ou menos dobrado nos últimos 6 a 12 meses\" (tradução livre). Ressalva dele mesmo: a METR diz ter um relatório completo, mas ele foi ocultado por inteiro, e \"é muito difícil saber, de fora, o que está acontecendo\" (tradução livre).",
-        "Segundo, a segurança. \"A segurança dos laboratórios de fronteira não é forte o bastante\", diz, apoiado em um relatório da RAND que ele cita. Se os **pesos** de um modelo, o arquivo com tudo o que ele aprendeu, vazarem ou forem roubados, quem os tiver pode rodá-lo sem cuidado algum."
+        "Segundo, a segurança. \"A segurança dos laboratórios de fronteira não é forte o bastante\", diz, com um link para a RAND como apoio. Se os **pesos** de um modelo, o arquivo com tudo o que ele aprendeu, vazarem ou forem roubados, quem os tiver pode rodá-lo sem cuidado algum."
       ]
     },
     {
@@ -124,7 +124,7 @@
       "items": [
         {
           "who": "Dwarkesh Podcast, 16 nov. 2026, transcrição pública em dwarkesh.com/p/paul-christiano-2",
-          "what": "\"Paul Christiano – We could be 12 months away from AIs that can overthrow the government\"; citações sobre 10% x 1%, 1/3, METR e Anthropic, RAND, pausa algorítmica, Ocidente parar, conselho da OpenAI"
+          "what": "\"Paul Christiano – We could be 12 months away from AIs that can overthrow the government\"; citações sobre 10% x 1%, 1/3, METR e Anthropic, link da RAND, pausa algorítmica, Ocidente parar, conselho da OpenAI"
         },
         {
           "who": "Zvi Mowshowitz, Don't Worry About the Vase, 20 nov. 2026",
@@ -136,7 +136,7 @@
         },
         {
           "who": "O que não checamos",
-          "what": "Os dados da METR e da Anthropic, o estudo da RAND e o ritmo de \"dobrar em 6 a 12 meses\" são citados por Christiano no programa e não foram verificados fora dele"
+          "what": "Os dados da METR e da Anthropic, o material da RAND e o ritmo de \"dobrar em 6 a 12 meses\" são citados por Christiano no programa e não foram verificados fora dele"
         },
         {
           "who": "Fotos",
