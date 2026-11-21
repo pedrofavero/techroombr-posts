@@ -9,7 +9,7 @@
     {
       "type": "cover",
       "photo": "fotos/christiano-risco-um-ano-1.jpg",
-      "title": "Ele dá 10% de chance de a IA sair do controle em 1 ano",
+      "title": "Ele dá 10% de chance de a IA tomar o controle em 1 ano",
       "dek": "Paul Christiano é tido como um dos criadores do RLHF, o treino de IA por avaliações humanas, e chefiou a segurança de IA no instituto do governo dos EUA. No podcast de Dwarkesh Patel, pede que os laboratórios parem de melhorar seus algoritmos até saberem protegê-los. É a estimativa dele, não uma medição.",
       "swipe": "arraste →"
     },
@@ -40,7 +40,7 @@
         }
       ],
       "body": [
-        "O apresentador cobra: \"mas você está no conselho da OpenAI\". Ele: \"Isso é um fato verdadeiro sobre o mundo\" (tradução livre). O título do episódio, escolhido pelo apresentador, fala em \"12 meses de IAs capazes de derrubar o governo\"."
+        "O apresentador cobra: \"mas você está no conselho da OpenAI\". Ele: \"Isso é um fato verdadeiro sobre o mundo\" (tradução livre). O título do episódio fala em \"12 meses de IAs capazes de derrubar o governo\"."
       ]
     },
     {
@@ -49,8 +49,8 @@
       "text": "Estamos olhando para algo mais parecido com um risco de 10% do que de 1% no próximo ano.",
       "who": "Paul Christiano, Dwarkesh Podcast, 16 nov. 2026 (tradução livre)",
       "body": [
-        "Risco de quê: de perder o controle sobre sistemas de IA. Em velocidade máxima e sem precauções, ele fala em \"significativamente mais que 10%\". E estima \"talvez 1/3 de chance de termos superinteligência dentro de um ano\", \"na trajetória atual de desenvolvimento, se não desacelerarmos\" (tradução livre).",
-        "Superinteligência, no vocabulário dele, é uma IA mais capaz que as pessoas. Se o pior acontecer em escala, diz, \"muito provavelmente seria difícil para a humanidade se recuperar\" (tradução livre)."
+        "Risco de quê: de uma tomada de controle, de IAs dominarem ou tirarem o poder da humanidade, como o apresentador formulou e ele confirmou. Em velocidade máxima e sem precauções, ele fala em \"significativamente mais que 10%\". E estima \"talvez 1/3 de chance de termos superinteligência dentro de um ano\", \"na trajetória atual de desenvolvimento, se não desacelerarmos\" (tradução livre).",
+        "Superinteligência, no vocabulário dele, são sistemas de IA muito melhores que os humanos em quase tudo. Se o pior acontecer em escala, diz, \"muito provavelmente seria difícil para a humanidade se recuperar\" (tradução livre)."
       ]
     },
     {
@@ -60,8 +60,8 @@
       "photo": "fotos/christiano-risco-um-ano-2.jpg",
       "caption": "Foto: Valentin Lacoste / Unsplash",
       "body": [
-        "Primeiro, a velocidade. Ele cita dados da METR, organização que mede capacidades de IA, e da Anthropic, \"consistentes com o ritmo do progresso em IA ter mais ou menos dobrado nos últimos 6 a 12 meses\" (tradução livre). Ressalva dele mesmo: o relatório completo da METR teve trechos ocultados, e a evidência é \"muito difícil de contar publicamente\".",
-        "Segundo, a segurança. \"A segurança dos laboratórios de fronteira não é forte o bastante\", diz, apoiado em um estudo da RAND, instituto de pesquisa americano. Se os **pesos** de um modelo, o arquivo com tudo o que ele aprendeu, vazarem ou forem roubados, quem os tiver pode rodá-lo sem cuidado algum."
+        "Primeiro, a velocidade. Ele cita dados da METR, organização que mede capacidades de IA, e da Anthropic, \"consistentes com o ritmo do progresso em IA ter mais ou menos dobrado nos últimos 6 a 12 meses\" (tradução livre). Ressalva dele mesmo: a METR diz ter um relatório completo, mas ele foi ocultado por inteiro, e \"é muito difícil saber, de fora, o que está acontecendo\" (tradução livre).",
+        "Segundo, a segurança. \"A segurança dos laboratórios de fronteira não é forte o bastante\", diz, apoiado em um relatório da RAND que ele cita. Se os **pesos** de um modelo, o arquivo com tudo o que ele aprendeu, vazarem ou forem roubados, quem os tiver pode rodá-lo sem cuidado algum."
       ]
     },
     {
@@ -91,11 +91,11 @@
       "heading": "10 em 100: uma crença, não uma medição",
       "total": 100,
       "filled": 10,
-      "on_label": "risco de perda de controle em 1 ano, na estimativa dele",
+      "on_label": "risco de a IA tomar o controle em 1 ano, na estimativa dele",
       "off_label": "o resto, na mesma estimativa",
       "body": [
         "É uma **probabilidade subjetiva**: um número que traduz quanto uma pessoa acredita em algo, não uma contagem. Serve para comparar: ele diz 10%, não 1%, e isso muda o que acha que se deve fazer.",
-        "O número dele também muda com o tempo. Em 2023, segundo o Business Insider, Christiano estimava de 10% a 20% de chance de uma tomada de controle por IA, sem prazo. Agora fala em 10% só para o próximo ano, na trajetória atual."
+        "O número dele também muda com o tempo. Em 2023, segundo a Wikipédia, que cita o Business Insider, Christiano estimava de 10% a 20% de chance de uma tomada de controle por IA, sem prazo. Agora fala em 10% só para o próximo ano, na trajetória atual."
       ]
     },
     {
@@ -105,7 +105,7 @@
       "bullets": [
         "**Fato:** Christiano, matemático formado no MIT e doutor por Berkeley, é coautor do artigo de 2017 que deu origem ao RLHF, chefiou a segurança de IA no instituto do governo americano e dirige o Alignment Research Center. A transcrição do episódio é pública.",
         "**Opinião:** que os laboratórios deveriam pausar o progresso algorítmico até ter segurança e controle. É a posição dele; a OpenAI, de cujo conselho ele faz parte, não é citada como apoiando.",
-        "**Previsão:** 10% de risco de perda de controle e 1/3 de chance de superinteligência em um ano. São estimativas pessoais, sobre dados que ele diz não poder mostrar por inteiro.",
+        "**Previsão:** 10% de risco de tomada de controle pela IA e 1/3 de chance de superinteligência em um ano. São estimativas pessoais, sobre dados que ele diz não poder mostrar por inteiro.",
         "**O que não está na conversa:** qualquer medição independente que confirme ou desminta o ritmo de \"dobrar em 6 a 12 meses\"."
       ]
     },
@@ -114,7 +114,7 @@
       "kicker": "Para levar",
       "heading": "Três coisas para contar no jantar",
       "check": [
-        "**Um dos criadores do RLHF, o treino de IA por avaliações humanas, dá 10% de chance de a IA sair do controle em um ano.** É estimativa pessoal, dita em um podcast com transcrição pública.",
+        "**Um dos criadores do RLHF, o treino de IA por avaliações humanas, dá 10% de chance de a IA tomar o controle em um ano.** É estimativa pessoal, dita em um podcast com transcrição pública.",
         "**O pedido dele é concreto:** parar de melhorar os algoritmos até os laboratórios conseguirem protegê-los de roubo e saberem se controlam o que construíram.",
         "**O contraponto também é dele:** parar sozinho não resolve, a evidência não é pública, e ele está no conselho da OpenAI. Leia como opinião informada, não como dado."
       ]
@@ -132,7 +132,7 @@
         },
         {
           "who": "Wikipédia em inglês, verbete Paul Christiano",
-          "what": "MIT (2012) e Berkeley; equipe de alinhamento na OpenAI até 2021; artigo de 2017 e RLHF; Alignment Research Center; US AI Safety Institute (NIST, 2024); TIME100 IA 2023; estimativa de 10% a 20% ao Business Insider em 2023"
+          "what": "MIT (2012) e Berkeley; equipe de alinhamento na OpenAI até 2021; artigo de 2017 e RLHF; Alignment Research Center; US AI Safety Institute (NIST, 2024); TIME100 IA 2023; estimativa de 10% a 20% (Business Insider, 2023)"
         },
         {
           "who": "O que não checamos",
@@ -145,5 +145,5 @@
       ]
     }
   ],
-  "legenda": "Quando alguém de dentro dá um número, o mais útil não é o número: é o que ele pede que se faça por causa dele.\n\nPaul Christiano, um dos principais criadores do RLHF (o treino de IA por avaliações humanas), ex-chefe de segurança de IA no instituto do governo americano e hoje no conselho da OpenAI, disse ao Dwarkesh Podcast (16 de novembro) que vê \"algo mais parecido com um risco de 10% do que de 1%\" de perda de controle sobre a IA no próximo ano, e 1/3 de chance de superinteligência em um ano na trajetória atual. A proposta dele: os laboratórios pausarem a melhoria dos algoritmos até terem segurança contra roubo e saberem se controlam o que construíram. Ele mesmo admite que parar sozinho não basta e que a evidência central não é pública.\n\nUm número desses, vindo de quem está dentro, te deixa mais ou menos preocupado?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #IA #segurançadeIA #OpenAI #Dwarkesh #tecnologia #TheTechRoom"
+  "legenda": "Quando alguém de dentro dá um número, o mais útil não é o número: é o que ele pede que se faça por causa dele.\n\nPaul Christiano, um dos principais criadores do RLHF (o treino de IA por avaliações humanas), ex-chefe de segurança de IA no instituto do governo americano e hoje no conselho da OpenAI, disse ao Dwarkesh Podcast (16 de novembro) que vê \"algo mais parecido com um risco de 10% do que de 1%\" de uma tomada de controle pela IA no próximo ano, e 1/3 de chance de superinteligência em um ano na trajetória atual. A proposta dele: os laboratórios pausarem a melhoria dos algoritmos até terem segurança contra roubo e saberem se controlam o que construíram. Ele mesmo admite que parar sozinho não basta e que a evidência central não é pública.\n\nUm número desses, vindo de quem está dentro, te deixa mais ou menos preocupado?\n\n—\nFontes no último slide.\n\n#inteligenciaartificial #IA #segurançadeIA #OpenAI #Dwarkesh #tecnologia #TheTechRoom"
 }

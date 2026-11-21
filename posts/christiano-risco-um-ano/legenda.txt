@@ -1,6 +1,6 @@
 Quando alguém de dentro dá um número, o mais útil não é o número: é o que ele pede que se faça por causa dele.
 
-Paul Christiano, um dos principais criadores do RLHF (o treino de IA por avaliações humanas), ex-chefe de segurança de IA no instituto do governo americano e hoje no conselho da OpenAI, disse ao Dwarkesh Podcast (16 de novembro) que vê "algo mais parecido com um risco de 10% do que de 1%" de perda de controle sobre a IA no próximo ano, e 1/3 de chance de superinteligência em um ano na trajetória atual. A proposta dele: os laboratórios pausarem a melhoria dos algoritmos até terem segurança contra roubo e saberem se controlam o que construíram. Ele mesmo admite que parar sozinho não basta e que a evidência central não é pública.
+Paul Christiano, um dos principais criadores do RLHF (o treino de IA por avaliações humanas), ex-chefe de segurança de IA no instituto do governo americano e hoje no conselho da OpenAI, disse ao Dwarkesh Podcast (16 de novembro) que vê "algo mais parecido com um risco de 10% do que de 1%" de uma tomada de controle pela IA no próximo ano, e 1/3 de chance de superinteligência em um ano na trajetória atual. A proposta dele: os laboratórios pausarem a melhoria dos algoritmos até terem segurança contra roubo e saberem se controlam o que construíram. Ele mesmo admite que parar sozinho não basta e que a evidência central não é pública.
 
 Um número desses, vindo de quem está dentro, te deixa mais ou menos preocupado?
 

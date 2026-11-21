@@ -77,7 +77,7 @@
         }
       ],
       "body": [
-        "Na manhã do lançamento, a Reuters publicou a estimativa de uma consultoria, a Sensor Tower: **19,1 milhões de cópias** e cerca de US$ 1,84 bilhão para a Take-Two. No dia seguinte, a empresa anunciou o dobro. Os dois números medem coisas diferentes: um é receita estimada da empresa, o outro é gasto do consumidor."
+        "Na manhã do lançamento, a Reuters publicou a estimativa de uma consultoria, a Sensor Tower: **19,1 milhões de cópias** e cerca de US$ 1,84 bilhão para a Take-Two. No dia seguinte, a empresa anunciou cerca do dobro. Os dois números medem coisas diferentes: um é receita estimada da empresa, o outro é gasto do consumidor."
       ]
     },
     {
@@ -96,13 +96,13 @@
           "label": "3 dias"
         },
         {
-          "name": "Call of Duty: Black Ops II (2012)",
+          "name": "Call of Duty: Black Ops II",
           "value": 15,
           "label": "15 dias",
           "other": true
         },
         {
-          "name": "Os Vingadores, cinema (2012)",
+          "name": "Os Vingadores, cinema",
           "value": 19,
           "label": "19 dias",
           "other": true
@@ -121,7 +121,7 @@
       "caption": "Foto: Valeriia Neganova / Unsplash",
       "body": [
         "No Metacritic, site que junta as notas da crítica, o jogo abriu com **99 de 100**: todas as 147 resenhas da versão de PlayStation 5 eram positivas, e a nota empata com o recorde de Ocarina of Time, de 1998, segundo o The Next Web. Jason Schreier, da Bloomberg, chamou de \"uma obra-prima\" (tradução livre).",
-        "As queixas repetidas: roda a 30 quadros por segundo em todos os consoles, sem modo de desempenho; o download chega a 212 GB; e Keza MacDonald, do The Guardian, achou os controles \"imprevisíveis, trabalhosos, desajeitados e, às vezes, injustos\" (tradução livre). Quatro redatores da IGN levaram de 42 a 115 horas para terminar a história."
+        "As queixas repetidas: roda a 30 quadros por segundo em todos os consoles, sem modo de desempenho; o download chega a 212 GB; e Keza MacDonald, do The Guardian, achou o jogo às vezes frustrante: \"imprevisível, trabalhoso, desajeitado e, ocasionalmente, injusto\" (tradução livre). Quatro redatores da IGN e de sites irmãos levaram de 42 a 115 horas para terminar a história."
       ]
     },
     {
@@ -142,7 +142,7 @@
           "Quantas cópias saíram no dia 1 e quanto foi digital: a empresa não divulgou.",
           "Como a estimativa foi feita e qual recorde caiu: o comunicado não nomeia filme ou jogo.",
           "Quanto custou: a Rockstar não confirma estimativas acima de US$ 1 bilhão.",
-          "Versão para PC e modo online: analistas ouvidos pela Reuters esperam 2027; a empresa não anunciou."
+          "Versão para PC e modo online: segundo a Reuters, alguns analistas esperam 2027; a empresa não anunciou."
         ]
       }
     },
@@ -152,7 +152,7 @@
       "heading": "Três coisas para recontar",
       "check": [
         "**GTA VI diz ter vendido US$ 3,79 bilhões no primeiro dia.** É estimativa da própria Rockstar/Take-Two, informada à SEC, do que os compradores gastaram no mundo todo. Não é o lucro da empresa.",
-        "**A régua é a da própria indústria.** Em 2013, GTA V levou 3 dias para US$ 1 bilhão; o filme Os Vingadores, 19 dias, em 2012. Agora, um dia.",
+        "**A régua é a da própria indústria.** Em 2013, GTA V levou 3 dias para US$ 1 bilhão; o filme Os Vingadores, 19 dias. Agora, um dia.",
         "**Falta o que a empresa não contou:** cópias do dia 1, quanto foi digital, quanto custou fazer o jogo e quando sai para PC."
       ]
     },
@@ -182,5 +182,5 @@
       ]
     }
   ],
-  "legenda": "O número é enorme, mas vale ler a nota de rodapé: é a estimativa da própria empresa, e não é o que entra no caixa dela.\n\nA Rockstar informou à SEC que Grand Theft Auto VI somou US$ 3,79 bilhões em vendas no varejo no primeiro dia, 19 de novembro, no mundo todo, com 32,5 milhões de cópias vendidas antes do lançamento. Em 2013, GTA V levou três dias para chegar a US$ 1 bilhão. A empresa não divulgou quantas cópias saíram no dia 1, quanto foi digital nem como fez a conta. A crítica deu nota 99 no Metacritic e reclamou dos 30 quadros por segundo e dos controles.\n\nVocê acha que um jogo deve ser comparado com filme na mesma régua?\n\n—\nFontes no último slide.\n\n#GTA6 #GrandTheftAutoVI #Rockstar #games #videogame #tecnologia #TheTechRoom"
+  "legenda": "O número é enorme, mas vale ler a nota de rodapé: é a estimativa da própria empresa, e não é o que entra no caixa dela.\n\nA Take-Two, dona da Rockstar, informou à SEC que Grand Theft Auto VI somou US$ 3,79 bilhões em vendas no varejo no primeiro dia, 19 de novembro, no mundo todo, com 32,5 milhões de cópias vendidas antes do lançamento. Em 2013, GTA V levou três dias para chegar a US$ 1 bilhão. A empresa não divulgou quantas cópias saíram no dia 1, quanto foi digital nem como fez a conta. A crítica deu nota 99 no Metacritic e reclamou dos 30 quadros por segundo e dos controles.\n\nVocê acha que um jogo deve ser comparado com filme na mesma régua?\n\n—\nFontes no último slide.\n\n#GTA6 #GrandTheftAutoVI #Rockstar #games #videogame #tecnologia #TheTechRoom"
 }
