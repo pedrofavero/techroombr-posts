@@ -1,0 +1,33 @@
+{
+ "slug": "gta-6-recorde-um-dia",
+ "total_s": 34.5,
+ "scenes": [
+  {
+   "dur": 6.5,
+   "start": 0.0
+  },
+  {
+   "dur": 5.5,
+   "start": 6.4
+  },
+  {
+   "dur": 8.0,
+   "start": 11.8
+  },
+  {
+   "dur": 7.5,
+   "start": 19.7
+  },
+  {
+   "dur": 5.0,
+   "start": 27.1
+  },
+  {
+   "dur": 2.5,
+   "start": 32.0
+  }
+ ],
+ "words": 95,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
