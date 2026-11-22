@@ -1,0 +1,80 @@
+{
+  "slug": "modo-anonimo",
+  "style": "lousa",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Explica",
+      "anim": {
+        "type": "hook",
+        "big": "Modo anônimo esconde você da internet?",
+        "line": "Não. Só de quem usa o ==mesmo computador==",
+        "fonte": "Ajuda do Chrome (Google) e do Firefox (Mozilla)"
+      },
+      "say": "Modo anônimo esconde você da internet? Não. Só de quem usa o mesmo computador."
+    },
+    {
+      "kicker": "O mito e o fato",
+      "anim": {
+        "type": "corrige",
+        "errado": "Janela anônima = ninguém vê o que eu faço",
+        "certo": "Sites, Google, provedor e empresa continuam vendo",
+        "fonte": "Ajuda do Chrome, \"Navegar no modo anônimo\""
+      },
+      "say": "A crença famosa diz que ninguém vê. A ajuda do Chrome diz o contrário: sites, Google, provedor e rede da empresa continuam vendo."
+    },
+    {
+      "kicker": "O que ele faz",
+      "anim": {
+        "type": "write",
+        "title": "Só no seu aparelho",
+        "lines": [
+          "não guarda o ==histórico==",
+          "apaga os ==cookies== ao fechar",
+          "não entra sozinho na sua conta"
+        ],
+        "fonte": "Ajuda do Chrome e do Firefox"
+      },
+      "say": "Ele só não guarda histórico no aparelho, apaga os cookies ao fechar e não entra sozinho na sua conta."
+    },
+    {
+      "kicker": "A pesquisa",
+      "anim": {
+        "type": "number",
+        "value": 27,
+        "decimals": 0,
+        "unit": "%",
+        "label": "achavam que o modo privado protege contra vírus, numa pesquisa com 460 pessoas",
+        "fonte": "Universidade de Chicago, jun. 2018"
+      },
+      "say": "Numa pesquisa com 460 pessoas, 27% achavam que ele protege contra vírus. É engano, diz a pesquisa."
+    },
+    {
+      "kicker": "E a conta",
+      "anim": {
+        "type": "write",
+        "title": "Fez login? Acabou o anonimato",
+        "lines": [
+          "\"fazer login diz ao site ==quem você é==\"",
+          "IP e localização também aparecem"
+        ],
+        "fonte": "Ajuda do Firefox (Mozilla), tradução livre"
+      },
+      "say": "E se você faz login num site dentro da janela anônima, o site sabe quem você é."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Ajuda do Chrome (Google) e do Firefox (Mozilla)",
+        "Universidade de Chicago, 22 jun. 2018",
+        "Associated Press, 1º abr. 2024"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Modo anônimo do navegador: ele esconde sua navegação de quem usa o mesmo computador, não da internet.\n\nAs páginas de ajuda do Chrome e do Firefox dizem que a janela privada não guarda histórico nem cookies no aparelho, mas não esconde você dos sites, do Google, do provedor, da empresa ou da escola, e que fazer login diz ao site quem você é. Numa pesquisa de 2018 com 460 pessoas, da Universidade de Chicago, 27% achavam que o modo protegia contra vírus.\n\nManda para quem acha que a janela anônima apaga os rastros.\n\n—\nFontes no primeiro comentário.\n\n#privacidade #chrome #explica #internet #tecnologia",
+  "fontes_comentario": "Fontes: Google, Ajuda do Chrome, \"Navegar no modo anônimo\" (support.google.com/chrome/answer/95464): sessão separada, o que não é salvo, \"não torna você invisível\", sites inclusive os do Google, escola, empresa e provedor, serviços do Google e anúncios, cookies de terceiros bloqueados, downloads e favoritos mantidos; Mozilla, Ajuda do Firefox, \"How Private Windows protect you\", consultada em 22 nov. 2026: privacidade de outras pessoas que usam o dispositivo, não torna você anônimo, IP e localização, \"fazer login diz ao site quem você é\"; Universidade de Chicago, news.uchicago.edu (Rob Mitchum), 22 jun. 2018, sobre o estudo de Wu, Wei, Gupta, Acar e Fahl apresentado na The Web Conference 2018: 460 participantes, mais da metade achava que o Google não registrava buscas no modo privado, 27% acreditavam em proteção contra vírus; Associated Press (Michael Liedtke), via Fortune, 1º abr. 2024: ação de junho de 2020, apagar bilhões de registros de mais de 136 milhões de pessoas, avisos mais visíveis, sem indenização; The Register (Laura Dobberstein), 17 jan. 2024: texto novo do aviso no Chrome Canary 122."
+}
