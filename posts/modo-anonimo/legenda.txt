@@ -1,6 +1,6 @@
 A janela anônima protege você de uma pessoa: quem pega o mesmo computador depois.
 
-As páginas de ajuda do Chrome e do Firefox dizem a mesma coisa: o modo privado não guarda histórico nem cookies no aparelho, mas não esconde você dos sites, do Google, do provedor, da empresa ou da escola. Nos EUA, uma ação coletiva levou o Google a trocar o texto do aviso e a apagar bilhões de registros, sem indenizar usuários.
+As páginas de ajuda do Chrome e do Firefox dizem a mesma coisa: o modo privado não guarda histórico nem cookies no aparelho, mas não esconde você dos sites, do Google, do provedor, da empresa ou da escola. Nos EUA, depois de uma ação coletiva, o Google mudou o texto do aviso e aceitou apagar bilhões de registros, sem indenizar usuários.
 
 Você usa o modo anônimo para quê?
 —

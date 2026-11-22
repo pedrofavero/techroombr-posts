@@ -1,6 +1,6 @@
 A pá que cede em vez de resistir: engenheiros trocaram motores e sensores por borracha que se dobra com a corrente.
 
-No tanque de 25 metros da Universidade de Edimburgo, uma turbina de 1,26 m com pás de borracha gerou a mesma energia que pás com controle ativo de passo e teve até um terço menos oscilação de carga. O estudo saiu na Nature, com financiamento parcial da Michelin, que pediu patente. Falta o teste no mar e a conta de custo.
+No tanque de 25 metros da Universidade de Edimburgo, uma turbina de 1,26 m com pás de borracha teve até um terço menos oscilação de carga; na simulação de um ciclo de maré, gerou a mesma energia que pás com controle ativo de passo. O estudo saiu na Nature, com financiamento parcial da Michelin, que pediu patente. Falta o teste no mar e a conta de custo.
 
 Você sabia que a maré é mais previsível do que o vento?
 —

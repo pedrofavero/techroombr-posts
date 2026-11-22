@@ -10,7 +10,7 @@
       "type": "cover",
       "photo": "fotos/turbina-mare-pa-de-borracha-1.jpg",
       "title": "Pás de borracha que se dobram com a maré. E rendem igual",
-      "dek": "Turbinas de maré grandes usam motores para girar as pás e aliviar a força da água. Engenheiros de Edimburgo e da Michelin testaram pás de borracha que fazem isso sozinhas, se dobrando. No tanque, geraram a mesma energia e sofreram menos. No mar, ainda não foram.",
+      "dek": "Turbinas de maré grandes usam motores para girar as pás e aliviar a força da água. Engenheiros de Edimburgo e da Michelin testaram pás de borracha que fazem isso sozinhas, se dobrando. Entre tanque e simulação, geraram a mesma energia e sofreram menos. No mar, ainda não foram.",
       "swipe": "arraste →"
     },
     {
@@ -44,7 +44,7 @@
       "unit": " m",
       "label": "é o diâmetro da turbina de três pás testada no tanque FloWave, da Universidade de Edimburgo, um tanque circular de 25 metros que reproduz a turbulência de um sítio de maré",
       "body": [
-        "A equipe comparou um jogo de pás rígidas com três jogos de pás de borracha, em correntes de 0,5 a 1,0 metro por segundo. Câmeras submersas filmaram as pás mudando de forma enquanto giravam.",
+        "A equipe comparou um jogo de pás rígidas com três jogos de pás de borracha, em correntes de cerca de 0,5 a 1,0 metro por segundo. Câmeras submersas filmaram as pás mudando de forma enquanto giravam.",
         "As medições do tanque foram combinadas com simulações de um ciclo completo de maré, segundo o artigo. O estudo saiu na revista **Nature** em 11 de novembro, em acesso aberto."
       ]
     },
@@ -81,7 +81,7 @@
       "a": {
         "title": "O que se sabe",
         "lines": [
-          "No tanque, as pás de borracha geraram a mesma energia que pás rígidas com controle ativo ao longo de um ciclo de maré simulado.",
+          "Na simulação de um ciclo de maré, alimentada pelas medições do tanque, as pás de borracha geraram a mesma energia que pás rígidas com controle ativo.",
           "As oscilações de carga que causam fadiga caíram até um terço.",
           "Simulações de uma turbina de 20 metros sugerem efeito parecido em escala comercial."
         ]
@@ -91,7 +91,7 @@
         "lines": [
           "Não houve teste no mar nem em tamanho real. A universidade diz que a tecnologia está em fase de pesquisa.",
           "O controle ativo de passo não foi testado no tanque: entrou só como comparação nas simulações.",
-          "Quanto custaria. O artigo não traz número de custo; a durabilidade acima de 20 anos é um cálculo preliminar."
+          "Quanto custaria. O comunicado fala em potencial de reduzir custos, sem cifra; a durabilidade acima de 20 anos é um cálculo preliminar."
         ]
       },
       "body": []
@@ -107,11 +107,11 @@
         },
         {
           "k": "Equipe",
-          "v": "Universidade de Edimburgo e Michelin (Clermont-Ferrand); autores Zhang, Tan, Neba, Morival, Frankowski, Daval e Viola"
+          "v": "Universidade de Edimburgo e Michelin (Clermont-Ferrand), com afiliações também em Bolonha e Tsinghua; autores Zhang, Tan, Neba, Morival, Frankowski, Daval e Viola"
         },
         {
           "k": "Teste",
-          "v": "turbina de 1,26 m no tanque FloWave; correntes de 0,5 a 1,0 m/s; mais simulações de ciclo de maré"
+          "v": "turbina de 1,26 m no tanque FloWave; correntes de cerca de 0,5 a 1,0 m/s; mais simulações de ciclo de maré"
         },
         {
           "k": "Comparação",
@@ -119,11 +119,11 @@
         },
         {
           "k": "Financiamento",
-          "v": "Michelin e EPSRC, o conselho britânico de pesquisa em engenharia"
+          "v": "Michelin e EPSRC, o conselho britânico de pesquisa em engenharia e ciências físicas"
         },
         {
           "k": "Conflitos",
-          "v": "três autores são funcionários da Michelin; a empresa pediu patente da tecnologia"
+          "v": "três autores são funcionários da Michelin; a empresa pediu patente e a universidade tem patentes relacionadas"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "heading": "Três coisas para contar no jantar",
       "check": [
         "**A ideia:** pás de borracha com uma viga de aço se dobram quando a corrente aperta e aliviam a carga sozinhas, sem motor, sensor ou rolamento.",
-        "**O resultado:** num tanque de 25 m, uma turbina de 1,26 m gerou a mesma energia que pás com controle ativo e teve até um terço menos oscilação de carga.",
+        "**O resultado:** num tanque de 25 m, uma turbina de 1,26 m teve até um terço menos oscilação de carga; na simulação do ciclo de maré, gerou a mesma energia que pás com controle ativo.",
         "**A ressalva:** é pesquisa de laboratório financiada em parte pela Michelin, que pediu patente. Não há teste no mar nem conta de custo."
       ]
     },
@@ -159,5 +159,5 @@
       ]
     }
   ],
-  "legenda": "A pá que cede em vez de resistir: engenheiros trocaram motores e sensores por borracha que se dobra com a corrente.\n\nNo tanque de 25 metros da Universidade de Edimburgo, uma turbina de 1,26 m com pás de borracha gerou a mesma energia que pás com controle ativo de passo e teve até um terço menos oscilação de carga. O estudo saiu na Nature, com financiamento parcial da Michelin, que pediu patente. Falta o teste no mar e a conta de custo.\n\nVocê sabia que a maré é mais previsível do que o vento?\n—\nFontes no último slide.\n#energia #energiarenovavel #mare #engenharia #ciencia #nature #tecnologia #techroombr"
+  "legenda": "A pá que cede em vez de resistir: engenheiros trocaram motores e sensores por borracha que se dobra com a corrente.\n\nNo tanque de 25 metros da Universidade de Edimburgo, uma turbina de 1,26 m com pás de borracha teve até um terço menos oscilação de carga; na simulação de um ciclo de maré, gerou a mesma energia que pás com controle ativo de passo. O estudo saiu na Nature, com financiamento parcial da Michelin, que pediu patente. Falta o teste no mar e a conta de custo.\n\nVocê sabia que a maré é mais previsível do que o vento?\n—\nFontes no último slide.\n#energia #energiarenovavel #mare #engenharia #ciencia #nature #tecnologia #techroombr"
 }
