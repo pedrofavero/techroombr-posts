@@ -1,0 +1,147 @@
+{
+  "slug": "modo-anonimo",
+  "categoria": "EXPLICA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/modo-anonimo-1.jpg",
+      "title": "Modo anônimo: você só se esconde de quem usa o mesmo PC",
+      "dek": "A explicação famosa diz que a janela anônima apaga seus rastros na internet. As páginas de ajuda do Chrome e do Firefox dizem outra coisa: ela esconde sua navegação de quem usa o mesmo aparelho. Sites, provedor, empresa e o próprio Google continuam vendo.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa",
+      "heading": "\"Abri a janela anônima, ninguém sabe o que eu faço\"",
+      "body": [
+        "É o que muita gente acredita. Em 2018, pesquisadores da Universidade de Chicago e da Universidade Leibniz de Hannover fizeram uma pesquisa com **460 participantes** sobre o que o modo privado dos navegadores faz.",
+        "Mais da metade achava que o Google não registrava suas buscas no modo privado, mesmo com a pessoa logada na conta. **27%** achavam que o modo protegia contra vírus. Muitos não sabiam que provedor, empregador e governo continuam podendo ver a atividade, segundo a universidade.",
+        "O trabalho foi apresentado na The Web Conference de 2018, em Lyon. Os autores escreveram que o termo \"privado\" é \"muito sobrecarregado\" e sugere sentidos não pretendidos (tradução livre)."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que acontece de verdade",
+      "heading": "Ele foi feito para o computador compartilhado",
+      "photo": "fotos/modo-anonimo-2.jpg",
+      "caption": "Foto: John / Unsplash",
+      "body": [
+        "A página de ajuda do Chrome diz que o modo anônimo \"limita o que é salvo no seu dispositivo\" e que ajuda num computador compartilhado ou na compra de um presente (tradução livre).",
+        "Ao abrir a janela, começa uma ==sessão separada==: um período de navegação com memória própria. Quando você fecha todas as janelas anônimas, o Chrome descarta o registro dos sites visitados e os ==cookies==, os arquivinhos que os sites gravam para lembrar de você. Ele também não entra sozinho na sua conta do Google.",
+        "A ajuda do Firefox resume: as janelas privativas ajudam a manter sua navegação privada \"de outras pessoas que usam este dispositivo\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Lado a lado",
+      "heading": "O que o modo anônimo faz e o que não faz",
+      "a": {
+        "title": "Faz",
+        "lines": [
+          "Não guarda no aparelho o histórico dos sites visitados.",
+          "Apaga os cookies da sessão quando você fecha as janelas.",
+          "Não entra automaticamente na sua conta do Google nem em outros sites.",
+          "No Chrome, bloqueia por padrão os cookies de terceiros, os de empresas de anúncio que acompanham você de site em site."
+        ]
+      },
+      "b": {
+        "title": "Não faz",
+        "lines": [
+          "Não esconde você dos sites que visita, inclusive os do Google, segundo o Chrome.",
+          "Não esconde da rede da escola, da empresa nem do provedor de internet.",
+          "Não esconde seu endereço IP nem sua localização, segundo o Firefox.",
+          "Não apaga downloads nem favoritos: eles ficam no aparelho."
+        ]
+      },
+      "body": []
+    },
+    {
+      "type": "inner",
+      "kicker": "Quem continua vendo",
+      "heading": "O site, a rede e a conta",
+      "photo": "fotos/modo-anonimo-3.jpg",
+      "caption": "Foto: Mikhail Seleznev / Unsplash",
+      "body": [
+        "**O site.** O Chrome avisa que o modo anônimo \"não torna você invisível\" (tradução livre): os sites visitados podem observar sua atividade. Sites que usam serviços do Google também compartilham essa atividade com o Google, inclusive para anúncios, segundo a mesma página.",
+        "**A rede.** Quem controla a conexão, como a empresa, a escola ou o provedor, continua podendo ver por onde o tráfego passa, dizem Chrome e Firefox.",
+        "**A conta.** Se você fizer login num site dentro da janela anônima, ele sabe quem você é. \"Fazer login diz ao site quem você é\", explica a ajuda do Firefox (tradução livre)."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "O processo",
+      "heading": "Como o aviso do Chrome mudou de texto",
+      "items": [
+        {
+          "when": "jun. 2020",
+          "what": "Uma ação coletiva nos EUA acusa o Google de rastrear a atividade de usuários do Chrome mesmo no modo anônimo, segundo a Associated Press."
+        },
+        {
+          "when": "jan. 2024",
+          "what": "Uma versão de teste do Chrome (Canary 122) traz um aviso novo na janela anônima, dizendo que o modo não muda como os sites e o Google coletam dados, segundo o The Register."
+        },
+        {
+          "when": "1º abr. 2024",
+          "what": "Os termos do acordo vão ao tribunal: o Google deve apagar bilhões de registros de mais de 136 milhões de pessoas nos EUA e tornar os avisos do modo anônimo mais visíveis. Ninguém recebe indenização. O Google chamou a ação de \"sem mérito\" (AP)."
+        },
+        {
+          "when": "O valor",
+          "what": "Os advogados dos autores avaliaram o acordo entre US$ 4,75 bilhões e US$ 7,8 bilhões, pelo valor dos anúncios que os dados poderiam gerar (AP). O pedido original era de US$ 5 bilhões em danos, segundo o The Register."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O aviso novo",
+      "text": "Isso não muda como os dados são coletados pelos sites que você visita e pelos serviços que eles usam, incluindo o Google",
+      "who": "Texto da janela anônima do Chrome, versão de teste 122, janeiro de 2024, segundo o The Register (tradução livre)",
+      "body": [
+        "Em 2018, a pesquisa de Chicago tinha testado 13 avisos de navegadores. Só os do Chrome, no celular e no computador, produziram mais respostas certas do que um texto vago de controle, segundo a universidade. Mesmo assim, as crenças erradas persistiam."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**O que esconde:** o modo anônimo limpa o rastro no seu aparelho. Serve para computador compartilhado e para comprar presente sem deixar histórico.",
+        "**O que não esconde:** sites, Google, provedor, empresa, escola e qualquer site em que você faça login continuam vendo. IP e localização também.",
+        "**O processo:** depois de uma ação coletiva, o Google trocou o texto do aviso e aceitou apagar bilhões de registros, sem pagar indenização a usuários."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Google, Ajuda do Chrome, \"Navegar no modo anônimo\" (support.google.com/chrome/answer/95464)",
+          "what": "sessão separada; o que não é salvo; não torna você invisível; sites, escola, empresa e provedor; serviços do Google e anúncios; cookies de terceiros bloqueados; downloads e favoritos"
+        },
+        {
+          "who": "Mozilla, Ajuda do Firefox, \"How Private Windows protect you\", atualizada em 28 set. 2026",
+          "what": "outras pessoas que usam este dispositivo; não torna você anônimo; IP e localização; downloads; login diz ao site quem você é"
+        },
+        {
+          "who": "Universidade de Chicago, news.uchicago.edu (Rob Mitchum), 22 jun. 2018, sobre o estudo de Wu, Wei, Gupta, Acar e Fahl na The Web Conference 2018",
+          "what": "460 participantes; mais da metade; 27%; provedor, empregador e governo; 13 avisos; \"privado\" sobrecarregado"
+        },
+        {
+          "who": "Associated Press (Michael Liedtke), via Fortune, 1º abr. 2024",
+          "what": "ação de junho de 2020; bilhões de registros; 136 milhões; avisos mais visíveis; sem indenização; US$ 4,75 bi a 7,8 bi; \"sem mérito\""
+        },
+        {
+          "who": "The Register (Laura Dobberstein), 17 jan. 2024",
+          "what": "Canary 122; texto novo do aviso; pedido de US$ 5 bilhões"
+        },
+        {
+          "who": "Fotos",
+          "what": "NHN, John e Mikhail Seleznev, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A janela anônima protege você de uma pessoa: quem pega o mesmo computador depois.\n\nAs páginas de ajuda do Chrome e do Firefox dizem a mesma coisa: o modo privado não guarda histórico nem cookies no aparelho, mas não esconde você dos sites, do Google, do provedor, da empresa ou da escola. Nos EUA, uma ação coletiva levou o Google a trocar o texto do aviso e a apagar bilhões de registros, sem indenizar usuários.\n\nVocê usa o modo anônimo para quê?\n—\nFontes no último slide.\n#privacidade #chrome #firefox #internet #seguranca #tecnologia #explica #techroombr"
+}

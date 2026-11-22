@@ -1,0 +1,163 @@
+{
+  "slug": "turbina-mare-pa-de-borracha",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/turbina-mare-pa-de-borracha-1.jpg",
+      "title": "Pás de borracha que se dobram com a maré. E rendem igual",
+      "dek": "Turbinas de maré grandes usam motores para girar as pás e aliviar a força da água. Engenheiros de Edimburgo e da Michelin testaram pás de borracha que fazem isso sozinhas, se dobrando. No tanque, geraram a mesma energia e sofreram menos. No mar, ainda não foram.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "A maré é previsível. A pancada da água, não",
+      "photo": "fotos/turbina-mare-pa-de-borracha-2.jpg",
+      "caption": "Foto: Nils Leonhardt / Unsplash",
+      "body": [
+        "A ==energia de maré== vem de turbinas submersas que giram com a corrente do mar, que sobe e desce em horários conhecidos com anos de antecedência. Por isso ela é mais previsível do que vento e sol, diz a Universidade de Edimburgo.",
+        "O problema é a força da água. Correntes fortes e turbulência castigam as pás, e isso encarece construir e manter as turbinas. As grandes usam ==controle ativo de passo==: motores, sensores e rolamentos que giram cada pá para aliviar a carga.",
+        "Segundo a Universidade de Edimburgo, esse sistema é caro, difícil de manter debaixo da água e uma das principais fontes de quebra."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Uma pá que cede em vez de resistir",
+      "photo": "fotos/turbina-mare-pa-de-borracha-3.jpg",
+      "caption": "Foto: Martti Salmi / Unsplash",
+      "body": [
+        "A pá nova tem uma viga rígida de aço da raiz à ponta e um corpo de borracha flexível. A parte da frente é firme; a borda de trás se dobra.",
+        "Quando a corrente aperta, a borda traseira se curva e o perfil da pá fica mais chato. Isso reduz o empuxo e descarta a carga extra, sem dobradiça, rolamento ou motor. \"Nossas pás fazem esse trabalho sozinhas\", diz o professor Ignazio Maria Viola, que co-liderou o estudo (tradução livre).",
+        "A borracha tem densidade parecida com a da água, então as pás podem ficar com flutuação neutra, nem afundam nem boiam, diz a universidade."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O teste",
+      "big": "1,26",
+      "unit": " m",
+      "label": "é o diâmetro da turbina de três pás testada no tanque FloWave, da Universidade de Edimburgo, um tanque circular de 25 metros que reproduz a turbulência de um sítio de maré",
+      "body": [
+        "A equipe comparou um jogo de pás rígidas com três jogos de pás de borracha, em correntes de 0,5 a 1,0 metro por segundo. Câmeras submersas filmaram as pás mudando de forma enquanto giravam.",
+        "As medições do tanque foram combinadas com simulações de um ciclo completo de maré, segundo o artigo. O estudo saiu na revista **Nature** em 11 de novembro, em acesso aberto."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "O resultado",
+      "heading": "Quanto as oscilações de carga caíram, na velocidade de projeto",
+      "bars": [
+        {
+          "name": "Potência",
+          "value": 18,
+          "label": "≈ 18%"
+        },
+        {
+          "name": "Empuxo (força para trás)",
+          "value": 23,
+          "label": "≈ 23%"
+        },
+        {
+          "name": "Momento na raiz da pá",
+          "value": 28,
+          "label": "≈ 28%"
+        }
+      ],
+      "note": "Redução do desvio-padrão (a oscilação) de cada grandeza com as pás de borracha, em relação às pás rígidas, na velocidade de projeto de 0,878 m/s. Fonte: artigo na Nature. O resumo do artigo fala em até um terço; o comunicado da universidade, em até 29%.",
+      "body": [
+        "São as ==oscilações rápidas de carga==, os tremores que a turbulência causa e que vão cansando o material, que mais importam para a fadiga. A energia total gerada ao longo do ciclo de maré simulado foi equivalente à de pás rígidas com controle ativo de passo: a diferença foi \"desprezível\", segundo o artigo (tradução livre)."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Balanço",
+      "heading": "O que o estudo mostrou e o que ainda não",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "No tanque, as pás de borracha geraram a mesma energia que pás rígidas com controle ativo ao longo de um ciclo de maré simulado.",
+          "As oscilações de carga que causam fadiga caíram até um terço.",
+          "Simulações de uma turbina de 20 metros sugerem efeito parecido em escala comercial."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Não houve teste no mar nem em tamanho real. A universidade diz que a tecnologia está em fase de pesquisa.",
+          "O controle ativo de passo não foi testado no tanque: entrou só como comparação nas simulações.",
+          "Quanto custaria. O artigo não traz número de custo; a durabilidade acima de 20 anos é um cálculo preliminar."
+        ]
+      },
+      "body": []
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem fez, como testou, quem pagou",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature, 11 nov. 2026 (doi 10.1038/s41586-026-11278-w), acesso aberto"
+        },
+        {
+          "k": "Equipe",
+          "v": "Universidade de Edimburgo e Michelin (Clermont-Ferrand); autores Zhang, Tan, Neba, Morival, Frankowski, Daval e Viola"
+        },
+        {
+          "k": "Teste",
+          "v": "turbina de 1,26 m no tanque FloWave; correntes de 0,5 a 1,0 m/s; mais simulações de ciclo de maré"
+        },
+        {
+          "k": "Comparação",
+          "v": "pás rígidas no tanque; pás rígidas com controle ativo de passo, só em simulação"
+        },
+        {
+          "k": "Financiamento",
+          "v": "Michelin e EPSRC, o conselho britânico de pesquisa em engenharia"
+        },
+        {
+          "k": "Conflitos",
+          "v": "três autores são funcionários da Michelin; a empresa pediu patente da tecnologia"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A ideia:** pás de borracha com uma viga de aço se dobram quando a corrente aperta e aliviam a carga sozinhas, sem motor, sensor ou rolamento.",
+        "**O resultado:** num tanque de 25 m, uma turbina de 1,26 m gerou a mesma energia que pás com controle ativo e teve até um terço menos oscilação de carga.",
+        "**A ressalva:** é pesquisa de laboratório financiada em parte pela Michelin, que pediu patente. Não há teste no mar nem conta de custo."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Zhang, Tan, Neba, Morival, Frankowski, Daval e Viola, \"Flexible rubber blades for tidal turbines\", Nature, 11 nov. 2026 (doi 10.1038/s41586-026-11278-w; cópia aberta no PMC)",
+          "what": "previsibilidade da maré; carga e custos; controle ativo de passo; borda traseira flexível; energia equivalente; até um terço; 18%, 23% e 28%; 0,878 m/s; 0,5 a 1,0 m/s; 20 m; financiamento e conflitos"
+        },
+        {
+          "who": "Universidade de Edimburgo, comunicado \"Shape-shifting rubber blades could make tidal power cheaper\", via EurekAlert, 11 nov. 2026",
+          "what": "viga de aço; 1,26 m; tanque de 25 m; câmeras submersas; até 29%; flutuação neutra; 20 anos; fase de pesquisa; patente; citação de Viola"
+        },
+        {
+          "who": "The Edinburgh Reporter (Ross Chalmers), 16 nov. 2026",
+          "what": "cobertura secundária, com os mesmos números e citações"
+        },
+        {
+          "who": "Fotos",
+          "what": "Red Zeppelin, Nils Leonhardt e Martti Salmi, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "A pá que cede em vez de resistir: engenheiros trocaram motores e sensores por borracha que se dobra com a corrente.\n\nNo tanque de 25 metros da Universidade de Edimburgo, uma turbina de 1,26 m com pás de borracha gerou a mesma energia que pás com controle ativo de passo e teve até um terço menos oscilação de carga. O estudo saiu na Nature, com financiamento parcial da Michelin, que pediu patente. Falta o teste no mar e a conta de custo.\n\nVocê sabia que a maré é mais previsível do que o vento?\n—\nFontes no último slide.\n#energia #energiarenovavel #mare #engenharia #ciencia #nature #tecnologia #techroombr"
+}
