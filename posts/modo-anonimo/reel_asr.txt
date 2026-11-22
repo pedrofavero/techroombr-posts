@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 97.9%
+números do roteiro: 460, 27
+números ouvidos:    460, 27
+números: todos ouvidos
+
+ROTEIRO:
+Modo anônimo esconde você da internet? Não. Só de quem usa o mesmo computador. A crença famosa diz que ninguém vê. A ajuda do Chrome diz o contrário: sites, Google, provedor e rede da empresa continuam vendo. Ele só não guarda histórico no aparelho, apaga os cookies ao fechar e não entra sozinho na sua conta. Numa pesquisa com 460 pessoas, 27% achavam que ele protege contra vírus. É engano, diz a pesquisa. E se você faz login num site dentro da janela anônima, o site sabe quem você é. Fontes no primeiro comentário.
+
+OUVIDO:
+Modo anônimo esconde você da internet? Não. Só de quem usa o mesmo computador. A crença famosa diz que ninguém vê. A ajuda do Chrome diz o contrário. Sites, Google, Provedor e rede da empresa continuam vendo. Ele só não guarda histórico no aparelho, apaga os coquisas ao fechar e não entra sozinho na sua conta. Uma pesquisa com 460 pessoas, 27% achavam que ele protege contra vírus. É engano, diz a pesquisa. E se você faz login num site dentro da janela anônima, o site sabe quem você é. Fontes no primeiro comentário.

@@ -1,0 +1,10 @@
+Modo anônimo do navegador: ele esconde sua navegação de quem usa o mesmo computador, não da internet.
+
+As páginas de ajuda do Chrome e do Firefox dizem que a janela privada não guarda histórico nem cookies no aparelho, mas não esconde você dos sites, do Google, do provedor, da empresa ou da escola, e que fazer login diz ao site quem você é. Numa pesquisa de 2018 com 460 pessoas, da Universidade de Chicago, 27% achavam que o modo protegia contra vírus.
+
+Manda para quem acha que a janela anônima apaga os rastros.
+
+—
+Fontes no primeiro comentário.
+
+#privacidade #chrome #explica #internet #tecnologia

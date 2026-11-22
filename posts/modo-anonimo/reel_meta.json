@@ -1,0 +1,33 @@
+{
+ "slug": "modo-anonimo",
+ "total_s": 34.5,
+ "scenes": [
+  {
+   "dur": 5.0,
+   "start": 0.0
+  },
+  {
+   "dur": 8.0,
+   "start": 4.9
+  },
+  {
+   "dur": 6.0,
+   "start": 12.8
+  },
+  {
+   "dur": 8.0,
+   "start": 18.7
+  },
+  {
+   "dur": 5.5,
+   "start": 26.6
+  },
+  {
+   "dur": 2.5,
+   "start": 32.0
+  }
+ ],
+ "words": 94,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
