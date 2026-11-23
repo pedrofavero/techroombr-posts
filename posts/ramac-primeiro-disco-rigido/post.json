@@ -9,7 +9,7 @@
     {
       "type": "cover",
       "photo": "fotos/ramac-primeiro-disco-rigido-1.jpg",
-      "title": "O primeiro HD: mais de 1 tonelada para 5 milhões de letras",
+      "title": "O primeiro HD: mais de 1 tonelada, 5 milhões de caracteres",
       "dek": "Em setembro de 1956, a IBM apresentou o 305 RAMAC, o primeiro computador com disco rígido. A unidade de disco tinha 50 pratos de 61 cm, girava a 1.200 rotações por minuto e era do tamanho de duas geladeiras. Foi o começo de tudo o que hoje chamamos de \"salvar\".",
       "swipe": "arraste →"
     },
@@ -35,12 +35,12 @@
           "big": "50",
           "unit": " discos",
           "label": "de 61 cm (24 polegadas) de diâmetro, girando a 1.200 rotações por minuto",
-          "text": "Dois braços de acesso: um subia e descia para escolher o disco, outro entrava para escolher a trilha. A cabeça de leitura flutuava sobre o disco em um colchão de ar."
+          "text": "Dois braços de acesso subiam e desciam para escolher o disco e entravam para escolher a trilha. A cabeça de leitura flutuava sobre o disco em um colchão de ar."
         },
         {
           "big": "5",
           "unit": " milhões",
-          "label": "de caracteres: cerca de 3,75 megabytes, segundo o Museu de História da Computação; a IBM arredonda para 5 MB",
+          "label": "de caracteres: cerca de 3,75 megabytes, segundo o Museu de História da Computação; a IBM fala em 5 MB",
           "text": "A IBM dizia que era o equivalente a 64 mil cartões perfurados (o Tom's Hardware fala em 62,5 mil), todos ao alcance \"quase instantaneamente\"."
         }
       ],
