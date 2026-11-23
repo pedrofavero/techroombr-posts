@@ -1,6 +1,6 @@
 Antes do RAMAC, "procurar um dado" era um trabalho de horas. Depois dele, virou um gesto.
 
-Em 1956, a IBM apresentou o 305 RAMAC, o primeiro computador com disco rígido: 50 discos de 61 cm girando a 1.200 rotações por minuto, 5 milhões de caracteres (menos de 5 megabytes) e mais de uma tonelada, movida com empilhadeira. Não se comprava: alugava-se, por US$ 3.200 por mês. A equipe de Reynold Johnson, em San José, levou dois anos para chegar ao tempo de acesso de cerca de 800 milissegundos. O primeiro da América Latina chegou a São Paulo em 1959. As fontes divergem em alguns detalhes, como o mês em que a primeira unidade foi entregue.
+Em 1956, a IBM apresentou o 305 RAMAC, o primeiro computador com disco rígido: 50 discos de 61 cm girando a 1.200 rotações por minuto, 5 milhões de caracteres (menos de 5 megabytes) e mais de uma tonelada, movida com empilhadeira. O sistema era alugado por US$ 3.200 por mês. A equipe de Reynold Johnson, em San José, chegou a um tempo de acesso de cerca de 800 milissegundos. O primeiro da América Latina chegou a São Paulo em 1959. As fontes divergem em detalhes: 3,75 ou 5 megabytes, 600 ou 800 milissegundos, 1952 ou 1954 para o início do trabalho.
 
 Quanto espaço tem o aparelho em que você está lendo isto?
 
