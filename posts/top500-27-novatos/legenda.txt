@@ -1,0 +1,10 @@
+O ranking dos supercomputadores virou um termômetro de onde o dinheiro da computação está indo: cada vez menos para a ciência, cada vez mais para a inteligência artificial.
+
+A 68ª lista TOP500 saiu em 16 de novembro, na conferência SC26, em Chicago. O LineShine, de Shenzhen, continua em primeiro com 2,198 exaflops, usando só processadores comuns, sem GPU. Só 27 máquinas novas entraram, o menor número desde 1993. Os organizadores atribuem isso às "fábricas de IA" das empresas de nuvem, que concentram cerca de 71% da capacidade mundial de computação para IA, segundo a Epoch AI. Eles ressalvam que isso não significa que o desempenho parou de crescer.
+
+Você sabia que o computador mais rápido do mundo não usa placas de IA?
+
+—
+Fontes no último slide.
+
+#TheTechRoom #tecnologia #supercomputador #TOP500 #China #inteligênciaartificial #datacenter #ciência

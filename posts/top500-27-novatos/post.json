@@ -1,0 +1,117 @@
+{
+  "slug": "top500-27-novatos",
+  "categoria": "NOTÍCIA",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/top500-27-novatos-1.jpg",
+      "title": "O computador mais rápido é chinês. E só 27 novos entraram",
+      "dek": "A lista TOP500, que ranqueia os 500 supercomputadores mais potentes do mundo, saiu em 16 de novembro. O topo não mudou desde junho e só 27 máquinas novas entraram: o menor número da história da lista. Os organizadores dizem para onde os chips estão indo.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "card",
+      "kicker": "O que aconteceu",
+      "heading": "Uma lista, um campeão repetido e poucos novatos",
+      "rows": [
+        {"k": "O quê", "v": "68ª edição da lista TOP500, ranking semestral dos supercomputadores mais rápidos"},
+        {"k": "Quando", "v": "16 de novembro de 2026, na conferência SC26, em Chicago (EUA)"},
+        {"k": "Nº 1", "v": "LineShine, no Centro Nacional de Supercomputação de Shenzhen, na China"},
+        {"k": "Novatos", "v": "27 sistemas novos, 5,4% da lista: o menor número já registrado"},
+        {"k": "Top 10", "v": "Nenhuma posição mudou desde a lista de junho"},
+        {"k": "Fonte", "v": "top500.org e comunicado dos organizadores, 16 nov. 2026"}
+      ],
+      "body": [
+        "Um ==supercomputador== é um computador feito de milhões de núcleos de processador que trabalham juntos no mesmo problema. A lista mede cada máquina com um teste padrão, o **HPL**, que conta quantas operações matemáticas por segundo ela consegue fazer."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O campeão",
+      "heading": "Uma máquina chinesa sem nenhuma placa de IA",
+      "big": "2,198",
+      "unit": " exaflops",
+      "label": "velocidade do LineShine no teste HPL, com 13.789.440 núcleos de processador",
+      "body": [
+        "Um ==exaflop== é 1 quintilhão de operações por segundo (1 seguido de 18 zeros). O LineShine consome 42,22 megawatts para isso.",
+        "Ele usa **só processadores comuns (CPUs)**, sem as placas aceleradoras (GPUs) da inteligência artificial. É o primeiro a passar de 2 exaflops assim, segundo os organizadores.",
+        "Lidera desde junho de 2026, quando tirou do topo o El Capitan, dos EUA: o primeiro chinês em 1º lugar desde 2017."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Os cinco do topo",
+      "heading": "Só cinco máquinas no mundo passam de 1 exaflop",
+      "bars": [
+        {"name": "LineShine (China)", "value": 2198, "label": "2,198"},
+        {"name": "El Capitan (EUA)", "value": 1809, "label": "1,809"},
+        {"name": "Frontier (EUA)", "value": 1353, "label": "1,353"},
+        {"name": "Aurora (EUA)", "value": 1012, "label": "1,012"},
+        {"name": "JUPITER Booster (Alemanha)", "value": 1000, "label": "1,000"}
+      ],
+      "note": "Desempenho no teste HPL, em exaflops. El Capitan, Frontier e Aurora são de laboratórios do governo americano; o JUPITER, em Jülich, é o único europeu acima de 1 exaflop. Fonte: TOP500, lista de novembro de 2026.",
+      "body": [
+        "O segundo colocado, El Capitan, faz 1,809 exaflops gastando 29,69 megawatts, contra 42,22 do LineShine: cerca de 20% menos velocidade com bem menos energia, segundo a ITPro e o Tom's Hardware."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A virada",
+      "heading": "Só 27 máquinas novas. Para onde foi o hardware?",
+      "photo": "fotos/top500-27-novatos-2.jpg",
+      "caption": "Foto: Taylor Vick / Unsplash",
+      "body": [
+        "A cada edição, parte das 500 máquinas é trocada por sistemas novos. Desta vez entraram **27**, ou 5,4% da lista: o menor número desde que a lista começou, em 1993, segundo o Tom's Hardware e o comunicado do TOP500.",
+        "Os organizadores apontam a explicação: o hardware novo está indo para as chamadas **\"fábricas de IA\"**, os grandes conjuntos de computadores das empresas de nuvem. Eles citam a consultoria Epoch AI: no fim de 2025, cinco grandes empresas americanas de nuvem detinham cerca de **71%** da capacidade mundial de computação para IA.",
+        "Nas palavras do comunicado, o crescimento passou \"de sistemas de capacidade para sistemas de volume\" (tradução livre): menos máquinas feitas para um problema científico difícil, mais máquinas feitas para atender muita gente ao mesmo tempo."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Separando as coisas",
+      "heading": "O que se sabe e o que ainda não se sabe",
+      "a": {
+        "title": "O que se sabe",
+        "lines": [
+          "A soma das 500 máquinas chegou a 19,57 exaflops, alta de 4,4% sobre junho. A máquina nº 500 tem 2,857 petaflops, 7,3% a mais que em junho.",
+          "291 sistemas (58,2% da lista) usam aceleradores como GPUs. O nº 1 não usa nenhum.",
+          "O maior novato é o Hangang, da Coreia do Sul, em 12º lugar, com 342,6 petaflops."
+        ]
+      },
+      "b": {
+        "title": "O que ainda não se sabe",
+        "lines": [
+          "Se a computação científica desacelerou. O TOP500 diz que o resultado \"não indica que o desempenho parou de crescer\" e fala em \"uma fase madura do ciclo atual\" (tradução livre).",
+          "O que mais a China tem. A HPCwire cita outros três sistemas chineses de classe exaflop (Oceanlite, Tianhe-3 e Sugon 8000), mas só o LineShine enviou o teste.",
+          "Quem fabrica o processador LX2 do LineShine. O centro de Shenzhen não divulgou; uma consultoria citada pela ITPro o atribui à Huawei."
+        ]
+      }
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O supercomputador mais rápido do mundo é chinês e não usa GPU.** O LineShine faz 2,198 exaflops só com processadores comuns, e lidera desde junho.",
+        "**Só 27 máquinas novas entraram na lista**, o menor número desde 1993. A soma dos 500 cresceu só 4,4%.",
+        "**A explicação dos organizadores é a IA.** Os chips novos vão para os conjuntos das empresas de nuvem, que já concentram cerca de 71% da capacidade de computação para IA."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "TOP500, lista de novembro de 2026 (top500.org)", "what": "68ª edição; LineShine 2,198 exaflops e 13.789.440 núcleos; entrada em junho de 2026; primeiro chinês desde o Sunway TaihuLight (2017); top 5 e seus valores"},
+        {"who": "Comunicado do TOP500, 16 nov. 2026, via StorageNewsletter (17 nov.) e HPCwire (Alex Woodie, 16 nov.)", "what": "27 novatos (5,4%), menor da história; 19,57 exaflops (+4,4%); nº 500 com 2,857 petaflops (+7,3%); 291 sistemas com aceleradores; Epoch AI e 71%; \"capability\" × \"capacity\"; Hangang"},
+        {"who": "Anton Shilov, Tom's Hardware, 16 nov. 2026", "what": "SC26 em Chicago; menor número desde 1993; só CPUs; 42,22 MW; El Capitan 29,69 MW; prioridade para IA"},
+        {"who": "Jane McCallion, ITPro, 17 nov. 2026; Ross Kelly, ITPro, 23 jun. 2026", "what": "\"não indica que o desempenho parou de crescer\"; \"fase madura\"; processador LX2 não divulgado; atribuição à Huawei"},
+        {"who": "Denise Dubie, Network World, 16 nov. 2026", "what": "LX2 de 304 núcleos; sem aceleradores; top 10 completo"},
+        {"who": "Fotos", "what": "Matthieu Beaumont e Taylor Vick, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "O ranking dos supercomputadores virou um termômetro de onde o dinheiro da computação está indo: cada vez menos para a ciência, cada vez mais para a inteligência artificial.\n\nA 68ª lista TOP500 saiu em 16 de novembro, na conferência SC26, em Chicago. O LineShine, de Shenzhen, continua em primeiro com 2,198 exaflops, usando só processadores comuns, sem GPU. Só 27 máquinas novas entraram, o menor número desde 1993. Os organizadores atribuem isso às \"fábricas de IA\" das empresas de nuvem, que concentram cerca de 71% da capacidade mundial de computação para IA, segundo a Epoch AI. Eles ressalvam que isso não significa que o desempenho parou de crescer.\n\nVocê sabia que o computador mais rápido do mundo não usa placas de IA?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #supercomputador #TOP500 #China #inteligênciaartificial #datacenter #ciência"
+}
