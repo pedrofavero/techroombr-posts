@@ -1,0 +1,121 @@
+{
+  "slug": "ramac-primeiro-disco-rigido",
+  "categoria": "HISTÓRIA",
+  "theme": "paper",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/ramac-primeiro-disco-rigido-1.jpg",
+      "title": "O primeiro HD pesava 1 tonelada. Cabiam 5 milhões de letras",
+      "dek": "Em setembro de 1956, a IBM apresentou o 305 RAMAC, o primeiro computador com disco rígido. A unidade de disco tinha 50 pratos de 61 cm, girava a 1.200 rotações por minuto e era do tamanho de duas geladeiras. Foi o começo de tudo o que hoje chamamos de \"salvar\".",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Achar um dado levava horas",
+      "photo": "fotos/ramac-primeiro-disco-rigido-3.jpg",
+      "caption": "Foto: National Cancer Institute / Unsplash (arquivo de laboratório, 1961)",
+      "body": [
+        "Nos anos 1950, empresas guardavam registros em cartões perfurados e fitas magnéticas. Para achar um dado, era preciso percorrer tudo em ordem: uma busca podia levar \"horas ou até dias\", segundo a história oficial da IBM.",
+        "Em 1954, o engenheiro **Reynold Johnson** reuniu uma equipe no laboratório da IBM em San José, na Califórnia, segundo o Museu de História da Computação. A missão: chegar a qualquer dado direto, sem percorrer o resto. É o que se chama ==acesso aleatório==.",
+        "A equipe testou hastes, tiras, fitas e placas antes de escolher discos de alumínio cobertos de óxido de ferro, conta a IBM. A pilha de discos ganhou dos executivos o apelido de **\"fatiador de mortadela\"**."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "A máquina",
+      "heading": "Cinquenta pratos girando dentro de um armário",
+      "display": "sans",
+      "cells": [
+        {
+          "big": "50",
+          "unit": " discos",
+          "label": "de 61 cm (24 polegadas) de diâmetro, girando a 1.200 rotações por minuto",
+          "text": "Um braço mecânico subia e descia para escolher o disco e entrava para escolher a trilha. A cabeça de leitura flutuava sobre o disco em um colchão de ar."
+        },
+        {
+          "big": "5",
+          "unit": " milhões",
+          "label": "de caracteres, cerca de 3,75 megabytes, segundo o Museu de História da Computação",
+          "text": "A IBM dizia que era o equivalente a 64 mil cartões perfurados, todos ao alcance \"quase instantaneamente\"."
+        }
+      ],
+      "body": [
+        "A unidade de disco se chamava IBM 350 e fazia parte do computador 305 RAMAC, um dos últimos da IBM feitos com válvulas. Gravava 2.000 bits por polegada quadrada."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O tamanho",
+      "heading": "Mais de uma tonelada, alugada por mês",
+      "display": "sans",
+      "big": "US$ 3.200",
+      "label": "por mês era o aluguel do sistema 305 RAMAC com a unidade de disco",
+      "body": [
+        "A unidade de disco pesava **mais de uma tonelada**, contando o compressor de ar de que precisava, segundo o Museu de História da Computação. A IBM a compara a duas geladeiras juntas.",
+        "Era movida com empilhadeira e viajava de avião de carga, segundo relato reunido pelo site History of Information, que estima o preço de compra em cerca de US$ 10 mil por megabyte.",
+        "Primeiros clientes, segundo a IBM: 3M, Universidade de Nova York, Pfizer e United Airlines."
+      ]
+    },
+    {
+      "type": "timeline",
+      "kicker": "Linha do tempo",
+      "heading": "Do laboratório em San José a São Paulo",
+      "items": [
+        {"when": "1954", "what": "Reynold Johnson reúne a equipe no laboratório da IBM em San José, na Califórnia."},
+        {"when": "14 set. 1956", "what": "A IBM demonstra o 305 RAMAC e sua unidade de disco em Endicott, no estado de Nova York."},
+        {"when": "1958", "what": "O RAMAC é mostrado no pavilhão dos EUA na Feira Mundial de Bruxelas."},
+        {"when": "1959", "what": "O primeiro RAMAC da América Latina chega a São Paulo, segundo a IBM."},
+        {"when": "1961", "what": "A IBM anuncia o modelo 1301, depois de três gerações de RAMAC em que a capacidade dobrou a cada geração."}
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "O engenheiro",
+      "text": "Chegamos a algo como 800 milissegundos, e foi aí que o produto saiu.",
+      "who": "Reynold Johnson, líder da equipe, sobre o tempo para achar um dado no disco, citado pela IBM (tradução livre)",
+      "body": [
+        "A meta, segundo Johnson, era mover o braço de uma trilha a qualquer outra em meio segundo. Ficou em menos de 1 segundo em média, registra o Museu de História da Computação. Para quem esperava horas por uma busca em cartões, era quase instantâneo.",
+        "Johnson mais tarde recebeu o título de IBM Fellow, segundo a IBM, e é lembrado como o pai do primeiro disco rígido comercial."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O que ficou",
+      "heading": "Todo \"salvar\" desce desse fatiador de mortadela",
+      "photo": "fotos/ramac-primeiro-disco-rigido-2.jpg",
+      "caption": "Foto: Bernd Dittrich / Unsplash",
+      "body": [
+        "Disco que gira, cabeça que lê e grava, dado acessado direto: esse é, até hoje, o princípio do **HD**, o disco rígido. A IBM chama o RAMAC de \"progenitor\" de todos os discos rígidos, segundo o Tom's Hardware.",
+        "A escala mudou de mundo. O Tom's Hardware lembra que hoje um consumidor compra um HD de **26 terabytes** por pouco mais de US$ 500; um **terabyte** é 1 trilhão de bytes. A IBM cita a Computerworld: nos anos 1950, 1 terabyte custaria US$ 1 trilhão; hoje, menos de US$ 50.",
+        "E o nome? RAMAC virou \"Random Access Method of Accounting and Control\", método de acesso aleatório para contabilidade e controle. Segundo a IBM, nasceu de \"random-access memory\" mais o sufixo AC, emprestado do UNIVAC; o marketing inventou o significado depois."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O primeiro disco rígido tinha 50 pratos de 61 cm e pesava mais de uma tonelada.** Guardava 5 milhões de caracteres, menos de 5 megabytes.",
+        "**Ele resolveu o problema da espera.** Em vez de horas percorrendo cartões, qualquer dado em menos de 1 segundo: o acesso aleatório, que todo HD usa até hoje.",
+        "**O primeiro RAMAC da América Latina chegou a São Paulo em 1959**, três anos depois do lançamento, segundo a IBM."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {"who": "Computer History Museum, Storage Engine, \"1956: First commercial hard disk drive shipped\"", "what": "Johnson e a equipe em San José (1954); 50 discos de 24 polegadas; 1.200 rpm; 5 milhões de caracteres (3,75 MB); 2.000 bits/pol²; acesso médio abaixo de 1 s; mais de uma tonelada com o compressor; Zellerbach Paper; modelo 1301 em 1961"},
+        {"who": "IBM, \"RAMAC\", página de história da empresa (ibm.com/history/ramac)", "what": "\"horas ou até dias\"; hastes, tiras, fitas e placas; \"baloney slicer\"; 800 milissegundos; 64 mil cartões; mais de uma tonelada; duas geladeiras; clientes; Bruxelas 1958; São Paulo 1959; origem do nome; Computerworld"},
+        {"who": "Computer History Museum, Revolution, \"RAMAC actuator and disk stack\"", "what": "50 discos; 1.200 rpm; US$ 3.200 por mês"},
+        {"who": "History of Information (Jeremy Norman), \"The IBM 305 RAMAC\"", "what": "demonstração em 14 set. 1956 em Endicott; US$ 3.200 por mês; US$ 10 mil por megabyte; empilhadeira e avião de carga; braço de acesso; válvulas"},
+        {"who": "Mark Tyson, Tom's Hardware, 14 set. 2025", "what": "3,75 MB; 50 pratos de 24 polegadas; 1.200 rpm; cerca de uma tonelada; 800 ms; \"progenitor\"; HD de 26 TB por pouco mais de US$ 500; Johnson como pai do disco rígido"},
+        {"who": "Fotos", "what": "Bruce Hong, National Cancer Institute e Bernd Dittrich, via Unsplash"}
+      ]
+    }
+  ],
+  "legenda": "Antes do RAMAC, \"procurar um dado\" era um trabalho de horas. Depois dele, virou um gesto.\n\nEm 1956, a IBM apresentou o 305 RAMAC, o primeiro computador com disco rígido: 50 discos de 61 cm girando a 1.200 rotações por minuto, 5 milhões de caracteres (menos de 5 megabytes) e mais de uma tonelada, movida com empilhadeira. Não se comprava: alugava-se, por US$ 3.200 por mês. A equipe de Reynold Johnson, em San José, levou dois anos para chegar ao tempo de acesso de cerca de 800 milissegundos. O primeiro da América Latina chegou a São Paulo em 1959. As fontes divergem em alguns detalhes, como o mês em que a primeira unidade foi entregue.\n\nQuanto espaço tem o aparelho em que você está lendo isto?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #história #IBM #discorígido #computação #armazenamento #curiosidades"
+}
