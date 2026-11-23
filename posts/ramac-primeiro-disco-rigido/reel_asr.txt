@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 95.2%
+números do roteiro: 1956, 1, 5, 50, 61, 1200, 800, 1959, 26, 500
+números ouvidos:    1956, 1, 5, 50, 61, 1200, 800, 1959, 26, 500
+números: todos ouvidos
+
+ROTEIRO:
+Em 1956, o primeiro disco rígido pesava mais de 1 tonelada e guardava menos de 5 megabytes. Antes, achar um dado em cartões perfurados levava horas ou até dias, segundo a IBM. A solução: 50 discos de 61 centímetros girando a 1.200 rotações por minuto. Braços de acesso buscavam qualquer dado direto. Mas achava qualquer dado em cerca de 800 milissegundos. Quase instantâneo para a época. Em 1959, o primeiro da América Latina chegou a São Paulo. Hoje, um disco rígido de 26 terabytes custa pouco mais de 500 dólares. Fontes no primeiro comentário.
+
+OUVIDO:
+Em 1956, o primeiro disco rígido pesava mais de 1 tonelada e guardava menos de 5 megabits. Antes achar um dado em cartões perfurados levava horas ou até dias, segundo a IBM. A solução, 50 discos de 61 centímetros girando a 1200 rotações por minuto. Braços de acesso buscavam qualquer dado direto. Mas achava qualquer dado em cerca de 800 milisegundos, quase instantâneo para a época. Em 1959, o primeiro da América Latina chegou a São Paulo. Hoje, um disco rígido de 26 terabites custa pouco mais de 500 dólares. Fontes no primeiro comentário.

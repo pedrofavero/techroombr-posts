@@ -1,0 +1,37 @@
+{
+ "slug": "ramac-primeiro-disco-rigido",
+ "total_s": 40.9,
+ "scenes": [
+  {
+   "dur": 7.5,
+   "start": 0.0
+  },
+  {
+   "dur": 5.5,
+   "start": 7.4
+  },
+  {
+   "dur": 9.0,
+   "start": 12.8
+  },
+  {
+   "dur": 6.0,
+   "start": 21.7
+  },
+  {
+   "dur": 5.5,
+   "start": 27.6
+  },
+  {
+   "dur": 5.5,
+   "start": 33.0
+  },
+  {
+   "dur": 2.5,
+   "start": 38.4
+  }
+ ],
+ "words": 94,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
