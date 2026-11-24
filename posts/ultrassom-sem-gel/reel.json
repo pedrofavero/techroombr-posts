@@ -1,0 +1,87 @@
+{
+  "slug": "ultrassom-sem-gel",
+  "display": "sans",
+  "accent": "#FFC21A",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "media": "fotos/ultrassom-sem-gel-1.jpg",
+      "credit": "Foto: Elen Sher / Unsplash",
+      "anim": {
+        "type": "hook",
+        "kicker": "Estudo · saúde",
+        "big": "9 dias",
+        "line": "de ultrassom sem gel, com um adesivo seco.",
+        "fonte": "MIT News · 19 nov. 2026 · estudo na Science"
+      },
+      "say": "9 dias de ultrassom sem gel: um adesivo seco do MIT filmou o corpo por dentro, no laboratório."
+    },
+    {
+      "media": "fotos/ultrassom-sem-gel-2.jpg",
+      "credit": "Foto: Green Country Ultrasound / Unsplash",
+      "kicker": "O problema",
+      "text": "O gel faz o som passar da sonda para a pele. Num adesivo colado no corpo, o hidrogel **seca em 1 ou 2 dias**. Fonte: MIT News, 19 nov. 2026",
+      "say": "O gel faz o som passar da sonda para a pele. Mas, colado no corpo, ele seca em um ou dois dias."
+    },
+    {
+      "media": "fotos/ultrassom-sem-gel-2.jpg",
+      "credit": "Foto: Green Country Ultrasound / Unsplash",
+      "kicker": "Quanto tempo cada material aguenta",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "Gel líquido",
+            "value": 1,
+            "label": "1 dia",
+            "other": true
+          },
+          {
+            "name": "Hidrogel",
+            "value": 2,
+            "label": "2 dias",
+            "other": true
+          },
+          {
+            "name": "Borracha nova",
+            "value": 7,
+            "label": ">7 dias"
+          }
+        ],
+        "note": "Até perder a capacidade de passar o som, ao secar.",
+        "fonte": "SMART (aliança Singapura-MIT) · 22 nov. 2026"
+      },
+      "say": "A borracha nova deixa o som passar como o gel e durou mais de uma semana.",
+      "hold": 0.6
+    },
+    {
+      "media": "fotos/ultrassom-sem-gel-3.jpg",
+      "credit": "Foto: Luis Chávez / Unsplash",
+      "kicker": "O teste na rua",
+      "text": "**10 min** de corrida na esteira e **30 min** de bicicleta, com subidas, filmando a artéria do pescoço sem parar. Fonte: MIT News, 19 nov. 2026",
+      "say": "Na rua, aguentou 10 minutos de corrida e 30 de bicicleta, com a sonda no pescoço."
+    },
+    {
+      "media": "fotos/ultrassom-sem-gel-1.jpg",
+      "credit": "Foto: Elen Sher / Unsplash",
+      "kicker": "A ressalva",
+      "text": "Testes com **um voluntário** por vez. Sem ensaio clínico. A equipe ainda quer simplificar a fabricação. Fonte: MIT News; SMART",
+      "say": "Mas foram testes com um voluntário por vez, sem ensaio clínico. Falta simplificar a fabricação.",
+      "hold": 0.6
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Wang, Li, Tang e outros, Science, 19 nov. 2026 (doi 10.1126/science.aef9553)",
+        "MIT News (Jennifer Chu), 19 nov. 2026",
+        "SMART, aliança Singapura-MIT, comunicado de 22 nov. 2026"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "Ultrassom sem gel: um adesivo vestível com uma borracha seca gerou imagens claras por cerca de 9 dias no laboratório, segundo o MIT.\n\nO gel do exame faz o som passar da sonda para a pele, mas o hidrogel usado nos adesivos anteriores seca em um ou dois dias. O material novo, publicado na Science, durou mais de uma semana no teste de ressecamento e aguentou 10 minutos de esteira e 30 de bicicleta. Os testes foram com um voluntário por vez, sem ensaio clínico, e a equipe ainda precisa simplificar a fabricação.\n\nManda para quem já saiu do exame com a barriga cheia de gel.\n\n—\nFontes no primeiro comentário.\n\n#ultrassom #saude #ciencia #engenharia #tecnologia",
+  "fontes_comentario": "Fontes: Wang, Li, Tang e outros, \"Interpenetrating bottlebrush elastomer for low-loss soft ultrasonic interfaces\", Science, 19 nov. 2026 (doi 10.1126/science.aef9553; vol. 394, p. 895, conforme a Technology Networks); MIT News (Jennifer Chu), \"Ultrasound imaging without the gel\", 19 nov. 2026, também via EurekAlert: papel do gel, hidrogel que seca em um ou dois dias, moléculas em escova de garrafa, cerca de 9 dias de imagem no modelo sintético, adesivo do tamanho de um chaveiro, esteira de 10 minutos, pedalada de 30 minutos até Bunker Hill, um voluntário em cada teste, financiamento SMART e MIT HEALS; SMART (Singapore-MIT Alliance for Research and Technology), comunicado via EurekAlert, 22 nov. 2026: gel líquido 1 dia, hidrogel 2 dias, material novo mais de uma semana, cerca de 12 vezes mais resistência à fratura, pelo menos 10 mil ciclos, compatível com adesivos médicos, próximos passos de fabricação e custo; Technology Networks, 20 nov. 2026, e healthcare-in-europe.com, 22 nov. 2026 (republicações). Fotos: Elen Sher, Green Country Ultrasound e Luis Chávez, via Unsplash."
+}
