@@ -1,0 +1,157 @@
+{
+  "slug": "ultrassom-sem-gel",
+  "categoria": "ESTUDO",
+  "theme": "dark",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/ultrassom-sem-gel-1.jpg",
+      "title": "Ultrassom sem gel: a borracha que filmou por 9 dias",
+      "dek": "O gel gelado do exame existe para a onda de som passar da sonda para a pele. Num adesivo vestível, ele seca em um ou dois dias. Engenheiros do MIT e de Singapura fizeram um material seco e elástico que faz o mesmo papel e seguiu gerando imagens por cerca de 9 dias no laboratório.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "O gel é o elo fraco do ultrassom que gruda no corpo",
+      "photo": "fotos/ultrassom-sem-gel-2.jpg",
+      "caption": "Foto: Green Country Ultrasound / Unsplash",
+      "body": [
+        "O ==ultrassom== faz imagens do corpo com ondas de som. Para a onda passar da sonda para a pele sem bolsões de ar no caminho, o técnico espalha um gel. É o gel frio que todo mundo conhece do exame.",
+        "O grupo do professor Xuanhe Zhao, no MIT, desenvolve ==adesivos de ultrassom==: sondas pequenas coladas na pele que filmam o corpo por dentro de forma contínua. Até agora, eles usavam uma camada de hidrogel, um material que é quase todo água.",
+        "Esse hidrogel seca em um ou dois dias e perde a capacidade de transmitir som. \"No consultório, um técnico simplesmente aplica mais gel se precisar\", diz Zhao (tradução livre). Num adesivo que a pessoa leva para casa, não dá."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Uma borracha que o som atravessa quase sem perda",
+      "body": [
+        "A equipe criou uma borracha feita de moléculas em formato de ==escova de garrafa==: uma cadeia principal com cadeias laterais curtas. Segundo o MIT, essas cadeias laterais reduzem o atrito entre as moléculas na frequência do ultrassom, e a onda passa quase sem perda, como num gel. Só que o material é seco e quase 100% polímero, sem água para evaporar.",
+        "As primeiras amostras eram \"muito macias e esfareladas, como tofu\", conta o pós-doutorando Shu Wang, que liderou o estudo (tradução livre). A solução foi fundir quimicamente uma segunda rede de moléculas de escova à primeira, que a segura sem estragar o baixo atrito.",
+        "Segundo o comunicado de Singapura, o material final resiste cerca de 12 vezes mais à fratura do que a versão de rede única e aguentou pelo menos 10 mil ciclos de carga nos testes."
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "O teste de bancada",
+      "big": "9",
+      "unit": " dias",
+      "label": "de imagens claras e contínuas sobre um \"fantasma\", um modelo sintético que imita a pele e as estruturas internas, com o sistema ligado o tempo todo",
+      "body": [
+        "As amostras tinham o tamanho de um cartão de crédito. O adesivo testado em pessoas tem o tamanho de um chaveiro: uma sonda pequena de ultrassom com uma camada seca e elástica em contato com a pele.",
+        "O estudo saiu na revista **Science** em 19 de novembro. As duas universidades envolvidas divulgaram comunicados; os números deste post vêm deles."
+      ]
+    },
+    {
+      "type": "chart",
+      "kicker": "Quanto tempo cada material aguenta",
+      "heading": "Até perder a capacidade de passar o som, ao secar",
+      "bars": [
+        {
+          "name": "Gel líquido comum",
+          "value": 1,
+          "label": "1 dia",
+          "other": true
+        },
+        {
+          "name": "Hidrogel dos adesivos antigos",
+          "value": 2,
+          "label": "2 dias",
+          "other": true
+        },
+        {
+          "name": "Borracha nova",
+          "value": 7,
+          "label": "> 7 dias"
+        }
+      ],
+      "note": "Teste de ressecamento descrito no comunicado da aliança Singapura-MIT (SMART). O comunicado do MIT fala em cerca de 9 dias de imagem no modelo sintético.",
+      "body": [
+        "Na pele, segundo o comunicado de Singapura, os testes não mostraram queda mensurável na qualidade da imagem. O material também é compatível com adesivos médicos já vendidos, diz o pós-doutorando Runze Li, coautor principal."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O teste na rua",
+      "heading": "Suor na esteira e ladeira de bicicleta",
+      "photo": "fotos/ultrassom-sem-gel-3.jpg",
+      "caption": "Foto: Luis Chávez / Unsplash",
+      "body": [
+        "**Esteira:** um voluntário correu 10 minutos com o adesivo no peito. Uma amostra de silicone comum ficou encharcada de suor, que seguia empoçado 35 minutos depois do fim da corrida. A borracha nova absorveu a umidade.",
+        "**Bicicleta:** com uma sonda no pescoço e um tablet na mão, um voluntário pedalou 30 minutos do campus do MIT, em Cambridge, até o morro de Bunker Hill e voltou, com subidas íngremes. A imagem do fluxo de sangue na artéria do pescoço se manteve contínua.",
+        "Os comunicados falam em \"um voluntário\" em cada teste e não dizem quantas pessoas participaram no total."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem fez, quem pagou, o que falta",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Science, 19 nov. 2026 (doi 10.1126/science.aef9553)"
+        },
+        {
+          "k": "Equipe",
+          "v": "MIT (Shu Wang e Runze Li, primeiros autores; Xuanhe Zhao, autor correspondente), Wisconsin-Madison, Universidade Nacional de Singapura e Nanyang"
+        },
+        {
+          "k": "Testes",
+          "v": "modelo sintético por cerca de 9 dias; ressecamento contra gel e hidrogel; esteira de 10 min; pedalada de 30 min"
+        },
+        {
+          "k": "Financiamento",
+          "v": "aliança Singapura-MIT (SMART), com verba da fundação de pesquisa de Singapura, e o programa MIT HEALS"
+        },
+        {
+          "k": "O que falta",
+          "v": "simplificar a fabricação e baixar o custo; nenhum ensaio clínico ou aprovação é mencionado; a estabilidade de longo prazo não foi medida"
+        },
+        {
+          "k": "Conflitos",
+          "v": "os comunicados não mencionam patentes nem empresas ligadas aos autores"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**A ideia:** uma borracha de moléculas em forma de escova deixa o som passar como o gel, mas é seca e não evapora. Uma segunda rede, fundida à primeira, impede que ela esfarele.",
+        "**O resultado:** cerca de 9 dias de imagem contínua num modelo sintético, contra 1 ou 2 dias dos géis; na rua, aguentou 10 minutos de corrida e 30 de bicicleta.",
+        "**A ressalva:** testes em um voluntário por vez, sem ensaio clínico. \"Em princípio, este material poderia durar para sempre, dependendo de quão estável ele for\", diz Wang, e isso ainda não foi medido."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Wang, Li, Tang, Gong, Song, Li, Lim, Chen e Zhao, \"Interpenetrating bottlebrush elastomer for low-loss soft ultrasonic interfaces\", Science, 19 nov. 2026 (doi 10.1126/science.aef9553)",
+          "what": "o artigo; a referência completa consta no fim das reportagens citadas abaixo"
+        },
+        {
+          "who": "MIT News (Jennifer Chu), \"Ultrasound imaging without the gel\", 19 nov. 2026; o mesmo texto via EurekAlert",
+          "what": "papel do gel; hidrogel que seca em um ou dois dias; escova de garrafa e baixo atrito; segunda rede; cerca de 9 dias no modelo sintético; cartão de crédito e chaveiro; esteira de 10 min; pedalada de 30 min até Bunker Hill; citações de Zhao, Wang e Li; financiamento"
+        },
+        {
+          "who": "SMART (Singapore-MIT Alliance for Research and Technology), comunicado via EurekAlert, 22 nov. 2026",
+          "what": "nome IP-BBE-PEG; cerca de 12 vezes mais resistência à fratura; pelo menos 10 mil ciclos; gel 1 dia, hidrogel 2 dias, borracha mais de uma semana; suor empoçado após 35 min; sem queda mensurável na pele; compatível com adesivos médicos; próximos passos; verba de Singapura"
+        },
+        {
+          "who": "Technology Networks, 20 nov. 2026; healthcare-in-europe.com, 22 nov. 2026",
+          "what": "republicações do texto do MIT, com a referência do artigo na Science e a citação \"como tofu\""
+        },
+        {
+          "who": "Fotos",
+          "what": "Elen Sher, Green Country Ultrasound e Luis Chávez, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O gel do ultrassom tem um motivo para existir e um defeito: seca. Um material seco pode tirar o exame do consultório e levá-lo para o dia a dia.\n\nEngenheiros do MIT e de universidades de Singapura publicaram na Science uma borracha de moléculas em forma de escova que transmite o som como o gel, sem água para evaporar. No laboratório, o adesivo gerou imagens claras por cerca de 9 dias; o hidrogel usado antes durava um ou dois. Os testes em pessoas foram curtos (10 minutos de esteira, 30 de bicicleta) e com um voluntário de cada vez. Não há ensaio clínico, e a equipe diz que ainda precisa simplificar a fabricação.\n\nVocê usaria um adesivo que filma seu coração por uma semana?\n—\nFontes no último slide.\n#ultrassom #saude #engenharia #ciencia #mit #wearables #tecnologia #techroombr"
+}
