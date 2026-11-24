@@ -1,0 +1,33 @@
+{
+ "slug": "ultrassom-sem-gel",
+ "total_s": 31.0,
+ "scenes": [
+  {
+   "dur": 6.5,
+   "start": 0.0
+  },
+  {
+   "dur": 6.0,
+   "start": 6.4
+  },
+  {
+   "dur": 4.5,
+   "start": 12.3
+  },
+  {
+   "dur": 5.5,
+   "start": 16.7
+  },
+  {
+   "dur": 6.5,
+   "start": 22.1
+  },
+  {
+   "dur": 2.5,
+   "start": 28.5
+  }
+ ],
+ "words": 91,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
