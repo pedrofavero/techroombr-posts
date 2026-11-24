@@ -20,23 +20,23 @@
       "rows": [
         {
           "k": "Título",
-          "v": "O design do dia a dia (Rocco, 2006, tradução de Ana Deiró, 271 páginas)"
+          "v": "O design do dia a dia (Rocco, 2006, trad. Ana Deiró, 271 ou 272 páginas, conforme a fonte)"
         },
         {
           "k": "Autor",
-          "v": "Donald A. Norman, nascido em 1935; formado em engenharia elétrica pelo MIT, doutorado pela Universidade da Pensilvânia, passagem pela Apple e cofundador do Nielsen Norman Group"
+          "v": "Donald A. Norman, nascido em 1935; engenharia e computação no MIT, doutorado na Pensilvânia, passagem pela Apple, cofundador do Nielsen Norman Group"
         },
         {
           "k": "Original",
-          "v": "The Psychology of Everyday Things, Basic Books, junho de 1988, 272 páginas; rebatizado The Design of Everyday Things a partir de 1990"
+          "v": "The Psychology of Everyday Things, Basic Books, 1988, 272 p.; já se chama The Design of Everyday Things na edição de 1990"
         },
         {
           "k": "Edição atual",
-          "v": "Revised and Expanded Edition, Basic Books, novembro de 2013, 368 páginas; a ciência é a mesma, os exemplos são todos novos e os dois últimos capítulos são inéditos, diz o autor"
+          "v": "Revised and Expanded Edition, Basic Books, 2013, 368 p.; mesma ciência (mais os sinalizadores), exemplos todos novos, dois capítulos inéditos"
         },
         {
           "k": "Atenção",
-          "v": "a edição brasileira traduz a versão anterior à revisão de 2013: traz o prefácio de 2002"
+          "v": "a edição brasileira traduz a versão anterior à revisão de 2013 (traz o prefácio de 2002)"
         },
         {
           "k": "Para quem",
@@ -51,7 +51,7 @@
       "photo": "fotos/design-do-dia-a-dia-2.jpg",
       "caption": "Foto: Bernard Hermant / Unsplash",
       "body": [
-        "Por que alguns produtos frustram quem os usa? Para Norman, a dificuldade não é incapacidade do usuário, e sim falha de projeto, resume a sinopse da Rocco. Um objeto bem desenhado comunica, sozinho, como funciona.",
+        "Por que alguns produtos frustram quem os usa? Para Norman, a dificuldade não é incapacidade do usuário, e sim falha de projeto, resume a sinopse da Rocco. Design é comunicação: o objeto deve transmitir como funciona.",
         "O livro culpa o design que ignora as necessidades das pessoas e os princípios da ==psicologia cognitiva==, a ciência de como percebemos, lembramos e decidimos. E dá regras simples, segundo a editora americana: tornar as coisas visíveis, aproveitar relações naturais entre o controle e a função, e usar restrições com inteligência.",
         "O capítulo 5 da edição atual resume a atitude no título: \"Erro humano? Não, design ruim\". Na edição brasileira, ele se chama \"Errar é humano\"."
       ]
@@ -60,10 +60,10 @@
       "type": "quote",
       "kicker": "Em uma frase",
       "text": "Esqueça as affordances: o que as pessoas precisam, e o que o design deve dar, são sinalizadores.",
-      "who": "Don Norman, coluna \"Signifiers, not affordances\", revista Interactions (ACM), 2008 (tradução livre)",
+      "who": "Don Norman, artigo \"Signifiers, not affordances\", revista Interactions (ACM), 2008 (tradução livre)",
       "body": [
-        "==Affordance== é a palavra que o livro popularizou no design: o psicólogo J. J. Gibson a criou para as ações possíveis de alguém em um ambiente. Norman diz que o termo foi muito usado e mal usado. Em 2008, propôs outro: ==sinalizador== (signifier), qualquer pista perceptível, proposital ou não, que mostra o que fazer.",
-        "Os exemplos dele são do cotidiano: uma plataforma de trem lotada avisa que o trem ainda não passou; o marcador mostra quanto falta do livro; a bandeira diz de onde vem o vento; a trilha na grama mostra por onde as pessoas cortam caminho. A edição de 2013 incorporou o conceito."
+        "==Affordance== é a palavra que Norman diz ter levado ao design em 1988: J. J. Gibson a usava para as ações possíveis de alguém em um ambiente. Norman diz que o termo foi muito usado e mal usado. Em 2008, propôs outro: ==sinalizador== (signifier), qualquer pista fisicamente perceptível, proposital ou não, que mostra o que fazer.",
+        "Os exemplos dele são do cotidiano: uma plataforma de trem lotada avisa que o trem ainda não passou; o marcador mostra quanto falta do livro; a bandeira diz de onde vem o vento; a trilha pisada na grama mostra que as pessoas querem um caminho pavimentado ali. A edição de 2013 incorporou o conceito."
       ]
     },
     {
@@ -89,7 +89,7 @@
         }
       ],
       "body": [
-        "São os quatro princípios que a sinopse da Livraria da Travessa destaca. O sumário da edição atual acrescenta mapeamento natural, descobribilidade, sinalizadores e o modelo do \"queijo suíço\"."
+        "São os quatro princípios que a sinopse da Livraria da Travessa destaca. O sumário da edição atual também lista mapeamento natural, descobribilidade, sinalizadores e o modelo do \"queijo suíço\"."
       ]
     },
     {
@@ -99,9 +99,9 @@
       "photo": "fotos/design-do-dia-a-dia-3.jpg",
       "caption": "Foto: Franco Debartolo / Unsplash",
       "body": [
-        "Uma porta que precisa de adesivo \"empurre\" ou \"puxe\" para funcionar ganhou o nome do autor. O podcast 99% Invisible define a ==porta de Norman== como a que dá os sinais errados de uso: sem a placa, quem chega fica adivinhando. Foi esse tipo de objeto que levou Norman a escrever o livro, diz o podcast.",
-        "Em 2016, o site Vox publicou um vídeo de Joe Posner sobre o tema, com o próprio Norman. A conclusão, citada por ele no próprio site: portas não deveriam precisar de instruções. O mesmo vale, segundo o 99% Invisible, para interruptores e torneiras com funções nada intuitivas.",
-        "Os botões de um fogão ilustram outra regra do livro, nas palavras da editora americana: aproveitar as relações naturais entre o controle e a função. O sumário chama isso de mapeamento natural."
+        "Uma porta que precisa de adesivo \"empurre\" ou \"puxe\" para funcionar ganhou o nome do autor. O podcast 99% Invisible define a ==porta de Norman== como a que dá os sinais errados de uso: sem a placa, quem chega fica adivinhando. Esse problema é parte do que levou Norman a escrever o livro, diz o podcast.",
+        "Em 2016, o site Vox publicou um vídeo de Joe Posner sobre o tema, com o próprio Norman. A conclusão do texto da Vox, que Norman reproduziu no próprio site: portas não deveriam precisar de instruções. O 99% Invisible estende o problema a interruptores e manípulos de pia com funções nada intuitivas.",
+        "A editora americana cita o fogão entre os objetos do livro e resume uma das regras: aproveitar as relações naturais entre o controle e a função. O sumário da edição atual lista o conceito como mapeamento natural."
       ]
     },
     {
@@ -112,15 +112,15 @@
         "title": "Serve",
         "lines": [
           "Para quem faz produtos, sites ou aplicativos e quer vocabulário para discutir por que o usuário \"não acha\" o botão.",
-          "Para quem se irrita com objetos e quer entender o motivo: o livro nasceu de coisas assim, portas, interruptores e torneiras, segundo o 99% Invisible.",
+          "Para quem se irrita com objetos e quer entender o motivo: o livro nasceu, em parte, de portas assim, segundo o 99% Invisible, que estende o problema a interruptores e manípulos de pia.",
           "Para quem procura um clássico: Tim Brown, da IDEO, diz na página da editora que ele é \"ainda mais relevante hoje do que quando foi publicado\" (tradução livre)."
         ]
       },
       "b": {
         "title": "Não serve",
         "lines": [
-          "Para quem quer a versão mais recente em português: a edição da Rocco traduz o texto anterior à revisão de 2013, sem os dois capítulos novos e sem o conceito de sinalizador.",
-          "Para quem espera exemplos atuais em português: o próprio autor diz que o mundo mudou muito nos 25 anos entre o original e a revisão, e por isso trocou todos os exemplos.",
+          "Para quem quer a versão mais recente em português: pelo sumário, a edição da Rocco traduz o texto anterior à revisão de 2013, sem os dois capítulos novos; o conceito de sinalizador é de 2008.",
+          "Para quem espera exemplos atuais em português: o próprio autor diz que o mundo mudou muito nos 25 anos entre o original e a revisão, e os exemplos da edição de 2013 são todos novos.",
           "Para quem quer um manual passo a passo de interface: o livro é sobre como as pessoas pensam, não sobre telas (opinião nossa)."
         ]
       }
@@ -132,7 +132,7 @@
       "check": [
         "**A tese:** quando você erra ao usar um objeto comum, a culpa é do design, não sua. Objeto bom comunica sozinho como funciona.",
         "**O vocabulário:** affordance (o que dá para fazer), sinalizador (a pista que mostra isso), feedback, restrições e mapeamento natural.",
-        "**A ressalva:** a edição brasileira é da versão antiga; a revisão de 2013, com exemplos novos e dois capítulos inéditos, só saiu em inglês."
+        "**A ressalva:** a edição brasileira (2006) é da versão antiga; a revisão de 2013, com exemplos novos e dois capítulos inéditos, é a edição atual em inglês."
       ]
     },
     {
@@ -140,7 +140,7 @@
       "items": [
         {
           "who": "Rocco, página do livro; Livraria da Travessa; catálogo da biblioteca da Enap",
-          "what": "edição brasileira: 2006, tradução de Ana Deiró, 271 páginas, ISBN 978-85-325-2083-8; sinopse; biografia do autor; prefácio de 2002; títulos dos capítulos; quatro princípios"
+          "what": "edição brasileira: 2006, tradução de Ana Deiró, 271 páginas (272 segundo a Rocco), ISBN 978-85-325-2083-8; sinopse; biografia do autor; prefácio de 2002; títulos dos capítulos; quatro princípios"
         },
         {
           "who": "Basic Books / Hachette, páginas de The Psychology of Everyday Things (1988) e da edição revista (2013); Open Library, edições da obra",
@@ -148,11 +148,11 @@
         },
         {
           "who": "jnd.org (site de Don Norman): página da edição revista e ampliada; \"Signifiers, not affordances\", 17 nov. 2008 (publicado na Interactions, ACM); post sobre o vídeo da Vox, 27 fev. 2016",
-          "what": "sumário e capítulo 5; ciência igual, exemplos novos, dois capítulos inéditos; 25 anos; Gibson e affordances; definição de sinalizador; exemplos da plataforma, do marcador, da bandeira e da trilha; \"portas não deveriam precisar de instruções\""
+          "what": "sumário e capítulo 5; ciência igual, exemplos novos, dois capítulos inéditos; 25 anos; Gibson e affordances; definição de sinalizador; exemplos da plataforma, do marcador, da bandeira e da trilha; texto da Vox com \"portas não deveriam precisar de instruções\""
         },
         {
           "who": "99% Invisible, \"Don't Know Whether to Push or Pull? Blame Design\", 26 fev. 2016",
-          "what": "definição de porta de Norman; vídeo da Vox com Joe Posner e Roman Mars; interruptores e torneiras"
+          "what": "definição de porta de Norman; \"parte do que motivou\" Norman; vídeo da Vox com Joe Posner e Roman Mars; interruptores e manípulos de pia"
         },
         {
           "who": "Fotos",
@@ -161,5 +161,5 @@
       ]
     }
   ],
-  "legenda": "Antes de se chamar desajeitado, olhe para a porta: é provável que ela esteja dando o sinal errado.\n\n\"O design do dia a dia\" (Rocco, 2006; original de 1988, revisto em 2013) é o livro em que Donald Norman, cientista cognitivo que passou pela Apple e cofundou o Nielsen Norman Group, explica por que objetos comuns nos fazem errar e o que um bom projeto faz para evitar isso: deixar visível o que se pode fazer, dar retorno imediato e impedir fisicamente o erro. A edição brasileira traduz a versão antiga; a revisão de 2013, com exemplos novos e dois capítulos inéditos, só existe em inglês.\n\nQual objeto da sua casa você ainda usa errado de vez em quando?\n\n—\nFontes no último slide.\n\n#livros #design #ux #donnorman #estante #usabilidade #tecnologia #techroombr"
+  "legenda": "Antes de se chamar desajeitado, olhe para a porta: é provável que ela esteja dando o sinal errado.\n\n\"O design do dia a dia\" (Rocco, 2006; original de 1988, revisto em 2013) é o livro em que Donald Norman, cientista cognitivo que passou pela Apple e cofundou o Nielsen Norman Group, explica por que objetos comuns nos fazem errar e o que um bom projeto faz para evitar isso, segundo a editora americana: tornar as coisas visíveis, aproveitar as relações naturais entre controle e função e usar restrições com inteligência. A edição brasileira traduz a versão antiga; a revisão de 2013, com exemplos novos e dois capítulos inéditos, é a edição atual em inglês.\n\nQual objeto da sua casa você ainda usa errado de vez em quando?\n\n—\nFontes no último slide.\n\n#livros #design #ux #donnorman #estante #usabilidade #tecnologia #techroombr"
 }

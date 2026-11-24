@@ -30,7 +30,7 @@
       "kicker": "A ideia",
       "heading": "Uma borracha que o som atravessa quase sem perda",
       "body": [
-        "A equipe criou uma borracha feita de moléculas em formato de ==escova de garrafa==: uma cadeia principal com cadeias laterais curtas. Segundo o MIT, essas cadeias laterais reduzem o atrito entre as moléculas na frequência do ultrassom, e a onda passa quase sem perda, como num gel. Só que o material é seco e quase 100% polímero, sem água para evaporar.",
+        "A equipe criou uma borracha feita de moléculas em formato de ==escova de garrafa==: uma cadeia principal com cadeias laterais curtas. Segundo o MIT, essas cadeias laterais reduzem o atrito entre as moléculas na frequência do ultrassom, e a onda passa quase sem perda, como num gel. Só que o material é seco: borrachas são quase 100% polímero, diz Wang, enquanto o hidrogel é quase todo água.",
         "As primeiras amostras eram \"muito macias e esfareladas, como tofu\", conta o pós-doutorando Shu Wang, que liderou o estudo (tradução livre). A solução foi fundir quimicamente uma segunda rede de moléculas de escova à primeira, que a segura sem estragar o baixo atrito.",
         "Segundo o comunicado de Singapura, o material final resiste cerca de 12 vezes mais à fratura do que a versão de rede única e aguentou pelo menos 10 mil ciclos de carga nos testes."
       ]
@@ -43,7 +43,7 @@
       "label": "de imagens claras e contínuas sobre um \"fantasma\", um modelo sintético que imita a pele e as estruturas internas, com o sistema ligado o tempo todo",
       "body": [
         "As amostras tinham o tamanho de um cartão de crédito. O adesivo testado em pessoas tem o tamanho de um chaveiro: uma sonda pequena de ultrassom com uma camada seca e elástica em contato com a pele.",
-        "O estudo saiu na revista **Science** em 19 de novembro. As duas universidades envolvidas divulgaram comunicados; os números deste post vêm deles."
+        "O estudo saiu na revista **Science** em 19 de novembro. O MIT e a aliança de pesquisa Singapura-MIT (SMART) divulgaram comunicados; os números deste post vêm deles."
       ]
     },
     {
@@ -66,12 +66,12 @@
         {
           "name": "Borracha nova",
           "value": 7,
-          "label": "> 7 dias"
+          "label": ">7 dias"
         }
       ],
       "note": "Teste de ressecamento descrito no comunicado da aliança Singapura-MIT (SMART). O comunicado do MIT fala em cerca de 9 dias de imagem no modelo sintético.",
       "body": [
-        "Na pele, segundo o comunicado de Singapura, os testes não mostraram queda mensurável na qualidade da imagem. O material também é compatível com adesivos médicos já vendidos, diz o pós-doutorando Runze Li, coautor principal."
+        "Na pele, segundo o comunicado de Singapura, os testes não mostraram queda mensurável na qualidade da imagem depois do suor. O material também é compatível com adesivos médicos já vendidos, diz o pós-doutorando Runze Li, coautor principal."
       ]
     },
     {
@@ -83,7 +83,7 @@
       "body": [
         "**Esteira:** um voluntário correu 10 minutos com o adesivo no peito. Uma amostra de silicone comum ficou encharcada de suor, que seguia empoçado 35 minutos depois do fim da corrida. A borracha nova absorveu a umidade.",
         "**Bicicleta:** com uma sonda no pescoço e um tablet na mão, um voluntário pedalou 30 minutos do campus do MIT, em Cambridge, até o morro de Bunker Hill e voltou, com subidas íngremes. A imagem do fluxo de sangue na artéria do pescoço se manteve contínua.",
-        "Os comunicados falam em \"um voluntário\" em cada teste e não dizem quantas pessoas participaram no total."
+        "O comunicado do MIT fala em \"um voluntário\" em cada teste e não diz quantas pessoas participaram no total."
       ]
     },
     {
@@ -109,7 +109,7 @@
         },
         {
           "k": "O que falta",
-          "v": "simplificar a fabricação e baixar o custo; nenhum ensaio clínico ou aprovação é mencionado; a estabilidade de longo prazo não foi medida"
+          "v": "simplificar a fabricação e baixar o custo; nenhum ensaio clínico ou aprovação é mencionado; a durabilidade além dos cerca de 9 dias do teste não foi informada"
         },
         {
           "k": "Conflitos",
@@ -124,15 +124,15 @@
       "check": [
         "**A ideia:** uma borracha de moléculas em forma de escova deixa o som passar como o gel, mas é seca e não evapora. Uma segunda rede, fundida à primeira, impede que ela esfarele.",
         "**O resultado:** cerca de 9 dias de imagem contínua num modelo sintético, contra 1 ou 2 dias dos géis; na rua, aguentou 10 minutos de corrida e 30 de bicicleta.",
-        "**A ressalva:** testes em um voluntário por vez, sem ensaio clínico. \"Em princípio, este material poderia durar para sempre, dependendo de quão estável ele for\", diz Wang, e isso ainda não foi medido."
+        "**A ressalva:** testes em um voluntário por vez, sem ensaio clínico. \"Este material poderia durar para sempre, dependendo de quão estável ele for\", diz Wang; a durabilidade além dos 9 dias do teste não foi informada."
       ]
     },
     {
       "type": "sources",
       "items": [
         {
-          "who": "Wang, Li, Tang, Gong, Song, Li, Lim, Chen e Zhao, \"Interpenetrating bottlebrush elastomer for low-loss soft ultrasonic interfaces\", Science, 19 nov. 2026 (doi 10.1126/science.aef9553)",
-          "what": "o artigo; a referência completa consta no fim das reportagens citadas abaixo"
+          "who": "Wang, Li, Tang e outros, \"Interpenetrating bottlebrush elastomer for low-loss soft ultrasonic interfaces\", Science, 19 nov. 2026 (doi 10.1126/science.aef9553)",
+          "what": "o artigo; a referência completa consta nas republicações citadas abaixo"
         },
         {
           "who": "MIT News (Jennifer Chu), \"Ultrasound imaging without the gel\", 19 nov. 2026; o mesmo texto via EurekAlert",
@@ -144,7 +144,7 @@
         },
         {
           "who": "Technology Networks, 20 nov. 2026; healthcare-in-europe.com, 22 nov. 2026",
-          "what": "republicações do texto do MIT, com a referência do artigo na Science e a citação \"como tofu\""
+          "what": "republicações do texto do MIT, com a referência completa do artigo na Science (vol. 394, p. 895)"
         },
         {
           "who": "Fotos",
