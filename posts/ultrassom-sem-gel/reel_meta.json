@@ -3,20 +3,20 @@
  "total_s": 31.0,
  "scenes": [
   {
-   "dur": 6.5,
+   "dur": 5.5,
    "start": 0.0
   },
   {
    "dur": 6.0,
-   "start": 6.4
+   "start": 5.4
   },
   {
    "dur": 4.5,
-   "start": 12.3
+   "start": 11.3
   },
   {
-   "dur": 5.5,
-   "start": 16.7
+   "dur": 6.5,
+   "start": 15.7
   },
   {
    "dur": 6.5,
@@ -27,7 +27,7 @@
    "start": 28.5
   }
  ],
- "words": 91,
+ "words": 94,
  "voice": "pt-BR-ThalitaMultilingualNeural",
  "fake_tts": false
 }
