@@ -13,17 +13,17 @@
         "type": "hook",
         "kicker": "Estudo · saúde",
         "big": "9 dias",
-        "line": "de ultrassom sem gel, com um adesivo seco.",
+        "line": "de ultrassom sem gel, num modelo que imita o corpo.",
         "fonte": "MIT News · 19 nov. 2026 · estudo na Science"
       },
-      "say": "9 dias de ultrassom sem gel: um adesivo seco do MIT filmou o corpo por dentro, no laboratório."
+      "say": "9 dias de ultrassom sem gel: um adesivo seco filmou um modelo que imita o corpo humano."
     },
     {
       "media": "fotos/ultrassom-sem-gel-2.jpg",
       "credit": "Foto: Green Country Ultrasound / Unsplash",
       "kicker": "O problema",
       "text": "O gel faz o som passar da sonda para a pele. Num adesivo colado no corpo, o hidrogel **seca em 1 ou 2 dias**. Fonte: MIT News, 19 nov. 2026",
-      "say": "O gel faz o som passar da sonda para a pele. Mas, colado no corpo, ele seca em um ou dois dias."
+      "say": "O gel faz o som passar da sonda para a pele. Mas, colado no corpo, o hidrogel seca em um ou dois dias."
     },
     {
       "media": "fotos/ultrassom-sem-gel-2.jpg",
@@ -60,8 +60,8 @@
       "media": "fotos/ultrassom-sem-gel-3.jpg",
       "credit": "Foto: Luis Chávez / Unsplash",
       "kicker": "O teste na rua",
-      "text": "**10 min** de corrida na esteira e **30 min** de bicicleta, com subidas, filmando a artéria do pescoço sem parar. Fonte: MIT News, 19 nov. 2026",
-      "say": "Na rua, aguentou 10 minutos de corrida e 30 de bicicleta, com a sonda no pescoço."
+      "text": "**10 min** de corrida na esteira, com o adesivo no peito, e **30 min** de bicicleta, com a sonda no pescoço filmando a artéria sem parar. Fonte: MIT News, 19 nov. 2026",
+      "say": "Aguentou 10 minutos de corrida com o adesivo no peito, e 30 de bicicleta com a sonda no pescoço."
     },
     {
       "media": "fotos/ultrassom-sem-gel-1.jpg",
