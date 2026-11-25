@@ -1,0 +1,10 @@
+O carregador sem fio do celular não manda eletricidade pelo ar: uma bobina no carregador cria um campo magnético que oscila cerca de 140 mil vezes por segundo, e outra bobina, dentro do celular, transforma isso de volta em corrente.
+
+A ideia é a indução eletromagnética que Michael Faraday demonstrou em 1831. O preço é energia e calor: num teste da iFixit, feito fora de laboratório, a mesma carga de um iPhone 15 Pro gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio com o celular fora do centro. A Apple diz para não deixar cartão, crachá ou chave entre o celular e o carregador.
+
+Manda para quem deixa o celular torto no carregador.
+
+—
+Fontes no primeiro comentário.
+
+#comofunciona #celular #carregadorsemfio #tecnologia #fisica

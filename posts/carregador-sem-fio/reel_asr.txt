@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 95.9%
+números do roteiro: 140, 18.25, 33.93
+números ouvidos:    140, 18.25, 33.93
+números: todos ouvidos
+
+ROTEIRO:
+Carregador sem fio não manda eletricidade. Manda magnetismo. No carregador há uma bobina de cobre. No celular, outra. Corrente alternada na primeira cria um campo magnético que atravessa o vidro. O campo oscila cerca de 140 mil vezes por segundo, e a bobina do celular o vira de volta em corrente. Mas custa energia. No teste da iFixit, a mesma carga gastou 18,25 watt-hora pelo cabo e 33,93 sem fio, fora do centro. Na prática: nada de cartão ou chave entre celular e carregador, diz a Apple. E celular no centro. Fontes no primeiro comentário.
+
+OUVIDO:
+Carregador sem fio não manda eletricidade, manda magnetismo. No carregador a uma bobina de cobre, no celular, outra, corrente alternada na primeira cria um campo magnético que atravessa o vidro. O campo oscila cerca de 140 mil vezes por segundo e a bobina do celular o vira de volta em corrente. As custa energia. No teste da iFixit, a mesma carga gastou 18,25Wh pelo cabo e 33,93 sem fio, fora do centro. Na prática nada de cartão ou chave entre celular e carregador diz a Apple e celular no centro. Fontes no primeiro comentário.

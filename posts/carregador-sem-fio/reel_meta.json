@@ -1,0 +1,33 @@
+{
+ "slug": "carregador-sem-fio",
+ "total_s": 36.5,
+ "scenes": [
+  {
+   "dur": 4.5,
+   "start": 0.0
+  },
+  {
+   "dur": 7.5,
+   "start": 4.4
+  },
+  {
+   "dur": 6.5,
+   "start": 11.8
+  },
+  {
+   "dur": 10.0,
+   "start": 18.2
+  },
+  {
+   "dur": 6.0,
+   "start": 28.1
+  },
+  {
+   "dur": 2.5,
+   "start": 34.0
+  }
+ ],
+ "words": 95,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
