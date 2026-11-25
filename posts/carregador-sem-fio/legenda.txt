@@ -1,6 +1,6 @@
 O carregador sem fio funciona com a mesma ideia que Michael Faraday demonstrou em 1831 com um anel de ferro e dois fios enrolados.
 
-Uma bobina no carregador recebe corrente alternada e cria um campo magnético que inverte cerca de 140 mil vezes por segundo. Esse campo atravessa o vidro e induz corrente na bobina do celular, que um circuito endireita antes de mandar para a bateria. O celular ainda manda sinais para o carregador mudando a carga na própria bobina. O preço é energia: num teste da iFixit, a mesma carga gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio com o celular fora do centro, e a bateria ficou mais quente.
+Uma bobina no carregador recebe corrente alternada e cria um campo magnético que oscila cerca de 140 mil vezes por segundo. Esse campo atravessa o vidro e induz corrente na bobina do celular, que um circuito endireita antes de mandar para a bateria. O celular ainda manda sinais para o carregador mudando a carga na própria bobina. O preço é energia: num teste da iFixit, a mesma carga gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio com o celular fora do centro, e a bateria ficou mais quente.
 
 Você carrega o celular no cabo ou no carregador sem fio?
 
