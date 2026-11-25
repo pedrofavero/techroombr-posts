@@ -1,0 +1,94 @@
+{
+  "slug": "carregador-sem-fio",
+  "style": "planta",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Como funciona",
+      "anim": {
+        "type": "hook",
+        "big": "Carregador sem fio não manda eletricidade",
+        "line": "ele manda ==magnetismo==",
+        "fonte": "Wireless Power Consortium, \"How Qi works\""
+      },
+      "say": "Carregador sem fio não manda eletricidade. Manda magnetismo."
+    },
+    {
+      "kicker": "Por dentro",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 900 420'><rect x='230' y='40' width='440' height='120' rx='20'/><text x='250' y='75'>celular</text><line class='acc' x1='330' y1='125' x2='570' y2='125'/><line class='acc' x1='345' y1='110' x2='555' y2='110'/><line class='acc' x1='360' y1='95' x2='540' y2='95'/><rect x='180' y='290' width='540' height='80' rx='16'/><text x='200' y='340'>carregador</text><line class='acc' x1='330' y1='310' x2='570' y2='310'/><line class='acc' x1='345' y1='325' x2='555' y2='325'/><line class='acc' x1='360' y1='340' x2='540' y2='340'/><path d='M380 290 C380 230 380 220 380 160'/><path d='M450 290 C450 230 450 220 450 160'/><path d='M520 290 C520 230 520 220 520 160'/><path d='M290 290 C200 240 200 210 290 160'/><path d='M610 290 C700 240 700 210 610 160'/><text x='40' y='230'>campo</text><text x='720' y='230'>bobinas</text></svg>",
+        "caption": "o campo magnético faz a ponte entre as duas bobinas",
+        "fonte": "Wireless Power Consortium; Wikipédia (Qi)"
+      },
+      "say": "No carregador há uma bobina de cobre. No celular, outra. Corrente alternada na primeira cria um campo magnético que atravessa o vidro."
+    },
+    {
+      "kicker": "O número",
+      "anim": {
+        "type": "number",
+        "value": 140,
+        "decimals": 0,
+        "unit": " mil",
+        "label": "vezes por segundo o campo oscila; a bobina do celular vira isso em corrente",
+        "fonte": "Wikipédia (Qi): 140 kHz; iFixit: 130 a 140 kHz"
+      },
+      "say": "O campo oscila cerca de 140 mil vezes por segundo, e a bobina do celular o vira de volta em corrente."
+    },
+    {
+      "kicker": "Mas",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "cabo",
+            "value": 18.25,
+            "label": "18,25 Wh",
+            "other": true
+          },
+          {
+            "name": "MagSafe, centrado",
+            "value": 23.33,
+            "label": "23,33 Wh",
+            "other": true
+          },
+          {
+            "name": "sem fio, torto",
+            "value": 33.93,
+            "label": "33,93 Wh"
+          }
+        ],
+        "note": "energia para carregar um iPhone 15 Pro de 0 a 100%",
+        "fonte": "iFixit, abr. 2024 (teste fora de laboratório)"
+      },
+      "say": "Mas custa energia. No teste da iFixit, a mesma carga gastou 18,25 watt-hora pelo cabo e 33,93 sem fio, fora do centro."
+    },
+    {
+      "kicker": "Na prática",
+      "anim": {
+        "type": "write",
+        "title": "Na prática",
+        "lines": [
+          "nada de ==cartão ou chave== entre o celular e o carregador",
+          "celular no centro: os ímãs do Qi2 alinham as bobinas"
+        ],
+        "fonte": "Apple, suporte do MagSafe; Wikipédia (Qi)"
+      },
+      "say": "Na prática: nada de cartão ou chave entre celular e carregador, diz a Apple. E celular no centro."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "Wireless Power Consortium, \"How Qi works\"",
+        "iFixit (Mokhtari, Ritter e Shi), abr. 2024",
+        "Apple, suporte do MagSafe; Wikipédia, Qi"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "O carregador sem fio do celular não manda eletricidade pelo ar: uma bobina no carregador cria um campo magnético que oscila cerca de 140 mil vezes por segundo, e outra bobina, dentro do celular, transforma isso de volta em corrente.\n\nA ideia é a indução eletromagnética que Michael Faraday demonstrou em 1831. O preço é energia e calor: num teste da iFixit, feito fora de laboratório, a mesma carga de um iPhone 15 Pro gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio com o celular fora do centro. A Apple diz para não deixar cartão, crachá ou chave entre o celular e o carregador.\n\nManda para quem deixa o celular torto no carregador.\n\n—\nFontes no primeiro comentário.\n\n#comofunciona #celular #carregadorsemfio #tecnologia #fisica",
+  "fontes_comentario": "Fontes: Wireless Power Consortium, \"How Qi works\" (wirelesspowerconsortium.com): duas bobinas; corrente alternada na transmissora gera campo que induz tensão na receptora; o celular manda sinais de controle ao carregador. Wikipédia em inglês, verbete \"Qi (standard)\", consultado em 25 nov. 2026: conexão a partir de 140 kHz; bobinas a cerca de 5 mm e alcance de até 4 cm; retificador de ponte; comunicação por modulação da carga; detecção de objetos estranhos na versão 1.1; Qi2 (2023) com anel de ímãs, baseado no MagSafe. iFixit (Shahram Mokhtari, com Chayton Ritter e Arthur Shi), 18 abr. 2024: iPhone 15 Pro, 18,25 Wh por cabo, 23,33 Wh no MagSafe, 33,93 Wh fora do centro, temperaturas, 130 a 140 kHz, teste fora de laboratório. Engadget (Lawrence Bonk), 24 jun. 2026: teste da OneZero (2020), cerca de 15 Wh por cabo e 21 Wh sem fio. Apple, \"How to use your MagSafe Charger with iPhone\" (support.apple.com/105047): cartões, crachás, passaportes e chaves; aquecimento e limite de 80%; alinhamento magnético. Enciclopédia Britânica, verbete \"Michael Faraday\": anel de ferro em 29 ago. 1831, galvanômetro, ímã e bobina, primeiro dínamo."
+}
