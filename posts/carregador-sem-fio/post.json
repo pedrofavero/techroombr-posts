@@ -1,0 +1,150 @@
+{
+  "slug": "carregador-sem-fio",
+  "categoria": "COMO FUNCIONA",
+  "theme": "paper",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/carregador-sem-fio-1.jpg",
+      "title": "Carregador sem fio não manda eletricidade. Manda magnetismo",
+      "dek": "Não há eletricidade pulando do carregador para o celular. Uma bobina de fio no carregador cria um campo magnético que muda de direção milhares de vezes por segundo; outra bobina, dentro do celular, transforma isso de volta em corrente. A ideia tem quase 200 anos.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "Por dentro",
+      "heading": "Duas bobinas, uma de cada lado do vidro",
+      "photo": "fotos/carregador-sem-fio-2.jpg",
+      "caption": "Foto: Oscar Helgstrand / Unsplash",
+      "body": [
+        "Dentro do carregador há uma **bobina**, um fio de cobre enrolado em espiral. Dentro do celular, atrás da tampa, há outra. Quando você apoia o aparelho, as duas ficam frente a frente, separadas por alguns milímetros de vidro e plástico.",
+        "A regra de funcionamento cabe numa frase do Wireless Power Consortium, o grupo de empresas que mantém o padrão Qi: uma corrente alternada na bobina transmissora gera um campo magnético, e esse campo induz uma tensão na bobina receptora (tradução livre). O nome disso é **indução magnética**: energia que passa pelo espaço sem fio."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "O desenho",
+      "heading": "O campo magnético faz a ponte",
+      "svg": "<svg viewBox='0 0 700 380' fill='none' stroke='currentColor' stroke-width='3'><rect x='170' y='40' width='360' height='110' rx='18'/><text x='190' y='70' font-size='20' fill='currentColor' stroke='none'>celular</text><path d='M250 115 h200 M262 103 h176 M274 91 h152' stroke='var(--accent)' stroke-width='5'/><text x='460' y='120' font-size='20' fill='var(--accent)' stroke='none'>bobina 2</text><rect x='130' y='250' width='440' height='70' rx='14'/><text x='150' y='305' font-size='20' fill='currentColor' stroke='none'>carregador</text><path d='M250 268 h200 M262 280 h176 M274 292 h152' stroke='var(--accent)' stroke-width='5'/><text x='460' y='298' font-size='20' fill='var(--accent)' stroke='none'>bobina 1</text><path d='M300 250 C300 200 300 165 300 115' stroke-dasharray='8 8'/><path d='M350 250 C350 200 350 165 350 115' stroke-dasharray='8 8'/><path d='M400 250 C400 200 400 165 400 115' stroke-dasharray='8 8'/><path d='M225 250 C150 200 150 165 225 115' stroke-dasharray='8 8'/><path d='M475 250 C550 200 550 165 475 115' stroke-dasharray='8 8'/><text x='40' y='190' font-size='20' fill='currentColor' stroke='none'>campo</text><text x='40' y='215' font-size='20' fill='currentColor' stroke='none'>magnético</text><text x='130' y='360' font-size='20' fill='currentColor' stroke='none'>da tomada: corrente alternada entra na bobina 1</text></svg>",
+      "caption": "A bobina do carregador recebe uma corrente que inverte de sentido cerca de 140 mil vezes por segundo (140 quilo-hertz, segundo a iFixit e a Wikipédia). O campo magnético que ela cria também inverte, atravessa o vidro e faz a bobina do celular gerar corrente.",
+      "body": [
+        "Os dois lados precisam ficar perto. Pela especificação Qi, as bobinas costumam ficar a 5 milímetros uma da outra, e o padrão funciona a até 4 centímetros, segundo a Wikipédia. Quanto mais longe, mais energia se perde, diz a iFixit."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "Passo a passo",
+      "heading": "Da tomada até a bateria",
+      "steps": [
+        {
+          "title": "O carregador cria um campo que vai e volta",
+          "text": "A fonte transforma a eletricidade da tomada em corrente alternada de alta frequência e manda para a bobina 1. Corrente elétrica em movimento cria campo magnético; como a corrente inverte sem parar, o campo também inverte."
+        },
+        {
+          "title": "A bobina do celular reage",
+          "text": "Um campo magnético que muda induz corrente num fio próximo. É a lei de Faraday, explica a iFixit. A bobina 2, dentro do celular, passa a ter corrente alternada, igualzinha à do carregador, mas sem fio entre os dois."
+        },
+        {
+          "title": "O celular endireita a corrente",
+          "text": "Bateria só aceita corrente contínua, que anda num sentido só. Um circuito chamado **retificador de ponte** vira a corrente alternada em contínua, e um capacitor alisa as ondas antes de a carga chegar ao controlador da bateria, segundo a Wikipédia."
+        },
+        {
+          "title": "O celular fala com o carregador",
+          "text": "O celular manda sinais para o carregador, por exemplo para desligar quando a bateria enche, diz o Wireless Power Consortium. Ele faz isso mudando a carga sobre a própria bobina; o carregador percebe a mudança na corrente que está puxando e a decodifica, segundo a Wikipédia."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O preço da comodidade",
+      "heading": "Sem fio gasta mais energia. Mal alinhado, quase o dobro",
+      "cells": [
+        {
+          "big": "18,25",
+          "unit": "",
+          "label": "watt-hora para carregar um iPhone 15 Pro de 0 a 100% pelo cabo",
+          "text": "Bateria a cerca de 30 °C; 2 h 10 min"
+        },
+        {
+          "big": "33,93",
+          "unit": "",
+          "label": "watt-hora para a mesma carga num carregador sem fio com o celular fora do centro",
+          "text": "Bateria acima de 40 °C; quase 4 horas"
+        }
+      ],
+      "body": [
+        "Teste da iFixit, de abril de 2024, com medidores de energia na tomada. No carregador magnético da Apple, bem alinhado, a carga consumiu 23,33 Wh e a bateria chegou perto de 40 °C. A iFixit avisa que não fez o teste em condições de laboratório.",
+        "A conta bate com um teste de 2020 da publicação OneZero citado pela Engadget: cerca de 15 Wh por cabo contra 21 Wh sem fio. A energia que falta virou calor."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Na prática",
+      "heading": "O que atrapalha e o que não atrapalha",
+      "nocheck": [
+        "**Cartão, crachá, passaporte ou chave entre o celular e o carregador.** A Apple diz para não fazer isso: o campo pode danificar a tarja magnética ou o chip desses itens.",
+        "**Objeto de metal sobre o carregador.** O campo esquenta metal. A versão 1.1 do padrão Qi acrescentou a detecção de objetos estranhos justamente para evitar isso, segundo a Wikipédia.",
+        "**Celular fora do centro.** As bobinas se desencontram, e o teste da iFixit mostrou carga mais lenta e mais quente."
+      ],
+      "check": [
+        "**Ímãs que encaixam.** O MagSafe da Apple e o padrão Qi2, de 2023, usam um anel de ímãs ao redor da bobina para alinhar as duas sozinhas (Wikipédia). A Apple fala em alinhamento \"para uma carga mais rápida e eficiente\" (tradução livre).",
+        "**Cabo quando tem pressa.** Se o iPhone estiver no carregador sem fio e no cabo ao mesmo tempo, ele carrega pelo cabo, diz a Apple. E, se a bateria esquentar demais, o software pode segurar a carga em 80%."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "De onde veio",
+      "heading": "Um anel de ferro em 1831",
+      "photo": "fotos/carregador-sem-fio-3.jpg",
+      "caption": "Foto: Mika Baumeister / Unsplash",
+      "body": [
+        "Em 29 de agosto de 1831, o inglês Michael Faraday enrolou fio em dois lados de um anel de ferro: um lado ligado a uma bateria, o outro a um galvanômetro, aparelho que detecta corrente. Ao ligar a bateria, o ponteiro pulou; ao desligar, pulou para o outro lado, conta a Enciclopédia Britânica.",
+        "Era a indução eletromagnética: um campo magnético que **muda** cria corrente num fio vizinho. No outono do mesmo ano, Faraday fez o mesmo movendo um ímã para dentro e para fora de uma bobina, e dali veio o primeiro dínamo, diz a Britânica.",
+        "O carregador na sua mesa é o anel de Faraday cortado ao meio: uma bobina de cada lado, e o campo fazendo a ponte."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**Não há eletricidade atravessando o ar.** Uma bobina cria um campo magnético que inverte cerca de 140 mil vezes por segundo; a bobina do celular transforma isso de volta em corrente.",
+        "**O celular manda mensagens para o carregador** mudando a carga na própria bobina, por exemplo para avisar que a bateria encheu.",
+        "**A comodidade custa energia e calor.** No teste da iFixit, a mesma carga gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio mal alinhado. Nada de cartão ou chave entre o celular e o carregador."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "Wireless Power Consortium, \"How Qi works\" (wirelesspowerconsortium.com)",
+          "what": "Duas bobinas; corrente alternada na transmissora gera campo que induz tensão na receptora; o celular precisa mandar sinais de controle ao carregador"
+        },
+        {
+          "who": "Wikipédia em inglês, verbete \"Qi (standard)\", consultado em 25 nov. 2026",
+          "what": "Conexão a partir de 140 kHz; bobinas a cerca de 5 mm e alcance de até 4 cm; retificador de ponte e capacitor; comunicação por modulação da carga; detecção de objetos estranhos na versão 1.1; Qi2 (2023) com anel de ímãs, baseado no MagSafe"
+        },
+        {
+          "who": "iFixit (Shahram Mokhtari, com Chayton Ritter e Arthur Shi), 18 abr. 2024",
+          "what": "iPhone 15 Pro: 18,25 Wh por cabo em 2 h 10 min; 23,33 Wh no MagSafe; 33,93 Wh fora do centro em quase 4 h; temperaturas; 130 a 140 kHz; lei de Faraday; distância e perda; teste fora de laboratório"
+        },
+        {
+          "who": "Engadget (Lawrence Bonk), 24 jun. 2026",
+          "what": "Teste da OneZero (2020): cerca de 15 Wh por cabo e 21 Wh sem fio"
+        },
+        {
+          "who": "Apple, \"How to use your MagSafe Charger with iPhone\" (support.apple.com/105047); Enciclopédia Britânica, verbete \"Michael Faraday\"",
+          "what": "Cartões, crachás, passaportes e chaves; superfície sem metal; aquecimento e limite de 80%; alinhamento magnético; cabo tem prioridade. Faraday: anel de ferro em 29 ago. 1831, galvanômetro, ímã e bobina, primeiro dínamo"
+        },
+        {
+          "who": "Fotos",
+          "what": "Yasin Hasan, Oscar Helgstrand e Mika Baumeister, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "O carregador sem fio funciona com a mesma ideia que Michael Faraday demonstrou em 1831 com um anel de ferro e dois fios enrolados.\n\nUma bobina no carregador recebe corrente alternada e cria um campo magnético que inverte cerca de 140 mil vezes por segundo. Esse campo atravessa o vidro e induz corrente na bobina do celular, que um circuito endireita antes de mandar para a bateria. O celular ainda manda sinais para o carregador mudando a carga na própria bobina. O preço é energia: num teste da iFixit, a mesma carga gastou 18,25 Wh pelo cabo e 33,93 Wh num carregador sem fio com o celular fora do centro, e a bateria ficou mais quente.\n\nVocê carrega o celular no cabo ou no carregador sem fio?\n\n—\nFontes no último slide.\n\n#TheTechRoom #comofunciona #tecnologia #celular #carregadorsemfio #fisica #faraday"
+}
