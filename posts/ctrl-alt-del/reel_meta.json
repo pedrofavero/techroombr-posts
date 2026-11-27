@@ -1,0 +1,33 @@
+{
+ "slug": "ctrl-alt-del",
+ "total_s": 37.5,
+ "scenes": [
+  {
+   "dur": 5.5,
+   "start": 0.0
+  },
+  {
+   "dur": 9.0,
+   "start": 5.4
+  },
+  {
+   "dur": 6.5,
+   "start": 14.3
+  },
+  {
+   "dur": 7.0,
+   "start": 20.7
+  },
+  {
+   "dur": 7.5,
+   "start": 27.6
+  },
+  {
+   "dur": 2.5,
+   "start": 35.0
+  }
+ ],
+ "words": 94,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
