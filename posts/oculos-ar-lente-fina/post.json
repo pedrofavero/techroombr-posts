@@ -30,7 +30,7 @@
       "kicker": "A ideia",
       "heading": "Duas camadas de estruturas menores que a luz",
       "body": [
-        "No lugar das microestruturas comuns, a lente usa ==metasuperfícies==: camadas cobertas de estruturas em escala nanométrica, desenhadas para desviar a luz em várias direções ao mesmo tempo. O resumo do artigo fala em metasuperfícies \"entrelaçadas\", que variam ao longo da lente.",
+        "No lugar das microestruturas comuns, a lente usa ==metasuperfícies==: camadas cobertas de estruturas em escala nanométrica. O resumo do artigo as descreve como metasuperfícies \"entrelaçadas\", que variam ao longo da lente e controlam a luz em várias direções.",
         "Para as cores, a equipe empilhou duas camadas: uma que transmite sobretudo azul e verde, sobre outra que transmite sobretudo vermelho e verde. Segundo o comunicado, isso reduz a diferença de eficiência entre as cores, que faria a imagem puxar para um tom só.",
         "\"Mesmo uma lente fina pode produzir imagens brilhantes e nítidas ao ar livre\", resume o professor Junsuk Rho, da POSTECH, que lidera o grupo (tradução livre). O trabalho foi feito com a Samsung Research, braço de pesquisa da Samsung Electronics."
       ]
@@ -43,8 +43,8 @@
         {
           "big": "1,5",
           "unit": " mm",
-          "label": "de espessura total da lente que conduz a imagem, segundo o comunicado da POSTECH",
-          "text": "Segundo o comunicado, é a espessura total do sistema óptico que leva a imagem até o olho."
+          "label": "de espessura total do guia de onda, a lâmina que conduz a imagem, segundo o comunicado da POSTECH",
+          "text": "O comunicado não informa a espessura do conjunto com a tela e a armação."
         },
         {
           "big": "30",
@@ -54,7 +54,7 @@
         }
       ],
       "body": [
-        "O resumo informa uma eficiência média de brilho de ==1.938 nits por lúmen== de luz que entra, chegando a 4.225 em alguns pontos. Nit é a unidade de brilho das telas. O comunicado não compara esses números com os de óculos à venda."
+        "O resumo informa uma eficiência média de brilho de ==1.938 nits por lúmen==, chegando a 4.225 em alguns pontos. Nit é a unidade de brilho das telas. O comunicado não compara esses números com os de óculos à venda."
       ]
     },
     {
@@ -78,7 +78,7 @@
         "lines": [
           "Lente de 1,5 mm com texto legível sob o sol, em protótipo",
           "Imagens coloridas em ambiente interno",
-          "Publicado na Nature, com revisão por pares",
+          "Publicado na Nature em 11 de novembro",
           "Teoria e experimento apontam na mesma direção, segundo os autores"
         ]
       },
@@ -87,7 +87,7 @@
         "lines": [
           "Brilho médio abaixo do padrão exigido pela indústria",
           "Usa duas lâminas; a meta é fazer o mesmo com uma",
-          "Reflexos em arco-íris quando a luz de fora bate nas microestruturas",
+          "Reflexos em arco-íris causados pela luz de fora",
           "Cor e brilho variam com a posição do olho; texto pequeno ao ar livre ainda é difícil"
         ]
       },
@@ -118,7 +118,7 @@
         },
         {
           "k": "Conflito",
-          "v": "a Samsung é coautora e financiadora: parte dos resultados vem de quem tem interesse comercial no produto"
+          "v": "a Samsung Research é parceira do estudo e a Samsung financia parte dele: parte dos resultados vem de quem tem interesse comercial no produto"
         },
         {
           "k": "O que falta",
@@ -133,7 +133,7 @@
       "check": [
         "**O gargalo** dos óculos de realidade aumentada é a luz: quanto mais liberdade o olho tem para se mover, mais brilho se perde. Por isso eles são grossos, escuros ou os dois.",
         "**A resposta** da POSTECH e da Samsung é uma lente de 1,5 mm com duas camadas de estruturas nanométricas que desviam a luz em várias direções. O protótipo mostrou texto legível sob o sol.",
-        "**A ressalva:** o brilho médio ainda não atinge o padrão da indústria, há reflexos em arco-íris, e a Samsung, que tem interesse no produto, é coautora."
+        "**A ressalva:** o brilho médio ainda não atinge o padrão da indústria, há reflexos em arco-íris, e a Samsung, que tem interesse no produto, é parceira e financiadora."
       ]
     },
     {
@@ -158,5 +158,5 @@
       ]
     }
   ],
-  "legenda": "Óculos inteligentes esbarram em física: ou a lente é grossa, ou a imagem some no sol. Um grupo coreano diz ter achado um caminho do meio.\n\nA equipe do professor Junsuk Rho, da POSTECH, com a Samsung Research, publicou na Nature uma lente de 1,5 mm feita de duas camadas de estruturas nanométricas que desviam a luz em várias direções. O protótipo mostrou texto branco legível sobre a rua em dia de sol e imagens coloridas dentro de casa. Os próprios autores listam o que falta: brilho médio abaixo do padrão da indústria, reflexos em arco-íris e produção em massa. A Samsung é coautora e financiadora.\n\nVocê usaria óculos que mostram o caminho do GPS na sua frente?\n—\nFontes no último slide.\n#realidadeaumentada #oculosinteligentes #ciencia #nature #samsung #optica #tecnologia #techroombr"
+  "legenda": "Óculos inteligentes esbarram em física: ou a lente é grossa, ou a imagem some no sol. Um grupo coreano diz ter achado um caminho do meio.\n\nA equipe do professor Junsuk Rho, da POSTECH, com a Samsung Research, publicou na Nature uma lente de 1,5 mm feita de duas camadas de estruturas nanométricas que desviam a luz em várias direções. O protótipo mostrou texto branco legível sobre a rua em dia de sol e imagens coloridas dentro de casa. Os próprios autores listam o que falta: brilho médio abaixo do padrão da indústria, reflexos em arco-íris e produção em massa. A Samsung é parceira e financiadora.\n\nVocê usaria óculos que mostram o caminho do GPS na sua frente?\n—\nFontes no último slide.\n#realidadeaumentada #oculosinteligentes #ciencia #nature #samsung #optica #tecnologia #techroombr"
 }

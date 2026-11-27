@@ -1,6 +1,6 @@
 O atalho que salva seu computador travado foi uma gambiarra de bastidor que ninguém devia conhecer.
 
-David Bradley escrevia o software mais básico do primeiro IBM PC, em 1981, e a equipe reiniciava a máquina a cada cinco minutos. Ele gastou poucos minutos criando Ctrl+Alt+Del para pular os testes de inicialização, e escolheu teclas tão distantes que exigiam as duas mãos. Dez anos depois, o Windows adotou o atalho e ele virou a "saudação de três dedos". Em 2013, Bill Gates disse que preferia um botão só.
+David Bradley escrevia o software mais básico do primeiro IBM PC, em 1981, e, em dias ruins, a equipe reiniciava a máquina a cada cinco minutos. Ele gastou poucos minutos criando Ctrl+Alt+Del para pular os testes de inicialização, e escolheu teclas tão distantes que exigiam as duas mãos. No início dos anos 1990, o Windows adotou o atalho e ele virou a "saudação de três dedos". Em 2013, Bill Gates disse que preferia um botão só.
 
 Qual atalho de teclado você usa sem saber de onde veio?
 —

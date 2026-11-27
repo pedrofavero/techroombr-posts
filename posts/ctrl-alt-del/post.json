@@ -16,11 +16,11 @@
     {
       "type": "inner",
       "kicker": "O problema",
-      "heading": "Um PC que travava a cada cinco minutos",
+      "heading": "Um PC que, em dias ruins, reiniciava a cada cinco minutos",
       "photo": "fotos/ctrl-alt-del-2.jpg",
       "caption": "Foto: National Cancer Institute / Unsplash",
       "body": [
-        "Em setembro de 1980, David Bradley entrou como o 12º de 12 engenheiros no projeto Acorn, o codinome do primeiro IBM PC, num prédio sem placa em Boca Raton, na Flórida. O prazo era um ano, em vez dos três a cinco anos de costume na IBM, conta a revista Mental Floss.",
+        "Em setembro de 1980, David Bradley entrou como o 12º de 12 engenheiros no projeto Acorn, o codinome do primeiro IBM PC, num prédio comum de escritórios em Boca Raton, na Flórida. O prazo era um ano, em vez dos três a cinco anos de costume na IBM, conta a revista Mental Floss.",
         "Bradley escrevia o **BIOS**, a camada de software mais básica da máquina. Quando um programa em teste falhava, o único jeito de recomeçar era desligar o computador e esperar: a máquina precisava de alguns segundos \"de descanso\" antes de ligar de novo, para não danificar o hardware, segundo o perfil dele no programa Lemelson-MIT.",
         "Ao religar, o PC ainda rodava testes de memória que roubavam tempo. \"Em alguns dias, você reiniciava a cada cinco minutos enquanto procurava o problema\", disse Bradley à Mental Floss (tradução livre)."
       ]
@@ -46,7 +46,7 @@
       "body": [
         "A escolha foi pela posição no teclado. No teclado original do IBM PC, a tecla Delete ficava do lado oposto de Control e Alt, então o atalho exigia as duas mãos, segundo um artigo do jornal Indianapolis Star de 2010 citado pela ABC News. Era muito difícil apertar as três juntas sem querer, diz o Lemelson-MIT.",
         "Um botão físico de reiniciar chegou a ser considerado, mas foi tido como arriscado demais, relata a PC Gamer, e ainda deixaria a espera dos testes de inicialização.",
-        "\"Era o jeito mais simples e fácil de resolver o seu problema. Aperta control-alt-delete e começa tudo de novo\", disse Bradley num vídeo da Great Big Story, citado pela PC Gamer (tradução livre)."
+        "\"Era o jeito mais simples e fácil de resolver o seu problema\", disse Bradley num vídeo da Great Big Story, citado pela PC Gamer. E, em outra fala: \"Aperta control-alt-delete e começa tudo de novo\" (traduções livres)."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "text": "Posso ter inventado, mas acho que o Bill é quem o tornou famoso.",
       "who": "David Bradley, engenheiro da IBM, sobre Bill Gates (tradução livre; Mental Floss e ABC News)",
       "body": [
-        "O IBM PC chegou às lojas no fim de 1981. O atalho só ficou conhecido no início dos anos 1990, quando o Windows passou a usá-lo para quando um programa falha, e ganhou o apelido de \"saudação de três dedos\". Até hoje ele abre o Gerenciador de Tarefas do Windows, lembra o Lemelson-MIT."
+        "O IBM PC chegou às lojas no outono de 1981, nos Estados Unidos. O atalho só ficou conhecido no início dos anos 1990, quando o Windows passou a usá-lo para quando um programa falha, e ganhou o apelido de \"saudação de três dedos\". Até hoje ele abre o Gerenciador de Tarefas do Windows, lembra o Lemelson-MIT."
       ]
     },
     {
@@ -72,7 +72,7 @@
           "what": "Cinco meses depois, ele escreve o atalho em poucos minutos, só para uso interno"
         },
         {
-          "when": "fim de 1981",
+          "when": "outono de 1981",
           "what": "O IBM PC chega às lojas; o marketing previa 241.683 unidades em cinco anos"
         },
         {
@@ -128,5 +128,5 @@
       ]
     }
   ],
-  "legenda": "O atalho que salva seu computador travado foi uma gambiarra de bastidor que ninguém devia conhecer.\n\nDavid Bradley escrevia o software mais básico do primeiro IBM PC, em 1981, e a equipe reiniciava a máquina a cada cinco minutos. Ele gastou poucos minutos criando Ctrl+Alt+Del para pular os testes de inicialização, e escolheu teclas tão distantes que exigiam as duas mãos. Dez anos depois, o Windows adotou o atalho e ele virou a \"saudação de três dedos\". Em 2013, Bill Gates disse que preferia um botão só.\n\nQual atalho de teclado você usa sem saber de onde veio?\n—\nFontes no último slide.\n#ctrlaltdel #ibm #historiadatecnologia #windows #curiosidade #computador #tecnologia #techroombr"
+  "legenda": "O atalho que salva seu computador travado foi uma gambiarra de bastidor que ninguém devia conhecer.\n\nDavid Bradley escrevia o software mais básico do primeiro IBM PC, em 1981, e, em dias ruins, a equipe reiniciava a máquina a cada cinco minutos. Ele gastou poucos minutos criando Ctrl+Alt+Del para pular os testes de inicialização, e escolheu teclas tão distantes que exigiam as duas mãos. No início dos anos 1990, o Windows adotou o atalho e ele virou a \"saudação de três dedos\". Em 2013, Bill Gates disse que preferia um botão só.\n\nQual atalho de teclado você usa sem saber de onde veio?\n—\nFontes no último slide.\n#ctrlaltdel #ibm #historiadatecnologia #windows #curiosidade #computador #tecnologia #techroombr"
 }
