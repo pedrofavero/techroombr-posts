@@ -1,0 +1,162 @@
+{
+  "slug": "oculos-ar-lente-fina",
+  "categoria": "ESTUDO",
+  "theme": "night",
+  "display": "sans",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/oculos-ar-lente-fina-1.jpg",
+      "title": "Óculos de realidade aumentada com lente de 1,5 mm",
+      "dek": "Uma equipe da Coreia do Sul e da Samsung publicou na Nature uma lente fina que projeta texto nítido sobre a rua, mesmo sob o sol. É protótipo: o brilho ainda fica abaixo do padrão da indústria.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "O problema",
+      "heading": "Por que óculos inteligentes ainda são grossos ou escuros",
+      "photo": "fotos/oculos-ar-lente-fina-2.jpg",
+      "caption": "Foto: Sven Mieke / Unsplash",
+      "body": [
+        "==Realidade aumentada== é mostrar uma imagem digital, como uma seta de GPS, sobre o que a pessoa já vê. Nos óculos de hoje, uma tela minúscula manda a luz para dentro de uma lâmina transparente, o ==guia de onda==, e microestruturas na superfície dessa lâmina desviam a luz até o olho.",
+        "Há uma troca inevitável, diz o comunicado da universidade POSTECH: quanto maior a área em que o olho pode se mover sem perder a imagem, mais luz se perde no caminho. Resultado: imagem fraca sob o sol, ou lente grossa, ou os dois.",
+        "O estudo saiu na revista **Nature** em 11 de novembro. A equipe diz ter mostrado, em teoria e em experimento, que desenhar o caminho inteiro da luz em escala nanométrica (bilionésimos de metro) reduz muito essa perda."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "A ideia",
+      "heading": "Duas camadas de estruturas menores que a luz",
+      "body": [
+        "No lugar das microestruturas comuns, a lente usa ==metasuperfícies==: camadas cobertas de estruturas em escala nanométrica, desenhadas para desviar a luz em várias direções ao mesmo tempo. O resumo do artigo fala em metasuperfícies \"entrelaçadas\", que variam ao longo da lente.",
+        "Para as cores, a equipe empilhou duas camadas: uma que transmite sobretudo azul e verde, sobre outra que transmite sobretudo vermelho e verde. Segundo o comunicado, isso reduz a diferença de eficiência entre as cores, que faria a imagem puxar para um tom só.",
+        "\"Mesmo uma lente fina pode produzir imagens brilhantes e nítidas ao ar livre\", resume o professor Junsuk Rho, da POSTECH, que lidera o grupo (tradução livre). O trabalho foi feito com a Samsung Research, braço de pesquisa da Samsung Electronics."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "O protótipo",
+      "heading": "Os números do resumo do artigo",
+      "cells": [
+        {
+          "big": "1,5",
+          "unit": " mm",
+          "label": "de espessura total da lente que conduz a imagem, segundo o comunicado da POSTECH",
+          "text": "Segundo o comunicado, é a espessura total do sistema óptico que leva a imagem até o olho."
+        },
+        {
+          "big": "30",
+          "unit": "°",
+          "label": "de campo de visão: o tamanho da área em que a imagem digital aparece",
+          "text": "Com uma \"caixa do olho\" de 8 × 8 mm: dentro dessa área, o olho se move sem perder a imagem."
+        }
+      ],
+      "body": [
+        "O resumo informa uma eficiência média de brilho de ==1.938 nits por lúmen== de luz que entra, chegando a 4.225 em alguns pontos. Nit é a unidade de brilho das telas. O comunicado não compara esses números com os de óculos à venda."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O teste",
+      "heading": "Texto branco sobre a rua, à luz do dia",
+      "photo": "fotos/oculos-ar-lente-fina-3.jpg",
+      "caption": "Foto: Bud Silva / Unsplash",
+      "body": [
+        "Segundo o comunicado, óculos protótipo com a lente sobrepuseram **texto branco** à paisagem real em condições de sol forte, ao ar livre. Dentro de casa, mostraram **imagens coloridas**.",
+        "A imagem continuou visível quando a posição do olho mudou \"dentro de certo intervalo\". O texto não diz quantas pessoas testaram nem por quanto tempo.",
+        "O grupo cita dois usos: mostrar direções ou informações de trabalho na frente dos olhos, e gastar menos bateria, porque aproveitar melhor a luz permite manter o brilho com menos energia."
+      ]
+    },
+    {
+      "type": "compare",
+      "kicker": "Leitura crítica",
+      "heading": "O que o estudo mostra e o que ainda falta",
+      "a": {
+        "title": "Mostra",
+        "lines": [
+          "Lente de 1,5 mm com texto legível sob o sol, em protótipo",
+          "Imagens coloridas em ambiente interno",
+          "Publicado na Nature, com revisão por pares",
+          "Teoria e experimento apontam na mesma direção, segundo os autores"
+        ]
+      },
+      "b": {
+        "title": "Ainda falta",
+        "lines": [
+          "Brilho médio abaixo do padrão exigido pela indústria",
+          "Usa duas lâminas; a meta é fazer o mesmo com uma",
+          "Reflexos em arco-íris quando a luz de fora bate nas microestruturas",
+          "Cor e brilho variam com a posição do olho; texto pequeno ao ar livre ainda é difícil"
+        ]
+      },
+      "body": [
+        "Todas as limitações acima estão no próprio comunicado da POSTECH. Não há data para produto: o grupo diz que ainda precisa \"garantir tecnologias de produção em massa\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "card",
+      "kicker": "Ficha do estudo",
+      "heading": "Quem fez, quem pagou, o que falta",
+      "rows": [
+        {
+          "k": "Publicação",
+          "v": "Nature, 11 nov. 2026 (doi 10.1038/s41586-026-11277-x)"
+        },
+        {
+          "k": "Equipe",
+          "v": "POSTECH (Universidade de Ciência e Tecnologia de Pohang, Coreia do Sul), grupo do prof. Junsuk Rho, com a Samsung Research"
+        },
+        {
+          "k": "Testes",
+          "v": "protótipo de óculos; texto branco ao ar livre com sol forte; imagens coloridas em ambiente interno"
+        },
+        {
+          "k": "Financiamento",
+          "v": "Ministério da Ciência e TIC da Coreia e Fundação Nacional de Pesquisa (NRF), em vários programas; programa de incubação de tecnologia futura da Samsung"
+        },
+        {
+          "k": "Conflito",
+          "v": "a Samsung é coautora e financiadora: parte dos resultados vem de quem tem interesse comercial no produto"
+        },
+        {
+          "k": "O que falta",
+          "v": "mais brilho, lâmina única, menos arco-íris, produção em massa; nenhum teste com usuários é descrito"
+        }
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três coisas para contar no jantar",
+      "check": [
+        "**O gargalo** dos óculos de realidade aumentada é a luz: quanto mais liberdade o olho tem para se mover, mais brilho se perde. Por isso eles são grossos, escuros ou os dois.",
+        "**A resposta** da POSTECH e da Samsung é uma lente de 1,5 mm com duas camadas de estruturas nanométricas que desviam a luz em várias direções. O protótipo mostrou texto legível sob o sol.",
+        "**A ressalva:** o brilho médio ainda não atinge o padrão da indústria, há reflexos em arco-íris, e a Samsung, que tem interesse no produto, é coautora."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "\"Metasurface waveguides for all-day augmented reality glasses\", Nature, 11 nov. 2026 (doi 10.1038/s41586-026-11277-x)",
+          "what": "resumo do artigo: campo de visão de 30°, caixa do olho de 8 × 8 mm, eficiência média de 1.938 nits por lúmen (até 4.225), 1,5 mm de espessura; consultado no sumário da edição de 19 nov. da Nature e na reprodução do resumo em scienceview.org"
+        },
+        {
+          "who": "POSTECH (Pohang University of Science and Technology), comunicado via EurekAlert, 23 nov. 2026",
+          "what": "como funcionam os óculos de hoje; troca entre área do olho e perda de luz; metasuperfícies; duas camadas para as cores; testes ao ar livre e em ambiente interno; limitações; citação de Junsuk Rho; parceria com a Samsung Research; financiamento"
+        },
+        {
+          "who": "Nanowerk News, \"Thin metasurface optics bring everyday augmented reality glasses a step closer\", 20 nov. 2026",
+          "what": "republicação do comunicado da POSTECH, com os mesmos números e citações"
+        },
+        {
+          "who": "Fotos",
+          "what": "Bakir Custovic, Sven Mieke e Bud Silva, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Óculos inteligentes esbarram em física: ou a lente é grossa, ou a imagem some no sol. Um grupo coreano diz ter achado um caminho do meio.\n\nA equipe do professor Junsuk Rho, da POSTECH, com a Samsung Research, publicou na Nature uma lente de 1,5 mm feita de duas camadas de estruturas nanométricas que desviam a luz em várias direções. O protótipo mostrou texto branco legível sobre a rua em dia de sol e imagens coloridas dentro de casa. Os próprios autores listam o que falta: brilho médio abaixo do padrão da indústria, reflexos em arco-íris e produção em massa. A Samsung é coautora e financiadora.\n\nVocê usaria óculos que mostram o caminho do GPS na sua frente?\n—\nFontes no último slide.\n#realidadeaumentada #oculosinteligentes #ciencia #nature #samsung #optica #tecnologia #techroombr"
+}
