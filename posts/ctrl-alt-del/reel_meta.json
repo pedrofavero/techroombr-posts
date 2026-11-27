@@ -1,6 +1,6 @@
 {
  "slug": "ctrl-alt-del",
- "total_s": 37.5,
+ "total_s": 38.0,
  "scenes": [
   {
    "dur": 5.5,
@@ -19,15 +19,15 @@
    "start": 20.7
   },
   {
-   "dur": 7.5,
+   "dur": 8.0,
    "start": 27.6
   },
   {
    "dur": 2.5,
-   "start": 35.0
+   "start": 35.5
   }
  ],
- "words": 94,
+ "words": 95,
  "voice": "pt-BR-ThalitaMultilingualNeural",
  "fake_tts": false
 }
