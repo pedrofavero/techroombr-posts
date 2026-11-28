@@ -1,0 +1,85 @@
+{
+  "slug": "espaco-frio-calor",
+  "style": "lousa",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "voice_rate": "+10%",
+  "captions": true,
+  "scenes": [
+    {
+      "kicker": "Explica",
+      "anim": {
+        "type": "hook",
+        "big": "O espaço é frio?",
+        "line": "Lá, o difícil é ==esfriar==",
+        "fonte": "Space.com, jan. 2026; NASA"
+      },
+      "say": "O espaço é frio? Então por que o difícil lá em cima é esfriar?"
+    },
+    {
+      "kicker": "O mito e o fato",
+      "anim": {
+        "type": "corrige",
+        "errado": "Faz −270 °C, o calor some sozinho",
+        "certo": "No vácuo o calor só sai por radiação, devagar",
+        "fonte": "Space.com, jan. 2026; Fraunhofer HHI, jun. 2026"
+      },
+      "say": "A explicação famosa: faz 270 graus negativos, o calor some sozinho. Mas no vácuo não há ar nem água. O calor só sai por radiação, devagar."
+    },
+    {
+      "kicker": "Os dois extremos",
+      "anim": {
+        "type": "bars",
+        "bars": [
+          {
+            "name": "Lado ao Sol",
+            "value": 121,
+            "label": "+121 °C"
+          },
+          {
+            "name": "Lado na sombra",
+            "value": 157,
+            "label": "−157 °C",
+            "other": true
+          }
+        ],
+        "note": "a mesma estação espacial, ao sol e na sombra",
+        "fonte": "Let's Talk Science"
+      },
+      "say": "Na estação espacial, o lado ao Sol chega a 121 graus. O lado na sombra, a 157 negativos. A mesma estrutura."
+    },
+    {
+      "kicker": "A solução",
+      "anim": {
+        "type": "draw",
+        "svg": "<svg viewBox='0 0 900 600'><rect x='40' y='220' width='230' height='180' rx='16'/><text x='155' y='190' font-size='34' text-anchor='middle'>módulo</text><rect x='80' y='290' width='70' height='50' rx='6'/><path d='M150 315 H340' class='acc'/><text x='245' y='295' font-size='30' text-anchor='middle' class='acc'>água</text><rect x='340' y='275' width='90' height='80' rx='8'/><text x='385' y='400' font-size='28' text-anchor='middle'>trocador</text><path d='M430 315 H570' class='acc'/><text x='500' y='295' font-size='30' text-anchor='middle' class='acc'>amônia</text><rect x='570' y='80' width='70' height='470' rx='8' class='acc'/><line x1='570' y1='150' x2='640' y2='150'/><line x1='570' y1='220' x2='640' y2='220'/><line x1='570' y1='290' x2='640' y2='290'/><line x1='570' y1='360' x2='640' y2='360'/><line x1='570' y1='430' x2='640' y2='430'/><text x='605' y='590' font-size='32' text-anchor='middle'>radiador</text><path d='M680 200 h100 m-24 -16 l24 16 l-24 16'/><path d='M680 315 h100 m-24 -16 l24 16 l-24 16'/><path d='M680 430 h100 m-24 -16 l24 16 l-24 16'/><text x='820' y='500' font-size='30' text-anchor='middle'>radiação</text></svg>",
+        "caption": "água por dentro, amônia por fora, radiador na ponta",
+        "fonte": "NASA, sistema térmico da ISS"
+      },
+      "say": "A estação resolve assim: água recolhe o calor por dentro, amônia leva por fora, radiadores jogam no espaço."
+    },
+    {
+      "kicker": "O tamanho",
+      "anim": {
+        "type": "number",
+        "value": 23,
+        "decimals": 0,
+        "unit": " metros",
+        "label": "cada um dos 6 radiadores; juntos rejeitam até 70 kW",
+        "fonte": "NASA, sistema térmico da ISS"
+      },
+      "say": "São 6 radiadores de 23 metros. Juntos rejeitam até 70 quilowatts. Um data center em órbita teria de carregar o seu."
+    },
+    {
+      "end": true,
+      "title": "Fontes",
+      "lines": [
+        "NASA, sistema térmico ativo da ISS",
+        "Space.com, jan. 2026; Let's Talk Science",
+        "Fraunhofer HHI, 1º jun. 2026"
+      ],
+      "say": "Fontes no primeiro comentário."
+    }
+  ],
+  "legenda": "O espaço é frio, mas esfriar um computador lá em cima é um dos problemas abertos dos data centers em órbita.\n\nNo vácuo não há ar nem água: condução e convecção não existem, e o calor só sai por radiação, o caminho mais lento. Por isso o lado da estação espacial voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C, e por isso ela carrega seis radiadores de 23 metros, com amônia circulando por fora, para rejeitar até 70 kW. A mesma física pesa sobre os planos de data centers em órbita: cada satélite precisaria do próprio radiador.\n\nManda para quem acha que no espaço é só abrir a janela.\n\n—\nFontes no primeiro comentário.\n\n#explica #espaco #fisica #estacaoespacial #tecnologia",
+  "fontes_comentario": "Fontes: NASA, \"International Space Station Active Thermal Control System\" (visão geral em PDF, nasa.gov): água nos circuitos internos por ser segura num módulo habitável, amônia nos externos, dois circuitos de 35 kW (70 kW no total), radiadores de 23,3 m por 3,4 m com 8 painéis, 3 por asa em 2 asas, orientados de lado para o Sol; Space.com (Robert Lea), \"How cold is space?\", atualizado em 12 jan. 2026: 2,7 K (−270 °C), temperatura como velocidade das partículas, condução e convecção impossíveis no vazio, perda de calor lenta; Let's Talk Science, \"Heat and space missions\": +121 °C e −157 °C na estação; Fraunhofer HHI, comunicado de 1º jun. 2026: radiação como único caminho para dissipar calor no espaço, 10% de emissão em metal sem tratamento e 95% a 99% com estruturação a laser; American Public University (Gary Deel), jun. 2024: Skylab a 126 °F em 1973; Via Satellite, 25 nov. 2026: satélites Starmind da SpaceX com 175 kW em média e radiadores de líquido; The National (Cody Combs), 25 nov. 2026: falas de Ariel Ekblaw, do Aurelia Institute."
+}
