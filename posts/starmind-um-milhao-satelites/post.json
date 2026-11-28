@@ -66,7 +66,7 @@
         }
       ],
       "body": [
-        "Ninguém sabe se a SpaceX vai lançar todos. A Al Jazeera lembra que operadoras costumam pedir mais do que pretendem lançar, para ter liberdade de projeto. A Amazon, concorrente, argumentou à FCC que isso \"poderia levar séculos\" (tradução livre)."
+        "Ninguém sabe se a SpaceX vai lançar todos. A Al Jazeera lembra que operadoras costumam pedir mais do que pretendem lançar, para ter liberdade de projeto. A unidade de satélites da Amazon e outros críticos disseram que isso \"poderia levar séculos\" (tradução livre, via Al Jazeera)."
       ]
     },
     {
@@ -102,7 +102,7 @@
       "body": [
         "Um **data center** é um galpão de computadores que roda serviços de internet e de inteligência artificial. Consome muita eletricidade e água, e nos EUA virou alvo de protestos. A SpaceX diz que ir para a órbita é \"o jeito mais rápido de crescer\", dada a dificuldade de achar energia na Terra (tradução livre, via Al Jazeera).",
         "Cada satélite teria painéis solares e um computador de **175 kW** em média, até 250 kW, com radiadores de líquido para jogar o calor fora, segundo a Via Satellite. A presidente da SpaceX, Gwynne Shotwell, disse a investidores em outubro que os primeiros lançamentos seriam em 2027.",
-        "Tudo isso é plano da empresa. Analistas ouvidos pela Via Satellite chamam a ideia de \"tecnicamente e economicamente não comprovada\" (tradução livre)."
+        "Tudo isso é plano da empresa. A Via Satellite registra que analistas chamam a ideia de \"tecnicamente e economicamente não comprovada\" (tradução livre)."
       ]
     },
     {
@@ -114,7 +114,7 @@
       "body": [
         "A Sociedade Astronômica Americana disse que a constelação vai \"minar significativamente\" décadas de investimento em observatórios e a capacidade de astrônomos e do público de estudar e apreciar o céu noturno. A entidade também reclamou da falta de exigências formais de coordenação na licença (tradução livre, via Al Jazeera).",
         "A FCC respondeu que impactos sobre a astronomia e o ambiente estão fora de sua alçada, segundo o SpacePolicyOnline. Sobre os efeitos de milhares de reentradas na atmosfera, disse que as preocupações \"permanecem especulativas\" (tradução livre, via Via Satellite).",
-        "A Secure World Foundation, que estuda segurança no espaço, chamou o pedido de \"mudança qualitativa de escala\" e pediu uma abordagem por etapas, com demonstrações antes de crescer."
+        "A Secure World Foundation, que estuda segurança no espaço, chamou o pedido de \"mudança qualitativa de escala\" e pediu uma abordagem por etapas, com demonstrações antes de crescer (SpacePolicyOnline e Via Satellite)."
       ]
     },
     {
@@ -134,7 +134,7 @@
         "title": "Não se sabe",
         "lines": [
           "Quantos satélites a SpaceX vai lançar de fato, e quando o primeiro sobe.",
-          "Se computadores de 250 kW conseguem se resfriar e ser consertados em órbita: a FCC disse que viabilidade não é tarefa dela.",
+          "Se funciona e se dá dinheiro: analistas chamam a ideia de não comprovada técnica e economicamente, e a FCC disse que julgar a viabilidade comercial não é tarefa dela (Via Satellite).",
           "O risco de colisão com 1 milhão de objetos: não há regra comum de trânsito para essas órbitas, segundo o SpacePolicyOnline.",
           "Quanto custa e quem paga. As reportagens não trazem valores."
         ]
@@ -148,7 +148,7 @@
       "check": [
         "**O fato:** em 25 de novembro, a agência de telecomunicações dos EUA autorizou a SpaceX a lançar até 1 milhão de satélites que processam dados no espaço. Hoje há cerca de 17 mil satélites ativos.",
         "**O prazo:** a licença dá até 2033 para o primeiro satélite e até 2040 para todos. A empresa fala em começar em 2027; é plano, não fato.",
-        "**A disputa:** astrônomos dizem que o céu vai piorar; a FCC diz que isso não é da conta dela. Viabilidade técnica e custo também ficaram sem resposta."
+        "**A disputa:** astrônomos dizem que o céu vai piorar; a FCC diz que isso não é da conta dela. Viabilidade e custo também ficaram sem resposta."
       ]
     },
     {
@@ -156,15 +156,15 @@
       "items": [
         {
           "who": "Al Jazeera e Reuters (Ahmed Diab), 25 nov. 2026",
-          "what": "comunicado da FCC, fala de Carr, reação da Sociedade Astronômica Americana, argumento da Amazon, resposta de Musk"
+          "what": "comunicado da FCC, fala de Carr, crítica da Amazon, resposta de Musk, cerca de 17 mil satélites"
         },
         {
           "who": "Al Jazeera, explicador de 27 nov. 2026",
-          "what": "16.928 satélites ativos e 11.190 Starlink (SatFleet Live); metas de 2033 a 2040; justificativa da SpaceX"
+          "what": "16.928 satélites ativos e 11.190 Starlink (SatFleet Live); metas de 2033 a 2040; justificativa da SpaceX; reação da Sociedade Astronômica Americana"
         },
         {
           "who": "Via Satellite (Rachel Jewett), 25 nov. 2026",
-          "what": "altitudes, 175 kW e 250 kW, radiadores, licença de 15 anos, petições de Amazon, Viasat e AAS, Starcloud e Blue Origin, Shotwell e 2027"
+          "what": "altitudes, 175 kW e 250 kW, radiadores, licença de 15 anos, petições de Amazon, Viasat e AAS, Starcloud e Blue Origin, Shotwell e 2027, abordagem por etapas (Secure World Foundation), analistas"
         },
         {
           "who": "SpacePolicyOnline (Marcia Smith), 25 nov. 2026",
@@ -181,5 +181,5 @@
       ]
     }
   ],
-  "legenda": "Se a SpaceX cumprir o que pediu, o céu vai ter 60 vezes mais satélites do que tem hoje.\n\nA FCC, agência que regula telecomunicações nos EUA, autorizou na quarta (25) um sistema de até 1 milhão de satélites da SpaceX para processar dados em órbita, o primeiro do tipo. A licença exige 1 satélite até 2033 e todos até 2040; a empresa fala em começar em 2027. Amazon, Viasat e a Sociedade Astronômica Americana pediram que a FCC negasse; a agência respondeu que astronomia, ambiente e viabilidade técnica estão fora de sua tarefa. Hoje há cerca de 17 mil satélites ativos, dois terços deles da própria SpaceX.\n\nVocê acha que vale trocar o céu noturno por computadores em órbita?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #spacex #starlink #satelites #datacenter #espaco #astronomia"
+  "legenda": "Se a SpaceX cumprir o que pediu, o céu vai ter 60 vezes mais satélites do que tem hoje.\n\nA FCC, agência que regula telecomunicações nos EUA, autorizou na quarta (25) um sistema de até 1 milhão de satélites da SpaceX para processar dados em órbita, o primeiro do tipo. A licença exige 1 satélite até 2033 e todos até 2040; a empresa fala em começar em 2027. Amazon, Viasat e a Sociedade Astronômica Americana pediram que a FCC negasse; a agência respondeu que astronomia, ambiente e viabilidade comercial estão fora de sua tarefa. Hoje há cerca de 17 mil satélites ativos, dois terços deles da própria SpaceX.\n\nVocê acha que vale trocar o céu noturno por computadores em órbita?\n\n—\nFontes no último slide.\n\n#TheTechRoom #tecnologia #spacex #starlink #satelites #datacenter #espaco #astronomia"
 }

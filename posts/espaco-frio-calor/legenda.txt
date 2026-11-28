@@ -1,6 +1,6 @@
 Quem diz que o espaço é frio não está errado. Só esqueceu que, para esfriar, o calor precisa ter por onde sair.
 
-No vácuo não há ar nem água: condução e convecção não existem, e só sobra a radiação, o caminho mais lento. É por isso que a estação espacial, que gera até 70 kW de calor, carrega seis radiadores de 23 metros com amônia circulando por fora, e por isso o lado dela voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C. A mesma física pesa sobre os planos de data centers em órbita: cada satélite teria de levar o próprio radiador.
+No vácuo não há ar nem água: condução e convecção não existem, e só sobra a radiação, o caminho mais lento. É por isso que a estação espacial, cujo sistema de resfriamento rejeita até 70 kW, carrega seis radiadores de 23 metros com amônia circulando por fora, e por isso o lado dela voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C. A mesma física pesa sobre os planos de data centers em órbita: cada satélite teria de levar o próprio radiador.
 
 Que outra "explicação óbvia" da física você gostaria de ver conferida?
 

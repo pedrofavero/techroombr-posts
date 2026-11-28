@@ -55,7 +55,7 @@
           "big": "+121",
           "unit": " °C",
           "label": "lado da estação voltado para o Sol",
-          "text": "Sem ar para espalhar o calor, a superfície iluminada esquenta sem parar, segundo o Let's Talk Science."
+          "text": "Até 121 °C no lado iluminado, segundo o Let's Talk Science. Sem ar em volta, nada espalha esse calor."
         },
         {
           "big": "−157",
@@ -96,8 +96,8 @@
       "photo": "fotos/espaco-frio-calor-2.jpg",
       "caption": "Foto: NASA / Unsplash",
       "body": [
-        "Empresas querem levar computadores de inteligência artificial para o espaço. Os satélites que a SpaceX descreveu à agência reguladora dos EUA teriam computadores de **175 kW** em média e \"radiadores de líquido desdobráveis\", segundo a Via Satellite. Os radiadores principais da estação espacial rejeitam até 70 kW.",
-        "Ariel Ekblaw, do instituto de arquitetura espacial Aurelia, disse em abril que o espaço \"é muito mais frio do que a maioria imagina\" e, mesmo assim, \"não é uma arena vantajosa para colocar um pequeno vulcão quente de computadores\" (tradução livre, via The National). Trocar um chip, lembrou ela, exige ir até lá."
+        "Empresas querem levar computadores de inteligência artificial para o espaço. Os satélites Starmind que a SpaceX descreve teriam computadores de **175 kW** em média e \"radiadores de líquido desdobráveis\", segundo a Via Satellite. Os radiadores principais da estação espacial rejeitam até 70 kW.",
+        "Ariel Ekblaw, do instituto de arquitetura espacial Aurelia, disse em abril que o espaço é muito mais frio do que a maioria imagina e que, mesmo assim, \"não é uma arena vantajosa para colocar um pequeno vulcão quente de computadores\" (tradução livre, via The National). Trocar um chip, lembrou ela, exige ir até lá."
       ]
     },
     {
@@ -140,5 +140,5 @@
       ]
     }
   ],
-  "legenda": "Quem diz que o espaço é frio não está errado. Só esqueceu que, para esfriar, o calor precisa ter por onde sair.\n\nNo vácuo não há ar nem água: condução e convecção não existem, e só sobra a radiação, o caminho mais lento. É por isso que a estação espacial, que gera até 70 kW de calor, carrega seis radiadores de 23 metros com amônia circulando por fora, e por isso o lado dela voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C. A mesma física pesa sobre os planos de data centers em órbita: cada satélite teria de levar o próprio radiador.\n\nQue outra \"explicação óbvia\" da física você gostaria de ver conferida?\n\n—\nFontes no último slide.\n\n#TheTechRoom #explica #espaco #fisica #estacaoespacial #nasa #datacenter #tecnologia"
+  "legenda": "Quem diz que o espaço é frio não está errado. Só esqueceu que, para esfriar, o calor precisa ter por onde sair.\n\nNo vácuo não há ar nem água: condução e convecção não existem, e só sobra a radiação, o caminho mais lento. É por isso que a estação espacial, cujo sistema de resfriamento rejeita até 70 kW, carrega seis radiadores de 23 metros com amônia circulando por fora, e por isso o lado dela voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C. A mesma física pesa sobre os planos de data centers em órbita: cada satélite teria de levar o próprio radiador.\n\nQue outra \"explicação óbvia\" da física você gostaria de ver conferida?\n\n—\nFontes no último slide.\n\n#TheTechRoom #explica #espaco #fisica #estacaoespacial #nasa #datacenter #tecnologia"
 }
