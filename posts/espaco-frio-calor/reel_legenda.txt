@@ -1,0 +1,10 @@
+O espaço é frio, mas esfriar um computador lá em cima é um dos problemas abertos dos data centers em órbita.
+
+No vácuo não há ar nem água: condução e convecção não existem, e o calor só sai por radiação, o caminho mais lento. Por isso o lado da estação espacial voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C, e por isso ela carrega seis radiadores de 23 metros, com amônia circulando por fora, para rejeitar até 70 kW. A mesma física pesa sobre os planos de data centers em órbita: cada satélite precisaria do próprio radiador.
+
+Manda para quem acha que no espaço é só abrir a janela.
+
+—
+Fontes no primeiro comentário.
+
+#explica #espaco #fisica #estacaoespacial #tecnologia

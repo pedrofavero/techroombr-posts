@@ -1,0 +1,10 @@
+semelhança roteiro x áudio: 94.2%
+números do roteiro: 270, 121, 157, 6, 23, 70
+números ouvidos:    270, 121, 157, 23, 70, 6
+números: todos ouvidos
+
+ROTEIRO:
+O espaço é frio? Então por que o difícil lá em cima é esfriar? A explicação famosa: faz 270 graus negativos, o calor some sozinho. Mas no vácuo não há ar nem água. O calor só sai por radiação, devagar. Na estação espacial, o lado ao Sol chega a 121 graus. O lado na sombra, a 157 negativos. A mesma estrutura. A estação resolve assim: água recolhe o calor por dentro, amônia leva por fora, radiadores jogam no espaço. São 6 radiadores de 23 metros. Juntos rejeitam até 70 quilowatts. Um data center em órbita teria de carregar o seu. Fontes no primeiro comentário.
+
+OUVIDO:
+O espaço é frio, então porque o difícil lá em cima é esfriar. A explicação famosa faz 270 graus negativos, o calor some sozinho, mas no vácuo não há ar neem água, o calor só sai por radiação devagar. Na estação espacial, o lado ao sol chega a 121 graus, o lado na sombra a 157 negativos, a mesma estrutura. A estação resolve assim. Água recolhe o calor por dentro, a mônia leva por fora, radiadores jogam no espaço. São seis radiadores de 23 metros. Juntos rejeitam até 70 kilowatts, um data center em órbita teria de carregar o seu. Fontes no primeiro comentário.

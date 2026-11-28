@@ -1,0 +1,33 @@
+{
+ "slug": "espaco-frio-calor",
+ "total_s": 39.0,
+ "scenes": [
+  {
+   "dur": 4.0,
+   "start": 0.0
+  },
+  {
+   "dur": 9.5,
+   "start": 3.9
+  },
+  {
+   "dur": 8.5,
+   "start": 13.3
+  },
+  {
+   "dur": 7.0,
+   "start": 21.7
+  },
+  {
+   "dur": 8.0,
+   "start": 28.6
+  },
+  {
+   "dur": 2.5,
+   "start": 36.5
+  }
+ ],
+ "words": 104,
+ "voice": "pt-BR-ThalitaMultilingualNeural",
+ "fake_tts": false
+}
