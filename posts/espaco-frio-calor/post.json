@@ -1,0 +1,144 @@
+{
+  "slug": "espaco-frio-calor",
+  "categoria": "EXPLICA",
+  "theme": "dark",
+  "display": "serif",
+  "masthead": "The Tech Room",
+  "handle": "@techroombr",
+  "slides": [
+    {
+      "type": "cover",
+      "photo": "fotos/espaco-frio-calor-1.jpg",
+      "title": "O espaço é frio. Mesmo assim, o difícil lá é esfriar",
+      "dek": "A explicação famosa diz que, com −270 °C lá fora, resfriar um computador em órbita é fácil. A estação espacial precisa de seis radiadores de 23 metros para se livrar do próprio calor. O motivo é o vácuo.",
+      "swipe": "arraste →"
+    },
+    {
+      "type": "inner",
+      "kicker": "A explicação famosa",
+      "heading": "\"Lá fora faz 270 graus negativos, é só abrir a janela\"",
+      "body": [
+        "A ideia circula em filmes e em discussões sobre data centers em órbita: se o espaço é gelado, o calor dos computadores some sozinho. O número até existe. A radiação que sobra do início do universo tem **2,7 kelvin**, cerca de −270 °C, segundo o site Space.com.",
+        "Só que temperatura mede a velocidade das partículas. Onde quase não há partículas, \"o espaço em si não é exatamente frio\": a rigor, não tem temperatura, escreve o jornalista Robert Lea no Space.com (tradução livre).",
+        "O que define se você esquenta ou esfria lá em cima não é o termômetro do vazio. É por onde o calor consegue sair. E no vácuo sobra só um caminho."
+      ]
+    },
+    {
+      "type": "steps",
+      "kicker": "O que acontece de verdade",
+      "heading": "O calor sai de três jeitos. No vácuo, dois não existem",
+      "steps": [
+        {
+          "title": "Condução",
+          "text": "Calor passa de um corpo para outro pelo contato, como a panela que esquenta o cabo. No espaço, a nave não toca em nada: não há como conduzir."
+        },
+        {
+          "title": "Convecção",
+          "text": "Um fluido leva o calor embora, como o ar do ventilador do computador. No vácuo não há ar nem água: não há convecção."
+        },
+        {
+          "title": "Radiação",
+          "text": "O corpo emite calor como luz invisível, o mesmo brilho que você sente perto de um ferro quente. É o único caminho que resta, e é lento."
+        }
+      ],
+      "body": [
+        "\"Condução e convecção não podem acontecer no espaço vazio\", resume o Space.com. Um instituto alemão de pesquisa, o Fraunhofer HHI, diz o mesmo: \"a única forma de dissipar calor no espaço é por radiação\" (tradução livre)."
+      ]
+    },
+    {
+      "type": "split",
+      "kicker": "Os dois extremos",
+      "heading": "A mesma estação, ao sol e na sombra",
+      "display": "sans",
+      "cells": [
+        {
+          "big": "+121",
+          "unit": " °C",
+          "label": "lado da estação voltado para o Sol",
+          "text": "Sem ar para espalhar o calor, a superfície iluminada esquenta sem parar, segundo o Let's Talk Science."
+        },
+        {
+          "big": "−157",
+          "unit": " °C",
+          "label": "lado na sombra",
+          "text": "Na sombra, a mesma estrutura só perde calor por radiação, devagar, e vai esfriando. Diferença de quase 300 °C."
+        }
+      ],
+      "body": [
+        "O problema real não é o frio: é o calor que a própria nave produz e o que o Sol despeja nela. Em 1973, o laboratório Skylab teve uma falha no painel solar e a temperatura interna subiu a 126 °F, cerca de 52 °C, segundo a American Public University."
+      ]
+    },
+    {
+      "type": "diagram",
+      "kicker": "Como a estação resolve",
+      "heading": "Água por dentro, amônia por fora, radiador na ponta",
+      "svg": "<svg viewBox='0 0 900 520' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><rect x='40' y='150' width='260' height='220' rx='14'/><text x='170' y='120' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>MÓDULO</text><rect x='80' y='230' width='80' height='60' rx='6'/><text x='120' y='320' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>equipamento</text><path d='M160 260 H250' stroke='var(--accent)'/><text x='205' y='245' font-size='20' text-anchor='middle' stroke='none' fill='var(--accent)'>água</text><rect x='300' y='210' width='110' height='100' rx='8'/><text x='355' y='255' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>trocador</text><text x='355' y='285' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>de calor</text><path d='M410 260 H520' stroke='var(--accent)'/><text x='465' y='245' font-size='20' text-anchor='middle' stroke='none' fill='var(--accent)'>amônia</text><rect x='520' y='60' width='70' height='400' rx='8' stroke='var(--accent)'/><line x1='520' y1='110' x2='590' y2='110'/><line x1='520' y1='160' x2='590' y2='160'/><line x1='520' y1='210' x2='590' y2='210'/><line x1='520' y1='310' x2='590' y2='310'/><line x1='520' y1='360' x2='590' y2='360'/><line x1='520' y1='410' x2='590' y2='410'/><text x='555' y='495' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>radiador</text><path d='M620 150 h90 m-20 -14 l20 14 l-20 14' stroke='var(--accent)'/><path d='M620 260 h90 m-20 -14 l20 14 l-20 14' stroke='var(--accent)'/><path d='M620 370 h90 m-20 -14 l20 14 l-20 14' stroke='var(--accent)'/><text x='800' y='268' font-size='20' text-anchor='middle' stroke='none' fill='currentColor'>radiação</text></svg>",
+      "caption": "Água coleta o calor dentro dos módulos, amônia o leva por fora e os radiadores o emitem por radiação. Esquema simplificado do documento da NASA.",
+      "body": [
+        "Dentro, a NASA usa água, \"segura dentro de um módulo habitável\". Fora, amônia, que opera numa faixa maior de temperatura, mas é tóxica e nunca entra. Os dois circuitos externos rejeitam até **70 kW**. Cada radiador mede **23,3 m por 3,4 m**; são 6, em duas asas que giram para ficar de lado para o Sol (NASA, tradução livre)."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "O detalhe que engana",
+      "heading": "Nem o astronauta congela na hora",
+      "photo": "fotos/espaco-frio-calor-3.jpg",
+      "caption": "Foto: NASA / Unsplash",
+      "body": [
+        "No cinema, quem cai no vácuo vira gelo em segundos. Pelo mesmo motivo dos radiadores, não: sem ar, o corpo só perde calor por radiação, devagar. Alguém exposto ao espaço \"morreria pela descompressão muito mais rápido do que congelaria\", diz o Space.com (tradução livre).",
+        "A física vale para o metal da nave. Metal liso emite só cerca de **10%** do calor que poderia. O Fraunhofer HHI usou laser para criar microcones na superfície de alumínio e titânio e chegou a **95% a 99%** de emissão. Amostras ficaram presas do lado de fora da estação desde dezembro de 2024 e, em junho, estavam voltando à Terra para análise, segundo o instituto."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Por que isso importa agora",
+      "heading": "Um data center em órbita é um aquecedor sem janela",
+      "photo": "fotos/espaco-frio-calor-2.jpg",
+      "caption": "Foto: NASA / Unsplash",
+      "body": [
+        "Empresas querem levar computadores de inteligência artificial para o espaço. Os satélites que a SpaceX descreveu à agência reguladora dos EUA teriam computadores de **175 kW** em média e \"radiadores de líquido desdobráveis\", segundo a Via Satellite. Os radiadores principais da estação espacial rejeitam até 70 kW.",
+        "Ariel Ekblaw, do instituto de arquitetura espacial Aurelia, disse em abril que o espaço \"é muito mais frio do que a maioria imagina\" e, mesmo assim, \"não é uma arena vantajosa para colocar um pequeno vulcão quente de computadores\" (tradução livre, via The National). Trocar um chip, lembrou ela, exige ir até lá."
+      ]
+    },
+    {
+      "type": "inner",
+      "kicker": "Para levar",
+      "heading": "Três ideias para recontar",
+      "check": [
+        "**O mito:** o espaço é gelado, então esfriar máquinas lá é fácil. O vazio nem tem temperatura no sentido comum.",
+        "**O fato:** sem ar, o calor só sai por radiação, o jeito mais lento. Por isso a estação espacial precisa de seis radiadores de 23 metros e de amônia circulando por fora.",
+        "**A consequência:** cada computador em órbita precisa carregar o próprio radiador. É um dos problemas abertos dos data centers no espaço."
+      ]
+    },
+    {
+      "type": "sources",
+      "items": [
+        {
+          "who": "NASA, \"International Space Station Active Thermal Control System\" (visão geral, PDF)",
+          "what": "água por dentro, amônia por fora, 2 circuitos de 35 kW (70 kW), radiadores de 23,3 m × 3,4 m com 8 painéis, orientação de lado para o Sol"
+        },
+        {
+          "who": "Space.com (Robert Lea), \"How cold is space?\", atualizado 12 jan. 2026",
+          "what": "2,7 K, temperatura como velocidade de partículas, condução e convecção impossíveis no vazio, perda de calor lenta, descompressão"
+        },
+        {
+          "who": "Let's Talk Science, \"Heat and space missions\"",
+          "what": "+121 °C e −157 °C na estação, diferença de quase 300 °C"
+        },
+        {
+          "who": "Fraunhofer HHI, comunicado de 1º jun. 2026",
+          "what": "radiação como único caminho, 10% em metal liso, 95% a 99% com laser, amostras na ISS desde dez. 2024"
+        },
+        {
+          "who": "American Public University (Gary Deel), jun. 2024; Via Satellite, 25 nov. 2026; The National (Cody Combs), 25 nov. 2026",
+          "what": "Skylab a 126 °F; 175 kW e radiadores da SpaceX; falas de Ariel Ekblaw"
+        },
+        {
+          "who": "Fotos",
+          "what": "NASA, via Unsplash"
+        }
+      ]
+    }
+  ],
+  "legenda": "Quem diz que o espaço é frio não está errado. Só esqueceu que, para esfriar, o calor precisa ter por onde sair.\n\nNo vácuo não há ar nem água: condução e convecção não existem, e só sobra a radiação, o caminho mais lento. É por isso que a estação espacial, que gera até 70 kW de calor, carrega seis radiadores de 23 metros com amônia circulando por fora, e por isso o lado dela voltado ao Sol chega a 121 °C enquanto a sombra fica a −157 °C. A mesma física pesa sobre os planos de data centers em órbita: cada satélite teria de levar o próprio radiador.\n\nQue outra \"explicação óbvia\" da física você gostaria de ver conferida?\n\n—\nFontes no último slide.\n\n#TheTechRoom #explica #espaco #fisica #estacaoespacial #nasa #datacenter #tecnologia"
+}
