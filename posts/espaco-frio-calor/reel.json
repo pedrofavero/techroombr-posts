@@ -52,7 +52,7 @@
       "anim": {
         "type": "draw",
         "svg": "<svg viewBox='0 0 900 600'><rect x='40' y='220' width='230' height='180' rx='16'/><text x='155' y='190' font-size='34' text-anchor='middle'>módulo</text><rect x='80' y='290' width='70' height='50' rx='6'/><path d='M150 315 H340' class='acc'/><text x='245' y='295' font-size='30' text-anchor='middle' class='acc'>água</text><rect x='340' y='275' width='90' height='80' rx='8'/><text x='385' y='400' font-size='28' text-anchor='middle'>trocador</text><path d='M430 315 H570' class='acc'/><text x='500' y='295' font-size='30' text-anchor='middle' class='acc'>amônia</text><rect x='570' y='80' width='70' height='470' rx='8' class='acc'/><line x1='570' y1='150' x2='640' y2='150'/><line x1='570' y1='220' x2='640' y2='220'/><line x1='570' y1='290' x2='640' y2='290'/><line x1='570' y1='360' x2='640' y2='360'/><line x1='570' y1='430' x2='640' y2='430'/><text x='605' y='590' font-size='32' text-anchor='middle'>radiador</text><path d='M680 200 h100 m-24 -16 l24 16 l-24 16'/><path d='M680 315 h100 m-24 -16 l24 16 l-24 16'/><path d='M680 430 h100 m-24 -16 l24 16 l-24 16'/><text x='820' y='500' font-size='30' text-anchor='middle'>radiação</text></svg>",
-        "caption": "água por dentro, amônia por fora, radiador na ponta",
+        "caption": "água dentro, amônia fora, radiador na ponta",
         "fonte": "NASA, sistema térmico da ISS"
       },
       "say": "A estação resolve assim: água recolhe o calor por dentro, amônia leva por fora, radiadores jogam no espaço."
